@@ -1,0 +1,192 @@
+@font-face {
+	font-family: scp;
+	src: url(../fonts/SourceCodePro-Regular.ttf);
+}
+:root {
+	--border: 2px solid #525252;
+	--bg: #171717;
+	--hover-color: #1d4ed8;
+	--bg-main: #262626;
+}
+* {
+	scroll-behavior: smooth;
+	user-select: none;
+	margin: 0;
+	padding: 0;
+	font-family: scp;
+	font-size: 16px;
+	color: white;
+/*	outline: 1px solid blue;*/
+}
+body {
+	background-color: var(--bg-main);
+}
+::-webkit-scrollbar {
+	background-color: var(--bg-main);
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--bg);
+	border: var(--border);
+}
+::-webkit-scrollbar-thumb:hover {
+	border: 2px solid var(--hover-color);
+}
+header {
+	background-color: var(--bg);
+	border-bottom: var(--border);
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.symbol {
+	content: url(../media/image/symbol.png);
+	width: 6rem;
+	height: 3rem;
+	margin: .3rem;
+	margin-right: 0;
+}
+.title {
+	margin: 10px 0;
+	font-size: 1.875rem;
+}
+
+
+
+
+
+/*.slider {
+	background: rgba(38, 38, 38, .80);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	gap: 5px;
+}
+.left,
+.right {
+	width: 3rem;
+	height: 3rem;
+	cursor: pointer;
+	filter: brightness(100);
+}
+.left:hover,
+.right:hover {
+	filter: brightness(1);
+}
+.left {
+	content: url(../media/icon/left.png);
+}
+.left:hover {
+	animation: left 1s infinite;
+}
+@keyframes left {
+	0% {
+		transform: translateX(0px);
+	}
+	50% {
+		transform: translateX(-5px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+.right {
+	content: url(../media/icon/right.png);
+}
+.right:hover {
+	animation: right 1s infinite;
+}
+@keyframes right {
+	0% {
+		transform: translateX(0px);
+	}
+	50% {
+		transform: translateX(5px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+.turnOff,
+.turnOff:hover {
+	filter: grayscale(100%);
+	animation: none;
+}
+.numberInput {
+	background-color: black;
+	width: 2rem;
+	border: var(--border);
+	outline: none;
+	font-size: 1rem;
+}
+
+*/
+
+
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.3rem;
+	text-align: right;
+}
+.story,
+.dialogue,
+.character {
+	display: flex;
+	flex-direction: column;
+}
+.story {
+	width: 52rem;
+	margin: 1rem auto;
+	gap: 1rem;
+}
+.dialogue {
+	background-color: #36363a;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	padding: .5rem;
+	gap: 1rem;
+}
+.group {
+	display: flex;
+	gap: .5rem;
+}
+.character {
+	align-items: center;
+}
+.face {
+	width: 4rem;
+	height: 4rem;
+	align-self: flex-start;
+}
+p {
+	text-align: justify;
+}
+.info p {
+	border-left: 2px solid yellow;
+	padding-left: .5rem;
+}
+
+
+.think,
+.info {
+	border-left-color: #36363a;
+}
+.Hg {
+	border-left-color: #ffff66;
+}
+.Tamada {
+	border-left-color: white;
+}
+.Shuuya,
+.father {
+	border-left-color: royalblue;
+}
