@@ -192,7 +192,8 @@ p {
 	border-left-color: #36363a;
 }
 .Hg,
-.Celia {
+.Celia,
+.Laren {
 	border-left-color: #ffff66;
 }
 .Tamada {
@@ -214,4 +215,14 @@ p {
 }
 .soldiers {
 	border-left-color: silver;
+}
+.Hyouka,
+.HyoukaFather {
+	border-left-color: lightskyblue;
+}
+.Fig {
+	border-left-color: orangered;
+}
+.Maki {
+	border-left-color: lightyellow;
 }

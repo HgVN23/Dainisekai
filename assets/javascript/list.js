@@ -1,4 +1,5 @@
 addList();
+let chapterId;
 
 function addList() {
 	let chapters = ``;
@@ -24,7 +25,7 @@ function open() {
 	for(var i = 1; i < volume.length; i++) {
 		var temp = volume[i].chapter;
 		if(parseFloat(this.id) == temp) {
-			var chapterId = volume.findIndex(function (v) {
+			chapterId = volume.findIndex(function (v) {
 				return v.chapter == temp;
 			});
 			addStory(chapterId);
