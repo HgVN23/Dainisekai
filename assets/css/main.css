@@ -51,6 +51,7 @@ header {
 .title {
 	margin: 10px 0;
 	font-size: 1.875rem;
+	text-decoration: none;
 }
 
 
@@ -137,15 +138,17 @@ h2 {
 	font-size: 1.3rem;
 	text-align: right;
 }
+.list,
 .story,
 .dialogue,
 .character {
 	display: flex;
 	flex-direction: column;
 }
+.list,
 .story {
 	width: 52rem;
-	margin: 1rem auto;
+	margin: 1rem auto 15rem auto;
 	gap: 1rem;
 }
 .dialogue {
@@ -154,6 +157,12 @@ h2 {
 	border-right: 5px solid transparent;
 	padding: .5rem;
 	gap: 1rem;
+}
+.dialogue:hover {
+	outline: 1px solid white;
+}
+.list .dialogue {
+	cursor: pointer;
 }
 .group {
 	display: flex;
@@ -169,6 +178,7 @@ h2 {
 }
 p {
 	text-align: justify;
+	white-space: pre-wrap;
 }
 .info p {
 	border-left: 2px solid yellow;
@@ -176,17 +186,32 @@ p {
 }
 
 
+
 .think,
 .info {
 	border-left-color: #36363a;
 }
-.Hg {
+.Hg,
+.Celia {
 	border-left-color: #ffff66;
 }
 .Tamada {
 	border-left-color: white;
 }
 .Shuuya,
-.father {
+.father,
+.mother {
 	border-left-color: royalblue;
+}
+.Kowashi {
+	border-left-color: #ff2727;
+}
+.Asahi {
+	border-left-color: #613bad;
+}
+.villager {
+	border-left-color: burlywood;
+}
+.soldiers {
+	border-left-color: silver;
 }
