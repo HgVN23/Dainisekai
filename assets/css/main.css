@@ -32,11 +32,15 @@ body {
 ::-webkit-scrollbar-thumb:hover {
 	border: 2px solid var(--hover-color);
 }
+header,
+.inHeader {
+	display: flex;
+	align-items: center;
+}
 header {
 	background-color: var(--bg);
 	border-bottom: var(--border);
-	display: flex;
-	align-items: center;
+	justify-content: space-evenly;
 	position: sticky;
 	top: 0;
 	z-index: 1;
@@ -45,13 +49,16 @@ header {
 	content: url(../media/image/symbol.png);
 	width: 6rem;
 	height: 3rem;
-	margin: .3rem;
-	margin-right: 0;
+	margin: .3rem 0 .3rem 0;
 }
-.title {
-	margin: 10px 0;
-	font-size: 1.875rem;
+.title,
+.content {
+	font-size: 2rem;
 	text-decoration: none;
+	cursor: pointer;
+}
+.content:hover {
+	text-decoration: underline;
 }
 
 
@@ -130,13 +137,17 @@ header {
 */
 
 
-
-h1 {
+h1,
+h2,
+h3 {
+	text-align: center;
+}
+h1,
+h2 {
 	font-size: 2rem;
 }
-h2 {
-	font-size: 1.3rem;
-	text-align: right;
+h3 {
+	font-size: 1.4rem;
 }
 .list,
 .story,

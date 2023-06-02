@@ -26,8 +26,9 @@ function addStory(v) {
 		words += tempD[i].content.split(' ').length;
 	};
 	const format = `
-		<h1>Chapter ${chapter} - ${title}</h1>
-		<h2>${words} từ</h2>
+		<h1>Chapter ${chapter}</h1>
+		<h2>${title}</h2>
+		<h3>${words} từ</h3>
 		<hr>
 		${dialogue}
 	`;
