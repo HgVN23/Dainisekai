@@ -38,6 +38,7 @@ function jump() {
 
 function toggleBox() {
 	document.querySelector('.optionBox').classList.toggle('optionBoxHide');
+	document.querySelector('.optionSelected').scrollIntoView();
 }
 
 function left() {

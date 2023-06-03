@@ -21,6 +21,7 @@ function addStory(v) {
 					${character}
 				</div>
 				<p>${tempD[i].content}</p>
+				<div class="dialogueHide" onclick="removeHide()">Click để mở</div>
 			</div>\n
 		`;
 		words += tempD[i].content.split(' ').length;
@@ -35,4 +36,8 @@ function addStory(v) {
 		</section>
 	`;
 	document.querySelector('body').innerHTML += format;
+}
+
+function removeHide() {
+	document.querySelector('.dialogueHide').remove();
 }

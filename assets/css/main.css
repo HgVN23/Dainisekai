@@ -137,9 +137,9 @@ header {
 	cursor: pointer;
 }
 .select {
-	background-color: var(--bg-main);
+	background-color: var(--bg);
 	width: 10rem;
-	border: var(--border);
+	outline: var(--border);
 	padding: .2rem;
 	font-size: 1rem;
 }
@@ -147,7 +147,7 @@ header {
 	background-color: #262626;
 	width: 10rem;
 	height: 9.5rem;
-	border: var(--border);
+	outline: var(--border);
 	position: absolute;
 	bottom: 3rem;
 	overflow-y: auto;
@@ -205,12 +205,15 @@ h3 {
 	border-right: 5px solid transparent;
 	padding: .5rem;
 	gap: 1rem;
+	position: relative;
 }
 .dialogue:hover,
-select:hover {
-	outline: 1px solid white;
+.dialogueHide:hover,
+.selectBox:hover,
+.optionBox:hover {
+	outline: 2px solid var(--hover-color);
 }
-.list .dialogue {
+.list p {
 	cursor: pointer;
 }
 .group {
@@ -232,6 +235,25 @@ p {
 .info p {
 	border-left: 2px solid yellow;
 	padding-left: .5rem;
+}
+.dialogueHide {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	border: var(--border);
+	border-top: none;
+	border-bottom: none;
+	border-color: black;
+	border-width: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: -4.5px;
+	font-size: 3rem;
+	color: grey;
+	cursor: pointer;
 }
 
 
