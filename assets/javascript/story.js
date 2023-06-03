@@ -26,15 +26,13 @@ function addStory(v) {
 		words += tempD[i].content.split(' ').length;
 	};
 	const format = `
-		<h1>Chapter ${chapter}</h1>
-		<h2>${title}</h2>
-		<h3>${words} từ</h3>
-		<hr>
-		${dialogue}
+		<section class="story">
+			<h1>Chapter ${chapter}</h1>
+			<h2>${title}</h2>
+			<h3>${words} từ</h3>
+			<hr>
+			${dialogue}
+		</section>
 	`;
-
-	const storyCreate = document.createElement('section');
-	storyCreate.classList.add('story');
-	storyCreate.innerHTML = format;
-	document.querySelector('body').appendChild(storyCreate);
+	document.querySelector('body').innerHTML += format;
 }
