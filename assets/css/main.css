@@ -82,11 +82,22 @@ header {
 	bottom: 0;
 	gap: 1rem;
 }
+.hideOn {
+	content: url(../media/image/hideOn.png);
+}
+.hideOff {
+	content: url(../media/image/hideOff.png);
+}
+.toggleHide,
+.none,
 .left,
 .right {
 	width: 3rem;
 	height: 3rem;
 	cursor: pointer;
+}
+.left,
+.right {
 	filter: brightness(100);
 }
 .left:hover,

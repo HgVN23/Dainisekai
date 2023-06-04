@@ -27,6 +27,7 @@ function open() {
 	document.querySelector('.list').remove();
 	addStory(this.id);
 	addSlider(this.id);
+	checkHide();
 
 	document.documentElement.scrollTop = 0;
 }
