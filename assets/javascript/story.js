@@ -1,5 +1,5 @@
-function addStory(v) {
-	var temp = volume[v];
+function addStory(id) {
+	var temp = volume[id];
 	var tempD = temp.dialogue;
 	var title = temp.title;
 	var chapter = temp.chapter;

@@ -19,11 +19,11 @@ function addList() {
 	document.querySelector('.list').innerHTML += chapters;
 	const addOpen = document.querySelectorAll('.dialogue p');
 	for(var i = 0; i < addOpen.length; i++) {
-		addOpen[i].addEventListener('click', open);
+		addOpen[i].addEventListener('click', openChapter);
 	}
 }
 
-function open() {
+function openChapter() {
 	document.querySelector('.list').remove();
 	addStory(this.id);
 	addSlider(this.id);

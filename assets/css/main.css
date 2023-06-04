@@ -53,16 +53,16 @@ header {
 	margin: .3rem 0 .3rem 0;
 }
 .title,
-.content {
+.button {
 	font-size: 2rem;
 	text-decoration: none;
 	cursor: pointer;
 }
-.content:hover {
+.button:hover {
 	text-decoration: underline;
 	color: var(--hover-color);
 }
-.content:active {
+.button:active {
 	color: yellow;
 }
 
@@ -193,19 +193,24 @@ h1,
 h2 {
 	font-size: 2rem;
 }
-h3 {
+h3,
+h4 {
 	font-size: 1.4rem;
 }
 .selectBox,
 .list,
 .story,
+.dex,
+.content,
 .dialogue,
 .character {
 	display: flex;
 	flex-direction: column;
 }
 .list,
-.story {
+.story,
+.dex,
+.content {
 	width: 52rem;
 	margin: 1rem auto 4rem auto;
 	gap: 1rem;
@@ -224,7 +229,8 @@ h3 {
 .optionBox:hover {
 	outline: 2px solid var(--hover-color);
 }
-.list p {
+.list p,
+.dex p {
 	cursor: pointer;
 }
 .group {
