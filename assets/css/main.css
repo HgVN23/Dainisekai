@@ -83,10 +83,10 @@ header {
 	gap: 1rem;
 }
 .hideOn {
-	content: url(../media/image/hideOn.png);
+	content: url(../media/image/icon/hideOn.png);
 }
 .hideOff {
-	content: url(../media/image/hideOff.png);
+	content: url(../media/image/icon/hideOff.png);
 }
 .toggleHide,
 .none,
@@ -105,7 +105,7 @@ header {
 	filter: brightness(1);
 }
 .left {
-	content: url(../media/image/left.png);
+	content: url(../media/image/icon/left.png);
 }
 .left:hover {
 	animation: left 1s infinite;
@@ -122,7 +122,7 @@ header {
 	}
 }
 .right {
-	content: url(../media/image/right.png);
+	content: url(../media/image/icon/right.png);
 }
 .right:hover {
 	animation: right 1s infinite;
