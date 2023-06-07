@@ -129,7 +129,7 @@ const sekaiDex2 = [
 					'Ma nhân là ma vật có đặc tính và dáng vẻ sát với con người nhất. Gồm Goblin, Zombie, Skeleton, ...',
 					'Ma thú là ma vật có đặc tính như động vật, côn trùng. Gồm Horned Rabbit, Ligheep, ...',
 					'Ma nhiên là ma vật có đặc tính từ tài nguyên tự nhiên hoặc thực vật. Gồm Golem, Slime, Carnivorous Plant, ...',
-					'Ma ảo là ma vật siêu nhiên, khó nhận ra. Gồm Ghost, Soul, Spirit, ...'
+					'Ma linh là ma vật siêu nhiên, khó nhận ra. Gồm Ghost, Soul, Spirit, ...'
 				]
 			},
 			{

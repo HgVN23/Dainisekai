@@ -754,7 +754,7 @@ const volume = [
 		title: 'Guild mạo hiểm giả',
 		dialogue: [
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Ái chà, nay dậy sớm thế Shu? Đang làm bữa trưa đó à?'
@@ -766,7 +766,7 @@ const volume = [
 				content: 'Chào buổi sáng mẹ. Hôm qua con có nói nay đi đăng ký làm mạo hiểm giả rồi mà?'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Phải ha.'
@@ -784,7 +784,7 @@ const volume = [
 				content: 'Thôi con đi đây, nhóm con gọi con rồi. À mà con có làm bữa sáng cho mẹ rồi đó. Con chào mẹ.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Vậy mẹ cảm ơn nha. Đi đường an toàn nha Shu.'
@@ -1396,7 +1396,7 @@ const volume = [
 				content: 'Ngày hôm nay thật mệt mỏi, rất nhiều chuyện đã xảy ra. Hiện tại tôi đang 10 tuổi, cuối cùng tôi cũng có thể sử dụng『Inventory』và Skill tôi đã ẩn đi bấy lâu nay. Thế nên tối nay tôi sẽ nấu ăn sau một khoảng thời gian không nấu. Tiện thể hôm nay nhóm của tôi cũng qua ăn tối cùng.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Con có chắc không đó. Đây là lần đầu con nấu ăn mà. Hay để mẹ nấu còn con cứ ra chơi với bạn đi ha.'
@@ -1408,7 +1408,7 @@ const volume = [
 				content: 'Mẹ cứ tin con, con nhìn mẹ nấu ăn nhiều rồi mà. Mấy món đơn giản con làm được hết.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Hm... Nếu thế thì để mẹ dọn bàn ăn.'
@@ -1426,7 +1426,7 @@ const volume = [
 				content: 'Tôi lấy『Cooking Set』ra khỏi Inventory. Tôi cầm con dao đã chiến đấu với Fig lên tay, ngắm nhìn nó.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Con dao đó là lúc con chiến đấu với Fig nhỉ?'
@@ -1438,7 +1438,7 @@ const volume = [
 				content: 'Đúng rồi ạ. Và tất cả chỗ dụng cụ này đều từ chức nghiệp『Chef』của con.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ hiểu rồi. Vậy mẹ giao lại bếp cho con, đừng làm món gì có Debuff nha Shu.'
@@ -1474,13 +1474,13 @@ const volume = [
 				content: 'Con nấu xong rồi, mời mọi người vào ăn.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Để xem con ta lần đầu nấu ăn thế nào đây. Haha.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ có thể ngửi thấy mùi thơm từ trong bếp.'
@@ -1522,13 +1522,13 @@ const volume = [
 				content: 'Tôi muốn ăn với cơm cơ nhưng có vẻ ở đây không ai biết cơm là gì. Hi vọng chỗ nào đó trong『Dainisekai』có tồn tại gạo hoặc một thứ tương tự như vậy.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Hm... Mùi thì thơm thật nhưng màu lạ quá. Ăn chắc ổn nhỉ?'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Sẽ ổn thôi... em nghĩ vậy?'
@@ -1558,8 +1558,8 @@ const volume = [
 				content: 'Ế Hyouka? Nhỏ là ẩm thực gia à? Mà thật là ngại khi có người khen như vậy. Chắc nhỏ đói lắm ha. Mọi người sau đó cũng thử và...'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ta chưa bao giờ ăn một món nào ngon như vậy cả.'
 			},
@@ -1570,7 +1570,7 @@ const volume = [
 				content: 'Đúng là ngon thật.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Ngon thật đó Shu! Khi con bảo mẹ làm mấy món đơn giản mẹ không nghĩ lại làm ra món ngon như vậy.'
@@ -1582,7 +1582,7 @@ const volume = [
 				content: 'Đúng đó nya. Nhưng mà mình thấy món này hơi đậm nya.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ cũng nghĩ vậy, chắc lần sau con nên bớt ít muối lại.'
@@ -1600,8 +1600,8 @@ const volume = [
 				content: 'Vậy thì mọi người hãy thử món cuối của con đây『Bắp cải xào trứng ngô』. Món gồm các nguyên liệu có trong tên.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Hm... Món này hơi nhạt đó con.'
 			},
@@ -1654,7 +1654,7 @@ const volume = [
 				content: 'Mọi người bảo món hầm đậm và món rau nhạt đúng không? Nhưng đó là khi mọi người ăn riêng thôi.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Nếu vậy ý con là...'
@@ -1672,7 +1672,7 @@ const volume = [
 				content: 'Vậy là mọi người đã nhận ra ý đồ của tôi. Trung hòa vị giác là thứ tôi đang nói tới.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Ái chà! Con nói đúng. Ăn ngon hơn nhiều thật.'
@@ -1684,8 +1684,8 @@ const volume = [
 				content: 'Đúng thật này. Ban đầu ăn món hầm đậm nhưng sau đó ăn thêm miếng rau vào cảm giác vị dịu đi hẳn. Đồng thời có vị ngọt từ ngô ngay sau đó nữa.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Con giỏi thật đấy Shu. Lần đầu nấu ăn lại nghĩ ra món ngon như vầy.'
 			},
@@ -1768,14 +1768,14 @@ const volume = [
 				content: 'Cảm giác được ai đó trông chờ thật là hạnh phúc. Nhưng tim mình vừa lỡ một nhịp thì phải... Lạ thật...'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Fufu, nhất con rồi nhá Shu.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Con trai ta giỏi thiệt, hahaha!'
 			},
@@ -2194,14 +2194,14 @@ const volume = [
 				content: 'Tôi bước ra khỏi cửa, đang định gọi cha mẹ thì họ đã ôm lấy tôi mất rồi.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Con đừng buồn nha Shu. Mọi thứ không như con dự định rồi.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ta đúng là vô dụng mà. Ta đã dạy con mọi thứ về kiếm vậy mà ta không thể giúp con có được chức nghiệp『Swordsman』như ta. Ta xin lỗi con.'
 			},
@@ -2590,7 +2590,7 @@ const volume = [
 		title: 'Cột mốc quan trọng (1)',
 		dialogue: [
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Shu! Mau ra ăn sáng đi con. Hôm nay là ngày trọng đại đó.'
@@ -2614,8 +2614,8 @@ const volume = [
 				content: 'Ơ cha! Nay cha không phải đi làm à?'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ta đã xin phép nghỉ sáng nay để có thể đi đến nhà thờ cùng con đó.'
 			},
@@ -2626,7 +2626,7 @@ const volume = [
 				content: 'Đừng nói với con cả mẹ cũng đi cùng nha.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Tất nhiên là có rồi. Hôm nay là ngày quan trọng của con mà. Chẳng lẽ con không thích cha mẹ đi cùng sao?'
@@ -2644,13 +2644,13 @@ const volume = [
 				content: 'Tôi thấy ngại chết đi được. Nếu trong tôi là 10 tuổi thật thì không phải nói, nó vui lắm chứ...'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ngại gì chứ. Đứa trẻ nào cũng có cha mẹ đi cùng mà.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Phải đó, việc chứng kiến sự kiện cuộc đời của con cái cha mẹ nào cũng quan tâm hết. Nếu con không muốn thì cha mẹ có thể đợi...'
@@ -2716,14 +2716,14 @@ const volume = [
 				content: 'Cha mẹ tôi đã đến nơi, vui vẻ tươi cười đáp lại.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Chào các cháu nha.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ừm. Chào các cháu. Các cháu có háo hứng khi sắp nhận chức nghiệp không?'
 			},
@@ -2752,13 +2752,13 @@ const volume = [
 				content: 'Hyouka sau khi chơi cùng với mấy bọn tôi thì bọn tôi cũng đã kể về dự định sắp tới. Nhỏ nghe chúng tôi muốn làm mạo hiểm giả nên cũng muốn tham gia cùng. Và thế là cả đám quyết định sẽ cùng nhau làm mạo hiểm giả bằng bất cứ giá nào.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ta rất mong đợi từ các cháu nha. Haha.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Con có những người bạn tuyệt vời thật đó Shu.'
@@ -2818,13 +2818,13 @@ const volume = [
 				content: 'Cha mẹ tôi đứng bên cạnh thì thầm.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Nè em, anh có thể đập thằng nhóc này không?'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Bình tĩnh nào anh, thắng nhóc chỉ là trẻ con thôi.'
@@ -2902,7 +2902,7 @@ const volume = [
 				content: 'Ông quản gia cúi người chào chúng tôi và rời đi cùng Fig. Ông quản gia thật tốt, tội nghiệp ổng phải theo hầu thằng Fig.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Mà Hyouka này, con sống ở đây được gần hai năm rồi vậy con thấy ổn không?'
@@ -2920,7 +2920,7 @@ const volume = [
 				content: 'Dạ, hiện tại con đang rất vui. Hơn nữa con đã coi cô nhi viện là nhà của con rồi. Mọi người ai cũng tốt cả.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Vậy thì tốt cho con rồi.'
@@ -2932,7 +2932,7 @@ const volume = [
 				content: 'Nghe Hyouka nói vậy tôi cũng nhẹ lòng. Có vẻ bệnh trầm cảm của nhỏ đã hết. Cách nói của Hyouka cũng đã bớt đi phần xa lánh nhưng tôi vẫn chưa thấy được rõ cảm xúc trên khuôn mặt của nhỏ. Trông nhỏ vẫn khá lạnh lùng...'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Tiện thể thì tại sao con đứng sát Shu vậy, Hyouka?'
@@ -2962,7 +2962,7 @@ const volume = [
 				content: 'Hm... Mình không hiểu lắm...'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Ái chà, Hyouka đáng yêu quá. Cho ta ôm con với.'
@@ -2986,7 +2986,7 @@ const volume = [
 				content: 'Không có sao đâu. Cảm giác giống như mẹ đang ôm mình vậy.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Vậy con có thể gọi bác là mẹ.'
@@ -2998,7 +2998,7 @@ const volume = [
 				content: 'Mẹ?'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Kya! Hyouka cưng quá à!'
@@ -3016,14 +3016,14 @@ const volume = [
 				content: 'Thôi nào mẹ, chúng con phải vào nhà thờ rồi.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'À ừm, các con đi đi.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Chúc may mắn nha mấy nhóc.'
 			},
@@ -3130,8 +3130,8 @@ const volume = [
 				content: 'Cha ơi, cha có biết gì về Hyouka không ạ? Chắc là cha cũng có chút thông tin về bạn ý nhỉ?'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Tất nhiên là ta có thông tin về Hyouka rồi, dù sao binh lính của ta và ta cũng đến nơi xảy ra sự việc mà.'
 			},
@@ -3142,8 +3142,8 @@ const volume = [
 				content: 'Vậy cha có thể nói cho con biết được không?'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Hm... Ta không thể nói.'
 			},
@@ -3166,7 +3166,7 @@ const volume = [
 				content: 'Mẹ tôi đã dơ tay trái che đi nụ cười sau khi nghe xong câu vừa nãy và nói đùa.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Ái chà, con mẹ thực sự lo lắng nhiều cho cô bé đó nhỉ?'
@@ -3178,7 +3178,7 @@ const volume = [
 				content: 'Mẹ đừng hiểu lầm ý con. Hyouka đang cô đơn nên con muốn làm bạn với bạn ý. Nhưng với cái tính lạnh lùng của bạn nên con cũng đang bó tay đây.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Con thực sự quan tâm Hyouka nhỉ?'
@@ -3196,8 +3196,8 @@ const volume = [
 				content: 'Tôi thực sự quan tâm Hyouka. Hiện tại Hyouka có vẻ đang bị chấn thương tâm lí và để nói ngắn gọn thì là bị trầm cảm. Có thể khái niệm "trầm cảm" chưa xuất hiện tại nơi đây nên không ai có đủ sự quan tâm đến Hyouka. Các triệu chứng của cô giống với bệnh trầm cảm như là tránh giao tiếp với người khác, tự thu mình lại, luôn suy nghĩ nhiều thứ, ... Nhưng nguy hiểm nhất là càng về lâu về dài Hyouka sẽ có những suy nghĩ lệch lạc nhất là về tính mạng của cô. Hyouka có thể sẽ tự sát nếu cứ tiếp tục như vậy.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ta thấy con quan tâm nhiều như vậy chắc có lẽ kể cho con một chút cũng không sao.'
 			},
@@ -3208,8 +3208,8 @@ const volume = [
 				content: 'Ơ, cha chắc chưa đó? Con tưởng đấy là thông tin nội bộ nên cha không nói được ra mà.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Có sao đâu chứ, miễn là cả nhà không kể lung tung cho người khác biết là được. Haha.'
 			},
@@ -3232,8 +3232,8 @@ const volume = [
 				content: 'Cha tôi đã kể lại những gì cha biết nhưng cũng không có thêm thông tin gì mới. Tôi đã nghe từ Kowashi rồi, tính ra binh lính cũng không cẩn thận khi hỏi Hyouka ở Cô nhi viện. Nhưng cha tôi cũng cho tôi thêm một thông tin.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Không hiểu sao những lời bàn tán về Hyouka bắt đầu diễn ra. Chắc binh lính của ta đã bất cẩn hoặc ai đó trong nội bộ đã tiết lộ.'
 			},
@@ -3244,7 +3244,7 @@ const volume = [
 				content: 'Hẳn là vậy rồi...'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Nói mới nhớ mẹ cũng nghe loáng thoáng mọi người đang nói về một cô bé 8 tuổi đã bộc phát kĩ năng. Và đã tự hạ một đàn ma thú Ligheep đang trong trạng thái không ổn định chỉ với một đón. Điều này sẽ khiến Hyouka gặp chút rắc rối đây.'
@@ -3274,13 +3274,13 @@ const volume = [
 				content: 'A! Con chỉ đang suy nghĩ... Ý con là...'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ta nghĩ cô bé giỏi đấy chứ. Sau này sẽ làm pháp sư giỏi đây.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Đối với mẹ thì cô bé khá đáng thương khi vừa mất đi người thân. Còn con nghĩ sao?'
@@ -3808,8 +3808,8 @@ const volume = [
 				content: 'Thưa chỉ huy Haruka! Chúng tôi thấy có cột khói bốc lên và có những tiếng động. Có thể đã xảy ra tai nạn hoặc ai đó đã bị tấn công.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Hả? Nửa đầu tiểu đội đi theo ta, còn nửa còn lại tiếp tục làm nhiệm vụ.'
 			},
@@ -3880,7 +3880,7 @@ const volume = [
 				content: 'Con đi đến Cô nhi viện đây ạ.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Được thôi, con đi đường cẩn thận.'
@@ -4366,8 +4366,8 @@ const volume = [
 				content: 'Đỡ này cha.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Sơ hở!'
 			},
@@ -4378,8 +4378,8 @@ const volume = [
 				content: 'Ha, không trúng con đâu.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ta đây chỉ nhử con thôi. Đỡ cú này thử xem.'
 			},
@@ -4396,8 +4396,8 @@ const volume = [
 				content: 'Cứ tưởng sau cú né đó tôi có thể trả đòn nhưng ai ngờ đòn đó là để nhử mình. Không hổ danh cha tôi được thăng chức chỉ huy quả thật rất xứng đáng.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Cũng đã được nửa năm từ lúc con nhờ ta, kĩ năng chiến đấu của con đã được cải thiện hơn đó.'
 			},
@@ -4408,8 +4408,8 @@ const volume = [
 				content: 'Thì con muốn ít nhất phải đánh trúng cha một phát. Nhưng có vẻ lần nào con cũng chỉ suýt thôi.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ha ha ha! Vậy cố lên nha con, đường còn dài lắm.'
 			},
@@ -4420,8 +4420,8 @@ const volume = [
 				content: 'Vâng vâng.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Mà hai đứa bạn của con đâu rồi? Con có bảo hai đứa nó sẽ qua đây luyện tập cùng mà.'
 			},
@@ -4432,8 +4432,8 @@ const volume = [
 				content: 'Ý cha là “bộ đôi rắc rối” đó hả? Con tin rằng họ vẫn đang ngủ.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Vậy à? Thế con muốn nghỉ ngơi chút không?'
 			},
@@ -4444,8 +4444,8 @@ const volume = [
 				content: 'Con vẫn ổn. Tiếp tục nào cha, con tin lần này sẽ đánh trúng cha một phát.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Được! Ta rất sẵn lòng, lên nào con!'
 			},
@@ -4456,8 +4456,8 @@ const volume = [
 				content: 'Mặc dù nói vậy nhưng hiện tại với trình độ tôi một đấu một với cha là không thể. Tôi muốn sử dụng Skill lắm đấy nhưng mà thân phận cần che giấu, ít nhất là cho đến năm 10 tuổi. Thế nên tôi đành tập trung vào cải thiện kĩ năng chiến đấu và phán đoán tình huống.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Bước di chuyển khá đó. Cứ tiếp tục cho đến khi không cử động được thì thôi.'
 			},
@@ -4474,8 +4474,8 @@ const volume = [
 				content: 'Cơ thể sau khi chuyển sinh có năng lực thể chất tốt thật. May mà năng lực thể chất ở thế giới cũ không theo tôi đến đây.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'So với lần trước thì con có vẻ cầm cự lâu hơn chút. Nhưng mà...'
 			},
@@ -4486,8 +4486,8 @@ const volume = [
 				content: 'Cha tôi dùng cả cánh tay trái quật cả người tôi xuống. Tôi nằm bất động một lúc vì bị đau cả phía trước và phía sau.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Trọng tâm của con không được chắc chắn. Nó sẽ tạo sơ hở cho người khác dễ dàng hạ con chỉ với một pha quật tay như ta đã làm. Mà con còn ổn chứ?'
 			},
@@ -4498,8 +4498,8 @@ const volume = [
 				content: 'Đau... lưng con...'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ha ha. Nằm đó mà nghỉ ngơi chút đi. Ta vào nhà nghỉ chút đây. Khi nào bạn con đến thì sẽ tiếp tục sau.'
 			},
@@ -4570,8 +4570,8 @@ const volume = [
 				content: 'May quá không ai phát hiện ra tôi vừa dùng Skill xong. Tim tôi vẫn còn đang đập rất nhanh nữa chứ. Mấy đứa này từ hôm tôi kể chuyện luyện tập cùng cha thì mắt họ sáng lên muốn luyện cùng. Thì ra “bộ đôi rắc rối” cũng muốn làm mạo hiểm giả. Rồi cha tôi bước ra từ trong nhà.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Được rồi! Các con đã sẵn sàng chưa?'
 			},
@@ -4588,8 +4588,8 @@ const volume = [
 				content: 'Đúng đó nya.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Thằng nhóc này, ta bảo con nghỉ ngơi rồi mà. Thôi ngồi xem ta với bạn con chiến đấu đi.'
 			},
@@ -4612,8 +4612,8 @@ const volume = [
 				content: 'Có vẻ cha tôi ra đòn trước nhưng Kowashi liền đỡ đòn. Từ phía sau Kowashi, Asahi liền nhảy lên và vung kiếm xuống. Cha tôi có vẻ đã nhận ra liền nhảy giật lùi lại.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Chiến thuật mấy đứa khá lắm.'
 			},
@@ -4630,8 +4630,8 @@ const volume = [
 				content: 'Vừa dứt câu thì Asahi đã lao lên nhanh chóng chém tới tấp cha tôi rồi nhảy giật lùi. Sau đó Kowashi lại lao lên đỡ đòn và khống chế cha tôi. Asahi lại ở sau đó nhảy lên và họ cứ lặp đi lặp lại chiến thuật như vậy. Chiến thuật thì hay thật nhưng đối với cha tôi là người có kinh nghiệm chiến đấu thì việc lặp lại nhiều lần như thế sẽ khiến ổng tìm được ra sơ hở. Và đúng như tôi nghĩ, lần này cha tôi đã không còn nhảy giật lùi mà thay vào đó cha đạp lên khiên của Kowashi và nhảy ra phía sau cậu. Asahi lúc này chuẩn bị nhảy liền giật mình nên đã mất thăng bằng và bị cha cho một chém. Còn Kowashi chưa kịp phản ứng sau cú vừa nãy liền bị ăn một đạp từ phía sau bởi cha và một chém. Thế là trận đấu kết thúc.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Mấy đứa phối hợp với nhau tốt lắm nhưng mà không nên dùng liên tục một chiến thuật. Ta có thể đọc được bước di chuyển sau đó và tìm cách phá vỡ nó đấy.'
 			},
@@ -4678,8 +4678,8 @@ const volume = [
 				content: 'Cha! Bọn con xong rồi. Tiếp tục nào cha.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Được thôi. Hãy cho ta thấy chiến thuật mới nào.'
 			},
@@ -4690,8 +4690,8 @@ const volume = [
 				content: 'Vậy mời cha lên trước.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Vậy thì đỡ này. Kowashi vẫn đỡ đòn đầu tiên nhỉ?'
 			},
@@ -4702,8 +4702,8 @@ const volume = [
 				content: 'Asahi! Lên đi.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Vẫn là chiển thuật cũ nhỉ? Chẳng phải ta đã bảo...'
 			},
@@ -4720,8 +4720,8 @@ const volume = [
 				content: 'Chiến thuật của tôi là như này. Vẫn sử dụng chiến thuật cũ nhưng lần này Kowashi sau khi đỡ đòn sẽ gọi tên Asahi. Lí do là để cha tôi chú ý đến chi tiết Asahi sẽ nhảy từ phía sau lên. Trong lúc cha đang tập trung vào Asahi thì tôi từ phía sau có thể tiến lên áp sát cha. Đúng như dự đoán cha tôi đã phải nhảy giật lùi lại.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Lần này ta có vẻ mất cảnh giác rồi.'
 			},
@@ -4738,8 +4738,8 @@ const volume = [
 				content: 'Asahi sau cú nhảy trên cao liền đáp xuống khiên của Kowashi. Cô liền lấy đà để lao tới cha tôi, đồng thời Kowashi cũng dùng lực để đẩy Asahi luôn. Asahi sau đó lao nhanh về phía cha. Cha tôi chưa kịp lấy lại thăng bằng nên sau pha hất ngược Asahi ra phía sau thì đã bị ngã. Kowashi sau đó liền tiến lên dùng khiên và cả người đè cha tôi xuống. Tôi và Asahi chuẩn bị chém cha và có được phát đánh trúng lần đầu. Nhưng...'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: '『Physical Enhancement』'
 			},
@@ -4750,8 +4750,8 @@ const volume = [
 				content: 'Đột ngột cha đứng lên, nâng Kowashi lên ném vào tôi. Asahi vung kiếm nhưng cha tôi đã lộn nhào ngược về phía kiếm gỗ cha làm rơi trước đó. Sau khi chộp được thì cha liền lao thẳng về phía chúng tôi và mỗi người đều bị một chém ngay tức khắc.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Không ngờ các con phải ép ta dùng đến Skill để thoát khỏi thế trận vừa nãy.'
 			},
@@ -4762,8 +4762,8 @@ const volume = [
 				content: 'Không công bằng, bọn con đâu có Skill!'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Nào nào. Khi chiến đấu không ai nhường ai đâu. Thế có tiếp tục không nào?'
 			},
@@ -4774,14 +4774,14 @@ const volume = [
 				content: 'Thế là ba bọn tôi chiến đấu với cha tôi cho đến tầm trưa.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Mọi người tập luyện thế đủ rồi, vào ăn trưa nào.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Các con nghe rồi đó. Vào nhà nghỉ ngơi đi. Ta đi cất con hình nhân gỗ.'
 			},
@@ -4798,8 +4798,8 @@ const volume = [
 				content: 'Chú diều hâu từ đâu bay tới đậu trên con hình nhân gỗ. Người cha tiến lại gần thấy chú diều hâu kì lạ đứng nhìn ngắm một chút.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ủa? Sao lại có chú diều hâu ở đây vậy? Vùng này chắc chắn không có loại chim này ở đây. Hm...'
 			},
@@ -4810,8 +4810,8 @@ const volume = [
 				content: 'Người cha đang ngắm nhìn thì chú diều hâu đó đã bay đi mất. Nhưng kì lạ thay con hình nhân gỗ đó bị đổ mất nửa phần trên.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'A! Phải mua một con khác rồi. Nhưng thật lạ, vết cắt rất phẳng... Chẳng lẽ do con trai mình? Hay một trong đứa bạn của nó? Mà kệ đi, vào ăn trưa thôi. Mình đói rồi.'
 			}
@@ -4828,13 +4828,13 @@ const volume = [
 				content: 'Lúc này mọi người đều đã ngồi quanh bàn ăn và đây cũng là lúc cả nhà kể những câu chuyện đã xảy ra xung quanh họ ngày hôm nay. Và cha luôn là người mở đầu câu chuyện.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ta đã được bảo là trong thời gian tới ta sẽ được thăng chức lên làm đội trưởng của một tiểu đội lính đấy.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Thật hả anh? Đây đúng là tin tốt thật mà.'
@@ -4846,8 +4846,8 @@ const volume = [
 				content: 'Cha tài thật đấy.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Tất nhiên rồi, cha con mà lại. Sắp tới cả nhà sẽ được ăn những món ngon hơn rồi.'
 			},
@@ -4858,13 +4858,13 @@ const volume = [
 				content: 'Cả nhà tôi đều rất vui mừng với cơ hội thăng tiến của cha. Như vậy điều kiện sống của gia đình tôi sẽ được cải thiện thêm chút. Tôi đang vừa thưởng thức súp vừa vui cho cha thì đột nhiên cha hỏi tôi một câu khiến cho tôi có linh cảm không lành sau đó. '
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Mà nhân tiện con cũng đã 6 tuổi rồi, ta và mẹ con đang thắc mắc mai sau con sẽ làm gì?'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Đúng rồi đó con, mẹ cũng đang muốn hỏi con.'
@@ -4876,8 +4876,8 @@ const volume = [
 				content: 'Làm gì là sao à?'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ý ta là con có dự định vào làm lính không? Ta có thể giúp con vào một vị trí nào đó.'
 			},
@@ -4900,8 +4900,8 @@ const volume = [
 				content: 'Cha mẹ tôi sau khi xong câu đó thì đã ngạc nhiên. Cha tôi thì đập bàn và lên tiếng.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Khoan đã! Con có biết làm mạo hiểm giả nguy hiểm đến tính mạng thế nào không! Hơn nữa con có thể sẽ rời xa nơi đây.'
 			},
@@ -4918,8 +4918,8 @@ const volume = [
 				content: 'Con biết nó sẽ rất dễ gây nguy hiểm đến tính mạng. Nhưng dù có vậy thì con vẫn muốn được làm mạo hiểm giả và đi phiêu lưu khắp nơi.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Con đúng thật là...'
 			},
@@ -4930,7 +4930,7 @@ const volume = [
 				content: 'Hầy... Tôi biết những cuộc nói chuyện như thế này thì rất khó để thắng được. Nhưng rồi mẹ tôi đã lên tiếng.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Bình tĩnh nào anh. Hãy nhìn kĩ đôi mắt của nó kìa. Mỗi lần nghiêm túc thì nó lại trưng đôi mắt như vậy đó.'
@@ -4942,8 +4942,8 @@ const volume = [
 				content: 'Cha sau khi nghe xong câu nói đó của mẹ liền dừng nói. Cha nhắm mắt lại, đắn đo suy nghĩ, hít một hơi thật sâu và thở dài.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Con nghiêm túc?'
 			},
@@ -4966,8 +4966,8 @@ const volume = [
 				content: 'Cha với vẻ mặt bất lực khi nghe tôi nên đành chấp nhận.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Thôi được rồi, con nghiêm túc như vậy thì ta cũng đành chấp nhận. Nếu thay đổi ý định thì cứ bảo ta.'
 			},
@@ -4978,8 +4978,8 @@ const volume = [
 				content: 'Cứ ngỡ thế là tạm thời an toàn nhưng rồi tôi vẫn bị chọc.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Nhưng mà hiếm có đứa trẻ nào vẫn còn giữ được bình tĩnh như vậy sau khi bị lớn tiếng như vậy đó.'
 			},
@@ -4996,7 +4996,7 @@ const volume = [
 				content: 'Tôi vừa nói vừa cười gượng gạo để che giấu đi nỗi lo lắng của mình về việc bị nghi ngờ không giống như một đứa trẻ. '
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Vậy à. Con trai mẹ ngầu quá đi. Giờ đến lượt chuyện của mẹ nè. Hôm nay á...'
@@ -5050,7 +5050,7 @@ const volume = [
 				content: 'Trong khi tôi đang hăng say luyện tập thì cửa bắt đầu mở. Cũng may tôi đang ngồi hướng nhìn về phía cửa nên đã mau chóng hủy hết Skill và nằm xuống giường. À, thì ra đó là mẹ tôi.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Shu, con có ổn không? Nãy mẹ gọi con không có thấy trả lời.'
@@ -5068,7 +5068,7 @@ const volume = [
 				content: 'Xin lỗi mẹ nhiều! Thực ra con luyện dùng Skill cơ. Làm mẹ lo lắng mất rồi.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ vừa có gọt ít táo đem vào cho con nè.'
@@ -5080,7 +5080,7 @@ const volume = [
 				content: 'A, con cảm ơn, làm mẹ mất công đem vào cho con rồi. Mẹ ăn cùng con không?'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ ăn phần của mẹ rồi, con cứ ăn đi.'
@@ -5092,7 +5092,7 @@ const volume = [
 				content: 'À mà cảm ơn mẹ lúc nói chuyện với cha, mẹ cứu con một phen rồi đó. Con cứ tưởng sẽ thành thảm họa cơ.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ cũng biết tính cha con mà. Với cả con cũng chưa từng đòi hỏi gì nên mẹ đã rất vui khi con nói vậy. Tất nhiên phải đảm bảo an toàn tính mạng là trên hết nha.'
@@ -5104,7 +5104,7 @@ const volume = [
 				content: 'Vâng, con biết rồi ạ.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Thôi giờ mẹ đi ngủ đây, ăn xong thì cứ để đĩa đấy mai rửa cũng được.'
@@ -5116,7 +5116,7 @@ const volume = [
 				content: 'Vậy thì chúc mẹ ngủ ngon.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Chúc Shu ngủ ngon nha.'
@@ -5825,7 +5825,7 @@ const volume = [
 				content: 'Con đã về nhà rồi thưa mẹ. Ủa cha vẫn chưa về à mẹ?'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Mừng con về nhà. Cha cũng sắp về rồi, con mau vào dọn bàn hộ mẹ với nha.'
@@ -5843,13 +5843,13 @@ const volume = [
 				content: 'Tôi nhanh chóng cởi giày và vào giúp mẹ. Và rồi cha tôi về nhà, như thường lệ ổng vẫn luôn ồn ào như thường.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ta đã về rồi đây! Nay ta có tin tốt!'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Mừng anh về, mau cất giáp và vào ăn tối nào.'
@@ -5874,31 +5874,31 @@ const volume = [
 		dialogue: [
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyHm' ],
 				name: [ 'Shuuya' ],
 				content: 'Ấm áp quá... Ánh sáng... Tôi đã có thể mở mắt và trước mắt tôi một người phụ nữ tóc dài đang ôm mình? Đây là mẹ mình nhỉ? Cơ thể này thật yếu... Đúng là mình đã được chuyển sinh thật rồi! Căn phòng hơi tối nên mình không nhìn rõ được khuôn mặt.'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyHm' ],
 				name: [ 'Shuuya' ],
 				content: 'Tôi thử liếc nhẹ qua căn phòng thì tường, trần nhà và sàn có vẻ chủ yếu đều được làm từ gỗ. Một cơn gió nhẹ thổi qua... tấm rèm bay nhè nhẹ. À thì ra cửa sổ đang mở. Trời tiết tối nay có vẻ sẽ lạnh đây nhưng hiện tại tôi đang được ôm nên khá là ấm áp. Nhân tiện thì cửa sổ cũng được làm từ kính kết hợp với khung làm từ gỗ. Còn căn phòng thì hơi nhỏ nên đồ đạc cũng không có gì nhiều ngoài một cái giường sát tường cạnh cửa sổ, một tủ nhỏ cạnh giường, một bộ bàn ghế gồm một bàn hai ghế và một tủ quần áo.'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyHm' ],
 				name: [ 'Shuuya' ],
 				content: 'Mà khoan! Tôi đã mải nghĩ quá rồi nên không để ý đến những tiếng nói xung quanh, phải lắng nghe mới được. Lúc này một người đàn ông đang vừa khóc vừa vui mừng.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Người đàn ông' ],
 				content: 'Cảm ơn sơ Celia rất nhiều đã giúp vợ tôi Sara sinh ra đứa con của chúng tôi an toàn. Tôi thực sự cảm ơn sơ.'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBaby' ],
 				name: [ 'Shuuya' ],
 				content: 'Sơ Celia mỉm cười nhẹ trước sự trân thành của người đàn ông đó.'
 			},
@@ -5910,7 +5910,7 @@ const volume = [
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyHm' ],
 				name: [ 'Shuuya' ],
 				content: 'Có vẻ người phụ nữ đang ôm tôi đúng là mẹ rồi và tên là『Sara』, còn người đàn ông kia là cha mình tên『Haruka』. Và bà cô sơ kia tên là『Celia』, trông như đó là người quen của cha mẹ mình. Trong khi đó, Sơ Celia dường như đang lo lắng điều gì đó.'
 			},
@@ -5922,55 +5922,55 @@ const volume = [
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyHm' ],
 				name: [ 'Shuuya' ],
 				content: 'Tôi đã giật mình sau khi nghe xong câu đó. Đừng nói điều rủi như thế chứ sơ... Không ổn rồi! Đúng thật là kì lạ khi một đứa trẻ mới sinh ra mà lại không khóc. Chắc tôi phải giả khóc thôi... mặc dù nó sẽ rất là kì lạ... Hầy... có lí do gì khiến cho mình có thể giả khóc được không đây... Người cha cũng bối rối sau khi nghe xong điều đó từ sơ và đã nói to.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'CON TÔI BỊ VẤN ĐỀ GÌ Ư? CON ƠI! CON ĐỪNG BỊ GÌ NHÉ! CON LÀ ĐỨA CON ĐẦU TIÊN MÀ TA CÓ!'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyHm' ],
 				name: [ 'Shuuya' ],
 				content: 'Không ngờ tôi có người cha ồn ào như vậy, đang ban đêm đấy nói nhỏ lại thôi chứ cha. Tôi còn đang bận phải nghĩ kế hoạch giả... mà khoan đã, đây là lúc thích hợp để giả khóc mà. Tôi đã giãy dụa và giả khóc.'
 			},
 			{
 				class: 'Shuuya',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBaby' ],
 				name: [ 'Shuuya' ],
 				content: 'OE OE OE!'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBaby' ],
 				name: [ 'Shuuya' ],
 				content: 'Mẹ tôi đã giật mình và vỗ về để tôi nín.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Nhìn này, con khóc mất rồi. Anh à, anh nên nói nhỏ lại, xem anh vừa khiến cho con khóc rồi này. Nín đi con yêu, mẹ vừa mắng cha con rồi.'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBaby' ],
 				name: [ 'Shuuya' ],
 				content: 'Cha thấy hối lỗi liền lấy tay bịt miệng và nói nhỏ.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Ơ... Anh xin lỗi em! Con ơi nín đi con, cha sẽ không nói to nữa đâu...'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyHehe' ],
 				name: [ 'Shuuya' ],
 				content: 'Sơ Celia đã suýt bật cười, thay vào đó là mỉm cười rồi cất gọn đồ đạc để chuẩn bị ra về.'
 			},
@@ -5982,12 +5982,12 @@ const volume = [
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyHehe' ],
 				name: [ 'Shuuya' ],
 				content: 'Tôi lúc này đã thấy nhẹ cả người vì vở kịch bé nhỏ đã thành công.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Vậy hẹn gặp lại sơ. Xin lỗi vì tôi không tiễn được. Anh, trời tối rồi, anh đưa sơ về nhà hộ em nha.'
@@ -5999,8 +5999,8 @@ const volume = [
 				content: 'A, không cần đưa tôi về nhà đâu, chỉ cần tiễn tôi ra cửa là được rồi. Vợ anh vừa mới sinh nên có thể cơ thể sẽ còn rất yếu, anh nên ở lại.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Vậy xin thứ lỗi! Hẹn gặp lại sơ.'
 			},
@@ -6012,61 +6012,61 @@ const volume = [
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyEyeClose' ],
 				name: [ 'Shuuya' ],
 				content: 'Thế là cha và sơ đã rời khỏi phòng và tiễn ra trước cửa nhà. Tôi cảm nhận được cha mẹ và sơ Celia đều là người tốt cả. Tôi cảm thấy thật tuyệt khi được chuyển sinh đến nơi đây. Tôi cảm thấy mệt mỏi quá... Chắc có lẽ vì cơ thể mới này... Rồi cha quay lại.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Sơ Celia đi...'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyEyeClose' ],
 				name: [ 'Shuuya' ],
 				content: 'Mẹ tôi thấy tôi đang ngủ nên liền đưa ngón tay lên môi và nói nhỏ với cha.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Suỵttt... Con nó đang ngủ anh à.'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyEyeClose' ],
 				name: [ 'Shuuya' ],
 				content: 'Cha tôi thấy vậy nên đã nhẹ nhàng đi đến bên giường và ngồi cạnh mẹ tôi, nói nhỏ.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Khuôn mặt thằng bé trông thật giống em.'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyEyeClose' ],
 				name: [ 'Shuuya' ],
 				content: 'Mẹ mỉm cười nhẹ và đáp lại.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Thằng bé cũng giống anh nữa mà, nó có đôi mắt lam tuyệt đẹp như của anh vậy.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Cha' ],
 				content: 'Thật tuyệt khi chúng ta cũng đã có con.'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaBabyEyeClose' ],
 				name: [ 'Shuuya' ],
 				content: 'Mẹ tôi vẫn mỉm cười và gật đầu một cái nhẹ.'
 			},
@@ -6077,7 +6077,7 @@ const volume = [
 				content: 'Và thế là 6 năm đã trôi qua...'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Shu! Bữa sáng xong rồi. Ra ăn sáng đi con.'
@@ -6119,25 +6119,25 @@ const volume = [
 				content: 'Đang mải nghĩ thì có mùi trứng thoang thoảng từ căn bếp khiến cho bụng tôi kêu réo lên.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Chào buổi sáng Shu. Mẹ có làm món trứng con thích này.'
 			},
 			{
 				class: 'Shuuya',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaHehe' ],
 				name: [ 'Shuuya' ],
 				content: 'Chào buổi sáng mẹ ạ. Cảm ơn đã làm món trứng con thích. Mời cả nhà ăn sáng!'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaHmSmile' ],
 				name: [ 'Shuuya' ],
 				content: 'Tôi cảm giác hơi không thoải mái khi tỏ vẻ trẻ con so với tuổi thật của mình ở thế giới trước. Nó thật là kì lạ nhưng đành chịu thôi, giờ tôi mới chỉ có 6 tuổi. Món trứng mình đang ăn tuy không được cuộn nhưng nó ngon thật, dù sao mình cũng thích ăn trứng đó mà. Sau khi cả hai mẹ con ăn xong thì mẹ nhắc tôi.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Hình như hôm nay con sẽ đến Cô nhi viện để học nhỉ?'
@@ -6149,14 +6149,14 @@ const volume = [
 				content: 'Vâng đúng rồi ạ! À, mẹ ăn xong cứ để đấy để con dọn cho.'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Con mẹ ngoan quá đi à. Không có nhiều đứa trẻ như con ở độ tuổi này đâu. Mẹ cảm giác con không đúng với tuổi thật vậy. Có cảm giác khá là trững trạc đó. Thôi mẹ đi may vá đây.'
 			},
 			{
 				class: 'think',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaHmSmile' ],
 				name: [ 'Shuuya' ],
 				content: 'Tôi sau khi nghe xong câu đó cũng hơi nhột. Tôi cảm giác sự che giấu về bản thân mình không còn được bao lâu. Nhưng được mẹ khen như vậy tôi cũng thấy thích.'
 			},
@@ -6168,12 +6168,12 @@ const volume = [
 			},
 			{
 				class: 'Shuuya',
-				face: [ 'Shuuya' ],
+				face: [ 'ShuuyaHehe' ],
 				name: [ 'Shuuya' ],
 				content: 'Con đi đây thưa mẹ!'
 			},
 			{
-				class: 'mother',
+				class: 'ShuuyaMother',
 				face: [ 'unknown' ],
 				name: [ 'Mẹ' ],
 				content: 'Đi đường cẩn thận nha con!'
@@ -6205,7 +6205,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Chàng trai lạ' ],
 				content: 'Xin chào bạn, có vẻ như bạn đang bối rối đây là đâu nhỉ?'
 			},
@@ -6217,7 +6217,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Chàng trai lạ' ],
 				content: 'Tôi là nhân viên Tamada Shuuya, họ là Tamada và tên là Shuuya. Chào mừng đến với văn phòng Re:Life. Bạn có thể gọi tôi là Tamada'
 			},
@@ -6229,7 +6229,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Nói ngắn gọn thì bạn vừa qua đời nhưng vì tuổi bạn chưa đến 30 nên đã được xuất hiện tại đây.'
 			},
@@ -6247,7 +6247,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Đúng là vậy nhưng văn phòng chúng tôi sẽ cho bạn cuộc đời thứ 2. Đó sẽ là cuộc sống ở thế giới khác có tên là『Dainisekai』có nghĩa là “thế giới thứ 2”.'
 			},
@@ -6265,7 +6265,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Thật ra chúng tôi có thể đưa bạn về thế giới cũ nhưng một vài điều luật đã thay đổi nên chúng tôi không thể làm điều đó.'
 			},
@@ -6277,7 +6277,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Thế giới mới của bạn sẽ có kiếm, ma pháp và nhiều chủng loại đa dạng đậm chất Fantasy. Bạn sẽ có một bảng Status để xem các thông tin cá nhân như tên, tuổi, giới tính, chủng loại, Skill, danh hiệu, ... Đặc biệt, bạn sẽ có thể dùng kho đồ khi bạn 10 tuổi nhưng tối đa chỉ có 9 ô chứa. Bạn chỉ cần nghĩ về『Status』trong đầu là bảng Status sẽ xuất hiện trước mặt bạn.'
 			},
@@ -6289,7 +6289,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Chúng tôi sẽ cho bạn lựa chọn giới tính; chủng loại như là Human, Elf, Drawf, ... kèm mô tả; một nghề nghiệp như là Warrior, Archer, Farmer, ... kèm mô tả và 3 điều ước.'
 			},
@@ -6301,7 +6301,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Về điều ước, bạn có thể ước bất kì thứ gì nhưng vẫn phải trong sự suy xét của tôi.'
 			},
@@ -6313,7 +6313,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Tất nhiên là không được ước có thêm điều ước hay những thứ để có thêm điều ước.'
 			},
@@ -6325,7 +6325,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Vì là Fantasy nên sẽ có Skill, bạn có thể ước có thêm Skill. Hoặc là ước có Item nhưng nó sẽ ở trong Inventory của bạn hoặc là bất cứ cái gì bạn có thể nghĩ ra như là có đồng minh, danh hiệu, khu vực, ... Bạn không thể ước điều gì có thể gây ảnh hưởng lên những người chuyển sinh, ảnh hưởng quá lớn lên『Dainisekai』và ảnh hưởng lên văn phòng Re:Life. Tôi sẽ xem xét kĩ lưỡng điều ước nên chỉ cần bạn có trí tưởng tượng và suy tính là được.'
 			},
@@ -6337,7 +6337,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Cuối cùng là về một chút lưu ý. Ký ức của thế giới cũ sẽ được giữ lại nên hãy yên tâm bạn vẫn là bạn. Bạn sẽ bắt đầu từ trẻ sơ sinh. Ở『Dainisekai』không tồn tại và sẽ không tồn tại thứ có thể ban điều ước. Nếu bạn chết hẳn thì là hết, không có chuyện sống lại.'
 			},
@@ -6349,7 +6349,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Vậy bạn có câu hỏi gì không? Xin hãy cân nhắc và hỏi tôi bất cứ câu hỏi gì. Càng hỏi nhiều thì bạn sẽ biết nhiều về thế giới bạn sẽ tới.'
 			},
@@ -6391,7 +6391,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Và cuối cùng, xin hãy đặt tên cho bản thân khi đến『Dainisekai』. Nếu bạn không nghĩ được ra thì có thể để trống và cha mẹ của bạn sẽ là người đặt tên.'
 			},
@@ -6415,7 +6415,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Tôi vô cùng cảm kích. Vậy bạn muốn xác nhận cái tên『Tamada Shuuya』?'
 			},
@@ -6433,7 +6433,7 @@ const volume = [
 			},
 			{
 				class: 'Tamada',
-				face: [ 'unknown' ],
+				face: [ 'Tamada' ],
 				name: [ 'Tamada' ],
 				content: 'Vậy thì thông tin của bạn đã được xác nhận xong. Chào mừng đến với『Dainisekai』, chúng ta có thể sẽ còn gặp lại nhau.'
 			},
@@ -6444,20 +6444,20 @@ const volume = [
 				content: 'Vừa dứt lời đó xong thì mọi thứ xung quanh tối dần. Tôi đang rơi trong khoảng không vô định. Vậy là tôi đang chuyển sinh nhỉ? Tự nhiên tôi không còn cử động được cơ thể lần nữa nhưng lần này tôi cảm nhận được một thứ gì đó thật là ấm áp và an toàn... Rồi một giọng nói cất lên.'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Người đàn ông' ],
 				content: 'Nó là con trai!!! Con trai đó!!!'
 			},
 			{
 				class: 'think',
-				face: [ 'ShuuyaBaby' ],
+				face: [ 'ShuuyaBabyEyeClose' ],
 				name: [ 'Shuuya' ],
 				content: 'Tôi đang rất bối rối và không biết giọng đó là của ai. Tôi cố mở mắt...'
 			},
 			{
-				class: 'father',
-				face: [ 'unknown' ],
+				class: 'ShuuyaFather',
+				face: [ 'ShuuyaFather' ],
 				name: [ 'Người đàn ông' ],
 				content: 'Được sinh ra trong đêm thu, ta sẽ đặt tên con là『Shuuya』.'
 			},
