@@ -197,9 +197,17 @@ h3,
 h4 {
 	font-size: 1.4rem;
 }
-.chapter {
-	display: flex;
-	gap: .5rem;
+.markAll,
+.startRead {
+	background-color: #44444a;
+	border-radius: .2rem;
+	padding: .5rem;
+	width: fit-content;
+	cursor: pointer;
+}
+.markAll:hover,
+.startRead:hover {
+	filter: brightness(.8);
 }
 .mark {
 	width: 1.3rem;
@@ -213,7 +221,12 @@ h4 {
 	content: url(../media/image/icon/hideOn.png);
 }
 .markUnread {
-	border-left-color: #00c9f5!important;
+	border-left-color: var(--hover-color)!important;
+}
+.buttons,
+.chapter {
+	display: flex;
+	gap: .5rem;
 }
 .selectBox,
 .list,
@@ -238,6 +251,7 @@ h4 {
 	background-color: #36363a;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
+	border-radius: .2rem;
 	padding: .5rem;
 	position: relative;
 }
@@ -246,7 +260,13 @@ h4 {
 }
 .chapter:hover,
 .dialogue:hover,
-.dialogueHide:hover,
+.dialogueHide:hover {
+	filter: brightness(1.3);
+}
+.dialogueHide:hover {
+	background-color: #0d0d0d;
+	border-color: #0d0d0d;
+}
 .selectBox:hover,
 .optionBox:hover {
 	outline: 2px solid var(--hover-color);
@@ -280,11 +300,11 @@ p {
 	background-color: black;
 	width: 100%;
 	height: 100%;
-	border: var(--border);
-	border-top: none;
-	border-bottom: none;
+	border-left: var(--border);
+	border-right: var(--border);
 	border-color: black;
 	border-width: 5px;
+	border-radius: .2rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;

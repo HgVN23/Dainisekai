@@ -28,10 +28,11 @@ function addList() {
 	}
 
 	setMark();
+	markAll();
 }
 
 function openChapter() {
-	reChapter(this.id)
+	reChapter(this.id);
 }
 
 function setMark() {
@@ -64,6 +65,7 @@ function markUnread() {
 	this.classList.toggle('read');
 	this.classList.toggle('unread');
 	this.parentElement.classList.toggle('markUnread');
+	markAll();
 }
 function markRead() {
 	if(!tempMark.includes(this.id)) {
@@ -75,10 +77,59 @@ function markRead() {
 		this.classList.toggle('unread');
 		this.parentElement.classList.toggle('markUnread');
 	}
+	markAll();
 }
 function pushMark(id) {
 	if(!tempMark.includes(id)) {
 		tempMark.push(id);
 		localStorage.setItem('mark', JSON.stringify(tempMark));
 	}
+}
+
+function markAll() {
+	const getMark = document.querySelector('.markAll');
+	getMark.addEventListener('click', unreadAll);
+	getMark.innerHTML = 'Đánh dấu tất cả chưa đọc';
+	for(var i = 0; i < volume.length; i++){
+		if(!tempMark.includes(String(volume[i].chapter))) {
+			getMark.addEventListener('click', readAll);
+			getMark.removeEventListener('click', unreadAll);
+			getMark.innerHTML = 'Đánh dấu tất cả đã đọc';
+			break;
+		}
+	}
+}
+function unreadAll() {
+	const temp = document.querySelectorAll('.read');
+	localStorage.removeItem('mark');
+	tempMark = [];
+	for (var i = 0; i < temp.length; i++) {
+		temp[i].addEventListener('click', markRead);
+		temp[i].removeEventListener('click', markUnread);
+		temp[i].classList.toggle('read');
+		temp[i].classList.toggle('unread');
+		temp[i].parentElement.classList.toggle('markUnread');
+	}
+
+	const getMark = document.querySelector('.markAll');
+	getMark.addEventListener('click', readAll);
+	getMark.removeEventListener('click', unreadAll);
+	getMark.innerHTML = 'Đánh dấu tất cả đã đọc';
+}
+function readAll() {
+	const temp = document.querySelectorAll('.unread');
+	for (var i = 0; i < temp.length; i++) {
+		tempMark.push(temp[i].id);
+		temp[i].addEventListener('click', markUnread);
+		temp[i].removeEventListener('click', markRead);
+		temp[i].classList.toggle('read');
+		temp[i].classList.toggle('unread');
+		temp[i].parentElement.classList.toggle('markUnread');
+	}
+	localStorage.setItem('mark', JSON.stringify(tempMark));
+
+	const getMark = document.querySelector('.markAll');
+	getMark.addEventListener('click', unreadAll);
+	getMark.removeEventListener('click', readAll);
+	getMark.innerHTML = 'Đánh dấu tất cả chưa đọc';
 }
