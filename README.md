@@ -1,2 +1,4 @@
-# Dainisekai (WIP)
- Chào mừng đến với Thế giới thứ 2
+# 『Dainisekai』
+## New life in wonderful world
+
+Chào mừng đến với Thế giới thứ 2
