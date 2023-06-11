@@ -16,6 +16,7 @@
 	font-family: scp;
 	font-size: 16px;
 	color: white;
+	text-align: justify;
 	-webkit-user-drag: none;
 /*	outline: 1px solid blue;*/
 }
@@ -34,7 +35,8 @@ body {
 	border: 2px solid var(--hover-color);
 }
 header,
-.inHeader {
+.inHeader,
+.buttonHeader {
 	display: flex;
 	align-items: center;
 }
@@ -45,6 +47,9 @@ header {
 	position: sticky;
 	top: 0;
 	z-index: 1;
+}
+.buttonHeader {
+	gap: 2rem;
 }
 .symbol {
 	content: url(../media/image/symbol.png);
@@ -228,6 +233,9 @@ h4 {
 	display: flex;
 	gap: .5rem;
 }
+.buttons {
+	flex-wrap: wrap;
+}
 .selectBox,
 .list,
 .story,
@@ -289,7 +297,6 @@ h4 {
 	align-self: flex-start;
 }
 p {
-	text-align: justify;
 	white-space: pre-wrap;
 }
 .info p {
