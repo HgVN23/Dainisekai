@@ -197,6 +197,24 @@ h3,
 h4 {
 	font-size: 1.4rem;
 }
+.chapter {
+	display: flex;
+	gap: .5rem;
+}
+.mark {
+	width: 1.3rem;
+	height: 1.3rem;
+	cursor: pointer;
+}
+.read {
+	content: url(../media/image/icon/hideOff.png);
+}
+.unread {
+	content: url(../media/image/icon/hideOn.png);
+}
+.markUnread {
+	border-left-color: #00c9f5!important;
+}
 .selectBox,
 .list,
 .story,
@@ -215,14 +233,18 @@ h4 {
 	margin: 1rem auto 4rem auto;
 	gap: 1rem;
 }
+.chapter,
 .dialogue {
 	background-color: #36363a;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	padding: .5rem;
-	gap: 1rem;
 	position: relative;
 }
+.dialogue {
+	gap: 1rem;
+}
+.chapter:hover,
 .dialogue:hover,
 .dialogueHide:hover,
 .selectBox:hover,
@@ -232,6 +254,7 @@ h4 {
 .list p,
 .dex p {
 	cursor: pointer;
+	width: 100%;
 }
 .group {
 	display: flex;

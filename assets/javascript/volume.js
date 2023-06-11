@@ -263,7 +263,7 @@ const volume = [
 			},
 			{
 				class: 'Hyouka',
-				face: [ 'unknown', 'unknown', 'unknown' ],
+				face: [ 'unknown', 'Kowashi', 'unknown' ],
 				name: [ 'Hyouka', 'Kowashi', 'Asahi' ],
 				content: 'Ok (nya)!'
 			},
@@ -287,7 +287,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Được rồi, mình sẽ lấy nhiệm vụ săn Horned Rabbit. Yêu cầu săn ít nhất 3 con là hoàn thành nhiệm vụ. Phần thưởng là 5 xu đồng. Thêm nữa ở đây ghi có thể bán 3 Crystal của chúng cho 1 xu đồng.'
 			},
@@ -323,7 +323,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Cậu không chọn nhiệm vụ đi săn cùng bọn mình vì đang giận lúc hồi sáng à? Mình xin lỗi, chắc bọn mình đùa hơi quá trớn rồi.'
 			},
@@ -359,7 +359,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Nếu cậu đã nói vậy... Thế thì sao cậu không chọn nhiệm vụ đi săn cùng bọn mình vậy?'
 			},
@@ -383,7 +383,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Vậy à...'
 			},
@@ -443,7 +443,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown', 'unknown', 'unknown' ],
+				face: [ 'Kowashi', 'unknown', 'unknown' ],
 				name: [ 'Kowashi', 'Asahi', 'Hyouka' ],
 				content: ' Phải ha (nya).'
 			},
@@ -455,7 +455,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Được rồi, như đã bàn trên đường thì mọi người sẽ hỗ trợ mình làm nhiệm vụ đầu tiên nhỉ?'
 			},
@@ -491,7 +491,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Asahi, cậu cũng đâu có cố ý đâu. Hay như này đi, cậu hãy giúp mình tìm hố của Horned Rabbit được không? Chỗ này cỏ hơi dày nên mình khó mà để ý được. Mình tin cậu sẽ tìm được nhanh chóng thôi.'
 			},
@@ -515,7 +515,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Tuyệt vời thật đấy Asahi. Cậu siêu thật.'
 			},
@@ -539,7 +539,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Rồi, cảm ơn nhiều. Mọi người hãy tránh xa ra nha. Cẩn thận Horned Rabbit đổi mục tiêu tấn công các cậu đấy.'
 			},
@@ -551,7 +551,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Tê tay thật. May mà mình có cha Shuuya dạy chiến đấu rồi không thì không đỡ nổi mất. Có lẽ mình đã bất cẩn rồi.'
 			},
@@ -587,7 +587,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Cuối cùng cũng được... Hết cả hơi... Không ngờ chiến đấu với người và ma thú lại khác biệt đến thế.'
 			},
@@ -599,7 +599,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Phải rồi... Mình quên mất nhiệm vụ yêu cầu săn 3 con. Trời ạ.'
 			},
@@ -617,7 +617,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Hầy... Cảm ơn nhiều. Được rồi, tiếp tục thôi nào!'
 			},
@@ -629,7 +629,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Nhiệm vụ hoàn thành. Mình chưa bao giờ xuống sức như này cả.'
 			},
@@ -665,7 +665,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Thì ra là vậy... Mình chả hiểu gì hết cả! Cậu có biết số người tồn tại có thể dùng Inventory chỉ đếm được trên đầu ngón tay không?'
 			},
@@ -683,7 +683,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Hẳn nào, mình tự hỏi Shuuya lấy mấy thứ này từ đâu ra... Giờ thì biết rồi. Cậu còn có thể làm gì để khiến bọn mình ngạc nhiên nữa nhỉ?'
 			},
@@ -713,7 +713,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Nhìn trông đơn giản vậy mà sao không có ai làm nhỉ. Thôi mình đói rồi, mời các cậu ăn... Ồ! Ngon thật.'
 			},
@@ -737,7 +737,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Nè, ai ăn hộ mình xà lách được không? Mình không thích ăn... Ủa nó đâu rồi?'
 			},
@@ -755,7 +755,7 @@ const volume = [
 		dialogue: [
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Ái chà, nay dậy sớm thế Shu? Đang làm bữa trưa đó à?'
 			},
@@ -767,7 +767,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Phải ha.'
 			},
@@ -785,7 +785,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Vậy mẹ cảm ơn nha. Đi đường an toàn nha Shu.'
 			},
@@ -803,7 +803,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Xin lỗi mà. Nhìn tấm khiên và cái chùy của mình nè. Nó từ chức nghiệp『Paladin』.'
 			},
@@ -857,7 +857,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Nếu vậy thì khi cậu gặp nguy hiểm mình sẽ dùng tấm khiên này để bảo vệ cậu.'
 			},
@@ -887,7 +887,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'A Shuuya! Đừng nói ra chứ!'
 			},
@@ -911,7 +911,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Guild trông tuyệt thật đấy.'
 			},
@@ -971,7 +971,7 @@ const volume = [
 			},
 			{
 				class: 'Shuuya',
-				face: [ 'Shuuya', 'unknown', 'unknown', 'unknown' ],
+				face: [ 'Shuuya', 'unknown', 'Kowashi', 'unknown' ],
 				name: [ 'Shuuya', 'Hyouka', 'Kowashi', 'Asahi' ],
 				content: 'Đúng rồi ạ (nya).'
 			},
@@ -1013,7 +1013,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Chị không phải lo cho đầu bếp của nhóm em đâu. Cậu ta khá lắm.'
 			},
@@ -1025,7 +1025,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Đúng đó.'
 			},
@@ -1037,7 +1037,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown', 'unknown' ],
+				face: [ 'Kowashi', 'unknown' ],
 				name: [ 'Kowashi', 'Asahi' ],
 				content: 'Hể (nya)?'
 			},
@@ -1313,7 +1313,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Ủa mà tên có ý nghĩa gì vậy?'
 			},
@@ -1397,7 +1397,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Con có chắc không đó. Đây là lần đầu con nấu ăn mà. Hay để mẹ nấu còn con cứ ra chơi với bạn đi ha.'
 			},
@@ -1409,7 +1409,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Hm... Nếu thế thì để mẹ dọn bàn ăn.'
 			},
@@ -1427,7 +1427,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Con dao đó là lúc con chiến đấu với Fig nhỉ?'
 			},
@@ -1439,7 +1439,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ hiểu rồi. Vậy mẹ giao lại bếp cho con, đừng làm món gì có Debuff nha Shu.'
 			},
@@ -1481,7 +1481,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ có thể ngửi thấy mùi thơm từ trong bếp.'
 			},
@@ -1493,7 +1493,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Làm mình đói quá rồi này.'
 			},
@@ -1529,13 +1529,13 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Sẽ ổn thôi... em nghĩ vậy?'
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Ờ... Hai cậu nghĩ...'
 			},
@@ -1565,13 +1565,13 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Đúng là ngon thật.'
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Ngon thật đó Shu! Khi con bảo mẹ làm mấy món đơn giản mẹ không nghĩ lại làm ra món ngon như vậy.'
 			},
@@ -1583,7 +1583,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ cũng nghĩ vậy, chắc lần sau con nên bớt ít muối lại.'
 			},
@@ -1625,7 +1625,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Cậu ổn chứ?'
 			},
@@ -1637,7 +1637,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown', 'unknown', 'unknown', 'unknown' ],
+				face: [ 'Kowashi', 'unknown', 'unknown', 'unknown' ],
 				name: [ 'Kowashi', 'Asahi', 'Cha', 'Mẹ' ],
 				content: 'Thiên tài? (Nya?)'
 			},
@@ -1655,7 +1655,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Nếu vậy ý con là...'
 			},
@@ -1673,13 +1673,13 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Ái chà! Con nói đúng. Ăn ngon hơn nhiều thật.'
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Đúng thật này. Ban đầu ăn món hầm đậm nhưng sau đó ăn thêm miếng rau vào cảm giác vị dịu đi hẳn. Đồng thời có vị ngọt từ ngô ngay sau đó nữa.'
 			},
@@ -1769,7 +1769,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Fufu, nhất con rồi nhá Shu.'
 			},
@@ -1787,7 +1787,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Hả? Mình mải ăn quá, mọi người đang nói gì vậy?'
 			},
@@ -1811,7 +1811,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Mình đang tò mò tại sao cậu lại ăn bằng bát và bằng hai cái que vậy?'
 			},
@@ -1835,7 +1835,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Thi thoảng trông Shuuya dị thật đấy.'
 			},
@@ -1877,7 +1877,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Không ngờ Fig có chức nghiệp tốt như vậy.'
 			},
@@ -1961,7 +1961,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Ôi không...'
 			},
@@ -1991,7 +1991,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Cậu thật là lạc quan, Shuuya.'
 			},
@@ -2105,7 +2105,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Đó là mình rồi. Mình lên đây.'
 			},
@@ -2135,7 +2135,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Đây có phải là mơ không?'
 			},
@@ -2147,7 +2147,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Shuuyaaa... Đừng nói vậy chứ. Nghe như cậu sắp nghỉ chơi với mình vậy...'
 			},
@@ -2159,7 +2159,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Tại... tại vì mình có chức nghiệp tốt hơn cậu...'
 			},
@@ -2171,7 +2171,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Shuuyaaa...'
 			},
@@ -2195,7 +2195,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Con đừng buồn nha Shu. Mọi thứ không như con dự định rồi.'
 			},
@@ -2225,7 +2225,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Này đủ rồi đấy, Shuuya đang rất buồn đó.'
 			},
@@ -2315,7 +2315,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Shuuya bình tĩnh lại đi. Nói gì đó đi Hyouka.'
 			},
@@ -2351,7 +2351,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Các cậu... Hầy, đã nói thế rồi thì chúc may mắn Shuuya.'
 			},
@@ -2591,7 +2591,7 @@ const volume = [
 		dialogue: [
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Shu! Mau ra ăn sáng đi con. Hôm nay là ngày trọng đại đó.'
 			},
@@ -2627,7 +2627,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Tất nhiên là có rồi. Hôm nay là ngày quan trọng của con mà. Chẳng lẽ con không thích cha mẹ đi cùng sao?'
 			},
@@ -2651,7 +2651,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Phải đó, việc chứng kiến sự kiện cuộc đời của con cái cha mẹ nào cũng quan tâm hết. Nếu con không muốn thì cha mẹ có thể đợi...'
 			},
@@ -2675,7 +2675,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown', 'unknown', 'unknown' ],
+				face: [ 'Kowashi', 'unknown', 'unknown' ],
 				name: [ 'Kowashi', 'Asahi', 'Hyouka' ],
 				content: 'Shuuya chào buổi sáng (nya)!'
 			},
@@ -2693,7 +2693,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Đứng một lúc có sao đâu. A, cháu chào hai bác.'
 			},
@@ -2717,7 +2717,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Chào các cháu nha.'
 			},
@@ -2729,7 +2729,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Tất nhiên là cháu háo hứng rồi. Nhưng đồng thời cũng hơi lo lắng.'
 			},
@@ -2759,7 +2759,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Con có những người bạn tuyệt vời thật đó Shu.'
 			},
@@ -2783,13 +2783,13 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Vậy ra các ngươi muốn làm mạo hiểm giả hả? Nếu vậy ta đây sẽ làm một mạo hiểm giả vĩ đại cho coi. Hahaha!'
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Fig hả? Không ngờ cậu cũng muốn làm mạo hiểm giả đấy. Tưởng cậu chỉ có ăn rồi chơi và nằm thôi chứ?'
 			},
@@ -2825,7 +2825,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Bình tĩnh nào anh, thắng nhóc chỉ là trẻ con thôi.'
 			},
@@ -2855,7 +2855,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Nè Hyouka bình tĩnh lại nào.'
 			},
@@ -2903,7 +2903,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Mà Hyouka này, con sống ở đây được gần hai năm rồi vậy con thấy ổn không?'
 			},
@@ -2921,7 +2921,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Vậy thì tốt cho con rồi.'
 			},
@@ -2933,7 +2933,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Tiện thể thì tại sao con đứng sát Shu vậy, Hyouka?'
 			},
@@ -2963,7 +2963,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Ái chà, Hyouka đáng yêu quá. Cho ta ôm con với.'
 			},
@@ -2987,7 +2987,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Vậy con có thể gọi bác là mẹ.'
 			},
@@ -2999,7 +2999,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Kya! Hyouka cưng quá à!'
 			},
@@ -3017,7 +3017,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'À ừm, các con đi đi.'
 			},
@@ -3167,7 +3167,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Ái chà, con mẹ thực sự lo lắng nhiều cho cô bé đó nhỉ?'
 			},
@@ -3179,7 +3179,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Con thực sự quan tâm Hyouka nhỉ?'
 			},
@@ -3245,7 +3245,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Nói mới nhớ mẹ cũng nghe loáng thoáng mọi người đang nói về một cô bé 8 tuổi đã bộc phát kĩ năng. Và đã tự hạ một đàn ma thú Ligheep đang trong trạng thái không ổn định chỉ với một đón. Điều này sẽ khiến Hyouka gặp chút rắc rối đây.'
 			},
@@ -3281,7 +3281,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Đối với mẹ thì cô bé khá đáng thương khi vừa mất đi người thân. Còn con nghĩ sao?'
 			},
@@ -3401,7 +3401,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Này Shuuya, đang tìm gì à?'
 			},
@@ -3413,7 +3413,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'À thì ra Hyouka đang tìm cái đó. Vậy bạn ý nhờ cậu à?'
 			},
@@ -3425,7 +3425,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Nghe đau thật đấy. Được rồi để mình bảo Asahi tìm cùng và hỏi mấy đứa kia có nhặt được kẹp tóc hay không.'
 			},
@@ -3437,7 +3437,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Này, đừng có hiểu lầm. Mình đang giúp Hyouka chứ có giúp cậu đâu.'
 			},
@@ -3881,7 +3881,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Được thôi, con đi đường cẩn thận.'
 			},
@@ -3947,7 +3947,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Ủa Shuuya? Sao lại đứng ngây người ở đây thế.'
 			},
@@ -3965,7 +3965,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown', 'unknown' ],
+				face: [ 'Kowashi', 'unknown' ],
 				name: [ 'Kowashi', 'Asahi' ],
 				content: 'Ế (nya)?'
 			},
@@ -3983,7 +3983,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Mình cũng đã thử trò chuyện với Hyouka nhưng không thể.'
 			},
@@ -4055,7 +4055,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'A đau quá... Asahi! Dậy mau!'
 			},
@@ -4067,7 +4067,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Nói mình nghe sao cậu lại nằm ngủ cùng mình vậy?'
 			},
@@ -4079,7 +4079,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Thật tình. Xuống dưới ăn sáng trước đi, mình gấp chăn xong rồi xuống.'
 			},
@@ -4091,7 +4091,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Cũng không hẳn... Mà thôi, cảm ơn nha vậy mình đi rửa mặt.'
 			},
@@ -4103,7 +4103,7 @@ const volume = [
 			},
 			{
 				class: 'Celia',
-				face: [ 'unknown' ],
+				face: [ 'Celia' ],
 				name: [ 'Sơ Celia' ],
 				content: 'Cuối cùng thì cũng chịu dậy rồi à Kowashi. Ta bảo Asahi đánh thức con rồi mà.'
 			},
@@ -4115,7 +4115,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Thế cơ à?'
 			},
@@ -4127,19 +4127,19 @@ const volume = [
 			},
 			{
 				class: 'Celia',
-				face: [ 'unknown' ],
+				face: [ 'Celia' ],
 				name: [ 'Sơ Celia' ],
 				content: 'Ta không hiểu chuyện gì đã xảy ra nhưng sau khi ăn xong thì nhớ rửa chỗ đĩa kia cho ta.'
 			},
 			{
 				class: 'think',
-				face: [ 'unknown', 'unknown' ],
+				face: [ 'Kowashi', 'unknown' ],
 				name: [ 'Kowashi', 'Asahi' ],
 				content: 'Vâng (nya)!'
 			},
 			{
 				class: 'Celia',
-				face: [ 'unknown' ],
+				face: [ 'Celia' ],
 				name: [ 'Sơ Celia' ],
 				content: 'À mà hình như nay các con qua nhà bạn Shuuya để huấn luyện chiến đấu đúng không? Chắc trưa nay các con không về đây ăn rồi.'
 			},
@@ -4151,7 +4151,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Ôi chết, mình quên mất có hẹn với Shuuya luyện tập cùng cha cậu. Asahi ăn nhanh lên nào.'
 			},
@@ -4175,7 +4175,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Này cậu làm rơi... Ế? Lại nữa hả?'
 			},
@@ -4187,7 +4187,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Này Asahi! Tỉnh lại đi! Này!'
 			},
@@ -4199,7 +4199,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Trời ạ. Cậu chạy nhanh quá. Dừng lại mau!'
 			},
@@ -4217,7 +4217,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Asahi, cậu ổn chứ? Có bị đau ở chỗ nào không?'
 			},
@@ -4235,7 +4235,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Không sao đâu. Đừng có khóc mà. Chỉ là cậu vẫn chưa kiểm soát được hành vi của mình thôi.'
 			},
@@ -4247,7 +4247,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Đúng là thế nhỉ? Nếu cậu biết bơi thì mình sẽ bớt lo lắng cho cậu hơn. Nhưng mà chúng ta là “bộ đôi rắc rối”. Đôi khi mình cũng gây rắc rối cho cậu nữa. Dù sao thì mình sẽ luôn bên cạnh cậu khi gặp rắc rối. Và ngược lại cậu cũng vậy nhỉ?'
 			},
@@ -4259,7 +4259,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Phải rồi, thay vì nói “xin lỗi” thì cậu nên nói “cảm ơn” cho những lúc thế này.'
 			},
@@ -4283,7 +4283,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'A... Phải rồi... Mình đi lấy lại cái kiếm và khiên ở cuối dòng đây. Cậu cứ đợi mình ở đây.'
 			},
@@ -4325,7 +4325,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'À ừm, được thôi mình hứa.'
 			},
@@ -4337,7 +4337,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: '...'
 			},
@@ -4529,7 +4529,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Bọn mình tới rồi này. Xin lỗi vì nay đễ trễ nha. Tại ngủ quên và một số chuyện đã xảy ra với Asa...'
 			},
@@ -4547,7 +4547,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Shuuya? Cậu ổn chứ? Sao trông cậu lo lắng và toàn nhiều mô hôi thế này?'
 			},
@@ -4577,7 +4577,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'À bác, Shuuya chắc cần được nghỉ ngơi chút. Bạn ý luyện tập suốt rồi ạ.'
 			},
@@ -4637,7 +4637,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Chúng cháu biết rồi.'
 			},
@@ -4655,7 +4655,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Phải đó, chiến thuật mình nghĩ ra còn bị phá mất rồi.'
 			},
@@ -4697,7 +4697,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Asahi! Lên đi.'
 			},
@@ -4757,7 +4757,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Không công bằng, bọn con đâu có Skill!'
 			},
@@ -4775,7 +4775,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Mọi người tập luyện thế đủ rồi, vào ăn trưa nào.'
 			},
@@ -4787,7 +4787,7 @@ const volume = [
 			},
 			{
 				class: 'Shuuya',
-				face: [ 'Shuuya', 'unknown', 'unknown' ],
+				face: [ 'Shuuya', 'Kowashi', 'unknown' ],
 				name: [ 'Shuuya', 'Kowashi', 'Asahi' ],
 				content: 'Vâng (nya)!'
 			},
@@ -4835,7 +4835,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Thật hả anh? Đây đúng là tin tốt thật mà.'
 			},
@@ -4865,7 +4865,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Đúng rồi đó con, mẹ cũng đang muốn hỏi con.'
 			},
@@ -4931,7 +4931,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Bình tĩnh nào anh. Hãy nhìn kĩ đôi mắt của nó kìa. Mỗi lần nghiêm túc thì nó lại trưng đôi mắt như vậy đó.'
 			},
@@ -4997,7 +4997,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Vậy à. Con trai mẹ ngầu quá đi. Giờ đến lượt chuyện của mẹ nè. Hôm nay á...'
 			},
@@ -5051,7 +5051,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Shu, con có ổn không? Nãy mẹ gọi con không có thấy trả lời.'
 			},
@@ -5069,7 +5069,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ vừa có gọt ít táo đem vào cho con nè.'
 			},
@@ -5081,7 +5081,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ ăn phần của mẹ rồi, con cứ ăn đi.'
 			},
@@ -5093,7 +5093,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Mẹ cũng biết tính cha con mà. Với cả con cũng chưa từng đòi hỏi gì nên mẹ đã rất vui khi con nói vậy. Tất nhiên phải đảm bảo an toàn tính mạng là trên hết nha.'
 			},
@@ -5105,7 +5105,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Thôi giờ mẹ đi ngủ đây, ăn xong thì cứ để đĩa đấy mai rửa cũng được.'
 			},
@@ -5117,7 +5117,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Chúc Shu ngủ ngon nha.'
 			},
@@ -5160,7 +5160,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Ra là thế. Nếu là mình sẽ hét toáng lên để khiến cho nó sợ.'
 			},
@@ -5178,7 +5178,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Ha ha! Phải đó.'
 			},
@@ -5214,7 +5214,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Cậu giỏi thật ha, Asahi. Mình chả thể nào bắt được mà không cần nhìn đâu.'
 			},
@@ -5244,7 +5244,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Để mà nói ra thì... hm... chuyện hơi dài...'
 			},
@@ -5262,7 +5262,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Thôi được rồi. Trước tiên là hoàn cảnh của anh thì lúc đó là 1 năm trước, anh đang 5 tuổi...'
 			},
@@ -5286,7 +5286,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Chỉ là mình đang có chút suy nghĩ...'
 			},
@@ -5298,7 +5298,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Thực ra là về cha mẹ mình...'
 			},
@@ -5316,7 +5316,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Nhưng mình không bảo vệ được người thân thì nó còn có ý nghĩa gì chứ...'
 			},
@@ -5328,7 +5328,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Tớ đã cứu cậu nhỉ?'
 			},
@@ -5340,7 +5340,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Mình tên Kowashi, làm bạn của nhau nha và cậu nợ mình một lần đấy.'
 			},
@@ -5364,7 +5364,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Anh ngầu thế mà lại. Và Shuuya vẫn còn nợ mình nhỉ? Hihi.'
 			},
@@ -5376,7 +5376,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'A! Đừng kể nó! Cậu hứa rồi mà! Cậu không còn nợ mình gì nữa đâu!'
 			},
@@ -5388,7 +5388,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Rồi rồi...'
 			},
@@ -5400,7 +5400,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'À ừm... Nè Shuuya, chúng ta có nên kể không nhỉ? Tại vì cứ mỗi lần...'
 			},
@@ -5436,7 +5436,7 @@ const volume = [
 			},
 			{
 				class: 'Celia',
-				face: [ 'unknown' ],
+				face: [ 'Celia' ],
 				name: [ 'Celia' ],
 				content: 'Chuyện khẩn cấp gì vậy? Ôi! Mau đưa cô bé đó lên giường mau. Tôi sẽ lấy『Lọ thuốc hồi phục』ngay.'
 			},
@@ -5454,7 +5454,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Chúng ta thử vào ngó đi.'
 			},
@@ -5472,7 +5472,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Bình tĩnh nào cậu, mọi người ở đây sẽ không làm hại cậu đâu.'
 			},
@@ -5508,7 +5508,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Cứ tin ở mình.'
 			},
@@ -5520,7 +5520,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Bình tĩnh nào cậu. Mọi người thực sự đều là người tốt. Họ đã cứu cậu đó, bình tĩnh nào. Mọi chuyện sẽ ổn thôi.'
 			},
@@ -5538,7 +5538,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Mọi người có thể thấy đây là những vết thương hồi đó. Sau khi anh tỉnh dậy thì thấy Asahi và Shuuya đang ngồi cạnh bên giường. Và lúc đó anh và Shuuya đã làm bạn với Asahi.'
 			},
@@ -5562,7 +5562,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Asahi, cậu vẫn đang để tâm đến chuyện này à?'
 			},
@@ -5574,7 +5574,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Vậy hãy lắng nghe mình này. Những vết thương này không là gì so với việc bảo vệ được cậu. Mình không hề hối hận những hành động của mình.'
 			},
@@ -5586,7 +5586,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Bên cạnh đó thì mình đã có mục tiêu để bảo vệ đó là những người quan trọng đối với mình. Nhất là Asahi, Shuuya, sơ ... Ủa? Sao cậu lại quay người lại vậy? Mình vừa nói gì khiến cậu bực à? Nè?'
 			},
@@ -5598,7 +5598,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Này Shuuya, mình vừa nói gì khiến Asahi bực mình à?'
 			},
@@ -5610,7 +5610,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Ơ vậy mình đã nói gì?'
 			},
@@ -5622,7 +5622,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Nói mình đi mà!'
 			},
@@ -5634,7 +5634,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'SHUUYA! MÌNH ĐÃ NÓI GÌ SAI VẬY?'
 			},
@@ -5682,7 +5682,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Đáng đời! Làm câu giật mình rồi hả? Bọn tớ đợi cậu mãi để chơi cùng mà không thấy đâu.'
 			},
@@ -5700,7 +5700,7 @@ const volume = [
 			},
 			{
 				class: 'Kowashi',
-				face: [ 'unknown' ],
+				face: [ 'Kowashi' ],
 				name: [ 'Kowashi' ],
 				content: 'Xin lỗi nha, nhưng tại sao đến muộn vậy?'
 			},
@@ -5718,13 +5718,13 @@ const volume = [
 			},
 			{
 				class: 'Celia',
-				face: [ 'unknown' ],
+				face: [ 'Celia' ],
 				name: [ 'Sơ Celia' ],
 				content: 'Ba em kia! Còn đứng ở đấy nói chuyện nữa, đến giờ vào học rồi mau vào đi.'
 			},
 			{
 				class: 'Shuuya',
-				face: [ 'Shuuya', 'unknown', 'unknown' ],
+				face: [ 'Shuuya', 'Kowashi', 'unknown' ],
 				name: [ 'Shuuya', 'Kowashi', 'Asahi' ],
 				content: 'Vâng (nya)!'
 			},
@@ -5738,7 +5738,7 @@ const volume = [
 				class: 'think',
 				face: [ 'Shuuya' ],
 				name: [ 'Shuuya' ],
-				content: 'Cô nhi viện hiện đang được quản lý bởi sơ Celia và đồng thời cũng là người chăm sóc cho các đứa trẻ ở đây. Sơ Celia hơn tuổi mẹ tôi nên chắc là đã hơn 40, là một người nhân hậu và ân cần luôn giang tay giúp đỡ những đứa trẻ mồ côi. Cơ sở vật chất ở nơi đây cũng có thể nói là ổn. Có một khu vườn trồng rau củ quả ở phía sau để có thể ăn hoặc mang đi bán. Đôi khi Cô nhi viện cũng nhận được một chút quyên góp của người dân xung quanh như là đồ ăn, quần áo, ...'
+				content: 'Cô nhi viện hiện đang được quản lý bởi sơ Celia và đồng thời cũng là người chăm sóc cho các đứa trẻ ở đây. Sơ Celia hơn tuổi mẹ tôi nhiều nên chắc là đã ngoài 40, là một người nhân hậu và ân cần luôn giang tay giúp đỡ những đứa trẻ mồ côi. Cơ sở vật chất ở nơi đây cũng có thể nói là ổn. Có một khu vườn trồng rau củ quả ở phía sau để có thể ăn hoặc mang đi bán. Đôi khi Cô nhi viện cũng nhận được một chút quyên góp của người dân xung quanh như là đồ ăn, quần áo, ...'
 			},
 			{
 				class: 'think',
@@ -5826,7 +5826,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Mừng con về nhà. Cha cũng sắp về rồi, con mau vào dọn bàn hộ mẹ với nha.'
 			},
@@ -5850,7 +5850,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Mừng anh về, mau cất giáp và vào ăn tối nào.'
 			},
@@ -5904,7 +5904,7 @@ const volume = [
 			},
 			{
 				class: 'Celia',
-				face: [ 'unknown' ],
+				face: [ 'Celia' ],
 				name: [ 'Sơ Celia' ],
 				content: 'Không việc gì phải cảm ơn tôi đâu, anh Haruka. Đỡ đẻ là nghĩa vụ của chúng tôi ý mà. Ngược lại tôi còn phải cảm ơn vợ anh vì luôn giúp đỡ bên cô nhi viện chứ.'
 			},
@@ -5916,7 +5916,7 @@ const volume = [
 			},
 			{
 				class: 'Celia',
-				face: [ 'unknown' ],
+				face: [ 'Celia' ],
 				name: [ 'Sơ Celia' ],
 				content: 'Nhưng thật kì lạ là đứa trẻ nó không khóc. Đây có lẽ là trường hợp đầu tiên mà tôi gặp phải sau khi đỡ đẻ rất nhiều. Liệu đứa trẻ có ổn không nhỉ?'
 			},
@@ -5952,7 +5952,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Nhìn này, con khóc mất rồi. Anh à, anh nên nói nhỏ lại, xem anh vừa khiến cho con khóc rồi này. Nín đi con yêu, mẹ vừa mắng cha con rồi.'
 			},
@@ -5976,7 +5976,7 @@ const volume = [
 			},
 			{
 				class: 'Celia',
-				face: [ 'unknown' ],
+				face: [ 'Celia' ],
 				name: [ 'Sơ Celia' ],
 				content: 'Ái chà, có vẻ đứa trẻ khóc rồi. Chắc là nó không bị gì đâu, mọi người không cần phải lo lắng nữa. Thôi tôi xin phép về.'
 			},
@@ -5988,13 +5988,13 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Vậy hẹn gặp lại sơ. Xin lỗi vì tôi không tiễn được. Anh, trời tối rồi, anh đưa sơ về nhà hộ em nha.'
 			},
 			{
 				class: 'Celia',
-				face: [ 'unknown' ],
+				face: [ 'Celia' ],
 				name: [ 'Sơ Celia' ],
 				content: 'A, không cần đưa tôi về nhà đâu, chỉ cần tiễn tôi ra cửa là được rồi. Vợ anh vừa mới sinh nên có thể cơ thể sẽ còn rất yếu, anh nên ở lại.'
 			},
@@ -6006,7 +6006,7 @@ const volume = [
 			},
 			{
 				class: 'Celia',
-				face: [ 'unknown' ],
+				face: [ 'Celia' ],
 				name: [ 'Sơ Celia' ],
 				content: 'Ừm, hẹn gặp lại cả nhà.'
 			},
@@ -6030,7 +6030,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Suỵttt... Con nó đang ngủ anh à.'
 			},
@@ -6054,7 +6054,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Thằng bé cũng giống anh nữa mà, nó có đôi mắt lam tuyệt đẹp như của anh vậy.'
 			},
@@ -6078,7 +6078,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Shu! Bữa sáng xong rồi. Ra ăn sáng đi con.'
 			},
@@ -6120,7 +6120,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Chào buổi sáng Shu. Mẹ có làm món trứng con thích này.'
 			},
@@ -6138,7 +6138,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Hình như hôm nay con sẽ đến Cô nhi viện để học nhỉ?'
 			},
@@ -6150,7 +6150,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Con mẹ ngoan quá đi à. Không có nhiều đứa trẻ như con ở độ tuổi này đâu. Mẹ cảm giác con không đúng với tuổi thật vậy. Có cảm giác khá là trững trạc đó. Thôi mẹ đi may vá đây.'
 			},
@@ -6174,7 +6174,7 @@ const volume = [
 			},
 			{
 				class: 'ShuuyaMother',
-				face: [ 'unknown' ],
+				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
 				content: 'Đi đường cẩn thận nha con!'
 			},

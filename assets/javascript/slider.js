@@ -32,13 +32,7 @@ function addSlider(id) {
 }
 
 function jump() {
-	document.querySelector('.story').remove();
-	document.querySelector('.slider').remove();
-	addStory(this.id);
-	addSlider(this.id);
-	checkHide();
-
-	document.documentElement.scrollTop = 0;
+	reChapter(this.id);
 }
 
 function toggleBox() {
@@ -47,30 +41,15 @@ function toggleBox() {
 }
 
 function left() {
-	const options = document.querySelectorAll('.option');
-	const check = parseFloat(document.querySelector('.optionSelected').id);
-	if(check < (options.length - 1)) {
-		document.querySelector('.story').remove();
-		document.querySelector('.slider').remove();
-		addStory(check + 1);
-		addSlider(check + 1);
-		checkHide();
-
-		document.documentElement.scrollTop = 0;
-	}
+	const check = parseInt(document.querySelector('.optionSelected').id);
+	if(check < (volume.length - 1))
+		reChapter(check + 1);
 }
 
 function right() {
-	const check = parseFloat(document.querySelector('.optionSelected').id);
-	if(check > 0) {
-		document.querySelector('.story').remove();
-		document.querySelector('.slider').remove();
-		addStory(check - 1);
-		addSlider(check - 1);
-		checkHide();
-
-		document.documentElement.scrollTop = 0;
-	}
+	const check = parseInt(document.querySelector('.optionSelected').id);
+	if(check > 0)
+		reChapter(check - 1);
 }
 
 function hideOff() {
@@ -79,8 +58,8 @@ function hideOff() {
 	localStorage.setItem('hide', 0);
 	toggleHide.addEventListener('click', hideOn);
 	toggleHide.removeEventListener('click', hideOff);
-	toggleHide.classList.add('hideOff');
-	toggleHide.classList.remove('hideOn');
+	toggleHide.classList.toggle('hideOff');
+	toggleHide.classList.toggle('hideOn');
 	for(var i = 0; i < dialogueHide.length; i++) {
 		dialogueHide[i].remove();
 	}
@@ -91,8 +70,8 @@ function hideOn() {
 	localStorage.removeItem('hide');
 	toggleHide.addEventListener('click', hideOff);
 	toggleHide.removeEventListener('click', hideOn);
-	toggleHide.classList.add('hideOn');
-	toggleHide.classList.remove('hideOff');
+	toggleHide.classList.toggle('hideOn');
+	toggleHide.classList.toggle('hideOff');
 	for(var i = 0; i < dialogue.length; i++) {
 		dialogue[i].innerHTML += `<div class="dialogueHide" onclick="removeHide()">Click để mở</div>\n`;
 	}
@@ -101,4 +80,19 @@ function checkHide() {
 	if(localStorage.hide == 0) {
 		hideOff();
 	}
+}
+function reChapter(id) {
+	if(document.querySelector('.list'))
+		document.querySelector('.list').remove();
+	if(document.querySelector('.story')) {
+		document.querySelector('.story').remove();
+		document.querySelector('.slider').remove();
+	};
+	if(document.querySelector('.content'))
+		document.querySelector('.content').remove();
+	addStory(id);
+	addSlider(id);
+	pushMark(String(volume[id].chapter));
+	checkHide();
+	document.documentElement.scrollTop = 0;
 }

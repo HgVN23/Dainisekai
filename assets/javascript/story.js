@@ -10,7 +10,6 @@ function addStory(id) {
 		for(var j = 0; j < tempD[i].face.length; j++) {
 			character += `
 				<div class="character">
-					<img class="face" src="assets/media/image/character/${tempD[i].face[j]}.png">
 					<div class="name">${tempD[i].name[j]}</div>
 				</div>\n
 			`;
@@ -41,3 +40,5 @@ function addStory(id) {
 function removeHide() {
 	document.querySelector('.dialogueHide').remove();
 }
+
+// <img class="face" src="assets/media/image/character/${tempD[i].face[j]}.png">
