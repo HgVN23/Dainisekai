@@ -2,7 +2,9 @@ let option = ``;
 let tempMark = [];
 if(localStorage.mark)
 	tempMark = JSON.parse(localStorage.getItem('mark'));
-addList();
+setTimeout(function delay() {
+	addList();
+}, 200);
 
 function addList() {
 	let chapters = ``;
