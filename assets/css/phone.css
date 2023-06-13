@@ -34,4 +34,8 @@
 	.content {
 		width: 25rem;
 	}
+	.chapter,
+	.dialogue {
+		border-width: 3px!important;
+	}
 }

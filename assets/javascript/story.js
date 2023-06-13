@@ -20,7 +20,6 @@ function addStory(id) {
 					${character}
 				</div>
 				<p>${tempD[i].content}</p>
-				<div class="dialogueHide" onclick="removeHide()">Click để mở</div>
 			</div>\n
 		`;
 		words += tempD[i].content.split(' ').length;

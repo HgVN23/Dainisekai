@@ -1,7 +1,7 @@
 function addSlider(id) {
 	const format = `
 		<div class="slider">
-			<div class="toggleHide hideOn"></div>
+			<div class="toggleHide hideOff"></div>
 			<div class="left"></div>
 			<div class="selectBox">
 				<div class="optionBox optionBoxHide">${option}</div>
@@ -28,7 +28,7 @@ function addSlider(id) {
 	if(check == 0)
 		document.querySelector('.right').classList.add('turnOff');
 
-	document.querySelector('.toggleHide').addEventListener('click', hideOff);
+	document.querySelector('.toggleHide').addEventListener('click', hideOn);
 }
 
 function jump() {
