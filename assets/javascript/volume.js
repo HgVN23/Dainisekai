@@ -1,16 +1,306 @@
 const volume = [
 	// {
-	// 	chapter: 11,
-	// 	title: 'Nhiệm vụ đầu tiên (2)',
+	// 	chapter: 12,
+	// 	title: 'Nhiệm vụ đầu tiên (3)',
 	// 	dialogue: [
 	// 		{
 	// 			class: '',
-	// 			face: [ '' ],
 	// 			name: [ '' ],
 	// 			content: ''
 	// 		}
 	// 	]
 	// },
+	{
+		chapter: 11,
+		title: 'Nhiệm vụ đầu tiên (2)',
+		dialogue: [
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Hyouka đánh thức tôi dậy sau một giấc ngủ trưa. Có vẻ như cả đám đã nghỉ ngơi đủ để tiếp tục hoàn thành nhiệm vụ. Còn tôi vẫn đang còn nửa tỉnh nửa mơ vì nằm dưới tán cây mát mẻ cùng làn gió nhè nhẹ thoang thoảng thổi qua. Thật là dễ chịu, tôi không hề muốn di chuyển khỏi chốn thư thái này. Cho dù là thế tôi vẫn còn việc cần phải làm. Nếu chỉ có một mình thì tôi sẽ vẫn nằm tiếp nhưng với cương vị trưởng Party, quản lý mọi người hoàn thành nhiệm vụ là ưu tiên hàng đầu. Hyouka đưa tay ra, có vẻ như nhỏ muốn kéo tôi dậy. Tôi đưa tay ra nắm lấy bàn tay ấy, bàn tay của Hyouka thật là mềm mại và ấm áp mà không hề lạnh. Tôi đứng dậy với cơ thể còn hơi nhức mỏi chắc bởi ngồi tựa vào cây ngủ nên tôi vặn mình để cơ thể thoải mái hơn chút. Được rồi, sẵn sàng cho nhiệm vụ tiếp theo.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Nghe này các cậu, theo kế hoạch đã bàn sáng nay thì tiếp theo chúng ta sẽ hỗ trợ Asahi và Hyouka làm nhiệm vụ săn Slime. Trước tiên chúng ta cần...'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Tôi chưa kịp nói xong thì Asahi đã cắt lời. Trông nhỏ có vẻ rất hào hứng, tai thì dựng đứng còn mắt cứ sáng lên trông như không thể đợi được thêm nữa.'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Không cần phải nói thêm nữa nya. Trước tiên chúng ta cần phải tìm ra Slime đúng không nya?'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Vậy thì mình sẽ tìm cùng cậu, coi như là cảm ơn trước đó đã giúp mình nha.'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Được thôi nya. Vậy thì hai bọn mình chạy trước đây, tìm được vị trí thì mình sẽ báo lại sau nya.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Ê khoan đã hai cậu! Ý mình muốn nói là trước tiên chúng ta phải dọn dẹp chỗ này đã!'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Thế là “bộ đôi rắc rồi” đã chạy vút đi mà không nghe thấy tôi nói gì. Bộ đôi đó đúng là nhanh nhảu thật. Dù sao thì tôi cũng không hẳn là trưởng Party, bọn tôi chưa bàn về vấn đề này. Chẳng qua tôi có cảm giác như vậy vì tôi đứng ra làm một số việc như là đăng ký và đặt tên Party, lập ra kế hoạch thời gian làm nhiệm vụ, mang một số đổ tiếp tế như là đồ ăn nước uống và một vài vật dụng... Ủa khoan? Đó có phải là những thứ mà trường Party hay làm không ta? Sao cảm giác nó sai sai thế nào ấy nhỉ? Mà thôi... Phải dọn nhanh để ra chỗ bọn họ thôi. Tôi thở dài, nhìn về phía chỗ bọn tôi nghỉ ngơi thì thấy Hyouka đang dọn dẹp đồ đạc. Tôi cứ tưởng Hyouka cũng đi theo bộ đôi ngay sau đó vì đây là nhiệm vụ của nhỏ.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Ờm... Hyouka? Sao cậu vẫn còn ở đây vậy? Asahi đi làm nhiệm vụ săn Slime rồi kìa?'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Phải dọn đống đồ bày ra trước. Bộ đôi đó sung sức lắm nên kể cả có nghe thế cũng sẽ làm cho mau chóng để đi làm mấy việc của các cậu ấy muốn thôi.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Vậy là cậu có nghe thấy lúc mình nói một mình à... Ngại thật đấy...'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Bị Hyouka thấy mình nói một mình ngại thật... Mà may là Hyouka có nghe thấy mình nói, có thêm người ở lại giúp dọn dẹp thì sẽ nhanh thôi. Cần phải dọn nhanh rồi còn ra chỗ của bộ đôi mới được.'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Không. Mình nghe thấy lúc trước khi Shuuya bị ngắt lời do Asahi.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Nhưng... mình còn chưa đề cập gì mà?'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Mình đã ở bên Shuuya khá lâu để hiểu Shuuya muốn nói gì mà.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Vậy Hyouka hiểu mình đến vậy cơ á? Còn tôi... tôi vẫn chưa thể thấu hiểu nhiều về Hyouka, có lẽ cả “bộ đôi rắc rối” mà thậm chí là cả bản thân... Tôi sau khi nghe vậy nhịp tim dường như đã lệch một nhịp. Phải chăng đây là cảm giác bị người khác nắm thóp... Hay là cảm xúc... chắc không phải đâu.'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Thế Shuuya có điều gì muốn nói không? Mình đang chờ nghe Shuuya nói.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'À... ừm... Cảm ơn cậu đã ở lại giúp mình nha, Hyouka.'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Không phải là điều mình muốn nghe nhưng vậy cũng được. Không có gì.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Xung quanh Hyouka xuất hiện vài bông tuyết lấp lánh và đôi tai dài của nhỏ đang ve vẩy. Nhưng... Không phải ư? Mình vẫn không thể hiểu nổi nhỏ... Con gái đúng là khó hiểu thật.'
+			},
+			{
+				class: 'think',
+				name: [ '???' ],
+				content: 'Chú diều hâu đậu ở trên cây nơi mọi người nghỉ ngơi đã tung cánh bay qua nơi Asahi đang làm nhiệm vụ săn Slime. Bộ đôi trông có vẻ như vẫn đang tìm kiếm Slime.'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Tại sao mãi không thấy Slime đâu nya! Chị Maki bảo có nhiều lắm mà nya!'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Chị có bảo là nhiều chứ không bảo dễ kiếm. Nhưng thường Slime phải nhiều mà ta... Thậm chí nó còn to khoảng bằng đầu con người. Chẳng lẽ các mạo hiểm giả khác săn hết rồi?'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Cũng không trách được bởi Slime săn dễ, mà số lượng cũng nhiều nữa nya.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Slime ở vùng này có màu giống cỏ nên hơi khó tìm. Chắc chúng ta chưa tìm kĩ thôi. Phải chi có manh mối xung quanh đây...'
+			},
+			{
+				class: 'think',
+				name: [ '???' ],
+				content: 'Kowashi vừa bước đi vừa nói vừa ngó nhìn xung quanh nên đã không để ý đường trước mặt. Rồi cậu đã trượt chân và ngã ra đằng sau. Cú ngã khiến cho Asahi nghe thấy từ xa phải chạy vội tới xem có chuyện gì.'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'NYA! KOWASHI, CÓ SAO... A nya! Cậu vừa dẫm phải con Slime này nya. À không... đây chỉ là chất nhầy Slime thôi nya. Nhưng chúng ta chỉ cần lần theo vệt nhầy của Slime là được rồi, Kowashi tuyệt thật đó nya.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Mình mà lại. Cậu có thể tiếp tục khen mình... sau khi giúp mình đứng lên được không?'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Nya...'
+			},
+			{
+				class: 'think',
+				name: [ '???' ],
+				content: 'Sau khi Asahi kéo Kowashi đứng dậy thì bộ đôi lần theo vết nhầy của Slime để lại và đã dẫn họ đến một bãi đá nhỏ gần bìa rừng. Ở đó đang có bầy Slime tụ tập lại xung quanh và có vẻ bọn chúng đang chốn khỏi thứ gì đó. Thường thì Slime hay di chuyển vô định nhưng nếu có cảm giác bị đe dọa thì chúng sẽ tìm nơi để chốn.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Có vẻ đám Slime này đang chốn mạo hiểm giả xuất hiện trước đó thì phải. Trông có vẻ đông đó, có lẽ chúng ta nên đợi... Này!'
+			},
+			{
+				class: 'think',
+				name: [ '???' ],
+				content: 'Chưa dứt lời, Asahi đã chạy thẳng lên tảng đá lớn mà bọn Slime đang chốn sau đó. Hai tay cô nắm chắc thanh đại kiếm, đưa đường kiếm hướng từ bên phải phía dưới lên phía trên quá đầu trong khi bật nhảy khỏi tảng đá. Trên không trung, cô vung kiếm đập mạnh xuống mặt đất khiến xung quanh tỏa ra trấn động. Tuy rằng cú vung không trúng con Slime nào vì khi Asahi ở trên không trung, bọn Slime đã nhận ra và nhảy ra hướng khác. Nhưng, những con mà gần Asahi nhất đã không né được trấn động từ cú vung kiếm xuống mặt đất nên đã bị choáng và mất phương hướng. Và đó là Skill『Heavy Slash』mà Asahi đã sử dụng. Sau cú đập kiếm đó, Asahi liền đổi tư thế ngay lập tức, cô cầm chắc thanh trọng kiếm trong tay, vung một vòng từ trái qua phải kết liễu các con Slime đang bị choáng ngay lập tức.'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Tuyệt vời nya! Mình săn được 5 con cùng lúc luôn nè nya! A mấy con khác bỏ chạy rồi, mình đuổi theo đây nya!'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Từ từ đã Asahi, nếu không cậu sẽ... Biết ngay mà... Hầy...'
+			},
+			{
+				class: 'think',
+				name: [ 'Kowashi' ],
+				content: 'Asahi vội vàng định đuổi theo bọn Slime trốn chạy thì đã trượt chân và ngã. Tuy phản xạ của nhỏ thường rất sắc bén nhưng cầm thanh trọng kiếm trong tay, trọng lượng cơ thể bị thay đổi khiến cho Asahi không còn phản ứng kịp. Và có vẻ nhỏ chưa quen với thanh trọng kiếm, dù gì cũng mới nhận được chức nghiệp cũng như vũ khí ngày hôm qua nên chưa thể làm quen được.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Để mình lùa bọn Slime lại cho. Còn cậu cố loại bỏ chất nhầy dích trên người của cậu đi ha.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Kowashi đuổi theo bọn Slime đang chạy trốn thì... Phập! Phập! Phập! 3 phát mũi tên từ đâu bay tới găm thẳng vào đám Slime và kết liễu chúng. Mũi tên vừa găm vào thì ngay lập tức đóng băng toàn cơ thể của Slime. Mũi tên băng đó được bắn ra từ Skill『Ice Arrow』của Hyouka. Tôi và Hyouka đã dọn dẹp xong và đến nơi bộ đôi đang săn Slime.'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Còn 2 con nữa là xong nhiệm vụ. Mà Asahi đã làm gì để ra nông nỗi thế này?'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Asahi lúc này đang ngồi dưới đất cố gỡ chất nhầy đang dính trên người. Do cách tấn công mạnh của Asahi nên chất nhầy trong cơ thể Slime đã bắn lên người nhỏ. Còn Hyouka tấn công từ xa nên sẽ không cần lo việc bị dính phải.'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Ai đó giúp mình với nya! Lông mình nhớt quá và mình không đứng lên được nya... Ở gần đây có hồ nước nào không để mình nhảy tạm xuống nya...'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Có vẻ gần đây không có. Nhưng mình sẽ thử cách này xem.『Clean』'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Tôi dơ lòng bàn tay phải hướng về phía Asahi, một luồng gió xoáy nhẹ xung quanh xuất hiện quanh người nhỏ. Chất nhầy dần dần tách ra khỏi lông và trang bị của Asahi. Tôi đã học được Skill này trong khi dọn dẹp nhà cửa.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Nếu mình dùng được thủy kĩ thì『Clean』có thể làm sạch luôn mọi thứ, còn phong kĩ của mình chỉ có thể tách vật bám nhất định ra được thôi.'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Shuuya tuyệt vời nya! Tạm thời thế là ổn với mình rồi nya! À mà mình săn đủ yêu cầu rồi nên giờ giúp nốt Hyouka nya. Còn cần mấy con nữa vậy nya?'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Còn 2 con... Đính chính. Còn 1 con, mình vừa tiện tay bắn thêm lúc Shuuya dùng『Clean』.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Tính ra bọn mình chưa từng thấy cậu dùng cung bao giờ mà. Sao cậu có thể bắn chuẩn như vậy được?'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Mắt của Elf khá tinh đó.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Trong lúc mọi người đang nói chuyện thì tôi tiến tới chỗ đám Slime bị Hyouka hạ, cầm một con lên nhìn kĩ. Có vẻ băng của Hyouka chỉ đóng băng bề ngoài nhưng dường như Slime không chịu được lạnh nên đã bị hạ. Tôi lấy dao bếp từ『Cooking Set』ra, khoét một lỗ đủ lớn để tôi thò hai ngón tay vào để lấy『Crystal』. Lí do tại sao tôi không đổ chất nhầy của Slime ra ngoài để dễ lấy『Crystal』thì là vì tôi định giữ lại để thí nghiệm nó vào lúc nào đấy, rồi cất vào Inventory. Tuy là chị Maki có nói nó không có giá trị gì nhưng có lẽ nó sẽ có ích trong vài trường hợp. Và tôi đã lặp lại như thế với các con Slime còn lại của Hyouka. '
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Được rồi,『Crystal』của Slime mình đã nhặt hết. Giờ chỉ cần 1 con nữa là...'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Suỵt!'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Tôi chưa kịp nói xong thì lại bị ngắt lời. Có vẻ Asahi đã nghe được tiếng gì đó. Đôi tai của nhỏ đang định hướng xem âm thanh phát ra ở phía nào. Rồi Asahi đã xác định được và chỉ về hướng đó báo hiệu cho Hyouka.'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Bắn về hướng kia nya!'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Hyouka dương cung lên bắn, mũi tên thẳng về hướng Slime đang nhảy vào rừng. Tiếc là nó đã nhảy ra phía sau cây nên cú bắn đó đã bị trượt. Asahi thấy vậy liền đuổi theo Slime sâu vào trong rừng và Kowashi thấy vậy cũng theo sau đó.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Ơ! HAI CẬU QUAY LẠI NGAY! TRONG RỪNG NGUY HIỂM LẮM! CHÚNG TA CÓ THỂ TÌM CON SLIME KHÁC MÀ! NÀY!'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Một lần nữa, bộ đôi lại không nghe tôi nói. Tôi thở dài, bất lực và nhìn xuống đất. Tự hỏi vị trí trưởng Party chắc không hợp với mình. Hyouka đặt hai bàn tay của nhỏ sau lưng tôi, đẩy tôi về trước như đang bảo phải đuổi theo họ ngay vậy. Chị Maki có bảo người mới không nên vào rừng vội, có nhiều ma vật nguy hiểm tồn tại trong đó. Gác suy nghĩ vu vơ sang một bên, tôi cần phải đuổi theo họ.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Rồi rồi. Không cần phải đẩy mình nữa đâu. Bộ đôi đó tốt nhất là nên chưa đi quá sâu vào trong khu rừng.'
+			},
+			{
+				class: 'think',
+				name: [ '???' ],
+				content: 'Chú Slime bị Hyouka bắn hụt đang nhảy sâu vào trong rừng. Chú cứ nhảy mãi cho đến khi đã cắt đuôi được Party của Shuuya. Rồi, một bàn chân của ma thú có bộ lông bạc từ đâu dẫm bẹp chú Slime đó. Mồm của con ma thú đó đang nhai ngấu nghiến một con ma thú khác với bộ hàm sắc nhọn có thể thấy từ bên ngoài. Còn đôi mắt thì đỏ ngầu như màu máu tươi vậy. Con ma thú vừa bước đi vừa nhai rồi biến mất khỏi nơi chú Slime tội nghiệp đã bị dẫm bẹp.'
+			}
+		]
+	},
 	{
 		chapter: 10.5,
 		title: 'Nếu như ta chưa từng gặp nhau',
@@ -1771,7 +2061,7 @@ const volume = [
 				class: 'ShuuyaMother',
 				face: [ 'ShuuyaMother' ],
 				name: [ 'Mẹ' ],
-				content: 'Fufu, nhất con rồi nhá Shu.'
+				content: 'Nhất con rồi nhá Shu.'
 			},
 			{
 				class: 'ShuuyaFather',

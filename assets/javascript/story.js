@@ -7,7 +7,7 @@ function addStory(id) {
 	var words = 0;
 	for(var i = 0; i < tempD.length; i++) {
 		var character = ``;
-		for(var j = 0; j < tempD[i].face.length; j++) {
+		for(var j = 0; j < tempD[i].name.length; j++) {
 			character += `
 				<div class="character">
 					<div class="name">${tempD[i].name[j]}</div>
