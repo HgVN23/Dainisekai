@@ -17,7 +17,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Hyouka đánh thức tôi dậy sau một giấc ngủ trưa. Có vẻ như cả đám đã nghỉ ngơi đủ để tiếp tục hoàn thành nhiệm vụ. Còn tôi vẫn đang còn nửa tỉnh nửa mơ vì nằm dưới tán cây mát mẻ cùng làn gió nhè nhẹ thoang thoảng thổi qua. Thật là dễ chịu, tôi không hề muốn di chuyển khỏi chốn thư thái này. Cho dù là thế tôi vẫn còn việc cần phải làm. Nếu chỉ có một mình thì tôi sẽ vẫn nằm tiếp nhưng với cương vị trưởng Party, quản lý mọi người hoàn thành nhiệm vụ là ưu tiên hàng đầu. Hyouka đưa tay ra, có vẻ như nhỏ muốn kéo tôi dậy. Tôi đưa tay ra nắm lấy bàn tay ấy, bàn tay của Hyouka thật là mềm mại và ấm áp mà không hề lạnh. Tôi đứng dậy với cơ thể còn hơi nhức mỏi chắc bởi ngồi tựa vào cây ngủ nên tôi vặn mình để cơ thể thoải mái hơn chút. Được rồi, sẵn sàng cho nhiệm vụ tiếp theo.'
+				content: 'Hyouka đánh thức tôi dậy sau một giấc ngủ trưa. Có vẻ như cả đám đã nghỉ ngơi đủ để tiếp tục hoàn thành nhiệm vụ. Còn tôi vẫn đang còn nửa tỉnh nửa mơ vì nằm dưới tán cây mát mẻ cùng làn gió nhè nhẹ thoang thoảng thổi qua. Thật là dễ chịu, tôi không hề muốn di chuyển khỏi trốn thư thái này. Cho dù là thế tôi vẫn còn việc cần phải làm. Nếu chỉ có một mình thì tôi sẽ vẫn nằm tiếp nhưng với cương vị trưởng Party, quản lý mọi người hoàn thành nhiệm vụ là ưu tiên hàng đầu. Hyouka đưa tay ra, có vẻ như nhỏ muốn kéo tôi dậy. Tôi đưa tay ra nắm lấy bàn tay ấy, bàn tay của Hyouka thật là mềm mại và ấm áp mà không hề lạnh. Tôi đứng dậy với cơ thể còn hơi nhức mỏi chắc bởi ngồi tựa vào cây ngủ nên tôi vặn mình để cơ thể thoải mái hơn chút. Được rồi, sẵn sàng cho nhiệm vụ tiếp theo.'
 			},
 			{
 				class: 'Shuuya',
@@ -162,17 +162,17 @@ const volume = [
 			{
 				class: 'think',
 				name: [ '???' ],
-				content: 'Sau khi Asahi kéo Kowashi đứng dậy thì bộ đôi lần theo vết nhầy của Slime để lại và đã dẫn họ đến một bãi đá nhỏ gần bìa rừng. Ở đó đang có bầy Slime tụ tập lại xung quanh và có vẻ bọn chúng đang chốn khỏi thứ gì đó. Thường thì Slime hay di chuyển vô định nhưng nếu có cảm giác bị đe dọa thì chúng sẽ tìm nơi để chốn.'
+				content: 'Sau khi Asahi kéo Kowashi đứng dậy thì bộ đôi lần theo vết nhầy của Slime để lại và đã dẫn họ đến một bãi đá nhỏ gần bìa rừng. Ở đó đang có bầy Slime tụ tập lại xung quanh và có vẻ bọn chúng đang trốn khỏi thứ gì đó. Thường thì Slime hay di chuyển vô định nhưng nếu có cảm giác bị đe dọa thì chúng sẽ tìm nơi để trốn.'
 			},
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Có vẻ đám Slime này đang chốn mạo hiểm giả xuất hiện trước đó thì phải. Trông có vẻ đông đó, có lẽ chúng ta nên đợi... Này!'
+				content: 'Có vẻ đám Slime này đang trốn mạo hiểm giả xuất hiện trước đó thì phải. Trông có vẻ đông đó, có lẽ chúng ta nên đợi... Này!'
 			},
 			{
 				class: 'think',
 				name: [ '???' ],
-				content: 'Chưa dứt lời, Asahi đã chạy thẳng lên tảng đá lớn mà bọn Slime đang chốn sau đó. Hai tay cô nắm chắc thanh đại kiếm, đưa đường kiếm hướng từ bên phải phía dưới lên phía trên quá đầu trong khi bật nhảy khỏi tảng đá. Trên không trung, cô vung kiếm đập mạnh xuống mặt đất khiến xung quanh tỏa ra trấn động. Tuy rằng cú vung không trúng con Slime nào vì khi Asahi ở trên không trung, bọn Slime đã nhận ra và nhảy ra hướng khác. Nhưng, những con mà gần Asahi nhất đã không né được trấn động từ cú vung kiếm xuống mặt đất nên đã bị choáng và mất phương hướng. Và đó là Skill『Heavy Slash』mà Asahi đã sử dụng. Sau cú đập kiếm đó, Asahi liền đổi tư thế ngay lập tức, cô cầm chắc thanh trọng kiếm trong tay, vung một vòng từ trái qua phải kết liễu các con Slime đang bị choáng ngay lập tức.'
+				content: 'Chưa dứt lời, Asahi đã chạy thẳng lên tảng đá lớn mà bọn Slime đang trốn sau đó. Hai tay cô nắm chắc thanh đại kiếm, đưa đường kiếm hướng từ bên phải phía dưới lên phía trên quá đầu trong khi bật nhảy khỏi tảng đá. Trên không trung, cô vung kiếm đập mạnh xuống mặt đất khiến xung quanh tỏa ra trấn động. Tuy rằng cú vung không trúng con Slime nào vì khi Asahi ở trên không trung, bọn Slime đã nhận ra và nhảy ra hướng khác. Nhưng, những con mà gần Asahi nhất đã không né được trấn động từ cú vung kiếm xuống mặt đất nên đã bị choáng và mất phương hướng. Và đó là Skill『Heavy Slash』mà Asahi đã sử dụng. Sau cú đập kiếm đó, Asahi liền đổi tư thế ngay lập tức, cô cầm chắc thanh trọng kiếm trong tay, vung một vòng từ trái qua phải kết liễu các con Slime đang bị choáng ngay lập tức.'
 			},
 			{
 				class: 'Asahi',
@@ -423,7 +423,7 @@ const volume = [
 				class: 'think',
 				face: [ 'Shuuya' ],
 				name: [ 'Shuuya' ],
-				content: 'Mặc kệ cuộc trò chuyện của đám đó, tôi ngồi dựa lưng vào thành xe, chống hai cánh tay lên thành và hướng nhìn về phía trước cố tận hưởng khung cảnh cùng làn gió mát mẻ này. Rồi cả đoàn xe đã dừng lại bên hồ nước có cây táo gần đó để nghỉ ăn trưa. Tôi mở thùng đồ trên xe, đưa tay vào để lấy 1 cái bánh mì thì Viktor nắm lấy chắc cánh tay của tôi, kéo lên và đẩy mạnh tôi vào thành xe làm xém thì bị ngã khỏi xe.'
+				content: 'Mặc kệ cuộc trò chuyện của đám đó, tôi ngồi dựa lưng vào thành xe, trống hai cánh tay lên thành và hướng nhìn về phía trước cố tận hưởng khung cảnh cùng làn gió mát mẻ này. Rồi cả đoàn xe đã dừng lại bên hồ nước có cây táo gần đó để nghỉ ăn trưa. Tôi mở thùng đồ trên xe, đưa tay vào để lấy 1 cái bánh mì thì Viktor nắm lấy chắc cánh tay của tôi, kéo lên và đẩy mạnh tôi vào thành xe làm xém thì bị ngã khỏi xe.'
 			},
 			{
 				class: 'villager',
@@ -5962,7 +5962,7 @@ const volume = [
 				class: 'think',
 				face: [ 'Shuuya' ],
 				name: [ 'Shuuya' ],
-				content: 'Có vẻ tôi đã đến kịp lúc trước khi vào học. Cùng lúc đó thì sơ Celia đứng trước cửa đang lắc chuông lắc cầm tay để gọi mấy đứa trẻ từ sân trước vào học. Còn tôi thì đang hơi mệt sau khi chạy nên tôi đã đứng lại một lúc, tay chống đầu gối và thở hổn hển. Vừa bình tâm được một chút thì có hai bàn tay của ai đó đập mạnh vào lưng tôi làm tôi giật cả mình.'
+				content: 'Có vẻ tôi đã đến kịp lúc trước khi vào học. Cùng lúc đó thì sơ Celia đứng trước cửa đang lắc chuông lắc cầm tay để gọi mấy đứa trẻ từ sân trước vào học. Còn tôi thì đang hơi mệt sau khi chạy nên tôi đã đứng lại một lúc, tay trống đầu gối và thở hổn hển. Vừa bình tâm được một chút thì có hai bàn tay của ai đó đập mạnh vào lưng tôi làm tôi giật cả mình.'
 			},
 			{
 				class: 'Shuuya',
