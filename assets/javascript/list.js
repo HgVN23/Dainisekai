@@ -1,10 +1,24 @@
-let option = ``;
+const url = location.origin + location.pathname;
+const urlChapter = url + '?chapter=';
+const urlDex = url + '?dex=';
+
 let tempMark = [];
 if(localStorage.mark)
 	tempMark = JSON.parse(localStorage.getItem('mark'));
-setTimeout(function delay() {
-	addList();
-}, 200);
+
+if(location.search) {
+	const urlParams = new URLSearchParams(location.search);
+	if(urlParams.has('chapter'))
+		loadChapter(urlParams.get('chapter'));
+	if(urlParams.has('dex') && parseFloat(urlParams.get('dex')) == 0)
+		loadDex(urlParams.get('dex'));
+	if(urlParams.has('dex') && parseFloat(urlParams.get('dex')) != 0)
+		loadDexContent(urlParams.get('dex'));
+
+} else
+	setTimeout(function delay() {
+		addList();
+	}, 200);
 
 function addList() {
 	let chapters = ``;
@@ -18,9 +32,6 @@ function addList() {
 				<p id="${i}">Chapter ${chapter} - ${title}</p>
 			</div>\n
 		`;
-		option += `
-			<div id="${i}" class="option">Chapter ${chapter}</div>
-		`;
 	}
 	document.querySelector('.list').innerHTML += chapters;
 
@@ -33,8 +44,35 @@ function addList() {
 	markAll();
 }
 
+function clean() {
+	const removeList = [ 'list', 'story', 'slider', 'content', 'dex' ];
+	for(let remove of removeList)
+		if(document.querySelector(`.${remove}`))
+			document.querySelector(`.${remove}`).remove();
+	document.documentElement.scrollTop = 0;
+}
+
 function openChapter() {
-	reChapter(this.id);
+	window.open(`${urlChapter}${volume[this.id].chapter}`, '_self');
+}
+function loadChapter(id) {
+	let Id;
+	for(var i = 0; i < volume.length; i++) {
+		if(volume[i].chapter == parseFloat(id)) {
+			Id = i;
+			break;
+		}
+	}
+	clean();
+	addStory(Id);
+	addSlider(Id);
+	pushMark(String(volume[Id].chapter));
+	checkHide();
+	document.querySelector('title').textContent = `Chapter ${volume[Id].chapter} - ${volume[Id].title} | 『Dainisekai』`;
+}
+
+function openMain() {
+	window.open(url, '_self');
 }
 
 function setMark() {

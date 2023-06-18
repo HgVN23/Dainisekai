@@ -1,13 +1,8 @@
-function addDex() {
-	if(document.querySelector('.list'))
-		document.querySelector('.list').remove();
-	if(document.querySelector('.story')) {
-		document.querySelector('.story').remove();
-		document.querySelector('.slider').remove();
-	};
-	if(document.querySelector('.content'))
-		document.querySelector('.content').remove();
-	document.documentElement.scrollTop = 0;
+function openDex() {
+	window.open(`${urlDex}0`, '_self');
+}
+function loadDex() {
+	clean();
 
 	const format = `
 		<section class="dex">
@@ -25,7 +20,7 @@ function addDex() {
 
 	const addOpen = document.querySelectorAll('.dialogue p');
 	for(var i = 0; i < addOpen.length; i++) {
-		addOpen[i].addEventListener('click', openDex);
+		addOpen[i].addEventListener('click', openDexContent);
 	}
 }
 
@@ -36,23 +31,21 @@ function addTitle(sekaiDex, part) {
 		var title = temp.title;
 		dex += `
 			<div class="dialogue">
-				<p id="sekaiDex${part}.${i}">${title}</p>
+				<p id="${part}.${i}">${title}</p>
 			</div>\n
 		`;
 	}
 	return dex;
 }
 
-function openDex() {
-	document.querySelector('.dex').remove();
-	addContent(this.id);
-
-	document.documentElement.scrollTop = 0;
+function openDexContent() {
+	window.open(`${urlDex}${this.id}`, '_self');
 }
 
-function addContent(id) {
-	if(id.includes('sekaiDex1')) {
-		var temp = sekaiDex1[parseInt(id.slice(10))];
+function loadDexContent(id) {
+	clean();
+	if(id.includes('1.')) {
+		var temp = sekaiDex1[parseInt(id.slice(2))];
 		var title = temp.title;
 		var tempC = temp.content;
 		var content = ``;
@@ -68,8 +61,9 @@ function addContent(id) {
 				${content}
 			</section>
 		`;
+		document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
 	} else {
-		var temp = sekaiDex2[parseInt(id.slice(10))];
+		var temp = sekaiDex2[parseInt(id.slice(2))];
 		var title = temp.title;
 		var tempS = temp.section;
 		var section = ``;
@@ -89,6 +83,7 @@ function addContent(id) {
 				${section}
 			</section>
 		`;
+		document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
 	}
 	document.querySelector('body').innerHTML += format;
 }

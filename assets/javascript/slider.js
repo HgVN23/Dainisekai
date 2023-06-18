@@ -1,4 +1,11 @@
 function addSlider(id) {
+	let option = ``;
+	for(var i = 0; i < volume.length; i++) {
+		option += `
+			<div id="${i}" class="option">Chapter ${volume[i].chapter}</div>
+		`;
+	}
+
 	const format = `
 		<div class="slider">
 			<div class="toggleHide hideOff"></div>
@@ -16,7 +23,7 @@ function addSlider(id) {
 	const options = document.querySelectorAll('.option');
 	options[id].classList.add('optionSelected');
 	for(var i = 0; i < options.length; i++) {
-		options[i].addEventListener('click', jump);
+		options[i].addEventListener('click', openChapter);
 	}
 
 	document.querySelector('.left').addEventListener('click', left);
@@ -31,10 +38,6 @@ function addSlider(id) {
 	document.querySelector('.toggleHide').addEventListener('click', hideOn);
 }
 
-function jump() {
-	reChapter(this.id);
-}
-
 function toggleBox() {
 	document.querySelector('.optionBox').classList.toggle('optionBoxHide');
 	document.querySelector('.optionSelected').scrollIntoView();
@@ -43,13 +46,13 @@ function toggleBox() {
 function left() {
 	const check = parseInt(document.querySelector('.optionSelected').id);
 	if(check < (volume.length - 1))
-		reChapter(check + 1);
+		window.open(`${urlChapter}${volume[check + 1].chapter}`, '_self');
 }
 
 function right() {
 	const check = parseInt(document.querySelector('.optionSelected').id);
 	if(check > 0)
-		reChapter(check - 1);
+		window.open(`${urlChapter}${volume[check - 1].chapter}`, '_self');
 }
 
 function hideOff() {
@@ -80,19 +83,4 @@ function checkHide() {
 	if(localStorage.hide == 0) {
 		hideOff();
 	}
-}
-function reChapter(id) {
-	if(document.querySelector('.list'))
-		document.querySelector('.list').remove();
-	if(document.querySelector('.story')) {
-		document.querySelector('.story').remove();
-		document.querySelector('.slider').remove();
-	};
-	if(document.querySelector('.content'))
-		document.querySelector('.content').remove();
-	addStory(id);
-	addSlider(id);
-	pushMark(String(volume[id].chapter));
-	checkHide();
-	document.documentElement.scrollTop = 0;
 }

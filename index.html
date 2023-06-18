@@ -39,12 +39,12 @@
 <body>
 	<header>
 		<div class="inHeader">
-			<a href=""><div class="symbol"></div></a>
-			<a class="title" href="">『Dainisekai』</a>
+			<div class="symbol" onclick="openMain()"></div>
+			<div class="title" onclick="openMain()">『Dainisekai』</div>
 		</div>
 		<div class="buttonHeader">
-			<a class="button" href="">Chapter</a>
-			<div class="button" onclick="addDex()">SekaiDex</div>
+			<div class="button"  onclick="openMain()">Chapter</div>
+			<div class="button" onclick="openDex()">SekaiDex</div>
 		</div>
 	</header>
 	<div class="list">
@@ -54,7 +54,7 @@
 		<hr>
 		<div class="buttons">
 			<div class="markAll"></div>
-			<div class="startRead" onclick="reChapter(volume.length - 1)">Đọc từ Chapter 0</div>
+			<div class="startRead" onclick="window.open(`${urlChapter}${volume[volume.length - 1].chapter}`, '_self');">Đọc từ Chapter 0</div>
 		</div>
 	</div>
 </body>
