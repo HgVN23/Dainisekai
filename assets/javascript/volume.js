@@ -1503,12 +1503,6 @@ const volume = [
 				class: 'info',
 				face: [ 'Shuuya' ],
 				name: [ 'Shuuya' ],
-				content: 'Những người trong Party có thể xem Status của nhau.'
-			},
-			{
-				class: 'info',
-				face: [ 'Shuuya' ],
-				name: [ 'Shuuya' ],
 				content: 'Khi làm nhiệm vụ có yêu cầu Party sẽ được bên Guild thưởng thêm 5% tiền thưởng cho mỗi thành viên trong Party tham gia nhiệm vụ, trừ trưởng Party. Còn nhận nhiệm vụ không có yêu cầu Party sẽ không thưởng thêm.'
 			},
 			{

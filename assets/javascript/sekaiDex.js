@@ -63,7 +63,6 @@ const sekaiDex2 = [
 				main: 'Party có thể tạo tạm thời hoặc lâu dài',
 				content: [
 					'Không giới hạn số lượng thành viên trong Party',
-					'Những người trong Party có thể xem Status của nhau',
 					'Khi làm nhiệm vụ có yêu cầu Party sẽ được bên Guild thưởng thêm 5% tiền thưởng cho mỗi thành viên trong Party tham gia nhiệm vụ, trừ trưởng Party. Còn nhận nhiệm vụ không có yêu cầu Party sẽ không thưởng thêm',
 					'Số tiền thưởng tự bên Party chia đều cho các thành viên'
 				]
