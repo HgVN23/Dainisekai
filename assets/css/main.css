@@ -330,6 +330,9 @@ p {
 .info {
 	border-left-color: #36363a;
 }
+.unknown {
+	border-left-color: black;
+}
 .Hg,
 .Celia,
 .Laren {

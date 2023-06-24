@@ -75,6 +75,10 @@ function openMain() {
 	window.open(url, '_self');
 }
 
+function openZero() {
+	window.open(`${urlChapter}${volume[volume.length - 1].chapter}`, '_self');
+}
+
 function setMark() {
 	const checkMark = document.querySelectorAll('.mark');
 	for(var i = 0; i < checkMark.length; i++) {
