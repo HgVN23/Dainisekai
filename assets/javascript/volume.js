@@ -277,7 +277,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Trước mắt tôi là một anh chàng mặc áo choàng dài xanh lam với mũ trùm đầu che khuôn mặt đã bị gió thổi lật ngược. Khoan... còn Silver... đầu của nó... đâu mất rồi... Còn mỗi phần thân của con ma thú dưới chân tôi... Người này rốt cuộc là ai...?'
+				content: 'Trước mắt tôi là một anh chàng mặc áo choàng dài màu xanh lá với mũ trùm đầu che khuôn mặt đã bị gió thổi lật ngược. Khoan... còn Silver... đầu của nó... đâu mất rồi... Còn mỗi phần thân của con ma thú dưới chân tôi... Người này rốt cuộc là ai...?'
 			},
 			{
 				class: 'think',
