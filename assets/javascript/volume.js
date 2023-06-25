@@ -17,7 +17,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Silver Wolf, một con ma thú mắt đỏ lần đầu bọn tôi phải đối mặt. Ngay bây giờ tôi, Shuuya, Asahi đang vây quanh nó còn Hyouka đang ở sau tôi hỗ trợ từ cách khoảng xa. Cả hai bên đều chờ nhau xem ai sẽ khai mở cuộc chiến này trước. Và có vẻ Silver Wolf hành động trước, nó lao thẳng đến phía Shuuya chắc vì đòn tấn công trước đó của cậu.'
+				content: 'Silver Wolf, một con ma thú mắt đỏ lần đầu bọn tôi phải đối mặt. Ngay bây giờ tôi, Shuuya, Asahi đang vây quanh nó còn Hyouka đang ở sau tôi hỗ trợ từ khoảng cách xa. Cả hai bên đều chờ nhau xem ai sẽ khai mở cuộc chiến này trước. Và có vẻ Silver Wolf hành động trước, nó lao thẳng đến phía Shuuya chắc vì đòn tấn công trước đó của cậu.'
 			},
 			{
 				class: 'think',
