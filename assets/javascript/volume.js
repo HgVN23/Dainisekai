@@ -97,7 +97,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Từ trong vùng tối của khu rừng nơi hàng cây gãy đổ, ba vệt ánh tím đen sáng dần. Rồi từ nới đó, lao thẳng tới chỗ chúng tôi là ba đường lưỡi liềm song song. Ba đứa bọn tôi vì đã chủ quan nên đã không phản ứng kịp. Bùm! Đòn tấn công đã bị hủy do va chạm với cột băng của Hyouka. Thật không ngờ ngay khi đường lưỡi liềm thoát ra khỏi vùng tối, nhỏ đã bắn một phát mũi tên băng. Mũi tên đó bay đi được nửa khoảng đường thì chạm vào mặt đất, một cột băng từ dưới đâm lên chắn đòn tấn công đó.'
+				content: 'Từ trong vùng tối của khu rừng nơi hàng cây gãy đổ, ba vệt ánh tím đen sáng dần. Rồi từ nơi đó, lao thẳng tới chỗ chúng tôi là ba đường lưỡi liềm song song. Ba đứa bọn tôi vì đã chủ quan nên đã không phản ứng kịp. Bùm! Đòn tấn công đã bị hủy do va chạm với cột băng của Hyouka. Thật không ngờ ngay khi đường lưỡi liềm thoát ra khỏi vùng tối, nhỏ đã bắn một phát mũi tên băng. Mũi tên đó bay đi được nửa khoảng đường thì chạm vào mặt đất, một cột băng từ dưới đâm lên chắn đòn tấn công đó.'
 			},
 			{
 				class: 'Hyouka',
@@ -488,7 +488,7 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Shuuya! Mình phải ra cứu cậu ta ngay.『Physical Enhancement』.'
+				content: 'Shuuya! Mình phải ra cứu cậu ta ngay!『Physical Enhancement』.'
 			},
 			{
 				class: 'Shuuya',
@@ -508,7 +508,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Tuy rằng tôi đã xuất hiện kịp thời để đỡ đòn tấn công nhưng không ngờ cú cào của nó lại lực như vậy. Tôi cùng cậu bạn sau lưng bị nó đẩy lùi một khoảng. Sau đòn đó tôi hơi loạng choạng và chưa kịp định hình lại thì con ma thú đó đã ngay lập tức xông thẳng tới định cắn tôi. Cũng may Asahi đến kịp, hai tay nhỏ cầm chắc thanh trọng kiếm vung vào ma thú. Cảm thấy bị đe dọa, nó liền lộn ngược lại về phía sau và né thành công cú vung kiếm của nhỏ. Mặc kệ trúng hay trượt, hiện giờ Asahi đang liên tục tấn công con ma thú để câu thêm thời gian cho bọn mình. Cả hai bọn họ người lúc tấn công người lúc né không ai nhường ai.'
+				content: 'Mặc dù tôi đã xuất hiện kịp thời để đỡ đòn tấn công nhưng không ngờ cú cào của nó lại lực như vậy. Tôi cùng cậu bạn sau lưng bị nó đẩy lùi một khoảng. Sau đòn đó tôi hơi loạng choạng và chưa kịp định hình lại thì con ma thú đó đã ngay lập tức xông thẳng tới định cắn tôi. Cũng may Asahi đến kịp, hai tay nhỏ cầm chắc thanh trọng kiếm vung vào ma thú. Cảm thấy bị đe dọa, nó liền lộn ngược lại về phía sau và né thành công cú vung kiếm của nhỏ. Mặc kệ trúng hay trượt, hiện giờ Asahi đang liên tục tấn công con ma thú để câu thêm thời gian cho bọn tôi. Cả hai bọn họ người lúc tấn công người lúc né không ai nhường ai.'
 			},
 			{
 				class: 'villager',
