@@ -14,11 +14,11 @@ if(location.search) {
 		loadDex(urlParams.get('dex'));
 	if(urlParams.has('dex') && parseFloat(urlParams.get('dex')) != 0)
 		loadDexContent(urlParams.get('dex'));
-
-} else
+} else {
 	setTimeout(function delay() {
 		addList();
 	}, 200);
+}
 
 function addList() {
 	let chapters = ``;
@@ -29,11 +29,11 @@ function addList() {
 		chapters += `
 			<div class="chapter">
 				<div id="${chapter}" class="mark"></div>
-				<p id="${i}">Chapter ${chapter} - ${title}</p>
+				<p id="${i}" class="clickable">Chapter ${chapter} - ${title}</p>
 			</div>\n
 		`;
 	}
-	document.querySelector('.list').innerHTML += chapters;
+	document.querySelector('.main').innerHTML += chapters;
 
 	const addOpen = document.querySelectorAll('.chapter p');
 	for(var i = 0; i < addOpen.length; i++) {
@@ -45,10 +45,8 @@ function addList() {
 }
 
 function clean() {
-	const removeList = [ 'list', 'story', 'slider', 'content', 'dex' ];
-	for(let remove of removeList)
-		if(document.querySelector(`.${remove}`))
-			document.querySelector(`.${remove}`).remove();
+	if(document.querySelector('.main'))
+		document.querySelector('.main').remove();
 	document.documentElement.scrollTop = 0;
 }
 

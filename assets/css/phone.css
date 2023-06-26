@@ -3,10 +3,7 @@
 		font-size: 14px;
 	}
 
-	.list,
-	.story,
-	.dex,
-	.content {
+	.main {
 		width: 40rem;
 	}
 }
@@ -28,10 +25,7 @@
 		font-size: 1.2rem;
 	}
 
-	.list,
-	.story,
-	.dex,
-	.content {
+	.main {
 		width: 25rem;
 	}
 	.chapter,

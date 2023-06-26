@@ -86,6 +86,7 @@ header {
 	position: fixed;
 	z-index: 1;
 	bottom: 0;
+	left: 0;
 	gap: 1rem;
 }
 .hideOn {
@@ -238,19 +239,13 @@ h4 {
 	flex-wrap: wrap;
 }
 .selectBox,
-.list,
-.story,
-.dex,
-.content,
+.main,
 .dialogue,
 .character {
 	display: flex;
 	flex-direction: column;
 }
-.list,
-.story,
-.dex,
-.content {
+.main {
 	width: 52rem;
 	margin: 1rem auto 4rem auto;
 	gap: 1rem;
@@ -280,8 +275,7 @@ h4 {
 .optionBox:hover {
 	outline: 2px solid var(--hover-color);
 }
-.list p,
-.dex p {
+p.clickable {
 	cursor: pointer;
 	width: 100%;
 }

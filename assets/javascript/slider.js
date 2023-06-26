@@ -18,7 +18,7 @@ function addSlider(id) {
 			<div class="none"></div>
 		</div>
 	`;
-	document.querySelector('body').innerHTML += format;
+	document.querySelector('.main').innerHTML += format;
 
 	const options = document.querySelectorAll('.option');
 	options[id].classList.add('optionSelected');

@@ -5,7 +5,7 @@ function loadDex() {
 	clean();
 
 	const format = `
-		<section class="dex">
+		<section class="main">
 			<h1>SekaiDex</h1>
 			<h2>『Dainisekai』- Bách khoa toàn thư</h2>
 			<h3>(WIP)</h3>
@@ -31,7 +31,7 @@ function addTitle(sekaiDex, part) {
 		var title = temp.title;
 		dex += `
 			<div class="dialogue">
-				<p id="${part}.${i}">${title}</p>
+				<p id="${part}.${i}" class="clickable">${title}</p>
 			</div>\n
 		`;
 	}
@@ -55,7 +55,7 @@ function loadDexContent(id) {
 			`;
 		};
 		var format = `
-			<section class="content">
+			<section class="main">
 				<h1>${title}</h1>
 				<hr>
 				${content}
@@ -77,7 +77,7 @@ function loadDexContent(id) {
 			`;
 		};
 		var format = `
-			<section class="content">
+			<section class="main">
 				<h1>${title}</h1>
 				<hr>
 				${section}
@@ -85,5 +85,43 @@ function loadDexContent(id) {
 		`;
 		document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
 	}
+	document.querySelector('body').innerHTML += format;
+}
+
+function loadDexContent(id) {
+	clean();
+	if(id.includes('1.')) {
+		var temp = sekaiDex1[parseInt(id.slice(2))];
+		var tempC = temp.content;
+	} else {
+		var temp = sekaiDex2[parseInt(id.slice(2))];
+		var tempC = temp.section;
+	}
+	var title = temp.title;
+	var content = ``;
+	if(id.includes('1.')) {
+		for(var i = 0; i < tempC.length; i++) {
+			content += `
+				<li>${tempC[i]}</li>\n
+			`;
+		};
+	} else
+		for(var i = 0; i < tempC.length; i++) {
+			var contentS = ``;
+			for(var j = 0; j < tempC[i].content.length; j++)
+				contentS += `<li>${tempC[i].content[j]}</li>\n`;
+			content += `
+				<h4>${tempC[i].main}</h4>
+				${contentS}\n
+			`;
+		};
+	var format = `
+		<section class="main">
+			<h1>${title}</h1>
+			<hr>
+			${content}
+		</section>
+	`;
+	document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
 	document.querySelector('body').innerHTML += format;
 }
