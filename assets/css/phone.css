@@ -9,11 +9,17 @@
 }
 @media (max-width: 588px) {
 	* {
-		font-size: 12px;
+		font-size: 11px;
 	}
 	header {
 		align-items: center;
 		flex-wrap: wrap;
+	}
+
+	.author::before,
+	.desc::before,
+	.tags::before {
+		font-size: 1rem;
 	}
 
 	h1,

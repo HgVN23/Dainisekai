@@ -211,10 +211,45 @@ h4 {
 	padding: .5rem;
 	width: fit-content;
 	cursor: pointer;
+	align-self: center;
 }
 .markAll:hover,
 .startRead:hover {
 	filter: brightness(.8);
+}
+.infoContent {
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+}
+.author::before,
+.desc::before,
+.tags::before {
+	color: aqua;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.author::before {
+	content: 'Tác giả: ';
+}
+.desc::before {
+	content: 'Mô tả: ';
+}
+.tags::before {
+	content: 'Thể loại: ';
+	align-self: center;
+}
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5rem;
+}
+.tag {
+	background-color: #36363a;
+	border-radius: .2rem;
+	padding: .3rem;
+	align-self: center;
+	cursor:	default;
 }
 .mark {
 	width: 1.3rem;
@@ -278,18 +313,6 @@ h4 {
 p.clickable {
 	cursor: pointer;
 	width: 100%;
-}
-.group {
-	display: flex;
-	gap: .5rem;
-}
-.character {
-	align-items: center;
-}
-.face {
-	width: 4rem;
-	height: 4rem;
-	align-self: flex-start;
 }
 p {
 	white-space: pre-wrap;

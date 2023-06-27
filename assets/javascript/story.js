@@ -8,17 +8,14 @@ function addStory(id) {
 	for(var i = 0; i < tempD.length; i++) {
 		var character = ``;
 		for(var j = 0; j < tempD[i].name.length; j++) {
-			character += `
-				<div class="character">
-					<div class="name">${tempD[i].name[j]}</div>
-				</div>\n
-			`;
+			if(character == ``)
+				character += `${tempD[i].name[j]}`;
+			else
+				character += `, ${tempD[i].name[j]}`;
 		};
 		dialogue += `
 			<div class="dialogue ${tempD[i].class}">
-				<div class="group">
-					${character}
-				</div>
+				<div class="character">${character}</div>
 				<p>${tempD[i].content}</p>
 			</div>\n
 		`;
