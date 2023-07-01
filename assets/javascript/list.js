@@ -54,13 +54,7 @@ function openChapter() {
 	window.open(`${urlChapter}${volume[this.id].chapter}`, '_self');
 }
 function loadChapter(id) {
-	let Id;
-	for(var i = 0; i < volume.length; i++) {
-		if(volume[i].chapter == parseFloat(id)) {
-			Id = i;
-			break;
-		}
-	}
+	let Id = changeId(id);
 	clean();
 	addStory(Id);
 	addSlider(Id);
@@ -68,7 +62,16 @@ function loadChapter(id) {
 	checkHide();
 	document.querySelector('title').textContent = `Chapter ${volume[Id].chapter} - ${volume[Id].title} | 『Dainisekai』`;
 }
-
+function changeId(id) {
+	let Id;
+	for(var i = 0; i < volume.length; i++) {
+		if(volume[i].chapter == parseFloat(id)) {
+			Id = i;
+			break;
+		}
+	}
+	return Id;
+}
 function openMain() {
 	window.open(url, '_self');
 }

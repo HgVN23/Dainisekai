@@ -1,9 +1,7 @@
 function addSlider(id) {
 	let option = ``;
 	for(var i = 0; i < volume.length; i++) {
-		option += `
-			<div id="${i}" class="option">Chapter ${volume[i].chapter}</div>
-		`;
+		option += `<div id="${i}" class="option">Chapter ${volume[i].chapter}</div>`;
 	}
 
 	const format = `

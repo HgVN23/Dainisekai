@@ -82,7 +82,7 @@ const sekaiDex2 = [
 		]
 	},
 	{
-		title: 'Các dạng của Mana ',
+		title: 'Các dạng của Mana',
 		section: [
 			{
 				main: 'Dạng loãng',

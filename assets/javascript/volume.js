@@ -3340,7 +3340,7 @@ const volume = [
 			{
 				class: 'ShuuyaMother',
 				name: [ 'Mẹ' ],
-				content: 'Kya! Hyouka cưng quá à!'
+				content: 'Hyouka cưng quá à!'
 			},
 			{
 				class: 'think',
@@ -6046,7 +6046,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Tôi đã giật mình sau khi nghe câu đấy, chắc là anh ta đang đùa thôi nhỉ? Tôi định đáp lại thì đột nhiên đầu đau như búa bổ vậy. Những dòng kí ức trước khi tôi chết bỗng xuất hiện... Lúc này tôi đang trên đường đi học về, trời thì mưa tầm tã. Có vẻ như lúc đó có một chiếc xe máy băng qua đường và hình như không thấy mình nên đã xảy ra tai nạn. Tôi và người điều khiển xe máy đó đều bị ngã nhưng vết thương có vẻ không quá nghiêm trọng. Nhưng khi tôi đang gượng đứng dậy thì một chiếc xe máy đi cùng hướng đi của tôi có vẻ không thấy tai nạn phía trước nên đã không phanh kịp và tông thẳng vào mình. Cú đâm này khiến tôi bị văng đi một đoạn ngắn, mình đã không cử động được và sau đó mất dần ý thức... Tôi đã rất sốc phải chấp nhận hiện thực và rồi thở dài.'
+				content: 'Tôi đã giật mình sau khi nghe câu đấy, chắc là anh ta đang đùa thôi nhỉ? Tôi định đáp lại thì đột nhiên đầu đau như búa bổ vậy. Những dòng kí ức trước khi tôi chết bỗng xuất hiện... Lúc này tôi đang trên đường đi học về, trời thì mưa tầm tã. Có vẻ như lúc đó có một chiếc xe máy băng qua đường và hình như không thấy mình nên đã xảy ra tai nạn. Tôi và người điều khiển xe máy đó đều bị ngã nhưng vết thương có vẻ không quá nghiêm trọng. Nhưng khi tôi đang gượng đứng dậy thì một chiếc xe máy đi cùng hướng đi của tôi có vẻ không thấy tai nạn phía trước nên đã không phanh kịp và tông thẳng vào mình. Cú đâm này khiến tôi bị văng đi một đoạn ngắn, mình đã không cử động được và sau đó mất dần ý thức. Cuộc đời tôi dừng ở mốc 20... Tôi đã rất sốc phải chấp nhận hiện thực và rồi thở dài.'
 			},
 			{
 				class: 'Hg',
