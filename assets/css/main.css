@@ -75,7 +75,9 @@ li span:hover {
 li span:active {
 	color: yellow;
 }
-
+a {
+	text-decoration: none;
+}
 
 
 

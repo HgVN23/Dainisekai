@@ -7,7 +7,7 @@ function loadDex() {
 	const format = `
 		<section class="main">
 			<h1>SekaiDex</h1>
-			<h2>『Dainisekai』- Bách khoa toàn thư</h2>
+			<h2>Bách khoa toàn thư</h2>
 			<h3>(WIP)</h3>
 			<hr>
 			<h3>Liên quan đến phần viết truyện</h3>
@@ -34,7 +34,7 @@ function addTitle(sekaiDex, part) {
 		dex += `
 			<div class="dialogue">
 				<p id="${part}.${i}" class="clickable">${title}</p>
-			</div>\n
+			</div>
 		`;
 	}
 	return dex;
@@ -53,7 +53,7 @@ function loadDexContent(id) {
 		var content = ``;
 		for(var i = 0; i < tempC.length; i++) {
 			content += `
-				<li>${tempC[i]}</li>\n
+				<li>${tempC[i]}</li>
 			`;
 		};
 		var format = `
@@ -72,10 +72,10 @@ function loadDexContent(id) {
 		for(var i = 0; i < tempS.length; i++) {
 			var content = ``;
 			for(var j = 0; j < tempS[i].content.length; j++)
-				content += `<li>${tempS[i].content[j]}</li>\n`;
+				content += `<li>${tempS[i].content[j]}</li>`;
 			section += `
 				<h4>${tempS[i].main}</h4>
-				${content}\n
+				${content}
 			`;
 		};
 		var format = `

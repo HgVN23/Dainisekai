@@ -1,33 +1,36 @@
 function addStory(id) {
 	var temp = volume[id];
-	var tempD = temp.dialogue;
 	var title = temp.title;
 	var chapter = temp.chapter;
-	var dialogue = ``;
 	var words = 0;
-	for(var i = 0; i < tempD.length; i++) {
-		var character = ``;
-		for(var j = 0; j < tempD[i].name.length; j++) {
-			if(character == ``)
-				character += `${tempD[i].name[j]}`;
-			else
+	var content = ``;
+	if(formatStyle == 'dialogue') {
+		var tempD = temp.dialogue;
+		for(var i = 0; i < tempD.length; i++) {
+			var character = ``;
+			for(var j = 0; j < tempD[i].name.length; j++)
 				character += `, ${tempD[i].name[j]}`;
+			content += `
+				<div class="dialogue ${tempD[i].class}">
+					<div class="character">${character.slice(2)}</div>
+					<p>${tempD[i].content}</p>
+				</div>
+			`;
+			words += tempD[i].content.split(' ').length;
 		};
-		dialogue += `
-			<div class="dialogue ${tempD[i].class}">
-				<div class="character">${character}</div>
-				<p>${tempD[i].content}</p>
-			</div>\n
-		`;
-		words += tempD[i].content.split(' ').length;
-	};
+	} else {
+		for(var i = 0; i < temp.content.length; i++) {
+			content += `<p>${temp.content[i]}</p>`;
+			words += temp.content[i].split(' ').length;
+		};
+	}
 	const format = `
 		<section class="main">
 			<h1>Chapter ${chapter}</h1>
 			<h2>${title}</h2>
 			<h3>${words} từ</h3>
 			<hr>
-			${dialogue}
+			${content}
 		</section>
 	`;
 	document.querySelector('body').innerHTML += format;

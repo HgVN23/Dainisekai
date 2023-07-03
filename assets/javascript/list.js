@@ -3,8 +3,8 @@ const urlChapter = url + '?chapter=';
 const urlDex = url + '?dex=';
 
 let tempMark = [];
-if(localStorage.mark)
-	tempMark = JSON.parse(localStorage.getItem('mark'));
+if(localStorage.getItem(`${mark}`))
+	tempMark = JSON.parse(localStorage.getItem(`${mark}`));
 
 if(location.search) {
 	const urlParams = new URLSearchParams(location.search);
@@ -30,7 +30,7 @@ function addList() {
 			<div class="chapter">
 				<div id="${chapter}" class="mark"></div>
 				<p id="${i}" class="clickable">Chapter ${chapter} - ${title}</p>
-			</div>\n
+			</div>
 		`;
 	}
 	document.querySelector('.main').innerHTML += chapters;
@@ -60,7 +60,7 @@ function loadChapter(id) {
 	addSlider(Id);
 	pushMark(String(volume[Id].chapter));
 	checkHide();
-	document.querySelector('title').textContent = `Chapter ${volume[Id].chapter} - ${volume[Id].title} | 『Dainisekai』`;
+	document.querySelector('title').textContent = `Chapter ${volume[Id].chapter} - ${volume[Id].title} | ${name}`;
 }
 function changeId(id) {
 	let Id;
@@ -72,11 +72,16 @@ function changeId(id) {
 	}
 	return Id;
 }
+
 function openMain() {
 	window.open(url, '_self');
 }
 
-function openZero() {
+function openIndex() {
+	window.open('index.html', '_self');
+}
+
+function readFirst() {
 	window.open(`${urlChapter}${volume[volume.length - 1].chapter}`, '_self');
 }
 
@@ -104,7 +109,7 @@ function markUnread() {
 			break;
 		}
 	}
-	localStorage.setItem('mark', JSON.stringify(tempMark));
+	localStorage.setItem(`${mark}`, JSON.stringify(tempMark));
 	this.addEventListener('click', markRead);
 	this.removeEventListener('click', markUnread);
 	this.classList.toggle('read');
@@ -115,7 +120,7 @@ function markUnread() {
 function markRead() {
 	if(!tempMark.includes(this.id)) {
 		tempMark.push(this.id);
-		localStorage.setItem('mark', JSON.stringify(tempMark));
+		localStorage.setItem(`${mark}`, JSON.stringify(tempMark));
 		this.addEventListener('click', markUnread);
 		this.removeEventListener('click', markRead);
 		this.classList.toggle('read');
@@ -127,7 +132,7 @@ function markRead() {
 function pushMark(id) {
 	if(!tempMark.includes(id)) {
 		tempMark.push(id);
-		localStorage.setItem('mark', JSON.stringify(tempMark));
+		localStorage.setItem(`${mark}`, JSON.stringify(tempMark));
 	}
 }
 
@@ -146,7 +151,7 @@ function markAll() {
 }
 function unreadAll() {
 	const temp = document.querySelectorAll('.read');
-	localStorage.removeItem('mark');
+	localStorage.removeItem(`${mark}`);
 	tempMark = [];
 	for (var i = 0; i < temp.length; i++) {
 		temp[i].addEventListener('click', markRead);
@@ -171,7 +176,7 @@ function readAll() {
 		temp[i].classList.toggle('unread');
 		temp[i].parentElement.classList.toggle('markUnread');
 	}
-	localStorage.setItem('mark', JSON.stringify(tempMark));
+	localStorage.setItem(`${mark}`, JSON.stringify(tempMark));
 
 	const getMark = document.querySelector('.markAll');
 	getMark.addEventListener('click', unreadAll);

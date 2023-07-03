@@ -4,18 +4,31 @@ function addSlider(id) {
 		option += `<div id="${i}" class="option">Chapter ${volume[i].chapter}</div>`;
 	}
 
-	const format = `
-		<div class="slider">
-			<div class="toggleHide hideOff"></div>
-			<div class="left"></div>
-			<div class="selectBox">
-				<div class="optionBox optionBoxHide">${option}</div>
-				<div class="select" onclick="toggleBox()">Chapter ${volume[id].chapter}</div>
+	var format = ``;
+	if(formatStyle == 'dialogue')
+		format = `
+			<div class="slider">
+				<div class="toggleHide hideOff"></div>
+				<div class="left"></div>
+				<div class="selectBox">
+					<div class="optionBox optionBoxHide">${option}</div>
+					<div class="select" onclick="toggleBox()">Chapter ${volume[id].chapter}</div>
+				</div>
+				<div class="right"></div>
+				<div class="none"></div>
 			</div>
-			<div class="right"></div>
-			<div class="none"></div>
-		</div>
-	`;
+		`;
+	else
+		format = `
+			<div class="slider">
+				<div class="left"></div>
+				<div class="selectBox">
+					<div class="optionBox optionBoxHide">${option}</div>
+					<div class="select" onclick="toggleBox()">Chapter ${volume[id].chapter}</div>
+				</div>
+				<div class="right"></div>
+			</div>
+		`;
 	document.querySelector('.main').innerHTML += format;
 
 	const options = document.querySelectorAll('.option');
@@ -32,8 +45,8 @@ function addSlider(id) {
 		document.querySelector('.left').classList.add('turnOff');
 	if(check == 0)
 		document.querySelector('.right').classList.add('turnOff');
-
-	document.querySelector('.toggleHide').addEventListener('click', hideOn);
+	if(formatStyle == 'dialogue')
+		document.querySelector('.toggleHide').addEventListener('click', hideOn);
 }
 
 function toggleBox() {
@@ -74,7 +87,7 @@ function hideOn() {
 	toggleHide.classList.toggle('hideOn');
 	toggleHide.classList.toggle('hideOff');
 	for(var i = 0; i < dialogue.length; i++) {
-		dialogue[i].innerHTML += `<div class="dialogueHide" onclick="removeHide()">Click để mở</div>\n`;
+		dialogue[i].innerHTML += `<div class="dialogueHide" onclick="removeHide()">Click để mở</div>`;
 	}
 }
 function checkHide() {

@@ -1,3 +1,3 @@
-# 『Dainisekai』- New life in wonderful world
+# 『Dainisekai』
 
-Chào mừng đến với Thế giới thứ 2
+Vũ trụ Fantasy do một nhóm người rảnh muốn viết lách tạo ra

@@ -1,3 +1,6 @@
+const mark = '001/01';
+const formatStyle = 'dialogue';
+const name = 'New life in wonderful world';
 const volume = [
 	// {
 	// 	chapter: ,
