@@ -33,7 +33,7 @@ function addList() {
 			</div>
 		`;
 	}
-	document.querySelector('section').innerHTML += chapters;
+	document.querySelector('.main').innerHTML += chapters;
 
 	const addOpen = document.querySelectorAll('.chapter p');
 	for(var i = 0; i < addOpen.length; i++) {
@@ -45,8 +45,8 @@ function addList() {
 }
 
 function clean() {
-	// if(document.querySelector('section'))
-	document.querySelector('section').remove();
+	if(document.querySelector('.main'))
+		document.querySelector('.main').remove();
 	document.documentElement.scrollTop = 0;
 }
 
