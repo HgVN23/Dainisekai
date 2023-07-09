@@ -15,9 +15,9 @@ if(location.search) {
 	if(urlParams.has('dex') && parseFloat(urlParams.get('dex')) != 0)
 		loadDexContent(urlParams.get('dex'));
 } else {
-	setTimeout(function delay() {
+	// setTimeout(function delay() {
 		addList();
-	}, 200);
+	// }, 300);
 }
 
 function addList() {
@@ -45,8 +45,8 @@ function addList() {
 }
 
 function clean() {
-	if(document.querySelector('.main'))
-		document.querySelector('.main').remove();
+	// if(document.querySelector('.main'))
+	document.querySelector('.main').remove();
 	document.documentElement.scrollTop = 0;
 }
 
