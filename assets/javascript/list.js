@@ -14,11 +14,8 @@ if(location.search) {
 		loadDex(urlParams.get('dex'));
 	if(urlParams.has('dex') && parseFloat(urlParams.get('dex')) != 0)
 		loadDexContent(urlParams.get('dex'));
-} else {
-	// setTimeout(function delay() {
-		addList();
-	// }, 300);
-}
+} else
+	addList();
 
 function addList() {
 	let chapters = ``;
@@ -45,8 +42,8 @@ function addList() {
 }
 
 function clean() {
-	if(document.querySelector('.main'))
-		document.querySelector('.main').remove();
+	// if(document.querySelector('.main'))
+	document.querySelector('.main').remove();
 	document.documentElement.scrollTop = 0;
 }
 
