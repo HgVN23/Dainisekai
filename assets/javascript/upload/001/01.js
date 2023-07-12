@@ -1970,7 +1970,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Hm... Liệu thẻ này có bị phá hủy hay thay đổi thông tin được không nhỉ?'
+				content: 'Hừm... Liệu thẻ này có bị phá hủy hay thay đổi thông tin được không nhỉ?'
 			},
 			{
 				class: 'Maki',
@@ -2016,7 +2016,7 @@ const volume = [
 			{
 				class: 'ShuuyaMother',
 				name: [ 'Mẹ' ],
-				content: 'Hm... Nếu thế thì để mẹ dọn bàn ăn.'
+				content: 'Hừm... Nếu thế thì để mẹ dọn bàn ăn.'
 			},
 			{
 				class: 'Shuuya',
@@ -2111,7 +2111,7 @@ const volume = [
 			{
 				class: 'ShuuyaFather',
 				name: [ 'Cha' ],
-				content: 'Hm... Mùi thì thơm thật nhưng màu lạ quá. Ăn chắc ổn nhỉ?'
+				content: 'Hừm... Mùi thì thơm thật nhưng màu lạ quá. Ăn chắc ổn nhỉ?'
 			},
 			{
 				class: 'ShuuyaMother',
@@ -2176,7 +2176,7 @@ const volume = [
 			{
 				class: 'ShuuyaFather',
 				name: [ 'Cha' ],
-				content: 'Hm... Món này hơi nhạt đó con.'
+				content: 'Hừm... Món này hơi nhạt đó con.'
 			},
 			{
 				class: 'Asahi',
@@ -2447,7 +2447,7 @@ const volume = [
 			{
 				class: 'Laren',
 				name: [ 'Mục sư Laren' ],
-				content: 'Hm... Thật lạ, quả cầu không hiện ra chức nghiệp...'
+				content: 'Hừm... Thật lạ, quả cầu không hiện ra chức nghiệp...'
 			},
 			{
 				class: 'think',
@@ -2517,7 +2517,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Hm... Quá khen rồi? '
+				content: 'Hừm... Quá khen rồi? '
 			},
 			{
 				class: 'think',
@@ -3308,7 +3308,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Hm... Mình không hiểu lắm...'
+				content: 'Hừm... Mình không hiểu lắm...'
 			},
 			{
 				class: 'ShuuyaMother',
@@ -3464,7 +3464,7 @@ const volume = [
 			{
 				class: 'ShuuyaFather',
 				name: [ 'Cha' ],
-				content: 'Hm... Ta không thể nói.'
+				content: 'Hừm... Ta không thể nói.'
 			},
 			{
 				class: 'think',
@@ -4175,7 +4175,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Hm... Chắc Hyouka cần thời gian.'
+				content: 'Hừm... Chắc Hyouka cần thời gian.'
 			},
 			{
 				class: 'think',
@@ -4847,7 +4847,7 @@ const volume = [
 			{
 				class: 'ShuuyaFather',
 				name: [ 'Cha' ],
-				content: 'Ủa? Sao lại có chú diều hâu ở đây vậy? Vùng này chắc chắn không có loại chim này ở đây. Hm...'
+				content: 'Ủa? Sao lại có chú diều hâu ở đây vậy? Vùng này chắc chắn không có loại chim này ở đây. Hừm...'
 			},
 			{
 				class: 'think',
@@ -5215,12 +5215,12 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Hm... tại sao ta?'
+				content: 'Hừm... tại sao ta?'
 			},
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Để mà nói ra thì... hm... chuyện hơi dài...'
+				content: 'Để mà nói ra thì... Hừm... chuyện hơi dài...'
 			},
 			{
 				class: 'Asahi',
@@ -5731,7 +5731,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tin tốt hả? Hm... Đúng là hôm nay cha tôi vui vẻ hơn mọi khi thật. Thật là tò mò về tin tốt của cha đó mà.'
+				content: 'Tin tốt hả? Hừm... Đúng là hôm nay cha tôi vui vẻ hơn mọi khi thật. Thật là tò mò về tin tốt của cha đó mà.'
 			},
 			{
 				class: 'think',
