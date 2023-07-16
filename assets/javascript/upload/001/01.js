@@ -14,6 +14,908 @@ const volume = [
 	// 	]
 	// },
 	{
+		chapter: 15,
+		title: 'Nhiệm vụ hoàn thành',
+		dialogue: [
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Hiện tại Party của tôi đang ở trong phòng gặp riêng tư cùng anh Itsuki, chị Maki và trưởng Guild tên là Katsumi. Bác Katsumi vừa bảo bọn tôi kể về “cuộc phiêu lưu” ngày hôm nay.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Shuuya, để mình kể cho nha?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'À ừm. Cậu kể đi.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Bên Guild đang thu thập thông tin đây mà, đúng như anh Itsuki đã nói trước đó. Có lẽ họ nghĩ bọn mình còn trẻ con không hiểu chuyện nên mới nói kiểu như vậy. Chị Maki dường như đang ghi chép mọi thứ, thôi thì cứ làm theo họ để giải quyết nhanh chóng vậy.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Sau khi Kowashi kể xong thì tôi và Hyouka bổ sung thêm một vài chi tiết vào “cuộc phiêu lưu” dưới góc nhìn của bản thân. Còn Asahi thì vẫn không nói gì.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Chỉ có một con Silver Wolf thôi à?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Vâng? Chỉ có một con.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Hừm... Có lẽ các cháu may mắn đó, bình thường bọn chúng đi theo đàn cơ. Ít nhất là ba con chứ không bao giờ đi lẻ đâu.'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Mắt con đó đỏ.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Mắt đỏ?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Bác biết gì về nó à?'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'À, nó chỉ là căn bệnh hiếm xảy ra ở ma vật thôi. Nó khiến cho ma vật điên dại hơn bình thường, nếu các cháu mà gặp một con nào như vậy thì nên né ra và báo lại với bên Guild của bác nha.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Vâng...'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Chỉ là một căn bệnh... liệu nó có đúng là như vậy không nhỉ...? Cảm giác như bác Katsumi đang giấu diếm điều gì đó. '
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Rồi rồi, đến lượt tôi kể nha!'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Hầy... Cậu cứ như đứa trẻ to xác vậy.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: '... Sau đó tôi vào rừng theo lời em trai kia. Đến nơi thì thấy em Shuuya đang cầm dao bếp đấu với Silver Wolf. Thật đấy, anh hơi bất ngờ khi có người cầm dao bếp ra chiến đấu đó.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Kiếm em vỡ tan rồi, biết sao được.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Được rồi, sau đó tôi chạy đến cho một đấm vào đầu con Silver Wolf và thế là nó tiêu.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Một đấm? Anh nói thật chứ?'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Itsuki không nói đùa đâu. Bác biết thực lực của cậu ta.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Anh Itsuki... chẳng lẽ anh là người đấm phát xong việc luôn... Tôi bắt đầu hơi lo nếu như gây sự với anh Itsuki...'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Sau đó thì Shuuya ngất chắc vì kiệt sức và vết thương ở tay trái nên là tôi đã cho em uống『Mana Potion』và『Holy Heal Potion』. Rồi...'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Khoan khoan đã! Anh vừa cho em uống gì cơ?'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: '『Mana Potion』và『Holy Heal Potion』'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: '『Holy Heal Potion』! Anh đâu cần phải cho em uống loại nghe có vẻ đắt như thế này! Em nhớ không nhầm thì em chỉ bị thương nhẹ ở tay trái thôi mà!'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Không sao đâu, bạn của em cũng có phần mà. Đừng có lo nữa nha.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Cháu cứ gật đầu và chấp nhận đi, bác đã bó tay trước thứ gọi là “bình thường” của cậu ta rồi.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: '... Anh kể tiếp đi...'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: '... Thấy cả ba em còn lại đang nằm nên tôi cũng cho các em uống thuốc. Sau đó thì các mạo hiểm giả ứng cứu cũng tới và phần còn lại cậu cũng biết rồi đó, Katsumi.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Có vẻ chúng ta cũng nắm rõ câu truyện rồi.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Thực ra có một vấn đề tôi đang băn khoăn... Trước khi cho em Kowashi uống thuốc thì... tim em ấy đã ngừng đập.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Mọi người ai sau khi nghe xong cũng bất ngờ, mặt ai cũng ngơ ngác hết. Chị Maki đang ghi chép cũng phải dừng tay.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'A... anh nói đùa gì vậy. Em vẫn còn ngồi đây cơ mà, hết Asahi rồi lại đến lượt anh.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Chắc anh chưa nói cái này cho bọn em nhưng anh không bao giờ nói đùa về mạng sống cả.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Anh... thật à..? Vậy... chẳng lẽ em đang là xác sống?'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'CẬU KHÔNG PHẢI LÀ XÁC SỐNG!'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Cuối cùng Asahi cũng chịu nói... ít nhất là nhỏ vẫn ổn... phần nào đó...'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'A... Asahi m... mình chỉ đùa thôi... Đừng buồn nữa, mình vẫn đang nói chuyện với cậu đây đúng không?'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'À ừm... Anh cứ tưởng thật cho đến khi tim em đột nhiên đập lại và vết thương lớn trước ngực tự lành. Thấy vậy anh liền đổ thuốc lên vết thương để em hồi phục nhanh hơn.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'C... cháu có phải là con người không vậy?'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Cháu... để cháu kiểm tra Status xem sao... Ủa? Mọi người xem này!'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Tôi và mọi người cùng xem Status của Kowashi thì thấy cậu vẫn là con người. Nhưng khi lướt xuống phần Skill thì thấy cậu có『Revival』, cho phép người dùng sống lại và hồi nửa lượng máu của bản thân cùng vết thương. Tự động kích hoạt khi hi sinh bảo vệ mạng sống khác và dùng được lại khi bình minh của ngày hôm sau ló rạng. Sao cậu lại có Skill như vậy được chứ? Tôi lướt tiếp xuống đến phần danh hiệu thì thấy 『The Savior』và phần mô tả ghi “Phước lành của thần Iwao”. Ra là vậy... có vẻ vấn đề đã được giải quyết.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Chúc phúc từ thần Iwao... Ra cháu là cậu bé sáng nhất ở nhà thờ hôm qua.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Từ khi nào mà mình lại có『Revival』vậy nhỉ?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Ơ khoan... Vậy là không phải cậu có từ hôm qua?'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Không.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Vậy chẳng lẽ... từ lúc cậu ngất... thật đó hả? Mình nghĩ sẽ nói chuyện này với Kowashi sau, giờ nói ra chắc sẽ lại thêm rắc tối cho mà xem. Mình phải kết thúc cuộc điều tra này ngay mới được.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Mệt mỏi quá, mình nghĩ mình không còn sức để nghe thêm gì nữa rồi.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Hình như đến giờ các em ý ăn tối rồi thì phải?'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Tuyệt vời anh Itsuki, đẩy hay lắm! Cảm ơn anh nhiều!'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'À phải, nói chuyện với các cháu vui quá nên bác không để ý. Các cháu về đi không người nhà lại lo lắng.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Vâng! Nhưng trước đó thì chị Maki, chị xác nhận hoàn thành nhiệm vụ của tụi em được không?'
+			},
+			{
+				class: 'Maki',
+				name: [ 'Chị Maki' ],
+				content: 'Được thôi nhưng mà chị đâu thấy...'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Đây là số『Crystal』,『Heal Herb』và bốn thẻ định danh của bọn em.'
+			},
+			{
+				class: 'Maki',
+				name: [ 'Chị Maki' ],
+				content: 'Hả! E... em có Inventory?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Chị ơi? Xác nhận...'
+			},
+			{
+				class: 'Maki',
+				name: [ 'Chị Maki' ],
+				content: 'À phải rồi, em có muốn bán vật phẩm từ ma vật các em săn không?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Em chỉ có xác của ma vật chưa được phân tách thôi ạ.'
+			},
+			{
+				class: 'Maki',
+				name: [ 'Chị Maki' ],
+				content: 'Nếu vậy thì em có thể nhờ nhân viên Guild phân tách hộ ở dưới tầng. Thôi, chị đi xác nhận cho bọn em liền đây.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Và thế là chị Maki cầm chỗ vật phẩm tôi đưa và vội vã bước ra khỏi phòng.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Cháu nên cẩn thận khi dùng Inventory trước người khác, có thể người xấu sẽ nhắm tới đó.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Cháu biết và cháu tin mọi người ở đây sẽ không nói gì ra ngoài đâu nhỉ?'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Liệu có không ta?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Em tin anh mà... một nửa.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Không ngờ anh không đáng tin như vậy, anh buồn quá. À mà cho anh xác của Silver Wolf nha, được không?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'À, mời anh. Dù sao thì anh cũng là người đã cứu tụi em và cũng là người hạ nó... Và dùng nhiều lọ thuốc trông rất đắt nữa làm em thấy hơi áy náy...'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Anh đã bảo rồi, anh còn nhiều lắm mà dùng chả hết. Đây, em xem này.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'A... anh cũng có Inventory?'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Ối! Lộ mất tiêu rồi. Giữ bí mật cho anh nhé mấy em.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Sao mình có cảm giác anh Itsuki cố tình để lộ ra thế nhỉ? Bọn tôi đang nói chuyện với trưởng Guild và anh Itsuki thì chị Maki từ bên ngoài bước vào với một khay đựng xu đồng, xu vàng và thẻ định danh... Khoan! Xu vàng?'
+			},
+			{
+				class: 'Maki',
+				name: [ 'Chị Maki' ],
+				content: 'Chị đã xác nhận xong và xin chúc mừng các em đã hoàn thành nhiệm vụ đầu tiên nha. Đây là số tiền thu mua vật phẩm mà em đưa.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Em cảm ơn... nhưng em cảm thấy chỗ xu hơi sai... Nhất là 1 xu vàng này.'
+			},
+			{
+				class: 'Maki',
+				name: [ 'Chị Maki' ],
+				content: 'Phải rồi, chỗ『Heal Herb』của em đang trong điều kiện rất tốt nên là được tăng thêm xu đồng. Còn 1 xu vàng này thưởng thêm từ trưởng Guild vì cứu người dân thị trấn.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Các cháu xứng đáng mà nên hãy nhận nó nha.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Vậy thì cháu xin nhận. Bọn cháu xin phép ra về, đi nào các cậu.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Asahi, mình nghĩ cậu sẽ không buông mình ra nên bám chắc vào nha. Mình sẽ cõng cậu về nha luôn.'
+			},
+			{
+				class: 'Asahi',
+				name: [ 'Asahi' ],
+				content: 'Ừm.'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Shuuya giúp! Mình tê chân quá...'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Thế là tôi quyết định cõng Hyouka về, một phần cũng là để cảm ơn trước lúc tôi tỉnh lại. Và Asahi chắc mai sẽ lại như bình thường thôi... tôi mong vậy.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Lũ trẻ bây giờ khác xưa thật. Cậu nghĩ sao Itsuki?'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Hừm... Theo mình nghĩ... mấy em ấy đáng để mình ở lại Guild một thời gian và theo dõi đó.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Cậu nghiêm túc được không? Mình đang nói đến vụ Silver Wolf và mắt đỏ.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Mình đùa tí thôi mà. Làm gì mà căng thế chứ, cậu sẽ lại già hơn bây giờ.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Thế...?'
+			},
+			{
+				class: 'Maki',
+				name: [ 'Chị Maki' ],
+				content: 'A hèm. Cho em xin phép được báo cáo kết luận lí do Silver Wolf chỉ có một mình. Theo như câu truyện của tụi nhỏ và kết hợp với điều tra của Guild thì chính con Silver Wolf mắt đỏ đã sát hại cả đàn của nó.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Chà, tàn nhẫn thật đấy. Vụ này lần đầu anh mới biết.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Vậy là cậu cũng gặp các vụ mắt đỏ à?'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Ừ, ở một số nơi mình đi qua cũng có bắt gặp ma thú mắt đỏ ở một cá thể hoặc cả đàn chứ chưa thấy cá thể trong đàn tàn sát đồng loại. Mình cảm thấy dường như có thứ gì đó đang tác động tới bọn nó.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Vụ này bọn mình vẫn đang hợp tác điều tra cùng lãnh chúa. Và có vẻ phía bên vương quốc đã có hành động rồi.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Bí mật nhỉ?'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Một phần, những ai có báo cáo gặp mắt đỏ thì bên Guild đều sẽ hồi đáp lại nó chỉ là căn bệnh hiếm.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Giống như vừa nãy nhỉ?'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Tụi trẻ không nên lo lắng về mấy vấn đề này. Người lớn sẽ lo, mấy đứa nó chỉ cần sống thật vui vẻ là được.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Cậu nói phải. Mình sẽ giải quyết tụi mắt đỏ nhanh thôi, một đấm là được.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Dù sao thì... cậu có biết cô bé Hyouka là một trong nạn nhân của vụ mặt đỏ 2 năm trước không? Cô bé đó đã mất hết tất cả.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Cô bé tội nghiệp. Nhưng mà, có lẽ em Hyouka đã tìm ra thứ quý giá sẽ luôn ở bên cạnh em ấy. Nhìn mặt của em trông hạnh phúc lắm.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Mà hình như mình quên nói gì đó với nhóc Shuuya thì phải...'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'À cái đó... chắc sẽ ổn thôi. Tiếc là mình không xem được phản ứng của em ý sẽ thế nào.'
+			},
+			{
+				class: 'think',
+				name: [ '???' ],
+				content: 'Chú diều hầu đậu ở trên mái nhà của Shuuya nhìn thấy cậu và cùng bạn đã về đến nhà cậu. Dường như Shuuya đã mời họ qua dùng bữa tối.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Con về rồi!'
+			},
+			{
+				class: 'ShuuyaFather',
+				name: [ 'Cha' ],
+				content: 'Ta cần nói chuyện với con chút về vấn đề chiều nay. Ta đợi con trong phòng khách.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Thôi rồi thôi rồi! Sao cha lại biết thế này! Mình cần phải né vụ này mới được!'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Ờm... mời các cậu vào...'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Cậu biết gì không, nay Asahi trông không khỏe lắm nên mình xin từ chối lời mời nha. Mình về trước đây.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Ơ nhưng còn tiền...'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Cậu cứ giữ đi, mai bọn mình sẽ lại qua mà. Chúc may mắn nha.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Vừa dứt lời thì Kowashi cõng Asahi chạy vút đi. Đúng thật là... Không sao mình vẫn còn Hyouka, xin lỗi vì đã lôi cậu vào vụ này.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Có vẻ chỉ còn cậu thôi... Hyouka?'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Chân mình hết tê rồi. Mai gặp lại.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Từ lúc nào Hyouka đã xuống khỏi lưng tôi mà không hề hay biết luôn. Nhỏ cũng chạy theo sau nhóm Kowashi. Nhưng tại sao... ĐỒ PHẢN BỘI! Bỗng một bàn tay ở phía sau nắm chặt vào vai trái tôi.'
+			},
+			{
+				class: 'ShuuyaFather',
+				name: [ 'Cha' ],
+				content: 'Ồ, có vẻ bạn con nay không qua ăn tối rồi. Chúng ta sẽ có nhiều thời gian nói chuyện đây.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Vâng...'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Và thế là tôi đã bị cha nói suốt hơn một tiếng với cái bụng đói meo. May mà mẹ tôi cũng nói đỡ lời nên cuối cùng cả nhà cũng được ăn. Sau đó tôi ngay lập tức leo lên giường ngủ luôn vì đã quá kiệt sức. Thật là một ngày đáng nhớ.'
+			}
+		]
+	},
+	{
+		chapter: 14,
+		title: 'Giải cứu thành công',
+		dialogue: [
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Thanh kiếm đã vỡ, chỉ còn con dao trên tay... Mình sẽ kết liễu nó... Mình... có thể...? Đó là những suy nghĩ trước khi tôi từ bỏ bởi nanh vuốt đã sát trước mắt. Vậy mà từ đâu, chàng trai mặc áo choàng dài xanh lá xuất hiện trước mặt tôi. Nắm đấm tay phải đầy máu vẫn còn đang dơ ra trước mắt. Dường như anh ta đã hạ Silver Wolf chỉ với một đấm?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Anh rốt cuộc là ai... vậy...'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Ơ...? Mọi thứ sao lại mờ đi hết rồi...? Tôi mất thăng bằng và ngã ngửa ra sau. Nhưng ngay lập tức anh ấy đã tới đỡ trước khi tôi gục xuống mặt đất.'
+			},
+			{
+				class: 'unknown',
+				name: [ '???' ],
+				content: 'Em nghỉ ngơi đi, việc còn lại hãy để mọi người lo nốt nha.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Có nên tin vào người này không? Anh ta nói gì đó về “mọi người” nhưng xung quanh đây chỉ có mỗi anh ấy. Dù người này đã cứu mình trong gang tấc nhưng nó lại khiến mình không ngừng băn khoăn... Mình cần phải... tỉnh... táo... Tôi không còn đủ sức lực để mà suy nghĩ gì nữa và đã ngất từ lúc nào không hay.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Khu rừng tuyết...? Tại sao mình lại nằm ở đây vậy? Chẳng lẽ đã xảy ra chuyện gì sau khi mình ngất? Chú diều hâu kia sao cứ bay vòng quanh trên trời vậy? Tôi bối rối định ngồi dậy để xem tình hình xung quanh ra sao nhưng mà không cử động được. Rồi một lúc sau có giọng nói từ hướng nào đó phát ra. Tôi cố gắng cất tiếng nói lên nhưng không lời. Và bóng của một sinh vật nào đó đã xuất hiện trước mắt tôi. Nó chỉ nhìn chằm chằm vào mặt tôi và chạm vào tóc. Tôi không hiểu sinh vật đó định làm gì nhưng có vẻ là vô hại...? Tôi nheo mắt để cố nhìn rõ thì xung quanh bắt đầu mờ dần và cái bóng đó hiện ra là... Hyouka?'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Shuuya ngủ ngon không?'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Cuối cùng cậu cũng chịu tỉnh rồi.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Ngủ? Mà khoan, chúng ta đang ở đâu đây?'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Bọn mình đang ở trong phòng gặp riêng của Guild mạo hiểm giả.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Phòng gặp riêng, nếu mình không nhầm thì phòng này thường dùng cho các cuộc trao đổi quan trọng. Ở chỉnh giữa phòng thì có một cái bàn vuông, xung quanh bàn là ghế đệm dài đủ cho ba người ngồi và bên còn lại là ghế đệm đơn dường như là dành cho nhân vật quan trọng. '
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Tôi nằm trên ghế nhìn liếc qua căn phòng trong khi vẫn còn đang gối đùi Hyouka. Asahi thì bám lấy từ phía sau Kowashi, cậu đang có vẻ mặt bất lực và họ đang ngồi đối diện tôi... Ngày hôm nay không thể kì lạ hơn được nữa... Mà tại sao mình lại gối trên đùi của Hyouka vậy?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Ra là chúng ta được người bên Guild cứu... Mà Kowashi, cậu đã làm gì Asahi vậy?'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Mình cũng không biết nữa. Cậu ấy nói gì đó về hình phạt và sẽ không buông ra cho đến khi nào thỏa mãn thì thôi...'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Cậu nói rõ hơn xem nào.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'Hừm... nói sao ta. Sau khi mình đỡ cho Asahi thì mình đã bị ngất và gặp ai đó tự xưng là thần trong tiềm thức...'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Hả?'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'À... bỏ qua chi tiết đấy đi, chắc do mình tưởng tượng. Sau đó mình tỉnh dậy trên ghế đệm trong phòng này và vừa nhổm người lên thì Asahi đã lao thẳng vào mình. Nhỏ cứ nói gì đó về việc mình làm khiên rồi tí thì không còn bao giờ tỉnh lại nữa. Rồi Asahi quàng lấy cổ mình và nói đây là hình phạt để mình không bỏ nhỏ. Và từ lúc đấy Asahi không nói gì thêm.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Từ lúc tôi tỉnh lại Asahi chưa có nói gì cả. Tôi nhìn nhỏ, khuôn mặt đượm buồn trông như đang lo lắng điều gì đó quan trọng sẽ lại rời xa một lần nữa. Nếu những lời Kowashi vừa nói là sự thật thì... cậu ấy thực sự suýt nữa mất mạng... Tôi đã ra một quyết định sai lầm...'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Này! Nừng nó néo ná nình nữa Nyouka!'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Shuuya, bớt suy nghĩ lại và nghỉ chút đi.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Làm sao mình có thể không suy nghĩ sau những gì đã... NAU NAU NAU!'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka' ],
+				content: 'Shuuya. Nghỉ. Ngơi.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Nược nồi nược nồi.'
+			},
+			{
+				class: 'unknown',
+				name: [ '???' ],
+				content: 'Em trai mà nghe lời trước đó thì có phải không bị đau rồi không?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Có lẽ vậy... Khoan! Ai AU!'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Tôi giật mình ngã lăn xuống sàn bởi giọng nói này vừa quen nhưng cũng vừa lạ. Cảm giác như là người tôi mới gặp gần đây.'
+			},
+			{
+				class: 'Kowashi',
+				name: [ 'Kowashi' ],
+				content: 'À, đó là anh Itsuki, người đã cứu bọn mình đấy.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Tôi ngồi lại lên ghế, nhìn kĩ anh Itsuki thì trông anh rất trẻ tầm khoảng 20 tuổi. Anh có mái tóc màu xanh lá pha chút màu nâu cùng với đôi mắt đen tuyền. Trang phục thì dường như anh lấy tông xanh lá làm chủ đạo kết hợp với màu nâu, đen với trắng. Anh còn đang mặc thêm áo choàng màu lục đậm dài đến cổ chân có mũ chùm đầu. Có lẽ thứ làm tôi tò mò nhất chính là kính chắn gió anh đang đeo để ở trên đầu, không biết tại sao anh đeo nó. Tôi cứ nhìn chằm chằm vào anh Itsuki cho đến khi tôi nhận ra hành động này có hơi thô lỗ nhưng anh chỉ nở một nụ cười đáp lại. Đây đúng là người đã cứu tôi lúc đó, cái nụ cười này của người trước mặt tôi không thể nào nhầm lẫn được.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Em xin lỗi, em không nhận ra anh ngồi đấy. À ừm, anh tên Itsuki nhỉ? Em tên là Shuuya. Thay mặt cả Party, em cảm ơn anh rất nhiều vì đã cứu Party của bọn em.'
+			},
+			{
+				class: 'Hyouka',
+				name: [ 'Hyouka', 'Kowashi' ],
+				content: 'Em cũng cảm ơn anh lần nữa.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Anh tên Itsuki, hân hạnh được làm quen với em. Anh nghĩ người các em nên cảm ơn là cậu em trai đã đến báo với Guild á.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Vậy là cậu ta an toàn thoát khỏi rừng... may quá.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Anh chưa rõ sự tình lắm nhưng tí nữa người bên Guild sẽ qua hỏi lấy thông tin đó. Tiện thể thì cảm ơn đã chiêu đãi anh nha.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Chiêu đãi? Ý anh là sao?'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Không có gì đâu. Chỉ là... anh được ngồi xem hai đứa tán tỉnh nhau thôi. Mấy đứa trông đáng yêu lắm!'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'BỌN EM KHÔNG TÁN TỈNH NHAU!'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Nào nào, nếu mà anh nói sai thì mặt đâu cần phải đỏ lên như thế đúng không?'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Có vẻ anh Itsuki cũng có sở thích giống mình, thi thoảng mình cũng hay trêu như vậy với “bộ đôi rắc rối”. Nhưng bị trêu ngược lại thì có phần ngại thật. Hành động của Hyouka hơi bất cẩn... không, mình cũng có phần hơi tự nhiên khi cứ thế mà trôi theo. Tôi quay ra liếc nhìn Hyouka thì mặt nhỏ vẫn “lạnh” như bình thường, tất nhiên là ngoại trừ đôi tai dài đỏ chót nổi bật trên nền tóc trắng của nhỏ.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Em trai thấy bé tuyết này đang lúng túng có dễ thương không nè?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Tất nhiên là cậu ấy siêu dễ... A...'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Hửm...? Em định nói gì ấy nhỉ? Anh và cô bé dễ thương này nghe không rõ, em nói lại được không?'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Anh được lắm...'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Từ lúc nào mà anh Itsuki đã đứng ở phía sau ghế tôi đang ngồi. Tệ thật, không ngờ anh Itsuki lại có thể khiến mình mất cảnh giác dễ dàng như vậy được. Anh giỏi đấy nhưng sẽ không có lần sau nữa đâu. Mà nhìn lại thì Hyouka dễ thương thật... KHOAN GIỜ KHÔNG PHẢI LÚC NGHĨ VỀ NÓ!'
+			},
+			{
+				class: 'unknown',
+				name: [ '???' ],
+				content: 'Itsuki, cậu thôi trêu mấy đứa nó được không?'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Thôi nào Katsumi, nói chuyện với mấy đứa này vui lắm.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Một người đàn ông trung niên cao lớn tầm ngoài 40 bước vào căn phòng. Vóc dáng của người đó trông thật vạm vỡ cứ như chiến binh xuất thân từ chiến trường. Mái tóc nâu cạo hai bên mai tạo cảm giác trẻ trung còn đôi mắt cùng màu lại tạo ánh nhìn có chút đáng sợ. Trang phục thì... đồng phục của Guild? Vậy ra người này là nhân viên của Guild. Theo như anh Itsuki gọi thì tên là Katsumi nhỉ? Mà rốt cuộc anh Itsuki và người này có mối quan hệ thế nào? Hay có mối quan hệ mật thiết gì đó với Guild chăng? Cảm giác lúc nói chuyện cứ như là bạn bè của nhau thay vì kiểu xã giao trong công việc, anh Itsuki bí ẩn thật.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Một lúc sau thì chị Maki bước vào phòng, chị tiến lại gần bác Katsumi nói gì đó rồi quay ra đóng cửa. Bác Katsumi và anh Itsuki sau đó cũng dừng nói chuyện và về chỗ ngồi của mình. Riêng bác Katsumi thì ngồi ở ghế đơn, còn chị Maki thì đứng ở bên trái của bác Katsumi. Đột nhiên bầu không khí cảm giác ngột ngạt hơn khi bác Katsumi ngồi xuống.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Cậu bỏ vẻ mặt hằm hằm đi được không Katsumi? Mấy nhóc này bị cậu dọa sợ rồi nè, chẳng trách đứa trẻ nào cứ thấy mặt cậu thì y như rằng chạy mất dép.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Cái này có phải do mình đâu, chẳng qua do đôi mắt này đấy chứ.'
+			},
+			{
+				class: 'Itsuki',
+				name: [ 'Anh Itsuki' ],
+				content: 'Tiếc ghê ta, dù cậu có quý trẻ con đi nữa nhưng mà mấy đứa nó lại né cậu.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Hầy... Biết sao giờ.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Không thể tin được bầu không khí trước đó đang rất bí bức vậy mà anh Itsuki nói vài câu mà cả phòng thoải mái hẳn. Mình cứ nghĩ anh Itsuki chỉ là người thích trêu trọc chứ ai ngờ anh còn đọc được cả tâm trạng nữa. Thậm chí còn dẫn dẵt lời nói để bọn tôi hiểu được thêm về người đàn ông ngồi ở kia.'
+			},
+			{
+				class: 'Maki',
+				name: [ 'Chị Maki' ],
+				content: 'E hèm... Ta vào việc chính thôi nhỉ?'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'À, phải rồi. Bác tên là Katsumi, là trưởng Guild mạo hiểm giả của thị trấn『Dawn Horizon』. Còn bên đây là thư kí của bác, chắc các cháu biết tên rồi nhỉ?'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Ế? Thư kí? Mình cứ tưởng chị Maki chỉ là nhân viên bên quầy tiếp tân thôi chứ.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Cho em hỏi chị Maki chút là sao chị lại ở bên quầy tiếp tân vậy?'
+			},
+			{
+				class: 'Maki',
+				name: [ 'Chị Maki' ],
+				content: 'À, chẳng qua là chị muốn nhìn mọi người và đánh giá bằng chính con mắt này. Ngồi trong văn phòng làm việc với mỗi giấy tờ thì khả năng đánh giá sẽ không toàn diện và cũng chán lắm chứ.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Bất ngờ thật, chị Maki đúng là thực sự nghiêm túc trong công việc. Chắc chắn chị sẽ trở thành nhân viên siêu ưu tú cho mà xem.'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Trước tiên thì bác muốn cảm ơn Party『Log Horizon』đã cứu người dân của thị trấn này. Nếu mà không có các cháu thì cậu nhóc kia chắc đã không thể trở về được rồi.'
+			},
+			{
+				class: 'Shuuya',
+				name: [ 'Shuuya' ],
+				content: 'Không có gì đâu ạ, cứu người là chuyện đương nhiên mà.'
+			},
+			{
+				class: 'Maki',
+				name: [ 'Chị Maki' ],
+				content: 'Phải rồi. Các em vừa mới đăng ký làm mạo hiểm giả. Vì một lí do gì đó mà vào rừng. Sau đó cứu người rồi cả Party đấu với Silver Wolf với cấp độ chênh lệch. Cuối cùng thì tí cả nhóm không còn đường trở về.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
+				content: 'Tôi không biết phải đáp lại như nào nữa. Chị Maki đột nhiên trông đáng sợ quá, chắc tại sáng nay chị đã khuyên không nên làm gì nguy hiểm đây mà...'
+			},
+			{
+				class: 'Katsumi',
+				name: [ 'Bác Katsumi' ],
+				content: 'Nào nào, quan trọng là tụi nhỏ đã an toàn trở về rồi mà. À, các cháu có thể kể bác nghe về cuộc phiêu lưu hôm nay của các cháu được không?'
+			}
+		]
+	},
+	{
 		chapter: 13,
 		title: 'Bảo vệ điều quan trọng',
 		dialogue: [
@@ -1659,7 +2561,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Nếu vậy thì mời các em lần lượt chạm vào『Quả cầu đăng ký』. Nó sẽ hiện thông tin Status của các em và truyền thông tin vào thẻ mạo hiểm giả.'
 			},
 			{
@@ -1669,7 +2571,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Xem nào, Shuuya, chức nghiệp『Chef』... Khoan đã đầu bếp ư?'
 			},
 			{
@@ -1679,7 +2581,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'À ừm... Em có chắc về việc làm mạo hiểm giả không? Ý chị là chức nghiệp không có kèm kĩ năng chiến đấu khá là bất lợi cho em. Và khả năng gặp nguy hiểm sẽ còn cao hơn bình thường. Tất nhiên em vẫn có thể đăng ký, chị chỉ muốn em cân nhắc lại thôi.'
 			},
 			{
@@ -1734,7 +2636,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Chị thành thật xin lỗi đã đánh giá em hơi sớm. Là một tiếp tân chị không nên nói thế. Thực sự xin lỗi em nhiều.'
 			},
 			{
@@ -1744,7 +2646,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Nhưng...'
 			},
 			{
@@ -1759,7 +2661,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Nếu các em đã nói vậy, chị xin phép.'
 			},
 			{
@@ -1789,122 +2691,122 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Vậy sau đây để chị giải thích về hạng cũng như nhiệm vụ, luật, ...'
 			},
 			{
 				class: 'think',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Về hạng mạo hiểm giả được chia làm 6 loại, thấp nhất là Iron < Bronze < Silver < Gold < Platinum < Mythril là cao nhất.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Để có thể thăng hạng phải hoàn thành 100 nhiệm vụ cùng cấp hoặc hơn cấp. Sau đó số lượng yêu cầu hoàn thành nhiệm vụ sẽ tăng thêm 100 mỗi lần thăng hạng. Đồng thời cũng phải trải qua 1 bài kiểm tra đánh giá của Guild để có thể chính thức thăng hạng. Đặc biệt nếu có thành tích xuất sắc với được tín cử từ hạng Platinum hoặc Mythril hoặc từ những người có quyền sẽ được xem xét thăng hạng, bỏ qua các yêu cầu cần.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Sau một khoảng thời gian không làm nhiệm vụ sẽ bị tụt hạng, lần lượt là 1 tháng < 3 tháng < 6 tháng < 9 tháng < 1 năm. Đối với Iron nếu lâu không làm sẽ phải nộp phí là 10 xu bạc, còn đối với Mythril sẽ không bị tụt khi lâu không làm nhiệm vụ.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Ở vài hạng nhất định sẽ có quyền lợi đặc biệt như hạng Platinum và Mythril sẽ được trả phí sửa chữa đồ và phí chữa trị sau khi hoàn thành nhiệm vụ. Còn riêng hạng Mythril sẽ có thêm quyền lợi là hưởng lương hưu 3 xu vàng mỗi tháng khi người hạng đó chính thức nộp đơn nghỉ không hoạt động làm mạo hiểm giả nữa. Tất nhiên họ vẫn có thể rút đơn và hoạt động tiếp nhưng lương hưu sẽ tạm dừng, sau đó vẫn có thể nộp lại đơn. Đổi lại họ sẽ sẽ bị buộc triệu tập đến chiến trường khi nó xảy ra nếu sức khỏe còn tốt.'
 			},
 			{
 				class: 'think',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Về nhiệm vụ sẽ được phân loại để phù hợp với thứ hạng.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Có thể nhận nhiệm vụ cao hơn 1 hạng nhưng không thể nhận nhiệm vụ thấp hạng. Có thể làm nhiệm vụ cao hạng hơn nếu được mời tham gia vào Party nhưng phải cân nhắc nếu quá chênh lệch trình độ.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Sau khi hoàn thành nhiệm vụ sẽ được nhận tiền thưởng ghi trong yêu cầu.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Tùy vào nhiệm vụ sẽ có gia hạn thời gian hoàn thành hoặc không.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Đối với nhiệm vụ yêu cầu từ người khác sẽ cần chữ kí của họ để xác nhận hoàn thành nhiệm vụ.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Nếu nhiệm vụ bị thất bại sẽ bị trừ 1 điểm tiến trình nhiệm vụ đã hoàn thành.'
 			},
 			{
 				class: 'think',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Về Party có thể tạo tạm thời hoặc lâu dài.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Không giới hạn số lượng thành viên trong Party.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Khi làm nhiệm vụ có yêu cầu Party sẽ được bên Guild thưởng thêm 5% tiền thưởng cho mỗi thành viên trong Party tham gia nhiệm vụ, trừ trưởng Party. Còn nhận nhiệm vụ không có yêu cầu Party sẽ không thưởng thêm.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Số tiền thưởng tự bên Party chia đều cho các thành viên.'
 			},
 			{
 				class: 'think',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Về các vi phạm.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Mất thẻ phạt 50 xu bạc để làm lại.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Dùng thẻ của người khác phạt 1 xu vàng và 1 tuần đình chỉ.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Giả mạo thẻ sẽ bị cấm vĩnh viễn làm mạo hiểm giả.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Các mạo hiểm giả gây gổ với nhau dẫn đến bạo lực bộc phát phạt 1 xu vàng và 1 tuần đình chỉ.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Khiến người khác bị liên lụy khi đang làm nhiệm vụ phạt 3 xu vàng và 1 tháng đình chỉ.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Bỏ rơi người yêu cầu trong nhiệm vụ hộ tống hoặc bỏ rơi thành viên Party trong tình thế nguy hiểm khi có thể cứu phạt 10 xu vàng, tụt 1 hạng và 3 tháng đình chỉ.'
 			},
 			{
 				class: 'info',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Giết người vô tội sẽ bị cấm vĩnh viễn làm mạo hiểm giả và bị xử theo luật của đất nước.'
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Và đó là tất cả những thông tin các em cần biết. Các em có câu hỏi gì không?'
 			},
 			{
@@ -1914,7 +2816,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'À nếu các em chưa nhớ được từng đó thông tin thì có thể đọc cuốn『Sổ tay mạo hiểm giả』này.'
 			},
 			{
@@ -1924,7 +2826,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Thế tên của Party sẽ là gì nào?'
 			},
 			{
@@ -1959,7 +2861,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Xong rồi, các em chỉ cần nhỏ máu vào thẻ nữa là xong thủ tục.'
 			},
 			{
@@ -1974,7 +2876,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'Thẻ được phù phép『Unbreakable』rồi nên không hỏng được. Và thẻ được liên kết với linh hồn của người nhỏ máu nên thông tin không đổi được. Đồng thời chỉ những dụng cụ chuyên dụng của Guild mới có thể can thiệp được một phần thẻ.'
 			},
 			{
@@ -1984,7 +2886,7 @@ const volume = [
 			},
 			{
 				class: 'Maki',
-				name: [ 'Maki' ],
+				name: [ 'Chị Maki' ],
 				content: 'E hèm. Vậy thì xin chúc mừng các em đã hoàn thành đăng ký làm mạo hiểm giả. Giờ các em hãy qua bên phải và chọn lấy nhiệm vụ đầu tiên nào.'
 			},
 			{
@@ -2607,7 +3509,7 @@ const volume = [
 			{
 				class: 'Laren',
 				name: [ 'Mục sư Laren' ],
-				content: 'Điều này... Thật hiếm gặp...『Paladin』. Chức nghiệp của con là vệ sĩ. Đồng thời con nhận được danh hiệu『Vì người khác』từ quả cầu. Không, đúng hơn thì danh hiệu này từ thần Iwao.'
+				content: 'Điều này... Thật hiếm gặp...『Paladin』. Chức nghiệp của con là vệ sĩ. Đồng thời con nhận được danh hiệu『The Savior』từ quả cầu. Không, đúng hơn thì đây là phước lành từ thần Iwao.'
 			},
 			{
 				class: 'think',

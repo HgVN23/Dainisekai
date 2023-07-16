@@ -457,5 +457,11 @@ li span {
 	border-left-color: orangered;
 }
 .Maki {
-	border-left-color: lightyellow;
+	border-left-color: #dbff4a;
+}
+.Itsuki {
+	border-left-color: #138500;
+}
+.Katsumi {
+	border-left-color: #5c4300;
 }
