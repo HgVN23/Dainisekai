@@ -495,7 +495,7 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Bác Katsumi' ],
-				content: 'Dù sao thì... cậu có biết cô bé Hyouka là một trong nạn nhân của vụ mặt đỏ 2 năm trước không? Cô bé đó đã mất hết tất cả.'
+				content: 'Dù sao thì... cậu có biết cô bé Hyouka là một trong nạn nhân của vụ mắt đỏ 2 năm trước không? Cô bé đó đã mất hết tất cả.'
 			},
 			{
 				class: 'Itsuki',
@@ -621,7 +621,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Khu rừng tuyết...? Tại sao mình lại nằm ở đây vậy? Chẳng lẽ đã xảy ra chuyện gì sau khi mình ngất? Chú diều hâu kia sao cứ bay vòng quanh trên trời vậy? Tôi bối rối định ngồi dậy để xem tình hình xung quanh ra sao nhưng mà không cử động được. Rồi một lúc sau có giọng nói từ hướng nào đó phát ra. Tôi cố gắng cất tiếng nói lên nhưng không lời. Và bóng của một sinh vật nào đó đã xuất hiện trước mắt tôi. Nó chỉ nhìn chằm chằm vào mặt tôi và chạm vào tóc. Tôi không hiểu sinh vật đó định làm gì nhưng có vẻ là vô hại...? Tôi nheo mắt để cố nhìn rõ thì xung quanh bắt đầu mờ dần và cái bóng đó hiện ra là... Hyouka?'
+				content: 'Khu rừng tuyết...? Tại sao mình lại nằm ở đây vậy? Chẳng lẽ đã xảy ra chuyện gì sau khi mình ngất? Chú diều hâu kia sao cứ bay vòng quanh trên trời vậy? Tôi bối rối định ngồi dậy để xem tình hình xung quanh ra sao nhưng mà không cử động được. Rồi một lúc sau có giọng nói từ hướng nào đó phát ra. Tôi cố gắng cất tiếng nói nhưng không nên lời. Và bóng của một sinh vật nào đó đã xuất hiện trước mắt tôi. Nó chỉ nhìn chằm chằm vào mặt tôi và chạm vào tóc. Tôi không hiểu sinh vật đó định làm gì nhưng có vẻ là vô hại...? Tôi nheo mắt để cố nhìn rõ thì xung quanh bắt đầu mờ dần và cái bóng đó hiện ra là... Hyouka?'
 			},
 			{
 				class: 'Hyouka',
