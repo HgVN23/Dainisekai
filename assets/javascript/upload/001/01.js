@@ -75,7 +75,7 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Bác Katsumi' ],
-				content: 'À, nó chỉ là căn bệnh hiếm xảy ra ở ma vật thôi. Nó khiến cho ma vật điên dại hơn bình thường, nếu các cháu mà gặp một con nào như vậy thì nên né ra và báo lại với bên Guild của bác nha.'
+				content: 'À, nó chỉ là căn bệnh hiếm xảy ra ở ma vật thôi. Nó khiến cho ma vật điên dại hơn bình thường, nếu các cháu mà gặp một con nào như vậy thì nên né ra và báo lại với bên Guild của bác nhé.'
 			},
 			{
 				class: 'Shuuya',
@@ -390,7 +390,7 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Bác Katsumi' ],
-				content: 'Các cháu xứng đáng mà nên hãy nhận nó nha.'
+				content: 'Các cháu xứng đáng mà nên hãy nhận nó nhé.'
 			},
 			{
 				class: 'Shuuya',
@@ -430,7 +430,7 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Bác Katsumi' ],
-				content: 'Cậu nghiêm túc được không? Mình đang nói đến vụ Silver Wolf và mắt đỏ.'
+				content: 'Cậu nghiêm túc được không? Tôi đang nói đến vụ Silver Wolf và mắt đỏ.'
 			},
 			{
 				class: 'Itsuki',
@@ -465,7 +465,7 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Bác Katsumi' ],
-				content: 'Vụ này bọn mình vẫn đang hợp tác điều tra cùng lãnh chúa. Và có vẻ phía bên vương quốc đã có hành động rồi.'
+				content: 'Vụ này bọn tôi vẫn đang hợp tác điều tra cùng lãnh chúa. Và có vẻ phía bên vương quốc đã có hành động rồi.'
 			},
 			{
 				class: 'Itsuki',
@@ -505,7 +505,7 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Bác Katsumi' ],
-				content: 'Mà hình như mình quên nói gì đó với nhóc Shuuya thì phải...'
+				content: 'Mà hình như tôi quên nói gì đó với nhóc Shuuya thì phải...'
 			},
 			{
 				class: 'Itsuki',
@@ -515,7 +515,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ '???' ],
-				content: 'Chú diều hầu đậu ở trên mái nhà của Shuuya nhìn thấy cậu và cùng bạn đã về đến nhà cậu. Dường như Shuuya đã mời họ qua dùng bữa tối.'
+				content: 'Chú diều hâu đậu ở trên mái nhà của Shuuya nhìn thấy cậu và cùng bạn đã về đến nhà cậu. Dường như Shuuya đã mời họ qua dùng bữa tối.'
 			},
 			{
 				class: 'Shuuya',
@@ -646,7 +646,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Phòng gặp riêng, nếu mình không nhầm thì phòng này thường dùng cho các cuộc trao đổi quan trọng. Ở chỉnh giữa phòng thì có một cái bàn vuông, xung quanh bàn là ghế đệm dài đủ cho ba người ngồi và bên còn lại là ghế đệm đơn dường như là dành cho nhân vật quan trọng. '
+				content: 'Phòng gặp riêng, nếu mình không nhầm thì phòng này thường dùng cho các cuộc trao đổi quan trọng. Ở chính giữa phòng thì có một cái bàn vuông, xung quanh bàn là ghế đệm dài đủ cho ba người ngồi và bên còn lại là ghế đệm đơn dường như là dành cho nhân vật quan trọng. '
 			},
 			{
 				class: 'think',
@@ -841,7 +841,7 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Bác Katsumi' ],
-				content: 'Cái này có phải do mình đâu, chẳng qua do đôi mắt này đấy chứ.'
+				content: 'Cái này có phải do tôi đâu, chẳng qua do đôi mắt này đấy chứ.'
 			},
 			{
 				class: 'Itsuki',
