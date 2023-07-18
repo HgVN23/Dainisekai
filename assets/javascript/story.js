@@ -32,8 +32,10 @@ function addStory(id) {
 			if(temp.content[i].charAt(0) == '-') {
 				content += `<p class="gothic talk">${temp.content[i]}</p>`;
 				words += temp.content[i].slice(2).split(' ').length;
-			}
-			else {
+			} else if(temp.content[i].charAt(0) == '"') {
+				content += `<span class="diary">${temp.content[i]}</span>`;
+				words += temp.content[i].split(' ').length;
+			} else {
 				content += `<p class="gothic">${temp.content[i]}</p>`;
 				words += temp.content[i].split(' ').length;
 			}

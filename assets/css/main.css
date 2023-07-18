@@ -363,7 +363,8 @@ p {
 	color: grey;
 	cursor: pointer;
 }
-.gothic {
+.gothic,
+.explain {
 	font-family: gothic;
 }
 .bigLetter {
@@ -380,9 +381,6 @@ p {
 .main {
 	counter-reset: info;
 }
-.explain {
-	font-family: gothic;
-}
 .explain::after {
 	counter-increment: info;
 	content: counter(info);
@@ -394,8 +392,11 @@ p {
 .explain:hover {
 	text-decoration: underline;
 }
+.diary,
+.diary .explain,
 .explainContent {
 	font-style: italic;
+	font-family: scp;
 }
 .explainContent::first-letter {
 	vertical-align: text-top;
