@@ -1669,7 +1669,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Có vẻ gần đây không có. Nhưng mình sẽ thử cách này xem.『Clean』'
+				content: 'Có vẻ gần đây không có. Nhưng mình sẽ thử cách này xem.『Cleanse』'
 			},
 			{
 				class: 'think',
@@ -1679,7 +1679,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Nếu mình dùng được thủy kĩ thì『Clean』có thể làm sạch luôn mọi thứ, còn phong kĩ của mình chỉ có thể tách vật bám nhất định ra được thôi.'
+				content: 'Nếu mình dùng được thủy kĩ thì『Cleanse』có thể làm sạch luôn mọi thứ, còn phong kĩ của mình chỉ có thể tách vật bám nhất định ra được thôi.'
 			},
 			{
 				class: 'Asahi',
@@ -1689,7 +1689,7 @@ const volume = [
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Còn 2 con... Đính chính. Còn 1 con, mình vừa tiện tay bắn thêm lúc Shuuya dùng『Clean』.'
+				content: 'Còn 2 con... Đính chính. Còn 1 con, mình vừa tiện tay bắn thêm lúc Shuuya dùng『Cleanse』.'
 			},
 			{
 				class: 'Kowashi',
@@ -3359,7 +3359,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: '※ == • == • == • ==『Shuuya <span style="color: grey">Tamada</span>』== • == • == • == ※\n[ Job ]\n\t『Chef』\n\t\t『Cooking』\n\t\t『Appraisal』\n\t\t『Slash』\n\t\t<span style="color: grey">『Absorb』</span>\n\t\t『Heat Resistance』\n\t\t『Cooking Set』'
+				content: '※ == • == • == • ==『Shuuya <span style="color: grey">Tamada</span>』== • == • == • == ※\n[ Job ]\n\t『Chef』\n\t\t『Cooking』\n\t\t『???』\n\t\t『Slash』\n\t\t<span style="color: grey">『Absorb』</span>\n\t\t『Heat Resistance』\n\t\t『Cooking Set』'
 			},
 			{
 				class: 'think',
@@ -4621,7 +4621,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi nhìn xung quanh đang vắng người nên đã tranh thủ dùng『Appraisal』để dễ dàng định vị kẹp tóc trong cỏ. Tôi biết mình đã cố gắng che giấu thân phận nhưng vì lí do gì đó đã thúc đẩy bản thân hãy quên nó đi và giúp Hyouka. Dẫu có dùng Skill thì một tiếng đồng hồ đã qua tôi vẫn không thấy gì cả. Trời nay nắng hơn mọi hôm khiến tôi khá mệt mỏi. Tôi nằm xuống gần cái cây, ngước nhìn lên, thở dài. Một cái lông chim nửa trắng nửa lam đã rơi lên người tôi. Tôi cầm lên, ngắm nhìn nó và dùng『Appraisal』để phân tích thử nhưng không thể. Tôi đã bất ngờ vì cái lông này nhưng do đang đuối sức nên tôi cũng kệ. Rồi tôi hạ tay xuống, tự nhiên『Appraisal』định vị được một thứ gì đó trên cây. Đó chính là cái kẹp tóc của Hyouka. Tôi thắc mắc sao nó có thể ở trên đó được, mà nó không quan trọng. Tôi đứng dậy, nhìn lại xung quanh có người không rồi dùng『Floating』để lấy cái kẹp tóc. Vậy là nhiệm vụ hoàn thành và giờ tôi đi tìm Hyouka để trả lại.'
+				content: 'Tôi bắt đầu đi tìm xung quanh sân, chầm chậm vạch từng bụi cỏ tìm thật thật kĩ. Nhưng, một tiếng đồng hồ trôi qua tôi vẫn không thấy gì cả. Trời nay nắng hơn mọi hôm khiến tôi khá mệt mỏi cho dù có『Heat Resistance』. Tôi nằm xuống gần cái cây, ngước nhìn lên và thở dài. Từ trên cây một chiếc lông chim nửa trắng nửa lam rơi xuống. Tôi cầm lên, ngắm nhìn nó và tự hỏi nên tìm kẹp tóc ở đâu bây giờ. Ngắm nghía chiếc lông chán tôi cất vào Inventory, hạ tay xuống thì một thứ gì đó lấp lánh trên cây đập vào mắt tầm tôi. Liệu nó có phải là kẹp tóc? Tôi đứng dậy, nhìn xung quanh có người không rồi dùng『Floating』để lấy thứ đang lấp lánh kia. Tôi biết mình đã cố gắng che giấu thân phận nhưng vì lí do gì đó đã thúc đẩy bản thân hãy quên nó đi và giúp Hyouka. Thứ lấp lánh đó rơi vào tay tôi và đó đúng là cái kẹp tóc của Hyouka. Tôi thắc mắc sao nó có thể ở trên đó nhưng mà nó không còn quan trọng. Vậy là nhiệm vụ hoàn thành và giờ tôi đi tìm Hyouka để trả lại.'
 			},
 			{
 				class: 'think',
@@ -4681,7 +4681,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'A, phải ha... Vậy mình ra chỗ khác nha.'
+				content: 'À, phải ha... Vậy mình ra chỗ khác nha.'
 			},
 			{
 				class: 'Hyouka',
@@ -4711,7 +4711,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Chẳng lẽ đây là sự rò rỉ Mana? Hay là Aura nhỉ? Hay là băng kĩ nhưng bị động? Mấy cái này chắc mình sẽ xử lí sau.'
+				content: 'Chẳng lẽ đây là sự rò rỉ Mana? Hay là Aura nhỉ? Hay là Skill nội tại? Mấy cái này chắc mình sẽ xử lí sau.'
 			},
 			{
 				class: 'Shuuya',
@@ -4741,7 +4741,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Mình cũng là người có thể sử dụng Skill sớm. Hai phong kĩ mình vừa mới dùng là『Silent barrier』ngăn âm thanh và『Floating』di chuyển vật. Vì định kiến nên mình đã giấu nó đi và cậu là người đầu tiên biết bí mật này của mình.'
+				content: 'Mình cũng là người có thể sử dụng Skill sớm. Hai phong kĩ mình vừa mới dùng là『Silent Barrier』ngăn âm thanh và『Floating』di chuyển vật. Vì định kiến nên mình đã giấu nó đi và cậu là người đầu tiên biết bí mật này của mình.'
 			},
 			{
 				class: 'Hyouka',
@@ -5519,7 +5519,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi đứng cách con hình nhân gỗ một khoảng ngắn. Đầu tiên hai tay tôi cầm chắc kiếm, đưa nó lên qua đầu. Sau đó tôi sử dụng『Wind mastery』để điều khiển gió bao quanh lưỡi kiếm làm tăng áp lực giữa lưỡi kiếm và gió bao bọc. Đồng thời kích hoạt luôn『Slash』. Đây là một Skill của chức nghiệp Chef, tăng khả năng chém mạnh lên gấp đôi và chỉ áp dụng lên vũ khí sắc có thể vung. Rồi tôi vung kiếm theo hướng chéo phải qua trái. Trong khi chuyển động thì lưỡi kiếm tăng áp lực lên gió bao bọc, đẩy gió tách khỏi lưỡi kiếm di chuyển theo hướng chém đó. Tôi ngước nhìn lên con hình nhân gỗ thì thấy nó vẫn ổn. Tôi nghĩ chắc nó đã thất bại rồi, dù sao đây cũng là lần thử đầu. Tôi đang dịnh dùng『Appraisal』để phân tích trạng thái con hình nhân gỗ và định chạm tay vào để sờ xem thì một giọng nói cất lên làm tôi giật thót tim.'
+				content: 'Tôi đứng cách con hình nhân gỗ một khoảng ngắn. Đầu tiên hai tay tôi cầm chắc kiếm, đưa nó lên qua đầu. Sau đó tôi sử dụng『Wind mastery』để điều khiển gió bao quanh lưỡi kiếm làm tăng áp lực giữa lưỡi kiếm và gió bao bọc. Đồng thời kích hoạt luôn『Slash』. Đây là một Skill của chức nghiệp Chef, tăng khả năng chém mạnh lên gấp đôi và chỉ áp dụng lên vũ khí sắc có thể vung. Rồi tôi vung kiếm theo hướng chéo phải qua trái. Trong khi chuyển động thì lưỡi kiếm tăng áp lực lên gió bao bọc, đẩy gió tách khỏi lưỡi kiếm di chuyển theo hướng chém đó. Tôi ngước nhìn lên con hình nhân gỗ thì thấy nó vẫn ổn. Tôi nghĩ chắc nó đã thất bại rồi, dù sao đây cũng là lần thử đầu. Tôi đang dịnh chạm tay vào để sờ xem thì một giọng nói cất lên làm tôi giật thót tim.'
 			},
 			{
 				class: 'Kowashi',
@@ -5925,7 +5925,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: `※ == • == • == • ==『Shuuya <span style="color: grey">Tamada</span>』== • == • == • == ※\n[ Age | 6 ]\n[ Gender | Male ]\n[ Species | Human ]\n[ Jobs ] \n\t<span style="color: grey">『Chef』</span>\n[ Skills ]\n\t<span style="color: grey">『Cooking』<-『Chef』\n\t『Appraisal』<-『Chef』\n\t『Slash』<-『Chef』\n\t『Absorb』<-『Chef』\n\t『Heat Resistance』<-『Chef』\n\t『Wind Mastery』\n\t『Silent Barrier』<-『Wind Mastery』\n\t『Floating』<-『Wind Mastery』</span>\n[ Titles ]\n\t<span style="color: grey">『Reincarnator』\n\t『The favor of the Wind』</span>`
+				content: `※ == • == • == • ==『Shuuya <span style="color: grey">Tamada</span>』== • == • == • == ※\n[ Age | 6 ]\n[ Gender | Male ]\n[ Species | Human ]\n[ Jobs ] \n\t<span style="color: grey">『Chef』</span>\n[ Skills ]\n\t<span style="color: grey">『Cooking』<-『Chef』\n\t『???』<-『Chef』\n\t『Slash』<-『Chef』\n\t『Absorb』<-『Chef』\n\t『Heat Resistance』<-『Chef』\n\t『Wind Mastery』\n\t『Silent Barrier』<-『Wind Mastery』\n\t『Floating』<-『Wind Mastery』</span>\n[ Titles ]\n\t<span style="color: grey">『Reincarnator』\n\t『The favor of the Wind』</span>`
 			},
 			{
 				class: 'think',

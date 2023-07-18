@@ -177,7 +177,7 @@ function loadDexContent(id) {
 			} else
 				skill += `<div class="note">Chưa từng đề cập</div>`;
 			if(tempS[i].firstUse != -1)
-				skill += `<div class="note">Sử dụng lần đầu trong <span id="${changeId(tempS[i].firstAppear)}">Chapter ${tempS[i].firstAppear}</span></div>`;
+				skill += `<div class="note">Sử dụng lần đầu trong <span id="${changeId(tempS[i].firstUse)}">Chapter ${tempS[i].firstUse}</span></div>`;
 			else
 				skill += `<div class="note">Chưa được sử dụng</div>`;
 			skill += `</div></div>`;
@@ -211,7 +211,7 @@ function loadDexContent(id) {
 			else
 				item += `<div class="note">Chưa từng đề cập</div>`;
 			if(tempI[i].firstUse != -1)
-				item += `<div class="note">Sử dụng lần đầu trong <span id="${changeId(tempI[i].firstAppear)}">Chapter ${tempI[i].firstAppear}</span></div>`;
+				item += `<div class="note">Sử dụng lần đầu trong <span id="${changeId(tempI[i].firstUse)}">Chapter ${tempI[i].firstUse}</span></div>`;
 			else
 				item += `<div class="note">Chưa được sử dụng</div>`;
 			item += `</div></div>`;

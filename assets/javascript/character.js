@@ -34,19 +34,19 @@ const character = [
 			'“Ăn cơm”'
 		],
 		dislike: [
-			'Nói xấu về “gia đình”',
+			'“Gia đình” bị nói xấu',
 			'Ăn các món liên quan đến cá',
 			'Giả dối'
 		],
 		debut: 0,
 		appearance: [
-			'Cơ thể cân đối, cao 170cm, nặng 68kg (Khi 18 tuổi)',
+			'Cơ thể cân đối, cao 168cm, nặng 66kg (Khi 18 tuổi)',
 			'Mái tóc ngắn, để mái vuốt qua trái có màu lam như đá lưu ly được thừa hưởng từ mẹ',
 			'Đôi mắt lòng trắng làm nền cho con ngươi màu lam tựa nước biển trong xanh thừa hưởng từ cha',
 			'Tính cách chững chạc, quan tâm người khác và hay tò mò'
 		],
 		personality: [
-			'Ở kiếp trước cậu tên là Hg, 20 tuổi, đã tử vong vì gặp tai nạn trên đường. Sau đó nhờ văn phòng Re:Life, cậu được tái sinh vào một thế giới Fantasy có tên là『Dainisekai』với cái tên mới là Shuuya',
+			'Ở kiếp trước cậu tên là Hg, 20 tuổi, đã qua đời vì gặp tai nạn trên đường. Sau đó nhờ văn phòng Re:Life, cậu được tái sinh vào một thế giới Fantasy có tên là『Dainisekai』với cái tên mới là Shuuya',
 			'Sinh ra tại thị trấn『Dawn Horizon』. Là con của gia đình thường dân gồm cha tên Haruka và mẹ tên Sara',
 			'Cậu có thể sử dụng Skill mà không cần phải chờ đến 10 tuổi, hằng đêm chăm chỉ luyện dùng Skill. Cậu đã quyết định giấu Status để tránh gặp phiền phức nhưng cậu vẫn tiết lộ khả năng của mình cho Hyouka',
 			'Năm 7 tuổi được học cách chiến đấu do cha dạy',
@@ -111,15 +111,15 @@ const character = [
 				firstUse: -1
 			},
 			{
-				name: 'Appraisal',
+				name: '???',
 				from() { return fromGet(0, 'job', 0) },
 				type: active,
 				desc: [
-					'Hiện thị thông tin chi tiết (như là tên, loại, cấu tạo, tác dụng, ...) của đối tượng bị nhìn'
+					'???'
 				],
 				firstAppear: 3,
 				inDesc: 0,
-				firstUse: 6
+				firstUse: -1
 			},
 			{
 				name: 'Slash',
@@ -150,12 +150,12 @@ const character = [
 				from() { return fromGet(0, 'job', 0) },
 				type: passive,
 				desc: [
-					// 'Kháng nóng và lạnh'
-					'???'
+					'Nhiệt độ cơ thể không bị ảnh hưởng bởi tác động bên ngoài ở mức nhất định',
+					'Cơ thể vẫn cảm nhận được nóng và lạnh lẫn bên trong và ngoài'
 				],
 				firstAppear: 3,
 				inDesc: 0,
-				firstUse: -1
+				firstUse: 6
 			},
 			{
 				name: 'Wind Mastery',
@@ -217,6 +217,17 @@ const character = [
 				firstUse: 8
 			},
 			{
+				name: 'Cleanse',
+				from() { return fromGet(0, 'skill', 5) },
+				type: active,
+				desc: [
+					'Tách vật bám nhất định khỏi bề mặt để làm sạch'
+				],
+				firstAppear: 11,
+				inDesc: 0,
+				firstUse: 11
+			},
+			{
 				name: 'Blow',
 				from() { return fromGet(0, 'skill', 5) },
 				type: active,
@@ -258,6 +269,15 @@ const character = [
 				],
 				firstAppear: 3,
 				firstUse: 8
+			},
+			{
+				name: 'Blue White Feather',
+				from() { return fromGet(0, 'Diều hâu', 0) },
+				desc: [
+					'???'
+				],
+				firstAppear: 6,
+				firstUse: 6
 			}
 		]
 	}
