@@ -18,11 +18,38 @@ function addStory(id) {
 			`;
 			words += tempD[i].content.split(' ').length;
 		};
-	} else {
+	}
+	if(formatStyle == 'normal') {
 		for(var i = 0; i < temp.content.length; i++) {
 			content += `<p>${temp.content[i]}</p>`;
 			words += temp.content[i].split(' ').length;
 		};
+	}
+	if(formatStyle == 'old') {
+		content += `<p class="gothic"><span class="gothic bigLetter">${temp.content[0].charAt(0)}</span>${temp.content[0].slice(1)}</p>`;
+		words += temp.content[0].split(' ').length;
+		for(var i = 1; i < temp.content.length; i++) {
+			if(temp.content[i].charAt(0) == '-') {
+				content += `<p class="gothic talk">${temp.content[i]}</p>`;
+				words += temp.content[i].slice(2).split(' ').length;
+			}
+			else {
+				content += `<p class="gothic">${temp.content[i]}</p>`;
+				words += temp.content[i].split(' ').length;
+			}
+		};
+		content += `<hr>`
+		for(var i = 0; i < temp.explain.length; i++) {
+			content += `<p class="explainContent">${i + 1} ${temp.explain[i]}</p>`;
+		}
+		setTimeout(function createExplainHover() {
+			const explain = document.querySelectorAll('.explain');
+			for(var i = 0; i < explain.length; i++) {
+				explain[i].setAttribute('id', i);
+				explain[i].addEventListener('mouseenter', explainHover);
+				explain[i].addEventListener('mouseleave', explainOut);
+			}
+		}, 300);
 	}
 	const format = `
 		<section class="main">
@@ -40,4 +67,11 @@ function removeHide() {
 	document.querySelector('.dialogueHide').remove();
 }
 
-// <img class="face" src="assets/media/image/character/${tempD[i].face[j]}.png">
+function explainHover() {
+	const explainContent = document.querySelectorAll('.explainContent');
+	explainContent[this.id].classList.add('explainShow');
+}
+function explainOut() {
+	const explainContent = document.querySelectorAll('.explainContent');
+	explainContent[this.id].classList.remove('explainShow');
+}

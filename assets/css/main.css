@@ -1,6 +1,9 @@
 @font-face {
 	font-family: scp;
 	src: url(../fonts/SourceCodePro-Regular.ttf);
+}@font-face {
+	font-family: gothic;
+	src: url(../fonts/00079-UTM-Deutsch-Gothic.ttf);
 }
 :root {
 	--border: 2px solid #525252;
@@ -52,19 +55,25 @@ header {
 	gap: 2rem;
 }
 .dainisekaiSymbol,
-.logHorizonSymbol {
+.logHorizonSymbol,
+.urzogSymbol {
 	margin: .3rem 0;
 	cursor: pointer;
 }
 .dainisekaiSymbol {
-	content: url(../media/image/dainisekai_sympol.png);
+	content: url(../media/image/symbol/dainisekai.png);
 	width: 4rem;
 	height: 4rem;
 }
 .logHorizonSymbol {
-	content: url(../media/image/log_horizon_symbol.png);
+	content: url(../media/image/symbol/log_horizon.png);
 	width: 6rem;
 	height: 3rem;
+}
+.urzogSymbol {
+	content: url(../media/image/symbol/urzog.png);
+	width: 6rem;
+	height: 4rem;
 }
 .title,
 .button {
@@ -353,6 +362,55 @@ p {
 	font-size: 3rem;
 	color: grey;
 	cursor: pointer;
+}
+.gothic {
+	font-family: gothic;
+}
+.bigLetter {
+	float: left;
+	margin-right: .3rem;
+	position: relative;
+	top: -0.5rem;
+	font-size: 3rem;
+	font-weight: bold;
+}
+.talk {
+	margin-left: 1rem;
+}
+.main {
+	counter-reset: info;
+}
+.explain {
+	font-family: gothic;
+}
+.explain::after {
+	counter-increment: info;
+	content: counter(info);
+	font-family: scp;
+	vertical-align: text-top;
+	color: yellow;
+	font-size: .8rem;
+}
+.explain:hover {
+	text-decoration: underline;
+}
+.explainContent {
+	font-style: italic;
+}
+.explainContent::first-letter {
+	vertical-align: text-top;
+	color: yellow;
+	font-size: .8rem;
+}
+.explainShow {
+	background-color: var(--bg);
+	outline: var(--border);
+	width: 50rem;
+	margin: auto;
+	padding: 1rem;
+	position: fixed;
+	z-index: 0;
+	bottom: 4rem;
 }
 
 

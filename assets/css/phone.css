@@ -6,6 +6,9 @@
 	.main {
 		width: 40rem;
 	}
+	.explainShow {
+		width: 38rem;
+	}
 }
 @media (max-width: 588px) {
 	* {
@@ -37,5 +40,8 @@
 	.chapter,
 	.dialogue {
 		border-width: 3px!important;
+	}
+	.explainShow {
+		width: 23rem;
 	}
 }
