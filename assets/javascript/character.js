@@ -35,12 +35,11 @@ const character = [
 		],
 		dislike: [
 			'“Gia đình” bị nói xấu',
-			'Ăn các món liên quan đến cá',
-			'Giả dối'
+			'Ăn các món liên quan đến cá'
 		],
 		debut: 0,
 		appearance: [
-			'Cơ thể cân đối, cao 168cm, nặng 66kg (Khi 18 tuổi)',
+			'Cơ thể cân đối, cao 168 cm, nặng 66 kg (Khi 18 tuổi)',
 			'Mái tóc ngắn, để mái vuốt qua trái có màu lam như đá lưu ly được thừa hưởng từ mẹ',
 			'Đôi mắt lòng trắng làm nền cho con ngươi màu lam tựa nước biển trong xanh thừa hưởng từ cha',
 			'Tính cách chững chạc, quan tâm người khác và hay tò mò'
@@ -79,6 +78,14 @@ const character = [
 			},
 			{
 				name: 'Maki',
+				desc: 'Người quen'
+			},
+			{
+				name: 'Itsuki',
+				desc: 'Người quen'
+			},
+			{
+				name: 'Katsumi',
 				desc: 'Người quen'
 			}
 		],
@@ -280,7 +287,260 @@ const character = [
 				firstUse: 6
 			}
 		]
+	},
+	{
+		title: 'Hyouka',
+		otherName: [
+			{
+				name: 'Cô bé lạnh lùng',
+				desc: 'Tên do Shuuya gọi khi Hyouka né tránh cậu',
+				firstAppear: 5
+			},
+			{
+				name: 'Bé tuyết',
+				desc: 'Tên do Itsuki gọi để trêu Shuuya',
+				firstAppear: 14
+			}
+		],
+		age: 10,
+		gender: 'Female (Nữ)',
+		race: 'Demi-Elf (Bán Elf)',
+		status: 'Alive (Còn sống)',
+		like: [
+			'“Gia đình”',
+			'Thỏ bông',
+			'Gần Shuuya',
+			'Đồ ăn Shuuya nấu'
+		],
+		dislike: [
+			'“Gia đình” và nhất là Shuuya bị nói xấu',
+			'Người quen rời bỏ'
+		],
+		debut: 5,
+		appearance: [
+			'Cơ thể hơi nhỏ, cao 163 cm, nặng 51 kg (khi 18 tuổi)',
+			'Mái tóc ngắn trắng như tuyết, bên phải có một đoạn tết tóc và trên đó có cài kẹp tóc gắn viên pha lê màu lục nhạt',
+			'Đôi mắt màu lam nhạt như màu của băng',
+			'Đôi tai dài vì là bán Elf',
+			'Khuôn mặt không biểu lộ cảm xúc',
+			'Tính cách hay đề phòng, lo lắng cho người khác và hơi nhạy cảm khi có người nhắc đến Shuuya'
+		],
+		personality: [
+			'Mẹ là Elf, cha là con người nên Hyouka là bán Elf',
+			'Mồ côi mẹ từ khi sinh ra nên cô sống cùng cha - là thương nhân thường hay di chuyển khắp nơi nên họ không có nơi định cư',
+			'Vào năm 8 tuổi, cô cùng cha đang trên đường đến thị trấn『Dawn Horizon』 thì bị đám ma thú Ligheep mắt đỏ tấn công và cha cô qua đời. Sau sự kiện đó Hyouka bộc phát sức mạnh và dần rơi vào trầm cảm, khuôn mặt cô giờ chỉ là vô cảm. Hiện giờ Hyouka đang ở cô nhi viện do sơ Celia quản lý',
+			'Sau khi được Shuuya tìm ra kẹp tóc mà cô đánh rơi thì cô đã mở lòng hơn chút với mọi người. Riêng với Shuuya thì cô đã có một tình cảm đặc biệt dành cho cậu',
+			'Năm 10 tuổi làm mạo hiểm giả cùng đám bạn. Đồng thời là 1 trong 4 thành viên đầu tiên của Party『Log Horizon』'
+		],
+		relative: [
+			{
+				name: 'Cha Hyouka',
+				desc: 'Không rõ tên, đã qua đời'
+			},
+			{
+				name: 'Mẹ Hyouka',
+				desc: 'Không rõ tên, đã qua đời'
+			},
+			{
+				name: 'Shuuya',
+				desc: 'Bạn thân, đồng đội, có tình cảm'
+			},
+			{
+				name: 'Asahi',
+				desc: 'Bạn thân, đồng đội'
+			},
+			{
+				name: 'Kowashi',
+				desc: 'Bạn thân, đồng đội'
+			},
+			{
+				name: 'Celia',
+				desc: 'Người bảo hộ'
+			},
+			{
+				name: 'Haruka',
+				desc: 'Người quen'
+			},
+			{
+				name: 'Sara',
+				desc: 'Người quen'
+			},
+			{
+				name: 'Maki',
+				desc: 'Người quen'
+			},
+			{
+				name: 'Itsuki',
+				desc: 'Người quen'
+			},
+			{
+				name: 'Katsumi',
+				desc: 'Người quen'
+			}
+		],
+		job: [
+			{
+				name: 'Archer',
+				desc: [
+					'Cung thủ'
+				],
+				firstAppear: 8
+			},
+			{
+				name: 'Adventurer',
+				desc: [
+					'Rank Iron'
+				],
+				firstAppear: 9
+			}
+		],
+		skill: [
+			{
+				name: 'Ice Mastery',
+				from() { return fromGet(1, 'Mẹ', 0) },
+				type: active,
+				desc: [
+					'Điều khiển băng theo ý mình muốn ở mức cơ bản',
+					'Phát triển băng kĩ mới từ việc định hình băng'
+				],
+				firstAppear: -1,
+				inDesc: 0,
+				firstUse: -1
+			},
+			{
+				name: 'Ice Arrow',
+				from() { return fromGet(1, 'item', 0) },
+				type: active,
+				desc: [
+					'Mũi tên được làm từ băng',
+					'Đóng băng một vùng nhỏ quanh vết thương bị bắn trúng ở mức nhất định'
+				],
+				firstAppear: 11,
+				inDesc: 0,
+				firstUse: 11
+			},
+			{
+				name: 'Ice Wall',
+				from() { return fromGet(1, 'skill', 0, 1) },
+				type: active,
+				desc: [
+					'Trên đường bay của mũi tên, đằng sau tỏa ra các bông tuyết rơi xuống mặt đất đâm lên các cột băng nhọn tạo thành 1 bức tường lớn ngăn cách',
+					'Độ dài của bức tường kết thúc khi mũi tên va chạm'
+				],
+				firstAppear: 12,
+				inDesc: 0,
+				firstUse: 12
+			},
+			{
+				name: 'Ice Pile',
+				from() { return fromGet(1, 'skill', 0, 1) },
+				type: active,
+				desc: [
+					'Mũi tên va chạm với bề mặt nào thì trồi ra cọc băng lớn vuông góc với bề mặt đó'
+				],
+				firstAppear: 13,
+				inDesc: 0,
+				firstUse: 13
+			}
+		],
+		titles: [
+			{
+				name: 'The “cold” girl',
+				from() { return fromGet(0, 'character', 0) },
+				desc: [
+					'Mặt vô cảm tạo vẻ lạnh lùng'
+				],
+				firstAppear: 5
+			}
+		],
+		item: [
+			{
+				name: 'Magic Bow',
+				from() { return fromGet(1, 'job', 0) },
+				desc: [
+					'Sử dụng Mana để chuyển hóa thành tên bắn có nguyên tố của người dùng'
+				],
+				firstAppear: 9,
+				firstUse: 11
+			}
+		]
 	}
+	// {
+		// 	title: '',
+		// 	otherName: [
+		// 		{
+		// 			name: '',
+		// 			desc: '',
+		// 			firstAppear: 
+		// 		}
+		// 	],
+		// 	age: ,
+		// 	gender: ' ()',
+		// 	race: 'Human (Con người)',
+		// 	status: 'Alive (Còn sống)',
+		// 	like: [
+		// 		''
+		// 	],
+		// 	dislike: [
+		// 		''
+		// 	],
+		// 	debut: ,
+		// 	appearance: [
+		// 		''
+		// 	],
+		// 	personality: [
+		// 		''
+		// 	],
+		// 	relative: [
+		// 		{
+		// 			name: '',
+		// 			desc: ''
+		// 		}
+		// 	],
+		// 	job: [
+		// 		{
+		// 			name: '',
+		// 			desc: [
+		// 				''
+		// 			],
+		// 			firstAppear: 
+		// 		}
+		// 	],
+		// 	skill: [
+		// 		{
+		// 			name: '',
+		// 			from() { return fromGet(, '', 0) },
+		// 			type: active,
+		// 			desc: [
+		// 				''
+		// 			],
+		// 			firstAppear: ,
+		// 			inDesc: 0,
+		// 			firstUse: 
+		// 		}
+		// 	],
+		// 	titles: [
+		// 		{
+		// 			name: '',
+		// 			from() { return fromGet(, '', 0) },
+		// 			desc: [
+		// 				''
+		// 			],
+		// 			firstAppear: 
+		// 		}
+		// 	],
+		// 	item: [
+		// 		{
+		// 			name: '',
+		// 			from() { return fromGet(, '', 0) },
+		// 			desc: [
+		// 				''
+		// 			],
+		// 			firstAppear: ,
+		// 			firstUse: 
+		// 		}
+		// 	]
+	// }
 ];
 
 function fromGet(index, where, ...nameIndex) {
@@ -294,6 +554,8 @@ function fromGet(index, where, ...nameIndex) {
 			temp += `+『${character[index].titles[i].name}』`;
 		else if(where === 'item')
 			temp += `+『${character[index].item[i].name}』`;
+		else if(where === 'character')
+			temp += `+『${character[index].title}』`;
 		else
 			temp += `+ '${where}'`;
 	}

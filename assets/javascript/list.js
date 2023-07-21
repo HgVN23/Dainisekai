@@ -42,7 +42,6 @@ function addList() {
 }
 
 function clean() {
-	// if(document.querySelector('.main'))
 	document.querySelector('.main').remove();
 	document.documentElement.scrollTop = 0;
 }
