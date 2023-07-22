@@ -1,5 +1,6 @@
 const sekaiDex1 = [
 	{
+		id: 0,
 		title: 'Thông tin về『Dainisekai』',
 		content: [
 			'Nơi quy tụ mọi người chuyển sinh nhưng có thể không chung 1 lục địa hoặc 1 nơi',
@@ -9,6 +10,7 @@ const sekaiDex1 = [
 		]
 	},
 	{
+		id: 1,
 		title: 'Văn phòng Re:Life',
 		content: [
 			'Những người đã từng tới văn phòng Re:Life chắc hẳn sẽ nghĩ những nhân viên ở nơi đó như là Chúa hoặc một vì thần nào đó. Về ngoài thì nhìn đúng là như vậy nhưng về bản chất thì đó là nơi ban cho cơ hội thứ 2 khi cuộc đời trước vẫn chưa được hoàn thiện. Người chết sẽ đến thiên đàng hoặc xuống địa ngục hoặc đơn giản là không còn tồn tại nữa. Nhưng 1 "biến số" đã xuất hiện trên con đường đó và "biến số" ấy là văn phòng Re:Life.',
@@ -18,6 +20,7 @@ const sekaiDex1 = [
 		]
 	},
 	{
+		id: 2,
 		title: 'Phần chỉ số',
 		content: [
 			'Chỉ số gồm EXP (điểm kinh nghiệp), LVL (cấp độ), HP (máu), MP (Mana), ATK (tấn công), DEF (phòng thủ), SPE (tốc độ), LUCK (may mắn) và có thể tự tạo thêm',
@@ -29,6 +32,7 @@ const sekaiDex1 = [
 
 const sekaiDex2 = [
 	{
+		id: 0,
 		title: 'Guild mạo hiểm giả',
 		section: [
 			{
@@ -82,6 +86,7 @@ const sekaiDex2 = [
 		]
 	},
 	{
+		id: 1,
 		title: 'Các dạng của Mana',
 		section: [
 			{
@@ -102,6 +107,7 @@ const sekaiDex2 = [
 		]
 	},
 	{
+		id: 2,
 		title: 'Inventory (Kho đồ)',
 		section: [
 			{
@@ -120,6 +126,7 @@ const sekaiDex2 = [
 		]
 	},
 	{
+		id: 3,
 		title: 'Ma vật (Magical creature)',
 		section: [
 			{
@@ -158,6 +165,7 @@ const sekaiDex2 = [
 		]
 	},
 	{
+		id: 4,
 		title: 'Dimension (Chiều không gian)',
 		section: [
 			{

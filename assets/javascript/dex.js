@@ -1,3 +1,7 @@
+const sekaiDex1Sort = afterSort(sekaiDex1);
+const sekaiDex2Sort = afterSort(sekaiDex2);
+const characterSort = afterSort(character);
+
 function openDex() {
 	window.open(`${urlDex}0`, '_self');
 }
@@ -11,11 +15,11 @@ function loadDex() {
 			<h3>(WIP)</h3>
 			<hr>
 			<h3>Liên quan đến phần viết truyện</h3>
-			${addTitle(sekaiDex1, 1)}
+			${addTitle(sekaiDex1Sort, 1)}
 			<h3>Liên quan đến trong『Dainisekai』</h3>
-			${addTitle(sekaiDex2, 2)}
+			${addTitle(sekaiDex2Sort, 2)}
 			<h3>Các nhân vật</h3>
-			${addTitle(character, 3)}
+			${addTitle(characterSort, 3)}
 		</section>
 	`;
 	document.querySelector('body').innerHTML += format;
@@ -26,18 +30,18 @@ function loadDex() {
 	}
 }
 
-function addTitle(sekaiDex, part) {
-	var dex = ``;
-	for(var i = 0; i < sekaiDex.length; i++) {
-		var temp = sekaiDex[i];
+function addTitle(dex, part) {
+	var data = ``;
+	for(var i = 0; i < dex.length; i++) {
+		var temp = dex[i];
 		var title = temp.title;
-		dex += `
+		data += `
 			<div class="dialogue">
-				<p id="${part}.${i}" class="clickable">${title}</p>
+				<p id="${part}.${temp.id}" class="clickable">${title}</p>
 			</div>
 		`;
 	}
-	return dex;
+	return data;
 }
 
 function openDexContent() {
@@ -313,4 +317,19 @@ function loadDexContent(id) {
 function dropdownActive() {
 	this.classList.toggle('dropdownActive');
 	this.parentElement.querySelector('.dropdownHide').classList.toggle('dropdownShow');
+}
+
+function afterSort(dex) {
+	var sort = [];
+	for(var i = 0; i < dex.length; i++){
+		sort[i] = dex[i]
+	}
+	for(var i = 0; i < sort.length - 1; i++)
+		for(var j = i + 1; j < sort.length; j++)
+			if(sort[i].title > sort[j].title) {
+				var temp = sort[i]
+				sort[i] = sort[j];
+				sort[j] = temp;
+			}
+	return sort;
 }

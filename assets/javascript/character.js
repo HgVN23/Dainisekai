@@ -3,6 +3,7 @@ const passive = 'Nội tại';
 
 const character = [
 	{
+		id: 0,
 		title: 'Shuuya',
 		otherName: [
 			{
@@ -289,6 +290,7 @@ const character = [
 		]
 	},
 	{
+		id: 1,
 		title: 'Hyouka',
 		otherName: [
 			{
@@ -466,6 +468,7 @@ const character = [
 		]
 	}
 	// {
+		// id: ,
 		// 	title: '',
 		// 	otherName: [
 		// 		{
