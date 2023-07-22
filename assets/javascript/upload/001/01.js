@@ -2417,7 +2417,7 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Xin lỗi mà. Nhìn tấm khiên và cái chùy của mình nè. Nó từ chức nghiệp『Paladin』.'
+				content: 'Xin lỗi mà. Nhìn tấm khiên và cái chùy gai của mình nè. Nó từ chức nghiệp『Paladin』.'
 			},
 			{
 				class: 'Asahi',
@@ -2802,7 +2802,7 @@ const volume = [
 			{
 				class: 'info',
 				name: [ 'Chị Maki' ],
-				content: 'Giết người vô tội sẽ bị cấm vĩnh viễn làm mạo hiểm giả và bị xử theo luật của đất nước.'
+				content: 'Sát hại người vô tội sẽ bị cấm vĩnh viễn làm mạo hiểm giả và bị xử theo luật của đất nước.'
 			},
 			{
 				class: 'Maki',
@@ -6142,7 +6142,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Cha mẹ của Kowashi đã bị giết trong một chuyến đi bởi một băng đạo tặc. Mặc dù cậu đã cố bảo vệ mẹ đến cuối cùng nhưng mẹ cậu vẫn không qua khỏi. Và khi cậu sắp bị giết thì có một người lạ mặt với cây thương đã cứu cậu trong gang tấc. Sau đó đưa cậu về sống ở cô nhi viện. Đó là những gì đã xảy ra trước khi tôi gặp Kowashi.'
+				content: 'Cha mẹ của Kowashi đã bị sát hại trong một chuyến đi bởi một băng đạo tặc. Mặc dù cậu đã cố bảo vệ mẹ đến cuối cùng nhưng mẹ cậu vẫn không qua khỏi. Và khi cậu sắp bị giết thì có một người lạ mặt với cây thương đã cứu cậu trong gang tấc. Sau đó đưa cậu về sống ở cô nhi viện. Đó là những gì đã xảy ra trước khi tôi gặp Kowashi.'
 			},
 			{
 				class: 'think',
@@ -6486,13 +6486,13 @@ const volume = [
 				content: 'A! Ai vậy? Đau đấy có biết không?'
 			},
 			{
-				class: 'Kowashi',
-				name: [ 'Kowashi' ],
+				class: 'unknown',
+				name: [ '???' ],
 				content: 'Đáng đời! Làm câu giật mình rồi hả? Bọn tớ đợi cậu mãi để chơi cùng mà không thấy đâu.'
 			},
 			{
-				class: 'Asahi',
-				name: [ 'Asahi' ],
+				class: 'unknown',
+				name: [ '???' ],
 				content: 'Đúng rồi đó nya. Sao hôm nay cậu lại đến muộn vậy nya?'
 			},
 			{
@@ -6501,13 +6501,13 @@ const volume = [
 				content: 'Hai cậu... CÓ BIẾT ĐAU LẮM KHÔNG!'
 			},
 			{
-				class: 'Kowashi',
-				name: [ 'Kowashi' ],
+				class: 'unknown',
+				name: [ '???' ],
 				content: 'Xin lỗi nha, nhưng tại sao đến muộn vậy?'
 			},
 			{
-				class: 'Asahi',
-				name: [ 'Asahi' ],
+				class: 'unknown',
+				name: [ '???' ],
 				content: 'Xin lỗi xin lỗi nya. Tớ cũng tò mò vì hiếm khi thấy cậu đi muộn như này nya.'
 			},
 			{
@@ -6522,7 +6522,7 @@ const volume = [
 			},
 			{
 				class: 'Shuuya',
-				name: [ 'Shuuya', 'Kowashi', 'Asahi' ],
+				name: [ 'Shuuya', '???', '???' ],
 				content: 'Vâng (nya)!'
 			},
 			{
@@ -6538,12 +6538,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Hiện tại đang có 8 đứa trẻ sống ở đây và tuổi của chúng chênh lệch nhau 1 đến 2 tuổi. Trong đó thì có hai người là bạn thân của tôi, cùng tuổi với tôi luôn.'
+				content: 'Hiện tại đang có 8 đứa trẻ sống ở đây và tuổi của chúng chênh lệch nhau 1 đến 2 tuổi. Trong đó thì có hai người là bạn thân cùng tuổi với tôi mà sáng nay tôi vừa nói.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Một cậu bạn tên là『Kowashi』. Theo như lời cha tôi kể thì cha mẹ của cậu đã bị giết trong một chuyến đi bởi một băng đạo tặc. Mặc dù cậu đã cố bảo vệ mẹ đến cuối cùng nhưng mẹ cậu vẫn không qua khỏi. Và khi cậu sắp bị giết thì có một người lạ mặt với cây thương đã cứu cậu trong gang tấc. Sau đó đưa cậu về sống ở cô nhi viện.'
+				content: 'Một cậu bạn tên là『Kowashi』. Theo như lời cha tôi kể thì cha mẹ của cậu đã bị sát hại trong một chuyến đi bởi một băng đạo tặc. Mặc dù cậu đã cố bảo vệ mẹ đến cuối cùng nhưng mẹ cậu vẫn không qua khỏi. Và khi cậu sắp bị giết thì có một người lạ mặt với cây thương đã cứu cậu trong gang tấc. Sau đó đưa cậu về sống ở cô nhi viện.'
 			},
 			{
 				class: 'think',

@@ -213,6 +213,17 @@ const character = [
 				firstUse: 4
 			},
 			{
+				name: 'Physical Enhancement',
+				from() { return fromGet(0, 'Haruka', 0) },
+				type: active,
+				desc: [
+					'Cường hóa khả năng hoạt động vật lý'
+				],
+				firstAppear: 8,
+				inDesc: 0,
+				firstUse: 8
+			},
+			{
 				name: 'Counter',
 				from() { return fromGet(0, 'Rèn luyện', 0) },
 				type: active,
@@ -322,7 +333,7 @@ const character = [
 		appearance: [
 			'Cơ thể hơi nhỏ, cao 163 cm, nặng 51 kg (khi 18 tuổi)',
 			'Mái tóc ngắn trắng như tuyết, bên phải có một đoạn tết tóc và trên đó có cài kẹp tóc gắn viên pha lê màu lục nhạt',
-			'Đôi mắt màu lam nhạt như màu của băng',
+			'Đôi mắt lòng trắng làm nền cho con ngươi màu lam nhạt như màu của băng',
 			'Đôi tai dài vì là bán Elf',
 			'Khuôn mặt không biểu lộ cảm xúc',
 			'Tính cách hay đề phòng, lo lắng cho người khác và hơi nhạy cảm khi có người nhắc đến Shuuya'
@@ -330,7 +341,7 @@ const character = [
 		personality: [
 			'Mẹ là Elf, cha là con người nên Hyouka là bán Elf',
 			'Mồ côi mẹ từ khi sinh ra nên cô sống cùng cha - là thương nhân thường hay di chuyển khắp nơi nên họ không có nơi định cư',
-			'Vào năm 8 tuổi, cô cùng cha đang trên đường đến thị trấn『Dawn Horizon』 thì bị đám ma thú Ligheep mắt đỏ tấn công và cha cô qua đời. Sau sự kiện đó Hyouka bộc phát sức mạnh và dần rơi vào trầm cảm, khuôn mặt cô giờ chỉ là vô cảm. Hiện giờ Hyouka đang ở cô nhi viện do sơ Celia quản lý',
+			'Vào năm 8 tuổi, cô cùng cha đang trên đường đến thị trấn『Dawn Horizon』 thì bị đám ma thú Ligheep mắt đỏ tấn công và cha cô qua đời. Sau sự kiện đó Hyouka bộc phát sức mạnh và dần rơi vào trầm cảm, khuôn mặt cô giờ chỉ là vô cảm. Hiện giờ Hyouka đang ở cô nhi viện thuộc thị trấn『Dawn Horizon』do sơ Celia quản lý',
 			'Sau khi được Shuuya tìm ra kẹp tóc mà cô đánh rơi thì cô đã mở lòng hơn chút với mọi người. Riêng với Shuuya thì cô đã có một tình cảm đặc biệt dành cho cậu',
 			'Năm 10 tuổi làm mạo hiểm giả cùng đám bạn. Đồng thời là 1 trong 4 thành viên đầu tiên của Party『Log Horizon』'
 		],
@@ -466,83 +477,258 @@ const character = [
 				firstUse: 11
 			}
 		]
+	},
+	{
+		id: 2,
+		title: 'Kowashi',
+		otherName: [
+			{
+				name: 'Bộ đôi rắc rối',
+				desc: 'Tên do Shuuya gọi do hay tạo rắc rối cùng Asahi',
+				firstAppear: 4
+			}
+		],
+		age: 10,
+		gender: 'Male (Nam)',
+		race: 'Human (Con người)',
+		status: 'Alive (Còn sống)',
+		like: [
+			'“Gia đình”',
+			'Bảo vệ người khác'
+		],
+		dislike: [
+			'Không bảo vệ được người khác'
+		],
+		debut: 2,
+		appearance: [
+			'Cơ thể to lớn, cao 169 cm, nặng 68 kg (Khi 18 tuổi)',
+			'Mái tóc khá dài, hơi gai màu đỏ thẫm',
+			'Đôi mắt lòng trắng làm nền cho con ngươi màu cam',
+			'Tính cách vui vẻ, hay hành động không nghĩ trước và muốn bảo vệ được người khác'
+		],
+		personality: [
+			'Vào năm 5 tuổi, cha mẹ đã bị sát hại trong một chuyến đi bởi một băng đạo tặc. Trước khi cậu sắp bị giết thì có một người lạ mặt với cây thương đã cứu cậu trong gang tấc. Sau đó đưa cậu về sống ở cô nhi viện thuộc thị trấn『Dawn Horizon』',
+			'Lúc đó cậu đã luôn tự dằn vặt bản thân đã không thể bảo vệ được cha mẹ mình. Cho đến khi Shuuya thuyết phục cậu thì suy nghĩ trước đó mới có thể gỡ bỏ',
+			'Năm 7 tuổi được học cách chiến đấu cùng Shuuya do cha Shuuya dạy',
+			'Năm 10 tuổi làm mạo hiểm giả cùng đám bạn. Đồng thời là 1 trong 4 thành viên đầu tiên của Party『Log Horizon』'
+		],
+		relative: [
+			{
+				name: 'Cha Kowashi',
+				desc: 'Không rõ tên, đã qua đời'
+			},
+			{
+				name: 'Mẹ Kowashi',
+				desc: 'Không rõ tên, đã qua đời'
+			},
+			{
+				name: 'Shuuya',
+				desc: 'Bạn thân, đồng đội'
+			},
+			{
+				name: 'Asahi',
+				desc: 'Bạn thân, đồng đội'
+			},
+			{
+				name: 'Hyouka',
+				desc: 'Bạn thân, đồng đội'
+			},
+			{
+				name: 'Celia',
+				desc: 'Người bảo hộ'
+			},
+			{
+				name: 'Haruka',
+				desc: 'Người quen'
+			},
+			{
+				name: 'Sara',
+				desc: 'Người quen'
+			},
+			{
+				name: 'Maki',
+				desc: 'Người quen'
+			},
+			{
+				name: 'Itsuki',
+				desc: 'Người quen'
+			},
+			{
+				name: 'Katsumi',
+				desc: 'Người quen'
+			}
+		
+		],
+		job: [
+			{
+				name: 'Paladin',
+				desc: [
+					'Vệ sĩ'
+				],
+				firstAppear: 8
+			},
+			{
+				name: 'Adventurer',
+				desc: [
+					'Rank Iron'
+				],
+				firstAppear: 9
+			}
+		],
+		skill: [
+			{
+				name: 'Physical Enhancement',
+				from() { return fromGet(2, 'Haruka', 0) },
+				type: active,
+				desc: [
+					'Cường hóa khả năng hoạt động vật lý'
+				],
+				firstAppear: 12,
+				inDesc: 0,
+				firstUse: 12
+			},
+			{
+				name: 'Cover',
+				from() { return fromGet(2, 'job', 0) },
+				type: active,
+				desc: [
+					'Đưa bản thân xuất hiện trước đòn tấn công vào mục tiêu được lựa chọn để có thể đỡ đòn ngay lập tức'
+				],
+				firstAppear: 12,
+				inDesc: 0,
+				firstUse: 12
+			},
+			{
+				name: 'Revival',
+				from() { return fromGet(2, 'titles', 1) },
+				type: passive,
+				desc: [
+					'Người dùng sống lại',
+					'Hồi nửa lượng máu cùng vết thương',
+					'Tự động kích hoạt khi hi sinh bảo vệ mạng sống khác',
+					'Hồi lại khi bình minh của ngày hôm sau ló rạng'
+				],
+				firstAppear: 12,
+				inDesc: 0,
+				firstUse: 12
+			}
+		],
+		titles: [
+			{
+				name: 'Trouble Couple',
+				from() { return fromGet(0, 'character', 0) },
+				desc: [
+					'Hay tạo ra rắc rối cùng Asahi'
+				],
+				firstAppear: 2
+			},
+			{
+				name: 'The Savior',
+				from() { return fromGet(2, 'Iwao', 0) },
+				desc: [
+					'Phước lành từ thần Iwao',
+					'Hi sinh tính mạng của mình để bảo vệ sinh mạng khác'
+				],
+				firstAppear: 8
+			}
+		],
+		item: [
+			{
+				name: 'Spiked Mace',
+				from() { return fromGet(2, 'job', 0) },
+				desc: [
+					'Chùy gai ngắn, đầu chùy có 6 mặt, mỗi mặt có 1 gai lớn ngoại trừ 1 mặt nối với tay cầm'
+				],
+				firstAppear: 9,
+				firstUse: 10
+			},
+			{
+				name: 'Great Shield',
+				from() { return fromGet(2, 'job', 0) },
+				desc: [
+					'Tấm khiên lớn đủ để che cả cơ thể'
+				],
+				firstAppear: 9,
+				firstUse: 10
+			}
+		]
 	}
 	// {
 		// id: ,
-		// 	title: '',
-		// 	otherName: [
-		// 		{
-		// 			name: '',
-		// 			desc: '',
-		// 			firstAppear: 
-		// 		}
-		// 	],
-		// 	age: ,
-		// 	gender: ' ()',
-		// 	race: 'Human (Con người)',
-		// 	status: 'Alive (Còn sống)',
-		// 	like: [
-		// 		''
-		// 	],
-		// 	dislike: [
-		// 		''
-		// 	],
-		// 	debut: ,
-		// 	appearance: [
-		// 		''
-		// 	],
-		// 	personality: [
-		// 		''
-		// 	],
-		// 	relative: [
-		// 		{
-		// 			name: '',
-		// 			desc: ''
-		// 		}
-		// 	],
-		// 	job: [
-		// 		{
-		// 			name: '',
-		// 			desc: [
-		// 				''
-		// 			],
-		// 			firstAppear: 
-		// 		}
-		// 	],
-		// 	skill: [
-		// 		{
-		// 			name: '',
-		// 			from() { return fromGet(, '', 0) },
-		// 			type: active,
-		// 			desc: [
-		// 				''
-		// 			],
-		// 			firstAppear: ,
-		// 			inDesc: 0,
-		// 			firstUse: 
-		// 		}
-		// 	],
-		// 	titles: [
-		// 		{
-		// 			name: '',
-		// 			from() { return fromGet(, '', 0) },
-		// 			desc: [
-		// 				''
-		// 			],
-		// 			firstAppear: 
-		// 		}
-		// 	],
-		// 	item: [
-		// 		{
-		// 			name: '',
-		// 			from() { return fromGet(, '', 0) },
-		// 			desc: [
-		// 				''
-		// 			],
-		// 			firstAppear: ,
-		// 			firstUse: 
-		// 		}
-		// 	]
+		// title: '',
+		// otherName: [
+		// 	{
+		// 		name: '',
+		// 		desc: '',
+		// 		firstAppear: 
+		// 	}
+		// ],
+		// age: ,
+		// gender: ' ()',
+		// race: 'Human (Con người)',
+		// status: 'Alive (Còn sống)',
+		// like: [
+		// 	''
+		// ],
+		// dislike: [
+		// 	''
+		// ],
+		// debut: ,
+		// appearance: [
+		// 	''
+		// ],
+		// personality: [
+		// 	''
+		// ],
+		// relative: [
+		// 	{
+		// 		name: '',
+		// 		desc: ''
+		// 	}
+		// ],
+		// job: [
+		// 	{
+		// 		name: '',
+		// 		desc: [
+		// 			''
+		// 		],
+		// 		firstAppear: 
+		// 	}
+		// ],
+		// skill: [
+		// 	{
+		// 		name: '',
+		// 		from() { return fromGet(, '', 0) },
+		// 		type: active,
+		// 		desc: [
+		// 			''
+		// 		],
+		// 		firstAppear: ,
+		// 		inDesc: 0,
+		// 		firstUse: 
+		// 	}
+		// ],
+		// titles: [
+		// 	{
+		// 		name: '',
+		// 		from() { return fromGet(, '', 0) },
+		// 		desc: [
+		// 			''
+		// 		],
+		// 		firstAppear: 
+		// 	}
+		// ],
+		// item: [
+		// 	{
+		// 		name: '',
+		// 		from() { return fromGet(, '', 0) },
+		// 		desc: [
+		// 			''
+		// 		],
+		// 		firstAppear: ,
+		// 		firstUse: 
+		// 	}
+		// ]
 	// }
 ];
 

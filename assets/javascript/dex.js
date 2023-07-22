@@ -12,7 +12,6 @@ function loadDex() {
 		<section class="main">
 			<h1>SekaiDex</h1>
 			<h2>Bách khoa toàn thư</h2>
-			<h3>(WIP)</h3>
 			<hr>
 			<h3>Liên quan đến phần viết truyện</h3>
 			${addTitle(sekaiDex1Sort, 1)}
