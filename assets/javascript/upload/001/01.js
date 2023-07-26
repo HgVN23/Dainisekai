@@ -235,7 +235,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Đang mải suy nghĩ thì có bóng dáng ai đó tiếp cận từ đằng sau. Tôi cảm nhận được liên bật nhảy ra đằng trước, quay người lại tạo thế thủ và lấy khiên và chùy ra nhưng nó đã không xuất hiện?'
+				content: 'Đang mải suy nghĩ thì có bóng dáng ai đó tiếp cận từ đằng sau. Tôi cảm nhận được liên bật nhảy ra đằng trước, quay người lại tạo thế thủ. Lấy khiên và chùy ra nhưng nó đã không xuất hiện?'
 			},
 			{
 				class: 'unknown',
@@ -325,7 +325,7 @@ const volume = [
 			{
 				class: 'Iwao',
 				name: [ 'Iwao' ],
-				content: 'Vì cháu là người được chọn trong vòng quay và nghĩa vụ của cháu là đến đây nói chuyện để ta đỡ buồn. Ở đây chỉ có một mình cũng cơ đơn lắm.'
+				content: 'Vì cháu là người được chọn trong vòng quay và nghĩa vụ của cháu là đến đây nói chuyện để ta đỡ buồn. Ở đây chỉ có một mình cũng cô đơn lắm.'
 			},
 			{
 				class: 'Kowashi',
@@ -475,7 +475,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sau đó tôi chạy thật nhanh đuổi theo bộ đôi bởi nếu chạy chấm có lẽ tôi sẽ bị ăn phát tên mất.'
+				content: 'Sau đó tôi chạy thật nhanh đuổi theo bộ đôi bởi nếu chạy chậm có lẽ tôi sẽ bị ăn phát tên mất.'
 			},
 			{
 				class: 'Shuuya',
@@ -505,7 +505,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi nhìn liếc qua Asahi thì thấy nhỏ đang cười khúc khích. Có vẻ bọn tôi đã thành công làm Asahi cười trở lại dù chỉ là một chút. Tôi nháy mắt để ra hiệu cho Kowashi và cậu ta cười mỉm, gật đầu nhẹ một cái. Cuộc trò chuyện kết thức cũng vừa đúng lúc đến nhà của tôi.'
+				content: 'Tôi nhìn liếc qua Asahi thì thấy nhỏ đang cười khúc khích. Có vẻ bọn tôi đã thành công làm Asahi cười trở lại dù chỉ là một chút. Tôi nháy mắt để ra hiệu cho Kowashi và cậu ta cười mỉm, gật đầu nhẹ một cái. Cuộc trò chuyện kết thúc cũng vừa đúng lúc đến nhà của tôi.'
 			},
 			{
 				class: 'Shuuya',
