@@ -69,7 +69,7 @@ function right() {
 function hideOff() {
 	var toggleHide = document.querySelector('.toggleHide');
 	var dialogueHide = document.querySelectorAll('.dialogueHide');
-	localStorage.setItem('hide', 0);
+	localStorage.removeItem('hide');
 	toggleHide.addEventListener('click', hideOn);
 	toggleHide.removeEventListener('click', hideOff);
 	toggleHide.classList.toggle('hideOff');
@@ -81,7 +81,7 @@ function hideOff() {
 function hideOn() {
 	var toggleHide = document.querySelector('.toggleHide');
 	var dialogue = document.querySelectorAll('.dialogue');
-	localStorage.removeItem('hide');
+	localStorage.setItem('hide', 0);
 	toggleHide.addEventListener('click', hideOff);
 	toggleHide.removeEventListener('click', hideOn);
 	toggleHide.classList.toggle('hideOn');
@@ -92,6 +92,6 @@ function hideOn() {
 }
 function checkHide() {
 	if(localStorage.hide == 0) {
-		hideOff();
+		hideOn();
 	}
 }

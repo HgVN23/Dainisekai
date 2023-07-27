@@ -80,7 +80,7 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Katsumi' ],
-				content: 'Thôi nào em, chỉ có 2 hay 3 cốc thôi đúng chứ. Để ta chả tiền cũng...'
+				content: 'Thôi nào em, chỉ có 2 hay 3 cốc thôi đúng chứ. Để ta trả tiền cũng...'
 			},
 			{
 				class: 'Maki',
@@ -180,7 +180,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Katsumi' ],
-				content: 'Maki nắm chắc tay nắm cửa, từ từ quay mặt nhìn về phía tôi. Đôi mắt đầy sát khí như muốn lấy mạng ai đó khiến tôi phải rùng mình. Chắc chắn là không ổn rồi Itsuki, cậu đã làm gì thế này	!'
+				content: 'Maki nắm chắc tay nắm cửa, từ từ quay mặt nhìn về phía tôi. Đôi mắt đầy sát khí như muốn lấy mạng ai đó khiến tôi phải rùng mình. Chắc chắn là không ổn rồi Itsuki, cậu đã làm gì thế này!'
 			},
 			{
 				class: 'Katsumi',
@@ -248,14 +248,14 @@ const volume = [
 				content: 'Vậy... ngài... là thần Iwao?'
 			},
 			{
-				class: 'Iwao',
-				name: [ 'Iwao' ],
-				content: 'Chuẩn rồi cháu. Bất ngờ không nào.'
-			},
-			{
 				class: 'think',
 				name: [ 'Kowashi' ],
 				content: 'Ngài trông thật già, râu và tóc đều trắng dài qua cổ. Trang phục thật đơn sơ khi chỉ cuốn tấm vải trắng quanh người và buộc dây quanh eo. Không thể tin được mình gặp thần... Có lẽ cũng không tệ sau khi mình hi sinh ha.'
+			},
+			{
+				class: 'Iwao',
+				name: [ 'Iwao' ],
+				content: 'Chuẩn rồi cháu. Bất ngờ không nào.'
 			},
 			{
 				class: 'Kowashi',
@@ -315,7 +315,7 @@ const volume = [
 			{
 				class: 'Iwao',
 				name: [ 'Iwao' ],
-				content: 'Như ta đã nói cháu đang tỉnh lại.'
+				content: 'Như ta đã nói, cháu đang tỉnh lại.'
 			},
 			{
 				class: 'Kowashi',
@@ -350,7 +350,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi sẽ vờ như đó chỉ là tưởng tượng của Kowashi. Thần Iwao nghe lạ thật, tôi cũng chả biết phải phản hồi lại thế nào nữa. Não tôi không xử lí kịp thông tin kì lạ này.'
+				content: 'Tôi sẽ vờ như đó chỉ là tưởng tượng của Kowashi. Thần gì mà nghe kì lạ thật, tôi cũng chả biết phải phản hồi lại thế nào nữa. Não tôi không xử lí kịp thông tin kì lạ này.'
 			},
 			{
 				class: 'Kowashi',
@@ -615,7 +615,7 @@ const volume = [
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Ồ! Shuuya hàng hiếm? Mình phải thấy mới được!'
+				content: 'Ô! Mặt khác của Shuuya mà mình chưa thấy! Mình muốn thấy!'
 			},
 			{
 				class: 'Asahi',
