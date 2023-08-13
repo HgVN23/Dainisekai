@@ -395,7 +395,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sau đó tôi lấy cái kéo từ『Cooking Set』ra cắt cây ở gần sát mặt đất nhất. Lí do tôi không dùng tay bứt luôn là vì có thể sẽ làm gẫy thân phần trên và ảnh hưởng tới chất lượng.'
+				content: 'Sau đó tôi lấy cái kéo từ『Cooking Set』ra cắt cây ở gần sát mặt đất nhất. Lí do tôi không dùng tay bứt luôn là vì có thể sẽ làm gãy thân phần trên và ảnh hưởng tới chất lượng.'
 			},
 			{
 				class: 'Shuuya',
