@@ -100,7 +100,7 @@ const volume = [
 			'“Anh gì ơi!” – cậu bé hét lớn. “Tay anh kìa! Tay anh đang chảy máu kìa!”. Chàng trai trẻ hơi nhăn nhó, tiếng sáo ngừng bặt.',
 			'“Hửm, ai vậy?” – chàng trai trẻ lên tiếng, giọng nói cũng nhẹ nhàng như tiếng sáo trước đó vậy. Đương nhiên, cho tới khi nhìn lại bàn tay trái – máu vẫn đang chảy từ đó xuống nền cỏ. Anh ta “à” lên một tiếng…',
 			'“Oya~! Lần này ra hơi nhiều nhỉ?” – chàng trai vẫn khá bình tĩnh, chẳng có vẻ đau đớn mấy, dù tỏ ra hơi hoảng hốt. Lấy chiếc bình nhỏ cạnh người, anh đặt nó gần miệng, và từ từ đọc…',
-			'『Lục phong khang phục』',
+			'<b>『Lục phong khang phục』</b>',
 			'Vết thương trên bàn tay trái của chàng trai nhanh chóng biến mất, để lại trên bàn tay một vết sẹo dài – chàng trai nhanh chóng băng kín lại, như thế không muốn ai nhìn thấy. Anh ta gãi đầu, cười xuề xòa nhìn hai đứa trẻ…',
 			'“Ehe~ Thật tiếc ghê! Tiết mục của chúng ta đang hay, mà đã phải kết thúc mất rồi. Nếu không phải vì bàn tay vụng về này, có lẽ tiết mục đã đến được màn cao trào rồi, nhỉ?”',
 			'Vật đặt bên anh ta, Akira nhìn kỹ, có vẻ là một thanh kiếm màu xanh thép lạnh, dài hơn cả cánh tay của chàng trai đó, nhưng lại khá thuôn gọn. Thật kỳ lạ, trông nó cũng thật giống một cây sáo nữa, với những chiếc lỗ nhỏ xếp đều nhau trên một đường thẳng, xung quanh lại có các hoạ tiết xoắn ốc như gió cuộn – rõ ràng ban nãy anh ta có thể cầm nó lên, và thổi được điệu nhạc ban nãy. Elena dường như không bận tâm lắm về điều đó, có vẻ cô vừa cảm thấy bẽn lẽn vì bị nhìn thấy, vừa cảm thấy chút gì đó tiếc nuối…',
@@ -169,7 +169,7 @@ const volume = [
 			'“À~. Akira là người tặng đúng không? Thì ra chú em muốn có đồ đôi với Elena hả? Anh mày hiểu mà” –  Tohru lại nhăn nhở cười. Anh đang chờ một vị khách khác qua thăm, mà xem ra, “vị khách quý” này cũng đủ để làm dịu bớt áp lực công việc của anh phần nào. Mặt Akira giờ chẳng khác gì trái cà chua chín…',
 			'“Thôi nào mọi người!” – Akira bối rối thấy rõ, còn Elena lấy con thú bông che đi nụ cười thích thú của mình. Tiếng nói cười, vui đùa của cả bốn người, cùng bữa tối “5 sao”, đã kết thúc một ngày vô cùng đáng nhớ với cả hai đứa trẻ, và cũng là mở đầu cho những ngày tháng gắn bó của cả hai. Cuộc phiêu lưu của họ đã chính thức bắt đầu, và từ giờ phút này trở đi, họ đã cùng nhau tiến trên con đường vận mệnh “Khai phá”...',
 			'Đó là một buổi tối đáng nhớ với hai người bọn họ. Tuy không trực tiếp gặp mặt, tuy không thực sự cùng “vận mệnh”, cả hai người lại phối hợp rất tốt, cả về mặt chiến đấu, và về mặt diễn xuất…',
-			'La liệt xung quanh họ, là thân thể của những kẻ địch bị đánh bại. Rải rác xung quanh họ, là hung khí vỡ vụn cắm đầy mặt đất. Kẻ cuối cùng cố gắng trốn chạy, bỗng mắc kẹt giữa “Khung hình của Sự thật”, và rất nhanh chóng, lạc mình trong『Vũ khúc Xích phong』...',
+			'La liệt xung quanh họ, là thân thể của những kẻ địch bị đánh bại. Rải rác xung quanh họ, là hung khí vỡ vụn cắm đầy mặt đất. Kẻ cuối cùng cố gắng trốn chạy, bỗng mắc kẹt giữa <b>“Khung hình của Sự thật”</b>, và rất nhanh chóng, lạc mình trong<b>『Vũ khúc Xích phong』</b>...',
 			'“Ảo mộng không còn… Nhuệ khí tan biến…”',
 			'“Kẻ ác kia… Thời khắc đền tội đã điểm!”',
 			'Viên ngọc bội màu đỏ thẫm vỡ đôi, rơi xuống nền đất rồi tan biến thành tro bụi. Ảo mộng tồn tại trong khoảnh khắc, tiêu tan theo làn gió biển thổi đến ngọn đồi xa xăm. Tra Phong địch kiếm vào bao, chàng trai tóc vàng mỉm cười nhìn người bạn đồng hành.',
@@ -192,7 +192,7 @@ const volume = [
 			'“Dù có phải phản bội lòng tin…”',
 			'“Dù có phải hy sinh nhân tính…”',
 			'“Dù có phải từ bỏ tất cả…”',
-			'“Vòng lặp Kiến tạo và Hủy diệt sẽ mãi trường tồn!”'
+			'<b>“Vòng lặp Kiến tạo và Hủy diệt sẽ mãi trường tồn!”</b>'
 		]
 	},
 	{
@@ -218,7 +218,7 @@ const volume = [
 			'“Skyrider… Kamen Rider…” – Tohru nói thầm, không rời mắt khỏi người đàn ông. Những nút thắt trong tâm trí của cậu, những câu hỏi thầm kín kia, giờ đã có lời giải. Người trước mặt cậu, dù Rook, hay Gotokuji Takeshi đi chăng nữa, cũng là một chiến binh có lý tưởng và ý chí rực sáng. Thật giống với người cha đã khuất của cậu – kể cả khi chịu tử thương, kể cả khi không còn sức chiến đấu, Tsurugi vẫn cố lao mình về trước, mở đường máu cho mọi người chạy thoát. Tohru vẫn nhớ rõ, ngôi sao sau lưng áo của Tsurugi cũng sáng như sau lưng áo của người đàn ông kia – ánh sáng của ý chí và hy vọng vẫn rực sáng dù bất cứ điều gì xảy ra. Hướng ánh mắt nâu sáng đến “Skyrider”, cậu nhóc nắm chặt hai tay, như thể để cổ vũ cho người chiến binh trước mắt…',
 			'“Hahahahaha! Thật thú vị!” – tên Tướng quân ngửa mặt lên trời cười lớn. “Quả là một địch thủ xứng tầm với ta, trăm năm có một! Đánh bại ngươi sẽ đem lại cho ta hạnh phúc còn lớn hơn cả việc thôn tính hành tinh này!” – hắn nhìn thẳng vào mắt người chiến binh. “Trước khi cuộc chiến của chúng ta bắt đầu, ta muốn được biết quý danh của ngươi, địch thủ của ta. Và nếu ngươi chiến thắng, ta sẽ khắc cốt ghi tâm cái tên này khi về với Hư vô, cũng như tha thứ cho hành tinh của các ngươi…”',
 			'“Tên của ta là… Gotokuji Shiro” – người chiến binh dõng dạc, từ từ đưa tay phải lên trên gần trán, và tay trái xuống thấp – “Nhưng hãy gọi ta, và những chiến binh đối đầu với Diệt thế Quân đoàn các ngươi… Là Skyriders!”',
-			'“Henshin!”',
+			'<b>“Henshin!”</b>',
 			'Chiếc thắt lưng mà Shiro đeo theo, thứ mà vốn Tohru chẳng có thời gian mà để ý, bật mở, để lộ một viên đá sáng rực màu xanh lơ. Một luồng gió lạnh giá thổi mạnh khắp qua những đống đổ nát, lớp bụi từ những quanh đó phủ mờ mịt khắp trận địa. Dưới lớp bụi, ánh mắt màu huyết dụ của Shiro vẫn vằng vặc sáng như ánh mặt trời, và khi lớp bụi tan đi, trước mặt tất cả là một chiến binh với bộ giáp xanh sẫm, biểu tượng sao tám cánh sáng rực phía sau lưng, chiếc khăn quàng đỏ thẫm bay trong gió, và trên ngực có dòng chữ “AK-0-RA”. Viên đá xanh vẫn rực sáng, và Shiro, lúc này là một Skyrider, đã sẵn sàng.',
 			'“Thật thú vị. Chẳng phải đây là mẫu giáp thử nghiệm của các người sao?” – tên tướng quân cũng đã thủ thế. “Ngươi có chắc thứ này sẽ đủ sức chiến đấu với ta không, chứ chưa nói gì đến đánh bại ta?” – hắn tiếp tục hỏi, giọng dường như hơi thất vọng.',
 			'“Chẳng phải ta đã nói rồi sao?” – Shiro vẫn tự tin. “Chừng nào ta còn đứng ở đây, ngươi sẽ không thể thôn tính hành tinh này đâu!”',
@@ -229,9 +229,9 @@ const volume = [
 			'Tohru đã đứng dậy từ lúc nào, hai bàn tay nắm chặt. Quên đi đau đớn, quên đi sợ hãi, giờ cả cơ thể và trái tim cậu đã hướng đến cuộc đối đầu “trăm năm có một này”. Mặc kệ việc người đàn ông đứng ở kia từng là ai, mặc kệ tình cảnh ngàn cân treo sợi tóc này, với Tohru, Gotokuji Shiro là một người hùng! Ngôi sau tám cánh sau lưng ấy, ý chí mãnh liệt ấy, là sức mạnh của một người hùng! Và Tohru, người đang chứng kiến khoảnh khắc quyết định ấy, biết mình phải làm gì…',
 			'“Skyrider cố lên! Chú Shiro cố lên!”',
 			'Lấy hết sức bình sinh, Tohru thét lớn về phía hai người. Âm thanh vang vọng khắp khu phố đổ nát, dường như làm cho Quân đoàn bất ngờ. Như được tiếp thêm sức mạnh, cú đấm của Shiro lao đi nhanh như tia chớp, và trước khi nắm đấm phủ sương đen của Ankou chạm được đến bộ giáp của Shiro một lần nữa, cú đấm băng giá của Shiro đã đâm xuyên qua ngực hắn.',
-			'“Rider Punch!”',
+			'<b>“Rider Punch!”</b>',
 			'Cú đấm móc hất văng Ankou lên không trung, trước sự bất ngờ của cả Quân đoàn. Lấy đà nhảy lên không trung, cao hơn cả vị trí của Ankou, Shiro dồn hết sức mạnh nguyên tố của mình vào bàn chân phải – giờ trông anh không khác gì một cơn cuồng phong băng giá, đưa đến phán quyết cuối cùng cho kẻ ác phía trước…',
-			'“Rider Kick!”',
+			'<b>“Rider Kick!”</b>',
 			'Một âm thanh trời giáng vang lên. Khu đổ nát lại một lần nữa rung chuyển dữ dội. Cố che mắt khỏi cơn lốc bụi đất, Tohru ngước mắt lên không trung, đôi mắt nâu sáng rực lên dưới ánh bình minh – cảnh tượng trước mặt cậu sẽ là thứ mà cậu sẽ không bao giờ quên. Giữa không trung, cơ thể của Ankou như thể đã bị biến dạng hoàn toàn sau cú đá trời giáng, còn Shiro, tiếp tục dồn sức mạnh vào chân trái, chuẩn bị cho đòn quyết định…',
 			'“Kết thúc rồi! Hắc nguyệt Ankou!”',
 			'Cú đá tiếp theo hất thẳng Ankou vào giữa đám quân đang còn sững sờ, và lần nữa rung chuyển cả khu phố. Đám tàn quân còn lại đã định thần, sẵn sàng chĩa vũ khí tới Tohru và Shiro, người đã hạ cánh an toàn, và đứng hiên ngang trước cậu bé, gần hơn bao giờ hết.',
@@ -287,7 +287,6 @@ const volume = [
 			'“Làm thuyền viên của cậu trong tương lai… Tớ cũng mong chờ ngày đó lắm. Nhớ đấy nhé” – cô bé khẽ nói, và hai người bạn lại một lần nữa cùng chia sẻ tiếng cười, rồi ngoắc tay giao hẹn. Họ không hề biết rằng, ở ngay gần lối lên, có ba người nữa đã “chứng giám” cho tình bạn của họ.',
 			'“Thằng em mình thế mà khá thật đó” – cậu thanh niên tóc nâu cười thích thú. Bên cạnh cậu, hai người đàn ông cao to đang ngồi bất động, như bị một màn sương đen làm tê cứng tay chân vậy. Họ căng thẳng nhìn về hướng của đôi bạn kia. “Tiểu thư ra ngoài lâu quá rồi… Nếu còn lâu hơn nữa…” – một người lo lắng nói, nhưng giật mình khi bắt gặp ánh mắt sắc lạnh của cậu thanh niên, khi cậu khẽ đưa ngón tay lên trước miệng. “Suỵt… Hãy để hai đứa chúng nó tận hưởng thời gian bên nhau đi” – cậu thanh niên nói khẽ – “Ông chủ của hai người có lẽ sẽ không phiền đâu, dù gì thì mọi thứ cũng diễn ra đúng ý ông ấy rồi, phải chứ?”. Cậu thanh niên đó, khoác chiếc áo với ngôi sao tám cánh, bảng tên ghi dòng chữ “Imai Tohru” ngay ngắn, tiếp tục dõi theo cậu em trai không rời mắt…',
 			'“Chú Shiro nói đúng… Việc hai đứa gặp nhau… Diễn ra theo đúng “vận mệnh” của vũ trụ này…”'
-		],
-		explain: []
+		]
 	}
 ]
