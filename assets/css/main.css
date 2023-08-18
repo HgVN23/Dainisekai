@@ -56,7 +56,8 @@ header {
 }
 .dainisekaiSymbol,
 .logHorizonSymbol,
-.urzogSymbol {
+.urzogSymbol,
+.skyriderSymbol {
 	margin: .3rem 0;
 	cursor: pointer;
 }
@@ -74,6 +75,11 @@ header {
 	content: url(../media/image/symbol/urzog.png);
 	width: 6rem;
 	height: 4rem;
+}
+.skyriderSymbol {
+	content: url(../media/image/symbol/skyrider.png);
+	width: 3.5rem;
+	height: 3.5rem;
 }
 .title,
 .button {
