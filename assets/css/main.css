@@ -1,7 +1,8 @@
 @font-face {
 	font-family: scp;
 	src: url(../fonts/SourceCodePro-Regular.ttf);
-}@font-face {
+}
+@font-face {
 	font-family: gothic;
 	src: url(../fonts/00079-UTM-Deutsch-Gothic.ttf);
 }
