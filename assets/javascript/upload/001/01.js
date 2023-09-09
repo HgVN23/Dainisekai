@@ -4636,12 +4636,12 @@ const volume = [
 			{
 				class: 'ShuuyaFather',
 				name: [ 'Cha' ],
-				content: 'Ừm. Chào các cháu. Các cháu có háo hứng khi sắp nhận chức nghiệp không?'
+				content: 'Ừm. Chào các cháu. Các cháu có háo hức khi sắp nhận chức nghiệp không?'
 			},
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Tất nhiên là cháu háo hứng rồi. Nhưng đồng thời cũng hơi lo lắng.'
+				content: 'Tất nhiên là cháu háo hức rồi. Nhưng đồng thời cũng hơi lo lắng.'
 			},
 			{
 				class: 'Asahi',
