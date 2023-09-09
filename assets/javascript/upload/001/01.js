@@ -4706,7 +4706,7 @@ const volume = [
 			{
 				class: 'Fig',
 				name: [ 'Fig' ],
-				content: 'Sao các ngươi dám! Ta là Koyama Fig đấy đừng có nói kiểu đấy với ta. À, cô gái tóc trắng xinh đẹp đang núp sau thằng Shuuya ẻo lả kia ơi, cô nên bỏ mấy đứa này và theo tôi đi. Cô chỉ có thể sánh bước với một mình ta thôi. Haha!'
+				content: 'Sao các ngươi dám! Ta là Koyama Fig đấy đừng có nói kiểu đấy với ta. À, cô gái tóc trắng xinh đẹp đang núp sau thằng Shuuya ẻo lả kia ơi, cô nên bỏ mấy đứa này và theo ta đi. Cô chỉ có thể sánh bước với một mình ta thôi. Haha!'
 			},
 			{
 				class: 'think',
