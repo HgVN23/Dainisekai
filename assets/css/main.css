@@ -343,8 +343,15 @@ p.clickable {
 	cursor: pointer;
 	width: 100%;
 }
-p {
+p,
+li {
 	white-space: pre-wrap;
+	user-select: text;
+	line-height: 1.4rem;
+}
+p::selection,
+li::selection {
+	color: aqua;
 }
 .info p {
 	border-left: 2px solid yellow;
@@ -458,6 +465,9 @@ p {
 h5 {
 	min-width: 30%;
 	max-width: 30%;
+	text-align: left;
+}
+.point {
 	text-align: left;
 }
 .point::before {

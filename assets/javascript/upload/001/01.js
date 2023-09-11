@@ -7270,22 +7270,22 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Ấm áp quá... Ánh sáng... Tôi đã có thể mở mắt và trước mắt tôi một người phụ nữ tóc dài đang ôm mình? Đây là mẹ mình nhỉ? Cơ thể này thật yếu... Đúng là mình đã được chuyển sinh thật rồi! Căn phòng hơi tối nên mình không nhìn rõ được khuôn mặt.'
+				content: 'Ấm áp quá... Ánh sáng... Tôi đã có thể mở mắt và trước mắt tôi là một người phụ nữ tóc dài đang ôm mình? Dường như đây là mẹ... Cơ thể tôi hiện tại khá yếu... Đúng là mình đã được chuyển sinh thật rồi! Căn phòng hơi tối nên tôi không nhìn rõ được khuôn mặt.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi thử liếc nhẹ qua căn phòng thì tường, trần nhà và sàn có vẻ chủ yếu đều được làm từ gỗ. Một cơn gió nhẹ thổi qua... tấm rèm bay nhè nhẹ. À thì ra cửa sổ đang mở. Trời tiết tối nay có vẻ sẽ lạnh đây nhưng hiện tại tôi đang được ôm nên khá là ấm áp. Nhân tiện thì cửa sổ cũng được làm từ kính kết hợp với khung làm từ gỗ. Còn căn phòng thì hơi nhỏ nên đồ đạc cũng không có gì nhiều ngoài một cái giường sát tường cạnh cửa sổ, một tủ nhỏ cạnh giường, một bộ bàn ghế gồm một bàn hai ghế và một tủ quần áo.'
+				content: 'Tôi thử liếc nhẹ qua căn phòng thì tường, trần nhà và sàn có vẻ chủ yếu đều được làm từ gỗ. Một cơn gió nhẹ thổi qua... tấm rèm bay nhè nhẹ. À, ra là cửa sổ đang mở. Trời tiết tối nay có vẻ sẽ lạnh đây nhưng hiện tại tôi đang được ôm nên khá là ấm áp. Nhân tiện thì cửa sổ cũng được làm từ kính kết hợp với khung làm từ gỗ. Còn căn phòng thì hơi nhỏ nên đồ đạc cũng không có gì nhiều ngoài một cái giường sát tường cạnh cửa sổ, một tủ nhỏ cạnh giường, một bộ bàn ghế gồm một bàn hai ghế và một tủ quần áo.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Mà khoan! Tôi đã mải nghĩ quá rồi nên không để ý đến những tiếng nói xung quanh, phải lắng nghe mới được. Lúc này một người đàn ông đang vừa khóc vừa vui mừng.'
+				content: 'Mà khoan! Tôi đã mải nghĩ quá rồi nên không để ý đến những tiếng nói xung quanh, phải lắng nghe mới được. Lúc này một người đàn ông đang vừa nói, vừa khóc trong hạnh phúc.'
 			},
 			{
 				class: 'ShuuyaFather',
 				name: [ 'Người đàn ông' ],
-				content: 'Cảm ơn sơ Celia rất nhiều đã giúp vợ tôi Sara sinh ra đứa con của chúng tôi an toàn. Tôi thực sự cảm ơn sơ.'
+				content: 'Cảm ơn sơ Celia rất nhiều đã giúp Sara sinh ra đứa con của chúng tôi an toàn. Tôi thực sự cảm ơn sơ.'
 			},
 			{
 				class: 'think',
@@ -7537,12 +7537,17 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Lạnh quá... Tôi muốn ôm lấy bản thân để bớt lạnh nhưng tại sao tay mình không cử động được? Tôi nghe thấy có tiếng người nói gì đó rất lớn... Mọi người đang nói gì vậy? Tôi không thể nghe rõ... mệt quá... muốn nhắm mắt... muốn ngủ... Tôi có thể cảm nhận được nhịp đập của tim mình đang ngày một yếu dần... Và rồi tôi không còn cảm nhận được nhịp đập của tim mình nữa...'
+				content: 'Lạnh quá... Tôi muốn ôm lấy bản thân để bớt lạnh nhưng tại sao tay mình không cử động được? Tôi nghe thấy có tiếng người nói gì đó rất lớn... Mọi người đang nói gì vậy? Tôi không thể nghe rõ... mệt quá... muốn nhắm mắt... muốn ngủ... Tôi có thể cảm nhận được nhịp đập của tim mình đang ngày một yếu dần... Và rồi tôi không còn cảm thấy gì nữa...'
 			},
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Tôi giật bắn mình, ngồi dậy, mắt nhắm mắt mở nhìn mọi thứ xung quanh nhưng đều là một màu trắng xóa. Tôi bối rối đứng dậy, quay qua quay lại nhìn ngang nhìn dọc thì thấy dưới chân là một con đường trắng đục. Tôi đang không thể nào hình dung được tình hình hiện tại của mình là gì nên để tìm câu trả lời thì chắc chỉ còn cách đi trên con đường tôi thấy. Tôi vừa đi vừa nghĩ vu vơ cố hiểu tình hình hiện tại nhưng chả thể nào nghĩ được gì. Thậm chí tôi cũng không thể nhớ chuyện gì đã xảy ra, rồi tôi nghe thấy tiếng gõ bàn phím. Tôi sau nghe thấy đã chạy thật nhanh để đến được hướng đó. Và rồi đột nhiên tôi xuất hiện trong một căn phòng trông như là văn phòng làm việc. Một chàng trai lạ đang ngồi gõ bàn phím ở bàn làm việc nên tôi đã tiến lại gần.'
+				content: 'Tôi giật bắn mình, ngồi dậy, mắt nhắm mắt mở nhìn mọi thứ xung quanh nhưng đều là một màu trắng xóa. Tôi bối rối từ từ đứng lên, quay qua quay lại và sau một hồi thì dưới chân đột ngột xuất hiện một con đường lát gạch dẫn đi đâu đó. Mọi thứ đều rối bời, không thể hình dung được tình hình hiện tại ra sao nên để tìm câu trả lời, thì chắc chỉ còn cách đi trên con đường tôi thấy. Vừa đi vừa nghĩ vu vơ, cố hiểu tình hình hiện tại nhưng chả thể nào nghĩ được gì. Thậm chí tôi cũng không thể nhớ chuyện gì đã xảy ra, rồi tiếng gõ bàn phím từ đâu vang lên. Như một bản năng, tôi đã chạy thật nhanh để đến được hướng đó.'
+			},
+			{
+				class: 'think',
+				name: [ 'Hg' ],
+				content: 'Và chỉ một cái chớp mắt, tôi đã ở trong một căn phòng trông như là văn phòng làm việc. Một chàng trai lạ với mái tóc bạch kim đang ngồi gõ bàn phím ở bàn làm việc, tôi tiến lại gần... Người lạ ấy dừng gõ bàn phím, hướng mắt nhìn về phía tôi.'
 			},
 			{
 				class: 'Tamada',
@@ -7550,39 +7555,44 @@ const volume = [
 				content: 'Xin chào bạn, có vẻ như bạn đang bối rối đây là đâu nhỉ?'
 			},
 			{
+				class: 'think',
+				name: [ 'Hg' ],
+				content: 'Lời nói của anh thật điềm tĩnh, tôi có thể cảm nhận được sự quan tâm người đó dành cho mình.'
+			},
+			{
 				class: 'Hg',
 				name: [ 'Hg' ],
-				content: 'là ai và đây là đâu?'
+				content: 'Anh là ai và đây là đâu?'
 			},
 			{
 				class: 'Tamada',
 				name: [ 'Chàng trai lạ' ],
-				content: 'Tôi là nhân viên Tamada Shuuya, họ là Tamada và tên là Shuuya. Chào mừng đến với văn phòng Re:Life. Bạn có thể gọi tôi là Tamada'
+				content: 'Tôi là nhân viên Tamada Shuuya, họ là Tamada và tên là Shuuya. Chào mừng đến với văn phòng Re:Life. Bạn có thể gọi tôi là Tamada.'
 			},
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Tôi lúc này đang cực kì bối rối. Nhân viên? Văn phòng? Re:Life là văn phòng gì cơ??? '
+				content: 'Tôi lúc này đang cực kì bối rối. Nhân viên? Văn phòng? Re:Life là văn phòng gì cơ?'
 			},
 			{
 				class: 'Tamada',
 				name: [ 'Tamada' ],
-				content: 'Nói ngắn gọn thì bạn vừa qua đời nhưng vì tuổi bạn chưa đến 30 nên đã được xuất hiện tại đây.'
+				content: 'Nói ngắn gọn thì bạn đã chết, nhưng vì tuổi đời chưa quá ba mươi nên được xuất hiện tại đây.'
 			},
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Tôi đã giật mình sau khi nghe câu đấy, chắc là anh ta đang đùa thôi nhỉ? Tôi định đáp lại thì đột nhiên đầu đau như búa bổ vậy. Những dòng kí ức trước khi tôi chết bỗng xuất hiện... Lúc này tôi đang trên đường đi học về, trời thì mưa tầm tã. Có vẻ như lúc đó có một chiếc xe máy băng qua đường và hình như không thấy mình nên đã xảy ra tai nạn. Tôi và người điều khiển xe máy đó đều bị ngã nhưng vết thương có vẻ không quá nghiêm trọng. Nhưng khi tôi đang gượng đứng dậy thì một chiếc xe máy đi cùng hướng đi của tôi có vẻ không thấy tai nạn phía trước nên đã không phanh kịp và tông thẳng vào mình. Cú đâm này khiến tôi bị văng đi một đoạn ngắn, mình đã không cử động được và sau đó mất dần ý thức. Cuộc đời tôi dừng ở mốc 20... Tôi đã rất sốc phải chấp nhận hiện thực và rồi thở dài.'
+				content: 'Tôi giật mình sau khi nghe anh Tamada nói vậy, chắc đây chỉ là đùa thôi nhỉ? Định đáp lại lời của anh, những dòng kí ức trước khi tôi chết đột nhiên bỗng ùa về... Lúc này tôi đang trên đường đi về nhà còn trời thì mưa tầm tã. Có vẻ như lúc đó có một chiếc xe máy băng qua đường và dường như không để ý tôi nên tai nạn đã xảy ra. Cả hai người sau khi va chạm đều bị ngã, vết thương chỉ xây xát đôi chỗ nên không quá nghiêm trọng. Tôi gượng đứng dậy, một ánh đèn chói lóa từ đâu tiến đến trước mắt. Đó là một chiếc xe máy đi cùng chiều có vẻ đã không thấy tai nạn phía trước nên đã không phanh kịp và tông thẳng vào tôi. Cú đâm này khiến tôi bị văng đi một đoạn ngắn, không thể cử động và rồi mất dần ý thức. Cuộc đời dừng ở mốc hai mươi... Tôi đã rất sốc, phải chấp nhận hiện thực và chỉ biết thở dài ngao ngán.'
 			},
 			{
 				class: 'Hg',
 				name: [ 'Hg' ],
-				content: 'Vậy tôi đã không còn sống nữa thật rồi?'
+				content: 'Vậy việc tôi không còn sống nữa là thật rồi...'
 			},
 			{
 				class: 'Tamada',
 				name: [ 'Tamada' ],
-				content: 'Đúng là vậy nhưng văn phòng chúng tôi sẽ cho bạn cuộc đời thứ 2. Đó sẽ là cuộc sống ở thế giới khác có tên là『Dainisekai』có nghĩa là “thế giới thứ 2”.'
+				content: 'Đúng như bạn nói, nhưng văn phòng chúng tôi sẽ cho bạn cuộc đời thứ hai. Đó sẽ là cuộc sống ở vũ trụ khác có tên là『Dainisekai』.'
 			},
 			{
 				class: 'think',
@@ -7592,37 +7602,42 @@ const volume = [
 			{
 				class: 'Hg',
 				name: [ 'Hg' ],
-				content: 'Ồ! Tôi cứ tưởng cái thứ gọi là thế giới khác chỉ là giả tưởng thôi chứ. Bất ngờ thật, tôi còn tưởng mình sẽ sống lại ở thế giới cũ chứ.'
-			},
-			{
-				class: 'Tamada',
-				name: [ 'Tamada' ],
-				content: 'Thật ra chúng tôi có thể đưa bạn về thế giới cũ nhưng một vài điều luật đã thay đổi nên chúng tôi không thể làm điều đó.'
+				content: 'Hể! Tôi cứ tưởng cái thứ gọi là thế giới khác chỉ là giả tưởng thôi chứ. Bất ngờ thật, tôi còn tưởng mình sẽ sống lại ở thế giới cũ chứ.'
 			},
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Tôi đã quên mất rằng mình còn đang đứng ở cái nơi đáng lẽ ra không tồn tại như này mà. Tất nhiên là họ có thể làm được những thứ như vậy rồi.'
+				content: 'Anh nhân viên vẫn giữ vẻ điềm tĩnh dù cho tôi có thốt lớn lên.'
 			},
 			{
 				class: 'Tamada',
 				name: [ 'Tamada' ],
-				content: 'Thế giới mới của bạn sẽ có kiếm, ma pháp và nhiều chủng loại đa dạng đậm chất Fantasy. Bạn sẽ có một bảng Status để xem các thông tin cá nhân như tên, tuổi, giới tính, chủng loại, Skill, danh hiệu, ... Đặc biệt, bạn sẽ có thể dùng kho đồ khi bạn 10 tuổi nhưng tối đa chỉ có 9 ô chứa. Bạn chỉ cần nghĩ về『Status』trong đầu là bảng Status sẽ xuất hiện trước mặt bạn.'
+				content: 'Thật ra chúng tôi có thể đưa bạn về thế giới cũ, nhưng một vài điều luật đã thay đổi nên chúng tôi không còn làm điều đó nữa.'
+			},
+			{
+				class: 'think',
+				name: [ 'Hg' ],
+				content: 'Tôi đã quên mất rằng mình còn đang đứng ở nơi đáng lẽ ra không tồn tại. Hiển nhiên là họ có thể làm được những thứ như vậy rồi.'
+			},
+			{
+				class: 'Tamada',
+				name: [ 'Tamada' ],
+				content: 'Thế giới mới sẽ có ma pháp và nhiều chủng loại đa dạng mà nơi bạn từng ở không tồn tại. Bạn và mọi người sẽ có『Bảng trạng thái』để xem các thông tin cá nhân. Chỉ cần nghĩ về『Bảng trạng thái』trong đầu là thông tin sẽ xuất hiện trước mặt bạn. Tất nhiên mọi người sẽ không thấy trừ khi bạn chia sẻ nó hoặc họ có kĩ năng đọc thông tin.'
 			},
 			{
 				class: 'Hg',
 				name: [ 'Hg' ],
-				content: 'Thế giới đó đúng là đậm chất Fantasy thật ha.'
+				content: 'Thế giới này thật đậm chất giả tưởng và kì ảo thật ha.'
 			},
 			{
 				class: 'Tamada',
 				name: [ 'Tamada' ],
-				content: 'Chúng tôi sẽ cho bạn lựa chọn giới tính; chủng loại như là Human, Elf, Drawf, ... kèm mô tả; một nghề nghiệp như là Warrior, Archer, Farmer, ... kèm mô tả và 3 điều ước.'
+				content: 'Chúng tôi sẽ cung cấp cho bạn một vài quyền lợi như sau: tùy chỉnh bản thân như diện mạo, chủng loài, chức nghiệp trước khi chuyển sinh; đặc biệt là ba điều ước.'
 			},
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Tôi đã vô cùng thích thú khi có thể tùy chỉnh cơ thể và đặc tính. Mọi thứ đang dần trở nên thú vị.'
+				content: 'Tôi đã vô cùng thích thú trước những quyền lợi trên. Mọi thứ đang dần trở nên rất thú vị.'
 			},
 			{
 				class: 'Tamada',
@@ -7642,22 +7657,22 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Và đương nhiên cái ý nghĩ lúc đó của tôi đã vụt tắt. Tất nhiên là không thể có chuyện có thêm điều ước rồi.'
+				content: 'Và ngay lập tức cái ý nghĩ lúc đó của tôi đã vụt tắt. Hiển nhiên là không thể có chuyện thêm điều ước được rồi.'
 			},
 			{
 				class: 'Tamada',
 				name: [ 'Tamada' ],
-				content: 'Vì là Fantasy nên sẽ có Skill, bạn có thể ước có thêm Skill. Hoặc là ước có Item nhưng nó sẽ ở trong Inventory của bạn hoặc là bất cứ cái gì bạn có thể nghĩ ra như là có đồng minh, danh hiệu, khu vực, ... Bạn không thể ước điều gì có thể gây ảnh hưởng lên những người chuyển sinh, ảnh hưởng quá lớn lên『Dainisekai』và ảnh hưởng lên văn phòng Re:Life. Tôi sẽ xem xét kĩ lưỡng điều ước nên chỉ cần bạn có trí tưởng tượng và suy tính là được.'
+				content: 'Vì là thế giới của sự giả tưởng nên sẽ có các「Kĩ năng」, bạn có thể ước có thêm「Kĩ năng」. Hoặc là ước có「Vật phẩm」nhưng nó sẽ ở trong「Kho chứa không gian」của bạn hoặc là bất cứ cái gì bạn có thể nghĩ ra. Bạn không thể ước điều gì có thể gây ảnh hưởng lên những người chuyển sinh, ảnh hưởng quá lớn lên『Dainisekai』và ảnh hưởng lên văn phòng Re:Life. Tôi sẽ xem xét kĩ lưỡng điều ước nên chỉ cần bạn có trí tưởng tượng và suy tính là được.'
 			},
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Tôi gãi đầu, trong đầu tôi đang tính toán khá nhiều thứ bởi chỉ có 3 điều ước. Nó sẽ ảnh hưởng lớn đến cuộc sống thứ 2 nên cần phải nghĩ hợp lí mới được.'
+				content: 'Tôi lúc này chỉ biết gãi đầu, có quá nhiều thông tin đang xoay vòng vòng quanh tôi.'
 			},
 			{
 				class: 'Tamada',
 				name: [ 'Tamada' ],
-				content: 'Cuối cùng là về một chút lưu ý. Ký ức của thế giới cũ sẽ được giữ lại nên hãy yên tâm bạn vẫn là bạn. Bạn sẽ bắt đầu từ trẻ sơ sinh. Ở『Dainisekai』không tồn tại và sẽ không tồn tại thứ có thể ban điều ước. Nếu bạn chết hẳn thì là hết, không có chuyện sống lại.'
+				content: 'Cuối cùng là về một chút lưu ý. Ký ức của thế giới cũ sẽ được giữ lại nên hãy yên tâm bạn vẫn là bạn. Bạn sẽ bắt đầu lại từ đầu là trẻ sơ sinh. Và nếu bạn chết hẳn thì là hết, không có chuyện sống lại.'
 			},
 			{
 				class: 'think',
@@ -7677,32 +7692,32 @@ const volume = [
 			{
 				class: 'info',
 				name: [ 'Hg' ],
-				content: '『Dainisekai』quy tụ mọi người chuyển sinh nhưng có thể không chung 1 lục địa hoặc 1 nơi. Và đây là đợt chuyển sinh đầu tiên.'
+				content: 'Vũ trụ『Dainisekai』quy tụ mọi người chuyển sinh nhưng có thể không chung một địa điểm, lục địa hoặc thậm chí không gian. Điều đó chứng tỏ thế giới của những người chuyển sinh vào vũ trụ này sẽ có các quy luật khác nhau. Nhưng đồng thời vẫn có thể giao thoa bằng cách nào đó.'
 			},
 			{
 				class: 'info',
 				name: [ 'Hg' ],
-				content: 'Thời gian ở『Dainisekai』giống với thế giới trước nơi tôi từng tồn tại. Và hiện tại đang năm 2023.'
+				content: 'Hệ thống thời gian ở『Dainisekai』vẫn giống với thế giới trước nơi tôi từng tồn tại.'
 			},
 			{
 				class: 'info',
 				name: [ 'Hg' ],
-				content: 'Ở trung tâm của thế giới sẽ có một cái cột trụ ánh sáng, thế giới là dạng phẳng trải dài vô tận mọi hướng, địa hình đa dạng. Cũng có vũ trụ nhưng nhìn từ trên xuống thì địa hình sẽ dài vô tận như đã nói vì đây không phải là trái đất hay là địa cầu.'
+				content: 'Trái đất... Không. Nơi tôi sẽ đến có dạng phẳng trải dài vô tận mọi hướng cùng địa hình đa dạng. Phía trên cao là vũ trụ, nhìn từ trên xuống sẽ thấy rõ địa hình sẽ dài vô tận như đã nói vì đây không phải là trái đất hay là địa cầu. Tôi có thắc mắc về hệ thống ngày đêm của mặt trời và mặt trăng thì anh Tamada chỉ mỉm cười...'
 			},
 			{
 				class: 'info',
 				name: [ 'Hg' ],
-				content: 'Có Dimension, Dungeon, làng, rừng, núi, biển, chủng loại khác nhau, chế độ cai trị, ...'
+				content: 'Có các chiều không gian, hầm ngục quái, làng, rừng, núi, biển, chủng loài, chế độ cai trị, quy luật...'
 			},
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Đó là tất cả thông tin mà tôi có thể nắm bắt. À mà tôi thuộc nhóm những người chuyển sinh đầu tiên. Rồi tôi hoàn thành hồ sơ và sau một khoảng thời gian...'
+				content: 'Đó là tất cả thông tin mà tôi có thể nắm bắt. Rồi tôi hoàn thành hồ sơ và sau một khoảng thời gian...'
 			},
 			{
 				class: 'Tamada',
 				name: [ 'Tamada' ],
-				content: 'Và cuối cùng, xin hãy đặt tên cho bản thân khi đến『Dainisekai』. Nếu bạn không nghĩ được ra thì có thể để trống và cha mẹ của bạn sẽ là người đặt tên.'
+				content: 'Cuối cùng, xin hãy đặt tên cho bản thân khi đến『Dainisekai』. Nếu bạn không nghĩ được ra thì có thể để trống và cha mẹ mới của bạn sẽ là người đặt tên.'
 			},
 			{
 				class: 'think',
@@ -7712,12 +7727,12 @@ const volume = [
 			{
 				class: 'Hg',
 				name: [ 'Hg' ],
-				content: 'Tên tôi sẽ là『Tamada Shuuya』bởi vì anh có thể là người tôi cho là đáng tin cậy cuối cùng mà tôi có thể gặp. Đồng thời trí nhớ tôi hơi kém nên lấy tên như này thì tôi sẽ không thể nào quên được anh.'
+				content: 'Tên tôi sẽ là『Tamada Shuuya』bởi vì anh có thể là người đáng tin cậy cuối cùng mà tôi có thể gặp. Đồng thời... trí nhớ tôi hơi kém nên lấy tên như này thì tôi sẽ không thể nào quên được anh.'
 			},
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Tamada đã mỉm cười nhẹ sau khi nghe tôi nói câu đó.'
+				content: 'Anh Tamada chỉ mỉm cười nhẹ sau khi nghe tôi nói câu đó.'
 			},
 			{
 				class: 'Tamada',
@@ -7732,7 +7747,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Từ giờ cái tên『Hg』sẽ chỉ còn là quá khứ mà chỉ tôi và văn phòng này biết cho đến ngày ai đó biết được bí mật của tôi.'
+				content: 'Từ giờ cái tên『Hg』sẽ chỉ còn là quá khứ mà chỉ tôi và văn phòng này biết. Ít nhất là cho đến ngày ai đó biết được bí mật của tôi.'
 			},
 			{
 				class: 'Tamada',
@@ -7742,12 +7757,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Vừa dứt lời đó xong thì mọi thứ xung quanh tối dần. Tôi đang rơi trong khoảng không vô định. Vậy là tôi đang chuyển sinh nhỉ? Tự nhiên tôi không còn cử động được cơ thể lần nữa nhưng lần này tôi cảm nhận được một thứ gì đó thật là ấm áp và an toàn... Rồi một giọng nói cất lên.'
+				content: 'Vừa dứt lời thì mọi thứ xung quanh tối dần, còn tôi đang rơi trong khoảng không vô định. Vậy là đang chuyển sinh nhỉ? Tuy cơ thể không cử động được, nhưng tôi cảm nhận sự ấm áp và an toàn... Rồi một giọng nói cất lên.'
 			},
 			{
 				class: 'ShuuyaFather',
 				name: [ 'Người đàn ông' ],
-				content: 'Nó là con trai!!! Con trai đó!!!'
+				content: 'Nó là con trai! Con trai đó!'
 			},
 			{
 				class: 'think',
@@ -7762,7 +7777,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ '???' ],
-				content: 'Trong không gian tối đen của mùa thu, ánh sáng yếu ớt lấp ló từ một ngôi nhà, một sinh linh mới đã ra đời... '
+				content: 'Trong không gian tối đen của mùa thu, ánh sáng yếu ớt lấp ló từ ngôi nhà, một sinh linh bé nhỏ đã ra đời và mang đến làn gió mới...'
 			}
 		]
 	}
