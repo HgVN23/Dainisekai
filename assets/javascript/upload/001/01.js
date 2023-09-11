@@ -7300,7 +7300,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Có vẻ người phụ nữ đang ôm tôi đúng là mẹ rồi và tên là『Sara』, còn người đàn ông kia là cha mình tên『Haruka』. Và bà cô sơ kia tên là『Celia』, trông như đó là người quen của cha mẹ mình. Trong khi đó, Sơ Celia dường như đang lo lắng điều gì đó.'
+				content: 'Có vẻ người phụ nữ đang ôm tôi đúng là mẹ rồi, tên là Sara và người đàn ông kia là cha tên Haruka. Và bà cô sơ kia tên là Celia, trông như đó là người quen của cha mẹ mình. Trong khi đó, Sơ Celia dường như đang lo lắng điều gì đó.'
 			},
 			{
 				class: 'Celia',
@@ -7727,7 +7727,7 @@ const volume = [
 			{
 				class: 'Hg',
 				name: [ 'Hg' ],
-				content: 'Tên tôi sẽ là『Tamada Shuuya』bởi vì anh có thể là người đáng tin cậy cuối cùng mà tôi có thể gặp. Đồng thời... trí nhớ tôi hơi kém nên lấy tên như này thì tôi sẽ không thể nào quên được anh.'
+				content: 'Tên tôi sẽ là Tamada Shuuya bởi vì anh có thể là người đáng tin cậy cuối cùng mà tôi có thể gặp. Đồng thời... trí nhớ tôi hơi kém nên lấy tên như này thì tôi sẽ không thể nào quên được anh.'
 			},
 			{
 				class: 'think',
@@ -7737,7 +7737,7 @@ const volume = [
 			{
 				class: 'Tamada',
 				name: [ 'Tamada' ],
-				content: 'Tôi vô cùng cảm kích. Vậy bạn muốn xác nhận cái tên『Tamada Shuuya』?'
+				content: 'Tôi vô cùng cảm kích. Vậy bạn muốn xác nhận cái tên Tamada Shuuya?'
 			},
 			{
 				class: 'Hg',
@@ -7747,7 +7747,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Hg' ],
-				content: 'Từ giờ cái tên『Hg』sẽ chỉ còn là quá khứ mà chỉ tôi và văn phòng này biết. Ít nhất là cho đến ngày ai đó biết được bí mật của tôi.'
+				content: 'Từ giờ cái tên Hg sẽ chỉ còn là quá khứ mà chỉ tôi và văn phòng này biết. Ít nhất là cho đến ngày ai đó biết được bí mật của tôi.'
 			},
 			{
 				class: 'Tamada',
@@ -7772,7 +7772,7 @@ const volume = [
 			{
 				class: 'ShuuyaFather',
 				name: [ 'Người đàn ông' ],
-				content: 'Được sinh ra trong đêm thu, ta sẽ đặt tên con là『Shuuya』.'
+				content: 'Được sinh ra trong đêm thu, ta sẽ đặt tên con là Shuuya.'
 			},
 			{
 				class: 'think',
