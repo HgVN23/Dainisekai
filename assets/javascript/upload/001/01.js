@@ -20,7 +20,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sau khi kể cho họ về “cuộc phiêu lưu” và xác nhận hoàn thành nhiệm vụ thì tôi cùng Tổ đội ra về. Dường như nhóm tôi đã tạm thời thoát khỏi mớ rắc rối này. Nhưng mà người của Bang hội Mạo hiểm giả có lẽ sẽ còn hỏi bọn tôi để lấy thêm thông tin. Hơn nữa tôi còn lỡ để lộ Kho chứa Không gian lúc lấy vật phẩm để xác nhận hoàn thành nhiệm vụ nữa chứ. Ẩu thật, sau này cũng bị để ý cho coi. Hầy... '
+				content: 'Sau khi kể cho họ về “cuộc phiêu lưu” và xác nhận hoàn thành nhiệm vụ thì tôi cùng Tổ đội ra về. Dường như nhóm tôi đã tạm thời thoát khỏi mớ rắc rối này. Nhưng mà người của Bang hội Mạo hiểm giả có lẽ sẽ còn hỏi bọn tôi để lấy thêm thông tin. Hơn nữa, tôi còn lỡ để lộ『Kho chứa Không gian』lúc lấy vật phẩm để xác nhận hoàn thành nhiệm vụ nữa chứ. Ẩu thật, sau này cũng bị để ý cho coi. Hầy...'
 			},
 			{
 				class: 'Shuuya',
@@ -45,12 +45,12 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Katsumi' ],
-				content: 'Trò giải trí của cậu lạ thật. Mà cảm ơn vừa nãy cậu xin xác của Silver Wolf, bọn tôi cần nó để nghiên cứu.'
+				content: 'Trò giải trí của cậu lạ thật. Mà cảm ơn vừa nãy cậu xin xác của Ngân Lang, bọn tôi cần nó để nghiên cứu.'
 			},
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Không có gì, mình biết bên Bang hội không thể tự nhiên làm thế được mà. À, để mình lấy nó ra khỏi Kho chứa Không gian.'
+				content: 'Không có gì, tôi biết bên Bang hội không thể tự nhiên làm thế được mà. À, để tôi lấy nó ra khỏi『Kho chứa Không gian』.'
 			},
 			{
 				class: 'Katsumi',
@@ -60,12 +60,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Katsumi' ],
-				content: 'Itsuki lấy ra xác của Silver Wolf đặt trên bàn, máu chảy đầy ra từ những vết thương rồi nhỏ xuống mặt sàn. Tôi muốn mắng cậu ta một trận nhưng đã cất công giúp cho Bang hội như vậy rồi nên đành bỏ qua. Tôi thở dài...'
+				content: 'Itsuki lấy ra xác của Ngân Lang đặt trên bàn, máu chảy đầy ra từ những vết thương rồi nhỏ xuống mặt sàn. Tôi muốn mắng cậu ta một trận nhưng đã cất công giúp cho Bang hội như vậy rồi nên đành bỏ qua. Tôi thở dài...'
 			},
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Được rồi! Nghĩa vụ của mình đã xong, giờ xuống uống bia đây!'
+				content: 'Được rồi! Nghĩa vụ của tôi đã xong, giờ xuống uống bia đây!'
 			},
 			{
 				class: 'Katsumi',
@@ -80,7 +80,7 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Katsumi' ],
-				content: 'Thôi nào em, chỉ có 2 hay 3 cốc thôi đúng chứ. Để ta trả tiền cũng...'
+				content: 'Thôi nào em, chỉ có hai hay ba cốc thôi đúng chứ. Để ta trả tiền cũng...'
 			},
 			{
 				class: 'Maki',
@@ -95,7 +95,7 @@ const volume = [
 			{
 				class: 'Maki',
 				name: [ 'Maki' ],
-				content: 'Thay vì dùng từ “cốc” thì trưởng Bang hội nên dùng từ “thùng”. Và trưởng Bang hội cũng không muốn biết số tiền mà anh Itsuki phải trả đâu. Tất nhiên số tiền đấy không chỉ tính có mỗi 1 ngày đâu.'
+				content: 'Thay vì dùng từ “cốc” thì trưởng Bang hội nên dùng từ “thùng”. Và trưởng Bang hội cũng không muốn biết số tiền mà anh Itsuki phải trả đâu. Tất nhiên số tiền đấy không chỉ tính có mỗi một ngày.'
 			},
 			{
 				class: 'think',
@@ -115,22 +115,22 @@ const volume = [
 			{
 				class: 'Maki',
 				name: [ 'Maki' ],
-				content: 'X... xinh đẹp? A... anh chỉ n... nói vậy để e... em không còn b... bực nữa thôi đúng không?'
+				content: 'X-xinh đẹp? A-anh chỉ n-nói vậy để e-em không còn b-bực nữa thôi đúng không?'
 			},
 			{
 				class: 'think',
 				name: [ 'Katsumi' ],
-				content: 'Itsuki đột ngột dùng hai bàn tay của mình nắm chặt đôi bàn tay của Maki. Cậu ta khiến em ấy phải nhìn thẳng vào mắt cậu.'
+				content: 'Itsuki đột ngột nắm chặt đôi bàn tay của Maki. Cậu ta khiến em ấy phải nhìn thẳng vào mắt cậu.'
 			},
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Không. Em đúng là xinh đẹp thật mà. Sẽ có khối đứa đàn ông muốn theo đuổi em đó, chỉ có kẻ ngốc mới không chọn em thôi. Riêng anh thì chắc không thể nào sánh ngang được với vẻ đẹp của em, Maki à.'
+				content: 'Không. Em đúng là xinh đẹp thật mà. Sẽ có khối đứa đàn ông muốn theo đuổi em đó, chỉ có kẻ ngốc mới không chọn em thôi. Riêng anh thì... chắc không thể nào sánh ngang được với vẻ đẹp của em, Maki à.'
 			},
 			{
 				class: 'Maki',
 				name: [ 'Maki' ],
-				content: 'V... vậy à...'
+				content: 'V-vậy à...'
 			},
 			{
 				class: 'think',
@@ -155,7 +155,7 @@ const volume = [
 			{
 				class: 'Maki',
 				name: [ 'Maki' ],
-				content: 'N... nếu là anh thì đ... được thôi. E... em biết có một nhà hàng gần đây... nếu anh không ngại liệu có thể...'
+				content: 'N-nếu là anh thì đ-được thôi. E-em biết có một nhà hàng gần đây... nếu anh không ngại liệu có thể...'
 			},
 			{
 				class: 'think',
@@ -250,12 +250,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Ngài trông thật già, râu và tóc đều trắng dài qua cổ. Trang phục thật đơn sơ khi chỉ cuốn tấm vải trắng quanh người và buộc dây quanh eo. Không thể tin được mình gặp thần... Có lẽ cũng không tệ sau khi mình hi sinh ha.'
+				content: 'Ngài trông thật già, râu và tóc đều trắng dài qua cổ. Trang phục thật đơn sơ khi chỉ choàng tấm vải trắng lên người và buộc dây quanh eo. Không thể tin được mình gặp thần... Có lẽ cũng không tệ sau khi mình hi sinh ha.'
 			},
 			{
 				class: 'Iwao',
 				name: [ 'Iwao' ],
-				content: 'Chuẩn rồi cháu. Bất ngờ không nào.'
+				content: 'Là ta đây. Cháu có vẻ ngạc nhiên hơn ta nghĩ.'
 			},
 			{
 				class: 'Kowashi',
@@ -290,12 +290,12 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Ơ ngài đọc được suy nghĩ của cháu? Và tỉnh?'
+				content: 'Ơ... ngài đọc được suy nghĩ của cháu? Và tỉnh lại?'
 			},
 			{
 				class: 'Iwao',
 				name: [ 'Iwao' ],
-				content: 'Cháu nghĩ đây là điểm đến cuối cùng? Không phải đâu, linh hồn của cháu chỉ ở tạm đây khi phước lành ta ban cho cháu kích hoạt thôi. Cơ thể của cháu đang được hồi phục.'
+				content: 'Cháu nghĩ đây là điểm đến cuối cùng? Không phải đâu, linh hồn của cháu chỉ ở tạm đây khi chúc phúc ta ban cho được kích hoạt thôi. Cơ thể của cháu đang được hồi phục.'
 			},
 			{
 				class: 'Kowashi',
@@ -320,22 +320,22 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Vậy tại sao ngài lại ban phước lành cho cháu? Rốt cuộc nghĩa vụ của cháu là gì?'
+				content: 'Vậy tại sao ngài lại cho cháu chúc phúc? Chắc chắn cháu có nghĩa vụ gì đó cần hoàn thành phải không?'
 			},
 			{
 				class: 'Iwao',
 				name: [ 'Iwao' ],
-				content: 'Vì cháu là người được chọn trong vòng quay và nghĩa vụ của cháu là đến đây nói chuyện để ta đỡ buồn. Ở đây chỉ có một mình cũng cô đơn lắm.'
+				content: 'Tại sao à... Đơn giản thì cháu là người được chọn trong vòng quay. Còn nghĩa vụ của cháu là đến đây nói chuyện để ta đỡ buồn, ở đây chỉ có một mình cũng cô đơn lắm.'
 			},
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'NGÀI ĐỪNG CÓ ĐÙA...'
+				content: 'XIN NGÀI ĐỪNG CÓ ĐÙA...'
 			},
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Các giác quan của tôi tự nhiên chậm dần và gần như không còn cảm nhận được nữa. Trong khoảnh khắc tôi vẫn thấy ngài đang nói gì đó mà không thể nghe được.'
+				content: 'Các giác quan của tôi tự nhiên chậm dần và gần như không còn cảm nhận được nữa. Trong khoảnh khắc, tôi vẫn thấy ngài đang nói gì đó mà không thể nghe được.'
 			},
 			{
 				class: 'Iwao',
@@ -360,12 +360,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Asahi nắm chặt áo của Kowashi, có lẽ nhỏ không muốn nghe gì nữa về chuyện liên quan đến cậu ta. Asahi chắc vẫn không chấp nhận chuyện xảy đến Kowashi. Kowashi cũng cảm nhận được điều đó nên đã đổi sang chủ đề khác.'
+				content: 'Asahi nắm chặt áo của Kowashi, có lẽ nhỏ không muốn nghe gì nữa về chuyện liên quan đến cậu ta. Asahi chắc vẫn không chấp nhận chuyện xảy đến Kowashi. Cậu ấy cũng cảm nhận được điều đó nên đã đổi sang chủ đề khác.'
 			},
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Phải rồi Shuuya, từ lúc nào mà cậu làm nhiệm vụ thu thập Heal Herb vậy?'
+				content: 'Phải rồi Shuuya, từ lúc nào mà cậu làm nhiệm vụ thu thập『Thảo dược Hồi phục』vậy?'
 			},
 			{
 				class: 'Shuuya',
@@ -380,7 +380,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: '... Bộ đôi đó tốt nhất là nên chưa đi quá sâu vào trong khu rừng... Ơ, kia là Heal Herb nhỉ?'
+				content: '... Bộ đôi đó tốt nhất là nên chưa đi quá sâu vào trong khu rừng... Ơ, kia là『Thảo dược Hồi phục』nhỉ?'
 			},
 			{
 				class: 'think',
@@ -390,32 +390,32 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Chỉ có 2 vòng xoắn à. Chị Maki nói đúng thật, khó mà có thể tìm được hơn 3 vòng xoắn ở thảo nguyên.'
+				content: 'Chỉ có hai vòng xoắn à. Chị Maki nói đúng thật, khó mà có thể tìm được hơn ba vòng xoắn ở thảo nguyên.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sau đó tôi lấy cái kéo từ『Cooking Set』ra cắt cây ở gần sát mặt đất nhất. Lí do tôi không dùng tay bứt luôn là vì có thể sẽ làm gãy thân phần trên và ảnh hưởng tới chất lượng.'
+				content: 'Sau đó tôi lấy cái kéo từ『Bộ dụng cụ Nhà bếp』ra cắt cây ở gần sát mặt đất nhất. Lí do tôi không dùng tay bứt luôn là vì có thể sẽ làm gãy thân phần trên và ảnh hưởng tới chất lượng.'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Thế là được 1 cây Heal Herb, Hyouka cậu nghĩ... HYOUKA?'
+				content: 'Thế là được một cây『Thảo dược Hồi phục』, Hyouka cậu nghĩ... HYOUKA?'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi quay ra thì thấy Hyouka đang nằm trên mặt đất. Tôi đã giật mình và tự hỏi tại sao nhỏ lại nằm đấy... A. Nhớ lại thì lúc đấy Hyouka đang đẩy tôi và rồi tôi chạy đi... Tôi tiến tới và nhấc nhỏ lên... nhẹ thật...'
+				content: 'Tôi quay ra thì thấy Hyouka đang nằm trên mặt đất. Giật mình và tự hỏi tại sao nhỏ lại nằm đấy... A. Nhớ lại thì lúc đấy Hyouka đang đẩy tôi và rồi tôi chạy đi... Mau chóng tiến tới, tôi nhấc nhỏ lên... nhẹ thật...'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Xin lỗi nha, mình không để ý.'
+				content: '『Làm sạch』! Xin lỗi nha, mình không để ý.'
 			},
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Không sao. Mình đang đợi Shuuya thôi. Vậy giờ đuổi theo bộ đôi thôi nhỉ?'
+				content: 'Không sao. Mình đang đợi Shuuya. Vậy giờ đuổi theo bộ đôi nhỉ?'
 			},
 			{
 				class: 'Shuuya',
@@ -430,7 +430,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'A! Heal Herb kìa! Đợi mình chút mình qua lấy.'
+				content: 'A!『Thảo dược Hồi phục』kìa! Đợi mình chút mình qua lấy.'
 			},
 			{
 				class: 'Hyouka',
@@ -450,12 +450,12 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Mình biết rồi, đợi mình thêm chút... 3 xoắn! Có lẽ nào sẽ tìm được cây chất lượng cao quanh đây? Cho mình thêm vài phút... Hí!'
+				content: 'Mình biết rồi, đợi mình thêm chút... ba xoắn! Có lẽ nào sẽ tìm được cây chất lượng cao quanh đây? Cho mình thêm vài phút... Hí!'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Mũi tên băng bay sượt qua bên tai trái tôi đâm trúng vào chỗ Heal Herb và đóng băng chúng. Tôi từ từ quay đầu nhìn về phía Hyouka... Cảm giác như đang nhìn vào cơn bão tuyết vậy.'
+				content: 'Mũi tên băng bay sượt qua bên tai trái tôi, đâm trúng vào chỗ『Thảo dược Hồi phục』và đóng băng chúng. Tôi từ từ quay đầu nhìn về phía Hyouka... Cảm giác như đang nhìn vào cơn bão tuyết vậy.'
 			},
 			{
 				class: 'Shuuya',
@@ -465,7 +465,7 @@ const volume = [
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Shuuya, mình nghĩ cậu thu thập đủ Heal Herb rồi đó.'
+				content: 'Shuuya. Mình nghĩ thu thập đủ『Thảo dược Hồi phục』rồi đó.'
 			},
 			{
 				class: 'Shuuya',
@@ -510,7 +510,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Được rồi, Các cậu qua nhà mình ăn tối đi. Nay Kowashi săn nhiều Horned Rabbit nên chắc mình sẽ có thể làm được món gì đó ngon đấy.'
+				content: 'Được rồi, Các cậu qua nhà mình ăn tối đi. Nay Kowashi săn nhiều Thỏ Sừng nên chắc mình sẽ có thể làm được món gì đó ngon đấy.'
 			},
 			{
 				class: 'Kowashi',
@@ -530,7 +530,7 @@ const volume = [
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Chắc chắn là ngon. Shuuya mà lại.'
+				content: 'Chắc chắn là ngon. Shuuya mà.'
 			},
 			{
 				class: 'Shuuya',
@@ -540,7 +540,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Đúng là đồ ăn của Shuuya nấu ngon thật. Ăn một lần sẽ khó mà quên được hương vị đặc biệt mà cậu ấy làm ra. Mình mong chờ được ăn món tối nay quá!'
+				content: 'Đúng là đồ ăn của Shuuya nấu ngon thật. Ăn một lần sẽ khó mà quên được hương vị đặc biệt mà cậu ấy làm ra. Tôi mong chờ được ăn món tối nay quá!'
 			},
 			{
 				class: 'Kowashi',
@@ -605,7 +605,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Asahi đã nhảy xuống khỏi người tôi và đi cùng Hyouka. Có vẻ nhỏ đã trở lại bình thường rồi, thật tốt... Nhưng lưng mình đau quá...'
+				content: 'Asahi đã nhảy xuống khỏi người tôi và đi cùng Hyouka. Có vẻ nhỏ đã trở lại bình thường rồi, thật tốt... Nhưng lưng tôi đau quá...'
 			},
 			{
 				class: 'Asahi',
@@ -615,7 +615,7 @@ const volume = [
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Ô! Mặt khác của Shuuya mà mình chưa thấy! Mình muốn thấy!'
+				content: 'Mặt khác của Shuuya! Mình muốn thấy!'
 			},
 			{
 				class: 'Asahi',
@@ -656,7 +656,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Bên Bang hội đang thu thập thông tin đây mà, đúng như anh Itsuki đã nói trước đó. Có lẽ họ nghĩ bọn mình còn trẻ con không hiểu chuyện nên mới nói kiểu như vậy. Chị Maki dường như đang ghi chép mọi thứ, thôi thì cứ làm theo họ để giải quyết nhanh chóng vậy.'
+				content: 'Bên Bang hội đang thu thập thông tin đây mà, đúng như anh Itsuki đã nói trước đó. Có lẽ họ nghĩ bọn tôi còn trẻ con không hiểu chuyện nên mới nói kiểu như vậy. Chị Maki dường như đang ghi chép mọi thứ, thôi thì cứ làm theo họ để giải quyết nhanh chóng vậy.'
 			},
 			{
 				class: 'think',
@@ -666,7 +666,7 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Katsumi' ],
-				content: 'Chỉ có một con Silver Wolf thôi à?'
+				content: 'Chỉ có một con Ngân Lang thôi à?'
 			},
 			{
 				class: 'Shuuya',
@@ -691,7 +691,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'biết gì về nó à?'
+				content: 'Bác biết gì về nó à?'
 			},
 			{
 				class: 'Katsumi',
@@ -706,7 +706,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Chỉ là một căn bệnh... liệu nó có đúng là như vậy không nhỉ...? Cảm giác như bác Katsumi đang giấu giếm điều gì đó. '
+				content: 'Chỉ là một căn bệnh... liệu nó có đúng là như vậy không nhỉ...? Cảm giác như bác Katsumi đang giấu giếm điều gì đó.'
 			},
 			{
 				class: 'Itsuki',
@@ -721,7 +721,7 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: '... Sau đó tôi vào rừng theo lời em trai kia. Đến nơi thì thấy em Shuuya đang cầm dao bếp đấu với Silver Wolf. Thật đấy, anh hơi bất ngờ khi có người cầm dao bếp ra chiến đấu đó.'
+				content: '... Sau đó tôi vào rừng theo lời em trai kia. Đến nơi thì thấy em Shuuya đang cầm dao bếp đấu với Ngân Lang. Thật đấy, anh hơi bất ngờ khi có người cầm dao bếp ra chiến đấu đó.'
 			},
 			{
 				class: 'Shuuya',
@@ -731,7 +731,7 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Được rồi, sau đó tôi chạy đến cho một đấm vào đầu con Silver Wolf và thế là nó tiêu.'
+				content: 'Được rồi, sau đó tôi chạy đến cho một đấm vào đầu con Ngân Lang và thế là nó tiêu.'
 			},
 			{
 				class: 'Kowashi',
@@ -751,7 +751,7 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Sau đó thì Shuuya ngất chắc vì kiệt sức và vết thương ở tay trái nên là tôi đã cho em uống『ma lực Potion』và『Holy Heal Potion』. Rồi...'
+				content: 'Sau đó thì Shuuya ngất chắc vì kiệt sức và vết thương ở tay trái nên là tôi đã cho em uống『Thuốc Ma lực』và『Thuốc Thánh Hồi phục』. Rồi...'
 			},
 			{
 				class: 'Shuuya',
@@ -761,12 +761,12 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: '『ma lực Potion』và『Holy Heal Potion』'
+				content: '『Thuốc Ma lực』và『Thuốc Thánh Hồi phục』?'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: '『Holy Heal Potion』! Anh đâu cần phải cho em uống loại nghe có vẻ đắt như thế này! Em nhớ không nhầm thì em chỉ bị thương nhẹ ở tay trái thôi mà!'
+				content: '『Thuốc Thánh Hồi phục』! Anh đâu cần phải cho em uống loại nghe có vẻ đắt như thế này! Em nhớ không nhầm thì em chỉ bị thương nhẹ ở tay trái thôi mà!'
 			},
 			{
 				class: 'Itsuki',
@@ -786,7 +786,7 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: '... Thấy cả ba em còn lại đang nằm nên tôi cũng cho các em uống thuốc. Sau đó thì các mạo hiểm giả ứng cứu cũng tới và phần còn lại cậu cũng biết rồi đó, Katsumi.'
+				content: '... Thấy cả ba em còn lại đang nằm nên tôi cũng cho các em uống thuốc. Sau đó thì các mạo hiểm giả ứng cứu cũng tới, phần còn lại cậu cũng biết rồi đó, Katsumi.'
 			},
 			{
 				class: 'Katsumi',
@@ -831,7 +831,7 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'A... Asahi m... mình chỉ đùa thôi... Đừng buồn nữa, mình vẫn đang nói chuyện với cậu đây đúng không?'
+				content: 'A-Asahi m-mình chỉ đùa thôi... Đừng buồn nữa, mình vẫn đang nói chuyện với cậu đây đúng không?'
 			},
 			{
 				class: 'Itsuki',
@@ -841,17 +841,17 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Katsumi' ],
-				content: 'C... cháu có phải là con người không vậy?'
+				content: 'C-cháu có phải là con người không vậy?'
 			},
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Cháu... để cháu kiểm tra Bảng trạng thái xem sao... Ủa? Mọi người xem này!'
+				content: 'Cháu... để cháu kiểm tra『Bảng trạng thái』xem sao... Ủa? Mọi người xem này!'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi và mọi người cùng xem Bảng trạng thái của Kowashi thì thấy cậu vẫn là con người. Nhưng khi lướt xuống phần kỹ năng thì thấy cậu có『Revival』, cho phép người dùng sống lại và hồi nửa lượng máu của bản thân cùng vết thương. Tự động kích hoạt khi hi sinh bảo vệ mạng sống khác và dùng được lại khi bình minh của ngày hôm sau ló rạng. Sao cậu lại có kỹ năng như vậy được chứ? Tôi lướt tiếp xuống đến phần danh hiệu thì thấy 『The Savior』và phần mô tả ghi “Phước lành của thần Iwao”. Ra là vậy... có vẻ vấn đề đã được giải quyết.'
+				content: 'Tôi và mọi người cùng xem『Bảng trạng thái』của Kowashi thì thấy cậu vẫn là con người. Nhưng khi lướt xuống phần kỹ năng thì thấy cậu có『Tái sinh』, cho phép người dùng sống lại và hồi nửa lượng máu của bản thân cùng vết thương. Tự động kích hoạt khi hi sinh bảo vệ mạng sống khác và dùng được lại khi bình minh của ngày hôm sau ló rạng. Sao cậu lại có kỹ năng như vậy được chứ? Tôi lướt tiếp xuống đến phần danh hiệu thì thấy『Đấng cứu thế』và phần mô tả ghi “Chúc phúc của thần Iwao”. Ra là vậy... có vẻ vấn đề đã được giải quyết.'
 			},
 			{
 				class: 'Katsumi',
@@ -861,7 +861,7 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Từ khi nào mà mình lại có『Revival』vậy nhỉ?'
+				content: 'Từ khi nào mà mình lại có『Tái sinh』vậy nhỉ?'
 			},
 			{
 				class: 'Shuuya',
@@ -876,7 +876,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Vậy chẳng lẽ... từ lúc cậu ngất... thật đó hả? Mình nghĩ sẽ nói chuyện này với Kowashi sau, giờ nói ra chắc sẽ lại thêm rắc tối cho mà xem. Mình phải kết thúc cuộc điều tra này ngay mới được.'
+				content: 'Vậy chẳng lẽ... từ lúc cậu ngất... thật đó hả? Tôi nghĩ sẽ nói chuyện này với Kowashi sau, giờ nói ra chắc sẽ lại thêm rắc tối cho mà xem. Tôi phải kết thúc cuộc điều tra này ngay mới được.'
 			},
 			{
 				class: 'Shuuya',
@@ -911,17 +911,17 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Đây là số『Crystal』,『Heal Herb』và bốn thẻ định danh của bọn em.'
+				content: 'Đây là số『Ma thạch』,『Thảo dược Hồi phục』và bốn『Thẻ Mạo hiểm giả』của bọn em.'
 			},
 			{
 				class: 'Maki',
 				name: [ 'Maki' ],
-				content: 'Hả! E... em có Kho chứa Không gian?'
+				content: 'Hả! E-em có『Kho chứa Không gian』?'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'ơi? Xác nhận...'
+				content: 'Chị ơi? Xác nhận...'
 			},
 			{
 				class: 'Maki',
@@ -946,12 +946,12 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Katsumi' ],
-				content: 'Cháu nên cẩn thận khi dùng Kho chứa Không gian trước người khác, có thể người xấu sẽ nhắm tới đó.'
+				content: 'Cháu nên cẩn thận khi dùng『Kho chứa Không gian』trước người khác, có thể người xấu sẽ nhắm tới đó.'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Cháu biết và cháu tin mọi người ở đây sẽ không nói gì ra ngoài đâu nhỉ?'
+				content: 'Cháu biết và cháu tin mọi người ở đây sẽ không nói gì ra ngoài đâu, nhỉ?'
 			},
 			{
 				class: 'Itsuki',
@@ -966,22 +966,22 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Không ngờ anh không đáng tin như vậy, anh buồn quá. À mà cho anh xác của Silver Wolf nha, được không?'
+				content: 'Không ngờ anh không đáng tin như vậy, anh buồn quá. À mà cho anh xác của Ngân Lang nha, được không?'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'À, mời anh. Dù sao thì anh cũng là người đã cứu tụi em và cũng là người hạ nó... Và dùng nhiều lọ thuốc trông rất đắt nữa làm em thấy hơi áy náy...'
+				content: 'À, mời anh. Dù sao thì anh cũng là người họ nó để cứu tụi em... Và dùng nhiều lọ thuốc trông rất đắt nữa, làm em thấy hơi áy náy...'
 			},
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'đã bảo rồi, anh còn nhiều lắm mà dùng chả hết. Đây, em xem này.'
+				content: 'Anh đã bảo rồi, anh còn nhiều lắm mà dùng chả hết. Đây, em xem này.'
 			},
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'A... anh cũng có Kho chứa Không gian?'
+				content: 'A-anh cũng có『Kho chứa Không gian』?'
 			},
 			{
 				class: 'Itsuki',
@@ -991,22 +991,22 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sao mình có cảm giác anh Itsuki cố tình để lộ ra thế nhỉ? Bọn tôi đang nói chuyện với trưởng Bang hội và anh Itsuki thì chị Maki từ bên ngoài bước vào với một khay đựng xu đồng, xu vàng và thẻ định danh... Khoan! Xu vàng?'
+				content: 'Sao tôi có cảm giác anh Itsuki cố tình để lộ ra thế nhỉ? Bọn tôi đang nói chuyện với trưởng Bang hội và anh Itsuki thì chị Maki từ bên ngoài bước vào với một khay đựng xu đồng, xu vàng và thẻ định danh... Khoan! Xu vàng?'
 			},
 			{
 				class: 'Maki',
 				name: [ 'Maki' ],
-				content: 'đã xác nhận xong và xin chúc mừng các em đã hoàn thành nhiệm vụ đầu tiên nha. Đây là số tiền thu mua vật phẩm mà em đưa.'
+				content: 'Chị đã xác nhận xong và xin chúc mừng các em đã hoàn thành nhiệm vụ đầu tiên nhé. Đây là số tiền thu mua vật phẩm mà em đưa.'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Em cảm ơn... nhưng em cảm thấy chỗ xu hơi sai... Nhất là 1 xu vàng này.'
+				content: 'Em cảm ơn... nhưng em cảm thấy chỗ xu hơi sai... Nhất là một xu vàng này.'
 			},
 			{
 				class: 'Maki',
 				name: [ 'Maki' ],
-				content: 'Phải rồi, chỗ『Heal Herb』của em đang trong điều kiện rất tốt nên là được tăng thêm xu đồng. Còn 1 xu vàng này thưởng thêm từ trưởng Bang hội vì cứu người dân thị trấn.'
+				content: 'Phải rồi, chỗ『Thảo dược Hồi phục』của em đang trong điều kiện rất tốt nên là được tăng thêm xu đồng. Còn xu vàng này thưởng thêm từ trưởng Bang hội vì cứu người dân thị trấn.'
 			},
 			{
 				class: 'Katsumi',
@@ -1046,17 +1046,17 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Hừm... Theo mình nghĩ... mấy em ấy đáng để mình ở lại Bang hội một thời gian và theo dõi đó.'
+				content: 'Hừm... Theo tôi nghĩ... mấy em ấy đáng để tôi ở lại Bang hội một thời gian và theo dõi đó.'
 			},
 			{
 				class: 'Katsumi',
 				name: [ 'Katsumi' ],
-				content: 'Cậu nghiêm túc được không? Tôi đang nói đến vụ Silver Wolf và mắt đỏ.'
+				content: 'Cậu nghiêm túc được không? Tôi đang nói đến vụ Ngân Lang và mắt đỏ.'
 			},
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Mình đùa tí thôi mà. Làm gì mà căng thế chứ, cậu sẽ lại già hơn bây giờ.'
+				content: 'Tôi đùa tí thôi mà. Làm gì mà căng thế chứ, cậu sẽ lại già hơn bây giờ.'
 			},
 			{
 				class: 'Katsumi',
@@ -1066,7 +1066,7 @@ const volume = [
 			{
 				class: 'Maki',
 				name: [ 'Maki' ],
-				content: 'A hèm. Cho em xin phép được báo cáo kết luận lí do Silver Wolf chỉ có một mình. Theo như câu truyện của tụi nhỏ và kết hợp với điều tra của Bang hội thì chính con Silver Wolf mắt đỏ đã sát hại cả đàn của nó.'
+				content: 'A hèm. Cho em xin phép được báo cáo kết luận lí do Ngân Lang chỉ có một mình. Theo như câu truyện của tụi nhỏ và kết hợp với điều tra của Bang hội thì chính con Ngân Lang mắt đỏ đã sát hại cả đàn của nó.'
 			},
 			{
 				class: 'Itsuki',
@@ -1081,7 +1081,7 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Ừ, ở một số nơi mình đi qua cũng có bắt gặp ma thú mắt đỏ ở một cá thể hoặc cả đàn chứ chưa thấy cá thể trong đàn tàn sát đồng loại. Mình cảm thấy dường như có thứ gì đó đang tác động tới bọn nó.'
+				content: 'Ừ, ở một số nơi tôi đi qua cũng có bắt gặp ma thú mắt đỏ ở một cá thể hoặc cả đàn, chưa từng thấy trường hợp cá thể trong đàn tàn sát đồng loại. Tôi cảm thấy dường như có thứ gì đó đang tác động tới bọn nó.'
 			},
 			{
 				class: 'Katsumi',
@@ -1101,7 +1101,7 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Giống như vừa nãy nhỉ?'
+				content: 'Giống như vừa nãy à?'
 			},
 			{
 				class: 'Katsumi',
@@ -1111,12 +1111,12 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'Cậu nói phải. Mình sẽ giải quyết tụi mắt đỏ nhanh thôi, một đấm là được.'
+				content: 'Cậu nói phải. Tôi sẽ giải quyết tụi mắt đỏ nhanh thôi, một đấm là được.'
 			},
 			{
 				class: 'Katsumi',
 				name: [ 'Katsumi' ],
-				content: 'Dù sao thì... cậu có biết cô bé Hyouka là một trong nạn nhân của vụ mắt đỏ 2 năm trước không? Cô bé đó đã mất hết tất cả.'
+				content: 'Dù sao thì... cậu có biết cô bé Hyouka là một trong nạn nhân của vụ mắt đỏ hai năm về trước không? Cô bé đó đã mất hết tất cả.'
 			},
 			{
 				class: 'Itsuki',
@@ -1126,17 +1126,17 @@ const volume = [
 			{
 				class: 'Katsumi',
 				name: [ 'Katsumi' ],
-				content: 'Mà hình như tôi quên nói gì đó với nhóc Shuuya thì phải...'
+				content: 'Mà... hình như tôi quên nói gì đó với nhóc Shuuya thì phải...'
 			},
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'À cái đó... chắc sẽ ổn thôi. Tiếc là mình không xem được phản ứng của em ý sẽ thế nào.'
+				content: 'À cái đó... chắc sẽ ổn thôi. Tiếc là tôi không xem được phản ứng của em ý sẽ thế nào.'
 			},
 			{
 				class: 'think',
 				name: [ '???' ],
-				content: 'Chú diều hâu đậu ở trên mái nhà của Shuuya nhìn thấy cậu và cùng bạn đã về đến nhà cậu. Dường như Shuuya đã mời họ qua dùng bữa tối.'
+				content: 'Chú diều hâu đậu ở trên mái nhà của Shuuya nhìn thấy Tổ đội đã về đến nhà cậu. Dường như Shuuya đã mời họ qua dùng bữa tối.'
 			},
 			{
 				class: 'Shuuya',
@@ -1151,7 +1151,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Thôi rồi thôi rồi! Sao cha lại biết thế này! Mình cần phải né vụ này mới được!'
+				content: 'Thôi rồi thôi rồi! Sao cha lại biết thế này! Tôi cần phải né vụ này mới được!'
 			},
 			{
 				class: 'Shuuya',
@@ -1176,7 +1176,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Vừa dứt lời thì Kowashi cõng Asahi chạy vút đi. Đúng thật là... Không sao mình vẫn còn Hyouka, xin lỗi vì đã lôi cậu vào vụ này.'
+				content: 'Vừa dứt lời thì Kowashi cõng Asahi chạy vút đi. Đúng thật là... Không sao, tôi vẫn còn Hyouka, xin lỗi vì đã lôi cậu vào vụ này.'
 			},
 			{
 				class: 'Shuuya',
@@ -1217,12 +1217,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Thanh kiếm đã vỡ, chỉ còn con dao trên tay... Mình sẽ kết liễu nó... Mình... có thể...? Đó là những suy nghĩ trước khi tôi từ bỏ bởi nanh vuốt đã sát trước mắt. Vậy mà từ đâu, chàng trai mặc áo choàng dài xanh lá xuất hiện trước mặt tôi. Nắm đấm tay phải đầy máu vẫn còn đang dơ ra trước mắt. Dường như anh ta đã hạ Silver Wolf chỉ với một đấm?'
+				content: 'Thanh kiếm đã vỡ, chỉ còn con dao trên tay... Tôi sẽ kết liễu nó... Tôi... có thể...? Đó là những suy nghĩ trước khi tôi từ bỏ bởi nanh vuốt đã sát trước mắt. Vậy mà từ đâu, chàng trai mặc áo choàng dài xanh lá xuất hiện trước mặt tôi. Nắm đấm tay phải đầy máu vẫn còn đang dơ ra trước mắt. Dường như, anh ta đã hạ Ngân Lang chỉ với một đấm?'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'rốt cuộc là ai... vậy...'
+				content: 'Rốt cuộc là ai... vậy...'
 			},
 			{
 				class: 'think',
@@ -1231,18 +1231,18 @@ const volume = [
 			},
 			{
 				class: 'unknown',
-				name: [ '???' ],
+				name: [ 'Chàng trai' ],
 				content: 'Em nghỉ ngơi đi, việc còn lại hãy để mọi người lo nốt nha.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Có nên tin vào người này không? Anh ta nói gì đó về “mọi người” nhưng xung quanh đây chỉ có mỗi anh ấy. Dù người này đã cứu mình trong gang tấc nhưng nó lại khiến mình không ngừng băn khoăn... Mình cần phải... tỉnh... táo... Tôi không còn đủ sức lực để mà suy nghĩ gì nữa và đã ngất từ lúc nào không hay.'
+				content: 'Có nên tin vào người này không? Anh ta nói gì đó về “mọi người” nhưng xung quanh đây chỉ có mỗi anh ấy. Dù người này đã cứu tôi trong gang tấc nhưng nó lại khiến tôi không ngừng băn khoăn... Tôi cần phải... tỉnh... táo... Tôi không còn đủ sức lực để mà suy nghĩ gì nữa và đã ngất từ lúc nào không hay.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Khu rừng tuyết...? Tại sao mình lại nằm ở đây vậy? Chẳng lẽ đã xảy ra chuyện gì sau khi mình ngất? Chú diều hâu kia sao cứ bay vòng quanh trên trời vậy? Tôi bối rối định ngồi dậy để xem tình hình xung quanh ra sao nhưng mà không cử động được. Rồi một lúc sau có giọng nói từ hướng nào đó phát ra. Tôi cố gắng cất tiếng nói nhưng không nên lời. Và bóng của một sinh vật nào đó đã xuất hiện trước mắt tôi. Nó chỉ nhìn chằm chằm vào mặt tôi và chạm vào tóc. Tôi không hiểu sinh vật đó định làm gì nhưng có vẻ là vô hại...? Tôi nheo mắt để cố nhìn rõ thì xung quanh bắt đầu mờ dần và cái bóng đó hiện ra là... Hyouka?'
+				content: 'Khu rừng tuyết...? Tại sao tôi lại nằm ở đây vậy? Chẳng lẽ đã xảy ra chuyện gì sau khi tôi ngất? Chú diều hâu kia sao cứ bay vòng quanh trên trời vậy? Tôi bối rối định ngồi dậy để xem tình hình xung quanh ra sao nhưng mà không cử động được. Rồi một lúc sau có giọng nói từ hướng nào đó phát ra. Tôi cố gắng cất tiếng nói nhưng không nên lời. Và bóng của một sinh vật nào đó đã xuất hiện trước mắt tôi. Nó chỉ nhìn chằm chằm vào mặt tôi và chạm vào tóc. Tôi không hiểu sinh vật đó định làm gì nhưng có vẻ là vô hại...? Tôi nheo mắt để cố nhìn rõ thì xung quanh bắt đầu mờ dần và cái bóng đó hiện ra là... Hyouka?'
 			},
 			{
 				class: 'Hyouka',
@@ -1267,12 +1267,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Phòng gặp riêng, nếu mình không nhầm thì phòng này thường dùng cho các cuộc trao đổi quan trọng. Ở chính giữa phòng thì có một cái bàn vuông, xung quanh bàn là ghế đệm dài đủ cho ba người ngồi và bên còn lại là ghế đệm đơn dường như là dành cho nhân vật quan trọng. '
+				content: 'Phòng gặp riêng, nếu tôi không nhầm thì phòng này thường dùng cho các cuộc trao đổi quan trọng. Ở chính giữa phòng thì có một cái bàn vuông, xung quanh bàn là ghế đệm dài đủ cho ba người ngồi và bên còn lại là ghế đệm đơn dường như là dành cho nhân vật quan trọng.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi nằm trên ghế nhìn liếc qua căn phòng trong khi vẫn còn đang gối đùi Hyouka. Asahi thì bám lấy từ phía sau Kowashi, cậu đang có vẻ mặt bất lực và họ đang ngồi đối diện tôi... Ngày hôm nay không thể kì lạ hơn được nữa... Mà tại sao mình lại gối trên đùi của Hyouka vậy?'
+				content: 'Tôi nằm trên ghế nhìn liếc qua căn phòng trong khi vẫn còn đang gối đùi Hyouka. Asahi thì bám lấy phía sau Kowashi, cậu ấy đang mang vẻ mặt bất lực và họ đang ngồi đối diện tôi... Ngày hôm nay không thể kì lạ hơn được nữa... Mà tại sao tôi lại đang gối trên đùi của Hyouka vậy?'
 			},
 			{
 				class: 'Shuuya',
@@ -1302,7 +1302,7 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'À... bỏ qua chi tiết đấy đi, chắc do mình tưởng tượng. Sau đó mình tỉnh dậy trên ghế đệm trong phòng này và vừa nhổm người lên thì Asahi đã lao thẳng vào mình. Nhỏ cứ nói gì đó về việc mình làm khiên rồi tí thì không còn bao giờ tỉnh lại nữa. Rồi Asahi quàng lấy cổ mình và nói đây là hình phạt để mình không bỏ nhỏ. Và từ lúc đấy Asahi không nói gì thêm.'
+				content: 'À... bỏ qua chi tiết đấy đi, chắc do mình tưởng tượng. Sau đó mình tỉnh dậy trên ghế đệm trong phòng này, vừa nhổm người lên thì Asahi đã lao thẳng vào mình. Nhỏ cứ nói gì đó về việc mình làm khiên rồi tí thì không còn bao giờ tỉnh lại nữa. Rồi Asahi quàng lấy cổ mình và nói đây là hình phạt để mình không bỏ nhỏ. Và từ lúc đấy Asahi không nói gì thêm.'
 			},
 			{
 				class: 'think',
@@ -1336,7 +1336,7 @@ const volume = [
 			},
 			{
 				class: 'unknown',
-				name: [ '???' ],
+				name: [ 'Chàng trai' ],
 				content: 'Em trai mà nghe lời trước đó thì có phải không bị đau rồi không?'
 			},
 			{
@@ -1357,7 +1357,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi ngồi lại lên ghế, nhìn kĩ anh Itsuki thì trông anh rất trẻ tầm khoảng 20 tuổi. Anh có mái tóc màu xanh lá pha chút màu nâu cùng với đôi mắt đen tuyền. Trang phục thì dường như anh lấy tông xanh lá làm chủ đạo kết hợp với màu nâu, đen với trắng. Anh còn đang mặc thêm áo choàng màu lục đậm dài đến cổ chân có mũ chùm đầu. Có lẽ thứ làm tôi tò mò nhất chính là kính chắn gió anh đang đeo để ở trên đầu, không biết tại sao anh đeo nó. Tôi cứ nhìn chằm chằm vào anh Itsuki cho đến khi tôi nhận ra hành động này có hơi thô lỗ nhưng anh chỉ nở một nụ cười đáp lại. Đây đúng là người đã cứu tôi lúc đó, cái nụ cười này của người trước mặt tôi không thể nào nhầm lẫn được.'
+				content: 'Tôi ngồi lại lên ghế, nhìn kĩ anh Itsuki thì trông anh rất trẻ tầm khoảng hai mươi tuổi. Anh có mái tóc màu xanh lá pha chút màu nâu cùng với đôi mắt đen tuyền. Trang phục thì dường như anh lấy tông xanh lá làm chủ đạo kết hợp với màu nâu, đen với trắng. Anh còn đang mặc thêm áo choàng màu lục đậm dài đến cổ chân có mũ trùm đầu. Có lẽ thứ làm tôi tò mò nhất chính là kính chắn gió anh đang đeo để ở trên đầu, không biết tại sao anh đeo nó. Tôi cứ nhìn chằm chằm vào anh Itsuki cho đến khi tôi nhận ra hành động này có hơi thô lỗ nhưng anh chỉ nở một nụ cười đáp lại. Đây đúng là người đã cứu tôi lúc đó, cái nụ cười này của người trước mặt tôi không thể nào nhầm lẫn được.'
 			},
 			{
 				class: 'Shuuya',
@@ -1372,7 +1372,7 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'tên Itsuki, hân hạnh được làm quen với em. Anh nghĩ người các em nên cảm ơn là cậu em trai đã đến báo với Bang hội á.'
+				content: 'Anh tên Itsuki, hân hạnh được làm quen với em. Anh nghĩ người các em nên cảm ơn là cậu em trai đã đến báo với Bang hội á.'
 			},
 			{
 				class: 'Shuuya',
@@ -1382,7 +1382,7 @@ const volume = [
 			{
 				class: 'Itsuki',
 				name: [ 'Itsuki' ],
-				content: 'chưa rõ sự tình lắm nhưng tí nữa người bên Bang hội sẽ qua hỏi lấy thông tin đó. Tiện thể thì cảm ơn đã chiêu đãi anh nha.'
+				content: 'Anh chưa rõ sự tình lắm nhưng tí nữa người bên Bang hội sẽ qua hỏi lấy thông tin đó. Tiện thể thì cảm ơn đã chiêu đãi anh nha.'
 			},
 			{
 				class: 'Shuuya',
@@ -1407,7 +1407,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Có vẻ anh Itsuki cũng có sở thích giống mình, thi thoảng mình cũng hay trêu như vậy với “bộ đôi rắc rối”. Nhưng bị trêu ngược lại thì có phần ngại thật. Hành động của Hyouka hơi bất cẩn... không, mình cũng có phần hơi tự nhiên khi cứ thế mà trôi theo. Tôi quay ra liếc nhìn Hyouka thì mặt nhỏ vẫn “lạnh” như bình thường, tất nhiên là ngoại trừ đôi tai dài đỏ chót nổi bật trên nền tóc trắng của nhỏ.'
+				content: 'Có vẻ anh Itsuki cũng có sở thích giống tôi, thi thoảng tôi cũng hay trêu như vậy với “bộ đôi rắc rối”. Nhưng bị trêu ngược lại thì có phần ngại thật. Hành động của Hyouka hơi bất cẩn... không, tôi cũng có phần hơi tự nhiên khi cứ thế mà trôi theo. Tôi quay ra liếc nhìn Hyouka thì mặt nhỏ vẫn “lạnh” như bình thường, tất nhiên là ngoại trừ đôi tai lá trúc đỏ chót nổi bật trên nền tóc trắng của nhỏ.'
 			},
 			{
 				class: 'Itsuki',
@@ -1427,12 +1427,12 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'được lắm...'
+				content: 'Anh được lắm...'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Từ lúc nào mà anh Itsuki đã đứng ở phía sau ghế tôi đang ngồi. Tệ thật, không ngờ anh Itsuki lại có thể khiến mình mất cảnh giác dễ dàng như vậy được. Anh giỏi đấy nhưng sẽ không có lần sau nữa đâu. Mà nhìn lại thì Hyouka dễ thương thật... KHOAN GIỜ KHÔNG PHẢI LÚC NGHĨ VỀ NÓ!'
+				content: 'Từ lúc nào mà anh Itsuki đã đứng ở phía sau ghế tôi đang ngồi. Tệ thật, không ngờ anh Itsuki lại có thể khiến tôi mất cảnh giác dễ dàng như vậy được. Anh giỏi đấy nhưng sẽ không có lần sau nữa đâu. Mà nhìn lại thì Hyouka dễ thương thật... KHOAN GIỜ KHÔNG PHẢI LÚC NGHĨ VỀ NÓ!'
 			},
 			{
 				class: 'unknown',
@@ -1447,7 +1447,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Một người đàn ông trung niên cao lớn tầm ngoài 40 bước vào căn phòng. Vóc dáng của người đó trông thật vạm vỡ cứ như chiến binh xuất thân từ chiến trường. Mái tóc nâu cạo hai bên mai tạo cảm giác trẻ trung còn đôi mắt cùng màu lại tạo ánh nhìn có chút đáng sợ. Trang phục thì... đồng phục của Bang hội? Vậy ra người này là nhân viên của Bang hội. Theo như anh Itsuki gọi thì tên là Katsumi nhỉ? Mà rốt cuộc anh Itsuki và người này có mối quan hệ thế nào? Hay có mối quan hệ mật thiết gì đó với Bang hội chăng? Cảm giác lúc nói chuyện cứ như là bạn bè của nhau thay vì kiểu xã giao trong công việc, anh Itsuki bí ẩn thật.'
+				content: 'Một người đàn ông trung niên cao lớn tầm ngoài bốn mươi bước vào căn phòng. Vóc dáng của người đó trông thật vạm vỡ cứ như chiến binh xuất thân từ chiến trường. Mái tóc nâu cạo hai bên mai tạo cảm giác trẻ trung, còn đôi mắt cùng màu lại tạo ánh nhìn có chút đáng sợ. Trang phục thì... đồng phục của Bang hội? Vậy ra người này là nhân viên của Bang hội. Theo như anh Itsuki gọi thì tên là Katsumi nhỉ? Mà rốt cuộc anh Itsuki và người này có mối quan hệ thế nào? Hay có mối quan hệ mật thiết gì đó với Bang hội chăng? Cảm giác lúc nói chuyện cứ như là bạn bè của nhau thay vì kiểu xã giao trong công việc, anh Itsuki bí ẩn thật.'
 			},
 			{
 				class: 'think',
@@ -1477,7 +1477,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Không thể tin được bầu không khí trước đó đang rất bí bức vậy mà anh Itsuki nói vài câu mà cả phòng thoải mái hẳn. Mình cứ nghĩ anh Itsuki chỉ là người thích trêu trọc chứ ai ngờ anh còn đọc được cả tâm trạng nữa. Thậm chí còn dẫn dắt lời nói để bọn tôi hiểu được thêm về người đàn ông ngồi ở kia.'
+				content: 'Không thể tin được bầu không khí trước đó đang rất bí bức vậy mà anh Itsuki nói vài câu mà cả phòng thoải mái hẳn. Tôi cứ nghĩ anh Itsuki chỉ là người thích trêu trọc chứ ai ngờ anh còn đọc được cả tâm trạng nữa. Thậm chí còn dẫn dắt lời nói để bọn tôi hiểu được thêm về người đàn ông ngồi ở kia.'
 			},
 			{
 				class: 'Maki',
@@ -1522,7 +1522,7 @@ const volume = [
 			{
 				class: 'Maki',
 				name: [ 'Maki' ],
-				content: 'Phải rồi. Các em vừa mới đăng ký làm mạo hiểm giả. Vì một lí do gì đó mà vào rừng. Sau đó cứu người rồi cả Tổ đội đấu với Silver Wolf với cấp độ chênh lệch. Cuối cùng thì tí cả nhóm không còn đường trở về.'
+				content: 'Phải rồi. Các em vừa mới đăng ký làm mạo hiểm giả. Vì một lí do gì đó mà vào rừng. Sau đó cứu người rồi cả Tổ đội đấu với Ngân Lang với cấp độ chênh lệch. Cuối cùng thì tí cả nhóm không còn đường trở về.'
 			},
 			{
 				class: 'think',
@@ -1543,22 +1543,22 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Silver Wolf, một con ma thú mắt đỏ lần đầu bọn tôi phải đối mặt. Ngay bây giờ tôi, Shuuya, Asahi đang vây quanh nó còn Hyouka đang ở sau tôi hỗ trợ từ khoảng cách xa. Cả hai bên đều chờ nhau xem ai sẽ khai mở cuộc chiến này trước. Và có vẻ Silver Wolf hành động trước, nó lao thẳng đến phía Shuuya chắc vì đòn tấn công trước đó của cậu.'
+				content: 'Ngân Lang, một con ma thú mắt đỏ lần đầu bọn tôi phải đối mặt. Ngay bây giờ tôi, Shuuya, Asahi đang vây quanh nó còn Hyouka đang ở sau tôi hỗ trợ từ khoảng cách xa. Cả hai bên đều chờ nhau xem ai sẽ khai mở cuộc chiến này trước. Và có vẻ Ngân Lang hành động trước, nó lao thẳng đến phía Shuuya chắc vì đòn tấn công trước đó của cậu.'
 			},
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Shuuya vẫn đứng im? Cậu ta có kế hoạch gì à? Con ma thú thì ngày càng tới gần. Silver Wolf giơ vuốt phải của nó lên và trước khi tôi định dùng『Cover』thì Shuuya đã xoay người về bên phải và nhảy giật lùi về hướng tôi ngay thời điểm nó áp sát. Silver Wolf đã vồ vào tường băng mà Hyouka đã dựng trước đó. Thì ra cậu muốn làm chậm đi chuyển động của nó một chút. Cứ ngỡ là thành công nào ngờ chân phải của Silver Wolf bám vào tường đưa cả ba chân còn lại lên rồi lấy đà phóng thẳng tới Shuuya. '
+				content: 'Shuuya vẫn đứng im? Cậu ta có kế hoạch gì à? Con ma thú thì ngày càng tới gần. Ngân Lang giơ vuốt phải của nó lên và trước khi tôi định dùng『Che chở』thì Shuuya đã xoay người về bên phải và nhảy giật lùi về hướng tôi ngay thời điểm nó áp sát. Ngân Lang đã vồ vào tường băng mà Hyouka đã dựng trước đó. Thì ra cậu muốn làm chậm đi chuyển động của nó một chút. Cứ ngỡ là thành công nào ngờ chân phải của Ngân Lang bám vào tường đưa cả ba chân còn lại lên rồi lấy đà phóng thẳng tới Shuuya.'
 			},
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Để mình lo cho.『Cover』.'
+				content: 'Để mình lo cho.『Che chở』.'
 			},
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Tôi mau chóng đỡ đòn lao tới cắn của ma thú cho Shuuya. Tuy Silver Wolf có bất ngờ nhưng nhờ phản xạ nhanh nó vẫn kịp xử lí tình huống. Nó đổi tư thế giơ hai chân trước đáp vào tấm khiên của tôi rồi hai chân sau đạp lên khiên lấy đà bật ngửa ra sau. Sau khi đáp đất, Silver Wolf lập tức tấn công tôi dồn dập. Shuuya từ đằng sau lấy lại được thăng bằng ngay lập tức lao thẳng lên bên trái tôi, tay phải cầm kiếm định đâm vào đầu của con ma thú. Chẳng cần phải nói thêm, Silver Wolf liền bật ngược ra sau né được cú đâm đó.'
+				content: 'Tôi mau chóng đỡ đòn lao tới cắn của ma thú cho Shuuya. Tuy Ngân Lang có bất ngờ nhưng nhờ phản xạ nhanh nó vẫn kịp xử lí tình huống. Nó đổi tư thế giơ hai chân trước đáp vào tấm khiên của tôi rồi hai chân sau đạp lên khiên lấy đà bật ngửa ra sau. Sau khi đáp đất, Ngân Lang lập tức tấn công tôi dồn dập. Shuuya từ đằng sau lấy lại được thăng bằng ngay lập tức lao thẳng lên bên trái tôi, tay phải cầm kiếm định đâm vào đầu của con ma thú. Chẳng cần phải nói thêm, Ngân Lang liền bật ngược ra sau né được cú đâm đó.'
 			},
 			{
 				class: 'Kowashi',
@@ -1573,7 +1573,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Tôi quay ra nhìn thì thấy Shuuya đang cười nhếch mép, cậu đang nói cái... Phập! Mũi tên băng của Hyouka bay thẳng vào bả vai phải của Silver Wolf và trong giây lát nó đã bị lúng túng. Silver Wolf né qua bên trái để quan sát phát bắn từ đâu. Asahi từ bên trái của nó liền áp sát được, hai tay nhỏ cầm chắc thanh trọng kiếm về bên trái và vung thẳng vào phần ngực con ma thú, đồng thời cũng kích hoạt kỹ năng『Heavy Trảm』. Cú vung của Asahi lực đến nỗi Silver Wolf bị bắn đi xuyên qua mấy hàng cây. Chú diều hâu và các loài biết bay bay đầy trên bầu trời do từng hàng cây bị đổ dập. Sau phát chém đó Asahi chạy lại chỗ chúng tôi với khuôn mặt hớn hở.'
+				content: 'Tôi quay ra nhìn thì thấy Shuuya đang cười nhếch mép, cậu đang nói cái... Phập! Mũi tên băng của Hyouka bay thẳng vào bả vai phải của Ngân Lang và trong giây lát nó đã bị lúng túng. Ngân Lang né qua bên trái để quan sát phát bắn từ đâu. Asahi từ bên trái của nó liền áp sát được, hai tay nhỏ cầm chắc thanh trọng kiếm về bên trái và vung thẳng vào phần ngực con ma thú, đồng thời cũng kích hoạt kỹ năng『Cường Trảm』. Cú vung của Asahi lực đến nỗi Ngân Lang bị bắn đi xuyên qua mấy hàng cây. Chú diều hâu và các loài biết bay bay đầy trên bầu trời do từng hàng cây bị đổ dập. Sau phát chém đó Asahi chạy lại chỗ chúng tôi với khuôn mặt hớn hở.'
 			},
 			{
 				class: 'Asahi',
@@ -1633,12 +1633,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Silver Wolf bước đi chầm chậm ra khỏi phần tối của khu rừng. Nó vừa đi vừa gầm gừ đe dọa, lông thì xù hết lên còn ánh mắt đầy sát khí nhìn thẳng về phía bọn tôi như muốn ăn tươi nuốt sống hết cả đám. Cả ba đứa bọn tôi đều sốc và có lẽ người sốc nhất là Asahi. Nhỏ lúc này đang vừa bất ngờ vừa lo lắng vừa buồn vì đòn kết liễu không thành công. Đôi tai dạt với đuôi cong xuống đã nói hết lên cảm xúc lúc này của Asahi.'
+				content: 'Ngân Lang bước đi chầm chậm ra khỏi phần tối của khu rừng. Nó vừa đi vừa gầm gừ đe dọa, lông thì xù hết lên còn ánh mắt đầy sát khí nhìn thẳng về phía bọn tôi như muốn ăn tươi nuốt sống hết cả đám. Cả ba đứa bọn tôi đều sốc và có lẽ người sốc nhất là Asahi. Nhỏ lúc này đang vừa bất ngờ vừa lo lắng vừa buồn vì đòn kết liễu không thành công. Đôi tai dạt với đuôi cong xuống đã nói hết lên cảm xúc lúc này của Asahi.'
 			},
 			{
 				class: 'Asahi',
 				name: [ 'Asahi' ],
-				content: 'Không thể nào... nó vẫn cử động được...'
+				content: 'Không thể nào... nó vẫn cử động được nya...'
 			},
 			{
 				class: 'Kowashi',
@@ -1653,22 +1653,22 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Silver Wolf hú ầm lên một phát khiến bọn tôi đều phải tập trung hết vào nơi nó đứng. Và khi tiếng hú dứt, không biết từ lúc nào con ma thú đã ở trên không. Silver Wolf cuộn mình về trước xoay một vòng, móng vuốt chân trước của nó bỗng sáng lên và từ đó phóng ra sáu đường lưỡi liềm. Tốc độ của chúng nhanh hơn lần trước và với khoảng cách gần như này thì Hyouka cũng không ứng cứu kịp. Tệ rồi đây...'
+				content: 'Ngân Lang hú ầm lên một phát khiến bọn tôi đều phải tập trung hết vào nơi nó đứng. Và khi tiếng hú dứt, không biết từ lúc nào con ma thú đã ở trên không. Ngân Lang cuộn mình về trước xoay một vòng, móng vuốt chân trước của nó bỗng sáng lên và từ đó phóng ra sáu đường lưỡi liềm. Tốc độ của chúng nhanh hơn lần trước và với khoảng cách gần như này thì Hyouka cũng không ứng cứu kịp. Tệ rồi đây...'
 			},
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Shuuya từ đằng sau tiến lên trước, cậu đưa đường kiếm từ trái qua phải hướng lên trên phóng ra một lưỡi chém hủy đường lưỡi liềm của Silver Wolf. Có vẻ đó là kỹ năng『Wind Blade』mà Shuuya đã bảo hồi sáng. Không biết từ lúc nào con ma thú đã ở dưới mặt đất và lao thẳng tấn công Shuuya. Shuuya lúc này đang bị đứng chôn chân, chỉ có thể đưa thanh kiếm lên đỡ những đòn vuốt cào liên tiếp từ nó. Mũi tên của Hyouka bay tới Silver Wolf thì nó liền dừng tấn công và né qua trái. Asahi nhân cơ hội lao lên nhưng Silver Wolf đã nhảy lên đúng lúc nhỏ vung kiếm. Ma thú nhận thấy có sở hở, nó giơ vuốt lên định cào Asahi thì đòn phong của Shuuya đã làm cản trở rồi cậu cũng lao lên phản công.'
+				content: 'Shuuya từ đằng sau tiến lên trước, cậu đưa đường kiếm từ trái qua phải hướng lên trên phóng ra một lưỡi chém hủy đường lưỡi liềm của Ngân Lang. Có vẻ đó là kỹ năng『Phong Đao』mà Shuuya đã bảo hồi sáng. Không biết từ lúc nào con ma thú đã ở dưới mặt đất và lao thẳng tấn công Shuuya. Shuuya lúc này đang bị đứng chôn chân, chỉ có thể đưa thanh kiếm lên đỡ những đòn vuốt cào liên tiếp từ nó. Mũi tên của Hyouka bay tới Ngân Lang thì nó liền dừng tấn công và né qua trái. Asahi nhân cơ hội lao lên nhưng Ngân Lang đã nhảy lên đúng lúc nhỏ vung kiếm. Ma thú nhận thấy có sở hở, nó giơ vuốt lên định cào Asahi thì đòn phong của Shuuya đã làm cản trở rồi cậu cũng lao lên phản công.'
 			},
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Mọi người lúc này đều đã quá kiệt sức rồi, vậy mà Silver Wolf vẫn không có dấu hiệu bị đuối. Thậm chí sau khi lãnh một đòn của Asahi vậy mà... không có vết chém? Tại sao vậy? Vết bắn mũi tên của Hyouka vẫn còn mà?'
+				content: 'Mọi người lúc này đều đã quá kiệt sức rồi, vậy mà Ngân Lang vẫn không có dấu hiệu bị đuối. Thậm chí sau khi lãnh một đòn của Asahi vậy mà... không có vết chém? Tại sao vậy? Vết bắn mũi tên của Hyouka vẫn còn mà?'
 			},
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Shuuya lùi lại!『Cover』. Mình không hiểu sao đòn tấn công của Asahi và Hyouka lại khác biệt đến vậy.'
+				content: 'Shuuya lùi lại!『Che chở』. Mình không hiểu sao đòn tấn công của Asahi và Hyouka lại khác biệt đến vậy.'
 			},
 			{
 				class: 'Shuuya',
@@ -1678,7 +1678,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: '“Cái đó”? Hi vọng “cái đó” mà Shuuya nói giải quyết được con này. Sau khi tôi đỡ đòn của của Silver Wolf thì Asahi từ mạn phải tôi vung kiếm tấn công. Như thường lệ nó lại né được nhưng từ lúc nào Shuuya đã áp sát được và trong tay trái cầm con Slime bị đóng băng trước đó đập thẳng vào mặt con ma thú. Chất nhầy của Slime che đi tầm nhìn của Silver Wolf khiến nó mất phương hướng tạm thời. Dù đã mau chóng né nhưng cậu vẫn bị dính một cào từ nó vào cánh tay trái sau khi cố áp sát như vậy.'
+				content: '“Cái đó”? Hi vọng “cái đó” mà Shuuya nói giải quyết được con này. Sau khi tôi đỡ đòn của của Ngân Lang thì Asahi từ mạn phải tôi vung kiếm tấn công. Như thường lệ nó lại né được nhưng từ lúc nào Shuuya đã áp sát được và trong tay trái cầm con Slime bị đóng băng trước đó đập thẳng vào mặt con ma thú. Chất nhầy của Slime che đi tầm nhìn của Ngân Lang khiến nó mất phương hướng tạm thời. Dù đã mau chóng né nhưng cậu vẫn bị dính một cào từ nó vào cánh tay trái sau khi cố áp sát như vậy.'
 			},
 			{
 				class: 'Shuuya',
@@ -1688,22 +1688,22 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Không rõ kế hoạch này là như nào nhưng khi tôi nhìn về hướng Hyouka thì thấy nhỏ có vẻ đang dồn hết sức cho phát bắn cuối này. Hyouka từ đằng xa bắn một đường mũi tên cong lên trời. Khi mũi tên đã bay đủ cao, nó tách ra thành nhiều mũi tên rơi xuống Silver Wolf. Những mũi tên nào không trúng ma thú va chạm với mặt đất sẽ tan vỡ và tỏa ra hơi lạnh bao quanh nơi đó. Vậy là kết thúc rồi...'
+				content: 'Không rõ kế hoạch này là như nào nhưng khi tôi nhìn về hướng Hyouka thì thấy nhỏ có vẻ đang dồn hết sức cho phát bắn cuối này. Hyouka từ đằng xa bắn một đường mũi tên cong lên trời. Khi mũi tên đã bay đủ cao, nó tách ra thành nhiều mũi tên rơi xuống Ngân Lang. Những mũi tên nào không trúng ma thú va chạm với mặt đất sẽ tan vỡ và tỏa ra hơi lạnh bao quanh nơi đó. Vậy là kết thúc rồi...'
 			},
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Tôi thở dài hạ khiên xuống, ai nấy cũng đều đuối sức cả. Hyouka thì chắc không còn đủ ma lực để bắn cung nữa, nhỏ ngã quỵ rồi. Còn Shuuya chắc cũng đang cảm thấy khá đau sau khi bị như vậy. Kiếm cắm thẳng xuống đất và cậu dồn hết lực vào tay phải để tựa cố đứng thẳng. Và Asahi thậm chí còn ngồi hẳn xuống đất, dù sao thì nhỏ cũng là người đã tấn công liên tục trong suốt trận chiến. Rồi tôi quay ra nhìn lại màn sương lạnh giá bao trùm Silver Wolf, tuy không rõ con ma thú trong đó nhưng có ánh sáng tím le lói... không... đừng đùa chứ... Nó đang hướng đến Asahi... Tôi phải chạy... phải bảo vệ... điều quan trọng... chạy... chạy... CHẠY!'
+				content: 'Tôi thở dài hạ khiên xuống, ai nấy cũng đều đuối sức cả. Hyouka thì chắc không còn đủ ma lực để bắn cung nữa, nhỏ ngã quỵ rồi. Còn Shuuya chắc cũng đang cảm thấy khá đau sau khi bị như vậy. Kiếm cắm thẳng xuống đất và cậu dồn hết lực vào tay phải để tựa cố đứng thẳng. Và Asahi thậm chí còn ngồi hẳn xuống đất, dù sao thì nhỏ cũng là người đã tấn công liên tục trong suốt trận chiến. Rồi tôi quay ra nhìn lại màn sương lạnh giá bao trùm Ngân Lang, tuy không rõ con ma thú trong đó nhưng có ánh sáng tím le lói... không... đừng đùa chứ... Nó đang hướng đến Asahi... Tôi phải chạy... phải bảo vệ... điều quan trọng... chạy... chạy... CHẠY!'
 			},
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: '『Cover』. 『Cover』. 『Cover』. 『Cover』!'
+				content: '『Che chở』. 『Che chở』. 『Che chở』. 『Che chở』!'
 			},
 			{
 				class: 'think',
 				name: [ 'Asahi' ],
-				content: 'Mình mệt quá nya. Chúng ta thắng rồi nhỉ nya? Mình chả muốn đánh nữa đâu nya. Sao trời đột nhiên tối vậy nya? Máu? Sao lại có máu nhỏ... Tôi ngước nhìn lên thì thấy Kowashi đang đứng trước mặt...'
+				content: 'Tôi mệt quá nya. Chúng ta thắng rồi nhỉ nya? Tôi chả muốn đánh nữa đâu nya. Sao trời đột nhiên tối vậy nya? Máu? Sao lại có máu nhỏ... Tôi ngước nhìn lên thì thấy Kowashi đang đứng trước mặt...'
 			},
 			{
 				class: 'Asahi',
@@ -1723,7 +1723,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Asahi' ],
-				content: 'Tôi chưa kịp phản hồi lại thì Kowashi đã ngã về phía trước. Kowashi? Cậu chỉ mệt thôi đúng không? Nè... Tôi bò đến Kowashi, lật cậu ta lại. Trước ngực có một vết cắt ngang lớn... Tôi đưa tay lên ngực phải của Kowashi...'
+				content: 'Tôi chưa kịp phản hồi lại thì Kowashi đã ngã về phía trước. Kowashi? Cậu chỉ mệt thôi đúng không? Nè... Tôi bò đến Kowashi, lật cậu ta lại. Trước ngực có một vết cắt ngang lớn... Tôi đưa tay lên ngực phải của Kowashi... không cảm thấy gì...'
 			},
 			{
 				class: 'Asahi',
@@ -1733,12 +1733,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Chuyện gì vừa xảy ra vậy... Mình chỉ vừa ngước lên thôi mà... Sao Kowashi lại nằm vậy? Asahi đang nói gì với Kowashi à? Silver Wolf ra sao rồi... nó vẫn đứng...'
+				content: 'Chuyện gì vừa xảy ra vậy... Tôi chỉ vừa ngước lên thôi mà... Sao Kowashi lại nằm vậy? Asahi đang nói gì với Kowashi à? Ngân Lang ra sao rồi... nó vẫn đứng...'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'ASAHI! SILVER WOLF VẪN... Asahi?'
+				content: 'ASAHI! Ngân Lang VẪN... Asahi?'
 			},
 			{
 				class: 'think',
@@ -1748,12 +1748,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Silver Wolf trên mình găm đầy mũi tên từ trong màn sương băng lao thẳng đến Asahi. Và Asahi cũng không ngần ngại lao thẳng tới khô máu với nó. Cả hai bên cào xé nhau chẳng còn né tránh nữa, mặc kệ vết thương càng ngày càng nhiều.'
+				content: 'Ngân Lang, trên mình găm đầy mũi tên từ trong màn sương băng lao thẳng đến Asahi. Và Asahi cũng không ngần ngại lao thẳng tới khô máu với nó. Cả hai bên cào xé nhau chẳng còn né tránh nữa, mặc kệ vết thương càng ngày càng nhiều.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi rút cây kiếm, chết đứng bất lực nhìn vào toàn cảnh trước mặt. Chết tiệt... Chết tiệt! Chết tiệt! Tại vì mình... Nếu mình chọn rời khỏi rừng... chúng ta đã có thể ăn tối cùng nhau... Horned Rabbit của Kowashi trông ngon lắm...'
+				content: 'Tôi rút cây kiếm, chết đứng bất lực nhìn vào toàn cảnh trước mặt. Chết tiệt... Chết tiệt! Chết tiệt! Tại vì tôi... Nếu tôi chọn rời khỏi rừng... chúng ta đã có thể ăn tối cùng nhau... Thỏ Sừng của Kowashi trông ngon lắm...'
 			},
 			{
 				class: 'Shuuya',
@@ -1763,7 +1763,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Asahi thở hổn hển, sức lực của nhỏ có vẻ đã đến giới hạn. Silver Wolf bằng cách nào đó vẫn trên cơ Asahi và nhỏ đã gục ngã. Ngay khi Silver Wolf định kết liễu Asahi thì một bức tường băng được dựng lên từ hướng của Hyouka ngăn cách Asahi với ma thú.'
+				content: 'Asahi thở hổn hển, sức lực của nhỏ có vẻ đã đến giới hạn. Ngân Lang bằng cách nào đó vẫn trên cơ Asahi và nhỏ đã gục ngã. Ngay khi Ngân Lang định kết liễu Asahi thì một bức tường băng được dựng lên từ hướng của Hyouka ngăn cách Asahi với ma thú.'
 			},
 			{
 				class: 'Hyouka',
@@ -1773,7 +1773,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Vừa dứt lời thì Hyouka đã bất tỉnh. Mai gặp lại à... Tôi mỉm cười, cầm chắc cây kiếm trên tay phải lao đến Silver Wolf. Nó thấy tôi di chuyển nên cũng chuyển hướng qua tấn công tôi. Cả hai bên đều đã mệt mỏi nhưng vẫn cố chạy. Tôi giơ ngang thanh kiếm, dồn nén phong cũng như sức mạnh còn lại bao bọc lưỡi kiếm. Con ma thú tiến đến gần và há mõm ra định cắn tôi. Quyết định rồi, chém nó ra làm đôi.'
+				content: 'Vừa dứt lời thì Hyouka đã bất tỉnh. Mai gặp lại à... Tôi mỉm cười, cầm chắc cây kiếm trên tay phải lao đến Ngân Lang. Nó thấy tôi di chuyển nên cũng chuyển hướng qua tấn công tôi. Cả hai bên đều đã mệt mỏi nhưng vẫn cố chạy. Tôi giơ ngang thanh kiếm, dồn nén phong cũng như sức mạnh còn lại bao bọc lưỡi kiếm. Con ma thú tiến đến gần và há mõm ra định cắn tôi. Quyết định rồi, chém nó ra làm đôi.'
 			},
 			{
 				class: 'Shuuya',
@@ -1783,12 +1783,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Keng! Tôi chạy lướt qua Silver Wolf cùng với kiếm trên tay. Xong rồi... Kết thúc rồi... Thanh kiếm của tôi...'
+				content: 'Keng! Tôi chạy lướt qua Ngân Lang cùng với kiếm trên tay. Xong rồi... Kết thúc rồi... Thanh kiếm của tôi...'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Đã vỡ tan... Vứt “thanh kiếm” đi, tôi lôi con dao bếp ra, quay ra nhìn con ma thú, chờ đợi nó lao đến. Tôi đứng đợi... chờ đợi... Tôi nhắm mắt lại nó còn đang đứng yên và khi mở mắt ra vuốt của nó đã ở trước mặt tôi.'
+				content: 'Đã vỡ tan... Vứt “thanh kiếm” đi, tôi lôi con dao bếp ra, quay ra nhìn con ma thú, chờ đợi nó lao đến. Tôi đứng đợi... chờ đợi... Tôi nhắm mắt lại, nó còn đang đứng yên và khi mở mắt ra vuốt của nó đã ở trước mặt tôi.'
 			},
 			{
 				class: 'Shuuya',
@@ -1824,17 +1824,17 @@ const volume = [
 			{
 				class: 'think',
 				name: [ '???' ],
-				content: 'Khiên và dao găm, mình chỉ cần vậy là đủ nhưng... tại sao... Mình chỉ vào rừng để tìm chút nguyên liệu thôi mà. Giờ thì hiểu tại sao cha bảo nên ủy thác cho các mạo hiểm giả rồi. Cũng may “thứ đó” đang bận ăn mấy con ma vật khác, mình phải rời khỏi rừng ngay mới được.'
+				content: 'Khiên và dao găm, tôi chỉ cần vậy là đủ nhưng... tại sao... Tôi chỉ vào rừng để tìm chút nguyên liệu thôi mà. Giờ thì hiểu tại sao cha bảo nên ủy thác cho các mạo hiểm giả rồi. Cũng may “thứ đó” đang bận ăn mấy con ma vật khác, tôi phải rời khỏi rừng ngay mới được.'
 			},
 			{
 				class: 'think',
 				name: [ '???' ],
-				content: 'Cậu trai mặt nhợt nhạt đang nấp sau hàng cây chầm chậm di chuyển tránh xa “thứ đó”. Sau một hồi di chuyển, cậu đã khuất khỏi tầm quan sát của nó. Cậu nhẹ nhõm được phần nào khi đã ra xa con ma thú. Cạch! Cành cây mảnh nằm trên mặt đất đã bị gãy làm đôi do cậu dẫm phải. Một vật thể xám lao nhanh tới cậu với vận tốc không thể nào tránh được nữa. Và thứ duy nhất cậu có thể làm ngay lúc này là bám lấy tấm khiên mà cậu đeo sau lưng và cố sống sót...'
+				content: 'Cậu trai mặt nhợt nhạt đang nấp sau hàng cây chầm chậm di chuyển tránh xa “thứ đó”. Sau một hồi di chuyển, cậu đã khuất khỏi tầm quan sát của nó. Cậu nhẹ nhõm được phần nào khi đã ra xa con ma thú. Cạch! Cành cây mảnh nằm trên mặt đất đã bị gãy làm đôi do cậu giẫm phải. Một vật thể xám lao nhanh tới cậu với vận tốc không thể nào tránh được nữa. Và thứ duy nhất cậu có thể làm ngay lúc này là bám lấy tấm khiên đeo sau lưng và cố sống sót...'
 			},
 			{
 				class: 'Asahi',
 				name: [ 'Asahi' ],
-				content: 'Nếu mình không nhầm thì con Slime đó nhảy về hướng này nya. '
+				content: 'Nếu mình không nhầm thì con Slime đó nhảy về... hướng này nya.'
 			},
 			{
 				class: 'Kowashi',
@@ -1854,12 +1854,12 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'C... chuyện gì đã xảy ra thế này?'
+				content: 'C-chuyện gì đã xảy ra thế này?'
 			},
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Khung cảnh trước mặt tôi là một bãi cỏ đỏ thẫm, điểm trên đó là các xác chết không toàn thây nằm la liệt mỗi nơi vài mảnh. Tuy đây không phải là lần đầu tôi nhìn thấy máu hay xác chết nhưng... thế này thật là ngoài sức tưởng tượng. Tôi cúi xuống dưới chân thì thấy một bãi nhầy cùng dấu chân. Đây có lẽ là con Slime bọn mình đang đuổi đã bị một sinh vật không rõ dẫm bẹp. Chạm thử vào dấu chân mà con ma vật đó để lại, vẫn còn ấm tức là nó chỉ vừa mới rời đi. Tôi tự hỏi cuộc chiến nào đã diễn ra ở đây trước khi chúng tôi đến. Đó là một cuộc chiến sinh tồn hay đây là một cuộc tàn sát? Dù còn nhiều câu hỏi trong đầu nhưng ngay lúc này, tôi biết rằng sinh vật trong cuộc chiến đó vẫn còn đang sống và có thể đang ở rất gần. Tôi liền đứng dậy, hai tay bám vào hai bên vai của Asahi từ đằng trước và xoay nhỏ hướng nhìn thẳng vào mặt tôi.'
+				content: 'Khung cảnh trước mặt tôi là một bãi cỏ đỏ thẫm, điểm trên đó là các xác chết không toàn thây nằm la liệt mỗi nơi vài mảnh. Tuy đây không phải là lần đầu tôi nhìn thấy máu hay xác chết nhưng... thế này thật là ngoài sức tưởng tượng. Tôi cúi xuống dưới chân thì thấy một bãi nhầy cùng dấu vết để lại. Đây có lẽ là con Slime bọn tôi đang đuổi đã bị một sinh vật không rõ dẫm bẹp. Chạm thử vào dấu chân mà con ma vật đó để lại, vẫn còn ấm, tức là nó chỉ vừa mới rời đi. Tôi tự hỏi cuộc chiến nào đã diễn ra ở đây trước khi chúng tôi đến. Đó là một cuộc chiến sinh tồn hay đây là một cuộc tàn sát? Dù còn nhiều câu hỏi trong đầu nhưng ngay lúc này, tôi biết rằng sinh vật trong cuộc chiến đó vẫn còn đang sống và có thể đang ở rất gần. Tôi liền đứng dậy, hai tay bám vào hai bên vai của Asahi từ đằng trước và xoay nhỏ hướng nhìn thẳng vào mặt tôi.'
 			},
 			{
 				class: 'Kowashi',
@@ -1874,7 +1874,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Asahi có vẻ vẫn còn ám ảnh trước cảnh tượng quá sức vừa rồi. Mình cần phải nói gì đó an ủi nhỏ mới được, trông nhỏ tội nghiệp quá.'
+				content: 'Asahi có vẻ vẫn còn ám ảnh trước cảnh tượng quá sức vừa rồi. Tôi cần phải nói gì đó an ủi nhỏ mới được, trông nhỏ tội nghiệp quá.'
 			},
 			{
 				class: 'Kowashi',
@@ -1934,7 +1934,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Đôi tai của nhỏ lại thẳng đứng và đuôi thì đung đưa như bình thường rồi. Chắc là nhỏ hết sợ thật rồi, tốt quá.'
+				content: 'Đôi tai của nhỏ lại thẳng đứng và đuôi thì đung đưa như bình thường. Chắc là nhỏ hết sợ thật rồi, tốt quá.'
 			},
 			{
 				class: 'Shuuya',
@@ -1949,7 +1949,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Đôi tai của Asahi dường như đang nghe ngóng điều gì đó. Nhỏ quay người theo hướng đôi tai đang xác định âm thanh và chỉ tay đến. Sao mình thấy cảnh này quen quen...'
+				content: 'Đôi tai của Asahi dường như đang nghe ngóng điều gì đó. Nhỏ quay người theo hướng đôi tai đang xác định âm thanh và chỉ tay đến. Sao tôi thấy cảnh này quen quen...'
 			},
 			{
 				class: 'Asahi',
@@ -1969,7 +1969,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Shuuya đến lúc phải đưa ra quyết định rồi, rời đi hay là đến nơi mà Asahi chỉ. Mà bọn mình cũng đã biết câu trả lời rồi, là bạn từ bao năm nên cũng không còn lạ gì lựa chọn của cậu, trưởng nhóm. À không, gọi là trưởng Tổ đội thì mới đúng chứ.'
+				content: 'Shuuya đến lúc phải đưa ra quyết định rồi, rời đi hay là đến nơi mà Asahi chỉ. Mà bọn tôi cũng đã biết câu trả lời rồi, là bạn từ bao năm nên cũng không còn lạ gì lựa chọn của cậu, trưởng nhóm. À không, gọi là trưởng Tổ đội thì mới đúng chứ.'
 			},
 			{
 				class: 'Shuuya',
@@ -1979,7 +1979,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Shuuya thích khiến mọi người đi từ bất ngờ này đến bất ngờ khác thật sự. Nghe câu đầu cứ tưởng là ra khỏi rừng chứ. Mà đương nhiên không có một ai ý kiến thêm gì về quyết định cũng như đội hình cả. Thế rồi Tổ đội bắt đầu di chuyển vào sâu hơn trong rừng.'
+				content: 'Shuuya thích khiến mọi người đi từ bất ngờ này đến bất ngờ khác thật sự. Nghe câu đầu cứ ngỡ là ra khỏi rừng chứ. Mà đương nhiên không có một ai ý kiến thêm gì về quyết định cũng như đội hình cả. Thế rồi Tổ đội bắt đầu di chuyển vào sâu hơn trong rừng.'
 			},
 			{
 				class: 'think',
@@ -2029,7 +2029,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Chết tiệt! Khiên của cậu bạn kia vỡ rồi. Chỉ còn một chút nữa là đến chỗ cậu bạn kia, cố lên... một chút nữa... trong tầm rồi!『Cover』. Đây là kỹ năng đưa bản thân xuất hiện trước đòn tấn công vào mục tiêu được tôi lựa chọn để có thể đỡ đòn ngay lập tức.'
+				content: 'Chết tiệt! Khiên của cậu bạn kia vỡ rồi. Chỉ còn một chút nữa là đến chỗ cậu bạn kia, cố lên... một chút nữa... trong tầm rồi!『Che chở』. Đây là kỹ năng đưa bản thân xuất hiện trước đòn tấn công vào mục tiêu được tôi lựa chọn để có thể đỡ đòn ngay lập tức.'
 			},
 			{
 				class: 'think',
@@ -2037,14 +2037,14 @@ const volume = [
 				content: 'Mặc dù tôi đã xuất hiện kịp thời để đỡ đòn tấn công nhưng không ngờ cú cào của nó lại lực như vậy. Tôi cùng cậu bạn sau lưng bị nó đẩy lùi một khoảng. Sau đòn đó tôi hơi loạng choạng và chưa kịp định hình lại thì con ma thú đó đã ngay lập tức xông thẳng tới định cắn tôi. Cũng may Asahi đến kịp, hai tay nhỏ cầm chắc thanh trọng kiếm vung vào ma thú. Cảm thấy bị đe dọa, nó liền lộn ngược lại về phía sau và né thành công cú vung kiếm của nhỏ. Mặc kệ trúng hay trượt, hiện giờ Asahi đang liên tục tấn công con ma thú để câu thêm thời gian cho bọn tôi. Cả hai bọn họ người lúc tấn công người lúc né không ai nhường ai.'
 			},
 			{
-				class: 'villager',
+				class: 'unknown',
 				name: [ 'Cậu bạn' ],
-				content: 'Cứ tưởng Silver Wolf cho mình tiêu đời rồi chứ. Phải rồi, về bộ lông các cậu không...'
+				content: 'Cứ tưởng Ngân Lang cho mình tiêu đời rồi chứ. Phải rồi, về bộ lông các cậu không...'
 			},
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Cậu bạn này nói nhanh quá, chắc vẫn còn hơi sốc vì suýt nữa thì chầu trời. Mà theo như lời của cậu bạn thì con ma thú kia là Silver Wolf.'
+				content: 'Cậu bạn này nói nhanh quá, chắc vẫn còn hơi sốc vì suýt nữa thì bị giết. Mà theo như lời của cậu bạn thì con ma thú kia là Ngân Lang.'
 			},
 			{
 				class: 'Shuuya',
@@ -2052,34 +2052,34 @@ const volume = [
 				content: 'Bình tĩnh nào. Dừng lại một chút để thở đi đã.'
 			},
 			{
-				class: 'villager',
+				class: 'unknown',
 				name: [ 'Cậu bạn' ],
 				content: 'Không, cậu không hiểu, về bộ lông...'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Nghe mình này, giờ mình cần cậu lập tức về thị trấn báo cáo với Bang hội Mạo hiểm giả ngay. Bọn mình sẽ ở đây cầm chân Silver Wolf, con này không dễ xơi đâu.'
+				content: 'Nghe mình này, giờ mình cần cậu lập tức về thị trấn báo cáo với Bang hội Mạo hiểm giả ngay. Bọn mình sẽ ở đây cầm chân Ngân Lang, con này không dễ xơi đâu.'
 			},
 			{
-				class: 'villager',
+				class: 'unknown',
 				name: [ 'Cậu bạn' ],
 				content: 'Nhưng... Thôi được rồi, cảm ơn Kowashi và mọi người nhiều. Mình đi về báo cáo với Bang hội ngay.'
 			},
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Mà khoan... sao cậu ta biết tên mình? Hay là ai đó vừa nãy nói tên mình? Cậu bạn sau khi nói cảm ơn liền lập tức chạy về hướng ra khỏi khu rừng mà Shuuya đã chỉ. Silver Wolf từ xa đang tấn công Asahi, thấy cậu ta chạy lẻ liền nhảy vòng qua người nhỏ và đuổi theo.'
+				content: 'Mà khoan... sao cậu ta biết tên tôi? Hay là ai đó vừa nãy nói tên tôi? Cậu bạn sau khi nói cảm ơn liền lập tức chạy về hướng ra khỏi khu rừng mà Shuuya đã chỉ. Ngân Lang từ xa đang tấn công Asahi, thấy cậu ta chạy lẻ liền nhảy vòng qua người nhỏ và đuổi theo.'
 			},
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Trước khi tôi định dùng『Cover』thì một mũi tên băng từ đằng sau tôi bay đến giữa cậu bạn với con ma thú. Trên đường mũi tên bay, đằng sau của nó tỏa ra các bông tuyết rơi xuống mặt đất và từ đó đâm lên các cột băng nhọn. Một kỹ năng dựng tường để phòng thủ diện rộng. Nhưng nào ngờ, trước khi Silver Wolf bị chặn lại thì nó đã bật nhảy. Cú nhảy của nó có thể qua cả tường bằng? Không ổn rồi! Mình phải chạy đến... Shuuya ở mặt bên kia tường băng nhảy qua đúng thời điểm Silver Wolf đang ở trên không. Cậu dùng phong kĩ để thổi bay con ma thú về mặt đất. Tuy là đòn phong đó không gây được sát thương bởi Silver Wolf trước khi đáp đất đã kịp thời phản xạ tránh được va chạm. Nhưng mục tiêu ban đầu đã thành công. Và như vậy, cậu bạn đó đã thoát khỏi cuộc chiến an toàn.'
+				content: 'Trước khi tôi định dùng『Che chở』thì một mũi tên băng từ đằng sau tôi bay đến giữa cậu bạn với con ma thú. Trên đường mũi tên bay, đằng sau của nó tỏa ra các bông tuyết rơi xuống mặt đất và từ đó đâm lên các cột băng nhọn. Một kỹ năng dựng tường để phòng thủ diện rộng. Nhưng nào ngờ, trước khi Ngân Lang bị chặn lại thì nó đã bật nhảy. Cú nhảy của nó có thể qua cả tường bằng? Không ổn rồi! Tôi phải chạy đến... Shuuya ở mặt bên kia tường băng nhảy qua đúng thời điểm Ngân Lang đang ở trên không. Cậu dùng phong thuật để thổi bay con ma thú về mặt đất. Tuy là đòn phong đó không gây được sát thương bởi Ngân Lang trước khi đáp đất đã kịp thời phản xạ tránh được va chạm. Nhưng mục tiêu ban đầu đã thành công. Và như vậy, cậu bạn đó đã thoát khỏi cuộc chiến an toàn.'
 			},
 			{
 				class: 'think',
 				name: [ '???' ],
-				content: 'Chú diều hâu đậu trên cây quan sát Tổ đội『Dawn Horizon』đang bao vậy con ma thú. Giữ chắc tấm khiên, cầm chắc thanh kiếm, giương sẵn cây cung và sẵn sàng cào xé. Giờ trận chiến của họ mới thực sự bắt đầu.'
+				content: 'Chú diều hâu đậu trên cây quan sát Tổ đội『Log Horizon』đang bao vậy con ma thú. Giữ chắc tấm khiên, cầm chắc trọng kiếm, giương sẵn cây cung và sẵn sàng cào xé. Giờ trận chiến của họ mới thực sự bắt đầu.'
 			}
 		]
 	},
@@ -2090,7 +2090,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Hyouka đánh thức tôi dậy sau một giấc ngủ trưa. Có vẻ như cả đám đã nghỉ ngơi đủ để tiếp tục hoàn thành nhiệm vụ. Còn tôi vẫn đang còn nửa tỉnh nửa mơ vì nằm dưới tán cây mát mẻ cùng làn gió nhè nhẹ thoang thoảng thổi qua. Thật là dễ chịu, tôi không hề muốn di chuyển khỏi chốn thư thái này. Cho dù là thế tôi vẫn còn việc cần phải làm. Nếu chỉ có một mình thì tôi sẽ vẫn nằm tiếp nhưng với cương vị trưởng Tổ đội, quản lý mọi người hoàn thành nhiệm vụ là ưu tiên hàng đầu. Hyouka đưa tay ra, có vẻ như nhỏ muốn kéo tôi dậy. Tôi đưa tay ra nắm lấy bàn tay ấy, bàn tay của Hyouka thật là mềm mại và ấm áp mà không hề lạnh. Tôi đứng dậy với cơ thể còn hơi nhức mỏi chắc bởi ngồi tựa vào cây ngủ nên tôi vặn mình để cơ thể thoải mái hơn chút. Được rồi, sẵn sàng cho nhiệm vụ tiếp theo.'
+				content: 'Hyouka đánh thức tôi dậy sau một giấc ngủ trưa. Có vẻ như cả đám đã nghỉ ngơi đủ để tiếp tục hoàn thành nhiệm vụ. Còn tôi vẫn đang còn nửa tỉnh nửa mơ vì nằm dưới tán cây mát mẻ cùng làn gió nhè nhẹ thoang thoảng thổi qua. Thật là dễ chịu, tôi không hề muốn di chuyển khỏi chốn thư thái này. Cho dù là thế, tôi vẫn còn việc cần phải làm. Nếu chỉ có một mình thì tôi sẽ vẫn nằm tiếp nhưng với cương vị trưởng Tổ đội, quản lý mọi người hoàn thành nhiệm vụ là ưu tiên hàng đầu. Hyouka đưa tay ra, có vẻ như nhỏ muốn kéo tôi dậy. Tôi đưa tay ra nắm lấy, bàn tay của Hyouka thật là mềm mại và ấm áp mà không hề lạnh. Tôi đứng dậy với cơ thể còn hơi nhức mỏi, chắc bởi ngồi tựa vào cây ngủ, tôi vặn mình để cơ thể thoải mái hơn chút. Được rồi, sẵn sàng cho nhiệm vụ tiếp theo.'
 			},
 			{
 				class: 'Shuuya',
@@ -2125,7 +2125,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Thế là “bộ đôi rắc rồi” đã chạy vút đi mà không nghe thấy tôi nói gì. Bộ đôi đó đúng là nhanh nhảu thật. Dù sao thì tôi cũng không hẳn là trưởng Tổ đội, bọn tôi chưa bàn về vấn đề này. Chẳng qua tôi có cảm giác như vậy vì tôi đứng ra làm một số việc như là đăng ký và đặt tên Tổ đội, lập ra kế hoạch thời gian làm nhiệm vụ, mang một số đổ tiếp tế như là đồ ăn nước uống và một vài vật dụng... Ủa khoan? Đó có phải là những thứ mà trường Tổ đội hay làm không ta? Sao cảm giác nó sai sai thế nào ấy nhỉ? Mà thôi... Phải dọn nhanh để ra chỗ bọn họ thôi. Tôi thở dài, nhìn về phía chỗ bọn tôi nghỉ ngơi thì thấy Hyouka đang dọn dẹp đồ đạc. Tôi cứ tưởng Hyouka cũng đi theo bộ đôi ngay sau đó vì đây là nhiệm vụ của nhỏ.'
+				content: 'Thế là “bộ đôi rắc rồi” đã chạy vút đi mà không nghe thấy tôi nói gì. Bộ đôi đó đúng là nhanh nhảu thật. Dù sao thì tôi cũng không hẳn là trưởng Tổ đội, bọn tôi chưa bàn về vấn đề này. Chẳng qua tôi có cảm giác như vậy vì tôi đứng ra làm một số việc như là đăng ký và đặt tên Tổ đội, lập ra kế hoạch thời gian làm nhiệm vụ, mang một số đổ tiếp tế như là đồ ăn nước uống và một vài vật dụng... Ủa khoan? Đó có phải là những thứ mà trường Tổ đội hay làm không ta? Sao cảm giác nó sai sai thế nào ấy nhỉ? Mà thôi... phải dọn nhanh để ra chỗ bọn họ thôi. Tôi thở dài, nhìn về phía chỗ bọn tôi nghỉ ngơi thì thấy Hyouka đang dọn dẹp đồ đạc. Tôi cứ tưởng Hyouka cũng đi theo bộ đôi ngay sau đó vì đây là nhiệm vụ của nhỏ.'
 			},
 			{
 				class: 'Shuuya',
@@ -2135,7 +2135,7 @@ const volume = [
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Phải dọn đống đồ bày ra trước. Bộ đôi đó sung sức lắm nên kể cả có nghe thế cũng sẽ làm cho mau chóng để đi làm mấy việc của các cậu ấy muốn thôi.'
+				content: 'Phải dọn đống đồ bày ra trước. Bộ đôi đó sung sức lắm. Lể cả có nghe thì cũng làm cho mau chóng để đi làm mấy việc của các cậu ấy muốn.'
 			},
 			{
 				class: 'Shuuya',
@@ -2145,7 +2145,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Bị Hyouka thấy mình nói một mình ngại thật... Mà may là Hyouka có nghe thấy mình nói, có thêm người ở lại giúp dọn dẹp thì sẽ nhanh thôi. Cần phải dọn nhanh rồi còn ra chỗ của bộ đôi mới được.'
+				content: 'Bị Hyouka thấy tôi nói một mình ngại thật... Mà may là Hyouka có nghe thấy tôi nói, có thêm người ở lại giúp dọn dẹp thì sẽ nhanh thôi. Cần phải dọn nhanh rồi còn ra chỗ của bộ đôi mới được.'
 			},
 			{
 				class: 'Hyouka',
@@ -2165,12 +2165,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Vậy Hyouka hiểu mình đến vậy cơ á? Còn tôi... tôi vẫn chưa thể thấu hiểu nhiều về Hyouka, có lẽ cả “bộ đôi rắc rối” mà thậm chí là cả bản thân... Tôi sau khi nghe vậy nhịp tim dường như đã lệch một nhịp. Phải chăng đây là cảm giác bị người khác nắm thóp... Hay là cảm xúc... chắc không phải đâu.'
+				content: 'Vậy Hyouka hiểu tôi đến vậy cơ á? Còn tôi... tôi vẫn chưa thể thấu hiểu nhiều về Hyouka, có lẽ cả “bộ đôi rắc rối” mà thậm chí là cả bản thân... Tôi sau khi nghe vậy nhịp tim dường như đã lệch một nhịp. Phải chăng đây là cảm giác bị người khác nắm thóp... Hay là cảm xúc... chắc không phải đâu.'
 			},
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Thế Shuuya có điều gì muốn nói không? Mình đang chờ nghe Shuuya nói.'
+				content: 'Shuuya có điều gì muốn nói không? Mình đang chờ nghe Shuuya nói.'
 			},
 			{
 				class: 'Shuuya',
@@ -2185,7 +2185,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Xung quanh Hyouka xuất hiện vài bông tuyết lấp lánh và đôi tai dài của nhỏ đang ve vẩy. Nhưng... Không phải ư? Mình vẫn không thể hiểu nổi nhỏ... Con gái đúng là khó hiểu thật.'
+				content: 'Xung quanh Hyouka xuất hiện vài bông tuyết lấp lánh và đôi tai lá trúc lại ve vẩy. Nhưng... không phải lời cảm ơn ư? Tôi vẫn không thể hiểu nổi nhỏ... Con gái đúng là khó hiểu thật.'
 			},
 			{
 				class: 'think',
@@ -2200,7 +2200,7 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'có bảo là nhiều chứ không bảo dễ kiếm. Nhưng thường Slime phải nhiều mà ta... Thậm chí nó còn to khoảng bằng đầu con người. Chẳng lẽ các mạo hiểm giả khác săn hết rồi?'
+				content: 'Chị có bảo là nhiều chứ không bảo dễ kiếm. Nhưng thường Slime phải nhiều mà ta... Thậm chí nó còn to khoảng bằng đầu con người. Chẳng lẽ các mạo hiểm giả khác săn hết rồi?'
 			},
 			{
 				class: 'Asahi',
@@ -2220,7 +2220,7 @@ const volume = [
 			{
 				class: 'Asahi',
 				name: [ 'Asahi' ],
-				content: 'NYA! KOWASHI, CÓ SAO... A nya! Cậu vừa dẫm phải con Slime này nya. À không... đây chỉ là chất nhầy Slime thôi nya. Nhưng chúng ta chỉ cần lần theo vệt nhầy của Slime là được rồi, Kowashi tuyệt thật đó nya.'
+				content: 'NYA! KOWASHI, CÓ SAO... Nya! Cậu vừa dẫm phải con Slime này nya. À không... đây chỉ là chất nhầy Slime thôi nya. Nhưng chúng ta chỉ cần lần theo vệt nhầy của Slime là được rồi, Kowashi tuyệt thật đó nya.'
 			},
 			{
 				class: 'Kowashi',
@@ -2245,12 +2245,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ '???' ],
-				content: 'Chưa dứt lời, Asahi đã chạy thẳng lên tảng đá lớn mà bọn Slime đang trốn sau đó. Hai tay cô nắm chắc thanh đại kiếm, đưa đường kiếm hướng từ bên phải phía dưới lên phía trên quá đầu trong khi bật nhảy khỏi tảng đá. Trên không trung, cô vung kiếm đập mạnh xuống mặt đất khiến xung quanh tỏa ra trấn động. Tuy rằng cú vung không trúng con Slime nào vì khi Asahi ở trên không trung, bọn Slime đã nhận ra và nhảy ra hướng khác. Nhưng, những con mà gần Asahi nhất đã không né được trấn động từ cú vung kiếm xuống mặt đất nên đã bị choáng và mất phương hướng. Và đó là kỹ năng『Heavy Trảm』mà Asahi đã sử dụng. Sau cú đập kiếm đó, Asahi liền đổi tư thế ngay lập tức, cô cầm chắc thanh trọng kiếm trong tay, vung một vòng từ trái qua phải kết liễu các con Slime đang bị choáng ngay lập tức.'
+				content: 'Chưa dứt lời, Asahi đã chạy thẳng lên tảng đá lớn mà bọn Slime đang trốn sau đó. Hai tay cô nắm chắc thanh trọng kiếm, đưa đường kiếm hướng từ bên phải phía dưới lên phía trên quá đầu trong khi bật nhảy khỏi tảng đá. Trên không trung, cô vung kiếm đập mạnh xuống mặt đất khiến xung quanh tỏa ra trấn động. Tuy rằng cú vung không trúng con Slime nào vì khi Asahi ở trên không trung, bọn Slime đã nhận ra và nhảy ra hướng khác. Nhưng, những con mà gần Asahi nhất đã không né được trấn động từ cú vung kiếm xuống mặt đất nên đã bị choáng và mất phương hướng. Và đó là kỹ năng『Cường Trảm』mà Asahi đã sử dụng. Sau cú đập kiếm đó, Asahi liền đổi tư thế ngay lập tức, cô cầm chắc thanh trọng kiếm trong tay, vung một vòng từ trái qua phải kết liễu các con Slime đang bị choáng ngay lập tức.'
 			},
 			{
 				class: 'Asahi',
 				name: [ 'Asahi' ],
-				content: 'Tuyệt vời nya! Mình săn được 5 con cùng lúc luôn nè nya! A mấy con khác bỏ chạy rồi, mình đuổi theo đây nya!'
+				content: 'Tuyệt vời nya! Mình săn đủ số con yêu cầu trong nhiệm vụ cùng lúc luôn nè nya! A, mấy con khác bỏ chạy rồi, mình đuổi theo đây nya!'
 			},
 			{
 				class: 'Kowashi',
@@ -2260,7 +2260,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Asahi vội vàng định đuổi theo bọn Slime trốn chạy thì đã trượt chân và ngã. Tuy phản xạ của nhỏ thường rất sắc bén nhưng cầm thanh trọng kiếm trong tay, trọng lượng cơ thể bị thay đổi khiến cho Asahi không còn phản ứng kịp. Và có vẻ nhỏ chưa quen với thanh trọng kiếm, dù gì cũng mới nhận được chức nghiệp cũng như vũ khí ngày hôm qua nên chưa thể làm quen được.'
+				content: 'Asahi vội vàng định đuổi theo bọn Slime trốn chạy thì đã trượt chân và ngã. Tuy phản xạ của nhỏ thường rất sắc bén nhưng do cầm thanh trọng kiếm trong tay, trọng lượng cơ thể bị thay đổi khiến cho Asahi không còn phản ứng kịp. Và có vẻ nhỏ chưa quen với thanh trọng kiếm, dù gì cũng mới nhận được chức nghiệp cũng như vũ khí ngày hôm qua nên chưa thể làm quen được.'
 			},
 			{
 				class: 'Kowashi',
@@ -2270,12 +2270,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Kowashi đuổi theo bọn Slime đang chạy trốn thì... Phập! Phập! Phập! 3 phát mũi tên từ đâu bay tới găm thẳng vào đám Slime và kết liễu chúng. Mũi tên vừa găm vào thì ngay lập tức đóng băng toàn cơ thể của Slime. Mũi tên băng đó được bắn ra từ kỹ năng『Ice Arrow』của Hyouka. Tôi và Hyouka đã dọn dẹp xong và đến nơi bộ đôi đang săn Slime.'
+				content: 'Kowashi đuổi theo bọn Slime đang chạy trốn thì... Phập! Phập! Phập! 3 phát mũi tên từ đâu bay tới găm thẳng vào đám Slime và kết liễu chúng. Mũi tên vừa găm vào thì ngay lập tức đóng băng toàn cơ thể của Slime. Mũi tên băng đó được bắn ra từ kỹ năng『Băng Tiễn』của Hyouka. Tôi và Hyouka đã dọn dẹp xong và đến nơi bộ đôi đang săn Slime.'
 			},
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Còn 2 con nữa là xong nhiệm vụ. Mà Asahi đã làm gì để ra nông nỗi thế này?'
+				content: 'Còn vài con nữa là xong nhiệm vụ. Asahi... đã làm gì để ra nông nỗi thế này?'
 			},
 			{
 				class: 'think',
@@ -2290,7 +2290,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Có vẻ gần đây không có. Nhưng mình sẽ thử cách này xem.『Cleanse』'
+				content: 'Có vẻ gần đây không có. Nhưng mình sẽ thử cách này xem.『Làm sạch』'
 			},
 			{
 				class: 'think',
@@ -2300,7 +2300,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Nếu mình dùng được thủy kĩ thì『Cleanse』có thể làm sạch luôn mọi thứ, còn phong kĩ của mình chỉ có thể tách vật bám nhất định ra được thôi.'
+				content: 'Nếu mình dùng được thêm thủy thuật thì『Làm sạch』có thể làm sạch luôn mọi thứ, còn phong thuật của mình chỉ có thể tách vật bám nhất định ra được thôi.'
 			},
 			{
 				class: 'Asahi',
@@ -2310,7 +2310,7 @@ const volume = [
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Còn 2 con... Đính chính. Còn 1 con, mình vừa tiện tay bắn thêm lúc Shuuya dùng『Cleanse』.'
+				content: 'Còn hai con... Đính chính. Còn một con, mình vừa tiện tay bắn thêm lúc Shuuya dùng『Làm sạch』.'
 			},
 			{
 				class: 'Kowashi',
@@ -2325,12 +2325,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Trong lúc mọi người đang nói chuyện thì tôi tiến tới chỗ đám Slime bị Hyouka hạ, cầm một con lên nhìn kĩ. Có vẻ băng của Hyouka chỉ đóng băng bề ngoài nhưng dường như Slime không chịu được lạnh nên đã bị hạ. Tôi lấy dao bếp từ『Cooking Set』ra, khoét một lỗ đủ lớn để tôi thò hai ngón tay vào để lấy『Crystal』. Lí do tại sao tôi không đổ chất nhầy của Slime ra ngoài để dễ lấy『Crystal』thì là vì tôi định giữ lại để thí nghiệm nó vào lúc nào đấy, rồi cất vào Kho chứa Không gian. Tuy là chị Maki có nói nó không có giá trị gì nhưng có lẽ nó sẽ có ích trong vài trường hợp. Và tôi đã lặp lại như thế với các con Slime còn lại của Hyouka. '
+				content: 'Trong lúc mọi người đang nói chuyện thì tôi tiến tới chỗ đám Slime bị Hyouka hạ, cầm một con lên nhìn kĩ. Có vẻ băng của Hyouka chỉ đóng băng bề ngoài nhưng dường như Slime không chịu được lạnh nên đã bị hạ. Tôi lấy dao bếp từ『Bộ dụng cụ Nhà bếp』ra, khoét một lỗ đủ lớn để tôi thò hai ngón tay vào lấy『Ma thạch』. Lí do tại sao không đổ chất nhầy của Slime ra ngoài để dễ lấy『Ma thạch』thì là vì tôi định giữ lại để thí nghiệm nó vào lúc nào đấy, rồi cất vào『Kho chứa Không gian』. Tuy là chị Maki có nói nó không có giá trị gì nhưng có lẽ nó sẽ có ích trong vài trường hợp. Và tôi đã lặp lại như thế với các con Slime còn lại của Hyouka.'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Được rồi,『Crystal』của Slime mình đã nhặt hết. Giờ chỉ cần 1 con nữa là...'
+				content: 'Được rồi,『Ma thạch』của Slime mình đã nhặt hết. Giờ chỉ cần một con nữa là...'
 			},
 			{
 				class: 'Asahi',
@@ -2340,7 +2340,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi chưa kịp nói xong thì lại bị ngắt lời. Có vẻ Asahi đã nghe được tiếng gì đó. Đôi tai của nhỏ đang định hướng xem âm thanh phát ra ở phía nào. Rồi Asahi đã xác định được và chỉ về hướng đó báo hiệu cho Hyouka.'
+				content: 'Tôi chưa kịp nói xong thì lại bị ngắt lời, có vẻ Asahi đã nghe được tiếng gì đó. Đôi tai của nhỏ vểnh lên, định hướng xem âm thanh phát ra ở phía nào. Rồi Asahi đã xác định được và chỉ về hướng đó báo hiệu cho Hyouka.'
 			},
 			{
 				class: 'Asahi',
@@ -2350,7 +2350,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Hyouka giương cung lên bắn, mũi tên thẳng về hướng Slime đang nhảy vào rừng. Tiếc là nó đã nhảy ra phía sau cây nên cú bắn đó đã bị trượt. Asahi thấy vậy liền đuổi theo Slime sâu vào trong rừng và Kowashi thấy vậy cũng theo sau đó.'
+				content: 'Hyouka giương cung lên bắn, mũi tên bay thẳng về hướng Slime đang nhảy vào rừng. Tiếc là nó đã nhảy ra phía sau cây nên cú bắn đó đã bị trượt. Asahi thấy vậy liền đuổi theo Slime sâu vào trong rừng và Kowashi thấy vậy cũng theo sau đó.'
 			},
 			{
 				class: 'Shuuya',
@@ -2360,7 +2360,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Một lần nữa, bộ đôi lại không nghe tôi nói. Tôi thở dài, bất lực và nhìn xuống đất. Tự hỏi vị trí trưởng Tổ đội chắc không hợp với mình. Hyouka đặt hai bàn tay của nhỏ sau lưng tôi, đẩy tôi về trước như đang bảo phải đuổi theo họ ngay vậy. Chị Maki có bảo người mới không nên vào rừng vội, có nhiều ma vật nguy hiểm tồn tại trong đó. Gác suy nghĩ vu vơ sang một bên, tôi cần phải đuổi theo họ.'
+				content: 'Một lần nữa, bộ đôi lại không nghe tôi nói. Tôi thở dài, bất lực và nhìn xuống đất. Tự hỏi vị trí trưởng Tổ đội chắc không hợp với tôi. Hyouka đặt hai bàn tay sau lưng tôi, đẩy tôi về trước như đang bảo phải đuổi theo họ ngay vậy. Chị Maki có bảo người mới không nên vào rừng vội, có nhiều ma vật nguy hiểm tồn tại trong đó. Gác suy nghĩ vu vơ sang một bên, tôi cần phải đuổi theo họ.'
 			},
 			{
 				class: 'Shuuya',
@@ -2370,7 +2370,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ '???' ],
-				content: 'Chú Slime bị Hyouka bắn hụt đang nhảy sâu vào trong rừng. Chú cứ nhảy mãi cho đến khi đã cắt đuôi được Tổ đội của Shuuya. Rồi, một bàn chân của ma thú có bộ lông bạc từ đâu dẫm bẹp chú Slime đó. Mồm của con ma thú đó đang nhai ngấu nghiến một con ma thú khác với bộ hàm sắc nhọn có thể thấy từ bên ngoài. Còn đôi mắt thì đỏ ngầu như màu máu tươi vậy. Con ma thú vừa bước đi vừa nhai rồi biến mất khỏi nơi chú Slime tội nghiệp đã bị dẫm bẹp.'
+				content: 'Chú Slime bị Hyouka bắn hụt đang nhảy sâu vào trong rừng. Chú cứ nhảy mãi cho đến khi cắt đuôi được Tổ đội của Shuuya. Rồi, một bàn chân của ma thú có bộ lông bạc từ đâu dẫm bẹp chú Slime. Mồm của con ma thú đó đang nhai ngấu nghiến một con ma thú khác bằng bộ hàm sắc nhọn có thể thấy từ bên ngoài. Còn đôi mắt thì đỏ ngầu như màu máu tươi vậy. Con ma thú vừa bước đi vừa nhai rồi biến mất khỏi nơi chú Slime tội nghiệp đã bị dẫm bẹp.'
 			}
 		]
 	},
@@ -2381,37 +2381,37 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Nếu như chúng ta chưa từng gặp nhau thì giờ đây tôi sẽ đi về đâu nhỉ? Liệu rằng tôi có thể trở thành con người như bây giờ nếu thiếu các cậu? Kowashi, Asahi và Hyouka... những cái tên này... họ là ai vậy nhỉ?'
+				content: 'Nếu như, chúng ta chưa từng gặp nhau thì giờ đây tôi sẽ đi về đâu nhỉ? Liệu rằng, tôi có thể trở thành con người như bây giờ nếu thiếu các cậu? Kowashi, Asahi và Hyouka... những cái tên này... họ là ai vậy nhỉ?'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi tên Shuuya , là một người chuyển sinh đến thế giới này bởi Văn phòng Re:Life. Cha tôi tên Haruka là một người lính. Và mẹ tôi tên Sara là thợ may vá và cũng là nội trợ của gia đình. Tôi đang ở thị trấn có tên gọi là『Dawn Horizon』. Ngày qua ngày là chuỗi ngày bình yên sống bên cha mẹ mới của tôi. Luyện kiếm cùng cha, giúp đỡ việc nhà cùng mẹ, âm thầm luyện kỹ năng vào ban đêm.'
+				content: 'Tôi tên Shuuya, là một người chuyển sinh đến thế giới này bởi Văn phòng Re:Life. Cha tôi tên Haruka là một người lính. Và mẹ tôi tên Sara là thợ may vá và cũng là nội trợ của gia đình. Tôi đang ở thị trấn có tên gọi là『Dawn Horizon』. Ngày qua ngày là chuỗi ngày bình yên sống bên cha mẹ mới của tôi. Luyện kiếm cùng cha, giúp đỡ việc nhà cùng mẹ, âm thầm luyện ma pháp vào ban đêm.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Mặc dù tôi không gây rắc rối gì cho cha mẹ nhưng tôi có thể nhận thấy sự lo lắng dành cho tôi qua lời nói của họ. Chắc vì cách nói của tôi không bình thường so với các đứa trẻ khác. Tôi ít giao tiếp với người khác ngoài gia đình và đồng thời cũng không có bạn bè. Cơ thể tôi tuy như đứa trẻ nhưng linh hồn bên trong lại là người trưởng thành nên cách cư xử có phần không phù hợp. Tôi thay vì lựa chọn đeo lên chiếc mặt nạ để diễn vở kịch thay đổi bản thân mà ai cũng muốn xem, thì tôi lại lựa chọn không thay đổi và vẫn là chính mình như ở kiếp trước. Có một cơ hội để thay đổi bản thân vậy mà tôi lại không nắm lấy. Thật thảm hại làm sao...'
+				content: 'Mặc dù, tôi không gây rắc rối gì cho cha mẹ, nhưng có thể nhận thấy sự lo lắng qua lời nói của họ. Chắc vì... cách nói của tôi không bình thường so với các đứa trẻ khác. Tôi ít giao tiếp với người khác ngoài gia đình và đồng thời cũng không có bạn bè. Cơ thể tôi tuy như đứa trẻ nhưng linh hồn bên trong lại là người trưởng thành nên cách cư xử có phần không phù hợp. Tôi thay vì lựa chọn đeo lên chiếc mặt nạ để diễn vở kịch thay đổi bản thân mà ai cũng muốn xem, thì tôi lại lựa chọn không thay đổi và vẫn là chính mình như ở kiếp trước. Có một cơ hội để thay đổi bản thân vậy mà tôi lại không nắm lấy. Thật thảm hại làm sao...'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Vào năm 10 tuổi, sau khi được ban chức nghiệp tại nhà thờ, tôi liền đăng ký làm mạo hiểm giả. Vào khoảng thời gian đó mọi mạo hiểm giả tại Bang hội đều coi thường tôi vì chức nghiệp của tôi là『Đầu bếp』, một đầu bếp được coi là không có khả năng chiến đấu chỉ có thể làm chân sai vặt trong Tổ đội mà thôi. Còn những nhân viên trong Bang hội tuy không có ác ý gì khi cũng đưa ra lời khuyên cho tôi nhưng trong tôi cảm thấy khá nhói. Mặc kệ những lời nói, tôi vẫn chọn con đường mạo hiểm giả.'
+				content: 'Vào năm mười tuổi, sau khi được ban chức nghiệp tại nhà thờ, tôi liền đăng ký làm mạo hiểm giả. Vào khoảng thời gian đó mọi mạo hiểm giả tại Bang hội đều coi thường tôi vì có chức nghiệp là『Đầu bếp』. Một『Đầu bếp』được coi là không có khả năng chiến đấu chỉ có thể làm chân sai vặt trong Tổ đội mà thôi. Còn những nhân viên trong Bang hội tuy không có ác ý gì khi cũng đưa ra lời khuyên cho tôi nhưng trong tôi cảm thấy khá nhói. Mặc kệ những lời nói, tôi vẫn chọn con đường mạo hiểm giả.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sau khoảng thời gian làm nhiệm vụ thì tôi đang ở hạng Bronze và đã đủ điều kiện làm bài thi lên hạng Silver. Nhưng đen đủi làm sao khi bài thi yêu cầu cần phối hợp làm việc với đồng đội. Tôi không quen ai và cũng không có bạn bè nào để nhờ vả. Có nhiều mạo hiểm giả ở hội chắc sẽ sẵn lòng giúp tôi hoàn thành bài thi nhỉ? Không có chuyện đó đâu. Lời bàn tán về tôi là một đầu bếp làm mạo hiểm giả vẫn đang là chủ đề chưa hết nóng trong đây. Từ những người đã biết sẽ truyền đến tai những người chưa biết rồi cũng sẽ biết đến tôi. Và không ai rảnh đến nỗi đi giúp một đứa như tôi để rồi cũng bị cuốn theo những lời đồn. Lời đồn chính là con dao hai lưỡi, danh tiếng lẫy lừng hoặc sự nghiệp tan vỡ nếu bạn dính phải. Tôi đã không nhờ ai và chấp nhận sự thật. Tất nhiên tôi không bỏ làm mạo hiểm giả và vẫn nhận được nhiệm vụ như thường. Nhưng việc thăng hạng sẽ bị tạm hoãn vô thời hạn bởi tôi không có đủ sự tin tưởng dành cho một ai ngoại trừ gia đình.'
+				content: 'Sau khoảng thời gian làm nhiệm vụ thì tôi đang ở hạng Đồng và đã đủ điều kiện làm bài thi lên hạng Bạc. Nhưng đen đủi làm sao khi bài thi yêu cầu cần phối hợp làm việc với đồng đội. Tôi không quen ai và cũng không có bạn bè nào để nhờ vả. Có nhiều mạo hiểm giả ở hội chắc sẽ sẵn lòng giúp tôi hoàn thành bài thi nhỉ? Không có chuyện đó đâu. Lời bàn tán về tôi là một『Đầu bếp』làm mạo hiểm giả vẫn đang là chủ đề chưa hết nóng trong đây. Từ những người đã biết sẽ truyền đến tai những người chưa biết rồi cũng sẽ biết đến tôi. Và không ai rảnh đến nỗi đi giúp một đứa như tôi để rồi cũng bị cuốn theo những lời đồn. Lời đồn chính là con dao hai lưỡi, danh tiếng lẫy lừng hoặc sự nghiệp tan vỡ nếu bạn dính phải. Tôi đã không nhờ ai và chấp nhận sự thật. Tất nhiên, tôi không từ bỏ làm mạo hiểm giả và vẫn nhận được nhiệm vụ như thường. Nhưng việc thăng hạng sẽ bị tạm hoãn vô thời hạn bởi tôi không có đủ sự tin tưởng dành cho một ai, ngoại trừ gia đình.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Rồi thời gian trôi đi đến năm 18 tuổi, tôi quyết định rời xa thị trấn để thực hiện mong muốn phiêu lưu khắp nơi của bản thân. Nhưng trước đó tôi đã quyết định nhận một nhiệm vụ cuối cùng tại nơi đây. Nội dung nhiệm vụ là hộ tống đoàn vận chuyển quặng sắt đến thành phố『Kardia Tou Dasous』, hành trình đi ước lượng mất khoảng 3 ngày nếu không phát sinh vấn đề. Thời gian bắt đầu di chuyển vào sáng sớm ngày mai và điểm hẹn là cổng phía Tây Bắc. Tối hôm trước nhiệm vụ tôi đã nấu bữa tối cho cha mẹ tôi coi như là tiệc chia tay trước khi tôi lên đường, đồng thời cũng chuẩn bị sẵn đồ ăn cho hành trình. Sáng sớm hôm sau, tôi đã tạm biệt cả nhà và đến điểm hẹn. Khi đến nơi, tôi đã thấy một đoàn xe ngựa có ba xe ở giữa đang chất đầy quặng sắt. Và hai xe còn lại ở trước và sau đoàn là xe trống dùng để chở mạo hiểm giả. Mỗi xe chở được 6 người không tính người đánh xe. Có vẻ như xe trước đã đủ người rồi mà xe cuối còn thiếu một nên tôi đành tham gia nhóm đó.'
+				content: 'Rồi thời gian trôi đi đến năm mười tám tuổi, tôi quyết định rời xa thị trấn để thực hiện mong muốn phiêu lưu khắp nơi của bản thân. Nhưng trước đó, tôi đã quyết định nhận một nhiệm vụ cuối cùng tại nơi đây. Nội dung nhiệm vụ là hộ tống đoàn vận chuyển quặng sắt đến thành phố『Kardia Tou Dasous』, hành trình đi ước lượng mất khoảng ba ngày nếu không phát sinh vấn đề. Thời gian bắt đầu di chuyển vào sáng sớm ngày mai và điểm hẹn là cổng phía Tây Bắc. Tối hôm trước nhiệm vụ, tôi đã nấu bữa tối cho cha mẹ coi như là tiệc chia tay trước khi tôi lên đường, đồng thời cũng chuẩn bị sẵn đồ ăn cho hành trình. Sáng sớm hôm sau, tôi đã tạm biệt cả nhà và đến điểm hẹn. Khi đến nơi, tôi đã thấy một đoàn xe ngựa có ba xe ở giữa đang chất đầy quặng sắt. Và hai xe còn lại ở trước và sau đoàn là xe trống dùng để chở mạo hiểm giả. Mỗi xe chở được sáu người không tính người đánh xe. Có vẻ như xe trước đã đủ người rồi mà xe cuối còn thiếu một nên tôi đành tham gia nhóm đó.'
 			},
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Tôi có thể ngồi xe cùng mọi người được không? Tôi tên Shuuya, tôi nhận nhiệm vụ hộ tống đoàn xe.'
+				content: 'Tôi có thể ngồi xe cùng mọi người được không? Tôi tên Shuuya, nhận nhiệm vụ hộ tống đoàn xe.'
 			},
 			{
 				class: 'villager',
@@ -2421,12 +2421,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Từ trên xe, một bóng dáng to lớn của người đàn ông đầu trọc ngoài 30 có nước da ngăm đen. Hắn mặc một chiếc áo dạng tanktop ba lỗ cỡ lớn đi kèm với một chiếc quần lửng có cả tá vết rách ở phần đùi, nhìn về phía tôi mà nói với giọng đầy tự cao.'
+				content: 'Từ trên xe, một bóng dáng to lớn của người đàn ông đầu trọc ngoài ba mươi có nước da ngăm đen. Hắn mặc một chiếc áo dạng tanktop ba lỗ cỡ lớn đi kèm với một chiếc quần lửng có cả tá vết rách ở phần đùi, nhìn về phía tôi mà nói với giọng đầy tự cao.'
 			},
 			{
 				class: 'villager',
 				name: [ 'Viktor' ],
-				content: 'Mày, người nhỏ con như mày mà cũng muốn làm mạo hiểm giả hả? Nhìn lại bản thân mình đi. Mà nếu ta không nhầm thì ngươi là đầu bếp mà mọi người vẫn hay nói thì phải?'
+				content: 'Mày, người nhỏ con như mày mà cũng muốn làm mạo hiểm giả hả? Nhìn lại bản thân mình đi. Mà... nếu ta không nhầm thì ngươi là『Đầu bếp』mà mọi người vẫn hay nói thì phải?'
 			},
 			{
 				class: 'Shuuya',
@@ -2436,12 +2436,12 @@ const volume = [
 			{
 				class: 'villager',
 				name: [ 'Viktor' ],
-				content: 'À không có vấn đề gì đâu... CHỈ LÀ MÀY SẼ CHỈ TỔ VƯỚNG CHÂN MÀ THÔI. Để có thể làm cái nghề này ít nhất phải là có chức nghiệp chiến binh như ta hoặc là kiếm sĩ, pháp sư, cung thủ nhưng đầu bếp ư? VỀ MÀ HỌC NẤU ĂN ĐI!'
+				content: 'À không có vấn đề gì đâu... CHỈ LÀ MÀY SẼ CHỈ TỔ VƯỚNG CHÂN MÀ THÔI! Để có thể làm cái nghề này ít nhất phải là có chức nghiệp『Chiến binh』như ta hoặc là『Kiếm sĩ』,『Pháp sư』,『Cung thủ』nhưng『Đầu bếp』ư? VỀ MÀ HỌC NẤU ĂN ĐI!'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Ngay từ điệu bộ đầu khi hắn và mọi người nói chuyện với tôi thì chuyến đi này sẽ đầy rắc rối cho tôi đây.'
+				content: 'Ngay từ điệu bộ đầu khi hắn và mọi người nói chuyện, tôi đã nhận ra ngay chuyến đi này sẽ đầy rắc rối cho coi.'
 			},
 			{
 				class: 'villager',
@@ -2461,27 +2461,27 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Thế rồi cả đám cười lớn và lên xe để mặc tôi tự bê những thùng hàng nặng và đồ đạc của bọn họ lên xe. Vì không muốn tạo rắc rối nên tôi chỉ âm thầm nghe theo. Tôi sử dụng kỹ năng『Cường hóa Thể chất』để bê vác nên cũng không khó khăn gì. Bọn họ cũng chả bận tâm gì tới việc tôi có thể tự bê chỗ đồ nặng đó. Người đánh xe của tôi thấy chuyện xảy ra như vậy cũng không thể nói được gì bởi cũng chỉ là người được thuê. Rồi đoàn xe đã bắt đầu di chuyển.'
+				content: 'Thế rồi cả đám cười lớn và lên xe để mặc tôi tự bê những thùng hàng nặng và đồ đạc của bọn họ lên xe. Vì không muốn tạo rắc rối nên tôi chỉ âm thầm nghe theo. Tôi âm thầm sử dụng kỹ năng『Cường hóa Thể chất』để bê vác nên cũng không khó khăn gì. Bọn họ cũng chả bận tâm gì tới việc tôi có thể tự bê chỗ đồ nặng đó. Người đánh xe của tôi thấy chuyện xảy ra như vậy cũng không thể nói được gì bởi cũng chỉ là người được thuê. Rồi đoàn xe đã bắt đầu di chuyển.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Đoàn xe băng qua cánh rừng phía Bắc của thị trấn, hai hàng cây bên đường vụt qua mắt tôi. Và rồi vượt qua khu rừng, một thảo nguyên rộng lớn hiện ra trước mắt. Đoàn xe cứ đi, băng qua những ngọn đồi lớn rồi qua những đồi hoa tràn đầy màu sắc. Cả một bầu trời bao la đầy những con thú bay lượn như chú diều hâu lông nửa trắng nửa lam, còn trên mặt đất trải dài đầy những con thú đang gặm cỏ hay đang nằm nghỉ tận hưởng làn gió mát nhè nhẹ. Không gian này khiến cho chuyến đi trong nhiệm vụ thật là thư giãn. Ngoại trừ việc khoảng không gian hiếm có này đã bị phá hỏng bởi tiếng nói lớn của hội Viktor.'
+				content: 'Đoàn xe băng qua cánh rừng phía Bắc của thị trấn, hai hàng cây bên đường vụt qua mắt tôi. Và rồi vượt qua khu rừng, một thảo nguyên rộng lớn hiện ra trước mắt. Đoàn xe cứ đi, băng qua những ngọn đồi lớn rồi qua những đồi hoa tràn đầy màu sắc. Cả một bầu trời bao la đầy những con thú bay lượn như chú diều hâu lông nửa trắng nửa lam, còn trên mặt đất trải dài đầy những con thú đang gặm cỏ hay đang nằm nghỉ tận hưởng làn gió mát nhè nhẹ. Không gian này khiến cho chuyến đi trong nhiệm vụ thật là thư giãn. Ngoại trừ việc khoảng không gian hiếm có này đã bị phá hỏng bởi những tiếng nói lớn của hội Viktor.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Trong suốt chuyến đi, Viktor cứ nói mãi về các chiến tích hắn có trong sự nghiệp mạo hiểm giả. Còn đám bạn của hẳn cứ tung hô ca ngợi những điều hắn nói mà chả thèm quan tâm độ chính xác là bao nhiêu. Chắc là đám đó muốn theo kẻ mạnh như Viktor để còn có người bảo kê hộ. Hoặc chỉ đơn giản là không muốn gặp rắc rối với Viktor. Và theo như cuộc trò chuyện đám đó thì Viktor sắp được thăng lên hạng Silver. Có vẻ Viktor cũng không phải là dạng chỉ biết nói mà không biết làm, ít nhất đó là điều tôi đã nghĩ.'
+				content: 'Trong suốt chuyến đi, Viktor cứ nói mãi về các chiến tích hắn có trong sự nghiệp mạo hiểm giả. Còn đám bạn của hẳn cứ tung hô ca ngợi những điều hắn nói mà chả thèm quan tâm độ chính xác là bao nhiêu. Chắc là đám đó muốn theo kẻ mạnh như Viktor để còn có người bảo kê hộ. Hoặc chỉ đơn giản là không muốn gặp rắc rối với Viktor. Và theo như cuộc trò chuyện đám đó thì Viktor sắp được thăng lên hạng Bạc. Có vẻ Viktor cũng không phải là dạng chỉ biết nói mà không biết làm, ít nhất đó là điều tôi đã nghĩ.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Mặc kệ cuộc trò chuyện của đám đó, tôi ngồi dựa lưng vào thành xe, trống hai cánh tay lên thành và hướng nhìn về phía trước cố tận hưởng khung cảnh cùng làn gió mát mẻ này. Rồi cả đoàn xe đã dừng lại bên hồ nước có cây táo gần đó để nghỉ ăn trưa. Tôi mở thùng đồ trên xe, đưa tay vào để lấy 1 cái bánh mì thì Viktor nắm lấy chắc cánh tay của tôi, kéo lên và đẩy mạnh tôi vào thành xe làm xém thì bị ngã khỏi xe.'
+				content: 'Mặc kệ cuộc trò chuyện của đám đó, tôi ngồi dựa lưng vào thành xe, trống hai cánh tay lên thành và hướng nhìn về phía trước cố tận hưởng khung cảnh cùng làn gió mát mẻ này. Rồi cả đoàn xe đã dừng lại bên hồ nước có cây táo gần đó để nghỉ ăn trưa. Tôi mở thùng đồ trên xe, đưa tay vào để lấy một ổ bánh mì thì Viktor nắm chắc cánh tay của tôi, kéo lên và đẩy mạnh tôi vào thành xe làm xém thì bị ngã khỏi xe.'
 			},
 			{
 				class: 'villager',
 				name: [ 'Viktor' ],
-				content: 'Mày là đầu bếp mà, tự mình kiếm hay nấu cái gì đó mà ăn đi. Chỗ lương thực này là của bọn tao.'
+				content: 'Mày là『Đầu bếp』mà, tự mình kiếm hay nấu cái gì đó mà ăn đi. Chỗ lương thực này là của bọn tao.'
 			},
 			{
 				class: 'think',
@@ -2491,7 +2491,7 @@ const volume = [
 			{
 				class: 'villager',
 				name: [ 'Người đánh xe' ],
-				content: 'Thưa ngài, chỗ lương thực này là của chúng tôi chuẩn bị dành cho 6 người mà...'
+				content: 'Thưa ngài, chỗ lương thực này là của chúng tôi chuẩn bị dành cho sáu người mà...'
 			},
 			{
 				class: 'villager',
@@ -2501,7 +2501,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi mau đứng dậy, đưa tay phải đặt lên vai của người đánh xe để ám chỉ rằng đừng nói thêm gì. Rồi tôi bước xuống xe tiến đến chỗ cây táo, ngước nhìn lên cây và dùng『Appraisal』để kiểm tra quả nào đang ở trạng thái tốt nhất. Nếu mọi người mà nhìn tôi lúc này thì chắc nghĩ tôi trông cứ như đứa ất ơ nào đó nhìn chằm chằm vào đồ ăn treo trên cây mà không thể với tới được vậy. Cô gái tóc vàng từ nhóm mạo hiểm giả phía trên chứng kiến việc vừa xảy ra giữa tôi và Viktor thì tiến đến tôi với 2 cái bánh mì trên tay.'
+				content: 'Tôi mau đứng dậy, đưa tay phải đặt lên vai của người đánh xe để ám chỉ rằng đừng nói thêm gì. Rồi tôi bước xuống xe tiến đến chỗ cây táo, ngước nhìn lên cây kiểm tra quả nào đang ở trạng thái tốt nhất. Nếu mọi người mà nhìn tôi lúc này thì chắc nghĩ tôi trông cứ như đứa ất ơ nào đó nhìn chằm chằm vào đồ ăn treo trên cây mà không thể với tới được vậy. Cô gái tóc vàng từ nhóm mạo hiểm giả phía trên chứng kiến việc vừa xảy ra giữa tôi và Viktor thì tiến đến tôi cùng hai ổ bánh mì trên tay.'
 			},
 			{
 				class: 'villager',
@@ -2511,7 +2511,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Mặc kệ lời cô gái vừa nói, tôi tìm được vài quả táo đang ở trạng thái tốt liền cúi người nhặt một hòn đá nhỏ gần đó ném thẳng vào cuống quả táo. Quả táo rơi thẳng vào lòng bàn tay trái tôi, rồi tôi lại nhặt một hòn đá nhỏ khác lên để ném đồng thời cũng phản hồi cô gái.'
+				content: 'Mặc kệ lời cô gái vừa nói, tôi tìm được vài quả táo đang ở trạng thái tốt liền cúi người nhặt một hòn đá nhỏ gần đó, ném thẳng vào cuống quả táo. Quả táo rơi thẳng vào lòng bàn tay trái tôi, rồi tôi lại nhặt một hòn đá nhỏ khác lên để ném đồng thời cũng phản hồi cô gái.'
 			},
 			{
 				class: 'Shuuya',
@@ -2521,12 +2521,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Nói xong tôi lại ném đá để lấy thêm mấy quả táo nữa. Rồi tôi ngồi tựa lưng vào cây ngược hướng đoàn xe nhìn ra mặt hồ để thưởng thức các quả táo vừa hái. Cô gái sau khi nghe tôi nói thì không nói thêm gì mà quay về với nhóm của cô với 2 cái bánh mì trên tay.'
+				content: 'Nói xong tôi lại ném đá để lấy thêm mấy quả táo nữa. Rồi tôi ngồi tựa lưng vào cây ngược hướng đoàn xe nhìn ra mặt hồ để thưởng thức các quả táo vừa hái. Cô gái sau khi nghe tôi nói thì không nói thêm gì mà quay về với nhóm của cô cùng hai ổ bánh mì đem theo.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sau khi cả đoàn xe đã nghỉ trưa xong thì lại lên đường cho đến khi trời tối sầm. Cả đoàn xe quyết định sẽ dựng lều qua đêm trên thảo nguyên. Và đến bữa tối tôi biết mình không thể ăn cùng hội Viktor nên tôi đã tự rời đi ngồi ăn ở chỗ khác. Viktor thấy vậy liền cười lên.'
+				content: 'Sau khi cả đoàn xe đã nghỉ trưa xong thì lại lên đường cho đến khi trời tối sầm. Cả đoàn xe quyết định sẽ dựng lều qua đêm trên thảo nguyên. Và đến bữa tối tôi biết mình không thể ăn cùng hội Viktor nên tự rời đi ngồi ăn ở chỗ khác. Viktor thấy vậy liền cười lên.'
 			},
 			{
 				class: 'villager',
@@ -2536,7 +2536,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Dù sao tôi cũng chả muốn ăn cùng với hội Viktor nên điều này lại tốt cho tôi. Tôi ngồi ở một góc tối, lấy ra『Bánh mì kẹp trứng』đã làm từ tối hôm trước ăn một mình. Buổi trưa tôi đã không lấy ra ăn vì tôi không muốn ai nhìn thấy việc sử dụng Kho chứa Không gian. Sau khi mọi người đã ăn uống no nê thì nhóm bắt đầu phân chia ca gác và tất nhiên tôi đã bị bắt gác đến tận sáng hôm sau luôn.'
+				content: 'Dù sao tôi cũng chả muốn ăn cùng với hội Viktor nên điều này lại tốt cho tôi. Tôi ngồi ở một góc tối, lấy ra『Bánh mì kẹp trứng』đã làm từ tối hôm trước ăn một mình. Buổi trưa tôi đã không lấy ra ăn vì tôi không muốn ai nhìn thấy việc sử dụng『Kho chứa Không gian』. Sau khi mọi người đã ăn uống no nê thì nhóm bắt đầu phân chia ca gác và tất nhiên tôi đã bị bắt gác đến tận sáng hôm sau luôn.'
 			},
 			{
 				class: 'Shuuya',
@@ -2546,12 +2546,12 @@ const volume = [
 			{
 				class: 'villager',
 				name: [ 'Viktor' ],
-				content: 'Hả? Bọn tao phải giữ sức để nếu có nguy hiểm còn bảo vệ được đoàn xe chứ? Mày thì làm được gì? Mỗi gác như này mà không làm được thì mày đúng là vô dụng!'
+				content: 'Hả? Bọn tao còn phải giữ sức để nếu có nguy hiểm còn bảo vệ được đoàn xe chứ? Mày thì làm được gì? Mỗi gác như này mà không làm được thì mày đúng là vô dụng!'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi không nói thêm gì và ngồi gác ở cuối đoàn xe. Ở trên đoàn cũng có người đang gác và anh bạn đó cũng lên tiếng hỏi tôi có ổn không. Và tôi chỉ đơn giản là không đáp lại gì và giơ ngón tay cái lên. Anh bạn đó thấy vậy không nói gì thêm.'
+				content: 'Tôi không nói thêm gì và ngồi gác ở cuối đoàn xe. Ở trên đoàn cũng có người đang gác và anh bạn đó cũng lên tiếng hỏi tôi có ổn không. Và tôi chỉ đơn giản là không đáp lại gì, giơ ngón tay cái lên. Anh bạn đó thấy vậy không nói gì thêm.'
 			},
 			{
 				class: 'think',
@@ -2566,7 +2566,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: '“Bạn” à? Không biết liệu mình có thể đủ tin tưởng một ai để có thể gọi là “bạn” không nhỉ? Và rồi tôi đã chìm vào giấc ngủ trong khi đang suy ngẫm về thứ được gọi là “bạn”. Một giọng nói vang lên trong đầu tôi, ai đó đang gọi tên tôi. Rồi giọng nói lớn dần khiến tôi phải mở mắt ra.'
+				content: '“Bạn” à? Không biết liệu tôi có thể đủ tin tưởng một ai để có thể gọi là “bạn” không nhỉ? Và rồi tôi đã chìm vào giấc ngủ trong khi đang suy ngẫm về thứ được gọi là “bạn”. Một giọng nói vang lên trong đầu tôi, ai đó đang gọi tên tôi. Rồi giọng nói lớn dần khiến tôi phải mở mắt ra.'
 			},
 			{
 				class: 'Hyouka',
@@ -2576,7 +2576,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Hóa ra là Hyouka gọi mình dậy, Tổ đội mình đang trong nhiệm vụ nhỉ? Giấc mơ vừa rồi thật là chân thực làm sao...'
+				content: 'Hóa ra là Hyouka gọi tôi dậy, Tổ đội đang trong nhiệm vụ nhỉ? Giấc mơ vừa rồi thật là chân thực làm sao...'
 			},
 			{
 				class: 'Shuuya',
@@ -2607,7 +2607,7 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Được rồi, mình sẽ lấy nhiệm vụ săn Horned Rabbit. Phần thưởng tuy chỉ có vài xu đồng nhưng chúng ta có thể bán nguyên liệu từ ma vật và nhất là『Ma thạch』'
+				content: 'Được rồi, mình sẽ lấy nhiệm vụ săn Thỏ Sừng. Phần thưởng tuy chỉ có vài xu đồng nhưng chúng ta có thể bán nguyên liệu từ ma vật và nhất là『Ma thạch』'
 			},
 			{
 				class: 'think',
@@ -2627,7 +2627,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'À, mình chọn thu thập Heal Herb. Vừa đơn giản, vừa nhẹ nhàng để khởi đầu, cũng không quá tệ.'
+				content: 'À, mình chọn thu thập『Thảo dược Hồi phục』. Vừa đơn giản, vừa nhẹ nhàng để khởi đầu, cũng không quá tệ.'
 			},
 			{
 				class: 'think',
@@ -2782,7 +2782,7 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Asahi, cậu cũng đâu có cố ý đâu. Hay như này đi, cậu hãy giúp mình tìm hố của Horned Rabbit được không? Chỗ này cỏ hơi dày nên mình khó mà để ý được. Mình tin cậu sẽ tìm được nhanh chóng thôi.'
+				content: 'Asahi, cậu cũng đâu có cố ý đâu. Hay như này đi, cậu hãy giúp mình tìm hố của Thỏ Sừng được không? Chỗ này cỏ hơi dày nên mình khó mà để ý được. Mình tin cậu sẽ tìm được nhanh chóng thôi.'
 			},
 			{
 				class: 'think',
@@ -2822,12 +2822,12 @@ const volume = [
 			{
 				class: 'Kowashi',
 				name: [ 'Kowashi' ],
-				content: 'Rồi, cảm ơn nhiều. Mọi người hãy tránh xa ra nha. Cẩn thận Horned Rabbit đổi mục tiêu tấn công sang các cậu đấy.'
+				content: 'Rồi, cảm ơn nhiều. Mọi người hãy tránh xa ra nha. Cẩn thận Thỏ Sừng đổi mục tiêu tấn công sang các cậu đấy.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sau câu nói đó mọi người liền lùi lại, còn cậu ta đứng cách hố một khoảng rồi ném hòn đá vào. Một lúc sau có một cái đầu nhô lên, Horned Rabbit nhìn chằm chằm vào Kowashi một lúc rồi lao lên như tên bắn. Cũng may Kowashi đã cản được nhờ tấm khiên nên cậu không bị thương. Nhưng phải công nhận lực bật nhảy của Horned Rabbit đúng là rất khỏe, đến nỗi Kowashi còn tí thì bị ngã sau khi đỡ.'
+				content: 'Sau câu nói đó mọi người liền lùi lại, còn cậu ta đứng cách hố một khoảng rồi ném hòn đá vào. Một lúc sau có một cái đầu nhô lên, Thỏ Sừng nhìn chằm chằm vào Kowashi một lúc rồi lao lên như tên bắn. Cũng may Kowashi đã cản được nhờ tấm khiên nên cậu không bị thương. Nhưng phải công nhận lực bật nhảy của Thỏ Sừng đúng là rất khỏe, đến nỗi Kowashi còn tí thì bị ngã sau khi đỡ.'
 			},
 			{
 				class: 'Kowashi',
@@ -2837,12 +2837,12 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Horned Rabbit giống với loài thỏ ở thế giới trước, chỉ khác là trên đầu nó có một cái sừng nhỏ bằng một đốt ngón tay cái và có khả năng dùng kỹ năng. Ở vùng của tôi thì nó có bộ lông nâu nhạt, đôi mắt đen óng, đuôi xù lông như cục bông và đôi tai dài che được cả mắt nó. Loài này khá là thù địch, chỉ cần có động vật hay con người ở trước mặt đều sẽ tấn công. Mà phương thức tấn công của Horned Rabbit là dùng kỹ năng『Cường hóa Bật nhảy』để tăng sức bật nhảy húc đầu vào đối thủ. Tuy sừng của chúng ngắn nhưng nếu đâm trúng những chỗ hiểm cũng đủ để khiến đối thủ chịu thiệt thòi lớn. Hơn thế nữa phần sọ của Horned Rabbit khá cứng nên sau mỗi lần húc chúng sẽ không bị choáng, thậm chí khi chúng chạm được mặt đất sẽ ngay lập tức tấn công tiếp. Nếu mà đánh cả bầy Horned Rabbit thì khả năng thua là rất cao trừ khi phòng thủ của bạn cực tốt. Theo lời của chị Maki nói về Horned Rabbit là như vậy.'
+				content: 'Thỏ Sừng giống với loài thỏ ở thế giới trước, chỉ khác là trên đầu nó có một cái sừng nhỏ bằng một đốt ngón tay cái và có khả năng dùng kỹ năng. Ở vùng của tôi thì nó có bộ lông nâu nhạt, đôi mắt đen óng, đuôi xù lông như cục bông và đôi tai dài che được cả mắt nó. Loài này khá là thù địch, chỉ cần có động vật hay con người ở trước mặt đều sẽ tấn công. Mà phương thức tấn công của Thỏ Sừng là dùng kỹ năng『Cường hóa Bật nhảy』để tăng sức bật nhảy húc đầu vào đối thủ. Tuy sừng của chúng ngắn nhưng nếu đâm trúng những chỗ hiểm cũng đủ để khiến đối thủ chịu thiệt thòi lớn. Hơn thế nữa phần sọ của Thỏ Sừng khá cứng nên sau mỗi lần húc chúng sẽ không bị choáng, thậm chí khi chúng chạm được mặt đất sẽ ngay lập tức tấn công tiếp. Nếu mà đánh cả bầy Thỏ Sừng thì khả năng thua là rất cao trừ khi phòng thủ của bạn cực tốt. Theo lời của chị Maki nói về Thỏ Sừng là như vậy.'
 			},
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sau một hồi quan sát Kowashi thì tôi đã phát hiện ra điểm yếu của Horned Rabbit, tôi hét lớn.'
+				content: 'Sau một hồi quan sát Kowashi thì tôi đã phát hiện ra điểm yếu của Thỏ Sừng, tôi hét lớn.'
 			},
 			{
 				class: 'Shuuya',
@@ -2852,7 +2852,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Kowashi liền hiểu ý của tôi ngay lập tức. Khi Horned Rabbit tấn công, cậu đã hướng cái khiên chéo lên đẩy nó bay lên. Giờ thì ở trên không nó không thể làm gì được nữa, Kowashi cầm chắc cái chùy ở tay phải vung lên kết liễu chỉ trong một phát. Với khả năng hỗ trợ thì tôi có thể điều khiển gió để hất tung Horned Rabbit lên hộ nhưng điều đó sẽ khiến Kowashi thiếu hụt khả năng. Cho gợi ý thế này là tốt nhất.'
+				content: 'Kowashi liền hiểu ý của tôi ngay lập tức. Khi Thỏ Sừng tấn công, cậu đã hướng cái khiên chéo lên đẩy nó bay lên. Giờ thì ở trên không nó không thể làm gì được nữa, Kowashi cầm chắc cái chùy ở tay phải vung lên kết liễu chỉ trong một phát. Với khả năng hỗ trợ thì tôi có thể điều khiển gió để hất tung Thỏ Sừng lên hộ nhưng điều đó sẽ khiến Kowashi thiếu hụt khả năng. Cho gợi ý thế này là tốt nhất.'
 			},
 			{
 				class: 'think',
@@ -2907,7 +2907,7 @@ const volume = [
 			{
 				class: 'Shuuya',
 				name: [ 'Shuuya' ],
-				content: 'Asahi, cậu có thể đưa mình chỗ Horned Rabbit cậu đang cầm được không?'
+				content: 'Asahi, cậu có thể đưa mình chỗ Thỏ Sừng cậu đang cầm được không?'
 			},
 			{
 				class: 'Asahi',
@@ -2922,7 +2922,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: '『Kho chứa Không gian』đúng như tên gọi, dùng để lưu trữ vật phẩm. Vật phẩm ở trong không gian đó sẽ được giữ nguyên trạng thái như lúc cho vào. Đặc biệt, không thể chứa sinh vật có nhận thức đang còn sống. Lúc này, bộ đôi mặt đơ ra không tin vào điều vừa chứng kiến.'
+				content: '『Kho chứa Không gian』là điều ước thứ hai của tôi. Và đúng như tên gọi, vật phẩm ở trong không gian đó sẽ được giữ nguyên trạng thái như lúc cho vào. Đặc biệt, không thể chứa sinh vật có nhận thức đang còn sống. Lúc này, bộ đôi mặt đơ ra không tin vào điều vừa chứng kiến.'
 			},
 			{
 				class: 'Kowashi',
@@ -2937,7 +2937,7 @@ const volume = [
 			{
 				class: 'Hyouka',
 				name: [ 'Hyouka' ],
-				content: 'Ừm... Từ vài phút trước đấy khi Shuuya cất con Horned Rabbit. Rồi lấy ra thảm trải để ngồi cùng hai giỏ đồ ăn và bốn túi đựng nước.'
+				content: 'Ừm... Từ vài phút trước đấy khi Shuuya cất con Thỏ Sừng. Rồi lấy ra thảm trải để ngồi cùng hai giỏ đồ ăn và bốn túi đựng nước.'
 			},
 			{
 				class: 'Kowashi',
@@ -2982,7 +2982,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Hyouka lại trở thành nhà phê bình ẩm thực nữa rồi. Mà tôi thấy vui khi họ thích đồ ăn tôi làm. Đồng thời tôi cũng biết được một chút khẩu vị của mọi người. Bộ đôi có vẻ là thích ăn đậm, còn Hyouka giống mình thích ăn đồ hơi ngọt. Được rồi, phải cố gắng làm thêm nhiều món hơn nữa mới được.'
+				content: 'Hyouka lại trở thành nhà phê bình ẩm thực nữa rồi. Mà tôi thấy vui khi họ thích đồ ăn tôi làm. Đồng thời tôi cũng biết được một chút khẩu vị của mọi người. Bộ đôi có vẻ là thích ăn đậm, còn Hyouka giống tôi thích ăn đồ hơi ngọt. Được rồi, phải cố gắng làm thêm nhiều món hơn nữa mới được.'
 			},
 			{
 				class: 'Kowashi',
@@ -3088,6 +3088,11 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
+				content: '『Bộ dụng cụ Nhà bếp』của『Đầu bếp』được tôi tùy chỉnh bản thân trước khi chuyển sinh. Cho phép tôi tốn ma lực để lấy bất cứ dụng cụ nhà bếp tồn tại trong『Dainisekai』.'
+			},
+			{
+				class: 'think',
+				name: [ 'Shuuya' ],
 				content: 'Nhìn vẻ mặt của các cậu ấy thì chắc đang tỏ vẻ thương hại tôi đây. Có lẽ nên nói gì đó để mọi người bớt lo lắng lại.'
 			},
 			{
@@ -3128,7 +3133,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Asahi đang cố kiềm chế bản năng của mình nhưng có vẻ không thể rồi. Có lẽ sẽ cần thêm vài năm nữa...'
+				content: 'Asahi đang cố kiềm chế bản năng của tôi nhưng có vẻ không thể rồi. Có lẽ sẽ cần thêm vài năm nữa...'
 			},
 			{
 				class: 'Shuuya',
@@ -3223,7 +3228,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Làm chị Maki lo cho mình mất rồi. Mà nói về chức nghiệp này yếu cũng không sai. Vài trường hợp xấu có thể khiến đồng đội gặp rắc rối và nguy hiểm vì không thể tự đảm bảo an toàn. Nhưng tôi tin kỹ năng của mình sẽ bù vào thiếu sót đó. Trước khi tôi kịp mở miệng thì Kowashi đã lên tiếng.'
+				content: 'Làm chị Maki lo cho tôi mất rồi. Mà nói về chức nghiệp này yếu cũng không sai. Vài trường hợp xấu có thể khiến đồng đội gặp rắc rối và nguy hiểm vì không thể tự đảm bảo an toàn. Nhưng tôi tin kỹ năng của mình sẽ bù vào thiếu sót đó. Trước khi tôi kịp mở miệng thì Kowashi đã lên tiếng.'
 			},
 			{
 				class: 'Kowashi',
@@ -3559,7 +3564,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi bắt đầu sơ chế ngay khi mẹ rời đi. Nguyên liệu trên bếp không khác quá nhiều so với thế giới trước, khác chăng chỉ là hình thái của “nguồn nguyên liệu” đó mà thôi. Với những nguyên liệu có được,『Bắp cải trộn ngô』và『Bò hầm』là hai lựa chọn của tôi. Giờ, đã đến lúc vận dụng các kỹ năng từ chức nghiệp của mình rồi... Cầm “thanh gươm chiến thắng” trong tay, tôi nhịp nhàng cắt rau củ đã gọt vỏ rửa sạch, thành các miếng vừa miệng, rồi chia rõ từng thứ ra: rau và ngô được để riêng cho món trộn, còn những miếng khoai tây với cà rốt vuông vức đặt sẵn trong nồi gang, chuẩn bị cho món hầm. Trút sẵn nước sạch vào nồi, tôi lập tức thi triển『Lục phong Tinh thông』sau khi nhóm lửa, vừa chuẩn bị luôn cho nồi thịt bò cũng đã cắt miếng, rửa sạch và ướp chút hương liệu. Một nồi để sơ chế thịt, một nồi hầm sẵn rau củ cho mềm. Nhanh chóng vớt rau đã chín, chuyển khoai và cà rốt sang, nhẹ nhàng rắc muối lên nồi thịt ngả màu nâu sẫm đang bập bùng, theo cái cách mà tôi đã chứng kiến ở tiền kiếp. Đã nấu thì không chỉ phải ngon, mà cũng phải thật “kiểu cách”, tôi nghĩ vậy.'
+				content: 'Tôi bắt đầu sơ chế ngay khi mẹ rời đi. Nguyên liệu trên bếp không khác quá nhiều so với thế giới trước, khác chăng chỉ là hình thái của “nguồn nguyên liệu” đó mà thôi. Với những nguyên liệu có được,『Bắp cải trộn ngô』và『Bò hầm』là hai lựa chọn của tôi. Giờ, đã đến lúc vận dụng các kỹ năng từ chức nghiệp của tôi rồi... Cầm “thanh gươm chiến thắng” trong tay, tôi nhịp nhàng cắt rau củ đã gọt vỏ rửa sạch, thành các miếng vừa miệng, rồi chia rõ từng thứ ra: rau và ngô được để riêng cho món trộn, còn những miếng khoai tây với cà rốt vuông vức đặt sẵn trong nồi gang, chuẩn bị cho món hầm. Trút sẵn nước sạch vào nồi, tôi lập tức thi triển『Lục phong Tinh thông』sau khi nhóm lửa, vừa chuẩn bị luôn cho nồi thịt bò cũng đã cắt miếng, rửa sạch và ướp chút hương liệu. Một nồi để sơ chế thịt, một nồi hầm sẵn rau củ cho mềm. Nhanh chóng vớt rau đã chín, chuyển khoai và cà rốt sang, nhẹ nhàng rắc muối lên nồi thịt ngả màu nâu sẫm đang bập bùng, theo cái cách mà tôi đã chứng kiến ở tiền kiếp. Đã nấu thì không chỉ phải ngon, mà cũng phải thật “kiểu cách”, tôi nghĩ vậy.'
 			},
 			{
 				class: 'Shuuya',
@@ -3809,7 +3814,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Cảm giác được ai đó trông chờ thật là hạnh phúc. Nhưng tim mình vừa lỡ một nhịp thì phải... Lạ thật...'
+				content: 'Cảm giác được ai đó trông chờ thật là hạnh phúc. Nhưng tim tôi vừa lỡ một nhịp thì phải... Lạ thật...'
 			},
 			{
 				class: 'ShuuyaMother',
@@ -3844,7 +3849,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Thật ấm áp khi được ngồi ăn cũng những người mình quen. Ở kiếp trước tôi cũng khó có được khung cảnh như hiện giờ.'
+				content: 'Thật ấm áp khi được ngồi ăn cũng những người tôi quen. Ở kiếp trước tôi cũng khó có được khung cảnh như hiện giờ.'
 			},
 			{
 				class: 'Kowashi',
@@ -4220,7 +4225,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Thì ra ý mọi người là như vậy. Làm mọi người lo lắng cho mình rồi, trừ thằng Fig ra. Nếu vậy chỉ còn cách chứng minh thôi.'
+				content: 'Thì ra ý mọi người là như vậy. Làm mọi người lo lắng cho tôi rồi, trừ thằng Fig ra. Nếu vậy chỉ còn cách chứng minh thôi.'
 			},
 			{
 				class: 'Shuuya',
@@ -4270,7 +4275,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi và mọi người khá bất ngờ khi Hyouka nói vậy. Lâu rồi mới được người khác tin tưởng vào mình như vậy.'
+				content: 'Tôi và mọi người khá bất ngờ khi Hyouka nói vậy. Lâu rồi mới được người khác tin tưởng vào tôi như vậy.'
 			},
 			{
 				class: 'Asahi',
@@ -4355,7 +4360,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Ánh nhìn của người cha ái ngại nhưng cũng chỉ có thể thở dài. Mẹ và bộ đôi thì trông có vẻ hơi lo, còn lại là Hyouka... Mình không hiểu được nhỏ đang nghĩ gì, ánh mắt đó chẳng hề thay đổi.'
+				content: 'Ánh nhìn của người cha ái ngại nhưng cũng chỉ có thể thở dài. Mẹ và bộ đôi thì trông có vẻ hơi lo, còn lại là Hyouka... Tôi không hiểu được nhỏ đang nghĩ gì, ánh mắt đó chẳng hề thay đổi.'
 			},
 			{
 				class: 'ShuuyaFather',
@@ -4571,7 +4576,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Tôi nghe vậy liền chạy nhanh đến chỗ đám bạn của mình.'
+				content: 'Tôi nghe vậy liền chạy nhanh đến chỗ đám bạn.'
 			},
 			{
 				class: 'Shuuya',
@@ -4921,7 +4926,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Thì ra đây là cách nhận chức nghiệp. Mà mình đã có chức nghiệp『Đầu bếp』từ lúc đến thế giới này rồi, thậm chí là có thể sử dụng luôn ý chứ. Chắc không được nhận thêm chức nghiệp nào nữa đâu nhỉ?'
+				content: 'Thì ra đây là cách nhận chức nghiệp. Mà tôi đã có chức nghiệp『Đầu bếp』từ lúc đến thế giới này rồi, thậm chí là có thể sử dụng luôn ý chứ. Chắc không được nhận thêm chức nghiệp nào nữa đâu nhỉ?'
 			},
 			{
 				class: 'Palas',
@@ -5302,7 +5307,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Hể? Hyouka vừa bảo mình ở lại đúng không nhỉ? Cô ý vừa mở lòng phải không? Đây có thể là dấu hiệu tốt, mình nên nắm bắt lúc này để giúp Hyouka.'
+				content: 'Hể? Hyouka vừa bảo tôi ở lại đúng không nhỉ? Cô ý vừa mở lòng phải không? Đây có thể là dấu hiệu tốt, tôi nên nắm bắt lúc này để giúp Hyouka.'
 			},
 			{
 				class: 'Hyouka',
@@ -5322,7 +5327,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Vậy thì lạ thật... Chẳng lẽ là do rò rỉ ma lực? Hay là do kỹ năng nội tại? Trời! Nay đau đầu quá, mấy cái này mình sẽ xử lí sau vậy.'
+				content: 'Vậy thì lạ thật... Chẳng lẽ là do rò rỉ ma lực? Hay là do kỹ năng nội tại? Trời! Nay đau đầu quá, mấy cái này tôi sẽ xử lí sau vậy.'
 			},
 			{
 				class: 'Shuuya',
@@ -5739,7 +5744,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Êm quá... Đám mây này mình sẽ không thả tay ra đâu. Muốn ôm mãi cơ...'
+				content: 'Êm quá... Đám mây này tôi sẽ không thả tay ra đâu. Muốn ôm mãi cơ...'
 			},
 			{
 				class: 'think',
@@ -5749,7 +5754,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Kowashi' ],
-				content: 'Phải rồi... Đám mây kêu nya thật... Ủa khoan đã sao lại kêu nya? Mà sao tự nhiên đám mây khiến mình muốn hắt hơi...'
+				content: 'Phải rồi... Đám mây kêu nya thật... Ủa khoan đã sao lại kêu nya? Mà sao tự nhiên đám mây khiến tôi muốn hắt hơi...'
 			},
 			{
 				class: 'think',
@@ -6040,7 +6045,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Cứ tưởng sau cú né tôi có thể trả đòn nhưng ai ngờ pha đó là để nhử mình. Không hổ danh cha được thăng chức, quả thật rất xứng đáng.'
+				content: 'Cứ tưởng sau cú né tôi có thể trả đòn nhưng ai ngờ pha đó là để nhử tôi. Không hổ danh cha được thăng chức, quả thật rất xứng đáng.'
 			},
 			{
 				class: 'ShuuyaFather',
@@ -6471,7 +6476,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Vậy là linh cảm của tôi đã đúng. Cha mẹ rất yêu thương tôi nhưng đặc biệt là cha thì có phần hơi bao bọc mình quá. Chắc cha muốn tôi đi lính để có thể trông chừng tôi... mặc dù đây là ý tốt và tôi sẽ không phải lo gì nhiều. Nhưng... đây là cuộc sống thứ hai của tôi... Tôi muốn tự bước đi bằng chính bản thân mình mà kiếp trước chưa từng dám. Vậy nên, tôi nghiêm túc nhìn thẳng và cha và dõng dạc nói về hướng đi của mình.'
+				content: 'Vậy là linh cảm của tôi đã đúng. Cha mẹ rất yêu thương tôi nhưng đặc biệt là cha thì có phần hơi bao bọc tôi quá. Chắc cha muốn tôi đi lính để có thể trông chừng tôi... mặc dù đây là ý tốt và tôi sẽ không phải lo gì nhiều. Nhưng... đây là cuộc sống thứ hai của tôi... Tôi muốn tự bước đi bằng chính bản thân mình mà kiếp trước chưa từng dám. Vậy nên, tôi nghiêm túc nhìn thẳng và cha và dõng dạc nói về hướng đi của mình.'
 			},
 			{
 				class: 'Shuuya',
@@ -6571,7 +6576,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sau khi xem lại một số thông tin của bản thân thì tôi bắt đầu luyện tập sử dụng các kỹ năng vào mỗi tối như thường lệ. Danh hiệu『Lục phong Chúc phúc』là từ điều ước đầu tiên của tôi, cho phép triển khai ma pháp hệ phong nhanh và tiêu thụ ít ma lực hơn. Hồi đầu khi sử dụng phong thuật thì tôi đã làm rối tung hết cả căn phòng lên, tất nhiên là không bị phát hiện nhưng đã bị cha mắng cho một trận vì căn phòng bừa bộn. Dần dần tôi đã kiểm soát được và có được kỹ năng『Lục phong Tinh thông』. Đây là ma pháp cho phép tôi điều khiển gió theo ý mình muốn ở mức cơ bản. Mục đích của ma pháp này để tôi có thể định hình gió ở một dạng nhất định, nói dễ hiểu hơn thì phát triển ma pháp mới từ sự định hình đó. Và hiện tại tôi đã phát triển được thêm hai phong thuật mới là『Hòa âm Kết giới』và『Trôi nổi』.'
+				content: 'Sau khi xem lại một số thông tin của bản thân thì tôi bắt đầu luyện tập sử dụng các kỹ năng vào mỗi tối như thường lệ. Danh hiệu『Lục phong Chúc phúc』là điều ước đầu tiên của tôi, cho phép triển khai phong thuật nhanh và tiêu thụ ít ma lực hơn. Hồi đầu khi sử dụng phong thuật thì tôi đã làm rối tung hết cả căn phòng lên, tất nhiên là không bị phát hiện nhưng đã bị cha mắng cho một trận vì căn phòng bừa bộn. Dần dần tôi đã kiểm soát được và có được kỹ năng『Lục phong Tinh thông』. Đây là ma pháp cho phép tôi điều khiển gió theo ý mình muốn ở mức cơ bản. Mục đích của phong thuật này để tôi có thể định hình gió ở một dạng nhất định, nói dễ hiểu hơn thì phát triển ma pháp mới từ sự định hình đó. Và hiện tại tôi đã phát triển được thêm hai phong thuật mới là『Hòa âm Kết giới』và『Trôi nổi』.'
 			},
 			{
 				class: 'think',
@@ -6783,7 +6788,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Rồi ngày hôm sau đó, tôi cùng mẹ đến cô nhi viện để xem có giúp được gì không thì tôi đã gặp cậu ý đang đứng khoanh tay dựa tường. Lúc đó cậu trông rất khó gần, cảm giác như đang xua đuổi mấy đứa trẻ khác vậy. Tôi liền thử tới bắt chuyện nhưng cậu lại tỏ vẻ đáng sợ như đang muốn bảo đừng làm phiền vậy. Tôi đến bên cạnh nói vài câu nhưng cậu cũng chả phản hồi gì, làm như không nghe thấy tôi vậy. Thế nên là tôi đã rời đi. Nhưng tình cờ lúc đó có một chú diều hâu đang tha một quả táo. Có vẻ như cuống của quả táo không chịu được nữa nên đã đứt. Quả táo rơi xuống mái nhà, đập trúng vào một cái mái ngói khiến nó bị rơi và vị trí rơi lại là nơi tôi đi. Sau khi nghe thấy âm thanh lạ ở phía trên, tôi chưa kịp phản ứng gì thì mình đã bị đẩy ngã. Tôi hơi choáng sau cú ngã đó, nhìn qua cạnh chân mình thì đó là một cái mái ngói. À, thì ra cậu ta vừa cứu mình. Tôi không biết tại sao cậu lại tỏ vẻ như vậy. Tôi đứng dậy, kéo cậu đứng lên và nói chuyện.'
+				content: 'Rồi ngày hôm sau đó, tôi cùng mẹ đến cô nhi viện để xem có giúp được gì không thì tôi đã gặp cậu ý đang đứng khoanh tay dựa tường. Lúc đó cậu trông rất khó gần, cảm giác như đang xua đuổi mấy đứa trẻ khác vậy. Tôi liền thử tới bắt chuyện nhưng cậu lại tỏ vẻ đáng sợ như đang muốn bảo đừng làm phiền vậy. Tôi đến bên cạnh nói vài câu nhưng cậu cũng chả phản hồi gì, làm như không nghe thấy tôi vậy. Thế nên là tôi đã rời đi. Nhưng tình cờ lúc đó có một chú diều hâu đang tha một quả táo. Có vẻ như cuống của quả táo không chịu được nữa nên đã đứt. Quả táo rơi xuống mái nhà, đập trúng vào một cái mái ngói khiến nó bị rơi và vị trí rơi lại là nơi tôi đi. Sau khi nghe thấy âm thanh lạ ở phía trên, tôi chưa kịp phản ứng gì thì mình đã bị đẩy ngã. Tôi hơi choáng sau cú ngã đó, nhìn qua cạnh chân mình thì đó là một cái mái ngói. À, thì ra cậu ta vừa cứu tôi. Không biết tại sao cậu lại tỏ vẻ như vậy. Tôi đứng dậy, kéo cậu đứng lên và nói chuyện.'
 			},
 			{
 				class: 'Shuuya',
@@ -6928,7 +6933,7 @@ const volume = [
 			{
 				class: 'Kalisa',
 				name: [ 'Kalisa' ],
-				content: 'Chuyện khẩn cấp gì vậy? Ôi! Mau đưa cô bé đó lên giường mau. Tôi sẽ lấy『Thuốc hồi phục』ngay.'
+				content: 'Chuyện khẩn cấp gì vậy? Ôi! Mau đưa cô bé đó lên giường mau. Tôi sẽ lấy『Thuốc Hồi phục』ngay.'
 			},
 			{
 				class: 'soldiers',
@@ -7179,7 +7184,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Sơ Kalisa hơn tuổi mẹ tôi nhiều nên chắc đã ngoài bốn mươi cùng mái tóc vàng đã phai dần. Trang phục thường mặc của sơ là áo choàng dài đen phủ toàn cơ thể với dây buộc quanh eo, cùng mũ chùm đen che đi một phần trán và tóc thể hiện sự giản dị, không lưu luyến vật chất. Sơ Kalisa là một người nhân hậu và luôn ân cần giang tay giúp đỡ những đứa trẻ mồ côi.'
+				content: 'Sơ Kalisa hơn tuổi mẹ tôi nhiều nên chắc đã ngoài bốn mươi cùng mái tóc vàng đã phai dần. Trang phục thường mặc của sơ là áo choàng dài đen phủ toàn cơ thể với dây buộc quanh eo, cùng mũ trùm đen che đi một phần trán và tóc thể hiện sự giản dị, không lưu luyến vật chất. Sơ Kalisa là một người nhân hậu và luôn ân cần giang tay giúp đỡ những đứa trẻ mồ côi.'
 			},
 			{
 				class: 'think',
@@ -7214,7 +7219,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Cả hai người đều là những người bạn quan trọng của tôi nhưng để mà nói thì các cậu ấy là “bộ đôi rắc rối”. Đúng vậy, bộ đôi rất tinh nghịch và hay quậy phá. Chắc vì họ vẫn là trẻ con nên hành xử như vậy là đúng với tuổi. Không như mình... Dù sao thì hành động của độ đôi cũng không vượt quá giới hạn và cũng biết lúc nào nên dừng lại những hành động nên là cũng không có ai ghét họ cả.'
+				content: 'Cả hai người đều là những người bạn quan trọng của tôi nhưng để mà nói thì các cậu ấy là “bộ đôi rắc rối”. Đúng vậy, bộ đôi rất tinh nghịch và hay quậy phá. Chắc vì họ vẫn là trẻ con nên hành xử như vậy là đúng với tuổi. Không như tôi... Dù sao thì hành động của độ đôi cũng không vượt quá giới hạn và cũng biết lúc nào nên dừng lại những hành động nên là cũng không có ai ghét họ cả.'
 			},
 			{
 				class: 'think',
@@ -7310,7 +7315,7 @@ const volume = [
 			{
 				class: 'think',
 				name: [ 'Shuuya' ],
-				content: 'Ấm áp quá... Ánh sáng... Tôi đã có thể mở mắt và trước mắt tôi là một người phụ nữ tóc dài đang ôm mình? Dường như đây là mẹ... Cơ thể tôi hiện tại khá yếu... Đúng là mình đã được chuyển sinh thật rồi! Căn phòng hơi tối nên tôi không nhìn rõ được khuôn mặt.'
+				content: 'Ấm áp quá... Ánh sáng... Tôi đã có thể mở mắt và trước mắt tôi là một người phụ nữ tóc dài đang ôm tôi? Dường như đây là mẹ... Cơ thể tôi hiện tại khá yếu... Đúng là tôi đã được chuyển sinh thật rồi! Căn phòng hơi tối nên tôi không nhìn rõ được khuôn mặt.'
 			},
 			{
 				class: 'think',
