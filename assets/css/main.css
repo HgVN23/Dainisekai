@@ -57,7 +57,8 @@ header {
 .dainisekaiSymbol,
 .logHorizonSymbol,
 .urzogSymbol,
-.skyriderSymbol {
+.skyriderSymbol,
+.skyriderLegacySymbol {
 	margin: .3rem 0;
 	cursor: pointer;
 }
@@ -80,6 +81,11 @@ header {
 	content: url(../media/image/symbol/skyrider.png);
 	width: 3.5rem;
 	height: 3.5rem;
+}
+.skyriderLegacySymbol {
+	content: url(../media/image/symbol/skyriderLegacy.png);
+	width: 3.5rem;
+	height: 3rem;
 }
 .title,
 .button {
@@ -344,13 +350,15 @@ p.clickable {
 	width: 100%;
 }
 p,
-li {
+li,
+b {
 	white-space: pre-wrap;
 	user-select: text;
 	line-height: 1.4rem;
 }
 p::selection,
-li::selection {
+li::selection,
+b::selection {
 	color: aqua;
 }
 .info p {
