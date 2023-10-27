@@ -3,14 +3,90 @@ const formatStyle = 'normal';
 const name = 'Skyriders - A space odyssey';
 const volume = [
 	// {
-	// 	chapter: ,
+	// 	chapter: '',
 	// 	title: '',
 	// 	content: [
 
 	// 	]
 	// },
 	{
-		chapter: 4.9,
+		chapter: '4.10',
+		title: 'The never ending melody I',
+		content: [
+			'“Ngon thật đó~” – Fig chép miệng, vẫn còn tiếc rẻ, sau khi đã cùng Huệ Nhi ăn xong bữa trưa, cùng với “bữa phụ” mà Huệ Nhi gọi thêm cho cậu. Khác với mọi lần, Huệ Nhi cũng ngồi ăn cùng Fig, và đã hoàn thành suất ăn của mình – phần lớn thời gian, cô nhường lại miếng ăn cho Fig, nhưng lần này, cô cũng đã ăn được hết phần của mình. Tuy vẫn chẳng cảm nhận được hương vị gì mấy, nhưng nhìn vẻ mặt háo hức của Fig khi thử các món mới, cô cũng vui lắm rồi. Có lẽ chính vì thế, mà cô có cảm giác là những món cô ăn khi đó có chút “vị ngọt” mà cô không thể diễn tả được…',
+			'“Ăn thế rồi mà còn muốn nữa sao” – Huệ Nhi nhìn Fig bằng ánh mắt quen thuộc, nhưng mỉm cười. Fig khẽ lắc đầu – tuy đúng là Ngân lượng còn nhiều, nhưng dù sao thì sức ăn của cậu cũng có hạn. “Tôi cũng no lắm rồi~” – Fig toe toét cười, tay cầm lấy chiếc “máy ảnh” – “Nghỉ một lúc rồi lại đi chơi tiếp chứ, hôm nay còn nhiều thứ để làm mà, ehe~”',
+			'Cả hai người bọn họ vẫn tiếp tục nói cười, và ở bàn cách phía đó không xa, Hoành Mỹ cũng vui như thể cô cũng đang ngồi cùng họ vậy. Lộc Thanh nhìn “cô chủ” bằng nửa con mắt – biết là Hoàng Mỹ hâm mộ “Bạch Nguyệt” đã từ lâu, nhưng Lộc Thanh cũng chưa thể quen nổi cách cô “đu thần tượng”, dù điều này diễn ra thì cũng đã lâu. Chưa kể, lần này Hoành Mỹ lại thần tượng luôn cả người đi cùng “Bạch Nguyệt” nữa – kể cả khi bị “kiểm soát”, cậu cũng không hề vui vì điều này, thậm chí còn có chút “ghen tị”. Quả không ngoa khi nói đây là một phần lý do mà hai người bọn họ thua cuộc – Lộc Thanh không hề chiến đấu hết mình khi đó, như thể sợ rằng nếu Hoàng Mỹ thắng, cậu sẽ không còn được cô để ý tới nữa…',
+			'“Này, này, Houston, nghe rõ trả lời?” – Hoàng Mỹ khua bàn tay sát mặt Lộc Thanh, làm cậu giật mình. “Làm gì mà ngây người ra thế, Lộc Thanh? Lại suy nghĩ vẩn vơ gì à?” – vẻ mặt Hoàng Mỹ hơi lo lắng chút, còn Lộc Thanh thì chỉ biết cười xòa. Quả thật, “cô chủ” của cậu, nếu không thao thao bất tuyệt về Kiếm vũ hay về “Bạch Nguyệt tiên sinh”, thì nhiều lúc cũng rất dễ thương, hệt như lúc này. “Cô đoán trúng rồi đó” – Lộc Thanh tặc lưỡi – “Tôi chỉ đang ngồi suy nghĩ chút thôi”.',
+			'“Chúng ta cũng chuẩn bị đi được rồi đấy” – ánh mắt nâu sáng của Hoành Mỹ trở lại với vẻ tinh nghịch thường ngày, và nụ cười của cô cũng vậy. “Hai người bọn họ chuẩn bị qua số nhà 15 đó, nên chúng ta cũng tới là vừa” – cô định đứng dậy, nhưng Lộc Thanh lại ra hiệu cho cô ngồi xuống. Dường như vì quá phấn khích khi thấy “thần tượng” đi qua, Hoành Mỹ kéo ghế đứng dậy hơi mạnh, và suýt thì té ngã – cũng may là khi Lộc Thanh đỡ lấy cô, Fig và Huệ Nhi cũng đã rời đi.',
+			'“Cô không sao chứ?” – Lộc Thanh hỏi, còn Hoành Mỹ vội xua tay, mặt đỏ như trái gấc chín. “Không sao, không sao!” – Hoành Mỹ vội vã nói, cố nhỏ giọng nhất có thể. “Cậu nói to nữa là lộ cả đó! Đâu thể để “cặp uyên ương” đó phát hiện ra chúng ta, phải chứ?” – giọng cô ra chiều bí mật, còn Lộc Thanh chỉ biết ngao ngán nhìn “cô chủ” của mình. Chẳng phải khi đó, nếu Hoành Mỹ đứng dậy sớm hơn chút nữa thì cả hai đã lộ rồi sao, Lộc Thanh đã nghĩ vậy, trước khi đặt lại chiếc kính râm lên mặt Hoành Mỹ – cặp kính đó, cùng với chiếc mũ rộng vành, là hai thứ giúp cho cả hai người bọn họ che giấu đi “khí” của mình, tránh để bị phát hiện. Tất cả mấy thứ trên, họ đều đặt từ “Tiệm may Tây Lăng” ở số 15 Thủ phủ – nơi mà cả hai cũng sẽ đến, và là nơi mà Hoành Mỹ đã chuẩn bị cho “cặp uyên ương” một bất ngờ thú vị…',
+			'“Được rồi, họ cũng đã đi được kha khá xa rồi đó~” – nấp phía sau bức tường, Hoành Mỹ nói nhỏ, giọng vẫn đầy phấn khích. Mọi thứ đang diễn ra đúng theo kế hoạch của cô và Lộc Thanh, và họ chẳng có việc gì phải quá vội vã – dù sao, chỉ đến khi Fig và Huệ Nhi rời tiệm may, hai người bọn họ mới có thể vào gặp Tây Lăng, chuẩn bị cho “khúc bế mạc” đầy bất ngờ mà cô chuẩn bị sẵn. “Chúng ta sẽ đi hướng khác họ nhé, tránh bị phát hiện” – cô trỏ tay sang con đường khác cũng gần đó. Từng là một “tuyển trạch viên” cho Tín đồ Trường sinh, Hoành Mỹ thuộc các tuyến đường trong Thủ phủ như lòng bàn tay – tuyến đường cô trỏ tới, có thể xa hơn tuyến đường mà Fig và Huệ Nhi đi, nhưng rồi cũng sẽ dẫn tới một đích đến.',
+			'“Đoạn đường này hơi xa, cô không sợ sẽ mất dấu họ sao?” – Lộc Thanh hỏi, giọng có chút băn khoăn. Cậu vốn tin tưởng tuyệt đối vào những kế hoạch của Hoành Mỹ, kể cả những lần cô “đu thần tượng” hay làm những điều hơi “bất thường”. Đáp lại sự băn khoăn của Lộc Thanh, Hoành Mỹ tiến sát gần cậu, nở nụ cười đầy tự tin – hệt như nụ cười từng thắp lên những tia sáng hy vọng đầu tiên với cậu khi ấy. “Đừng lo, tất cả đã nằm trong tính toán của tôi rồi~” – cô giơ ngón tay cái trước Lộc Thanh, rồi nhìn về phía con đường họ định đi.',
+			'“Dù gì đi chăng nữa, hôm nay cũng là Trung thu…” – nụ cười của cô trở nên ấm áp hơn, khi cô quay lại nhìn Lộc Thanh. “Dịp lễ hội vui vẻ thế này, chẳng phải là cách hay để cậu dành thời gian với tôi sao?”',
+			'Huệ Nhi và Fig vẫn vui vẻ rảo bước, không hề bận tâm đến những thứ xung quanh, hay hai “người lạ” gần đó. Suốt chuyến đi, Huệ Nhi không bao giờ rời mắt khỏi Fig quá lâu – ánh sáng ấm áp, tiếng nói cười vui vẻ xung quanh với cô cũng không còn quá quan trọng, dù đó là một phần của ký ức xa xăm của chính cô. Lúc này đây, nụ cười của “cậu em” đi bên cạnh cô có lẽ là quan trọng hơn bao giờ hết – chụp lại bằng “máy ảnh” có lẽ cũng chẳng đủ với Huệ Nhi, để có thể lưu giữ lại sự ấm áp ấy.',
+			'“Ừ-ừm… Chúng ta qua tiệm đó trước đi…” – Fig trỏ về phía quầy bán đèn lồng giấy. Mặt cậu hơi đỏ hơn khi nhận ra bàn tay của Huệ Nhi cũng dần nắm lấy tay cậu chặt hơn, cũng như ánh mắt trìu mến mà cô dành cho cậu – ban nãy mải nói chuyện, Fig chưa hề nhận ra điều này, nhưng khi nắm lấy bàn tay búp măng của cô gái, cậu không hề cảm nhận thấy sự lạnh lẽo như lệ thường. Khi Fig “mạnh miệng” nói sẽ hóa giải lời nguyền cho Huệ Nhi, cậu cũng không ngờ là mọi thứ sẽ tiến triển theo hướng này – không lẽ, “hạnh phúc” chính là cách để hóa giải lời nguyền đó, và sự ấm áp Fig cảm nhận được lúc này, không lẽ là một dấu hiệu? Fig cũng không biết nữa, nhưng để chắc chắn, cậu cũng muốn qua tiệm đèn lồng kia – thêm một chiếc đèn lồng cầu may, có lẽ cũng sẽ tốt cho kế hoạch “hạnh phúc” của cậu.',
+			'“Chào mừng quý khách đã đến với tiệm đèn lồng Kiều Hoa!” – người chủ tươi cười đón chào hai người khách hàng, ánh mắt cô sáng lên như viên ngọc màu đỏ đeo trên tay vậy. “Hai chị em muốn đặt làm đèn lồng loại gì, cửa hàng sẵn sàng đáp ứng~!” – cô vui vẻ khoát tay lên những chiếc đèn mẫu sặc sỡ treo quanh tiệm, nói giọng đầy tự tin – “Mấy ngày qua, cửa hàng đã chuẩn bị rất nhiều đèn lồng cho dịp Lễ hội này, nhưng quý khách yên tâm, chúng tôi luôn có đủ nguyên liệu để làm những chiếc đèn cầu may cho quý khách!”',
+			'“Vậy thì… Chúng cháu sẽ chọn mẫu này!” – Fig mỉm cười vui vẻ, chọn mẫu đèn phía trên cao sau một hồi ngẫm nghĩ, trước sự bất ngờ của cả Huệ Nhi lẫn chủ cửa hàng. “Ái chà~” – Kiều Hoa thốt lên, còn Huệ Nhi thì quay sang nhìn Fig, chẳng biết là nên giải thích cho cậu về những hình trang trí cô thấy ở mẫu đèn đó. Mẫu đèn Fig trỏ đến, với màu sắc khá rực rỡ, là một mẫu đèn khá cổ – những họa tiết trên đó, miêu tả những cành hoa dưới ánh trăng, xuất phát từ một truyền thống đã cũ của lễ hội Trung thu, nơi những cặp đôi thả đèn Hoa đăng lên bầu trời đêm để chúc phúc cho…',
+			'“Hai người chắc chắn sẽ chọn mẫu đèn này chứ?” – cô chủ cửa hàng hỏi lại lần nữa, cắt ngang dòng suy nghĩ của Huệ Nhi. “Cháu chắc chắn ạ!” – Fig nói, giọng đầy tự tin và có gì đó tự hào khi nhìn Kiều Hoa và Huệ Nhi, không hề để ý tới việc mặt của Huệ Nhi dường như cũng đã hơi ửng đỏ. Họa tiết của chiếc đèn đó rất đẹp, lại có trăng nữa – vừa hợp với dịp lễ hội này, vừa hợp với Huệ Nhi nữa. “Chắc chắn chị ấy sẽ thích!” – vẻ mặt Fig vẫn vô cùng đắc ý, mặc cho cái nhìn có vẻ hơi “dè dặt” của Kiều Hoa, và ánh mắt “thông cảm” của Huệ Nhi. “Chị cứ làm mẫu này đi” – cô nói nhỏ với người chủ cửa hàng, người cảm thấy còn băn khoăn hơn trước câu trả lời của Huệ Nhi.',
+			'“Không sao đâu, cô cứ làm đi… Tôi cũng thích mẫu này lắm” – Huệ Nhi mỉm cười, còn mũi Fig thì càng phổng hơn nữa. “Tôi biết cô sẽ thích mà, ehe~” – Fig nhanh tay chụp ảnh lại nụ cười của Huệ Nhi, rồi giơ ngón tay cái lên ra vẻ tự hào. Cách xưng hô của cậu bé với người “chị” cao gần gấp đôi cậu lại càng khiến Kiều Hoa ngạc nhiên hơn, nhưng ngẫm lại, cô cũng không còn thấy quá kỳ lạ nữa – kiểu hẹn ước thế này, cũng là cách cô gặp được “ý trung nhân” của đời mình, và có lẽ, cậu nhóc kia cũng đang nghĩ như vậy. “Kể ra cũng hoài niệm thật đó~” – cô mỉm cười, kéo chiếc đèn mẫu xuống. Chiếc đèn này, cô đã làm cũng từ ngày đầu tiên gặp “người đó”, và thật vui khi cô được làm một chiếc như thế một lần nữa – truyền thống “đèn chúc phúc” kiểu này cũng đã không còn thịnh hành nữa, nhưng “người đó” vẫn vui vẻ đón nhận, và tuy anh ta không còn ở Thần khí Tinh, cô vẫn chờ anh trở về, để có thể cùng nhau thả chiếc đèn này, thắp sáng bầu trời đêm với hy vọng của họ…',
+			'“Hai người đợi chút nhé, sẽ xong ngay thôi~” – Kiều Hoa bắt đầu xắn tay áo lên ngồi làm chiếc đèn lồng, còn Fig thì nhìn ngắm với sự chú ý cao độ. Người chủ cửa hàng cũng sớm nhận ra cậu bé, cô mỉm cười nhìn cậu. “Chà, cậu bé cũng có vẻ hứng thú nhỉ~” – người chủ cửa hàng nói nhỏ, còn Fig gật đầu lia lịa, ra chiều hưởng ứng. “Đương nhiên rồi!” – cậu bé mỉm cười thật tươi, nhìn vào lớp vải đang được thêu cho chiếc đèn.',
+			'“Nếu được làm người đi cùng tôi hạnh phúc… Thì tôi luôn sẵn sàng!”',
+			'Huệ Nhi thoáng quay đi sau câu nói đầy quyết tâm của Fig. Cô chủ cửa hàng khẽ cười, cúi đầu tỏ vẻ thán phục – hồi mới gặp “người đó”, cô cũng đâu thể nói tự tin như này, và phải qua chiếc đèn lồng cô dành rất lâu để làm, cô mới có thể nói hết lòng mình như vậy. Nhìn Fig và người chủ cửa hàng bắt đầu cùng làm, Huệ Nhi mỉm cười ấm áp nhìn theo, khá thích thú với sự khéo léo của “cậu em”. Bạch Vân trước kia cũng khéo tay như vậy, gần như món đồ thủ công gì cậu cũng làm được – nhìn Fig cặm cụi ngồi làm chiếc đèn, Huệ Nhi nhớ tới chiếc đèn lồng mà Bạch Vân làm khi ấy, thứ mà cô đã để lại cùng với những ký ức đã chôn vùi trong ngọn lửa khi ấy. Một mảnh vỡ ký ức hạnh phúc còn dang dở, giờ đang được Fig nối liền lại bằng sự “hạnh phúc”, điều mà trước giờ cậu đã làm, để có thể phá bỏ lời nguyền…',
+			'“Tada~” – chiếc đèn lồng ngay lập tức được Fig đưa tới, làm Huệ Nhi hơi giật mình. Kể cũng tiếc, ban nãy lạc trong miền ký ức, cô chẳng kịp chụp lại một bức ảnh nào khi Fig làm chiếc đèn cả, nhưng vẻ mặt tự hào của Fig lúc này, cô nghĩ, cũng đáng chụp thật nhiều bức ảnh để “bù lại”. “Cô thấy “tác phẩm đầu tay” của tôi thế nào~?” – ánh mắt xanh sáng đầy háo hức của Fig dường như làm Huệ Nhi hơi bối rối. Cô hơi quay đi, cố gắng giữ nét mặt của mình như mọi ngày – Kiều Hoa chỉ biết cười trừ, vì “nỗ lực” đó rõ ràng là không thành công.',
+			'“Đẹp lắm đó. Cảm ơn cậu nhé, Fig” – Huệ Nhi khẽ cười, cầm chiếc đèn lên ngắm. Có lẽ là do lần đầu làm, Fig đã làm chiếc đèn nhỏ hơn so với chiếc mẫu, nhưng họa tiết thêu trên đó cũng khéo léo không khác gì chính Huệ Nhi khi thêu vải, gần như giống y hệt chiếc gốc. Khác chăng, có lẽ là họa tiết hình hai người nắm tay nhau đứng bên tán cây, cùng nhau ngắm nhìn ánh trăng vằng vặc soi phía trên. “Tôi tự thêu hình đó đấy…” – giọng Fig nhẹ nhàng hơn, và má cậu cũng đã hơi đỏ. Đây cũng là lời gợi ý của Kiều Hoa, và đúng như cô dự đoán, giờ thì cả Huệ Nhi cũng đỏ mặt như Fig vậy. Yên lặng hồi lâu, Huệ Nhi mới lên tiếng…',
+			'“Tôi thực sự thích lắm…” – Huệ Nhi đặt tay lên họa tiết của chiếc đèn, còn Fig thì mỉm cười hạnh phúc. Vào cuối ngày, họ sẽ cùng nhau thắp sáng chiếc đèn, như thắp sáng nguyện ước của cả hai vậy. Người chủ quán cũng vui cho hai người bọn họ, cho đến khi thấy tiếng gọi của Fig, ngắt dòng suy nghĩ của chính cô.',
+			'“Ngân lượng đây ạ!” – Fig vui vẻ xòe những tờ Ngân lượng. “Cảm ơn cô đã giúp cháu nhé!”. Nhìn những tờ Ngân lượng trên tay Fig, rồi nhìn lại chiếc đèn lồng, Kiều Hoa khẽ cười…',
+			'“Món quà vô giá thế này, xin cậu hãy nhận lấy, và trao nó cho người trân quý của cậu. Không cần phải trả tiền đâu~”',
+			'“Thật ạ?” – Fig ngạc nhiên, không kém gì Huệ Nhi. Đây chẳng rõ là lần thứ bao nhiêu trong ngày, hai người bọn họ đều có thể vui vẻ tham gia lễ hội mà chẳng cần phải lo thanh toán gì cả. “Liệu có giống lần đó không đấy…” – Huệ Nhi nói thầm vào tay Fig, nhưng cậu bé khẽ lắc đầu. “Không có chuyện đó đâu, “khí” của họ đều bình thường” – Fig nhỏ giọng. “Bác An Vũ hồi sáng còn có ngọc Vận mệnh mà, người có ngọc đó thì không bị ảnh hưởng bởi khí của người khác đâu!”',
+			'“Không cần phải lo lắng thế đâu, món quà này vô giá mà~” – nhận thấy sự băn khoăn của hai “khách quý”, cô chủ cười xuề xòa. “Với lại, đây là một món quà mà cậu bé này tự làm nữa, nên chính ra, cậu cũng chẳng cần phải trả đâu”. Kể cũng đúng, nhưng đúng ra vẫn phải trả tiền nguyên liệu chứ, Fig đã nghĩ vậy, cho đến khi người chủ quán phải nói thầm bên tai cậu…',
+			'“Sắp sửa đến lúc trăng lên rồi đó~ Chẳng phải đó cũng là lúc cậu làm cô ấy hạnh phúc rồi sao?”',
+			'“D-dạ…” – tai và má Fig lại đỏ hồng lên, trước sự băn khoăn của Huệ Nhi. Cậu cúi đầu lia lịa cảm ơn Kiều Hoa, chuẩn bị cất bước. Họ cũng đã đi gần hết khu phố rồi, giờ chỉ còn một địa điểm duy nhất gần trước mắt, nhưng trước đó, Fig rất muốn làm một việc…',
+			'Tiếng “tách” một lần nữa vang lên, và giữa khuôn hình, là Fig và Huệ Nhi, giữa những hàng đèn lồng đầy đủ sắc màu. Khuôn mặt Huệ Nhi có thoáng chút ngạc nhiên và bối rối, nhưng vẫn rất “dễ thương”, chiếc đèn lồng “đặc biệt” cả hai cầm trên tay – bức này cũng đáng đặt làm hình nền, Fig đã nghĩ như vậy. “Chụp thì phải nói trước chứ…” – Huệ Nhi nói nhỏ, nhưng cũng không đòi cậu xóa ảnh nữa. Một ký ức đẹp như bây giờ, có lẽ đáng được lưu giữ thật…',
+			'“Cảm ơn cô chủ nhiều nhé, ehe~” – Fig vẫy tay chào chủ cửa hàng, rồi cùng Huệ Nhi tiếp tục rảo bước. “Giờ là đến số nhà 15 nhỉ?” – Fig quay sang nhìn Huệ Nhi, rồi ngó nghiêng những biển số nhà. Ngày hôm nay, cả hai người đã đi rất nhiều nơi, chụp được rất nhiều bức ảnh, giờ chỉ còn mỗi “món quà” mà Hoành Mỹ nói sẽ dành cho cả hai. Và phía trước họ, là một tiệm may, với những tấm biển trang trí khá “Tây hóa” ở một hành tinh được người phương Đông khai phá. Chiếc biển ghi số mười lăm cũng được viết theo phông chữ tiếng Phổ thông, ở ngoài cửa sổ được đặt nhiều những chậu hoa nhỏ xinh, và dòng chữ “Tiệm may Tây Lăng” cũng được viết cách điệu bằng chữ Phổ thông.',
+			'“Một tiệm may kiểu Tây, đây là bất ngờ mà Hoành Mỹ dành cho chúng ta sao” – Fig thầm nghĩ, còn nhìn vẻ mặt của cậu nhóc, Huệ Nhi cũng hiểu cảm giác đó. “Nói gì thì nói, đây cũng là một bất ngờ mà…” – cô nhìn tấm biển với ánh mắt tò mò. Giờ thì cô đã nhớ ra căn nhà này, và xem ra, nó đã thay đổi quá nhiều so với hồi cô từng đến đây, dù là thứ duy nhất trong Thủ phủ mà cô còn nhận ra – thuở nhỏ cô cũng đã từng qua đây với Bạch Vân để mua quần áo mới chơi Tết, và từ hồi đó tiệm may đã nổi tiếng rồi. Chỉ là, cô cũng chẳng ngờ họ quyết định “Tây hóa” như vậy, nên suýt chút nữa, cô đã bỏ qua cửa tiệm này và đi tìm tiếp.',
+			'“Thôi thì chúng ta cũng nên vào trong đó” – Huệ Nhi ra hiệu cho Fig, rồi cả hai bước vào cửa tiệm. Đúng là từ phía ngoài vào đến trong tiệm, Tiệm may Tây Lăng trông chẳng giống với những căn nhà truyền thống ở Thần khí Tinh, và có lẽ, Fig sẽ thấy quen hơn với kiểu bài trí đồ đạc trong căn phòng này. “Kiến trúc cũng phương Tây quá…” – Fig thầm nghĩ, ngó nghiêng mọi thứ xung quanh, rồi bỗng chốc giật mình bởi một giọng nói…',
+			'“Ara~ Vậy ra đây là hai vị khách quý mà Hoành Mỹ nhắc đến sao?” – cô chủ trẻ tuổi vui vẻ chào hai người. Đến cả Huệ Nhi cũng hơi giật mình trước sự xuất hiện của người chủ cửa hàng – lúc bước chân vào đây, cô không hề cảm nhận được “khí” từ bất cứ ai, như thể chủ tiệm đi vắng vậy. Nếu không vì hương nước hoa nhè nhẹ thoảng khắp căn phòng khi Tây Lăng xuất hiện, cô có lẽ cũng sẽ bất ngờ không kém gì Fig.',
+			'“Làm hai người giật mình rồi sao? Thật thất lễ quá~” – cô gái khẽ lấy tay che miệng. Vốn đã quen với trang phục truyền thống của Thần khí Tinh, Fig không khỏi ngạc nhiên khi nhìn trang phục của Tây Lăng: một bộ đầm, hay đúng hơn là bộ váy màu xanh lá mạ với vạt dài đến quá đầu gối, nhiều lớp váy bồng bềnh như mái tóc màu hạt dẻ của cô quả thật là dễ gây chú ý với một người vốn là con dân của Thần khí tinh từ nhỏ – nhìn cô lần đầu, Fig thậm chí đã nghĩ rằng Tây Lăng là một “người nước ngoài” như cậu, thậm chí là một “quý tộc”. Trên chiếc mũ xanh rộng vành, một viên ngọc cũng màu xanh lá mạ được gài ngay ngắn vào dải ruy băng buộc quanh mũ, biểu tượng giống “chồi non” vươn mình ở chính giữa – ánh sáng xanh bí ẩn, cùng với “màn sương” hương nước hoa khiến cho người phụ nữ trước mắt hai người trở nên kỳ bí hơn bao giờ hết.',
+			'“Thứ lỗi cho sự xuất hiện đường đột của tôi, và chào mừng hai người đến với Tiệm may Tây Lăng nhé~” – cô gái mỉm cười, cúi chào Fig và Huệ Nhi. Cả hai người nhanh chóng đáp lễ, trước khi Huệ Nhi mở lời…',
+			'“Hân hạnh được gặp cô, Tây Lăng” – Huệ Nhi nhẹ nhàng nói. “Chúng tôi đến đây nhờ Hoành Mỹ giới thiệu. Cô ấy có nói về một “bất ngờ” muốn dành tặng chúng tôi…”',
+			'“Vậy thì hai người đến đúng lúc rồi đó~ Y phục Kiếm vũ đặc biệt của hai người, tôi cũng đã chuẩn bị xong xuôi rồi~” – Tây Lăng vui vẻ nói, vung vẩy ngón trỏ trong không trung, lẩm nhẩm một “thần chú” kỳ lạ. Dưới ánh đèn của tiệm may, Fig có thể nhìn thấy những sợi tơ nhỏ xuất hiện quanh ngón tay của Tây Lăng, rồi đột ngột như lúc chúng xuất hiện, những sợi tơ đó nhanh chóng biến mất, dường như hòa mình vào trong “màn sương” nguyên tố Mộc phủ khắp căn phòng. “Dân Thần khí Tinh… Lắm người lợi hại thật…” – Fig thầm nghĩ, nhớ tới viên ngọc màu vàng hổ phách bên túi bác An Vũ, trước khi sực nhớ ra điều gì đó.',
+			'“Y phục Kiếm vũ đặc biệt? Vậy ý cô là…” – Fig lên tiếng, hơi rụt rè hơn chút. Người phụ nữ bí ẩn khẽ mỉm cười. “Hoành Mỹ vẫn vậy nhỉ, muốn dành những thứ hay nhất đến phút chót…” – giọng của Tây Lăng dường như trở nên xa xăm, trước khi quay lại nhìn Fig và Huệ Nhi. “Có lẽ là cậu cũng hiểu rồi đó. Hoành Mỹ muốn hai người đến đây lấy y phục, cũng như nhấn mạnh việc tiệm may của tôi ở gần sân khấu trung tâm…”',
+			'“Cô ấy muốn hai người có một tiết mục đáng nhớ bên nhau đó~”',
+			'Nếu có Hoành Mỹ ở đây, thì hẳn cô sẽ tự hào và thích thú lắm, nhất là nếu nhìn thấy vẻ mặt của hai “thần tượng”. Tây Lăng cũng thích thú chẳng kém gì – tiệm may của cô, tuy đông khách, nhưng những người đến đây thường là khách nước ngoài qua mua những bộ “hàng hiệu”, và thường rời đi nhanh như lúc họ đến. Lần này còn có một “cặp đôi”, như Hoành Mỹ đã nói trước – dù khoảng cách tuổi tác cũng đáng đặt dấu hỏi, nhưng nhìn nét mặt bối rối của hai người, Tây Lăng cũng chẳng nghi ngờ gì nữa.',
+			'“Ara~ Gì đâu mà phải ngại nhỉ? Dịp lễ hội thế này cũng là một cách hay để gắn bó mà~” – Tây Lăng phá vỡ sự yên lặng bằng tiếng cười nhẹ nhàng. Với vẻ mặt đã trở lại bình thường, Huệ Nhi mỉm cười đáp lễ. “Tuy không biết tiết mục mà Hoành Mỹ muốn dành cho hai người chúng tôi là gì, nhưng ý tốt của cô ấy và cô, tôi xin được ghi nhận” – Huệ Nhi nói lịch sự. “Hoành Mỹ cũng nói về cô nhiều lắm, và quả thật, mọi điều cô ấy nói đều là sự thật” – Tây Lăng mỉm cười.',
+			'Tây Lăng vẩy nhẹ ngón tay trỏ của mình, và một lần nữa, những sợi tơ trong suốt lại xuất hiện, lần này nhanh chóng bao phủ lấy khu vực phía sau lưng của mình. Như thể có một phép lạ, một bộ y phục dần hiện hữu giữa không trung, như thể đang có một chiếc máy dệt vô hình đang thêu nên nó vậy – trước sự trầm trồ của Fig, một bộ y phục phẳng phiu đã nằm gọi trong tay cậu, những sợi vải dường như vẫn còn óng ánh như thể đang phát sáng nhè nhẹ, và hương nước hoa thơm phức cũng quyện lấy những sợi vải ấy.',
+			'“Đừng quá lo lắng về kích cỡ đồ và chất liệu vải nhé, bộ y phục này được Hoành Mỹ đặt riêng cho cậu đó. Cả vấn đề tiền nong nữa, Hoành Mỹ lo liệu hết cả rồi~” – Tây Lăng mỉm cười khi thấy ánh mắt thích thú của Fig khi cậu mân mê lớp vải của chiếc áo. Đột nhiên, Fig ngẩng đầu lên và hỏi…',
+			'“Làm thế nào mà cô biết có thể biết rõ kích cỡ của tôi vậy?” – Fig hỏi với giọng đầy ngạc nhiên, làm cả Tây Lăng lẫn Huệ Nhi bật cười. “Hoành Mỹ là người biết rõ nhất, chứ đâu phải là tôi~” – câu trả lời này không hề khiến Fig cảm thấy thỏa mãn, mà còn làm cậu bất ngờ hơn. “Từ lúc nào nhỉ…” – Fig băn khoăn gãi đầu gãi tai, còn Huệ Nhi chỉ biết ngao ngán nhìn ra ngoài bằng nửa con mắt. Đúng như cô nghĩ, ngay sau khi xin chữ ký, Hoành Mỹ hẳn đã “lấy số liệu” lúc đó – quả thật, với khả năng của một cựu Tứ hoàng Trường sinh, cô có thể làm điều đó bất cứ lúc nào.',
+			'“Mà thôi, từ lúc nào thì quan trọng gì…” – Huệ Nhi bất giác đặt tay lên vai Fig, rồi cầm vào bộ y phục. “Bộ đồ này, tôi nghĩ sẽ hợp với cậu đó, Fig. Cậu cũng nên thử mặc bộ đó” – cô mỉm cười ấm áp, còn sự bất ngờ trên khuôn mặt Fig giờ đã chuyển sang vẻ bẽn lẽn mà Huệ Nhi đã dần quen. “D-dạ..” – Fig gãi đầu gãi tai, rồi chạy một mạch vào phòng thay đồ, để lại Huệ Nhi và Tây Lăng ở phía ngoài. “Quả là một cậu nhóc thú vị nhỉ~” – Tây Lăng mỉm cười, rồi lấy cho Huệ Nhi một bộ y phục đã may sẵn, bọc gói rất cẩn thận.',
+			'“Dáng người cân đối của cô, sẽ rất hợp với nhiều mẫu đồ tôi có sẵn ở đây. Và quả thật, tôi cũng hy vọng cô sẽ có dịp thử chúng như cậu bé kia~” – Tây Lăng vẫn bông đùa, nhưng cũng đã nhỏ giọng lại. Dường như, những điều cô sắp nói, là những điều mà cô cho là “quan trọng”, nên cô cũng nói nhỏ hơn, như thể chỉ muốn Huệ Nhi nghe thấy…',
+			'“Hoành Mỹ cũng đã kể cho tôi về câu chuyện của cậu bé kia rồi. Fig, phải chứ?” – Tây Lăng vẫn nhỏ giọng. Huệ Nhi hơi ngạc nhiên, nhưng khẽ gật đầu – cô không hề cảm thấy ý đồ gì xấu trong ánh mắt nâu sẫm của người chủ tiệm trước mặt, nên sẵn sàng nghe cô nói tiếp. Nhận ra sự tin tưởng của Huệ Nhi, Tây Lăng tiếp lời.',
+			'“Quả thật, cậu nhóc đó đã rất cố gắng, trong việc làm cô hạnh phúc. Cô có vẻ là một người rất quan trọng với cậu nhóc đó đấy~” – Tây Lăng nói tiếp, giọng có chút gì đó nghiêm túc hơn, nhưng vẫn giữ chút vẻ bông đùa. Dưới ánh đèn của tiệm, đôi má của Huệ Nhi dường như cũng hồng lên đôi chút. “Với tôi, Fig cũng quan trọng như vậy…” – Huệ Nhi khẽ đáp lại, và Tây Lăng mỉm cười sau câu trả lời của cô.',
+			'“Bộ y phục này, tôi không sử dụng ngọc Vận mệnh để dệt như ban nãy…” – Tây Lăng nhẹ nhàng nói tiếp. “Tôi cũng đã nghe được cả về “lời nguyền” của cô, đương nhiên là từ Hoành Mỹ… Và mặc dù có chút nghi hoặc, nhưng tôi biết Hoành Mỹ không nói dối, và cách cậu nhóc kia làm, chắc chắn là có hiệu quả…”',
+			'“Nếu như với cô, Fig cũng quan trọng như vậy… Thì có lẽ, nụ cười của cậu bé đó sẽ đem lại cho cô hạnh phúc, phải không?”',
+			'Thoáng yên lặng bao trùm lên căn phòng. Khuôn mặt Huệ Nhi lúc này đã đỏ lên như những chiếc đèn lồng đang được thắp sáng phía bên ngoài cửa tiệm, và cô chỉ khẽ gật đầu trước câu hỏi của Tây Lăng. “Tôi hiểu cảm giác đó” – người chủ tiệm mỉm cười nhìn Huệ Nhi. Cô đưa bộ y phục cho “khách quý” của mình, với nụ cười tự tin trên khuôn mặt…',
+			'“Tôi tin rằng, nếu thấy cô trong bộ y phục này, cậu nhóc đó chắc chắn sẽ mỉm cười. Và với cô, đó cũng là một niềm hạnh phúc, phải không?”',
+			'Bộ đồ mà Tây Lăng may lần này, là tác phẩm mà có lẽ cô có tâm huyết nhất. Từ hồi còn nhỏ, cô cũng đã nghe rất nhiều những câu chuyện cổ tích từ khắp nơi, do người cha vốn là một nhà Khai phá kỳ cựu đem về sau những chuyến đi – cách cô đến với nghề dệt, khác với những thành viên trong họ, cũng là nhờ đến một câu chuyện từng lấy đi những giọt nước mắt của một cô bé đa cảm như Tây Lăng. Huệ Nhi làm cô nhớ tới câu chuyện về Công chúa Kaguya – một “tiên nữ giáng trần” đem lòng yêu mến một phàm nhân đoản mệnh, rồi đến ngày trăng tròn thì buộc phải rời cõi trần, để lại nuối tiếc cho người ở lại. Vẻ đẹp của Huệ Nhi, đúng như Hoành Mỹ mô tả, thật giống với Kaguya, một vẻ đẹp khó có thể chạm đến, giống như mục tiêu phá giải lời nguyền của Fig vậy – cô cũng đã nghe về truyền thuyết Cương thi, và cũng hiểu rõ rằng thứ duy nhất có thể phá giải lời nguyền, là sự “giải thoát”...',
+			'Nhưng cô cũng không muốn tin vào “sự thật” đó, cũng như chính Huệ Nhi lúc này vậy. Cô tin rằng, trong mọi câu chuyện cô từng nghe, nếu nhân vật sẵn sàng nắm lấy Vận mệnh của mình, và dùng nó để “dệt” lên một cái kết mới, thì chắc chắn hạnh phúc sẽ chờ đợi họ ở cuối con đường – khi cô bắt đầu tâm niệm như vậy, viên ngọc Vận mệnh cũng xuất hiện, soi sáng cho cô trên con đường đó. Bộ y phục của Huệ Nhi, cô đặt hết tâm huyết và mong ước của cả bản thân mình và của cả Huệ Nhi vào đó – có thể, nó giống với bộ cánh lộng lẫy mà Kaguya mặc trước khi quên đi trần thế và quên đi mọi thứ, nhưng ý nghĩa mà Tây Lăng mong muốn, lại hoàn toàn ngược lại…',
+			'“Bộ y phục tôi may… Mong cô sẽ dùng nó vào dịp quan trọng này… Ký ức đẹp đẽ được nó tạo nên, chắc chắn sẽ không thể bị xóa nhòa đâu”',
+			'Huệ Nhi khẽ gật đầu. Trong thoáng yên lặng đó, cô cũng hiểu được sự quan trọng của bộ y phục này. “Cảm ơn cô nhiều, Tây Lăng. Tôi sẽ trân trọng món quà của cô. Tiết mục tối nay, chắc chắn tôi sẽ mặc…”',
+			'“Tôi xong rồi đây~!” – Fig bước ra với dáng vẻ khá vui. Bộ y phục mặc trên người cậu vừa in, trông rất gọn gàng nhưng khá thoải mái, với những họa tiết chìm nổi đan xen, mô tả bầu trời đêm trăng tròn, với vị trí của mặt trăng nằm đúng phía trước ngực cậu. Mỉm cười tự tin chưa được bao lâu, Fig cũng phải trầm trồ trước bộ đồ mới của Huệ Nhi – vẫn là váy Trường sam, nhưng lần này, màu trắng chủ đạo làm nổi bật làn da trắng của cô gái, và tuy mặt Huệ Nhi dường như có chút khó chịu, nhưng trông cô vẫn rất đẹp, Fig “tự nhủ” vậy…',
+			'“Ara~ Xem nhóc kìa, đi thẳng vào vấn đề luôn~” – Tây Lăng lại quay lại vẻ bông đùa ban nãy. “Tôi nói rồi mà, cứ thoải mái thử đồ của tiệm đi, chắc chắn là hợp mà~” – cô vỗ nhẹ vai của Huệ Nhi, người vẫn còn thấy hơi khó chịu khi Tây Lăng “bắt” cô thử thêm đồ mới một cách bất ngờ như vậy, dù cô phải công nhận chúng rất đẹp. Mặt Fig giờ không khác gì trái gấc chín – lại một lần nữa cậu buột miệng chẳng suy nghĩ gì, và nhìn vẻ mặt của Fig lúc này, Tây Lăng khẽ mỉm cười, rồi nói nhỏ với Huệ Nhi…',
+			'“Cũng hiệu quả rồi đó… Đợi đến lúc đó, cậu bé chắc chắn sẽ vui lắm đây~”',
+			'Sau một hồi lâu, Fig và Huệ Nhi lặng lẽ rời tiệm, khi có hai người khác cùng bước qua cửa. Hai người bọn họ đi trong yên lặng, hướng ánh mắt đến quảng trường nơi sân khấu Chính kịch đã được dựng lên, sẵn sàng cho đêm rằm Trung thu. Mãi một lúc, Fig mới cất lời…',
+			'“Bộ đồ ban nãy, tôi thấy hợp với cô lắm đó…” – Fig nói nhỏ, có vẻ hơi bẽn lẽn hơn. “Của cậu cũng thế” – Huệ Nhi khẽ mỉm cười, ánh mắt vẫn hướng về phía trước. “Xem ra, bất ngờ của Hoành Mỹ cũng khá thú vị đấy chứ?” – cô nói thêm, khi họ đi ngày một gần hơn đến quảng trường. “Cũng đúng, tôi thích bộ đồ này lắm. Cả bộ của cô nữa, ehe~” – Fig mỉm cười, không còn cảm thấy ngại nữa, và đáp lại cậu cũng là nụ cười ấm áp của Huệ Nhi. Tiết mục sắp tới, chắc chắn sẽ để lại ấn tượng sâu đậm cho họ, Huệ Nhi biết chắc chắn là vậy…',
+			'Hai người rảo bước trên đoạn đường ra quảng trường, tiếp tục vui vẻ nói cười. Họ không hề biết, hoặc chẳng hề bận tâm đến hai bóng người đang theo sau, cho đến khi hai kẻ đó nhảy bổ ra phía trước, chặn đường cả hai người bọn họ. Trút bỏ khăn choàng, phía trước hai người là hai khuôn mặt dị hợm, một giống dơi một giống bọ cạp, và cả bộ dạng đó và tiếng cười man rợ vang lên khắp con đường vắng, dường như làm hai người đó khựng lại…',
+			'“Cuối cùng cũng đuổi kịp ngươi rồi, Giáng nguyệt Ma kỵ!” – tên mặt nhăn nheo giống dơi lên tiếng trước. “Các ngươi không nhận ra sao? Cung đường vắng vẻ này không hề dẫn ra sân khấu, và ảo giác ta tạo ra bằng âm thanh… Đã dẫn các ngươi đến với lãnh địa của ta sâu trong khu rừng rồi!”',
+			'“Quả là một nơi tuyệt vời để có thể giao chiến, nhỉ Biền Bức?” – nữ quái có mặt nạ giống bọ cạp cười lớn. “Giáng nguyệt Ma kỵ, ta không quan tâm đến việc đem ngươi về cho Giáo đoàn, thứ mà ta sẽ đem về là xác tàn của ngươi, và lần này ngươi không thể chạy trốn được nữa đâu!”',
+			'“Phải đó, Hiết Tử! Ta cũng muốn xé xác con ả đó! Nó dám giết Hắc Xà, trước khi bọn ta có thể học được Độc dược của hắn, và gieo rắc cái chết cho đám ngu muội dám chối từ chúng ta! Kekeke!” – nụ cười kỳ dị vang lên từ phía hai tên yêu ma, chúng ngày càng tiến sát hơn đến chỗ của hai bóng người bất động, giơ sẵn binh khí…',
+			'“Còn lời trăng trối nào không? Ngươi, và tên nhóc vô dụng đi theo ngươi?” – cả hai cười khả ố, trước khi tràng cười đến từ hai bóng người làm bọn chúng giật mình. “Giọng nói này…” – Hiết Tử nói nhỏ hơn, giọng pha chút ghê tởm và có phần kinh hãi…',
+			'“Ngươi tưởng là sẽ gặp được Giáng nguyệt Ma kỵ…” – “cậu bé” thả dài mái tóc buộc kín, ngẩng mặt lên đầy tự tin, trỏ ngón cái phía mặt mình. “Nhưng đó là ta, Hoành Mỹ!”. Sau thoáng yên lặng, cô trỏ vào bóng hình cao lớn bên cạnh, người chỉ lặng lẽ giơ tay trái lên, sau khi vất vả cởi bỏ bộ váy hơi bó sát mặc ngoài. “...À, và Lộc Thanh nữa” – cô nói nhỏ, hơi bẽn lẽn chút, còn Lộc Thanh nhìn sang cô bằng nửa con mắt, thừa biết cô đã tập rất nhiều lần chỉ để nói “câu thoại” đó…',
+			'Vẻ mặt của hai tên chuyển từ bất ngờ sang tức tối, khi nhận ra mình đã mắc lừa – hai người đi ra sau không phải là người chúng nhắm tới, mà chính là hai “người hâm mộ”, với phục trang đặc biệt được may bởi Tây Lăng để “mô phỏng” lại “khí” của Fig và Huệ Nhi. “Sao thế, ban nãy mạnh miệng lắm cơ mà, giờ câm như hến luôn rồi à~” – Hoành Mỹ chống nạnh đầy đắc ý, rồi đứng sát với Lộc Thanh hơn, tay của cả hai đã chuẩn bị sẵn kiếm…',
+			'“Xin lỗi vì đã làm hai ngươi thất vọng, nhưng tiết mục của Nguyễn Huệ Nhi và Fig Rizzo, hiện đã không còn bán vé nữa…”',
+			'“Thay vào đó, các ngươi sẽ nhận được vé VIP cho tiết mục Kiếm vũ đặc biệt của ta, Hoành Mỹ, và người cộng sự đặc biệt Lộc Thanh!”',
+			'“Đừng rời mắt khỏi những đường kiếm của chúng ta nhé. Khoảnh khắc ấy, sẽ là khoảnh khắc cuối cùng của bọn ngươi đó~”'
+		]
+	},
+	{
+		chapter: '4.9',
 		title: 'The melody of tenderness',
 		content: [
 			'“Giờ vẫn chưa ngủ à, Fig?” – Huệ Nhi cất tiếng hỏi. Fig vẫn ngồi ở ngoài lan can, hai tay vẫn đang mân mê mảnh giấy cậu có được từ Hắc Xà và Hoành Mỹ – hai trong số bốn manh mối cần thiết để hóa giải lời nguyền của Huệ Nhi. Cô ra ngồi bên cạnh Fig, ngắm nhìn dáng vẻ tập trung cao độ của cậu.',
@@ -79,7 +155,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 4.8,
+		chapter: '4.8',
 		title: 'The melody of bravery',
 		content: [
 			'Không khí xung quanh ngôi làng vẫn yên lặng đến rợn người. Trên khuôn mặt của tất cả mọi người trong làng lúc đó, trừ Fig và Huệ Nhi, thoáng thấy sự hoài nghi và ngạc nhiên, trước khi những tràng cười ghê rợn lại vang lên, phá vỡ sự tĩnh lặng.',
@@ -161,7 +237,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 4.7,
+		chapter: '4.7',
 		title: 'Let our song begins',
 		content: [
 			'Phần còn lại của chuyến đi trong rừng tre diễn ra khá yên bình. Bước chân của Fig cũng nhanh nhẹn và nhẹ nhàng hơn, cái ba lô sau lưng cậu giờ cảm giác nhẹ tựa lông hồng vậy. Thấy cậu nhóc nhảy chân sáo xuống các bậc thang, Huệ Nhi khẽ thở dài – Fig đã tiến bộ là vậy, nhưng dù sao thì vẫn nên cẩn thận hơn. Các bậc thang ở gần bìa rừng ít nhất thì cũng bằng phẳng hơn, nhưng cũng khá trơn trượt – tối ngày thứ ba của họ trong rừng tre, trời đột nhiên đổ mưa lớn. Trận mưa làm cả hai phải ngồi co ro trong lều vì bếp bị dập lửa, vừa phải mất công dọn dẹp sau đó lâu hơn thường lệ nữa, lại còn làm mấy bậc thang đá trở nên nguy hiểm hơn.',
@@ -223,7 +299,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 4.6,
+		chapter: '4.6',
 		title: 'The future we look forward to',
 		content: [
 			'Cách đó không xa, Huệ Nhi vẫn đang say giấc nồng. Thật lâu rồi, cô mới có thể ngủ yên như vậy. Và cũng thật lâu rồi, những điều cô thấy khi bước vào giấc mơ không còn là những hình ảnh ác mộng của quá khứ. Những bóng hình vốn quen thuộc xưa kia, cô thật vui khi gặp lại họ – người đàn ông to lớn hẳn là cha của cô, người phụ nữ đứng cạnh có lẽ là người mẹ. Đứa trẻ đứng giữa họ, bóng hình quen thuộc nhất mà cô có thể nhớ được, tuy gương mặt dường như có làn sương che phủ, nhưng Huệ Nhi dường như vẫn có thể nhận ra… ',
@@ -328,7 +404,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 4.5,
+		chapter: '4.5',
 		title: 'The past that haunts us',
 		content: [
 			'Nắm chặt lấy thanh kiếm, Fig đã sẵn sàng cho cuộc đối đầu, và kẻ kia có lẽ cũng vậy – lau vết máu trên khuôn mặt quái dị, tên Tà vật từ từ chắp hai tay ra trước, như thể đang cầu nguyện. Và từ dưới cánh tay hắn, hai lưỡi liềm dài sáng loáng xuất hiện. Đôi mắt lồi to, mở ra thu lại liên tục, xoay đủ tám phía để nhìn mọi thứ trong phòng – đôi mắt của loài tắc kè hoa cho phép chúng quan sát mọi thứ trong một khu vực rộng lớn, mà không phải quay đầu.',
@@ -403,7 +479,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 4.4,
+		chapter: '4.4',
 		title: 'The start of our journey',
 		content: [
 			'Bình minh bắt đầu ló rạng, ánh nắng dịu hiền chiếu qua những ô cửa căn nhà, cùng tiếng chuông nhè nhẹ đánh thức Huệ Nhi dậy sau giấc ngủ dài. Đã lâu rồi, cô mới có thể ngủ ngon đến vậy: không còn cảm giác lạnh lẽo, cũng chẳng còn những hình ảnh đau đớn lặp đi lặp lại. Là do hơi ấm từ Fig, hay là do hơi ấm từ những ký ức đẹp đẽ cô nhớ lại được từ khi gặp cậu? Cô cũng không chắc nữa, nhưng có lẽ, cô sẽ thử đặt lòng tin vào cậu, vào cuộc hành trình sắp tới của cả hai để hóa giải lời nguyền…',
@@ -477,7 +553,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 4.3,
+		chapter: '4.3',
 		title: 'A moment of peace',
 		content: [
 			'Giữa đêm đen, luồng ánh sáng ấm áp và mờ ảo xuất hiện phía trước Fig, nhấp nháy chập chờn như ma trơi. Thời gian đã không còn nghĩa lý gì với cậu bé, và thứ ánh sáng kia, liệu có phải tia sáng cuối cùng của sự sống? Trong những câu chuyện cậu từng nghe, khi đi xuống phòng y tế lấy thuốc, những người đã gần đến cửa tử thường sẽ thấy ánh sáng phía cuối con đường, và nếu đi đến đó, sự sống sẽ vụt tắt, như ánh sáng yếu ớt chập chờn kia có thể biến mất bất cứ lúc nào. Đã kết thúc rồi sao? Cậu nhóc vẫn chưa thể tin điều đó được. Sự hy sinh của cha Ferdinand, sự nỗ lực cố gắng của cậu suốt một năm trời, tất cả đều vô nghĩa rồi sao? Cậu nhóc đang lưỡng lự, thì nghe thấy một giọng nói nhẹ nhàng mà xa xăm…',
@@ -574,7 +650,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 4.2,
+		chapter: '4.2',
 		title: 'The fateful night',
 		content: [
 			'“Chưa có hôm nào đẹp như hôm nay~”',
@@ -649,7 +725,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 4.1,
+		chapter: '4.1',
 		title: 'Head towards the stars',
 		content: [
 			'“Thôi nào Fig, không việc gì cậu phải buồn cả…” – cậu bạn tóc nâu đỡ Fig dậy, phủi bụi đất còn bám trên bộ đồng phục của người bạn đang thất vọng tràn trề, rồi dìu vào căng tin Học viện. “Nhưng tớ đã rất gần rồi! Gần lắm rồi! Chỉ một chút nữa thôi, tớ đã có thể đánh bại tiền bối Horie rồi!” – giọng Fig vẫn còn ấm ức, còn người bạn thân chỉ còn biết thở dài. Mới vào Học viện Skywards, Fig Rizzo đã nhanh chóng trở thành một cái tên mà ai trong Học viện cũng nhắc tới – mang họ của Nhà khai phá nổi tiếng Ferdinand Rizzo từng theo học ở trường, điểm cao chót vót các môn lý thuyết, thể chất khỏe mạnh và nhiệt huyết dường như chẳng bao giờ vơi bớt, cũng như biệt tài thổi kèn lá của cậu luôn thu hút sự chú ý của mọi người. Đã có vài ánh mắt để ý đến cậu bạn kỳ lạ này, nhưng họ đều dừng lại ngao ngán khi nhận ra tính “hiếu thắng” của cậu – từ cái ngày cậu thua chóng vánh trước một giáo viên thực tập, Fig dành rất nhiều thời gian tập luyện kiếm thuật, học mọi lúc, mọi nơi và mọi cách, để rồi lúc nào hứng lên là lại đi thách thức các tiền bối của mình.',
@@ -684,7 +760,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 4.0,
+		chapter: '4.0',
 		title: 'The moon, the stars, and you',
 		content: [
 			'“Thật sự thứ lỗi cho em nhé, tiền bối Tohru!” – Fig nói qua điện thoại. Đầu dây bên kia, xen lẫn tiếng nói cười vui vẻ, là tiếng thở dài của Tohru. Dù thừa biết tính khí của hậu bối, Tohru vẫn có chút gì đó tiếc nuối khi cậu không thể qua nhà ăn tối cùng với gia đình Imai.',
@@ -703,7 +779,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 3,
+		chapter: '3',
 		title: 'Where the stars take us',
 		content: [
 			'Đó là một bữa tối đơn giản, như mọi bữa tối khác của Tohru. Một khoảng lặng bình yên, nhưng cần thiết trong những ngày chiến đấu bảo vệ Astrapolis của cậu và những đồng nghiệp Skyguards. Cậu dành phần lớn bữa tối ngắm nhìn nụ cười của mẹ, cũng như niềm vui của cậu em trai, như để mãi mãi ghi dấu niềm hạnh phúc giản đơn đó trong ký ức – vì dù hiện tại hạnh phúc đến mấy, mọi thứ đều có thể thay đổi rất chóng vánh, và rất có thể một ngày nào đó, cậu cũng sẽ phải đánh đổi hạnh phúc đó, để có thể đem lại hạnh phúc lớn lao hơn cho mọi người…',
@@ -889,7 +965,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 2,
+		chapter: '2',
 		title: 'An echo from a distant past',
 		content: [
 			'“Cô Sayaka! Con về rồi đây cô!” – tiếng nói cười vui vẻ ngắt dòng suy nghĩ của người phụ nữ tóc nâu bên cửa sổ. Còn cách khá xa, cô vẫn nhận ra giọng nói đó, nhưng cũng từ lâu rồi, kể từ sau ngày Shiro “đi công tác dài hạn”, cô mới cảm nhận thấy niềm vui từ tiếng nói cười của cậu con trai mà anh gửi lại. “Nhanh mà vào nhà ăn tối đi, nguội hết cả đồ ăn rồi đấy!” – Tohru nhắc nhở, đi phía sau em trai mình, khi cậu nhóc rảo bước qua chiếc cổng sắt cũ kỹ, rồi băng băng chạy về phía cửa ra vào, nụ cười tươi vẫn còn trên khuôn mặt sáng bừng lên bởi ánh đèn…',
@@ -949,7 +1025,7 @@ const volume = [
 		]
 	},
 	{
-		chapter: 1,
+		chapter: '1',
 		title: 'A hopeful gaze towards the stars',
 		content: [
 			'Giữa nền trời tím nhạt, tòa tháp canh sừng sững vươn cao, như thể muốn chạm tới ngôi sao lẻ loi mới xuất hiện trên kia vậy. Rêu phong và dây leo bao phủ không làm mất đi chút nào vẻ tôn nghiêm của tòa tháp ngàn năm – sự tồn tại của nó thách thức sự bào mòn của thời gian, mặt đá cẩm thạch bóng loáng của nó phản chiếu lại ánh sáng từ thành phố cảng mà nó canh gác, cũng như là nhân chứng lịch sử ngàn năm tuổi của một trong những thành phố cổ kính nhất của hành tinh xanh này. Làn gió biển lay động những cành dây leo rủ xuống ở trên đỉnh tháp, cũng như mái tóc đen hơi bù xù của một cậu bé ngồi vắt vẻo trên đỉnh tháp, ánh mắt sáng như sao của cậu hướng về phía bờ biển phía Tây, nơi còn vương lại chút ánh nắng cuối cùng của một ngày sắp tắt…',
