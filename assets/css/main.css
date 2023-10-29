@@ -107,7 +107,12 @@ li span:active {
 a {
 	text-decoration: none;
 }
-
+li {
+	margin-left: 1rem;
+}
+b {
+	text-shadow: .1rem .1rem gray;
+}
 
 
 
@@ -311,7 +316,8 @@ h4 {
 .selectBox,
 .main,
 .dialogue,
-.character {
+.character,
+.sekaiDexCol {
 	display: flex;
 	flex-direction: column;
 }
@@ -450,7 +456,6 @@ b::selection {
 }
 .dropdownHide {
 	display: none;
-	margin-left: .5rem;
 }
 .dropdownShow {
 	display: block;
@@ -496,6 +501,15 @@ li span {
 	font-size: .7rem;
 	color: yellow;
 	vertical-align: text-top;
+}
+.sekaiDex {
+	display: flex;
+	justify-content: space-around;
+	gap: 1rem;
+}
+.sekaiDexCol {
+	width: 100%;
+	gap: 1rem;
 }
 
 

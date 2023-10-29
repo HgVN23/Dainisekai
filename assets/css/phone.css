@@ -44,4 +44,8 @@
 	.explainShow {
 		width: 23rem;
 	}
+
+	.sekaiDex {
+		flex-direction: column;
+	}
 }

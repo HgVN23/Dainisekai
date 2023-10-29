@@ -1,219 +1,337 @@
-const sekaiDex1 = [
-	{
-		id: 0,
-		title: 'Thông tin về『Dainisekai』',
-		content: [
-			'Nơi quy tụ mọi người chuyển sinh nhưng có thể không chung 1 lục địa hoặc 1 nơi',
-			'Những người chuyển sinh đầu tiên xuất hiện vào năm 2023 (chính xác từ 20/03)',
-			'Ở trung tâm thế giới sẽ có 1 cái cột trụ ánh sáng, thế giới là dạng phẳng trải dài vô tận mọi hướng, địa hình đa dạng. Cũng có vũ trụ nhưng nhìn từ trên xuống thì địa hình sẽ dài vô tận như đã nói (vì đây không phải là Trái Đất hay là Địa cầu)',
-			'Có Dimension, Dungeon, làng, rừng, núi, biển, chủng loại khác nhau, chế độ cai trị, ... Bất cứ thứ gì mà bạn có thể nghĩ ra được'
-		]
-	},
-	{
-		id: 1,
-		title: 'Văn phòng Re:Life',
-		content: [
-			'Những người đã từng tới văn phòng Re:Life chắc hẳn sẽ nghĩ những nhân viên ở nơi đó như là Chúa hoặc một vì thần nào đó. Về ngoài thì nhìn đúng là như vậy nhưng về bản chất thì đó là nơi ban cho cơ hội thứ 2 khi cuộc đời trước vẫn chưa được hoàn thiện. Người chết sẽ đến thiên đàng hoặc xuống địa ngục hoặc đơn giản là không còn tồn tại nữa. Nhưng 1 "biến số" đã xuất hiện trên con đường đó và "biến số" ấy là văn phòng Re:Life.',
-			'Ai đã thành lập nên văn phòng? Những nhân viên ấy là người thật hay là thiên thần hay là hiện thân của linh hồn? Ai là người đứng đầu? Ý đồ của họ là gì? Tại sao họ lại có sức mạnh như vậy mà cho những người đã chết không chút do dự? Cái giá sau này liệu nó có? Thiên đàng được đô thị hóa 4.0? Phòng ẩn trên con đường lên thiên đàng? Liệu có thật là được sống cuộc đời thứ 2 hay chỉ là 1 thế giới ảo? Liệu những thứ trên có thật hay chỉ là những người hấp hối đang bị đưa ra làm thí nghiệm thông qua não bộ? Có vẻ các hoài nghi đang đi xa dần nội dung ban đầu rồi nhỉ?',
-			'Nếu muốn biết thêm chỉ còn cách gặp văn phòng Re:Life thôi. Tất nhiên nếu tự sát để đến đó thì ai cũng có thể rồi. Vậy nên hãy cứ sống theo như thế giới đã sắp đặt và tận hướng. Nếu "may mắn" thì biết đâu bạn sẽ có câu trả lời...',
-			'Văn phòng Re:Life chỉ là truyền thuyết mà thôi'
-		]
-	},
-	{
-		id: 2,
-		title: 'Phần chỉ số',
-		content: [
-			'Chỉ số gồm EXP (điểm kinh nghiệp), LVL (cấp độ), HP (máu), MP (Mana), ATK (tấn công), DEF (phòng thủ), SPE (tốc độ), LUCK (may mắn) và có thể tự tạo thêm',
-			'Có thể không đề cập đến nếu không thể cân bằng chỉ số',
-			'Nếu đề cập mà không ghi chỉ số thì có thể dùng ? thay cho số'
-		]
-	}
-];
+const loreSort = afterSort(lore);
+const characterSort = afterSort(character);
 
-const sekaiDex2 = [
-	{
-		id: 0,
-		title: 'Guild mạo hiểm giả',
-		section: [
-			{
-				main: 'Thẻ mạo hiểm giả',
-				content: [
-					'Hiện thị 1 vài thông tin như là tên, tuổi, giới tính, chủng loại, nghề nghiệp, hạng, tiến trình nhiệm vụ hoàn thành để lên hạng, lịch sử ma thú đã săn, lịch sử nhiệm vụ hoàn thành',
-					'Nguyên liệu làm thẻ phụ thuộc vào hạng hiện đang có',
-					'Nhỏ máu vào thẻ sẽ liên kết linh hồn tới thẻ nên không thể thay đổi thông tin trong thẻ',
-					'Thẻ được phù phép『Unbreakable』nên thẻ không thể bị phá hủy',
-					'Chỉ những dụng cụ chuyên dụng của Guild mới có thể can thiệp được 1 phần thẻ'
-				]
-			},
-			{
-				main: 'Hạng mạo hiểm giả được chia làm 6 loại, thấp nhất là Iron < Bronze < Silver < Gold < Platinum < Mythril là cao nhất',
-				content: [
-					'Để có thể thăng hạng phải hoàn thành 100 nhiệm vụ cùng cấp hoặc hơn cấp. Sau đó số lượng yêu cầu hoàn thành nhiệm vụ sẽ tăng thêm 100 mỗi lần thăng hạng. Đồng thời cũng phải trải qua 1 bài kiểm tra đánh giá của Guild để có thể chính thức thăng hạng. Đặc biệt nếu có thành tích xuất sắc với được tín cử từ hạng Platinum hoặc Mythril hoặc từ những người có thẩm quyền sẽ được xem xét thăng hạng, bỏ qua các yêu cầu cần',
-					'Sau 1 khoảng thời gian không làm nhiệm vụ sẽ bị tụt hạng, lần lượt là 1 tháng < 3 tháng < 6 tháng < 9 tháng < 1 năm. Đối với Iron nếu lâu không làm sẽ phải nộp phí là 10 xu bạc, còn đối với Mythril sẽ không bị tụt khi lâu không làm nhiệm vụ',
-					'Ở vài hạng nhất định sẽ có quyền lợi đặc biệt như hạng Platinum và Mythril sẽ được trả phí sửa chữa đồ và phí chữa trị sau khi hoàn thành nhiệm vụ. Còn riêng hạng Mythril sẽ có thêm quyền lợi là hưởng lương hưu 3 xu vàng mỗi tháng khi người hạng đó chính thức nộp đơn nghỉ không hoạt động làm mạo hiểm giả nữa. Tất nhiên họ vẫn có thể rút đơn và hoạt động tiếp nhưng lương hưu sẽ tạm dừng, sau đó vẫn có thể nộp lại đơn. Đổi lại họ sẽ sẽ bị buộc triệu tập đến chiến trường khi nó xảy ra nếu sức khỏe còn tốt'
-				]
-			},
-			{
-				main: 'Nhiệm vụ sẽ được phân loại để phù hợp với thứ hạng',
-				content: [
-					'Có thể nhận nhiệm vụ cao hơn 1 hạng nhưng không thể nhận nhiệm vụ thấp hạng. Có thể làm nhiệm vụ cao hạng hơn nếu được mời tham gia vào Party nhưng phải cân nhắc nếu quá chênh lệch trình độ',
-					'Sau khi hoàn thành nhiệm vụ sẽ được nhận tiền thưởng ghi trong yêu cầu',
-					'Tùy vào nhiệm vụ sẽ có gia hạn thời gian hoàn thành hoặc không',
-					'Đối với nhiệm vụ yêu cầu từ người khác sẽ cần chữ kí của họ để xác nhận hoàn thành nhiệm vụ',
-					'Nếu nhiệm vụ bị thất bại sẽ bị trừ 1 điểm tiến trình nhiệm vụ đã hoàn thành'
-				]
-			},
-			{
-				main: 'Party có thể tạo tạm thời hoặc lâu dài',
-				content: [
-					'Không giới hạn số lượng thành viên trong Party',
-					'Khi làm nhiệm vụ có yêu cầu Party sẽ được bên Guild thưởng thêm 5% tiền thưởng cho mỗi thành viên trong Party tham gia nhiệm vụ, trừ trưởng Party. Còn nhận nhiệm vụ không có yêu cầu Party sẽ không thưởng thêm',
-					'Số tiền thưởng tự bên Party chia đều cho các thành viên'
-				]
-			},
-			{
-				main: 'Các vi phạm',
-				content: [
-					'Mất thẻ phạt 50 xu bạc để làm lại',
-					'Dùng thẻ của người khác phạt 1 xu vàng và 1 tuần đình chỉ',
-					'Giả mạo thẻ sẽ bị cấm vĩnh viễn làm mạo hiểm giả',
-					'Các mạo hiểm giả gây gổ với nhau dẫn đến bạo lực bộc phát phạt 1 xu vàng và 1 tuần đình chỉ',
-					'Khiến người khác bị liên lụy khi đang làm nhiệm vụ phạt 3 xu vàng và 1 tháng đình chỉ',
-					'Bỏ rơi người yêu cầu trong nhiệm vụ hộ tống hoặc bỏ rơi thành viên Party trong tình thế nguy hiểm khi có thể cứu phạt 10 xu vàng, tụt 1 hạng và 3 tháng đình chỉ',
-					'Giết người vô tội sẽ bị cấm vĩnh viễn làm mạo hiểm giả và bị xử theo luật của đất nước'
-				]
-			}
-		]
-	},
-	{
-		id: 1,
-		title: 'Các dạng của Mana',
-		section: [
-			{
-				main: 'Dạng loãng',
-				content: [
-					'Không thể thấy (hoặc có nếu dùng Skill hoặc là đặc tính đặc biệt của loài hoặc có ma cụ, ...) nhưng có thể cảm nhận được',
-					'Được tạo ra từ tự nhiên như trong không khí, trong mặt đất, trong cây cối, ...'
-					
-				]
-			},
-			{
-				main: 'Dạng đặc',
-				content: [
-					'Có thể thấy (hoặc không thể do 1 vài Skill) và có thể cảm nhận',
-					'Hình thành từ Skill như hỏa cầu, băng tiễn, phong chảm, cường hóa, ...'
-				]
-			}
-		]
-	},
-	{
-		id: 2,
-		title: 'Inventory (Kho đồ)',
-		section: [
-			{
-				main: '',
-				content: [
-					'Không được xét vào mục Skill hay Dimension',
-					'Luôn gắn liền với mỗi người (nếu người chết thì Inventory cũng mất)',
-					'Không ai khác có thể biết trong Inventory của bạn có gì hay dùng Inventory của bạn được',
-					'Để lấy Item chỉ cần nghĩ tới nó hoặc mở Status rồi vào mục Inventory để lấy Item và để cất Item thì phải chạm vào nó',
-					'Trạng thái Item trong Inventory sẽ bị khóa, nghĩa là đồ ăn sẽ không bị thối rữa, độ bền của Item sẽ không đổi, Item nóng sẽ vẫn nóng, ...',
-					'Không thể chứa sinh vật có nhận thức đang còn sống',
-					'Mọi người chuyển sinh đều có Inventory max 9 slot',
-					'Số người trong thế giới có Inventory là hiếm'
-				]
-			}
-		]
-	},
-	{
-		id: 3,
-		title: 'Ma vật (Magical creature)',
-		section: [
-			{
-				main: 'Đa dạng thể loại và có các cách gọi riêng theo đặc',
-				content: [
-					'Ma nhân là ma vật có đặc tính và dáng vẻ sát với con người nhất. Gồm Goblin, Zombie, Skeleton, ...',
-					'Ma thú là ma vật có đặc tính như động vật, côn trùng. Gồm Horned Rabbit, Ligheep, ...',
-					'Ma nhiên là ma vật có đặc tính từ tài nguyên tự nhiên hoặc thực vật. Gồm Golem, Slime, Carnivorous Plant, ...',
-					'Ma linh là ma vật siêu nhiên, khó nhận ra. Gồm Ghost, Soul, Spirit, ...'
-				]
-			},
-			{
-				main: 'Có thể bị thuần hóa nhờ vào việc đối xử hoặc thỏa mãn điều kiện của ma vật',
-				content: [
-					'Mỗi cá nhân sẽ có cá tính khác nhau nên rất khó để biết được ma vật muốn gì'
-				]
-			},
-			{
-				main: 'Mỗi ma vật sẽ có 1『Crystal』và tùy vào cấp độ của ma vật mà kích thước, lượng Mana và chất lượng『Crystal』sẽ thay đổi',
-				content: [
-					'『Crystal』là nơi chứa Mana hoặc có thể nói là sinh mệnh của ma thú',
-					'Nếu『Crystal』bị nứt sẽ giảm sức mạnh, giảm các khả năng và nếu bị vỡ ma thú sẽ chết lập tức. Có thể khôi phục tổn hại nhờ vào lượng lớn Mana hoặc Skill',
-					'Vị trí『Crystal』phần lớn ở giữa phần thân cơ thể, gần trái tim (nếu có)',
-					'1 vài ma vật mạnh khi sống sẽ có『Crystal』chạy quanh khắp cơ thể khiến việc tiếp cận khó hơn'
-				]
-			},
-			{
-				main: 'Ungroup',
-				content: [
-					'Xuất hiện tự nhiên hoặc có thể sinh sản hoặc được tạo ra hoặc được triệu hồi',
-					'Tùy vào đặc tính loài sẽ hiền lành hoặc nguy hiểm',
-					'Phần lớn ma vật có thể dùng Skill',
-					'Sau khi chết sẽ không Drop Item mà thay vào đó phải mổ để phân tách nguyên liệu'
-				]
-			}
-		]
-	},
-	{
-		id: 4,
-		title: 'Dimension (Chiều không gian)',
-		section: [
-			{
-				main: 'Các Dimension (gọi tắt là D) không hoàn toàn có địa hình tương tự nhau',
-				content: [
-					'Tại vị trí nơi bạn đứng ở D1 là khu rừng nhưng cùng vị trí đó ở D2 chưa chắc đó là khu rừng'
-				]
-			},
-			{
-				main: 'Dùng nhận thức để vào Dimension khác thông qua 2 cách',
-				content: [
-					'Trực tiếp nhờ vào đặc điểm của chủng loài hoặc kiến thức về Dimension đó',
-					'Gián tiếp nhờ vào Skill, ma cụ, ma pháp trận, ... để tăng nhận thức',
-					'Sử dụng cách nào thì khi vào Dimension sẽ có 1 vòng ma pháp xuất hiện phía đầu để chuyển đi và sẽ tốn lương Mana tùy vào Dimension'
-				]
-			},
-			{
-				main: 'Tầm nhìn khi không ở trong Dimension khác sẽ xếp chồng lên Dimension hiện tại',
-				content: [
-					'Bạn đang đứng trước không gì cả ở D1 nhưng nếu xét ở D2 thì trước bạn là cái cây. Bạn chỉ có thể thấy chứ không thể tác động vào cái cây bởi đang ở D1',
-					'Bạn đang đứng cùng 1 người khác ở D1 và bạn sang D2 thì tùy thuộc vào nhận thức của người đứng cạnh thì họ sẽ không thấy bạn hoặc là họ thấy được bạn đang ở D2'
-				]
-			},
-			{
-				main: 'Chỉ có thể tác động vào Dimension khi ở trong Dimension đó',
-				content: [
-					'Bạn đang trong D1 thấy cái cây ở D2 nhưng không thể chạm vào thì chỉ cần vào D2 là có thể chạm được vào. Có thể bẻ cành và mang về D1'
-				]
-			},
-			{
-				main: 'Không thể ở giữa các Dimension mà phải ở trong 1 Dimension',
-				content: [
-					'Cùng 1 vị trí ở D1 và D2 đều có cây nhưng bạn chỉ có thể chạm vào cây ở D1 hoặc D2 do bạn bắt buộc phải ở 1 trong các Dimension'
-				]
-			},
-			{
-				main: 'Khi bạn vào Dimension khác thì vị trí xuất hiện sẽ tương ứng nơi bạn đứng và khi quay về cũng như vậy',
-				content: [
-					'Bạn đang ở tọa độ (x:y:z) 1:3:1 trong D1 thì khi sang D2 sẽ xuất hiện ở 1:3:1. Ngược lại đang ở 2:3:1 trong D2 thì sang D1 sẽ xuất hiện ở 2:3:1'	
-				]
-			},
-			{
-				main: 'Có thể kéo sinh vật sống sang Dimension khác',
-				content: [
-					'Nếu sử dụng cách trực tiếp thì sinh vật sống phải chạm vào bạn',
-					'Nếu sử dụng cách gián tiếp thì sinh vật sống phải ở trong tầm ảnh hưởng của Skill, ma cụ, ...'
-				]
-			}
-		]
+function openDex() {
+	window.open(`${urlDex}0`, '_self');
+}
+function loadDex() {
+	clean();
+
+	const format = `
+		<section class="main">
+			<h1>SekaiDex</h1>
+			<h2>Bách khoa toàn thư</h2>
+			<hr>
+			<div class="sekaiDex">
+				<div class="sekaiDexCol">
+					<h3>Lore</h3>
+					${addTitle(loreSort, 2)}
+				</div>
+				<div class="sekaiDexCol">
+					<h3>Thông tin</h3>
+					${addTitle(characterSort, 3)}
+				</div>
+			</div>
+		</section>
+	`;
+	document.querySelector('body').innerHTML += format;
+
+	const addOpen = document.querySelectorAll('.dialogue p');
+	for(var i = 0; i < addOpen.length; i++) {
+		addOpen[i].addEventListener('click', openDexContent);
 	}
-]
+}
+
+function addTitle(dex, part) {
+	var data = ``;
+	for(var i = 0; i < dex.length; i++) {
+		var temp = dex[i];
+		var title = temp.title;
+		data += `
+			<div class="dialogue">
+				<p id="${part}.${temp.id}" class="clickable">${title}</p>
+			</div>
+		`;
+	}
+	return data;
+}
+
+function openDexContent() {
+	window.open(`${urlDex}${this.id}`, '_self');
+}
+
+function loadDexContent(id) {
+	clean();
+	if(id.includes('1.')) {
+		var temp = sekaiDex1[parseInt(id.slice(2))];
+		var title = temp.title;
+		var tempC = temp.content;
+		var content = ``;
+		for(var i = 0; i < tempC.length; i++) {
+			content += `
+				<li>${tempC[i]}</li>
+			`;
+		};
+		var format = `
+			<section class="main">
+				<h1>${title}</h1>
+				<hr>
+				${content}
+			</section>
+		`;
+		document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
+	} else if(id.includes('2.')){
+		var temp = lore[parseInt(id.slice(2))];
+		var title = temp.title;
+		var tempS = temp.section;
+		var section = ``;
+		for(var i = 0; i < tempS.length; i++) {
+			var content = ``;
+			for(var j = 0; j < tempS[i].content.length; j++)
+				content += `<li>${tempS[i].content[j]}</li>`;
+			section += `
+				<h4>${tempS[i].main}</h4>
+				${content}
+			`;
+		};
+		var format = `
+			<section class="main">
+				<h1>${title}</h1>
+				<hr>
+				${section}
+			</section>
+		`;
+		document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
+	} else {
+		var temp = character[parseInt(id.slice(2))];
+		var title = temp.title;
+		var tempON = temp.otherName;
+		var otherName = ``;
+		var age = temp.age;
+		var gender = temp.gender;
+		var race = temp.race;
+		var status = temp.status;
+		var tempL = temp.like;
+		var like = ``;
+		var tempD = temp.dislike;
+		var dislike = ``;
+		var tempA = temp.appearance;
+		var debut = temp.debut;
+		var appearance = ``;
+		var tempP = temp.personality;
+		var personality = ``;
+		var tempR = temp.relative;
+		var relative = ``;
+		var tempJ = temp.job;
+		var job = ``;
+		var tempS = temp.skill;
+		var skill = ``;
+		var tempT = temp.titles;
+		var titles = ``;
+		var tempI = temp.item;
+		var item = ``;
+		for(var i = 0; i < tempON.length; i++) {
+			otherName += `
+				<div class="group">
+					<h5>${tempON[i].name}</h5>
+					<div>
+						<li>${tempON[i].desc}</li>
+						<div class="note">Xuất hiện lần đầu trong <span id="${changeId(tempON[i].firstAppear)}">Chapter ${tempON[i].firstAppear}</span></div>
+					</div>
+				</div>
+			`;
+		}
+		for(var i = 0; i < tempL.length; i++) {
+			like += `<li>${tempL[i]}</li>`;
+		}
+		for(var i = 0; i < tempD.length; i++) {
+			dislike += `<li>${tempD[i]}</li>`;
+		}
+		for(var i = 0; i < tempA.length; i++) {
+			appearance += `<li>${tempA[i]}</li>`;
+		}
+		for(var i = 0; i < tempP.length; i++) {
+			personality += `<li>${tempP[i]}</li>`;
+		}
+		for(var i = 0; i < tempR.length; i++) {
+			relative += `
+				<div class="group">
+					<h5>${tempR[i].name}</h5>
+					<li>${tempR[i].desc}</li>
+				</div>
+			`;
+		}
+		for(var i = 0; i < tempJ.length; i++) {
+			job += `
+				<div class="group">
+					<h5>『${tempJ[i].name}』</h5>
+					<div>
+			`;
+			for(var j = 0; j < tempJ[i].desc.length; j++)
+				job += `<li>${tempJ[i].desc[j]}</li>`;
+			job += `
+				<div class="note">Xuất hiện lần đầu trong <span id="${changeId(tempJ[i].firstAppear)}">Chapter ${tempJ[i].firstAppear}</span></div>
+				</div></div>	
+			`;
+		}
+		for(var i = 0; i < tempS.length; i++) {
+			skill += `
+				<div class="group">
+					<h5>『${tempS[i].name}』</h5>
+					<div>
+						<div class="point">Học được từ${tempS[i].from()}</div>
+						<div class="point">Loại: ${tempS[i].type}</div>
+			`;
+			for(var j = 0; j < tempS[i].desc.length; j++)
+				skill += `<li>${tempS[i].desc[j]}</li>`;
+			if(tempS[i].firstAppear != -1) {
+				skill += `<div class="note">Xuất hiện lần đầu trong <span id="${changeId(tempS[i].firstAppear)}">Chapter ${tempS[i].firstAppear}</span>`;
+				if(tempS[i].inDesc === 1)
+					skill += ` dưới dạng mô tả</div>`;
+				else
+					skill += `</div>`;
+			} else
+				skill += `<div class="note">Chưa từng đề cập</div>`;
+			if(tempS[i].firstUse != -1)
+				skill += `<div class="note">Sử dụng lần đầu trong <span id="${changeId(tempS[i].firstUse)}">Chapter ${tempS[i].firstUse}</span></div>`;
+			else
+				skill += `<div class="note">Chưa được sử dụng</div>`;
+			skill += `</div></div>`;
+		}
+		for(var i = 0; i < tempT.length; i++) {
+			titles += `
+				<div class="group">
+					<h5>『${tempT[i].name}』</h5>
+					<div>
+						<div class="point">Nhận được từ${tempT[i].from()}</div>
+			`;
+			for(var j = 0; j < tempT[i].desc.length; j++)
+				titles += `<li>${tempT[i].desc[j]}</li>`;
+			if(tempT[i].firstAppear != -1)
+				titles += `<div class="note">Xuất hiện lần đầu trong <span id="${changeId(tempT[i].firstAppear)}">Chapter ${tempT[i].firstAppear}</span></div>`;
+			else
+				titles += `<div class="note">Chưa từng đề cập</div>`;
+			titles += `</div></div>`;
+		}
+		for(var i = 0; i < tempI.length; i++) {
+			item += `
+				<div class="group">
+					<h5>『${tempI[i].name}』</h5>
+					<div>
+						<div class="point">Nhận được từ${tempI[i].from()}</div>
+			`;
+			for(var j = 0; j < tempI[i].desc.length; j++)
+				item += `<li>${tempI[i].desc[j]}</li>`;
+			if(tempI[i].firstAppear != -1)
+				item += `<div class="note">Xuất hiện lần đầu trong <span id="${changeId(tempI[i].firstAppear)}">Chapter ${tempI[i].firstAppear}</span></div>`;
+			else
+				item += `<div class="note">Chưa từng đề cập</div>`;
+			if(tempI[i].firstUse != -1)
+				item += `<div class="note">Sử dụng lần đầu trong <span id="${changeId(tempI[i].firstUse)}">Chapter ${tempI[i].firstUse}</span></div>`;
+			else
+				item += `<div class="note">Chưa được sử dụng</div>`;
+			item += `</div></div>`;
+		}
+
+		var format = `
+			<section class="main">
+				<h1>${title}</h1>
+				<hr>
+				<div>
+					<h4 class="headerSmall dropdown dropdownActive">Các tên khác</h4>
+					<div class="dropdownHide dropdownShow">${otherName}</div>
+				</div>
+				<div>
+					<h4 class="headerSmall dropdown dropdownActive">Thông tin cá nhân</h4>
+					<div class="dropdownHide dropdownShow">
+						<div class="group">
+							<h5>Tuổi</h5>
+							<li class="now">${age} tuổi</li>
+						</div>
+						<div class="group">
+							<h5>Giới tính</h5>
+							<li class="now">${gender}</li>
+						</div>
+						<div class="group">
+							<h5>Chủng tộc</h5>
+							<li class="now">${race}</li>
+						</div>
+						<div class="group">
+							<h5>Trạng thái</h5>
+							<li class="now">${status}</li>
+						</div>
+						<div class="group">
+							<h5>Thích</h5>
+							<div>
+								${like}
+							</div>
+						</div>
+						<div class="group">
+							<h5>Ghét</h5>
+							<div>
+								${dislike}
+							</div>
+						</div>
+						<div class="group">
+							<h5>Xuất hiện</h5>
+							<li><span id="${changeId(debut)}">Chapter ${debut}</span></li>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h4 class="headerSmall dropdown">Vẻ bề ngoài</h4>
+					<div class="dropdownHide">${appearance}</div>
+				</div>
+				<div>
+					<h4 class="headerSmall dropdown">Tiểu sử</h4>
+					<div class="dropdownHide">${personality}</div>
+				</div>
+				<div>
+					<h4 class="headerSmall dropdown">Các mối quan hệ</h4>
+					<div class="dropdownHide">${relative}</div>
+				</div>
+				<div>
+					<h4 class="headerSmall dropdown">Chức nghiệp & Nghề nghiệp</h4>
+					<div class="dropdownHide">${job}</div>
+				</div>
+				<div>
+					<h4 class="headerSmall dropdown">Kĩ năng</h4>
+					<div class="dropdownHide">${skill}</div>
+				</div>
+				<div>
+					<h4 class="headerSmall dropdown">Danh hiệu</h4>
+					<div class="dropdownHide">${titles}</div>
+				</div>
+				<div>
+					<h4 class="headerSmall dropdown">Vật phẩm sở hữu</h4>
+					<div class="dropdownHide">${item}</div>
+				</div>
+			</section>
+		`;
+		document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
+	}
+	document.querySelector('body').innerHTML += format;
+
+	if(document.querySelectorAll('span')) {
+		const span = document.querySelectorAll('span');
+		for(var i = 0; i < span.length; i++)
+			span[i].addEventListener('click', openChapter);
+	}
+
+	if(document.querySelectorAll('.dropdown')) {
+		var dropdown = document.querySelectorAll('.dropdown');
+		for(var i = 0; i < dropdown.length; i++) {
+			dropdown[i].addEventListener("click", dropdownActive);
+		}
+	}
+}
+
+function dropdownActive() {
+	this.classList.toggle('dropdownActive');
+	this.parentElement.querySelector('.dropdownHide').classList.toggle('dropdownShow');
+}
+
+function afterSort(dex) {
+	var sort = [];
+	for(var i = 0; i < dex.length; i++){
+		sort[i] = dex[i]
+	}
+	for(var i = 0; i < sort.length - 1; i++)
+		for(var j = i + 1; j < sort.length; j++)
+			if(sort[i].title > sort[j].title) {
+				var temp = sort[i]
+				sort[i] = sort[j];
+				sort[j] = temp;
+			}
+	return sort;
+}
