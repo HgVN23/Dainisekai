@@ -61,7 +61,7 @@ function loadChapter(id) {
 function changeId(id) {
 	let Id;
 	for(var i = 0; i < volume.length; i++) {
-		if(volume[i].chapter == parseFloat(id)) {
+		if(volume[i].chapter == id) {
 			Id = i;
 			break;
 		}
