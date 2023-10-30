@@ -357,14 +357,16 @@ p.clickable {
 }
 p,
 li,
-b {
+b,
+i {
 	white-space: pre-wrap;
 	user-select: text;
 	line-height: 1.4rem;
 }
 p::selection,
 li::selection,
-b::selection {
+b::selection,
+i::selection {
 	color: aqua;
 }
 .info p {

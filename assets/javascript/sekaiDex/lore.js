@@ -22,7 +22,8 @@ const lore = [
 				main: 'Chính sách chuyển sinh',
 				content: [
 					'Được tùy chỉnh bản thân như diện mạo, chủng loài, thể trạng, chức nghiệp trước khi chuyển sinh.',
-					'Có khả năng truy cập vào『Bảng trạng thái』trước 10 tuổi',
+					'Có khả năng truy cập vào『Bảng trạng thái』sớm hơn bình thường.',
+					'Có danh hiệu『Người chuyển sinh』cho phép ẩn thông tin tùy chọn trong『Bảng trạng thái』mà không sinh vật có kỹ năng thuộc『Dainisekai』có thể nhìn ra được. Ngoại trừ những người được văn phòng Re:Life chuyển sinh có kỹ năng soi mói.',
 					'Có được ba điều ước và ước được bất cứ điều gì miễn là thỏa mãn các điều kiện: không gây ảnh hưởng lên những người chuyển sinh khác, không ảnh hưởng quá lớn lên đại vũ trụ『Dainisekai』và nhất là ảnh hưởng lên văn phòng Re:Life.',
 					'Ký ức từ thế giới trước sẽ được giữ lại nhưng điểm bắt đầu sẽ là trẻ sơ sinh.',
 					'Không thể quay lại văn phòng Re:Life kể cả sau chết, trừ khi do bên văn phòng triệu tập.'
@@ -75,11 +76,40 @@ const lore = [
 		title: 'Bảng trạng thái',
 		section: [
 			{
-				main: '???',
+				main: 'Khái niệm',
 				content: [
-					'Chỉ số gồm EXP (điểm kinh nghiệp), LVL (cấp độ), HP (máu), MP (Mana), ATK (tấn công), DEF (phòng thủ), SPE (tốc độ), LUCK (may mắn) và có thể tự tạo thêm',
-					'Có thể không đề cập đến nếu không thể cân bằng chỉ số',
-					'Nếu đề cập mà không ghi chỉ số thì có thể dùng ? thay cho số'
+					'Là bảng ảo hiện thị thông tin cá nhân của sinh vật.'
+				]
+			},
+			{
+				main: 'Thành phần thông tin',
+				content: [
+					'Tên sinh vật.',
+					'Tuổi hoặc tồn tại trong bao lâu.',
+					'Giới tính chỉ có nam (đực) hoặc nữ (cái) hoặc không rõ.',
+					'Chủng loại là người hoặc Elf hoặc Drawf hoặc tự định nghĩa.',
+					'Chức nghiệp hoặc nghề nghiệp hoặc phân lớp là chiến binh hoặc pháp sư hoặc tu sĩ hoặc tự định nghĩa, kèm vài vật phẩm khởi đầu và vài kỹ năng thưởng liên quan.',
+					'Thể trạng được chuyển hóa thành các chỉ số gồm sinh lực (HP), ma lực (MP), may mắn (Luck), ...',
+					'Kỹ năng gồm kỹ thuật là sử dụng ma lực để cường hóa hành động như『Trảm』hay『Cường hóa Thể chất』 và ma pháp là sử dụng ma lực để chuyển hóa thành năng lượng khác như『Hỏa cầu』hay『Hồi phục』.',
+					'Danh hiệu nhận được nhờ vào sự công nhận của một hoặc nhiều sinh vật, đồng thời danh hiệu cũng ảnh hưởng tốt hoặc xấu lên sinh vật mang như『Kẻ sát rồng』sẽ khiến sinh vật mang gây sát thương lớn hơn khi săn rồng. Cũng có những danh hiệu không gây ảnh hưởng gì cả và danh hiệu không thể bị xóa bỏ.',
+					'『Kho chứa Không gian』là nơi chứa các vật phẩm trong một không gian khác mà chỉ sinh vật đó mới truy cập được vào. Chỉ dành cho những sinh vật nào sở hữu khả năng này.',
+					'Bất cứ thông tin nào khác có thể định nghĩa được thêm.'
+				]
+			},
+			{
+				main: 'Cơ chế',
+				content: [
+					'Nghĩ hoặc nói『Bảng trạng thái』thì thông tin sẽ xuất hiện trước mặt.',
+					'Sinh vật hoặc vật phẩm có thể xem hay đọc được thông tin nếu có sự cho phép.',
+					'Thông tin có thể bị xem hoặc đọc từ sinh vật có kỹ năng hoặc vật phẩm có khả năng nhìn hay đọc mang sức mạnh lớn hơn, bỏ qua sự không cho phép.',
+					'Thông tin có thể bị ẩn hoặc giả thông tin nhờ vào kỹ năng hoặc vật phẩm.',
+					'Tùy thuộc vào sức mạnh kỹ năng hay vật phẩm mà ẩn hay giả thông tin có thể chặn được nhìn hoặc đọc. Ngược lại nhìn hay đọc có thể vượt qua ẩn hay giả thông tin nếu mạnh hơn.'
+				]
+			},
+			{
+				main: 'Lời khuyên',
+				content: [
+					'Nếu không có khả năng cân bằng các con số trong phần thông tin thì đừng đề cập đến hoặc chỉ nói sơ qua.'
 				]
 			}
 		]
@@ -140,21 +170,28 @@ const lore = [
 	},
 	{
 		id: 4,
-		title: 'Các dạng của Mana',
+		title: 'Ma lực',
 		section: [
+			{
+				main: 'Khái niệm',
+				content: [
+					'Là nguồn năng lượng chú ngụ trong sinh vật, trong『Ma thạch』hay sinh ra từ tự nhiên được sử dụng để hiện thực hóa kỹ năng của sinh vật thi triển hoặc của vật phẩm.',
+					'Có hai dạng: dạng loãng và dạng cô đặc'
+				]
+			},
 			{
 				main: 'Dạng loãng',
 				content: [
-					'Không thể thấy (hoặc có nếu dùng Skill hoặc là đặc tính đặc biệt của loài hoặc có ma cụ, ...) nhưng có thể cảm nhận được',
-					'Được tạo ra từ tự nhiên như trong không khí, trong mặt đất, trong cây cối, ...'
+					'Là dạng năng lượng chưa được sử dụng, thường khó có thể thấy và chỉ có thể cảm nhận được.',
+					'Tồn tại trong và ngoài cơ thể sinh vật, trong tự nhiên như không khí, mặt đất, nước, ...'
 					
 				]
 			},
 			{
-				main: 'Dạng đặc',
+				main: 'Dạng cô đặc',
 				content: [
-					'Có thể thấy (hoặc không thể do 1 vài Skill) và có thể cảm nhận',
-					'Hình thành từ Skill như hỏa cầu, băng tiễn, phong chảm, cường hóa, ...'
+					'Là dạng năng lượng đã được sử dụng, có thể dể dàng thấy, có thể cảm nhận và thậm chí chạm được.',
+					'Tồn tại trong các kỹ năng như『Hỏa cầu』,『Trảm』,『Cường hóa』, ... Và đặc biệt là『Ma thạch』'
 				]
 			}
 		]
