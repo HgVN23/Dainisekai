@@ -121,7 +121,7 @@ const lore = [
 			{
 				main: 'Thẻ mạo hiểm giả',
 				content: [
-					'Hiện thị 1 vài thông tin như là tên, tuổi, giới tính, chủng loại, nghề nghiệp, hạng, tiến trình nhiệm vụ hoàn thành để lên hạng, lịch sử ma thú đã săn, lịch sử nhiệm vụ hoàn thành',
+					'Hiển thị 1 vài thông tin như là tên, tuổi, giới tính, chủng loại, nghề nghiệp, hạng, tiến trình nhiệm vụ hoàn thành để lên hạng, lịch sử ma thú đã săn, lịch sử nhiệm vụ hoàn thành',
 					'Nguyên liệu làm thẻ phụ thuộc vào hạng hiện đang có',
 					'Nhỏ máu vào thẻ sẽ liên kết linh hồn tới thẻ nên không thể thay đổi thông tin trong thẻ',
 					'Thẻ được phù phép『Unbreakable』nên thẻ không thể bị phá hủy',
@@ -175,7 +175,7 @@ const lore = [
 			{
 				main: 'Khái niệm',
 				content: [
-					'Là nguồn năng lượng chú ngụ trong sinh vật, trong『Ma thạch』hay sinh ra từ tự nhiên được sử dụng để hiện thực hóa kỹ năng của sinh vật thi triển hoặc của vật phẩm.',
+					'Là nguồn năng lượng trú ngụ trong sinh vật, trong Ma thạch hay sinh ra từ tự nhiên được sử dụng để hiện thực hóa kỹ năng của sinh vật thi triển hoặc của vật phẩm.',
 					'Có hai dạng: dạng loãng và dạng cô đặc'
 				]
 			},
@@ -191,7 +191,7 @@ const lore = [
 				main: 'Dạng cô đặc',
 				content: [
 					'Là dạng năng lượng đã được sử dụng, có thể dể dàng thấy, có thể cảm nhận và thậm chí chạm được.',
-					'Tồn tại trong các kỹ năng như『Hỏa cầu』,『Trảm』,『Cường hóa』, ... Và đặc biệt là『Ma thạch』'
+					'Tồn tại trong các kỹ năng như『Hỏa cầu』,『Trảm』,『Cường hóa』, ... Và đặc biệt là Ma thạch.'
 				]
 			}
 		]
