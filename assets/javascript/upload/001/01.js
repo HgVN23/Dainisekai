@@ -1,5 +1,7 @@
 const mark = '001/01';
 const formatStyle = 'dialogue';
+const call = 'Chương';
+const separator = ' - ';
 const name = 'New life in wonderful world';
 const volume = [
 	// {

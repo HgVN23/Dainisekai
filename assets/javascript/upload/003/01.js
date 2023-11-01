@@ -1,5 +1,7 @@
 const mark = '003/01';
 const formatStyle = 'old';
+const call = 'Chương';
+const separator = ' - ';
 const name = 'Urzog - Path of the Berserker';
 const volume = [
 	// {

@@ -1,5 +1,7 @@
 const mark ='002/01';
 const formatStyle ='normal';
+const call = 'Chương';
+const separator = ' - ';
 const name ='The True Therian';
 const volume = [
 	// {

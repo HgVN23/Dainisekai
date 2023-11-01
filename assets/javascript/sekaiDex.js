@@ -1,9 +1,7 @@
-const loreSort = afterSort(lore);
-const characterSort = afterSort(character);
-
 function openDex() {
-	window.open(`${urlDex}0`, '_self');
+	window.open(`${urlDex}null`, '_self');
 }
+
 function loadDex() {
 	clean();
 
@@ -15,11 +13,14 @@ function loadDex() {
 			<div class="sekaiDex">
 				<div class="sekaiDexCol">
 					<h3>Lore</h3>
-					${addTitle(loreSort, 2)}
+					${addTitle(lore, 'lore')}
 				</div>
 				<div class="sekaiDexCol">
 					<h3>Thông tin</h3>
-					${addTitle(characterSort, 3)}
+					<div>
+						<h4 class="headerSmall dropdown">Dàn nhân vật</h4>
+						<div class="dropdownHide">${addTitle(character, 'character')}</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -30,9 +31,12 @@ function loadDex() {
 	for(var i = 0; i < addOpen.length; i++) {
 		addOpen[i].addEventListener('click', openDexContent);
 	}
+
+	addDropdown();
 }
 
 function addTitle(dex, part) {
+	var dex = afterSort(dex);
 	var data = ``;
 	for(var i = 0; i < dex.length; i++) {
 		var temp = dex[i];
@@ -52,26 +56,8 @@ function openDexContent() {
 
 function loadDexContent(id) {
 	clean();
-	if(id.includes('1.')) {
-		var temp = sekaiDex1[parseInt(id.slice(2))];
-		var title = temp.title;
-		var tempC = temp.content;
-		var content = ``;
-		for(var i = 0; i < tempC.length; i++) {
-			content += `
-				<li>${tempC[i]}</li>
-			`;
-		};
-		var format = `
-			<section class="main">
-				<h1>${title}</h1>
-				<hr>
-				${content}
-			</section>
-		`;
-		document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
-	} else if(id.includes('2.')){
-		var temp = lore[parseInt(id.slice(2))];
+	if(id.includes('lore')){
+		var temp = lore[parseInt(id.slice(5))];
 		var title = temp.title;
 		var tempS = temp.section;
 		var section = ``;
@@ -93,7 +79,7 @@ function loadDexContent(id) {
 		`;
 		document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
 	} else {
-		var temp = character[parseInt(id.slice(2))];
+		var temp = character[parseInt(id.slice(10))];
 		var title = temp.title;
 		var tempON = temp.otherName;
 		var otherName = ``;
@@ -308,10 +294,14 @@ function loadDexContent(id) {
 			span[i].addEventListener('click', openChapter);
 	}
 
+	addDropdown();
+}
+
+function addDropdown() {
 	if(document.querySelectorAll('.dropdown')) {
 		var dropdown = document.querySelectorAll('.dropdown');
 		for(var i = 0; i < dropdown.length; i++) {
-			dropdown[i].addEventListener("click", dropdownActive);
+			dropdown[i].addEventListener('click', dropdownActive);
 		}
 	}
 }

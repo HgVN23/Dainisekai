@@ -1,5 +1,7 @@
 const mark = '002/02';
 const formatStyle = 'normal';
+const call = 'Chương';
+const separator = ' - ';
 const name = 'Alternative Pathway of Samsara';
 const volume = [
 	// {

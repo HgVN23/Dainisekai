@@ -1,5 +1,7 @@
 const mark = '004/02';
 const formatStyle = 'normal';
+const call = 'Chương';
+const separator = ' - ';
 const name = 'Skyriders’ Legacy: Gotokuji Shiro';
 const volume = [
 	// {

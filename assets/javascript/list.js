@@ -10,9 +10,9 @@ if(location.search) {
 	const urlParams = new URLSearchParams(location.search);
 	if(urlParams.has('chapter'))
 		loadChapter(urlParams.get('chapter'));
-	if(urlParams.has('dex') && parseFloat(urlParams.get('dex')) == 0)
+	else if(urlParams.has('dex') && urlParams.get('dex') == 'null')
 		loadDex(urlParams.get('dex'));
-	if(urlParams.has('dex') && parseFloat(urlParams.get('dex')) != 0)
+	else
 		loadDexContent(urlParams.get('dex'));
 } else
 	addList();
@@ -26,7 +26,7 @@ function addList() {
 		chapters += `
 			<div class="chapter">
 				<div id="${chapter}" class="mark"></div>
-				<p id="${i}" class="clickable">Chapter ${chapter} - ${title}</p>
+				<p id="${i}" class="clickable">${call} ${chapter}${separator}${title}</p>
 			</div>
 		`;
 	}

@@ -316,8 +316,7 @@ h4 {
 .selectBox,
 .main,
 .dialogue,
-.character,
-.sekaiDexCol {
+.character {
 	display: flex;
 	flex-direction: column;
 }
@@ -509,7 +508,10 @@ li span {
 	justify-content: space-around;
 	gap: 1rem;
 }
-.sekaiDexCol {
+.sekaiDexCol,
+.sekaiDexCol .dropdownShow {
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	gap: 1rem;
 }
