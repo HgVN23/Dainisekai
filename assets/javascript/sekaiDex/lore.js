@@ -21,9 +21,9 @@ const lore = [
 			{
 				main: 'Chính sách chuyển sinh',
 				content: [
-					'Được tùy chỉnh bản thân như diện mạo, chủng loài, thể trạng, chức nghiệp trước khi chuyển sinh.',
-					'Có khả năng truy cập vào『Bảng trạng thái』sớm hơn bình thường.',
-					'Có danh hiệu『Người chuyển sinh』cho phép ẩn thông tin tùy chọn trong『Bảng trạng thái』mà không sinh vật có kỹ năng thuộc『Dainisekai』có thể nhìn ra được. Ngoại trừ những người được văn phòng Re:Life chuyển sinh có kỹ năng soi mói.',
+					'Được tùy chỉnh bản thân như diện mạo, chủng loại, thể trạng, chức nghiệp trước khi chuyển sinh.',
+					'Có khả năng truy cập vào Bảng trạng thái sớm hơn bình thường.',
+					'Có danh hiệu『Người chuyển sinh』cho phép ẩn thông tin tùy chọn trong Bảng trạng thái mà không sinh vật có kỹ năng thuộc『Dainisekai』có thể nhìn ra được. Ngoại trừ những người được văn phòng Re:Life chuyển sinh có kỹ năng soi mói.',
 					'Có được ba điều ước và ước được bất cứ điều gì miễn là thỏa mãn các điều kiện: không gây ảnh hưởng lên những người chuyển sinh khác, không ảnh hưởng quá lớn lên đại vũ trụ『Dainisekai』và nhất là ảnh hưởng lên văn phòng Re:Life.',
 					'Ký ức từ thế giới trước sẽ được giữ lại nhưng điểm bắt đầu sẽ là trẻ sơ sinh.',
 					'Không thể quay lại văn phòng Re:Life kể cả sau chết, trừ khi do bên văn phòng triệu tập.'
@@ -46,18 +46,18 @@ const lore = [
 			{
 				main: 'Cấu tạo',
 				content: [
-					'Trong đại vũ trụ sẽ có một đại địa cầu được gọi là Trái đất. Và chiều không gian chính được gọi là Khởi nguyên, nơi phần lớn người chuyển sinh đến.',
-					'Trái đất nằm trong hệ hành tinh gồm một Mặt trời, một Mặt trăng và các thiên thể “sao” có thể nhìn thấy từ mọi nơi. Và dòng thời gian hiện tại chưa sinh vật nào ở Trái đất có thể khai phá vũ trụ.',
-					'Đại vũ trụ cũng gồm các chiều không gian khác được xếp chồng lên nhau.'
+					'Trong đại vũ trụ sẽ có nhiều chiều không gian khác nhau và chiều không gian chính được gọi là Khởi nguyên, nơi phần lớn người chuyển sinh đến.',
+					'Tại Khởi nguyên, hành tinh chính mang tên Trái đất nằm trong hệ hành tinh Trung tâm gồm một Mặt trời, một Mặt trăng cùng các thiên thể khác. Và thời điểm hiện tại chưa sinh vật nào ở Trái đất có thể khai phá vũ trụ.',
+					'Ngoài Trái đất, có thể có nhiều thiên thể khác có sự sống nằm ở nhiều hệ sao khác nhau, các thiên thể này có thể có hoặc không có người chuyển sinh.'
 				]
 			},
 			{
 				main: 'Trái đất',
 				content: [
-					'Dòng thời gian hiện tại chưa sinh vật nào có thể đi được một vòng Trái đất nên vẫn còn xung đột giữa các giả thuyết khác nhau về hình dạng Trái đất. Một trong số đó là mặt phẳng trải dài vô tận tám hướng.',
+					'Thời điểm hiện tại chưa sinh vật nào có thể đi được một vòng Trái đất nên vẫn còn xung đột giữa các giả thuyết khác nhau về hình dạng Trái đất. Một trong số đó là mặt phẳng trải dài vô tận tám hướng.',
 					'Địa hình đa dạng gồm các lục địa và đại dương xếp rải rác với các mảng kiến tạo định hình vị trí. Và mỗi nơi có thể tồn tại các “quy luật” riêng khác biệt với phần còn lại.',
 					'Đa chủng loại sinh vật tồn tại trên mặt đất, trên trời, dưới biển, ... Tạo nên đa nền văn minh, văn hóa, lịch sử, ...',
-					'Bí cảnh, hầm ngục quái, dị điểm thời không, ... là các tên gọi cho các công trình, tàn tích, di tích, ... đôi khi xuất hiện ở khắp nơi mà không có một quy luật cụ thể. Phần lớn đều do “tự nhiên” hình thành, một phần nhỏ là nhân tạo.',
+					// 'Bí cảnh, hầm ngục quái, dị điểm thời không, ... là các tên gọi cho các công trình, tàn tích, di tích, ... đôi khi xuất hiện ở khắp nơi mà không có một quy luật cụ thể. Phần lớn đều do “tự nhiên” hình thành, một phần nhỏ là nhân tạo.',
 					'Có Mặt trời chính và ít nhất một Mặt trăng chính nên hệ thống thời gian nơi đây vẫn giống với thế giới “nằm ngoài『Dainisekai』” như số ngày trong năm cùng thời gian trong ngày. Có thể chỉ khác trong việc phân chia tháng và mùa ở từng nơi.'
 				]
 			},
@@ -65,7 +65,7 @@ const lore = [
 				main: 'Người chuyển sinh',
 				content: [
 					'Là những người vốn không thuộc『Dainisekai』được lựa chọn từ văn phòng Re:Life đưa đến với nhiều lí do khác nhau.',
-					'Tuy được chuyển sinh nhưng có thể không chung một nơi, một lục địa hoặc thậm chí chiều không gian.',
+					'Tuy được chuyển sinh nhưng có thể không chung một lục địa, một hành tinh hoặc thậm chí chiều không gian.',
 					'Những người chuyển sinh vẫn có thể gặp được nhau tại bất cứ đâu trong『Dainisekai』.'
 				]
 			}
@@ -82,7 +82,7 @@ const lore = [
 				]
 			},
 			{
-				main: 'Thành phần thông tin',
+				main: 'Cấu trúc',
 				content: [
 					'Tên sinh vật.',
 					'Tuổi hoặc tồn tại trong bao lâu.',
@@ -99,7 +99,7 @@ const lore = [
 			{
 				main: 'Cơ chế',
 				content: [
-					'Nghĩ hoặc nói『Bảng trạng thái』thì thông tin sẽ xuất hiện trước mặt.',
+					'Nghĩ hoặc nói Bảng trạng thái thì thông tin sẽ xuất hiện trước mặt.',
 					'Sinh vật hoặc vật phẩm có thể xem hay đọc được thông tin nếu có sự cho phép.',
 					'Thông tin có thể bị xem hoặc đọc từ sinh vật có kỹ năng hoặc vật phẩm có khả năng nhìn hay đọc mang sức mạnh lớn hơn, bỏ qua sự không cho phép.',
 					'Thông tin có thể bị ẩn hoặc giả thông tin nhờ vào kỹ năng hoặc vật phẩm.',
@@ -116,54 +116,70 @@ const lore = [
 	},
 	{
 		id: 3,
-		title: 'Guild mạo hiểm giả',
+		title: 'Hiệp hội Mạo hiểm giả',
 		section: [
 			{
-				main: 'Thẻ mạo hiểm giả',
+				main: 'Chức năng',
 				content: [
-					'Hiển thị 1 vài thông tin như là tên, tuổi, giới tính, chủng loại, nghề nghiệp, hạng, tiến trình nhiệm vụ hoàn thành để lên hạng, lịch sử ma thú đã săn, lịch sử nhiệm vụ hoàn thành',
-					'Nguyên liệu làm thẻ phụ thuộc vào hạng hiện đang có',
-					'Nhỏ máu vào thẻ sẽ liên kết linh hồn tới thẻ nên không thể thay đổi thông tin trong thẻ',
-					'Thẻ được phù phép『Unbreakable』nên thẻ không thể bị phá hủy',
-					'Chỉ những dụng cụ chuyên dụng của Guild mới có thể can thiệp được 1 phần thẻ'
+					'Là nơi nhận các yêu cầu của cư dân và phân phát yêu cầu đó dưới dạng nhiệm vụ để ủy thác tới các Mạo hiểm giả.'
 				]
 			},
 			{
-				main: 'Hạng mạo hiểm giả được chia làm 6 loại, thấp nhất là Iron < Bronze < Silver < Gold < Platinum < Mythril là cao nhất',
+				main: 'Quy chế',
 				content: [
-					'Để có thể thăng hạng phải hoàn thành 100 nhiệm vụ cùng cấp hoặc hơn cấp. Sau đó số lượng yêu cầu hoàn thành nhiệm vụ sẽ tăng thêm 100 mỗi lần thăng hạng. Đồng thời cũng phải trải qua 1 bài kiểm tra đánh giá của Guild để có thể chính thức thăng hạng. Đặc biệt nếu có thành tích xuất sắc với được tín cử từ hạng Platinum hoặc Mythril hoặc từ những người có thẩm quyền sẽ được xem xét thăng hạng, bỏ qua các yêu cầu cần',
-					'Sau 1 khoảng thời gian không làm nhiệm vụ sẽ bị tụt hạng, lần lượt là 1 tháng < 3 tháng < 6 tháng < 9 tháng < 1 năm. Đối với Iron nếu lâu không làm sẽ phải nộp phí là 10 xu bạc, còn đối với Mythril sẽ không bị tụt khi lâu không làm nhiệm vụ',
-					'Ở vài hạng nhất định sẽ có quyền lợi đặc biệt như hạng Platinum và Mythril sẽ được trả phí sửa chữa đồ và phí chữa trị sau khi hoàn thành nhiệm vụ. Còn riêng hạng Mythril sẽ có thêm quyền lợi là hưởng lương hưu 3 xu vàng mỗi tháng khi người hạng đó chính thức nộp đơn nghỉ không hoạt động làm mạo hiểm giả nữa. Tất nhiên họ vẫn có thể rút đơn và hoạt động tiếp nhưng lương hưu sẽ tạm dừng, sau đó vẫn có thể nộp lại đơn. Đổi lại họ sẽ sẽ bị buộc triệu tập đến chiến trường khi nó xảy ra nếu sức khỏe còn tốt'
+					'Nhân viên của hội sẽ tiếp nhận yêu cầu của cư dân, đánh giá, xem xét, thảo luận và có thể bị từ chối. Đối với lãnh chúa hay quý tộc giao yêu cầu thì bỏ qua các bước trên.',
+					'Mạo hiểm giả sẽ chọn các nhiệm vụ hay ủy thác phù hợp với hạng của mình rồi nhờ bên nhân viên hay lễ tân xác nhận. Đôi khi Mạo hiểm giả sẽ bị giao cho nhiệm vụ mà khó có thể từ chối.',
+					'Đăng ký làm Mạo hiểm giả không tính phí và sẽ nhận được Thẻ định danh.'
 				]
 			},
 			{
-				main: 'Nhiệm vụ sẽ được phân loại để phù hợp với thứ hạng',
+				main: 'Thẻ định danh',
 				content: [
-					'Có thể nhận nhiệm vụ cao hơn 1 hạng nhưng không thể nhận nhiệm vụ thấp hạng. Có thể làm nhiệm vụ cao hạng hơn nếu được mời tham gia vào Party nhưng phải cân nhắc nếu quá chênh lệch trình độ',
-					'Sau khi hoàn thành nhiệm vụ sẽ được nhận tiền thưởng ghi trong yêu cầu',
-					'Tùy vào nhiệm vụ sẽ có gia hạn thời gian hoàn thành hoặc không',
-					'Đối với nhiệm vụ yêu cầu từ người khác sẽ cần chữ kí của họ để xác nhận hoàn thành nhiệm vụ',
-					'Nếu nhiệm vụ bị thất bại sẽ bị trừ 1 điểm tiến trình nhiệm vụ đã hoàn thành'
+					'Là ma cụ chứa một vài thông tin cá nhân của người dùng để hoạt động Mạo hiểm giả và định danh.',
+					'Hiển thị một vài thông tin như là tên, tuổi, giới tính, chủng loại, chức nghiệp, hạng mạo hiểm giả, tổ đội nếu có, thống kê nhiệm vụ nhận và sinh vật đã hạ. Riêng hạng mạo hiểm giả, tổ đội và thống kệ nhiệm vụ nhận có thể sửa đổi trên thẻ thông qua ma cụ đặc biệt của hiệp hội',
+					'Diện mạo của thẻ tự động thay đổi khi thăng hay tụt hạng, giống với nguyên liệu cùng tên hạng.',
+					'Để liên kết thông tin cá nhân tới thẻ, nhỏ máu vào sẽ tạo liên kết vĩnh cửu và thẻ không thể đổi chủ.',
+					'Sau khi liên kết, thẻ sẽ không dễ bị phá hủy trừ khi sử dụng ma cụ đặc biệt của hiệp hội.'
 				]
 			},
 			{
-				main: 'Party có thể tạo tạm thời hoặc lâu dài',
+				main: 'Hạng mạo hiểm giả',
 				content: [
-					'Không giới hạn số lượng thành viên trong Party',
-					'Khi làm nhiệm vụ có yêu cầu Party sẽ được bên Guild thưởng thêm 5% tiền thưởng cho mỗi thành viên trong Party tham gia nhiệm vụ, trừ trưởng Party. Còn nhận nhiệm vụ không có yêu cầu Party sẽ không thưởng thêm',
-					'Số tiền thưởng tự bên Party chia đều cho các thành viên'
+					'Được chia làm sáu loại, thấp nhất là hạng Sắt, rồi tăng lên Đồng, Bạc, Vàng, Bạch kim và Mythril là hạng cao nhất',
+					'Để có thể thăng hạng phải hoàn thành một trăm nhiệm vụ cùng bậc hoặc hơn bậc. Sau đó số lượng yêu cầu hoàn thành nhiệm vụ sẽ tăng thêm một trăm mỗi lần thăng hạng. Đồng thời cũng phải trải qua một bài kiểm tra đánh giá của hiệp hội để có thể chính thức thăng hạng. Đặc biệt, nếu có thành tích xuất sắc kèm tín cử từ hạng Bạch kim hoặc Mythril hoặc từ những người có quyền lực sẽ được xem xét thăng hạng, bỏ qua các điều kiện cần.',
+					'Sau một khoảng thời gian không làm nhiệm vụ sẽ bị tụt hạng, lần lượt từ hạng Sắt là một tháng, rồi hạng Đồng là ba tháng, sáu tháng, chín tháng và hạng Bạch kim là một năm. Riêng hạng Sắt nếu lâu không làm nhiệm vụ sẽ phải nộp phí để hoạt động lại, còn hạng Mythril sẽ không bị tụt.',
+					'Ở vài hạng nhất định sẽ có quyền lợi đặc biệt như hạng Bạch kim và Mythril sẽ được trả phí sửa chữa đồ cùng phí chữa trị sau khi hoàn thành nhiệm vụ. Còn riêng hạng Mythril sẽ có thêm quyền lợi là hưởng lương hưu mỗi tháng khi người đó chính thức nộp đơn nghỉ không hoạt động làm mạo hiểm giả nữa. Tất nhiên họ vẫn có thể rút đơn và hoạt động tiếp nhưng lương hưu sẽ tạm dừng, sau đó vẫn có thể nộp lại đơn nếu muốn. Đổi lại, họ sẽ sẽ bị buộc triệu tập làm nhiệm vụ khi có trong bất cứ hoàn cảnh nào.'
 				]
 			},
 			{
-				main: 'Các vi phạm',
+				main: 'Nhiệm vụ',
 				content: [
-					'Mất thẻ phạt 50 xu bạc để làm lại',
-					'Dùng thẻ của người khác phạt 1 xu vàng và 1 tuần đình chỉ',
-					'Giả mạo thẻ sẽ bị cấm vĩnh viễn làm mạo hiểm giả',
-					'Các mạo hiểm giả gây gổ với nhau dẫn đến bạo lực bộc phát phạt 1 xu vàng và 1 tuần đình chỉ',
-					'Khiến người khác bị liên lụy khi đang làm nhiệm vụ phạt 3 xu vàng và 1 tháng đình chỉ',
-					'Bỏ rơi người yêu cầu trong nhiệm vụ hộ tống hoặc bỏ rơi thành viên Party trong tình thế nguy hiểm khi có thể cứu phạt 10 xu vàng, tụt 1 hạng và 3 tháng đình chỉ',
-					'Giết người vô tội sẽ bị cấm vĩnh viễn làm mạo hiểm giả và bị xử theo luật của đất nước'
+					'Được phân loại sao cho phù hợp với thứ hạng của mạo hiểm giả',
+					'Có thể nhận nhiệm vụ cao hơn một hạng nhưng không thể nhận nhiệm vụ thấp hạng. Nhiệm vụ cao hạng hơn có thể làm nếu được mời tham gia vào tổ đội hạng đó nhưng phải cân nhắc nếu quá chênh lệch trình độ.',
+					'Sau khi hoàn thành nhiệm vụ sẽ được nhận tiền thưởng ghi trong yêu cầu.',
+					'Tùy vào nhiệm vụ sẽ có gia hạn thời gian hoàn thành hoặc không.',
+					'Đối với nhiệm vụ yêu cầu từ cư dân sẽ cần chữ kí của họ để xác nhận hoàn thành nhiệm vụ',
+					'Nếu nhiệm vụ bị thất bại sẽ bị trừ một điểm tiến trình nhiệm vụ đã hoàn thành, đây là điểm cần để tham gia vào bài kiểm tra thăng hạng.'
+				]
+			},
+			{
+				main: 'Tổ đội',
+				content: [
+					'Hiệp hội sẽ dùng ma cụ đặc biệt để ghi tên tổ đội cũng như tên các thành viên vào thẻ.',
+					'Có thể tạo tạm thời hoặc lâu dài.',
+					'Không giới hạn số lượng thành viên trong tổ đội.',
+					'Số tiền thưởng tự bên tổ đội quyết định phân chia cho các thành viên.'
+				]
+			},
+			{
+				main: 'Chính sách',
+				content: [
+					'Mất thẻ phạt năm mươi xu bạc để làm lại.',
+					'Dùng thẻ của người khác phạt một xu vàng và một tuần đình chỉ.',
+					'Giả mạo thẻ sẽ bị cấm vĩnh viễn làm mạo hiểm giả. Hiệp hội sẽ điều tra.',
+					'Khiến cư dân bị liên lụy khi đang làm nhiệm vụ tùy vào mức độ phạt bằng xu vàng và một tháng đình chỉ. Hiệp hội sẽ điều tra.',
+					'Bỏ rơi người yêu cầu trong nhiệm vụ hộ tống hoặc bỏ rơi thành viên tổ đội trong tình thế nguy hiểm khi có thể cứu phạt mười xu vàng, tụt một hạng và ba tháng đình chỉ. Hiệp hội sẽ điều tra.',
+					'Sát hại cư dân vô tội sẽ bị cấm vĩnh viễn làm mạo hiểm giả và bị xử theo luật của đất nước.'
 				]
 			}
 		]
@@ -176,7 +192,7 @@ const lore = [
 				main: 'Khái niệm',
 				content: [
 					'Là nguồn năng lượng trú ngụ trong sinh vật, trong Ma thạch hay sinh ra từ tự nhiên được sử dụng để hiện thực hóa kỹ năng của sinh vật thi triển hoặc của vật phẩm.',
-					'Có hai dạng: dạng loãng và dạng cô đặc'
+					'Có hai dạng: dạng loãng và dạng cô đặc.'
 				]
 			},
 			{
@@ -198,110 +214,117 @@ const lore = [
 	},
 	{
 		id: 5,
-		title: 'Inventory (Kho đồ)',
+		title: 'Kho chứa Không gian',
 		section: [
 			{
-				main: '',
+				main: 'Khái niệm',
 				content: [
-					'Không được xét vào mục Skill hay Dimension',
-					'Luôn gắn liền với mỗi người (nếu người chết thì Inventory cũng mất)',
-					'Không ai khác có thể biết trong Inventory của bạn có gì hay dùng Inventory của bạn được',
-					'Để lấy Item chỉ cần nghĩ tới nó hoặc mở Status rồi vào mục Inventory để lấy Item và để cất Item thì phải chạm vào nó',
-					'Trạng thái Item trong Inventory sẽ bị khóa, nghĩa là đồ ăn sẽ không bị thối rữa, độ bền của Item sẽ không đổi, Item nóng sẽ vẫn nóng, ...',
-					'Không thể chứa sinh vật có nhận thức đang còn sống',
-					'Mọi người chuyển sinh đều có Inventory max 9 slot',
-					'Số người trong thế giới có Inventory là hiếm'
+					'Là vùng không gian liên kết với linh hồn của sinh vật cho phép chứa các vật phẩm không có tri giác.'
+				]
+			},
+			{
+				main: 'Cấu trúc',
+				content: [
+					'Số lượng vật phẩm chứa được trong không gian được giới hạn bằng tổng trọng lượng các vật.',
+					'Trọng lượng tối đa được tính bằng một phần ba ma lực (MP) nhân thể lực (Stamina).',
+					'Danh sách vật phẩm được thống kê trong Bảng trạng thái.',
+					'Vật phẩm vào hay ra không gian sẽ bị nén lại thành quả cầu năng lượng phát sáng nhỏ vừa lòng bàn tay.'
+				]
+			},
+			{
+				main: 'Cơ chế',
+				content: [
+					'Việc chứa hay lấy vật phẩm không tiêu tốn gì cả.',
+					'Để chứa vật phẩm cần phải chạm trực tiếp.',
+					'Để lấy vật phẩm chỉ cần nghĩ đến hoặc nhìn vào danh sách trong Bảng trạng thái.',
+					'Chỉ có duy nhất sinh vật sở hữu khả năng này mới truy cập được vào Kho chứa Không gian của chính bản thân.',
+					'Trạng thái của vật phẩm trong Kho chứa Không gian sẽ được giữ nguyên. Nghĩa là đồ ăn sẽ không bị thối rữa, vật phẩm nóng sẽ vẫn nóng, ...',
+					'Vì liên kết với linh hồn nên khi chủ mất mạng thì mọi vật phẩm trong Kho chứa Không gian sẽ đi cùng linh hồn của sinh vật đó.',
+					'Không thể chứa vật phẩm có tri thức.'
+				]
+			},
+			{
+				main: 'Lưu ý',
+				content: [
+					'Số lượng sinh vật trong thế giới sở hữu Kho chứa Không gian là rất hiếm.'
 				]
 			}
 		]
 	},
 	{
 		id: 6,
-		title: 'Ma vật (Magical creature)',
+		title: 'Ma vật',
 		section: [
 			{
-				main: 'Đa dạng thể loại và có các cách gọi riêng theo đặc',
+				main: 'Khái niệm',
 				content: [
-					'Ma nhân là ma vật có đặc tính và dáng vẻ sát với con người nhất. Gồm Goblin, Zombie, Skeleton, ...',
-					'Ma thú là ma vật có đặc tính như động vật, côn trùng. Gồm Horned Rabbit, Ligheep, ...',
-					'Ma nhiên là ma vật có đặc tính từ tài nguyên tự nhiên hoặc thực vật. Gồm Golem, Slime, Carnivorous Plant, ...',
-					'Ma linh là ma vật siêu nhiên, khó nhận ra. Gồm Ghost, Soul, Spirit, ...'
+					'Là sinh vật sống có Ma thạch.'
 				]
 			},
 			{
-				main: 'Có thể bị thuần hóa nhờ vào việc đối xử hoặc thỏa mãn điều kiện của ma vật',
+				main: 'Phân loại',
 				content: [
-					'Mỗi cá nhân sẽ có cá tính khác nhau nên rất khó để biết được ma vật muốn gì'
+					'Ma nhân là ma vật có đặc tính và dáng vẻ sát với con người nhất. Gồm Yêu tinh, Thây ma, Xương nhân, ...',
+					'Ma thú là ma vật có đặc tính như động vật, côn trùng. Gồm Thỏ sừng, Cừu sét, ...',
+					'Ma nhiên là ma vật có đặc tính từ tài nguyên tự nhiên hoặc thực vật. Gồm Golem, Slime, Cây ăn thịt, ...',
+					'Ma linh là ma vật siêu nhiên, khó nhận ra. Gồm Ma, Linh hồn, ...'
 				]
 			},
 			{
-				main: 'Mỗi ma vật sẽ có 1『Crystal』và tùy vào cấp độ của ma vật mà kích thước, lượng Mana và chất lượng『Crystal』sẽ thay đổi',
+				main: 'Đặc điểm chung',
 				content: [
-					'『Crystal』là nơi chứa Mana hoặc có thể nói là sinh mệnh của ma thú',
-					'Nếu『Crystal』bị nứt sẽ giảm sức mạnh, giảm các khả năng và nếu bị vỡ ma thú sẽ chết lập tức. Có thể khôi phục tổn hại nhờ vào lượng lớn Mana hoặc Skill',
-					'Vị trí『Crystal』phần lớn ở giữa phần thân cơ thể, gần trái tim (nếu có)',
-					'1 vài ma vật mạnh khi sống sẽ có『Crystal』chạy quanh khắp cơ thể khiến việc tiếp cận khó hơn'
+					'Xuất hiện tự nhiên hoặc thông qua sinh sản. Nhưng cũng có thể được tạo ra hoặc được triệu hồi.',
+					'Mỗi ma vật sẽ có ít nhất một Ma thạch.',
+					'Tùy vào đặc tính của loài sẽ hiền lành hoặc nguy hiểm.',
+					'Có thể sử dụng kỹ năng vì có ma lực.'
 				]
 			},
 			{
-				main: 'Ungroup',
+				main: 'Ma thạch đối với ma vật',
 				content: [
-					'Xuất hiện tự nhiên hoặc có thể sinh sản hoặc được tạo ra hoặc được triệu hồi',
-					'Tùy vào đặc tính loài sẽ hiền lành hoặc nguy hiểm',
-					'Phần lớn ma vật có thể dùng Skill',
-					'Sau khi chết sẽ không Drop Item mà thay vào đó phải mổ để phân tách nguyên liệu'
+					'Là nơi chứa ma lực cũng như sinh mệnh của ma vật.',
+					'Tùy vào thể trạng của ma vật mà lượng ma lực cùng thuộc tính của Ma thạch sẽ khác nhau.',
+					'Ma thạch nếu bị nứt sẽ suy giảm thể trạng và nếu bị vỡ ma thú sẽ mất mạng. Có thể khôi phục tổn hại nhờ vào lượng lớn ma lực hoặc kỹ năng.',
+					'Vị trí Ma thạch thường ở giữa phần thân cơ thể, gần trái tim nếu có.',
+					'Đối với ma vật mạnh khi sống sẽ có Ma thạch chạy quanh khắp cơ thể khiến việc tiếp cận khó hơn.'
+				]
+			},
+			{
+				main: 'Thuần hóa',
+				content: [
+					'Chỉ cần đáp ứng điều kiện của ma vật, thường là rất khó.',
+					'Nếu có chức nghiệp『Thuần hóa sư』hoặc kỹ năng tương tự thì sẽ dễ thuần hóa hơn.',
+					'Trường hợp nuôi từ nhỏ hoặc được tạo ra hoặc được triệu hồi thì được coi là đã thuần hóa.',
+					'Trường hợp bị cưỡng ép thuần hóa mà không đáp ứng điều kiện vẫn có thể xảy ra.',
+					'Một khi đã bị thuần hóa thì mệnh lệnh của chủ nhân là tuyệt đối, đồng thời không thể gây hại chủ nhân.'
 				]
 			}
 		]
 	},
 	{
 		id: 7,
-		title: 'Dimension (Chiều không gian)',
+		title: 'Chiều không gian',
 		section: [
 			{
-				main: 'Các Dimension (gọi tắt là D) không hoàn toàn có địa hình tương tự nhau',
+				main: 'Khái niệm',
 				content: [
-					'Tại vị trí nơi bạn đứng ở D1 là khu rừng nhưng cùng vị trí đó ở D2 chưa chắc đó là khu rừng'
+					'Là nơi mà có các quy luật và cấu trúc có thể giống hoặc khác với những chiều không gian khác.'
 				]
 			},
 			{
-				main: 'Dùng nhận thức để vào Dimension khác thông qua 2 cách',
+				main: 'Cấu trúc',
 				content: [
-					'Trực tiếp nhờ vào đặc điểm của chủng loài hoặc kiến thức về Dimension đó',
-					'Gián tiếp nhờ vào Skill, ma cụ, ma pháp trận, ... để tăng nhận thức',
-					'Sử dụng cách nào thì khi vào Dimension sẽ có 1 vòng ma pháp xuất hiện phía đầu để chuyển đi và sẽ tốn lương Mana tùy vào Dimension'
+					'Có hai loại: loại nhỏ và loại lớn.',
+					'Chiều không gian nhỏ hay tiểu không gian là nơi sinh vật sống khó tồn tại nhưng có thể di chuyển trong đó như không gian bóng tối, không gian gương, không gian kết giới, ...',
+					'Chiều không gian lớn hay đại không gian là nơi có sinh vật sống tồn tại được trong đó như vùng đất khác, hành tinh khác, vũ trụ khác, ...'
 				]
 			},
 			{
-				main: 'Tầm nhìn khi không ở trong Dimension khác sẽ xếp chồng lên Dimension hiện tại',
+				main: 'Cơ chế',
 				content: [
-					'Bạn đang đứng trước không gì cả ở D1 nhưng nếu xét ở D2 thì trước bạn là cái cây. Bạn chỉ có thể thấy chứ không thể tác động vào cái cây bởi đang ở D1',
-					'Bạn đang đứng cùng 1 người khác ở D1 và bạn sang D2 thì tùy thuộc vào nhận thức của người đứng cạnh thì họ sẽ không thấy bạn hoặc là họ thấy được bạn đang ở D2'
-				]
-			},
-			{
-				main: 'Chỉ có thể tác động vào Dimension khi ở trong Dimension đó',
-				content: [
-					'Bạn đang trong D1 thấy cái cây ở D2 nhưng không thể chạm vào thì chỉ cần vào D2 là có thể chạm được vào. Có thể bẻ cành và mang về D1'
-				]
-			},
-			{
-				main: 'Không thể ở giữa các Dimension mà phải ở trong 1 Dimension',
-				content: [
-					'Cùng 1 vị trí ở D1 và D2 đều có cây nhưng bạn chỉ có thể chạm vào cây ở D1 hoặc D2 do bạn bắt buộc phải ở 1 trong các Dimension'
-				]
-			},
-			{
-				main: 'Khi bạn vào Dimension khác thì vị trí xuất hiện sẽ tương ứng nơi bạn đứng và khi quay về cũng như vậy',
-				content: [
-					'Bạn đang ở tọa độ (x:y:z) 1:3:1 trong D1 thì khi sang D2 sẽ xuất hiện ở 1:3:1. Ngược lại đang ở 2:3:1 trong D2 thì sang D1 sẽ xuất hiện ở 2:3:1'	
-				]
-			},
-			{
-				main: 'Có thể kéo sinh vật sống sang Dimension khác',
-				content: [
-					'Nếu sử dụng cách trực tiếp thì sinh vật sống phải chạm vào bạn',
-					'Nếu sử dụng cách gián tiếp thì sinh vật sống phải ở trong tầm ảnh hưởng của Skill, ma cụ, ...'
+					'Để truy cập vào không gian khác có thể thông qua hai cách: trực tiếp và gián tiếp.',
+					'Trực tiếp là cách truy cập dành cho tiểu không gian nhờ vào đặc điểm chủng loại và kỹ năng.',
+					'Gián tiếp là cách truy cập dành cho đại không gian bằng ma cụ, ma pháp trận, ...'
 				]
 			}
 		]
@@ -315,7 +338,7 @@ const lore = [
 	// 			content: [
 	// 				''
 	// 			]
-	// 		}
+	// 		},
 	// 	]
 	// }
 ]
