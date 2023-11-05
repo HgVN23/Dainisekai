@@ -22,8 +22,9 @@ const lore = [
 				main: 'Chính sách chuyển sinh',
 				content: [
 					'Được tùy chỉnh bản thân như diện mạo, chủng loại, thể trạng, chức nghiệp trước khi chuyển sinh.',
+					'Có khả năng nghe, nói, hiểu ngôn ngữ bản địa.',
 					'Có khả năng truy cập vào Bảng trạng thái sớm hơn bình thường.',
-					'Có danh hiệu『Người chuyển sinh』cho phép ẩn thông tin tùy chọn trong Bảng trạng thái mà không sinh vật có kỹ năng thuộc『Dainisekai』có thể nhìn ra được. Ngoại trừ những người được văn phòng Re:Life chuyển sinh có kỹ năng soi mói.',
+					'Có danh hiệu Người chuyển sinh cho phép ẩn thông tin tùy chọn trong Bảng trạng thái mà không sinh vật có kỹ năng thuộc『Dainisekai』có thể nhìn ra được. Ngoại trừ những người được văn phòng Re:Life chuyển sinh có kỹ năng soi mói.',
 					'Có được ba điều ước và ước được bất cứ điều gì miễn là thỏa mãn các điều kiện: không gây ảnh hưởng lên những người chuyển sinh khác, không ảnh hưởng quá lớn lên đại vũ trụ『Dainisekai』và nhất là ảnh hưởng lên văn phòng Re:Life.',
 					'Ký ức từ thế giới trước sẽ được giữ lại nhưng điểm bắt đầu sẽ là trẻ sơ sinh.',
 					'Không thể quay lại văn phòng Re:Life kể cả sau chết, trừ khi do bên văn phòng triệu tập.'
@@ -191,7 +192,13 @@ const lore = [
 			{
 				main: 'Khái niệm',
 				content: [
-					'Là nguồn năng lượng trú ngụ trong sinh vật, trong Ma thạch hay sinh ra từ tự nhiên được sử dụng để hiện thực hóa kỹ năng của sinh vật thi triển hoặc của vật phẩm.',
+					'Là nguồn năng lượng trú ngụ trong sinh vật, trong Ma thạch hay sinh ra từ tự nhiên được sử dụng để hiện thực hóa kỹ năng của sinh vật thi triển hoặc của vật phẩm.'
+				]
+			},
+			{
+				main: 'Đặc điểm',
+				content: [
+					'Cảm xúc và lý trí của sinh vật ảnh hưởng mạnh mẽ đến ma lực.',
 					'Có hai dạng: dạng loãng và dạng cô đặc.'
 				]
 			},
