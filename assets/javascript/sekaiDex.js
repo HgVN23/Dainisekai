@@ -8,17 +8,17 @@ function loadDex() {
 	const format = `
 		<section class="main">
 			<h1>SekaiDex</h1>
-			<h2>Bách khoa toàn thư</h2>
+			<h1>Bách khoa toàn thư</h1>
 			<hr>
 			<div class="sekaiDex">
 				<div class="sekaiDexCol">
-					<h3>Lore</h3>
+					<h2>Lore</h2>
 					${addTitle(lore, 'lore')}
 				</div>
 				<div class="sekaiDexCol">
-					<h3>Thông tin</h3>
+					<h2>Thông tin</h2>
 					<div>
-						<h4 class="headerSmall dropdown">Dàn nhân vật</h4>
+						<h3 class="dropdown">Dàn nhân vật</h3>
 						<div class="dropdownHide">${addTitle(character, 'character')}</div>
 					</div>
 				</div>
@@ -40,10 +40,9 @@ function addTitle(dex, part) {
 	var data = ``;
 	for(var i = 0; i < dex.length; i++) {
 		var temp = dex[i];
-		var title = temp.title;
 		data += `
 			<div class="dialogue">
-				<p id="${part}.${temp.id}" class="clickable">${title}</p>
+				<p id="${part}.${temp.id}" class="open">${temp.title}</p>
 			</div>
 		`;
 	}
@@ -56,237 +55,10 @@ function openDexContent() {
 
 function loadDexContent(id) {
 	clean();
-	if(id.includes('lore')){
-		var temp = lore[parseInt(id.slice(5))];
-		var title = temp.title;
-		var tempS = temp.section;
-		var section = ``;
-		for(var i = 0; i < tempS.length; i++) {
-			var content = ``;
-			for(var j = 0; j < tempS[i].content.length; j++)
-				content += `<li>${tempS[i].content[j]}</li>`;
-			section += `
-				<h4>${tempS[i].main}</h4>
-				${content}
-			`;
-		};
-		var format = `
-			<section class="main">
-				<h1>${title}</h1>
-				<hr>
-				${section}
-			</section>
-		`;
-		document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
-	} else {
-		var temp = character[parseInt(id.slice(10))];
-		var title = temp.title;
-		var tempON = temp.otherName;
-		var otherName = ``;
-		var age = temp.age;
-		var gender = temp.gender;
-		var race = temp.race;
-		var status = temp.status;
-		var tempL = temp.like;
-		var like = ``;
-		var tempD = temp.dislike;
-		var dislike = ``;
-		var tempA = temp.appearance;
-		var debut = temp.debut;
-		var appearance = ``;
-		var tempP = temp.personality;
-		var personality = ``;
-		var tempR = temp.relative;
-		var relative = ``;
-		var tempJ = temp.job;
-		var job = ``;
-		var tempS = temp.skill;
-		var skill = ``;
-		var tempT = temp.titles;
-		var titles = ``;
-		var tempI = temp.item;
-		var item = ``;
-		for(var i = 0; i < tempON.length; i++) {
-			otherName += `
-				<div class="group">
-					<h5>${tempON[i].name}</h5>
-					<div>
-						<li>${tempON[i].desc}</li>
-						<div class="note">Xuất hiện lần đầu trong <span id="${changeId(tempON[i].firstAppear)}">Chapter ${tempON[i].firstAppear}</span></div>
-					</div>
-				</div>
-			`;
-		}
-		for(var i = 0; i < tempL.length; i++) {
-			like += `<li>${tempL[i]}</li>`;
-		}
-		for(var i = 0; i < tempD.length; i++) {
-			dislike += `<li>${tempD[i]}</li>`;
-		}
-		for(var i = 0; i < tempA.length; i++) {
-			appearance += `<li>${tempA[i]}</li>`;
-		}
-		for(var i = 0; i < tempP.length; i++) {
-			personality += `<li>${tempP[i]}</li>`;
-		}
-		for(var i = 0; i < tempR.length; i++) {
-			relative += `
-				<div class="group">
-					<h5>${tempR[i].name}</h5>
-					<li>${tempR[i].desc}</li>
-				</div>
-			`;
-		}
-		for(var i = 0; i < tempJ.length; i++) {
-			job += `
-				<div class="group">
-					<h5>『${tempJ[i].name}』</h5>
-					<div>
-			`;
-			for(var j = 0; j < tempJ[i].desc.length; j++)
-				job += `<li>${tempJ[i].desc[j]}</li>`;
-			job += `
-				<div class="note">Xuất hiện lần đầu trong <span id="${changeId(tempJ[i].firstAppear)}">Chapter ${tempJ[i].firstAppear}</span></div>
-				</div></div>	
-			`;
-		}
-		for(var i = 0; i < tempS.length; i++) {
-			skill += `
-				<div class="group">
-					<h5>『${tempS[i].name}』</h5>
-					<div>
-						<div class="point">Học được từ${tempS[i].from()}</div>
-						<div class="point">Loại: ${tempS[i].type}</div>
-			`;
-			for(var j = 0; j < tempS[i].desc.length; j++)
-				skill += `<li>${tempS[i].desc[j]}</li>`;
-			if(tempS[i].firstAppear != -1) {
-				skill += `<div class="note">Xuất hiện lần đầu trong <span id="${changeId(tempS[i].firstAppear)}">Chapter ${tempS[i].firstAppear}</span>`;
-				if(tempS[i].inDesc === 1)
-					skill += ` dưới dạng mô tả</div>`;
-				else
-					skill += `</div>`;
-			} else
-				skill += `<div class="note">Chưa từng đề cập</div>`;
-			if(tempS[i].firstUse != -1)
-				skill += `<div class="note">Sử dụng lần đầu trong <span id="${changeId(tempS[i].firstUse)}">Chapter ${tempS[i].firstUse}</span></div>`;
-			else
-				skill += `<div class="note">Chưa được sử dụng</div>`;
-			skill += `</div></div>`;
-		}
-		for(var i = 0; i < tempT.length; i++) {
-			titles += `
-				<div class="group">
-					<h5>『${tempT[i].name}』</h5>
-					<div>
-						<div class="point">Nhận được từ${tempT[i].from()}</div>
-			`;
-			for(var j = 0; j < tempT[i].desc.length; j++)
-				titles += `<li>${tempT[i].desc[j]}</li>`;
-			if(tempT[i].firstAppear != -1)
-				titles += `<div class="note">Xuất hiện lần đầu trong <span id="${changeId(tempT[i].firstAppear)}">Chapter ${tempT[i].firstAppear}</span></div>`;
-			else
-				titles += `<div class="note">Chưa từng đề cập</div>`;
-			titles += `</div></div>`;
-		}
-		for(var i = 0; i < tempI.length; i++) {
-			item += `
-				<div class="group">
-					<h5>『${tempI[i].name}』</h5>
-					<div>
-						<div class="point">Nhận được từ${tempI[i].from()}</div>
-			`;
-			for(var j = 0; j < tempI[i].desc.length; j++)
-				item += `<li>${tempI[i].desc[j]}</li>`;
-			if(tempI[i].firstAppear != -1)
-				item += `<div class="note">Xuất hiện lần đầu trong <span id="${changeId(tempI[i].firstAppear)}">Chapter ${tempI[i].firstAppear}</span></div>`;
-			else
-				item += `<div class="note">Chưa từng đề cập</div>`;
-			if(tempI[i].firstUse != -1)
-				item += `<div class="note">Sử dụng lần đầu trong <span id="${changeId(tempI[i].firstUse)}">Chapter ${tempI[i].firstUse}</span></div>`;
-			else
-				item += `<div class="note">Chưa được sử dụng</div>`;
-			item += `</div></div>`;
-		}
-
-		var format = `
-			<section class="main">
-				<h1>${title}</h1>
-				<hr>
-				<div>
-					<h4 class="headerSmall dropdown dropdownActive">Các tên khác</h4>
-					<div class="dropdownHide dropdownShow">${otherName}</div>
-				</div>
-				<div>
-					<h4 class="headerSmall dropdown dropdownActive">Thông tin cá nhân</h4>
-					<div class="dropdownHide dropdownShow">
-						<div class="group">
-							<h5>Tuổi</h5>
-							<li class="now">${age} tuổi</li>
-						</div>
-						<div class="group">
-							<h5>Giới tính</h5>
-							<li class="now">${gender}</li>
-						</div>
-						<div class="group">
-							<h5>Chủng tộc</h5>
-							<li class="now">${race}</li>
-						</div>
-						<div class="group">
-							<h5>Trạng thái</h5>
-							<li class="now">${status}</li>
-						</div>
-						<div class="group">
-							<h5>Thích</h5>
-							<div>
-								${like}
-							</div>
-						</div>
-						<div class="group">
-							<h5>Ghét</h5>
-							<div>
-								${dislike}
-							</div>
-						</div>
-						<div class="group">
-							<h5>Xuất hiện</h5>
-							<li><span id="${changeId(debut)}">Chapter ${debut}</span></li>
-						</div>
-					</div>
-				</div>
-				<div>
-					<h4 class="headerSmall dropdown">Vẻ bề ngoài</h4>
-					<div class="dropdownHide">${appearance}</div>
-				</div>
-				<div>
-					<h4 class="headerSmall dropdown">Tiểu sử</h4>
-					<div class="dropdownHide">${personality}</div>
-				</div>
-				<div>
-					<h4 class="headerSmall dropdown">Các mối quan hệ</h4>
-					<div class="dropdownHide">${relative}</div>
-				</div>
-				<div>
-					<h4 class="headerSmall dropdown">Chức nghiệp & Nghề nghiệp</h4>
-					<div class="dropdownHide">${job}</div>
-				</div>
-				<div>
-					<h4 class="headerSmall dropdown">Kĩ năng</h4>
-					<div class="dropdownHide">${skill}</div>
-				</div>
-				<div>
-					<h4 class="headerSmall dropdown">Danh hiệu</h4>
-					<div class="dropdownHide">${titles}</div>
-				</div>
-				<div>
-					<h4 class="headerSmall dropdown">Vật phẩm sở hữu</h4>
-					<div class="dropdownHide">${item}</div>
-				</div>
-			</section>
-		`;
-		document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
-	}
-	document.querySelector('body').innerHTML += format;
+	if(id.includes('lore'))
+		document.querySelector('body').innerHTML += addLore(id);
+	if(id.includes('character'))
+		document.querySelector('body').innerHTML += addCharacter(id);
 
 	if(document.querySelectorAll('span')) {
 		const span = document.querySelectorAll('span');
@@ -295,6 +67,142 @@ function loadDexContent(id) {
 	}
 
 	addDropdown();
+}
+function addLore(id) {
+	var temp = lore[parseInt(id.slice(5))];
+	var section = ``;
+	for(var i = 0; i < temp.section.length; i++) {
+		section += `
+			<div>
+				<h3>${temp.section[i].main}</h3>
+				${genType1(temp.section[i].content)}
+			</div>
+		`;
+	};
+	const format = `
+		<section class="main">
+			<h1>${temp.title}</h1>
+			<hr>
+			${section}
+		</section>
+	`;
+	document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
+	return format;
+}
+function addCharacter(id) {
+	var temp = character[parseInt(id.slice(10))];
+
+	const format = `
+		<section class="main">
+			<h1>${temp.title}</h1>
+			<hr>
+			<div>
+				<h3 class="dropdown">Các tên khác</h3>
+				<div class="dropdownHide">${genType2(temp.otherName)}</div>
+			</div>
+			<div>
+				<h3 class="dropdown dropdownActive">Thông tin cá nhân</h3>
+				<div class="dropdownHide dropdownShow">
+					<div class="group">
+						<h4>Tuổi</h4>
+						${genType1(temp.age)}
+					</div>
+					<div class="group">
+						<h4>Giới tính</h4>
+						${genType1(temp.gender)}
+					</div>
+					<div class="group">
+						<h4>Chủng tộc</h4>
+						${genType1(temp.race)}
+					</div>
+					<div class="group">
+						<h4>Trạng thái</h4>
+						${genType1(temp.status)}
+					</div>
+					<div class="group">
+						<h4>Thích</h4>
+						${genType1(temp.like)}
+					</div>
+					<div class="group">
+						<h4>Ghét</h4>
+						${genType1(temp.dislike)}
+					</div>
+					<div class="group">
+						<h4>Xuất hiện</h4>
+						<div class="dot"><p><span id="${changeId(temp.debut)}">Chapter ${temp.debut}</span></p></div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<h3 class="dropdown">Vẻ bề ngoài</h3>
+				<div class="dropdownHide">${genType1(temp.appearance)}</div>
+			</div>
+			<div>
+				<h3 class="dropdown">Tiểu sử</h3>
+				<div class="dropdownHide">${genType1(temp.personality)}</div>
+			</div>
+			<div>
+				<h3 class="dropdown">Các mối quan hệ</h3>
+				<div class="dropdownHide">${genType2(temp.relative)}</div>
+			</div>
+			<div>
+				<h3 class="dropdown">Chức nghiệp & Nghề nghiệp</h3>
+				<div class="dropdownHide">${genType2(temp.job)}</div>
+			</div>
+			<div>
+				<h3 class="dropdown">Kĩ năng</h3>
+				<div class="dropdownHide">${genType2(temp.skill)}</div>
+			</div>
+			<div>
+				<h3 class="dropdown">Danh hiệu</h3>
+				<div class="dropdownHide">${genType2(temp.titles)}</div>
+			</div>
+			<div>
+				<h3 class="dropdown">Vật phẩm sở hữu</h3>
+				<div class="dropdownHide">${genType2(temp.item)}</div>
+			</div>
+		</section>
+	`;
+	document.querySelector('title').textContent = `SekaiDex - ${temp.title} | 『Dainisekai』`;
+	return format;
+}
+
+function genType1(id) {
+	var temp = ``;
+	for(var i = 0; i < id.length; i++) {
+		temp += `<div class="dot"><p>${id[i]}</p></div>`;
+	}
+	return `<div>${temp}</div>`;
+}
+function genType2(id) {
+	var temp = ``;
+	for(var i = 0; i < id.length; i++) {
+		temp += `<div class="group">`;
+		temp += `<h4 class="dropdown">${id[i].name}</h4>`;
+		temp += `<div class="dropdownHide"><div>`
+		if(id[i].hasOwnProperty('from'))
+			temp += `<div class="dot"><p>Từ: ${id[i].from}</p></div>`;
+		if(id[i].hasOwnProperty('type'))
+			temp += `<div class="dot"><p>Loại: ${id[i].type}</p></div>`;
+		temp += `${genType1(id[i].desc)}`;
+		if(id[i].hasOwnProperty('firstAppear')) {
+			if(id[i].firstAppear != -1) {
+				temp += `<div class="dot note"><p>Xuất hiện lần đầu trong <span id="${changeId(id[i].firstAppear)}">Chapter ${id[i].firstAppear}</span>`;
+				if(id[i].inDesc === 1)
+					temp += ` dưới dạng mô tả`;
+				temp += `</p></div>`;
+			} else
+				temp += `<div class="dot note"><p>Chưa từng đề cập</p></div>`;
+		}
+		if(id[i].hasOwnProperty('firstUse')) {
+			if(id[i].firstUse != -1)
+				temp += `<div class="dot note"><p>Sử dụng lần đầu trong <span id="${changeId(id[i].firstUse)}">Chapter ${id[i].firstUse}</span></p></div>`;
+			else
+				temp += `<div class="dot note"><p>Chưa được sử dụng</p></div>`;
+		}
+		temp += `</div></div></div>`;
+	};
+	return temp;
 }
 
 function addDropdown() {
@@ -305,7 +213,6 @@ function addDropdown() {
 		}
 	}
 }
-
 function dropdownActive() {
 	this.classList.toggle('dropdownActive');
 	this.parentElement.querySelector('.dropdownHide').classList.toggle('dropdownShow');

@@ -56,8 +56,8 @@ function addStory(id) {
 	const format = `
 		<section class="main">
 			<h1>${call} ${chapter}</h1>
-			<h2>${title}</h2>
-			<h3>${words} từ</h3>
+			<h1>${title}</h1>
+			<h2>${words} từ</h2>
 			<hr>
 			${content}
 		</section>

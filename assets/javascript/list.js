@@ -26,7 +26,7 @@ function addList() {
 		chapters += `
 			<div class="chapter">
 				<div id="${chapter}" class="mark"></div>
-				<p id="${i}" class="clickable">${call} ${chapter}${separator}${title}</p>
+				<p id="${i}" class="open">${call} ${chapter}${separator}${title}</p>
 			</div>
 		`;
 	}

@@ -24,6 +24,9 @@
 	-webkit-user-drag: none;
 /*	outline: 1px solid blue;*/
 }
+::selection {
+	color: aqua;
+}
 body {
 	background-color: var(--bg-main);
 }
@@ -94,21 +97,16 @@ header {
 	cursor: pointer;
 }
 .button:hover,
-.note span:hover,
-li span:hover {
+p span:hover {
 	text-decoration: underline;
 	color: var(--hover-color);
 }
 .button:active,
-.note span:active,
-li span:active {
+p span:active {
 	color: yellow;
 }
 a {
 	text-decoration: none;
-}
-li {
-	margin-left: 1rem;
 }
 b {
 	text-shadow: .1rem .1rem gray;
@@ -232,16 +230,14 @@ b {
 
 
 h1,
-h2,
-h3 {
+h2 {
 	text-align: center;
 }
-h1,
-h2 {
+h1 {
 	font-size: 2rem;
 }
-h3,
-h4 {
+h2,
+h3 {
 	font-size: 1.4rem;
 }
 .markAll,
@@ -313,6 +309,9 @@ h4 {
 .buttons {
 	flex-wrap: wrap;
 }
+.buttons div {
+	box-shadow: 0 0 .5rem black;
+}
 .selectBox,
 .main,
 .dialogue,
@@ -333,6 +332,7 @@ h4 {
 	border-radius: .2rem;
 	padding: .5rem;
 	position: relative;
+	box-shadow: 0 0 .5rem black;
 }
 .dialogue {
 	gap: 1rem;
@@ -350,23 +350,16 @@ h4 {
 .optionBox:hover {
 	outline: 2px solid var(--hover-color);
 }
-p.clickable {
+.open {
 	cursor: pointer;
 	width: 100%;
 }
 p,
-li,
 b,
 i {
 	white-space: pre-wrap;
 	user-select: text;
 	line-height: 1.4rem;
-}
-p::selection,
-li::selection,
-b::selection,
-i::selection {
-	color: aqua;
 }
 .info p {
 	border-left: 2px solid yellow;
@@ -443,7 +436,19 @@ i::selection {
 }
 
 
-
+/*SekaiDex___________________________________________*/
+.sekaiDex {
+	display: flex;
+	justify-content: space-around;
+	gap: 1rem;
+}
+.sekaiDexCol,
+.sekaiDexCol .dropdownShow {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 1rem;
+}
 .dropdown {
 	cursor: pointer;
 }
@@ -458,66 +463,55 @@ i::selection {
 .dropdownHide {
 	display: none;
 }
-.dropdownShow {
-	display: block;
+.dropdownHide.dropdownShow {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
 }
-.headerSmall {
+h3 {
 	width: fit-content;
 	padding-bottom: .3rem;
 	margin-bottom: .5rem;
 	border-bottom: .05rem solid white;
 }
 .group {
-	margin: 1rem 0;
+	width: calc(100% / 3.24);
+	height: fit-content;
+	background-color: rgba(255, 255, 255, .05);
+	box-shadow: 0 0 .5rem black;
+	border-radius: .5rem;
+	padding: .3rem;
+}
+.dot {
+	margin: .3rem 0 0 .5rem;
 	display: flex;
 }
-.point,
-.group li,
-.note {
-	margin: 0 0 .3rem .5rem;
+.dot::before {
+	content: '•';
+	margin-right: .5rem;
 }
-h5 {
-	min-width: 30%;
-	max-width: 30%;
+.note p {
+	user-select: none;
+}
+.note::before {
+	color: yellow;
+}
+.group p {
 	text-align: left;
 }
-.point {
-	text-align: left;
-}
-.point::before {
-	content: '<-';
-	margin-right: .3rem;
-}
-.note {
-	border-left: .3rem solid yellow;
-	padding-left: 1rem;
-}
-.note span,
-li span {
-	color: aqua;
+p span {
+	text-decoration: underline;
 	cursor: pointer;
 }
-.now::after {
+/*.now::after {
 	content: ' (Hiện tại)';
 	font-size: .7rem;
 	color: yellow;
 	vertical-align: text-top;
-}
-.sekaiDex {
-	display: flex;
-	justify-content: space-around;
-	gap: 1rem;
-}
-.sekaiDexCol,
-.sekaiDexCol .dropdownShow {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	gap: 1rem;
-}
+}*/
 
 
-
+/*Role_____________________________________*/
 .think,
 .info {
 	border-left-color: #36363a;
