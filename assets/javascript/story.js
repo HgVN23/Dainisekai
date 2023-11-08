@@ -66,7 +66,8 @@ function addStory(id) {
 }
 
 function removeHide() {
-	document.querySelector('.dialogueHide').remove();
+	// document.querySelector('.dialogueHide').remove();
+	this.remove();
 }
 
 function explainHover() {

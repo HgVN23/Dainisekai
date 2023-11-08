@@ -87,7 +87,9 @@ function hideOn() {
 	toggleHide.classList.toggle('hideOn');
 	toggleHide.classList.toggle('hideOff');
 	for(var i = 0; i < dialogue.length; i++) {
-		dialogue[i].innerHTML += `<div class="dialogueHide" onclick="removeHide()">Click để mở</div>`;
+		// dialogue[i].innerHTML += `<div class="dialogueHide" onclick="removeHide()">Click để mở</div>`;
+		dialogue[i].innerHTML += `<div class="dialogueHide">Click để mở</div>`;
+		dialogue[i].querySelector('.dialogueHide').addEventListener('click', removeHide);
 	}
 }
 function checkHide() {

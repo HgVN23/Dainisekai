@@ -21,17 +21,17 @@ const type = [
 const character = [
 	{
 		id: 0,
-		title: nameC[1],
+		title: nameCharacter[1],
 		otherName: [
 			{
-				name: nameC[0],
+				name: nameCharacter[0],
 				desc: [
 					`Tên cũ của kiếp trước`
 				],
 				firstAppear: 0
 			},
 			{
-				name: `${nameC[1]} ${nameC[2]}`,
+				name: `${nameCharacter[1]} ${nameCharacter[2]}`,
 				desc: [
 					`Tên có kèm họ khi là quý tộc (Chưa thể sử dụng)`
 				],
@@ -40,7 +40,7 @@ const character = [
 			{
 				name: `Shu`,
 				desc: [
-					`Tên gọi tắt mà mẹ ${nameC[1]} hay gọi`
+					`Tên gọi tắt mà mẹ ${nameCharacter[1]} hay gọi`
 				],
 				firstAppear: 1
 			}
@@ -77,63 +77,63 @@ const character = [
 			`Tính cách chững chạc, quan tâm người khác và hay tò mò`
 		],
 		personality: [
-			`Ở kiếp trước cậu tên là ${nameC[0]}, 20 tuổi, đã qua đời vì gặp tai nạn trên đường. Sau đó nhờ văn phòng Re:Life, cậu được tái sinh vào một thế giới Fantasy có tên là『Dainisekai』với cái tên mới là ${nameC[1]}`,
-			`Sinh ra tại thị trấn Dawn Horizon. Là con của gia đình thường dân gồm cha tên ${nameC[4]} và mẹ tên ${nameC[3]}`,
-			`Cậu có thể sử dụng Skill mà không cần phải chờ đến 10 tuổi, hằng đêm chăm chỉ luyện dùng Skill. Cậu đã quyết định giấu Status để tránh gặp phiền phức nhưng cậu vẫn tiết lộ khả năng của mình cho ${nameC[11]}`,
+			`Ở kiếp trước cậu tên là ${nameCharacter[0]}, 20 tuổi, đã qua đời vì gặp tai nạn trên đường. Sau đó nhờ văn phòng Re:Life, cậu được tái sinh vào một thế giới Fantasy có tên là『Dainisekai』với cái tên mới là ${nameCharacter[1]}`,
+			`Sinh ra tại thị trấn Dawn Horizon. Là con của gia đình thường dân gồm cha tên ${nameCharacter[4]} và mẹ tên ${nameCharacter[3]}`,
+			`Cậu có thể sử dụng Skill mà không cần phải chờ đến 10 tuổi, hằng đêm chăm chỉ luyện dùng Skill. Cậu đã quyết định giấu Status để tránh gặp phiền phức nhưng cậu vẫn tiết lộ khả năng của mình cho ${nameCharacter[11]}`,
 			`Năm 7 tuổi được học cách chiến đấu do cha dạy`,
 			`Năm 10 tuổi không còn phải giấu Status, có thể dùng Inventory và trở thành mạo hiểm giả. Đồng thời là người thành lập nên Party『Log Horizon』`
 		],
 		relative: [
 			{
-				name: nameC[4],
+				name: nameCharacter[4],
 				desc: [
 					`Cha`
 				]
 			},
 			{
-				name: nameC[3],
+				name: nameCharacter[3],
 				desc: [
 					`Mẹ`
 				]
 			},
 			{
-				name: nameC[9],
+				name: nameCharacter[9],
 				desc: [
 					`Bạn thân, đồng đội`
 				]
 			},
 			{
-				name: nameC[10],
+				name: nameCharacter[10],
 				desc: [
 					`Bạn thân, đồng đội`
 				]
 			},
 			{
-				name: nameC[11],
+				name: nameCharacter[11],
 				desc: [
 					`Bạn thân, đồng đội`
 				]
 			},
 			{
-				name: nameC[5],
+				name: nameCharacter[5],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[15],
+				name: nameCharacter[15],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[16],
+				name: nameCharacter[16],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[17],
+				name: nameCharacter[17],
 				desc: [
 					`Người quen`
 				]
@@ -251,7 +251,7 @@ const character = [
 			},
 			{
 				name: `Physical Enhancement`,
-				from() { return fromGet(0, nameC[4], 0) },
+				from() { return fromGet(0, nameCharacter[4], 0) },
 				type: type[0],
 				desc: [
 					`Cường hóa khả năng hoạt động vật lý`
@@ -339,19 +339,19 @@ const character = [
 	},
 	{
 		id: 1,
-		title: nameC[11],
+		title: nameCharacter[11],
 		otherName: [
 			{
 				name: `Cô bé lạnh lùng`,
 				desc: [
-					`Tên do ${nameC[1]} gọi khi ${nameC[11]} né tránh cậu`
+					`Tên do ${nameCharacter[1]} gọi khi ${nameCharacter[11]} né tránh cậu`
 				],
 				firstAppear: 5
 			},
 			{
 				name: `Bé tuyết`,
 				desc: [
-					`Tên do Itsuki gọi để trêu ${nameC[1]}`
+					`Tên do Itsuki gọi để trêu ${nameCharacter[1]}`
 				],
 				firstAppear: 14
 			}
@@ -363,11 +363,11 @@ const character = [
 		like: [
 			`“Gia đình”`,
 			`Thỏ bông`,
-			`Gần ${nameC[1]}`,
-			`Đồ ăn ${nameC[1]} nấu`
+			`Gần ${nameCharacter[1]}`,
+			`Đồ ăn ${nameCharacter[1]} nấu`
 		],
 		dislike: [
-			`“Gia đình” và nhất là ${nameC[1]} bị nói xấu`,
+			`“Gia đình” và nhất là ${nameCharacter[1]} bị nói xấu`,
 			`Người quen rời bỏ`
 		],
 		debut: 5,
@@ -377,78 +377,78 @@ const character = [
 			`Đôi mắt lòng trắng làm nền cho con ngươi màu lam nhạt như màu của băng`,
 			`Đôi tai dài vì là bán Elf`,
 			`Khuôn mặt không biểu lộ cảm xúc`,
-			`Tính cách hay đề phòng, lo lắng cho người khác và hơi nhạy cảm khi có người nhắc đến ${nameC[1]}`
+			`Tính cách hay đề phòng, lo lắng cho người khác và hơi nhạy cảm khi có người nhắc đến ${nameCharacter[1]}`
 		],
 		personality: [
-			`Mẹ là Elf, cha là con người nên ${nameC[11]} là bán Elf`,
+			`Mẹ là Elf, cha là con người nên ${nameCharacter[11]} là bán Elf`,
 			`Mồ côi mẹ từ khi sinh ra nên cô sống cùng cha - là thương nhân thường hay di chuyển khắp nơi nên họ không có nơi định cư`,
-			`Vào năm 8 tuổi, cô cùng cha đang trên đường đến thị trấn Dawn Horizon thì bị đám ma thú Ligheep mắt đỏ tấn công và cha cô qua đời. Sau sự kiện đó ${nameC[11]} bộc phát sức mạnh và dần rơi vào trầm cảm, khuôn mặt cô giờ chỉ là vô cảm. Hiện giờ ${nameC[11]} đang ở cô nhi viện thuộc thị trấn Dawn Horizon do sơ ${nameC[5]} quản lý`,
-			`Sau khi được ${nameC[1]} tìm ra kẹp tóc mà cô đánh rơi thì cô đã mở lòng hơn chút với mọi người. Riêng với ${nameC[1]} thì cô đã có một tình cảm đặc biệt dành cho cậu`,
+			`Vào năm 8 tuổi, cô cùng cha đang trên đường đến thị trấn Dawn Horizon thì bị đám ma thú Ligheep mắt đỏ tấn công và cha cô qua đời. Sau sự kiện đó ${nameCharacter[11]} bộc phát sức mạnh và dần rơi vào trầm cảm, khuôn mặt cô giờ chỉ là vô cảm. Hiện giờ ${nameCharacter[11]} đang ở cô nhi viện thuộc thị trấn Dawn Horizon do sơ ${nameCharacter[5]} quản lý`,
+			`Sau khi được ${nameCharacter[1]} tìm ra kẹp tóc mà cô đánh rơi thì cô đã mở lòng hơn chút với mọi người. Riêng với ${nameCharacter[1]} thì cô đã có một tình cảm đặc biệt dành cho cậu`,
 			`Năm 10 tuổi làm mạo hiểm giả cùng đám bạn. Đồng thời là 1 trong 4 thành viên đầu tiên của Party『Log Horizon』`
 		],
 		relative: [
 			{
-				name: `Cha ${nameC[11]}`,
+				name: `Cha ${nameCharacter[11]}`,
 				desc: [
 					`Không rõ tên, đã qua đời`
 				]
 			},
 			{
-				name: `Mẹ ${nameC[11]}`,
+				name: `Mẹ ${nameCharacter[11]}`,
 				desc: [
 					`Không rõ tên, đã qua đời`
 				]
 			},
 			{
-				name: nameC[1],
+				name: nameCharacter[1],
 				desc: [
 					`Bạn thân, đồng đội, có tình cảm`
 				]
 			},
 			{
-				name: nameC[10],
+				name: nameCharacter[10],
 				desc: [
 					`Bạn thân, đồng đội`
 				]
 			},
 			{
-				name: nameC[9],
+				name: nameCharacter[9],
 				desc: [
 					`Bạn thân, đồng đội`
 				]
 			},
 			{
-				name: nameC[5],
+				name: nameCharacter[5],
 				desc: [
 					`Người bảo hộ`
 				]
 			},
 			{
-				name: nameC[4],
+				name: nameCharacter[4],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[3],
+				name: nameCharacter[3],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[15],
+				name: nameCharacter[15],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[16],
+				name: nameCharacter[16],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[17],
+				name: nameCharacter[17],
 				desc: [
 					`Người quen`
 				]
@@ -543,12 +543,12 @@ const character = [
 	},
 	{
 		id: 2,
-		title: nameC[9],
+		title: nameCharacter[9],
 		otherName: [
 			{
 				name: `Bộ đôi rắc rối`,
 				desc: [
-					`Tên do ${nameC[1]} gọi do hay tạo rắc rối cùng ${nameC[10]}`
+					`Tên do ${nameCharacter[1]} gọi do hay tạo rắc rối cùng ${nameCharacter[10]}`
 				],
 				firstAppear: 4
 			}
@@ -573,73 +573,73 @@ const character = [
 		],
 		personality: [
 			`Vào năm 5 tuổi, cha mẹ đã bị sát hại trong một chuyến đi bởi một băng đạo tặc. Trước khi cậu sắp bị giết thì có một người lạ mặt với cây thương đã cứu cậu trong gang tấc. Sau đó đưa cậu về sống ở cô nhi viện thuộc thị trấn Dawn Horizon.`,
-			`Lúc đó cậu đã luôn tự dằn vặt bản thân đã không thể bảo vệ được cha mẹ mình. Cho đến khi ${nameC[1]} thuyết phục cậu thì suy nghĩ trước đó mới có thể gỡ bỏ`,
-			`Năm 7 tuổi được học cách chiến đấu cùng ${nameC[1]} do cha ${nameC[1]} dạy`,
+			`Lúc đó cậu đã luôn tự dằn vặt bản thân đã không thể bảo vệ được cha mẹ mình. Cho đến khi ${nameCharacter[1]} thuyết phục cậu thì suy nghĩ trước đó mới có thể gỡ bỏ`,
+			`Năm 7 tuổi được học cách chiến đấu cùng ${nameCharacter[1]} do cha ${nameCharacter[1]} dạy`,
 			`Năm 10 tuổi làm mạo hiểm giả cùng đám bạn. Đồng thời là 1 trong 4 thành viên đầu tiên của Party『Log Horizon』`
 		],
 		relative: [
 			{
-				name: `Cha ${nameC[9]}`,
+				name: `Cha ${nameCharacter[9]}`,
 				desc: [
 					`Không rõ tên, đã qua đời`
 				]
 			},
 			{
-				name: `Mẹ ${nameC[9]}`,
+				name: `Mẹ ${nameCharacter[9]}`,
 				desc: [
 					`Không rõ tên, đã qua đời`
 				]
 			},
 			{
-				name: nameC[1],
+				name: nameCharacter[1],
 				desc: [
 					`Bạn thân, đồng đội`
 				]
 			},
 			{
-				name: nameC[10],
+				name: nameCharacter[10],
 				desc: [
 					`Bạn thân, đồng đội`
 				]
 			},
 			{
-				name: nameC[11],
+				name: nameCharacter[11],
 				desc: [
 					`Bạn thân, đồng đội`
 				]
 			},
 			{
-				name: nameC[5],
+				name: nameCharacter[5],
 				desc: [
 					`Người bảo hộ`
 				]
 			},
 			{
-				name: nameC[4],
+				name: nameCharacter[4],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[3],
+				name: nameCharacter[3],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[15],
+				name: nameCharacter[15],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[16],
+				name: nameCharacter[16],
 				desc: [
 					`Người quen`
 				]
 			},
 			{
-				name: nameC[17],
+				name: nameCharacter[17],
 				desc: [
 					`Người quen`
 				]
@@ -665,7 +665,7 @@ const character = [
 		skill: [
 			{
 				name: `Physical Enhancement`,
-				from() { return fromGet(2, nameC[4], 0) },
+				from() { return fromGet(2, nameCharacter[4], 0) },
 				type: type[0],
 				desc: [
 					`Cường hóa khả năng hoạt động vật lý`
@@ -705,7 +705,7 @@ const character = [
 				name: `Trouble Couple`,
 				from() { return fromGet(0, `character`, 0) },
 				desc: [
-					`Hay tạo ra rắc rối cùng ${nameC[10]}`
+					`Hay tạo ra rắc rối cùng ${nameCharacter[10]}`
 				],
 				firstAppear: 2
 			},
@@ -742,7 +742,7 @@ const character = [
 	}
 	// {
 		// id: ,
-		// title: nameC[],
+		// title: nameCharacter[],
 		// otherName: [
 		// 	{
 		// 		name: ``,

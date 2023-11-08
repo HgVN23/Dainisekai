@@ -1,4 +1,4 @@
-const nameC = [
+const nameCharacter = [
 	'Hg',		// 0
 	'Shuuya',	// 1
 	'Tamada',	// 2
@@ -22,7 +22,7 @@ const nameC = [
 const statusBoard = 'Bảng trạng thái';
 const inventory = 'Kho chứa Không gian'
 
-const nameJ = [
+const nameJob = [
 	'Đầu bếp',		// 0
 	'Thợ rèn',		// 1
 	'Ma kiếm sĩ',	// 2
@@ -34,7 +34,7 @@ const nameJ = [
 	'Chiến binh'	// 8
 ];
 
-const nameS = [
+let nameSkill = [
 	'Giám định',
 	'Lục phong Tinh thông',
 	'Hòa âm Kết giới',
@@ -53,8 +53,15 @@ const nameS = [
 	'Phong Đao',
 	'Tái sinh'
 ];
+for(var i = 0; i < nameSkill.length; i++){
+	nameSkill[i] = `『${nameSkill[i]}』`;
+}
 
-const nameI = [
+const nameTitle = [
+	'Người chuyển sinh'
+];
+
+const nameItem = [
 	'Thuốc Hồi phục',
 	'Quả cầu ban Chức nghiệp',
 	'Bộ Nhà bếp',
@@ -67,16 +74,17 @@ const nameI = [
 	'Thuốc Thánh Hồi phục'
 ];
 
-const food = [
+const nameFood = [
 	'Bò hầm',
 	'',
-	'Bánh mì kẹp trứng'
+	'Bánh mì kẹp Trứng'
 ];
 
-const namePlace = [
-	'Văn phòng Re:Life',
-	'Dawn Horizon',
-	'Over Horizon'
+const nameLocation = [
+	'『Dainisekai』',			// 0
+	'Văn phòng Re:Life',	// 1
+	'Dawn Horizon',			// 2
+	'Over Horizon'			// 3
 ];
 
 const nameParty = [
