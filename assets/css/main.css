@@ -365,6 +365,14 @@ i {
 	border-left: 2px solid yellow;
 	padding-left: .5rem;
 }
+.number {
+	position: absolute;
+	right: 0;
+	bottom: .2rem;
+	font-size: .7rem;
+	color: gray;
+	text-align: right;
+}
 .dialogueHide {
 	background-color: black;
 	width: 100%;

@@ -11,9 +11,10 @@ function addStory(id) {
 			for(var j = 0; j < tempD[i].name.length; j++)
 				character += `, ${tempD[i].name[j]}`;
 			content += `
-				<div class="dialogue ${tempD[i].class}">
+				<div class="dialogue ${tempD[i].class}" id="${i+1}">
 					<div class="character">${character.slice(2)}</div>
 					<p>${tempD[i].content}</p>
+					<div class="number">${i+1}</div>
 				</div>
 			`;
 			words += tempD[i].content.split(' ').length;

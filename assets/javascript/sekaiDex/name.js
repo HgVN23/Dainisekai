@@ -31,34 +31,36 @@ const nameJob = [
 	'Thánh kị sĩ',	// 5
 	'Pháp sư',		// 6
 	'Phù thủy',		// 7
-	'Chiến binh'	// 8
+	'Mạo hiểm giả',	// 8
+	'Chiến binh'	// 9
 ];
 
 let nameSkill = [
-	'Giám định',
-	'Lục phong Tinh thông',
-	'Hòa âm Kết giới',
-	'Trôi nổi',
-	'Trảm',
-	'Cường hóa Thể chất',
-	'Đóng băng',
-	'Giáp Ma lực',
-	'Hỏa',
-	'Phản đòn',
-	'Cường hóa Bật nhảy',
-	'Cường Trảm',
-	'Băng Tiễn',
-	'Làm sạch',
-	'Che chở',
-	'Phong Đao',
-	'Tái sinh'
+	'Giám định',			// 0
+	'Lục phong Tinh thông',	// 1
+	'Hòa âm Kết giới',		// 2
+	'Trôi nổi',				// 3
+	'Trảm',					// 4
+	'Cường hóa Thể chất',	// 5
+	'Đóng băng',			// 6
+	'Giáp Ma lực',			// 7
+	'Hỏa',					// 8
+	'Phản đòn',				// 9
+	'Cường hóa Bật nhảy',	// 10
+	'Cường Trảm',			// 11
+	'Băng Tiễn',			// 12
+	'Làm sạch',				// 13
+	'Che chở',				// 14
+	'Phong Đao',			// 15
+	'Tái sinh'				// 16
 ];
 for(var i = 0; i < nameSkill.length; i++){
 	nameSkill[i] = `『${nameSkill[i]}』`;
 }
 
 const nameTitle = [
-	'Người chuyển sinh'
+	'Người chuyển sinh',	// 0
+	'Bộ đôi rắc rối'		// 1
 ];
 
 const nameItem = [
