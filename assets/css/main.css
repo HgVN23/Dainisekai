@@ -372,6 +372,7 @@ i {
 	font-size: .7rem;
 	color: gray;
 	text-align: right;
+	font-style: italic;
 }
 .dialogueHide {
 	background-color: black;

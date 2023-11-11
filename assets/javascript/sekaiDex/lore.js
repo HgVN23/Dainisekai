@@ -271,10 +271,10 @@ const lore = [
 			{
 				main: `Phân loại`,
 				content: [
-					`Ma nhân là ma vật có đặc tính và dáng vẻ sát với con người nhất. Gồm Yêu tinh, Thây ma, Xương nhân, ....`,
-					`Ma thú là ma vật có đặc tính như động vật, côn trùng. Gồm Thỏ sừng, Cừu sét, ....`,
-					`Ma nhiên là ma vật có đặc tính từ tài nguyên tự nhiên hoặc thực vật. Gồm Golem, Slime, Cây ăn thịt, ....`,
-					`Ma linh là ma vật siêu nhiên, khó nhận ra. Gồm Ma, Linh hồn, ....`
+					`Ma nhân là ma vật có đặc tính và dáng vẻ sát với con người nhất. Gồm Yêu tinh, Thây ma, Xương nhân, ...`,
+					`Ma thú là ma vật có đặc tính như động vật, côn trùng. Gồm ${nameMob[1]}, ${nameMob[0]}, ...`,
+					`Ma nhiên là ma vật có đặc tính từ tài nguyên tự nhiên hoặc thực vật. Gồm Golem, Slime, Cây ăn thịt, ...`,
+					`Ma linh là ma vật siêu nhiên, khó nhận ra. Gồm Ma, Linh hồn, ...`
 				]
 			},
 			{

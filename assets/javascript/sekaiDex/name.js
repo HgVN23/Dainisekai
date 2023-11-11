@@ -41,18 +41,19 @@ let nameSkill = [
 	'Hòa âm Kết giới',		// 2
 	'Trôi nổi',				// 3
 	'Trảm',					// 4
-	'Cường hóa Thể chất',	// 5
-	'Đóng băng',			// 6
-	'Giáp Ma lực',			// 7
-	'Hỏa',					// 8
-	'Phản đòn',				// 9
-	'Cường hóa Bật nhảy',	// 10
-	'Cường Trảm',			// 11
-	'Băng Tiễn',			// 12
-	'Làm sạch',				// 13
-	'Che chở',				// 14
-	'Phong Đao',			// 15
-	'Tái sinh'				// 16
+	'Phong Đao',			// 5
+	'Cường hóa Thể chất',	// 6
+	'Đóng băng',			// 7
+	'Giáp Ma lực',			// 8
+	'Hỏa',					// 9
+	'Phản đòn',				// 10
+	'Cường hóa Bật nhảy',	// 11
+	'Cường Trảm',			// 12
+	'Băng Tiễn',			// 13
+	'Làm sạch',				// 14
+	'Che chở',				// 15
+	'Phong Đao',			// 16
+	'Tái sinh'				// 17
 ];
 for(var i = 0; i < nameSkill.length; i++){
 	nameSkill[i] = `『${nameSkill[i]}』`;
@@ -60,7 +61,8 @@ for(var i = 0; i < nameSkill.length; i++){
 
 const nameTitle = [
 	'Người chuyển sinh',	// 0
-	'Bộ đôi rắc rối'		// 1
+	'Bộ đôi rắc rối',		// 1
+	'Cô bé lạnh lùng'		// 2
 ];
 
 const nameItem = [
@@ -91,4 +93,9 @@ const nameLocation = [
 
 const nameParty = [
 	'Log Horizon'
+];
+
+const nameMob = [
+	'Cừu sét',	// 0
+	'Thỏ sừng'	// 1
 ];
