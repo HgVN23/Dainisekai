@@ -356,10 +356,18 @@ const character = [
 				firstAppear: 14
 			}
 		],
-		age: 10,
-		gender: gender[1],
-		race: race[1],
-		status: status[0],
+		age: [
+			10
+		],
+		gender: [
+			gender[1]
+		],
+		race: [
+			race[1]
+		],
+		status: [
+			status[0]
+		],
 		like: [
 			`“Gia đình”`,
 			`Thỏ bông`,
@@ -553,10 +561,18 @@ const character = [
 				firstAppear: 4
 			}
 		],
-		age: 10,
-		gender: gender[0],
-		race: race[0],
-		status: status[0],
+		age: [
+			10
+		],
+		gender: [
+			gender[0]
+		],
+		race: [
+			race[0]
+		],
+		status: [
+			status[0]
+		],
 		like: [
 			`“Gia đình”`,
 			`Bảo vệ người khác`

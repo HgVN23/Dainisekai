@@ -53,8 +53,7 @@ let nameSkill = [
 	'Băng Tiễn',			// 13
 	'Làm sạch',				// 14
 	'Che chở',				// 15
-	'Phong Đao',			// 16
-	'Tái sinh'				// 17
+	'Tái sinh'				// 16
 ];
 for(var i = 0; i < nameSkill.length; i++){
 	nameSkill[i] = `『${nameSkill[i]}』`;
@@ -99,7 +98,8 @@ const nameParty = [
 ];
 
 const nameMob = [
-	'Cừu sét',	// 0
+	'Cừu Sét',	// 0
 	'Thỏ sừng',	// 1
-	'Slime'		// 2
+	'Slime',	// 2
+	'Sói Bạc'	// 3
 ];

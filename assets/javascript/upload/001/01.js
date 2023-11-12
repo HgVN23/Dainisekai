@@ -47,12 +47,12 @@ const volume = [
 			{
 				class: `${nameCharacter[17]}`,
 				name: [ `${nameCharacter[17]}` ],
-				content: `Trò giải trí của cậu lạ thật. Mà cảm ơn vừa nãy cậu xin xác của Ngân Lang, bọn tôi cần nó để nghiên cứu.`
+				content: `Trò giải trí của cậu lạ thật. Mà cảm ơn vừa nãy cậu xin xác của ${nameMob[3]}, bọn tôi cần nó để nghiên cứu.`
 			},
 			{
 				class: `${nameCharacter[16]}`,
 				name: [ `${nameCharacter[16]}` ],
-				content: `Không có gì, tôi biết bên hiệp hội không thể tự nhiên làm thế được mà. À, để tôi lấy nó ra khỏi ${inventory} .`
+				content: `Không có gì, tôi biết bên hiệp hội không thể tự nhiên làm thế được mà. À, để tôi lấy nó ra khỏi ${inventory}.`
 			},
 			{
 				class: `${nameCharacter[17]}`,
@@ -62,7 +62,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[17]}` ],
-				content: `${nameCharacter[16]} lấy ra xác của Ngân Lang đặt trên bàn, máu chảy đầy ra từ những vết thương rồi nhỏ xuống mặt sàn. Tôi muốn mắng cậu ta một trận nhưng đã cất công giúp cho hiệp hội như vậy rồi nên đành bỏ qua. Tôi thở dài...`
+				content: `${nameCharacter[16]} lấy ra xác của ${nameMob[3]} đặt trên bàn, máu chảy đầy ra từ những vết thương rồi nhỏ xuống mặt sàn. Tôi muốn mắng cậu ta một trận nhưng đã cất công giúp cho hiệp hội như vậy rồi nên đành bỏ qua. Tôi thở dài...`
 			},
 			{
 				class: `${nameCharacter[16]}`,
@@ -102,12 +102,12 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[17]}` ],
-				content: `${nameCharacter[15]} trông có vẻ giận dữ... Không, chắc chắn là đang giận dữ. ${nameCharacter[16]} đột nhiên tiến lại gần ${nameCharacter[15]}, cậu ta đưa tay phải lên nắm vào cằm của em ấy và nhẹ nhàng nâng lên để nhìn thẳng vào mặt. ${nameCharacter[15]} có chút giật mình sau hành động vừa rồi của ${nameCharacter[16]}.`
+				content: `${nameCharacter[15]} trông có vẻ giận dữ... Không, chắc chắn là đang giận dữ. ${nameCharacter[16]} đột nhiên tiến lại gần ${nameCharacter[15]}, cậu ta đưa tay đặt dưới cằm của em ấy và nhẹ nhàng nâng lên để nhìn thẳng vào mặt. ${nameCharacter[15]} có chút giật mình sau hành động vừa rồi của ${nameCharacter[16]}.`
 			},
 			{
 				class: `${nameCharacter[16]}`,
 				name: [ `${nameCharacter[16]}` ],
-				content: `Quý cô xinh đẹp như bông hoa bình minh đây không nên làm mặt cau có như vậy đâu nha. Nếp nhăn sẽ để lại trên khuôn mặt xinh xắn này đó.`
+				content: `Quý cô xinh đẹp như bông hoa bình minh đây không nên làm mặt cau có như vậy đâu. Nếp nhăn sẽ để lại trên khuôn mặt xinh xắn này đó.`
 			},
 			{
 				class: `think`,
@@ -402,7 +402,7 @@ const volume = [
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Thế là được một cây ${nameItem[7]} , ${nameCharacter[11]} cậu nghĩ... ${nameCharacter[11]}?`
+				content: `Thế là được một cây ${nameItem[7]}, ${nameCharacter[11]} cậu nghĩ... ${nameCharacter[11]}?`
 			},
 			{
 				class: `think`,
@@ -412,7 +412,7 @@ const volume = [
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `${nameSkill[14]}! Xin lỗi nha, mình không để ý.`
+				content: `Xin lỗi nha, mình không để ý.${nameSkill[14]}`
 			},
 			{
 				class: `${nameCharacter[11]}`,
@@ -668,7 +668,7 @@ const volume = [
 			{
 				class: `${nameCharacter[17]}`,
 				name: [ `${nameCharacter[17]}` ],
-				content: `Chỉ có một con Ngân Lang thôi à?`
+				content: `Chỉ có một con ${nameMob[3]} thôi à?`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -723,7 +723,7 @@ const volume = [
 			{
 				class: `${nameCharacter[16]}`,
 				name: [ `${nameCharacter[16]}` ],
-				content: `... Sau đó tôi vào rừng theo lời em trai kia. Đến nơi thì thấy em ${nameCharacter[1]} đang cầm dao bếp đấu với Ngân Lang. Thật đấy, anh hơi bất ngờ khi có người cầm dao bếp ra chiến đấu đó.`
+				content: `... Sau đó tôi vào rừng theo lời em trai kia. Đến nơi thì thấy em ${nameCharacter[1]} đang cầm dao bếp đấu với ${nameMob[3]}. Thật đấy, anh hơi bất ngờ khi có người cầm dao bếp ra chiến đấu đó.`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -733,7 +733,7 @@ const volume = [
 			{
 				class: `${nameCharacter[16]}`,
 				name: [ `${nameCharacter[16]}` ],
-				content: `Được rồi, sau đó tôi chạy đến cho một đấm vào đầu con Ngân Lang và thế là nó tiêu.`
+				content: `Được rồi, sau đó tôi chạy đến cho một đấm vào đầu con ${nameMob[3]} và thế là nó tiêu.`
 			},
 			{
 				class: `${nameCharacter[9]}`,
@@ -753,7 +753,7 @@ const volume = [
 			{
 				class: `${nameCharacter[16]}`,
 				name: [ `${nameCharacter[16]}` ],
-				content: `Sau đó thì ${nameCharacter[1]} ngất chắc vì kiệt sức và vết thương ở tay trái nên là tôi đã cho em uống『Thuốc Ma lực』và『Thuốc Thánh Hồi phục』. Rồi...`
+				content: `Sau đó thì ${nameCharacter[1]} ngất chắc vì kiệt sức và vết thương ở tay trái nên là tôi đã cho em uống ${nameItem[8]} và ${nameItem[9]}. Rồi...`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -763,17 +763,17 @@ const volume = [
 			{
 				class: `${nameCharacter[16]}`,
 				name: [ `${nameCharacter[16]}` ],
-				content: `『Thuốc Ma lực』và『Thuốc Thánh Hồi phục』?`
+				content: `${nameItem[8]} và ${nameItem[9]}?`
 			},
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `『Thuốc Thánh Hồi phục』! Anh đâu cần phải cho em uống loại nghe có vẻ đắt như thế này! Em nhớ không nhầm thì em chỉ bị thương nhẹ ở tay trái thôi mà!`
+				content: `${nameItem[9]}! Anh đâu cần phải cho em uống loại nghe có vẻ đắt như thế này! Em nhớ không nhầm thì em chỉ bị thương nhẹ ở tay trái thôi mà!`
 			},
 			{
 				class: `${nameCharacter[16]}`,
 				name: [ `${nameCharacter[16]}` ],
-				content: `Không sao đâu, bạn của em cũng có phần mà. Đừng có lo nữa nha.`
+				content: `Không sao đâu, bạn của em cũng có phần mà. Đừng có lo nữa nhé.`
 			},
 			{
 				class: `${nameCharacter[17]}`,
@@ -818,7 +818,7 @@ const volume = [
 			{
 				class: `${nameCharacter[9]}`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Anh... thật à..? Vậy... chẳng lẽ em đang là xác sống?`
+				content: `Anh... thật à...? Vậy... chẳng lẽ em đang là xác sống?`
 			},
 			{
 				class: `${nameCharacter[10]}`,
@@ -853,7 +853,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Tôi và mọi người cùng xem ${statusBoard} của ${nameCharacter[9]} thì thấy cậu vẫn là con người. Nhưng khi lướt xuống phần kỹ năng thì thấy cậu có『Tái sinh』, cho phép người dùng sống lại và hồi nửa lượng máu của bản thân cùng vết thương. Tự động kích hoạt khi hi sinh bảo vệ mạng sống khác và dùng được lại khi bình minh của ngày hôm sau ló rạng. Sao cậu lại có kỹ năng như vậy được chứ? Tôi lướt tiếp xuống đến phần danh hiệu thì thấy ${nameTitle[3]} và phần mô tả ghi “Chúc phúc của thần ${nameCharacter[8]}”. Ra là vậy... có vẻ vấn đề đã được giải quyết.`
+				content: `Tôi và mọi người cùng xem ${statusBoard} của ${nameCharacter[9]} thì thấy cậu vẫn là con người. Nhưng khi lướt xuống phần kỹ năng thì thấy cậu có${nameSkill[16]}, cho phép người dùng sống lại và hồi nửa lượng máu của bản thân cùng vết thương. Tự động kích hoạt khi hi sinh bảo vệ mạng sống khác và dùng được lại khi bình minh của ngày hôm sau ló rạng. Sao cậu lại có kỹ năng như vậy được chứ? Tôi lướt tiếp xuống đến phần danh hiệu thì thấy ${nameTitle[3]} và phần mô tả ghi “Chúc phúc của thần ${nameCharacter[8]}”. Ra là vậy... có vẻ vấn đề đã được giải quyết.`
 			},
 			{
 				class: `${nameCharacter[17]}`,
@@ -863,7 +863,7 @@ const volume = [
 			{
 				class: `${nameCharacter[9]}`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Từ khi nào mà mình lại có『Tái sinh』vậy nhỉ?`
+				content: `Từ khi nào mà mình lại có${nameSkill[16]}vậy nhỉ?`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -883,7 +883,7 @@ const volume = [
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Mệt mỏi quá, mình nghĩ mình không còn sức để nghe thêm gì nữa rồi.`
+				content: `Mệt mỏi quá, mình nghĩ không còn sức để nghe thêm gì nữa rồi.`
 			},
 			{
 				class: `${nameCharacter[16]}`,
@@ -913,12 +913,12 @@ const volume = [
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Đây là số ${nameItem[6]} , ${nameItem[7]} và bốn『Thẻ ${nameJob[8]}』của bọn em.`
+				content: `Đây là số ${nameItem[6]}, ${nameItem[7]} và bốn ${nameItem[4]} của bọn em.`
 			},
 			{
 				class: `${nameCharacter[15]}`,
 				name: [ `${nameCharacter[15]}` ],
-				content: `Hả! E-em có ${inventory} ?`
+				content: `Hả! E-em có ${inventory}?`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -968,7 +968,7 @@ const volume = [
 			{
 				class: `${nameCharacter[16]}`,
 				name: [ `${nameCharacter[16]}` ],
-				content: `Không ngờ anh không đáng tin như vậy, anh buồn quá. À mà cho anh xác của Ngân Lang nha, được không?`
+				content: `Không ngờ anh không đáng tin như vậy, anh buồn quá. À mà cho anh xác của ${nameMob[3]} nhé, được không?`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -978,12 +978,12 @@ const volume = [
 			{
 				class: `${nameCharacter[16]}`,
 				name: [ `${nameCharacter[16]}` ],
-				content: `Anh đã bảo rồi, anh còn nhiều lắm mà dùng chả hết. Đây, em xem này.`
+				content: `Anh đã bảo rồi, anh còn nhiều lắm dùng chả hết. Đây, em xem này.`
 			},
 			{
 				class: `${nameCharacter[9]}`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `A-anh cũng có ${inventory} ?`
+				content: `A-anh cũng có ${inventory}?`
 			},
 			{
 				class: `${nameCharacter[16]}`,
@@ -1053,7 +1053,7 @@ const volume = [
 			{
 				class: `${nameCharacter[17]}`,
 				name: [ `${nameCharacter[17]}` ],
-				content: `Cậu nghiêm túc được không? Tôi đang nói đến vụ Ngân Lang và mắt đỏ.`
+				content: `Cậu nghiêm túc được không? Tôi đang nói đến vụ ${nameMob[3]} và mắt đỏ.`
 			},
 			{
 				class: `${nameCharacter[16]}`,
@@ -1068,7 +1068,7 @@ const volume = [
 			{
 				class: `${nameCharacter[15]}`,
 				name: [ `${nameCharacter[15]}` ],
-				content: `A hèm. Cho em xin phép được báo cáo kết luận lí do Ngân Lang chỉ có một mình. Theo như câu truyện của tụi nhỏ và kết hợp với điều tra của hiệp hội thì chính con Ngân Lang mắt đỏ đã sát hại cả đàn của nó.`
+				content: `A hèm. Cho em xin phép được báo cáo kết luận lí do ${nameMob[3]} chỉ có một mình. Theo như câu truyện của tụi nhỏ và kết hợp với điều tra của hiệp hội thì chính con ${nameMob[3]} mắt đỏ đã sát hại cả đàn của nó.`
 			},
 			{
 				class: `${nameCharacter[16]}`,
@@ -1178,7 +1178,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Vừa dứt lời thì ${nameCharacter[9]} cõng ${nameCharacter[10]} chạy vút đi. Đúng thật là... Không sao, tôi vẫn còn ${nameCharacter[11]}, xin lỗi vì đã lôi cậu vào vụ này.`
+				content: `Vừa dứt lời thì ${nameCharacter[9]} cõng ${nameCharacter[10]} chạy vút đi. Đúng thật là... Không sao, tôi vẫn còn ${nameCharacter[11]}, xin lỗi nhỏ sau vậy.`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -1219,7 +1219,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Thanh kiếm đã vỡ, chỉ còn con dao trên tay... Tôi sẽ kết liễu nó... Tôi... có thể...? Đó là những suy nghĩ trước khi tôi từ bỏ bởi nanh vuốt đã sát trước mắt. Vậy mà từ đâu, chàng trai mặc áo choàng dài xanh lá xuất hiện trước mặt tôi. Nắm đấm tay phải đầy máu vẫn còn đang dơ ra trước mắt. Dường như, anh ta đã hạ Ngân Lang chỉ với một đấm?`
+				content: `Thanh kiếm đã vỡ, chỉ còn con dao trên tay... Tôi sẽ kết liễu nó... Tôi... có thể...? Đó là những suy nghĩ trước khi tôi từ bỏ bởi nanh vuốt đã sát trước mắt. Vậy mà từ đâu, chàng trai mặc áo choàng dài xanh lá xuất hiện trước mặt tôi. Nắm đấm tay phải đầy máu vẫn còn đang dơ ra trước mắt. Dường như, anh ta đã hạ ${nameMob[3]} chỉ với một đấm?`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -1234,7 +1234,7 @@ const volume = [
 			{
 				class: `unknown`,
 				name: [ `Chàng trai` ],
-				content: `Em nghỉ ngơi đi, việc còn lại hãy để mọi người lo nốt nha.`
+				content: `Em nghỉ ngơi đi, việc còn lại hãy để mọi người lo nốt nhé.`
 			},
 			{
 				class: `think`,
@@ -1364,7 +1364,7 @@ const volume = [
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Em xin lỗi, em không nhận ra anh ngồi đấy. À ừm, anh tên ${nameCharacter[16]} nhỉ? Em tên là ${nameCharacter[1]}. Thay mặt cả Tổ đội, em cảm ơn anh rất nhiều vì đã cứu tổ đội của bọn em.`
+				content: `Em xin lỗi, em không nhận ra anh ngồi đấy. À ừm, anh tên ${nameCharacter[16]} nhỉ? Em tên là ${nameCharacter[1]}. Thay mặt cả tổ đội, em cảm ơn anh rất nhiều vì đã cứu tổ đội của bọn em.`
 			},
 			{
 				class: `${nameCharacter[11]}`,
@@ -1374,7 +1374,7 @@ const volume = [
 			{
 				class: `${nameCharacter[16]}`,
 				name: [ `${nameCharacter[16]}` ],
-				content: `Anh tên ${nameCharacter[16]}, hân hạnh được làm quen với em. Anh nghĩ người các em nên cảm ơn là cậu em trai đã đến báo với hiệp hội á.`
+				content: `Anh tên ${nameCharacter[16]}, hân hạnh được làm quen với các em. Anh nghĩ người các em nên cảm ơn là cậu em trai đã đến báo với hiệp hội á.`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -1524,7 +1524,7 @@ const volume = [
 			{
 				class: `${nameCharacter[15]}`,
 				name: [ `${nameCharacter[15]}` ],
-				content: `Phải rồi. Các em vừa mới đăng ký làm ${nameJob[8]}. Vì một lí do gì đó mà vào rừng. Sau đó cứu người rồi cả tổ đội đấu với Ngân Lang với cấp độ chênh lệch. Cuối cùng thì tí cả nhóm không còn đường trở về.`
+				content: `Phải rồi. Các em vừa mới đăng ký làm ${nameJob[8]}. Vì một lí do gì đó mà vào rừng. Sau đó cứu người rồi cả tổ đội đấu với ${nameMob[3]} với cấp độ chênh lệch. Cuối cùng thì tí cả nhóm không còn đường trở về.`
 			},
 			{
 				class: `think`,
@@ -1545,22 +1545,22 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Ngân Lang, một con ma thú mắt đỏ lần đầu bọn tôi phải đối mặt. Ngay bây giờ tôi, ${nameCharacter[1]}, ${nameCharacter[10]} đang vây quanh nó còn ${nameCharacter[11]} đang ở sau tôi hỗ trợ từ khoảng cách xa. Cả hai bên đều chờ nhau xem ai sẽ khai mở cuộc chiến này trước. Và có vẻ Ngân Lang hành động trước, nó lao thẳng đến phía ${nameCharacter[1]} chắc vì đòn tấn công trước đó của cậu.`
+				content: `${nameMob[3]}, một con ma thú mắt đỏ lần đầu bọn tôi phải đối mặt. Ngay bây giờ tôi, ${nameCharacter[1]}, ${nameCharacter[10]} đang vây quanh nó còn ${nameCharacter[11]} đang ở sau yểm trợ từ khoảng cách xa. Cả hai bên đều chờ nhau xem ai sẽ khai mở cuộc chiến này trước. Và có vẻ ${nameMob[3]} hành động trước, nó lao thẳng đến phía ${nameCharacter[1]} chắc vì đòn tấn công trước đó của cậu.`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `${nameCharacter[1]} vẫn đứng im? Cậu ta có kế hoạch gì à? Con ma thú thì ngày càng tới gần. Ngân Lang giơ vuốt phải của nó lên và trước khi tôi định dùng『Che chở』thì ${nameCharacter[1]} đã xoay người về bên phải và nhảy giật lùi về hướng tôi ngay thời điểm nó áp sát. Ngân Lang đã vồ vào tường băng mà ${nameCharacter[11]} đã dựng trước đó. Thì ra cậu muốn làm chậm đi chuyển động của nó một chút. Cứ ngỡ là thành công nào ngờ chân phải của Ngân Lang bám vào tường đưa cả ba chân còn lại lên rồi lấy đà phóng thẳng tới ${nameCharacter[1]}.`
+				content: `${nameCharacter[1]} vẫn đứng im? Cậu ta có kế hoạch gì à? Con ma thú thì ngày càng tới gần. ${nameMob[3]} giơ vuốt phải của nó lên và trước khi tôi định dùng${nameSkill[15]}thì ${nameCharacter[1]} đã xoay người về bên phải và nhảy giật lùi về hướng tôi ngay thời điểm nó áp sát. ${nameMob[3]} đã vồ vào tường băng mà ${nameCharacter[11]} đã dựng trước đó. Thì ra cậu muốn làm chậm đi chuyển động của nó một chút. Cứ ngỡ là thành công nào ngờ chân phải của ${nameMob[3]} bám vào tường đưa cả ba chân còn lại lên rồi lấy đà phóng thẳng tới ${nameCharacter[1]}.`
 			},
 			{
 				class: `${nameCharacter[9]}`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Để mình lo cho.『Che chở』.`
+				content: `Để mình lo cho.${nameSkill[15]}.`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Tôi mau chóng đỡ đòn lao tới cắn của ma thú cho ${nameCharacter[1]}. Tuy Ngân Lang có bất ngờ nhưng nhờ phản xạ nhanh nó vẫn kịp xử lí tình huống. Nó đổi tư thế giơ hai chân trước đáp vào tấm khiên của tôi rồi hai chân sau đạp lên khiên lấy đà bật ngửa ra sau. Sau khi đáp đất, Ngân Lang lập tức tấn công tôi dồn dập. ${nameCharacter[1]} từ đằng sau lấy lại được thăng bằng ngay lập tức lao thẳng lên bên trái tôi, tay phải cầm kiếm định đâm vào đầu của con ma thú. Chẳng cần phải nói thêm, Ngân Lang liền bật ngược ra sau né được cú đâm đó.`
+				content: `Tôi mau chóng đỡ đòn lao tới cắn của ma thú cho ${nameCharacter[1]}. Tuy ${nameMob[3]} có bất ngờ nhưng nhờ phản xạ nhanh nó vẫn kịp xử lí tình huống. Nó đổi tư thế giơ hai chân trước đáp vào tấm khiên của tôi rồi hai chân sau đạp lên khiên lấy đà bật ngửa ra sau. Sau khi đáp đất, ${nameMob[3]} lập tức tấn công tôi dồn dập. ${nameCharacter[1]} từ đằng sau lấy lại được thăng bằng ngay lập tức lao thẳng lên bên trái tôi, tay phải cầm kiếm định đâm vào đầu của con ma thú. Chẳng cần phải nói thêm, ${nameMob[3]} liền bật ngược ra sau né được cú đâm đó.`
 			},
 			{
 				class: `${nameCharacter[9]}`,
@@ -1575,7 +1575,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Tôi quay ra nhìn thì thấy ${nameCharacter[1]} đang cười nhếch mép, cậu đang nói cái... Phập! Mũi tên băng của ${nameCharacter[11]} bay thẳng vào bả vai phải của Ngân Lang và trong giây lát nó đã bị lúng túng. Ngân Lang né qua bên trái để quan sát phát bắn từ đâu. ${nameCharacter[10]} từ bên trái của nó liền áp sát được, hai tay nhỏ cầm chắc thanh trọng kiếm về bên trái và vung thẳng vào phần ngực con ma thú, đồng thời cũng kích hoạt kỹ năng${nameSkill[12]}. Cú vung của ${nameCharacter[10]} lực đến nỗi Ngân Lang bị bắn đi xuyên qua mấy hàng cây. Chú diều hâu và các loài biết bay bay đầy trên bầu trời do từng hàng cây bị đổ dập. Sau phát chém đó ${nameCharacter[10]} chạy lại chỗ chúng tôi với khuôn mặt hớn hở.`
+				content: `Tôi quay ra nhìn thì thấy ${nameCharacter[1]} đang cười nhếch mép, cậu đang nói cái... Phập! Mũi tên băng của ${nameCharacter[11]} bay thẳng vào bả vai phải của ${nameMob[3]} và trong giây lát nó đã bị lúng túng. ${nameMob[3]} né qua bên trái để quan sát phát bắn từ đâu. ${nameCharacter[10]} từ bên trái của nó liền áp sát được, hai tay nhỏ cầm chắc thanh trọng kiếm đồng thời kích hoạt kỹ năng${nameSkill[12]}và vung thẳng vào phần ngực con ma thú. Cú vung của ${nameCharacter[10]} lực đến nỗi ${nameMob[3]} bị bắn đi xuyên qua mấy hàng cây. Chú diều hâu và các loài biết bay bay đầy trên bầu trời do từng hàng cây bị đổ dập. Sau phát chém đó ${nameCharacter[10]} chạy lại chỗ chúng tôi với khuôn mặt hớn hở.`
 			},
 			{
 				class: `${nameCharacter[10]}`,
@@ -1610,7 +1610,7 @@ const volume = [
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `À... Tất nhiên rồi, mọi thứ đều nằm trong kế hoạch của mình mà. Đúng vậy, chắc chắn mình không tính sai đâu.`
+				content: `À... T-tất nhiên rồi, mọi thứ đều nằm trong kế hoạch của mình mà. Đ-đúng vậy, chắc chắn mình không tính sai đâu.`
 			},
 			{
 				class: `think`,
@@ -1635,7 +1635,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Ngân Lang bước đi chầm chậm ra khỏi phần tối của khu rừng. Nó vừa đi vừa gầm gừ đe dọa, lông thì xù hết lên còn ánh mắt đầy sát khí nhìn thẳng về phía bọn tôi như muốn ăn tươi nuốt sống hết cả đám. Cả ba đứa bọn tôi đều sốc và có lẽ người sốc nhất là ${nameCharacter[10]}. Nhỏ lúc này đang vừa bất ngờ vừa lo lắng vừa buồn vì đòn kết liễu không thành công. Đôi tai dạt với đuôi cong xuống đã nói hết lên cảm xúc lúc này của ${nameCharacter[10]}.`
+				content: `${nameMob[3]} bước đi chầm chậm ra khỏi phần tối của khu rừng. Nó vừa đi vừa gầm gừ đe dọa, lông thì xù hết lên còn ánh mắt đầy sát khí nhìn thẳng về phía bọn tôi như muốn ăn tươi nuốt sống hết cả đám. Cả ba đứa bọn tôi đều sốc và có lẽ người sốc nhất là ${nameCharacter[10]}. Nhỏ lúc này đang vừa bất ngờ vừa lo lắng vừa buồn vì đòn kết liễu không thành công. Đôi tai dạt với đuôi cong xuống đã nói hết lên cảm xúc lúc này của ${nameCharacter[10]}.`
 			},
 			{
 				class: `${nameCharacter[10]}`,
@@ -1655,22 +1655,22 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Ngân Lang hú ầm lên một phát khiến bọn tôi đều phải tập trung hết vào nơi nó đứng. Và khi tiếng hú dứt, không biết từ lúc nào con ma thú đã ở trên không. Ngân Lang cuộn mình về trước xoay một vòng, móng vuốt chân trước của nó bỗng sáng lên và từ đó phóng ra sáu đường lưỡi liềm. Tốc độ của chúng nhanh hơn lần trước và với khoảng cách gần như này thì ${nameCharacter[11]} cũng không ứng cứu kịp. Tệ rồi đây...`
+				content: `${nameMob[3]} hú ầm lên một phát khiến bọn tôi đều phải tập trung hết vào nơi nó đứng. Và khi tiếng hú dứt, không biết từ lúc nào con ma thú đã ở trên không. ${nameMob[3]} cuộn mình về trước xoay một vòng, móng vuốt chân trước của nó bỗng sáng lên và từ đó phóng ra sáu đường lưỡi liềm. Tốc độ của chúng nhanh hơn lần trước và với khoảng cách gần như này thì ${nameCharacter[11]} cũng không ứng cứu kịp. Tệ rồi đây...`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `${nameCharacter[1]} từ đằng sau tiến lên trước, cậu đưa đường kiếm từ trái qua phải hướng lên trên phóng ra một lưỡi chém hủy đường lưỡi liềm của Ngân Lang. Có vẻ đó là kỹ năng『Phong Đao』mà ${nameCharacter[1]} đã bảo hồi sáng. Không biết từ lúc nào con ma thú đã ở dưới mặt đất và lao thẳng tấn công ${nameCharacter[1]}. ${nameCharacter[1]} lúc này đang bị đứng chôn chân, chỉ có thể đưa thanh kiếm lên đỡ những đòn vuốt cào liên tiếp từ nó. Mũi tên của ${nameCharacter[11]} bay tới Ngân Lang thì nó liền dừng tấn công và né qua trái. ${nameCharacter[10]} nhân cơ hội lao lên nhưng Ngân Lang đã nhảy lên đúng lúc nhỏ vung kiếm. Ma thú nhận thấy có sở hở, nó giơ vuốt lên định cào ${nameCharacter[10]} thì đòn phong của ${nameCharacter[1]} đã làm cản trở rồi cậu cũng lao lên phản công.`
+				content: `${nameCharacter[1]} từ đằng sau tiến lên trước, cậu đưa đường kiếm từ trái qua phải hướng lên trên phóng ra một lưỡi chém hủy đường lưỡi liềm của ${nameMob[3]}. Có vẻ đó là kỹ năng${nameSkill[5]}mà ${nameCharacter[1]} đã bảo hồi sáng. Không biết từ lúc nào con ma thú đã ở dưới mặt đất và lao thẳng tấn công ${nameCharacter[1]}. ${nameCharacter[1]} lúc này đang bị đứng chôn chân, chỉ có thể đưa thanh kiếm lên đỡ những đòn vuốt cào liên tiếp từ nó. Mũi tên của ${nameCharacter[11]} bay tới ${nameMob[3]} thì nó liền dừng tấn công và né qua trái. ${nameCharacter[10]} nhân cơ hội lao lên nhưng ${nameMob[3]} đã nhảy lên đúng lúc nhỏ vung kiếm. Ma thú nhận thấy có sở hở, nó giơ vuốt lên định cào ${nameCharacter[10]} thì đòn phong của ${nameCharacter[1]} đã làm cản trở rồi cậu cũng lao lên phản công.`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Mọi người lúc này đều đã quá kiệt sức rồi, vậy mà Ngân Lang vẫn không có dấu hiệu bị đuối. Thậm chí sau khi lãnh một đòn của ${nameCharacter[10]} vậy mà... không có vết chém? Tại sao vậy? Vết bắn mũi tên của ${nameCharacter[11]} vẫn còn mà?`
+				content: `Mọi người lúc này đều đã quá kiệt sức rồi, vậy mà ${nameMob[3]} vẫn không có dấu hiệu bị đuối. Thậm chí sau khi lãnh một đòn của ${nameCharacter[10]} vậy mà... không có vết chém? Tại sao vậy? Vết bắn mũi tên của ${nameCharacter[11]} vẫn còn mà?`
 			},
 			{
 				class: `${nameCharacter[9]}`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `${nameCharacter[1]} lùi lại!『Che chở』. Mình không hiểu sao đòn tấn công của ${nameCharacter[10]} và ${nameCharacter[11]} lại khác biệt đến vậy.`
+				content: `${nameCharacter[1]} lùi lại!${nameSkill[15]}. Mình không hiểu sao đòn tấn công của ${nameCharacter[10]} và ${nameCharacter[11]} lại khác biệt đến vậy. Hay là do chỗ bị bắn là điểm yếu?`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -1680,27 +1680,27 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `“Cái đó”? Hi vọng “cái đó” mà ${nameCharacter[1]} nói giải quyết được con này. Sau khi tôi đỡ đòn của của Ngân Lang thì ${nameCharacter[10]} từ mạn phải tôi vung kiếm tấn công. Như thường lệ nó lại né được nhưng từ lúc nào ${nameCharacter[1]} đã áp sát được và trong tay trái cầm con ${nameMob[2]} bị đóng băng trước đó đập thẳng vào mặt con ma thú. Chất nhầy của ${nameMob[2]} che đi tầm nhìn của Ngân Lang khiến nó mất phương hướng tạm thời. Dù đã mau chóng né nhưng cậu vẫn bị dính một cào từ nó vào cánh tay trái sau khi cố áp sát như vậy.`
+				content: `“Cái đó”? Hi vọng “cái đó” mà ${nameCharacter[1]} nói giải quyết được con này. Sau khi đỡ đòn của ${nameMob[3]} thì ${nameCharacter[10]} từ mạn phải tôi vung kiếm tấn công. Như thường lệ, nó lại né được nhưng từ lúc nào ${nameCharacter[1]} đã áp sát được và trong tay trái cầm con ${nameMob[2]} bị đóng băng trước đó đập thẳng vào mặt con ma thú. Chất nhầy của ${nameMob[2]} che đi tầm nhìn của ${nameMob[3]} khiến nó mất phương hướng tạm thời. Dù đã mau chóng né nhưng cậu vẫn bị dính một cào từ nó vào cánh tay trái sau khi cố áp sát như vậy.`
 			},
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `NGAY BÂY GIỜ ${nameCharacter[11]}!`
+				content: `NGAY BÂY GIỜ ${nameCharacter[11].toUpperCase()}!`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Không rõ kế hoạch này là như nào nhưng khi tôi nhìn về hướng ${nameCharacter[11]} thì thấy nhỏ có vẻ đang dồn hết sức cho phát bắn cuối này. ${nameCharacter[11]} từ đằng xa bắn một đường mũi tên cong lên trời. Khi mũi tên đã bay đủ cao, nó tách ra thành nhiều mũi tên rơi xuống Ngân Lang. Những mũi tên nào không trúng ma thú va chạm với mặt đất sẽ tan vỡ và tỏa ra hơi lạnh bao quanh nơi đó. Vậy là kết thúc rồi...`
+				content: `Không rõ kế hoạch này là như nào nhưng khi tôi nhìn về hướng ${nameCharacter[11]} thì thấy nhỏ có vẻ đang dồn hết sức cho phát bắn cuối này. ${nameCharacter[11]} từ đằng xa bắn một đường mũi tên cong lên trời. Khi mũi tên đã bay đủ cao, nó tách ra thành nhiều mũi tên rơi xuống ${nameMob[3]}. Những mũi tên nào không trúng ma thú va chạm với mặt đất sẽ tan vỡ và tỏa ra hơi lạnh bao quanh nơi đó. Vậy là kết thúc rồi...`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Tôi thở dài hạ khiên xuống, ai nấy cũng đều đuối sức cả. ${nameCharacter[11]} thì chắc không còn đủ ma lực để bắn cung nữa, nhỏ ngã quỵ rồi. Còn ${nameCharacter[1]} chắc cũng đang cảm thấy khá đau sau khi bị như vậy. Kiếm cắm thẳng xuống đất và cậu dồn hết lực vào tay phải để tựa cố đứng thẳng. Và ${nameCharacter[10]} thậm chí còn ngồi hẳn xuống đất, dù sao thì nhỏ cũng là người đã tấn công liên tục trong suốt trận chiến. Rồi tôi quay ra nhìn lại màn sương lạnh giá bao trùm Ngân Lang, tuy không rõ con ma thú trong đó nhưng có ánh sáng tím le lói... không... đừng đùa chứ... Nó đang hướng đến ${nameCharacter[10]}... Tôi phải chạy... phải bảo vệ... điều quan trọng... chạy... chạy... CHẠY!`
+				content: `Tôi thở dài hạ khiên xuống, ai nấy cũng đều đuối sức cả. ${nameCharacter[11]} thì chắc không còn đủ ma lực để bắn cung nữa, nhỏ ngã quỵ rồi. Còn ${nameCharacter[1]} chắc cũng đang cảm thấy khá đau sau khi bị như vậy. Kiếm cắm thẳng xuống đất và cậu dồn hết lực vào tay phải để tựa cố đứng thẳng. Và ${nameCharacter[10]} thậm chí còn ngồi hẳn xuống đất, dù sao thì nhỏ cũng là người đã tấn công liên tục trong suốt trận chiến. Rồi tôi quay ra nhìn lại màn sương lạnh giá bao trùm ${nameMob[3]}, tuy không rõ con ma thú trong đó nhưng có ánh sáng tím le lói... không... đừng đùa chứ... Nó đang hướng đến ${nameCharacter[10]}... Tôi phải chạy... phải bảo vệ... chạy... chạy... CHẠY!`
 			},
 			{
 				class: `${nameCharacter[9]}`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `『Che chở』. 『Che chở』. 『Che chở』. 『Che chở』!`
+				content: `${nameSkill[15]}${nameSkill[15]}${nameSkill[15]}${nameSkill[15]}!`
 			},
 			{
 				class: `think`,
@@ -1735,12 +1735,12 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Chuyện gì vừa xảy ra vậy... Tôi chỉ vừa ngước lên thôi mà... Sao ${nameCharacter[9]} lại nằm vậy? ${nameCharacter[10]} đang nói gì với ${nameCharacter[9]} à? Ngân Lang ra sao rồi... nó vẫn đứng...`
+				content: `Chuyện gì vừa xảy ra vậy... Tôi chỉ vừa ngước lên thôi mà... Sao ${nameCharacter[9]} lại nằm vậy? ${nameCharacter[10]} đang nói gì với ${nameCharacter[9]} à? ${nameMob[3]} ra sao rồi... nó vẫn đứng...`
 			},
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `${nameCharacter[10]}! Ngân Lang VẪN... ${nameCharacter[10]}?`
+				content: `${nameCharacter[10].toUpperCase()}! ${nameMob[3].toUpperCase()} VẪN... ${nameCharacter[10]}?`
 			},
 			{
 				class: `think`,
@@ -1750,7 +1750,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Ngân Lang, trên mình găm đầy mũi tên từ trong màn sương băng lao thẳng đến ${nameCharacter[10]}. Và ${nameCharacter[10]} cũng không ngần ngại lao thẳng tới khô máu với nó. Cả hai bên cào xé nhau chẳng còn né tránh nữa, mặc kệ vết thương càng ngày càng nhiều.`
+				content: `${nameMob[3]}, trên mình găm đầy mũi tên từ trong màn sương băng lao thẳng đến ${nameCharacter[10]}. Và ${nameCharacter[10]} cũng không ngần ngại lao thẳng tới khô máu với nó. Cả hai bên cào xé nhau chẳng còn né tránh nữa, mặc kệ vết thương càng ngày càng nhiều.`
 			},
 			{
 				class: `think`,
@@ -1765,17 +1765,17 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `${nameCharacter[10]} thở hổn hển, sức lực của nhỏ có vẻ đã đến giới hạn. Ngân Lang bằng cách nào đó vẫn trên cơ ${nameCharacter[10]} và nhỏ đã gục ngã. Ngay khi Ngân Lang định kết liễu ${nameCharacter[10]} thì một bức tường băng được dựng lên từ hướng của ${nameCharacter[11]} ngăn cách ${nameCharacter[10]} với ma thú.`
+				content: `${nameCharacter[10]} thở hổn hển, sức lực của nhỏ có vẻ đã đến giới hạn. ${nameMob[3]} bằng cách nào đó vẫn trên cơ ${nameCharacter[10]} và nhỏ đã gục ngã. Ngay khi ${nameMob[3]} định kết liễu ${nameCharacter[10]} thì một bức tường băng được dựng lên từ hướng của ${nameCharacter[11]} ngăn cách ${nameCharacter[10]} với ma thú.`
 			},
 			{
 				class: `${nameCharacter[11]}`,
 				name: [ `${nameCharacter[11]}` ],
-				content: `Chút ma lực còn lại. Mai gặp lại.`
+				content: `Chút ma lực cuối cùng. Mai gặp lại.`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Vừa dứt lời thì ${nameCharacter[11]} đã bất tỉnh. Mai gặp lại à... Tôi mỉm cười, cầm chắc cây kiếm trên tay phải lao đến Ngân Lang. Nó thấy tôi di chuyển nên cũng chuyển hướng qua tấn công tôi. Cả hai bên đều đã mệt mỏi nhưng vẫn cố chạy. Tôi giơ ngang thanh kiếm, dồn nén phong cũng như sức mạnh còn lại bao bọc lưỡi kiếm. Con ma thú tiến đến gần và há mõm ra định cắn tôi. Quyết định rồi, chém nó ra làm đôi.`
+				content: `Vừa dứt lời thì ${nameCharacter[11]} gục đầu xuống và bất tỉnh. Mai gặp lại à... Tôi mỉm cười, cầm chắc cây kiếm trên tay phải lao đến ${nameMob[3]}. Nó thấy tôi di chuyển nên cũng chuyển hướng qua tấn công tôi. Cả hai bên đều đã mệt mỏi nhưng vẫn cố chạy. Tôi giơ ngang thanh kiếm, dồn nén gió cũng như sức mạnh còn lại bao bọc quanh lưỡi kiếm. Con ma thú tiến đến gần và há mõm ra định cắn tôi. Quyết định rồi, chém nó ra làm đôi.`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -1785,7 +1785,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Keng! Tôi chạy lướt qua Ngân Lang cùng với kiếm trên tay. Xong rồi... Kết thúc rồi... Thanh kiếm của tôi...`
+				content: `Keng! Tôi chạy lướt qua ${nameMob[3]} cùng với kiếm trên tay. Xong rồi... Kết thúc rồi... Thanh kiếm của tôi...`
 			},
 			{
 				class: `think`,
@@ -1799,13 +1799,13 @@ const volume = [
 			},
 			{
 				class: `unknown`,
-				name: [ `???` ],
+				name: [ `Chàng trai` ],
 				content: `Chúng ta vừa mới gặp nhau mà sao đã tạm biệt rồi?`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Trước mắt tôi là một anh chàng mặc áo choàng dài màu xanh lá với mũ trùm đầu che khuôn mặt đã bị gió thổi lật ngược. Khoan... còn Silver... đầu của nó... đâu mất rồi... Còn mỗi phần thân của con ma thú dưới chân tôi... Người này rốt cuộc là ai...?`
+				content: `Trước mắt tôi là một anh chàng mặc áo choàng dài màu xanh lá với mũ trùm đầu che khuôn mặt đã bị gió thổi lật ngược. Khoan... thế còn... đầu của nó... đâu mất rồi... Còn mỗi phần thân của con ma thú dưới chân tôi... Người này rốt cuộc là ai...?`
 			},
 			{
 				class: `think`,
@@ -1851,7 +1851,12 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `${nameCharacter[10]} đang định nói gì đó rồi nhỏ đột nhiên im lặng. Tôi tiến lại gần ${nameCharacter[10]} với hơi thở hổn hển vì phải chạy đuổi theo. Nhìn nhỏ trông hơi nhợt nhạt, đôi tai thì đang dạt xuống còn đuôi thì nhỏ đang nắm chặt. Tôi đặt tay trái lên vai phải ${nameCharacter[10]} định hỏi xem chuyện gì đã xảy ra thì tay tôi bắt đầu run... ${nameCharacter[10]}? Nhỏ đang sợ hãi? Nhỏ đã chứng kiến điều gì vậy? Tôi hít một hơi thật sâu để lấy lại sự tỉnh táo sau khi chạy quá nhiều. Một mùi tanh nồng xộc thẳng vào mũi làm tôi suýt thì ói ra. Nhưng cũng nhờ mùi tanh đó mà tôi đã tỉnh hẳn khỏi cơn choáng...`
+				content: `${nameCharacter[10]} đang định nói gì đó rồi nhỏ đột nhiên im lặng. Tôi tiến lại gần ${nameCharacter[10]} với hơi thở hổn hển vì phải chạy đuổi theo. Nhìn nhỏ trông hơi nhợt nhạt, đôi tai thì đang dạt xuống còn đuôi thì nhỏ đang nắm chặt. Tôi đưa tay lên vai ${nameCharacter[10]} định hỏi xem chuyện gì đã xảy ra thì người tôi hơi run...`
+			},
+			{
+				class: `think`,
+				name: [ `${nameCharacter[9]}` ],
+				content: `${nameCharacter[10]}? Nhỏ đang sợ hãi? Nhỏ đã chứng kiến điều gì vậy? Tôi hít một hơi thật sâu để lấy lại sự tỉnh táo sau khi chạy quá nhiều. Một mùi tanh nồng xộc thẳng vào mũi làm tôi suýt thì ói ra. Nhưng cũng nhờ mùi tanh đó mà tôi đã tỉnh hẳn khỏi cơn choáng...`
 			},
 			{
 				class: `${nameCharacter[9]}`,
@@ -1861,7 +1866,12 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Khung cảnh trước mặt tôi là một bãi cỏ đỏ thẫm, điểm trên đó là các xác chết không toàn thây nằm la liệt mỗi nơi vài mảnh. Tuy đây không phải là lần đầu tôi nhìn thấy máu hay xác chết nhưng... thế này thật là ngoài sức tưởng tượng. Tôi cúi xuống dưới chân thì thấy một bãi nhầy cùng dấu vết để lại. Đây có lẽ là con ${nameMob[2]} bọn tôi đang đuổi đã bị một sinh vật không rõ dẫm bẹp. Chạm thử vào dấu chân mà con ma vật đó để lại, vẫn còn ấm, tức là nó chỉ vừa mới rời đi. Tôi tự hỏi cuộc chiến nào đã diễn ra ở đây trước khi chúng tôi đến. Đó là một cuộc chiến sinh tồn hay đây là một cuộc tàn sát? Dù còn nhiều câu hỏi trong đầu nhưng ngay lúc này, tôi biết rằng sinh vật trong cuộc chiến đó vẫn còn đang sống và có thể đang ở rất gần. Tôi liền đứng dậy, hai tay bám vào hai bên vai của ${nameCharacter[10]} từ đằng trước và xoay nhỏ hướng nhìn thẳng vào mặt tôi.`
+				content: `Khung cảnh trước mặt tôi là một bãi cỏ đỏ thẫm, điểm trên đó là các xác chết không toàn thây nằm la liệt mỗi nơi vài mảnh. Tuy đây không phải là lần đầu tôi nhìn thấy máu hay xác chết nhưng... thế này thật là ngoài sức tưởng tượng. Tôi cúi xuống dưới chân thì thấy một bãi nhầy cùng dấu vết để lại. Đây có lẽ là con ${nameMob[2]} bọn tôi đang đuổi đã bị một sinh vật không rõ dẫm bẹp. Chạm thử vào dấu chân mà con ma vật đó để lại, vẫn còn ấm, tức là nó chỉ vừa mới rời đi. Tôi tự hỏi cuộc chiến nào đã diễn ra ở đây trước khi chúng tôi đến. Đó là một cuộc chiến sinh tồn hay đây là một cuộc tàn sát? Dù còn nhiều câu hỏi trong đầu nhưng ngay lúc này, tôi biết rằng sinh vật trong cuộc chiến đó vẫn còn đang sống và có thể đang ở rất gần.`
+			},
+			{
+				class: `think`,
+				name: [ `${nameCharacter[9]}` ],
+				content: `Tôi liền đứng dậy, hai tay bám vào hai bên vai của ${nameCharacter[10]} từ đằng trước và xoay nhỏ hướng nhìn thẳng vào mặt tôi.`
 			},
 			{
 				class: `${nameCharacter[9]}`,
@@ -1896,7 +1906,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Tôi giật mình, hất bàn tay trên vai đi. Trong đầu tôi lúc này chỉ nghĩ đến việc bảo vệ ${nameCharacter[10]}. Tay phải tôi bám lấy vai phải của ${nameCharacter[10]} kéo nhỏ sát vào người tôi. ${nameCharacter[10]} có hơi chút bất ngờ sau hành động vừa rồi, tai và đuôi nhỏ dựng đứng hết cả lên. Tôi ôm chắc ${nameCharacter[10]} vào lòng và nhảy ngược hướng ra sau của nhỏ, còn tay trái thủ sẵn khiên che phía trước đề phòng có đòn tấn công ngay sau đấy.`
+				content: `Tôi giật mình, hất bàn tay trên vai đi. Trong đầu lúc này chỉ nghĩ đến việc bảo vệ ${nameCharacter[10]}, tay phải choàng lấy ${nameCharacter[10]} kéo nhỏ sát vào người tôi. ${nameCharacter[10]} có hơi chút bất ngờ sau hành động vừa rồi, tai và đuôi nhỏ dựng đứng hết cả lên. Tôi ôm chắc ${nameCharacter[10]} vào lòng và nhảy ngược hướng ra sau của nhỏ, còn tay trái thủ sẵn khiên che phía trước đề phòng có đòn tấn công ngay sau đấy.`
 			},
 			{
 				class: `${nameCharacter[9]}`,
@@ -1926,7 +1936,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `A! Tôi quên mất mình vẫn đang còn ôm ${nameCharacter[10]}. Tôi vội vàng bỏ tay ra khỏi nhỏ và né sang trái. Phải nói gì đây? Tự nhiên chẳng biết phải nói gì trong tình huống thế này...`
+				content: `A! Tôi quên mất mình vẫn đang còn ôm ${nameCharacter[10]}. Vội vàng bỏ tay ra khỏi nhỏ và né sang trái. Phải nói gì đây? Tự nhiên chẳng biết phải nói gì trong tình huống thế này...`
 			},
 			{
 				class: `${nameCharacter[10]}`,
@@ -1936,7 +1946,7 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Đôi tai của nhỏ lại thẳng đứng và đuôi thì đung đưa như bình thường. Chắc là nhỏ hết sợ thật rồi, tốt quá.`
+				content: `Đôi tai của nhỏ lại thẳng đứng và đuôi thì đung đưa như bình thường. Chắc là nhỏ hết sợ thật rồi, tốt quá. Nhưng mặt vẫn còn hơi ửng đỏ nhẹ...`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -2016,22 +2026,27 @@ const volume = [
 			{
 				class: `${nameCharacter[9]}`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `${nameCharacter[1]}! Mình phải ra cứu cậu ta ngay!${nameSkill[6]}.`
+				content: `${nameCharacter[1]}! Mình phải ra cứu cậu ta ngay!${nameSkill[6]}`
 			},
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `A... chạy đi mất rồi. ${nameCharacter[10]} theo cậu ta đi, khi ${nameCharacter[9]} đỡ đòn thì cậu sẽ tấn công con ma thú đó. ${nameCharacter[11]} và mình sẽ đưa cậu bạn kia rời khỏi trận chiến, rồi mình sẽ qua hỗ trợ sau.`
+				content: `Từ... chạy đi mất rồi. ${nameCharacter[10]} theo cậu ấy đi, khi ${nameCharacter[9]} đỡ đòn thì cậu sẽ tấn công con ma thú đó. ${nameCharacter[11]} và mình sẽ đưa cậu bạn kia rời khỏi trận chiến.`
 			},
 			{
 				class: `${nameCharacter[10]}`,
 				name: [ `${nameCharacter[10]}` ],
-				content: `Tuân lệnh nya.${nameSkill[6]}.`
+				content: `Tuân lệnh nya.`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Chết tiệt! Khiên của cậu bạn kia vỡ rồi. Chỉ còn một chút nữa là đến chỗ cậu bạn kia, cố lên... một chút nữa... trong tầm rồi!『Che chở』. Đây là kỹ năng đưa bản thân xuất hiện trước đòn tấn công vào mục tiêu được tôi lựa chọn để có thể đỡ đòn ngay lập tức.`
+				content: `Chết tiệt! Khiên của cậu bạn kia vỡ rồi. Chỉ còn một chút nữa là đến chỗ cậu bạn kia, cố lên... một chút nữa... trong tầm rồi!${nameSkill[15]}`
+			},
+			{
+				class: `think`,
+				name: [ `${nameCharacter[9]}` ],
+				content: `Đây là kỹ năng đưa bản thân xuất hiện trước đòn tấn công vào mục tiêu được tôi lựa chọn để có thể đỡ đòn ngay lập tức.`
 			},
 			{
 				class: `think`,
@@ -2041,12 +2056,12 @@ const volume = [
 			{
 				class: `unknown`,
 				name: [ `Cậu bạn` ],
-				content: `Cứ tưởng Ngân Lang cho mình tiêu đời rồi chứ. Phải rồi, về bộ lông các cậu không...`
+				content: `Cứ tưởng ${nameMob[3]} cho mình tiêu đời rồi chứ. Phải rồi, về bộ lông các cậu không...`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Cậu bạn này nói nhanh quá, chắc vẫn còn hơi sốc vì suýt nữa thì bị giết. Mà theo như lời của cậu bạn thì con ma thú kia là Ngân Lang.`
+				content: `Cậu bạn này nói nhanh quá, chắc vẫn còn hơi sốc vì suýt nữa thì bị giết. Mà theo như lời của cậu bạn thì con ma thú kia là ${nameMob[3]}.`
 			},
 			{
 				class: `${nameCharacter[1]}`,
@@ -2061,7 +2076,7 @@ const volume = [
 			{
 				class: `${nameCharacter[1]}`,
 				name: [ `${nameCharacter[1]}` ],
-				content: `Nghe mình này, giờ mình cần cậu lập tức về thị trấn báo cáo với hiệp hội ${nameJob[8]} ngay. Bọn mình sẽ ở đây cầm chân Ngân Lang, con này không dễ xơi đâu.`
+				content: `Nghe mình này, giờ mình cần cậu lập tức về thị trấn báo cáo với hiệp hội ${nameJob[8]} ngay. Bọn mình sẽ ở đây cầm chân ${nameMob[3]}, con này không dễ xơi đâu.`
 			},
 			{
 				class: `unknown`,
@@ -2071,12 +2086,17 @@ const volume = [
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Mà khoan... sao cậu ta biết tên tôi? Hay là ai đó vừa nãy nói tên tôi? Cậu bạn sau khi nói cảm ơn liền lập tức chạy về hướng ra khỏi khu rừng mà ${nameCharacter[1]} đã chỉ. Ngân Lang từ xa đang tấn công ${nameCharacter[10]}, thấy cậu ta chạy lẻ liền nhảy vòng qua người nhỏ và đuổi theo.`
+				content: `Mà khoan... sao cậu ta biết tên tôi? Hay là ai đó vừa nãy nói tên tôi? Cậu bạn sau khi nói cảm ơn liền lập tức chạy về hướng ra khỏi khu rừng mà ${nameCharacter[1]} đã chỉ. ${nameMob[3]} từ xa đang tấn công ${nameCharacter[10]}, thấy cậu ta chạy lẻ liền nhảy vòng qua người nhỏ và đuổi theo.`
 			},
 			{
 				class: `think`,
 				name: [ `${nameCharacter[9]}` ],
-				content: `Trước khi tôi định dùng『Che chở』thì một mũi tên băng từ đằng sau tôi bay đến giữa cậu bạn với con ma thú. Trên đường mũi tên bay, đằng sau của nó tỏa ra các bông tuyết rơi xuống mặt đất và từ đó đâm lên các cột băng nhọn. Một kỹ năng dựng tường để phòng thủ diện rộng. Nhưng nào ngờ, trước khi Ngân Lang bị chặn lại thì nó đã bật nhảy. Cú nhảy của nó có thể qua cả tường bằng? Không ổn rồi! Tôi phải chạy đến... ${nameCharacter[1]} ở mặt bên kia tường băng nhảy qua đúng thời điểm Ngân Lang đang ở trên không. Cậu dùng phong thuật để thổi bay con ma thú về mặt đất. Tuy là đòn phong đó không gây được sát thương bởi Ngân Lang trước khi đáp đất đã kịp thời phản xạ tránh được va chạm. Nhưng mục tiêu ban đầu đã thành công. Và như vậy, cậu bạn đó đã thoát khỏi cuộc chiến an toàn.`
+				content: `Trước khi tôi định dùng${nameSkill[15]}thì một mũi tên băng từ đằng sau tôi bay đến giữa cậu bạn với con ma thú. Trên đường mũi tên bay, đằng sau của nó tỏa ra các bông tuyết rơi xuống mặt đất và từ đó đâm lên các cột băng nhọn. Một kỹ năng dựng tường để phòng thủ diện rộng. Nhưng nào ngờ, trước khi ${nameMob[3]} bị chặn lại thì nó đã bật nhảy. Cú nhảy của nó có thể qua cả tường bằng? Không ổn rồi! Tôi phải chạy đến...`
+			},
+			{
+				class: `think`,
+				name: [ `${nameCharacter[9]}` ],
+				content: `${nameCharacter[1]} ở mặt bên kia tường băng nhảy qua đúng thời điểm ${nameMob[3]} đang ở trên không. Cậu dùng phong thuật để thổi bay con ma thú về mặt đất. Tuy là đòn phong đó không gây được sát thương bởi ${nameMob[3]} trước khi đáp đất đã kịp thời phản xạ tránh được va chạm. Nhưng mục tiêu ban đầu đã thành công. Và như vậy, cậu bạn đó đã thoát khỏi cuộc chiến an toàn.`
 			},
 			{
 				class: `think`,
