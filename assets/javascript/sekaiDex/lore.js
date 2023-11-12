@@ -117,45 +117,45 @@ const lore = [
 	},
 	{
 		id: 3,
-		title: `Hiệp hội Mạo hiểm giả`,
+		title: `Hiệp hội ${nameJob[8]}`,
 		section: [
 			{
 				main: `Chức năng`,
 				content: [
-					`Là nơi nhận các yêu cầu của cư dân và phân phát yêu cầu đó dưới dạng nhiệm vụ để ủy thác tới các Mạo hiểm giả`
+					`Là nơi nhận các yêu cầu của cư dân và phân phát yêu cầu đó dưới dạng nhiệm vụ để ủy thác tới các ${nameJob[8]}`
 				]
 			},
 			{
 				main: `Quy chế`,
 				content: [
 					`Nhân viên của hội sẽ tiếp nhận yêu cầu của cư dân, đánh giá, xem xét, thảo luận và có thể bị từ chối. Đối với lãnh chúa hay quý tộc giao yêu cầu thì bỏ qua các bước trên`,
-					`Mạo hiểm giả sẽ chọn các nhiệm vụ hay ủy thác phù hợp với hạng của mình rồi nhờ bên nhân viên hay lễ tân xác nhận. Đôi khi Mạo hiểm giả sẽ bị giao cho nhiệm vụ mà khó có thể từ chối`,
-					`Đăng ký làm Mạo hiểm giả không tính phí và sẽ nhận được Thẻ định danh`
+					`${nameJob[8]} sẽ chọn các nhiệm vụ hay ủy thác phù hợp với hạng của mình rồi nhờ bên nhân viên hay lễ tân xác nhận. Đôi khi ${nameJob[8]} sẽ bị giao cho nhiệm vụ mà khó có thể từ chối`,
+					`Đăng ký làm ${nameJob[8]} không tính phí và sẽ nhận được Thẻ định danh`
 				]
 			},
 			{
 				main: `Thẻ định danh`,
 				content: [
-					`Là ma cụ chứa một vài thông tin cá nhân của người dùng để hoạt động Mạo hiểm giả và định danh`,
-					`Hiển thị một vài thông tin như là tên, tuổi, giới tính, chủng loại, chức nghiệp, hạng mạo hiểm giả, tổ đội nếu có, thống kê nhiệm vụ nhận và sinh vật đã hạ. Riêng hạng mạo hiểm giả, tổ đội và thống kệ nhiệm vụ nhận có thể sửa đổi trên thẻ thông qua ma cụ đặc biệt của hiệp hội`,
+					`Là ma cụ chứa một vài thông tin cá nhân của người dùng để hoạt động ${nameJob[8]} và định danh`,
+					`Hiển thị một vài thông tin như là tên, tuổi, giới tính, chủng loại, chức nghiệp, hạng ${nameJob[8]}, tổ đội nếu có, thống kê nhiệm vụ nhận và sinh vật đã hạ. Riêng hạng ${nameJob[8]}, tổ đội và thống kệ nhiệm vụ nhận có thể sửa đổi trên thẻ thông qua ma cụ đặc biệt của hiệp hội`,
 					`Diện mạo của thẻ tự động thay đổi khi thăng hay tụt hạng, giống với nguyên liệu cùng tên hạng`,
 					`Để liên kết thông tin cá nhân tới thẻ, nhỏ máu vào sẽ tạo liên kết vĩnh cửu và thẻ không thể đổi chủ`,
 					`Sau khi liên kết, thẻ sẽ không dễ bị phá hủy trừ khi sử dụng ma cụ đặc biệt của hiệp hội`
 				]
 			},
 			{
-				main: `Hạng mạo hiểm giả`,
+				main: `Hạng ${nameJob[8]}`,
 				content: [
 					`Được chia làm sáu loại, thấp nhất là hạng Sắt, rồi tăng lên Đồng, Bạc, Vàng, Bạch kim và Mythril là hạng cao nhất`,
 					`Để có thể thăng hạng phải hoàn thành một trăm nhiệm vụ cùng bậc hoặc hơn bậc. Sau đó số lượng yêu cầu hoàn thành nhiệm vụ sẽ tăng thêm một trăm mỗi lần thăng hạng. Đồng thời cũng phải trải qua một bài kiểm tra đánh giá của hiệp hội để có thể chính thức thăng hạng. Đặc biệt, nếu có thành tích xuất sắc kèm tín cử từ hạng Bạch kim hoặc Mythril hoặc từ những người có quyền lực sẽ được xem xét thăng hạng, bỏ qua các điều kiện cần`,
 					`Sau một khoảng thời gian không làm nhiệm vụ sẽ bị tụt hạng, lần lượt từ hạng Sắt là một tháng, rồi hạng Đồng là ba tháng, sáu tháng, chín tháng và hạng Bạch kim là một năm. Riêng hạng Sắt nếu lâu không làm nhiệm vụ sẽ phải nộp phí để hoạt động lại, còn hạng Mythril sẽ không bị tụt`,
-					`Ở vài hạng nhất định sẽ có quyền lợi đặc biệt như hạng Bạch kim và Mythril sẽ được trả phí sửa chữa đồ cùng phí chữa trị sau khi hoàn thành nhiệm vụ. Còn riêng hạng Mythril sẽ có thêm quyền lợi là hưởng lương hưu mỗi tháng khi người đó chính thức nộp đơn nghỉ không hoạt động làm mạo hiểm giả nữa. Tất nhiên họ vẫn có thể rút đơn và hoạt động tiếp nhưng lương hưu sẽ tạm dừng, sau đó vẫn có thể nộp lại đơn nếu muốn. Đổi lại, họ sẽ sẽ bị buộc triệu tập làm nhiệm vụ khi có trong bất cứ hoàn cảnh nào`
+					`Ở vài hạng nhất định sẽ có quyền lợi đặc biệt như hạng Bạch kim và Mythril sẽ được trả phí sửa chữa đồ cùng phí chữa trị sau khi hoàn thành nhiệm vụ. Còn riêng hạng Mythril sẽ có thêm quyền lợi là hưởng lương hưu mỗi tháng khi người đó chính thức nộp đơn nghỉ không hoạt động làm ${nameJob[8]} nữa. Tất nhiên họ vẫn có thể rút đơn và hoạt động tiếp nhưng lương hưu sẽ tạm dừng, sau đó vẫn có thể nộp lại đơn nếu muốn. Đổi lại, họ sẽ sẽ bị buộc triệu tập làm nhiệm vụ khi có trong bất cứ hoàn cảnh nào`
 				]
 			},
 			{
 				main: `Nhiệm vụ`,
 				content: [
-					`Được phân loại sao cho phù hợp với thứ hạng của mạo hiểm giả`,
+					`Được phân loại sao cho phù hợp với thứ hạng của ${nameJob[8]}`,
 					`Có thể nhận nhiệm vụ cao hơn một hạng nhưng không thể nhận nhiệm vụ thấp hạng. Nhiệm vụ cao hạng hơn có thể làm nếu được mời tham gia vào tổ đội hạng đó nhưng phải cân nhắc nếu quá chênh lệch trình độ`,
 					`Sau khi hoàn thành nhiệm vụ sẽ được nhận tiền thưởng ghi trong yêu cầu`,
 					`Tùy vào nhiệm vụ sẽ có gia hạn thời gian hoàn thành hoặc không`,
@@ -166,7 +166,7 @@ const lore = [
 			{
 				main: `Tổ đội`,
 				content: [
-					`Hiệp hội sẽ dùng ma cụ đặc biệt để ghi tên tổ đội cũng như tên các thành viên vào thẻ`,
+					`Hiệp hội sẽ dùng ma cụ đặc biệt để ghi tên tổ đội cũng như tên các thành viên vào thẻ. Mục đích nhằm để quản lý và nắm bắt tình hình các ${nameJob[8]}`,
 					`Có thể tạo tạm thời hoặc lâu dài`,
 					`Không giới hạn số lượng thành viên trong tổ đội`,
 					`Số tiền thưởng tự bên tổ đội quyết định phân chia cho các thành viên`
@@ -177,10 +177,10 @@ const lore = [
 				content: [
 					`Mất thẻ phạt năm mươi xu bạc để làm lại`,
 					`Dùng thẻ của người khác phạt một xu vàng và một tuần đình chỉ`,
-					`Giả mạo thẻ sẽ bị cấm vĩnh viễn làm mạo hiểm giả. Hiệp hội sẽ điều tra`,
 					`Khiến cư dân bị liên lụy khi đang làm nhiệm vụ tùy vào mức độ phạt bằng xu vàng và một tháng đình chỉ. Hiệp hội sẽ điều tra`,
 					`Bỏ rơi người yêu cầu trong nhiệm vụ hộ tống hoặc bỏ rơi thành viên tổ đội trong tình thế nguy hiểm khi có thể cứu phạt mười xu vàng, tụt một hạng và ba tháng đình chỉ. Hiệp hội sẽ điều tra`,
-					`Sát hại cư dân vô tội sẽ bị cấm vĩnh viễn làm mạo hiểm giả và bị xử theo luật của đất nước`
+					`Giả mạo thẻ sẽ bị cấm vĩnh viễn làm ${nameJob[8]}. Hiệp hội sẽ điều tra`,
+					`Sát hại cư dân vô tội sẽ bị cấm vĩnh viễn làm ${nameJob[8]} và bị xử theo luật của đất nước`
 				]
 			}
 		]
@@ -245,9 +245,9 @@ const lore = [
 					`Để chứa vật phẩm cần phải chạm trực tiếp`,
 					`Để lấy vật phẩm chỉ cần nghĩ đến hoặc nhìn vào danh sách trong Bảng trạng thái`,
 					`Chỉ có duy nhất sinh vật sở hữu khả năng này mới truy cập được vào ${inventory} của chính bản thân`,
-					`Trạng thái của vật phẩm trong ${inventory} sẽ được giữ nguyên. Nghĩa là đồ ăn sẽ không bị thối rữa, vật phẩm nóng sẽ vẫn nóng, ..`,
+					`Trạng thái của vật phẩm trong ${inventory} sẽ được giữ nguyên. Nghĩa là đồ ăn sẽ không bị thối rữa, vật phẩm nóng sẽ vẫn nóng, ...`,
 					`Vì liên kết với linh hồn nên khi chủ mất mạng thì mọi vật phẩm trong ${inventory} sẽ đi cùng linh hồn của sinh vật đó`,
-					`Không thể chứa vật phẩm có tri thức`
+					`Không thể chứa vật phẩm có tri giác`
 				]
 			},
 			{

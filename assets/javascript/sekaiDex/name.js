@@ -1,3 +1,6 @@
+const statusBoard = 'Bảng trạng thái';
+const inventory = 'Kho chứa Không gian'
+
 const nameCharacter = [
 	'Hg',		// 0
 	'Shuuya',	// 1
@@ -16,11 +19,9 @@ const nameCharacter = [
 	'Palas',	// 14
 	'Maki',		// 15
 	'Itsuki',	// 16
-	'Katsumi'	// 17
+	'Katsumi',	// 17
+	'Viktor'	// 18
 ];
-
-const statusBoard = 'Bảng trạng thái';
-const inventory = 'Kho chứa Không gian'
 
 const nameJob = [
 	'Đầu bếp',		// 0
@@ -62,40 +63,43 @@ for(var i = 0; i < nameSkill.length; i++){
 const nameTitle = [
 	'Người chuyển sinh',	// 0
 	'Bộ đôi rắc rối',		// 1
-	'Cô bé lạnh lùng'		// 2
+	'Cô bé lạnh lùng',		// 2
+	'Đấng cứu thế'			// 3
 ];
 
 const nameItem = [
-	'Thuốc Hồi phục',
-	'Quả cầu ban Chức nghiệp',
-	'Bộ Nhà bếp',
-	'Quả cầu Trạng thái',
-	'Thẻ Mạo hiểm giả',
-	'Sổ tay Mạo hiểm giả',
-	'Ma thạch',
-	'Thảo dược Hồi phục',
-	'Thuốc Ma lực',
-	'Thuốc Thánh Hồi phục'
+	'Thuốc Hồi phục',				// 0
+	'Quả cầu ban Chức nghiệp',		// 1
+	'Bộ Nhà bếp',					// 2
+	'Quả cầu kiểm tra Trạng thái',	// 3
+	'Thẻ định danh',				// 4
+	`Sổ tay ${nameJob[8]}`,			// 5
+	'Ma thạch',						// 6
+	'Thảo dược Hồi phục',			// 7
+	'Thuốc Ma lực',					// 8
+	'Thuốc Thánh Hồi phục'			// 9
 ];
 
 const nameFood = [
-	'Bò hầm',
-	'',
-	'Bánh mì kẹp Trứng'
+	'Bắp cải trộn Ngô',	// 0
+	'Bò hầm',			// 1
+	'Bánh mì kẹp Trứng'	// 2
 ];
 
 const nameLocation = [
 	'『Dainisekai』',			// 0
 	'Văn phòng Re:Life',	// 1
 	'Dawn Horizon',			// 2
-	'Over Horizon'			// 3
+	'Over Horizon',			// 3
+	'Trái đất'				// 4
 ];
 
 const nameParty = [
-	'Log Horizon'
+	'Log Horizon'	// 0
 ];
 
 const nameMob = [
 	'Cừu sét',	// 0
-	'Thỏ sừng'	// 1
+	'Thỏ sừng',	// 1
+	'Slime'		// 2
 ];
