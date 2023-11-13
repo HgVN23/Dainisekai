@@ -18,7 +18,7 @@ const type = [
 	'Nội tại'		// 1
 ];
 
-const character = [
+const characterInfo = [
 	{
 		id: 0,
 		title: nameCharacter[1],

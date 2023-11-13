@@ -1,27 +1,96 @@
 const statusBoard = 'Bảng trạng thái';
 const inventory = 'Kho chứa Không gian'
 
-const nameCharacter = [
-	'Hg',		// 0
-	'Shuuya',	// 1
-	'Tamada',	// 2
-	'Sara',		// 3
-	'Haruka',	// 4
-	'Kalisa',	// 5
-	'Tamotsu',	// 6
-	'Konishi',	// 7
-	'Iwao',		// 8
-	'Kowashi',	// 9
-	'Asahi',	// 10
-	'Hyouka',	// 11
-	'Fig',		// 12
-	'Koyama',	// 13
-	'Palas',	// 14
-	'Maki',		// 15
-	'Itsuki',	// 16
-	'Katsumi',	// 17
-	'Viktor'	// 18
+const colorOther = [
+	'36363a',
+	'000000',
+	'deb887',
+	'c0c0c0'
 ];
+const listCharacter = [
+	{	// 0
+		name: 'Hg',
+		color: 'ffff66'
+	},
+	{	// 1
+		name: 'Shuuya',
+		color: '4169e1'
+	},
+	{	// 2
+		name: 'Tamada',
+		color: 'ffffff'
+	},
+	{	// 3
+		name: 'Sara',
+		color: '4169e1'
+	},
+	{	// 4
+		name: 'Haruka',
+		color: '4169e1'
+	},
+	{	// 5
+		name: 'Kalisa',
+		color: 'ffff66'
+	},
+	{	// 6
+		name: 'Tamotsu',
+		color: ''
+	},
+	{	// 7
+		name: 'Konishi',
+		color: ''
+	},
+	{	// 8
+		name: 'Iwao',
+		color: 'ffff66'
+	},
+	{	// 9
+		name: 'Kowashi',
+		color: 'ff2727'
+	},
+	{	// 10
+		name: 'Asahi',
+		color: '613bad'
+	},
+	{	// 11
+		name: 'Hyouka',
+		color: '87cefa'
+	},
+	{	// 12
+		name: 'Fig',
+		color: 'f8ff30'
+	},
+	{	// 13
+		name: 'Koyama',
+		color: ''
+	},
+	{	// 14
+		name: 'Palas',
+		color: 'ffff66'
+	},
+	{	// 15
+		name: 'Maki',
+		color: 'dbff4a'
+	},
+	{	// 16
+		name: 'Itsuki',
+		color: '138500'
+	},
+	{	// 17
+		name: 'Katsumi',
+		color: '5c4300'
+	},
+	{	// 18
+		name: 'Viktor',
+		color: ''
+	}
+];
+let nameCharacter = [];
+let colorCharacter = [];
+listCharacter.forEach(element => {
+	nameCharacter.push(element.name);
+	colorCharacter.push(element.color);
+});
 
 const nameJob = [
 	'Đầu bếp',		// 0
@@ -55,9 +124,9 @@ let nameSkill = [
 	'Che chở',				// 15
 	'Tái sinh'				// 16
 ];
-for(var i = 0; i < nameSkill.length; i++){
-	nameSkill[i] = `『${nameSkill[i]}』`;
-}
+nameSkill = nameSkill.map(element => {
+	return `『${element}』`;
+});
 
 const nameTitle = [
 	'Người chuyển sinh',	// 0

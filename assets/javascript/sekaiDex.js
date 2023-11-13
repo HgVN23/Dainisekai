@@ -19,7 +19,7 @@ function loadDex() {
 					<h2>Thông tin</h2>
 					<div>
 						<h3 class="dropdown">Dàn nhân vật</h3>
-						<div class="dropdownHide">${addTitle(character, 'character')}</div>
+						<div class="dropdownHide">${addTitle(characterInfo, 'character')}</div>
 					</div>
 				</div>
 			</div>
@@ -90,7 +90,7 @@ function addLore(id) {
 	return format;
 }
 function addCharacter(id) {
-	var temp = character[parseInt(id.slice(10))];
+	var temp = characterInfo[parseInt(id.slice(10))];
 
 	const format = `
 		<section class="main">

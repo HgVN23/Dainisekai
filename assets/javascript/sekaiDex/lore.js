@@ -48,14 +48,14 @@ const lore = [
 				main: `Cấu tạo`,
 				content: [
 					`Trong đại vũ trụ sẽ có nhiều chiều không gian khác nhau và chiều không gian chính được gọi là Khởi nguyên, nơi phần lớn người chuyển sinh đến`,
-					`Tại Khởi nguyên, hành tinh chính mang tên Trái đất nằm trong hệ hành tinh Trung tâm gồm một Mặt trời, một Mặt trăng cùng các thiên thể khác. Và thời điểm hiện tại chưa sinh vật nào ở Trái đất có thể khai phá vũ trụ`,
-					`Ngoài Trái đất, có thể có nhiều thiên thể khác có sự sống nằm ở nhiều hệ sao khác nhau, các thiên thể này có thể có hoặc không có người chuyển sinh`
+					`Tại Khởi nguyên, hành tinh chính mang tên ${nameLocation[4]} nằm trong hệ hành tinh Trung tâm gồm một Mặt trời, một Mặt trăng cùng các thiên thể khác. Và thời điểm hiện tại chưa sinh vật nào ở ${nameLocation[4]} có thể khai phá vũ trụ`,
+					`Ngoài ${nameLocation[4]}, có thể có nhiều thiên thể khác có sự sống nằm ở nhiều hệ sao khác nhau, các thiên thể này có thể có hoặc không có người chuyển sinh`
 				]
 			},
 			{
-				main: `Trái đất`,
+				main: `${nameLocation[4]}`,
 				content: [
-					`Thời điểm hiện tại chưa sinh vật nào có thể đi được một vòng Trái đất nên vẫn còn xung đột giữa các giả thuyết khác nhau về hình dạng Trái đất. Một trong số đó là mặt phẳng trải dài vô tận tám hướng`,
+					`Thời điểm hiện tại chưa sinh vật nào có thể đi được một vòng ${nameLocation[4]} nên vẫn còn xung đột giữa các giả thuyết khác nhau về hình dạng ${nameLocation[4]}. Một trong số đó là mặt phẳng trải dài vô tận tám hướng`,
 					`Địa hình đa dạng gồm các lục địa và đại dương xếp rải rác với các mảng kiến tạo định hình vị trí. Và mỗi nơi có thể tồn tại các “quy luật” riêng khác biệt với phần còn lại`,
 					`Đa chủng loại sinh vật tồn tại trên mặt đất, trên trời, dưới biển, ... Tạo nên đa nền văn minh, văn hóa, lịch sử, ...`,
 					// `Bí cảnh, hầm ngục quái, dị điểm thời không, ... là các tên gọi cho các công trình, tàn tích, di tích, ... đôi khi xuất hiện ở khắp nơi mà không có một quy luật cụ thể. Phần lớn đều do “tự nhiên” hình thành, một phần nhỏ là nhân tạo`,
