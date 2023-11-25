@@ -97,12 +97,12 @@ header {
 	cursor: pointer;
 }
 .button:hover,
-p span:hover {
+.toChapter:hover {
 	text-decoration: underline;
 	color: var(--hover-color);
 }
 .button:active,
-p span:active {
+.toChapter:active {
 	color: yellow;
 }
 a {
@@ -114,6 +114,7 @@ b {
 
 
 
+/*Slider____________________________________*/
 .slider {
 	background: rgba(38, 38, 38, .80);
 	width: 100%;
@@ -227,8 +228,7 @@ b {
 
 
 
-
-
+/*Story___________________________*/
 h1,
 h2 {
 	text-align: center;
@@ -336,6 +336,7 @@ h3 {
 }
 .dialogue {
 	gap: 1rem;
+	scroll-margin-top: 4.5rem;
 }
 .chapter:hover,
 .dialogue:hover,
@@ -359,7 +360,7 @@ b,
 i {
 	white-space: pre-wrap;
 	user-select: text;
-	line-height: 1.4rem;
+	line-height: 1.6rem;
 }
 .info p {
 	border-left: 2px solid yellow;
@@ -393,6 +394,91 @@ i {
 	color: grey;
 	cursor: pointer;
 }
+
+
+
+/*SekaiDex___________________________________________*/
+.sekaiDex {
+	display: flex;
+	justify-content: space-around;
+	gap: 1rem;
+}
+.sekaiDexCol,
+.sekaiDexCol .dropdownShow {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 1rem;
+}
+.dropdown {
+	cursor: pointer;
+	text-align: left;
+}
+.dropdown::before {
+	content: '▽ ';
+	color: red;
+}
+.dropdownActive::before {
+	content: '△ ';
+	color: lime;
+}
+.dropdownHide {
+	display: none;
+}
+.dropdownShow {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+h3 {
+	width: fit-content;
+	padding-bottom: .3rem;
+	margin-bottom: .5rem;
+	border-bottom: .05rem solid white;
+}
+.group {
+	width: calc(100% / 3.24);
+	height: fit-content;
+	background-color: rgba(255, 255, 255, .05);
+	box-shadow: 0 0 .5rem black;
+	border-radius: .5rem;
+	padding: .3rem;
+}
+.max {
+	width: 100%;
+}
+.dot {
+	margin: .3rem 0 0 .5rem;
+	display: flex;
+}
+.dot::before {
+	content: '•';
+	margin-right: .5rem;
+}
+.note p {
+	user-select: none;
+	width: auto;
+}
+.note::before {
+	color: yellow;
+}
+.group p {
+	text-align: left;
+}
+.toChapter {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.hr {
+	border: var(--border);
+	border-width: 1px;
+	border-radius: 2rem;
+	margin: .3rem 0;
+}
+
+
+
+/*Urzog___________________________________________*/
 .gothic,
 .explain {
 	font-family: gothic;
@@ -443,78 +529,3 @@ i {
 	z-index: 0;
 	bottom: 4rem;
 }
-
-
-/*SekaiDex___________________________________________*/
-.sekaiDex {
-	display: flex;
-	justify-content: space-around;
-	gap: 1rem;
-}
-.sekaiDexCol,
-.sekaiDexCol .dropdownShow {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	gap: 1rem;
-}
-.dropdown {
-	cursor: pointer;
-}
-.dropdown::before {
-	content: '▽ ';
-	color: red;
-}
-.dropdownActive::before {
-	content: '△ ';
-	color: lime;
-}
-.dropdownHide {
-	display: none;
-}
-.dropdownHide.dropdownShow {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 1rem;
-}
-h3 {
-	width: fit-content;
-	padding-bottom: .3rem;
-	margin-bottom: .5rem;
-	border-bottom: .05rem solid white;
-}
-.group {
-	width: calc(100% / 3.24);
-	height: fit-content;
-	background-color: rgba(255, 255, 255, .05);
-	box-shadow: 0 0 .5rem black;
-	border-radius: .5rem;
-	padding: .3rem;
-}
-.dot {
-	margin: .3rem 0 0 .5rem;
-	display: flex;
-}
-.dot::before {
-	content: '•';
-	margin-right: .5rem;
-}
-.note p {
-	user-select: none;
-}
-.note::before {
-	color: yellow;
-}
-.group p {
-	text-align: left;
-}
-p span {
-	text-decoration: underline;
-	cursor: pointer;
-}
-/*.now::after {
-	content: ' (Hiện tại)';
-	font-size: .7rem;
-	color: yellow;
-	vertical-align: text-top;
-}*/

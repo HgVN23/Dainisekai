@@ -377,7 +377,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Quay lại lúc sau khi “${nameTitle[1]}” chạy vào rừng và ${nameCharacter[11]} bảo tôi phải đuổi theo họ ngay lập tức.`
+				content: `Quay lại lúc sau khi “${nameTitle[2]}” chạy vào rừng và ${nameCharacter[11]} bảo tôi phải đuổi theo họ ngay lập tức.`
 			},
 			{
 				color: colorCharacter[1],
@@ -1409,7 +1409,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Có vẻ anh ${nameCharacter[16]} cũng có sở thích giống tôi, thi thoảng tôi cũng hay trêu như vậy với “${nameTitle[1]}”. Nhưng bị trêu ngược lại thì có phần ngại thật. Hành động của ${nameCharacter[11]} hơi bất cẩn... không, tôi cũng có phần hơi tự nhiên khi cứ thế mà trôi theo. Tôi quay ra liếc nhìn ${nameCharacter[11]} thì mặt nhỏ vẫn “lạnh” như bình thường, tất nhiên là ngoại trừ đôi tai lá trúc đỏ chót nổi bật trên nền tóc trắng của nhỏ.`
+				content: `Có vẻ anh ${nameCharacter[16]} cũng có sở thích giống tôi, thi thoảng tôi cũng hay trêu như vậy với “${nameTitle[2]}”. Nhưng bị trêu ngược lại thì có phần ngại thật. Hành động của ${nameCharacter[11]} hơi bất cẩn... không, tôi cũng có phần hơi tự nhiên khi cứ thế mà trôi theo. Tôi quay ra liếc nhìn ${nameCharacter[11]} thì mặt nhỏ vẫn “lạnh” như bình thường, tất nhiên là ngoại trừ đôi tai lá trúc đỏ chót nổi bật trên nền tóc trắng của nhỏ.`
 			},
 			{
 				color: colorCharacter[16],
@@ -1730,7 +1730,7 @@ const volume = [
 			{
 				color: colorCharacter[10],
 				name: [ `${nameCharacter[10]}` ],
-				content: `Cậu không phải “tấm khiên” của mình, đồ ngốc...`
+				content: `Cậu không phải “tấm khiên” của mình... không phải...`
 			},
 			{
 				color: colorOther[0],
@@ -1825,7 +1825,7 @@ const volume = [
 		dialogue: [
 			{
 				color: colorOther[0],
-				name: [ `???` ],
+				name: [ `Cậu bé` ],
 				content: `Khiên và dao găm, tôi chỉ cần vậy là đủ nhưng... tại sao... Tôi chỉ vào rừng để tìm chút nguyên liệu thôi mà. Giờ thì hiểu tại sao cha bảo nên ủy thác cho các ${nameJob[8]} rồi. Cũng may “thứ đó” đang bận ăn mấy con ma vật khác, tôi phải rời khỏi rừng ngay mới được.`
 			},
 			{
@@ -1981,7 +1981,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[9]}` ],
-				content: `${nameCharacter[1]} đến lúc phải đưa ra quyết định rồi, rời đi hay là đến nơi mà ${nameCharacter[10]} chỉ. Mà bọn tôi cũng đã biết câu trả lời rồi, là bạn từ bao năm nên cũng không còn lạ gì lựa chọn của cậu, trưởng nhóm. À không, gọi là trưởng tổ đội thì mới đúng chứ.`
+				content: `${nameCharacter[1]} đến lúc phải đưa ra quyết định rồi, rời đi hay là đến nơi mà ${nameCharacter[10]} chỉ. Mà bọn tôi cũng đã biết câu trả lời rồi, là bạn từ bao năm nên cũng không còn lạ gì lựa chọn của cậu, trưởng nhóm.`
 			},
 			{
 				color: colorCharacter[1],
@@ -1991,7 +1991,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[9]}` ],
-				content: `${nameCharacter[1]} thích khiến mọi người đi từ bất ngờ này đến bất ngờ khác thật sự. Nghe câu đầu cứ ngỡ là ra khỏi rừng chứ. Mà đương nhiên không có một ai ý kiến thêm gì về quyết định cũng như đội hình cả. Thế rồi tổ đội bắt đầu di chuyển vào sâu hơn trong rừng.`
+				content: `Nghe câu đầu cứ ngỡ là ra khỏi rừng chứ. ${nameCharacter[1]} thích khiến mọi người đi từ bất ngờ này đến bất ngờ khác thật. Mà đương nhiên không có một ai ý kiến thêm gì về quyết định cũng như đội hình cả. Thế rồi tổ đội bắt đầu di chuyển vào sâu hơn trong rừng.`
 			},
 			{
 				color: colorOther[0],
@@ -2152,7 +2152,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Thế là “${nameTitle[1]}” đã chạy vút đi mà không nghe thấy tôi nói gì. Bộ đôi đó đúng là nhanh nhảu thật. Dù sao thì tôi cũng không hẳn là trưởng tổ đội, bọn tôi chưa bàn về vấn đề này. Chẳng qua tôi có cảm giác như vậy do đứng ra làm một số việc như là đăng ký và đặt tên tổ đội, lập ra kế hoạch thời gian làm nhiệm vụ, mang một số đổ tiếp tế như là đồ ăn nước uống và một vài vật dụng... Ủa khoan? Đó có phải là những thứ mà trường tổ đội hay làm không ta? Sao cảm giác nó sai sai thế nào ấy nhỉ?`
+				content: `Thế là “${nameTitle[2]}” đã chạy vút đi mà không nghe thấy tôi nói gì. Bộ đôi đó đúng là nhanh nhảu thật. Dù sao thì tôi cũng không hẳn là trưởng tổ đội, bọn tôi chưa bàn về vấn đề này. Chẳng qua tôi có cảm giác như vậy do đứng ra làm một số việc như là đăng ký và đặt tên tổ đội, lập ra kế hoạch thời gian làm nhiệm vụ, mang một số đổ tiếp tế như là đồ ăn nước uống và một vài vật dụng... Ủa khoan? Đó có phải là những thứ mà trường tổ đội hay làm không ta? Sao cảm giác nó sai sai thế nào ấy nhỉ?`
 			},
 			{
 				color: colorOther[0],
@@ -2197,7 +2197,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Vậy ${nameCharacter[11]} hiểu tôi đến vậy cơ á? Còn tôi... tôi vẫn chưa thể thấu hiểu nhiều về ${nameCharacter[11]}, có lẽ cả “${nameTitle[1]}” mà thậm chí là cả bản thân... Tôi sau khi nghe vậy nhịp tim dường như đã lệch một nhịp. Phải chăng đây là cảm giác bị người khác nắm thóp... Hay là cảm xúc... chắc không phải đâu.`
+				content: `Vậy ${nameCharacter[11]} hiểu tôi đến vậy cơ á? Còn tôi... tôi vẫn chưa thể thấu hiểu nhiều về ${nameCharacter[11]}, có lẽ cả “${nameTitle[2]}” mà thậm chí là cả bản thân... Tôi sau khi nghe vậy nhịp tim dường như đã lệch một nhịp. Phải chăng đây là cảm giác bị người khác nắm thóp... Hay là cảm xúc... chắc không phải đâu.`
 			},
 			{
 				color: colorCharacter[11],
@@ -2302,7 +2302,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `${nameCharacter[9]} đuổi theo bọn ${nameMob[2]} đang chạy trốn thì... Phập! Phập! Phập! Ba phát mũi tên từ đâu bay tới găm thẳng vào đám ${nameMob[2]} và kết liễu chúng. Mũi tên vừa găm vào thì ngay lập tức đóng băng toàn cơ thể của ${nameMob[2]}. Mũi tên băng đó được bắn ra từ kỹ năng${nameSkill[13]}của ${nameCharacter[11]}. Tôi và ${nameCharacter[11]} đã dọn dẹp xong và đến nơi bộ đôi đang săn ${nameMob[2]}.`
+				content: `${nameCharacter[9]} đuổi theo bọn ${nameMob[2]} đang chạy trốn thì... Phập! Phập! Phập! Ba phát mũi tên từ đâu bay tới găm thẳng vào đám ${nameMob[2]} và kết liễu chúng. Mũi tên vừa găm vào thì ngay lập tức đóng băng toàn cơ thể của ${nameMob[2]}. Những mũi tên đó là do kỹ năng${nameSkill[13]}của ${nameCharacter[11]}. Tôi và ${nameCharacter[11]} đã dọn dẹp xong và đến nơi bộ đôi đang săn ${nameMob[2]}.`
 			},
 			{
 				color: colorCharacter[11],
@@ -2859,7 +2859,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Có vẻ ${nameCharacter[10]} đã quen với việc ${nameCharacter[9]} xoa đầu rồi nên có thể coi đây là việc thường ngày. Dù sao thì thấy “${nameTitle[1]}” thân nhau cũng tốt. Tôi cũng muốn xem tiếp khung cảnh này lắm nhưng mà nhiệm vụ cần hoàn thành.`
+				content: `Có vẻ ${nameCharacter[10]} đã quen với việc ${nameCharacter[9]} xoa đầu rồi nên có thể coi đây là việc thường ngày. Dù sao thì thấy “${nameTitle[2]}” thân nhau cũng tốt. Tôi cũng muốn xem tiếp khung cảnh này lắm nhưng mà nhiệm vụ cần hoàn thành.`
 			},
 			{
 				color: colorCharacter[1],
@@ -2969,7 +2969,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `${inventory} không giới hạn là điều ước thứ hai của tôi. Để chứa vật phẩm cần phải chạm trực tiếp và để lấy vật phẩm chỉ cần nghĩ đến. Vật phẩm vào hay ra không gian sẽ bị nén lại thành quả cầu năng lượng phát sáng nhỏ vừa lòng bàn tay. Trạng thái của vật phẩm trong đây sẽ được giữ nguyên và không thể chứa vật phẩm có tri giác. Số lượng vật phẩm chứa được trong không gian được giới hạn bằng tổng trọng lượng các vật nhưng do điều ước nên cái này tôi không cần bận tâm đến.`
+				content: `${inventory} không giới hạn là điều ước thứ ba, cũng như cuối cùng của tôi. Để chứa vật phẩm cần phải chạm trực tiếp và để lấy ra thì chỉ cần nghĩ đến. Vật phẩm vào hay ra không gian sẽ bị nén lại thành quả cầu năng lượng phát sáng nhỏ vừa lòng bàn tay. Trạng thái của vật phẩm trong đây sẽ được giữ nguyên và không thể chứa vật phẩm có tri giác. Số lượng vật phẩm chứa được trong không gian được giới hạn bằng tổng trọng lượng các vật nhưng do điều ước nên cái này tôi không cần bận tâm đến.`
 			},
 			{
 				color: colorOther[0],
@@ -3085,7 +3085,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Đám bạn đứng đợi tôi trước cửa nhà và như mọi khi, “${nameTitle[1]}” vẫn to mồm như thường.`
+				content: `Đám bạn đứng đợi tôi trước cửa nhà và như mọi khi, “${nameTitle[2]}” vẫn to mồm như thường.`
 			},
 			{
 				color: colorCharacter[1],
@@ -3140,7 +3140,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `${nameItem[2]} của ${nameJob[0]} được tôi tùy chỉnh bản thân trước khi chuyển sinh. Cho phép tôi tốn ma lực để lấy bất cứ dụng cụ nhà bếp tồn tại trong${nameLocation[0]}.`
+				content: `${nameItem[2]} của ${nameJob[0]} là điều ước thứ hai, dạng khối lập phương bạc đầy lòng bàn tay. Cho phép tôi dùng ma lực để lấy bất cứ dụng cụ nhà bếp từng thấy trong${nameLocation[0]}`
 			},
 			{
 				color: colorOther[0],
@@ -4492,12 +4492,12 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Rất sẵn lòng.『Phản đòn』.`
+				content: `Rất sẵn lòng.${nameSkill[10]}`
 			},
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Khi sử dụng kỹ năng『Phản đòn』phải canh đúng thời điểm để hủy thì mới có hiệu quả. Nếu thành công thì địch sẽ bị choáng trong khoảng thời gian ngắn. Tôi đã có được kỹ năng này khi đấu với cha nhưng đây là lần đầu tiên sử dụng. Và may thay, tôi thành công và ${nameCharacter[12]} đã bị choáng. Ngay lập tức tôi liền đưa dao chém vào cổ của ${nameCharacter[12]} và kết liễu cậu. Tất nhiên chỉ mất phần giáp ma lực thôi, ${nameCharacter[12]} vẫn ổn ngoại trừ cậu đang rất là cay cú. Giáp ma lực của tôi cũng hết tác dụng ngay sau đó.`
+				content: `Khi sử dụng kỹ năng${nameSkill[10]}phải canh đúng thời điểm để hủy thì mới có hiệu quả. Nếu thành công thì địch sẽ bị choáng trong khoảng thời gian ngắn. Tôi đã có được kỹ năng này khi đấu với cha nhưng đây là lần đầu tiên sử dụng. Và may thay, tôi thành công và ${nameCharacter[12]} đã bị choáng. Ngay lập tức tôi liền đưa dao chém vào cổ của ${nameCharacter[12]} và kết liễu cậu. Tất nhiên chỉ mất phần giáp ma lực thôi, ${nameCharacter[12]} vẫn ổn ngoại trừ cậu đang rất là cay cú. Giáp ma lực của tôi cũng hết tác dụng ngay sau đó.`
 			},
 			{
 				color: colorCharacter[1],
@@ -4517,7 +4517,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `${nameCharacter[12]} cầm cây kiếm lên, dùng${nameSkill[6]}để nhanh chóng lao tới đâm sau lưng tôi. Chuyện xảy ra quá nhanh, mọi người thấy nhưng không ai kịp phản ứng để cảnh báo tôi. Và rồi trong chớp nhoáng... tôi đã... né được bằng cách nhảy ngược lên không trung. Thực ra, trước khi ${nameCharacter[12]} đâm tôi thì đã có một cơn gió thổi qua chứa đầy sát khí, nên là tôi đoán ${nameCharacter[12]} chuẩn bị đâm phía sau. Tôi vờ như không biết gì và dùng${nameSkill[6]}, rồi nhảy bật ngược đồng thời dùng${nameSkill[4]}cắt lưỡi kiếm của ${nameCharacter[12]} ra làm nhiều mảnh, đáp đất an toàn.`
+				content: `${nameCharacter[12]} cầm cây kiếm lên, dùng${nameSkill[6]}để nhanh chóng lao tới đâm sau lưng tôi. Chuyện xảy ra quá nhanh, mọi người thấy nhưng không ai kịp phản ứng để cảnh báo tôi. Và rồi trong chớp nhoáng... tôi đã... né được bằng cách nhảy ngược lên không trung. Thực ra, trước khi ${nameCharacter[12]} đâm tôi thì đã có một cơn gió thổi qua chứa đầy sát khí, nên là tôi đoán ${nameCharacter[12]} chuẩn bị đâm phía sau. Tôi vờ như không biết gì và dùng${nameSkill[6]}học được từ cha, nhảy bật ngược đồng thời dùng${nameSkill[4]}cắt lưỡi kiếm của ${nameCharacter[12]} ra làm nhiều mảnh, đáp đất an toàn.`
 			},
 			{
 				color: colorCharacter[1],
@@ -5755,7 +5755,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Cô bé vừa dứt câu thì đứng dậy đi chỗ khác. Tôi đã khá sốc, còn cơ thể thì bất động không hiểu mình vừa làm gì sai, thật là một ${nameTitle[2]}. Một lúc sau ${nameCharacter[9]} và ${nameCharacter[10]} bước ra từ nhà.`
+				content: `Cô bé vừa dứt câu thì đứng dậy đi chỗ khác. Tôi đã khá sốc, còn cơ thể thì bất động không hiểu mình vừa làm gì sai, thật là một cô bé lạnh lùng. Một lúc sau ${nameCharacter[9]} và ${nameCharacter[10]} bước ra từ nhà.`
 			},
 			{
 				color: colorCharacter[9],
@@ -6016,7 +6016,7 @@ const volume = [
 			{
 				color: colorCharacter[9],
 				name: [ `${nameCharacter[9]}` ],
-				content: `Đúng là thế nhỉ? Nếu cậu biết bơi thì mình sẽ bớt lo lắng cho cậu hơn. Nhưng mà chúng ta là “${nameTitle[1]}”, đôi khi mình cũng gây rắc rối cho cậu nữa mà. Dù sao thì mình sẽ luôn bên cạnh cậu khi gặp rắc rối. Và ngược lại cậu cũng vậy nhỉ?`
+				content: `Đúng là thế nhỉ? Nếu cậu biết bơi thì mình sẽ bớt lo lắng cho cậu hơn. Nhưng mà chúng ta là “${nameTitle[2]}”, đôi khi mình cũng gây rắc rối cho cậu nữa mà. Dù sao thì mình sẽ luôn bên cạnh cậu khi gặp rắc rối. Và ngược lại cậu cũng vậy nhỉ?`
 			},
 			{
 				color: colorOther[0],
@@ -6182,7 +6182,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Ý cha là “${nameTitle[1]}” đó hả? Con tin rằng họ vẫn đang ngủ.`
+				content: `Ý cha là “${nameTitle[2]}” đó hả? Con tin rằng họ vẫn đang ngủ.`
 			},
 			{
 				color: colorCharacter[1],
@@ -6302,7 +6302,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `May quá không ai phát hiện ra tôi vừa dùng kỹ năng xong. Tim tôi vẫn còn đang đập rất nhanh nữa chứ. Mấy cậu này từ hôm tôi kể chuyện luyện tập cùng cha thì mắt họ sáng lên muốn luyện cùng. Thì ra “${nameTitle[1]}” cũng muốn làm ${nameJob[8]} cùng tôi. Rồi cha bước ra từ trong nhà.`
+				content: `May quá không ai phát hiện ra tôi vừa dùng kỹ năng xong. Tim tôi vẫn còn đang đập rất nhanh nữa chứ. Mấy cậu này từ hôm tôi kể chuyện luyện tập cùng cha thì mắt họ sáng lên muốn luyện cùng. Thì ra “${nameTitle[2]}” cũng muốn làm ${nameJob[8]} cùng tôi. Rồi cha bước ra từ trong nhà.`
 			},
 			{
 				color: colorCharacter[1],
@@ -6332,7 +6332,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Xét khả năng chiến đấu của “${nameTitle[1]}” thì tôi vẫn hơn do đã được huấn luyện trước. Nhưng khi nói đến phối hợp thì chắc không ai bằng hai người họ được. ${nameCharacter[9]} thường sử dụng khiên, chuyên làm người đỡ đòn bởi sức khỏe của cậu. Còn ${nameCharacter[10]} thì dùng kiếm nhưng vì là miêu nhân nên tốc độ phản xạ và sự dẻo dai làm cho cô có một lợi thế lớn. Tất nhiên cả khiên và kiếm hiện tại đều là từ gỗ bởi đây chỉ là luyện tập.`
+				content: `Xét khả năng chiến đấu của “${nameTitle[2]}” thì tôi vẫn hơn do đã được huấn luyện trước. Nhưng khi nói đến phối hợp thì chắc không ai bằng hai người họ được. ${nameCharacter[9]} thường sử dụng khiên, chuyên làm người đỡ đòn bởi sức khỏe của cậu. Còn ${nameCharacter[10]} thì dùng kiếm nhưng vì là miêu nhân nên tốc độ phản xạ và sự dẻo dai làm cho cô có một lợi thế lớn. Tất nhiên cả khiên và kiếm hiện tại đều là từ gỗ bởi đây chỉ là luyện tập.`
 			},
 			{
 				color: colorOther[0],
@@ -6693,7 +6693,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Sau khi xem lại một số thông tin của bản thân thì tôi bắt đầu luyện tập sử dụng các kỹ năng vào mỗi tối như thường lệ. Danh hiệu Lục phong Chúc phúc là điều ước đầu tiên của tôi, cho phép triển khai phong thuật nhanh và tiêu thụ ít ma lực hơn. Hồi đầu khi sử dụng phong thuật thì tôi đã làm rối tung hết cả căn phòng lên, tất nhiên là không bị phát hiện nhưng đã bị cha mắng cho một trận vì căn phòng bừa bộn. Dần dần tôi đã kiểm soát được và có được kỹ năng${nameSkill[1]}là thiên phú chuyên nguyên tố phong. Đây là ma pháp cho phép tôi điều khiển gió theo ý mình muốn ở mức cơ bản. Mục đích của phong thuật này để tôi có thể định hình gió ở một dạng nhất định, nói dễ hiểu hơn thì phát triển ma pháp mới từ sự định hình đó. Và hiện tại tôi đã phát triển được thêm hai phong thuật mới là${nameSkill[2]}và${nameSkill[3]}.`
+				content: `Sau khi xem lại một số thông tin của bản thân thì tôi bắt đầu luyện tập sử dụng các kỹ năng vào mỗi tối như thường lệ. Danh hiệu ${nameTitle[1]} là điều ước đầu tiên của tôi, cho phép triển khai phong thuật nhanh và tiêu thụ ít ma lực hơn. Hồi đầu khi sử dụng phong thuật thì tôi đã làm rối tung hết cả căn phòng lên, tất nhiên là không bị phát hiện nhưng đã bị cha mắng cho một trận vì căn phòng bừa bộn. Dần dần tôi đã kiểm soát được và có được kỹ năng${nameSkill[1]}là thiên phú chuyên nguyên tố phong. Đây là ma pháp cho phép tôi điều khiển gió theo ý mình muốn ở mức cơ bản. Mục đích của phong thuật này để tôi có thể định hình gió ở một dạng nhất định, nói dễ hiểu hơn thì phát triển ma pháp mới từ sự định hình đó. Và hiện tại tôi đã phát triển được thêm hai phong thuật mới là${nameSkill[2]}và${nameSkill[3]}.`
 			},
 			{
 				color: colorOther[0],
@@ -7230,7 +7230,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Nếu mọi người hỏi tại sao tôi vẫn chơi với “${nameTitle[1]}” thì đó là vì “bữa ăn rất ngon”. Đúng vậy, lí do chính của tôi đó.`
+				content: `Nếu mọi người hỏi tại sao tôi vẫn chơi với “${nameTitle[2]}” thì đó là vì “bữa ăn rất ngon”. Đúng vậy, lí do chính của tôi đó.`
 			}
 		]
 	},
@@ -7241,7 +7241,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Hiện giờ tôi đang đi trên con đường đất quen thuộc để đến cô nhi viện. Tôi ngẩng đầu, ngắm nhìn bầu trời trong xanh điểm một vài vệt mây bông trắng đang trôi nhè nhẹ.`
+				content: `Trên con đường đất quen thuộc, một cậu bé tóc ngắn với mái vắt chéo qua trái đang thong dong trên đường đến cô nhi viện, chính là tôi đây. Thong thả vừa đi vừa ngắm nhìn bầu trời trong xanh điểm một vài vệt mây bông trắng đang trôi nhè nhẹ.`
 			},
 			{
 				color: colorOther[0],
@@ -7346,7 +7346,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Cả hai người đều là những người bạn quan trọng của tôi nhưng để mà nói thì các cậu ấy là “${nameTitle[1]}”. Đúng vậy, bộ đôi rất tinh nghịch và hay quậy phá. Chắc vì họ vẫn là trẻ con nên hành xử như vậy là đúng với tuổi. Không như tôi... Dù sao thì hành động của độ đôi không vượt quá giới hạn và cũng biết lúc nào phải dừng lại nên không có ai ghét họ cả.`
+				content: `Cả hai người đều là những người bạn quan trọng của tôi nhưng để mà nói thì các cậu ấy là “${nameTitle[2]}”. Đúng vậy, bộ đôi rất tinh nghịch và hay quậy phá. Chắc vì họ vẫn là trẻ con nên hành xử như vậy là đúng với tuổi. Không như tôi... Dù sao thì hành động của độ đôi không vượt quá giới hạn và cũng biết lúc nào phải dừng lại nên không có ai ghét họ cả.`
 			},
 			{
 				color: colorOther[0],
@@ -7632,12 +7632,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Nguồn thu nhập chính đều đến từ cha. Có thể nói gia đình tôi có đủ để sống qua ngày, theo lời cha nói là vậy. Tôi đang ở thị trấn có tên gọi là ${nameLocation[2]}... và tất cả thông tin tôi biết chỉ có đến vậy. Tiện thể thì tôi thừa hưởng đôi mắt lam của cha và mái tóc màu lam của mẹ.`
+				content: `Nguồn thu nhập chính đều đến từ cha. Có thể nói gia đình tôi có đủ để sống qua ngày, theo lời cha nói là vậy. Tôi đang ở thị trấn có tên gọi là ${nameLocation[2]}... và tất cả thông tin tôi biết chỉ có đến vậy.`
 			},
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Đang mải nghĩ thì có mùi trứng thoang thoảng từ căn bếp khiến cho bụng tôi kêu réo lên.`
+				content: `Tiện thể thì tôi thừa hưởng đôi mắt lam tựa nước biển từ cha và mái tóc màu đá lưu ly của mẹ. Đang mải nghĩ thì có mùi trứng thoang thoảng từ căn bếp khiến cho bụng tôi kêu réo lên.`
 			},
 			{
 				color: colorCharacter[1],

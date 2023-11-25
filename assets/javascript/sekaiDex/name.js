@@ -98,7 +98,7 @@ const nameJob = [
 	'Ma kiếm sĩ',	// 2
 	'Kiếm sĩ',		// 3
 	'Cung thủ',		// 4
-	'Thánh kị sĩ',	// 5
+	'Thánh kỵ sĩ',	// 5
 	'Pháp sư',		// 6
 	'Phù thủy',		// 7
 	'Mạo hiểm giả',	// 8
@@ -107,11 +107,11 @@ const nameJob = [
 
 let nameSkill = [
 	'Giám định',			// 0
-	'Lục phong Tinh thông',	// 1
+	'Phong pháp Tinh thông',// 1
 	'Hòa âm Kết giới',		// 2
 	'Trôi nổi',				// 3
 	'Trảm',					// 4
-	'Phong Đao',			// 5
+	'Phong Trảm',			// 5
 	'Cường hóa Thể chất',	// 6
 	'Đóng băng',			// 7
 	'Giáp Ma lực',			// 8
@@ -122,7 +122,12 @@ let nameSkill = [
 	'Băng Tiễn',			// 13
 	'Làm sạch',				// 14
 	'Che chở',				// 15
-	'Tái sinh'				// 16
+	'Tái sinh',				// 16
+	'Thổi bay',				// 17
+	'Băng Tường',			// 18
+	'Băng Trụ',				// 19
+	'Băng Tiễn Vũ',			// 20
+	'Băng pháp Tinh thông'	// 21
 ];
 nameSkill = nameSkill.map(element => {
 	return `『${element}』`;
@@ -130,8 +135,8 @@ nameSkill = nameSkill.map(element => {
 
 const nameTitle = [
 	'Người chuyển sinh',	// 0
-	'Bộ đôi rắc rối',		// 1
-	'Cô bé lạnh lùng',		// 2
+	'Người thuần Gió',		// 1
+	'Bộ đôi rắc rối',		// 2
 	'Đấng cứu thế'			// 3
 ];
 
@@ -157,13 +162,13 @@ const nameFood = [
 const nameLocation = [
 	'『Dainisekai』',			// 0
 	'Văn phòng Re:Life',	// 1
-	'Dawn Horizon',			// 2
-	'Over Horizon',			// 3
+	'Chân trời Bình minh',	// 2
+	'Chân trời Vươn xa',	// 3
 	'Trái đất'				// 4
 ];
 
 const nameParty = [
-	'Log Horizon'	// 0
+	'Chân trời Ký lục'	// 0
 ];
 
 const nameMob = [

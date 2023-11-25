@@ -116,7 +116,7 @@ function addCharacter(id) {
 						${genType1(temp.race)}
 					</div>
 					<div class="group">
-						<h4>Trạng thái</h4>
+						<h4>Tình trạng</h4>
 						${genType1(temp.status)}
 					</div>
 					<div class="group">
@@ -129,7 +129,7 @@ function addCharacter(id) {
 					</div>
 					<div class="group">
 						<h4>Xuất hiện</h4>
-						<div class="dot"><p><span id="${changeId(temp.debut)}">Chapter ${temp.debut}</span></p></div>
+						<div class="dot"><p><span id="${changeId(temp.debut)}" class="toChapter">Chapter ${temp.debut}</span></p></div>
 					</div>
 				</div>
 			</div>
@@ -150,7 +150,7 @@ function addCharacter(id) {
 				<div class="dropdownHide">${genType2(temp.job)}</div>
 			</div>
 			<div>
-				<h3 class="dropdown">Kĩ năng</h3>
+				<h3 class="dropdown">Kỹ năng</h3>
 				<div class="dropdownHide">${genType2(temp.skill)}</div>
 			</div>
 			<div>
@@ -179,27 +179,29 @@ function genType2(id) {
 	for(var i = 0; i < id.length; i++) {
 		temp += `<div class="group">`;
 		temp += `<h4 class="dropdown">${id[i].name}</h4>`;
-		temp += `<div class="dropdownHide"><div>`
-		if(id[i].hasOwnProperty('from'))
-			temp += `<div class="dot"><p>Từ: ${id[i].from}</p></div>`;
+		temp += `<div class="dropdownHide"><div class="max">`
+		temp += `${genType1(id[i].desc)}<div class="hr"></div>`;
 		if(id[i].hasOwnProperty('type'))
 			temp += `<div class="dot"><p>Loại: ${id[i].type}</p></div>`;
-		temp += `${genType1(id[i].desc)}`;
+		if(id[i].hasOwnProperty('group'))
+			temp += `<div class="dot"><p>Nhóm: ${id[i].group}</p></div>`;
+		if(id[i].hasOwnProperty('from'))
+			temp += `<div class="dot"><p>Từ: ${id[i].from}</p></div>`;
 		if(id[i].hasOwnProperty('firstAppear')) {
 			if(id[i].firstAppear != -1) {
-				temp += `<div class="dot note"><p>Xuất hiện lần đầu trong <span id="${changeId(id[i].firstAppear)}">Chapter ${id[i].firstAppear}</span>`;
+				temp += `<div class="dot"><p>Xuất hiện: <span id="${changeId(id[i].firstAppear)}" class="toChapter">Chapter ${id[i].firstAppear}</span>`;
 				if(id[i].inDesc === 1)
 					temp += ` dưới dạng mô tả`;
 				temp += `</p></div>`;
 			} else
-				temp += `<div class="dot note"><p>Chưa từng đề cập</p></div>`;
+				temp += `<div class="dot"><p>Chưa từng đề cập</p></div>`;
 		}
-		if(id[i].hasOwnProperty('firstUse')) {
-			if(id[i].firstUse != -1)
-				temp += `<div class="dot note"><p>Sử dụng lần đầu trong <span id="${changeId(id[i].firstUse)}">Chapter ${id[i].firstUse}</span></p></div>`;
-			else
-				temp += `<div class="dot note"><p>Chưa được sử dụng</p></div>`;
-		}
+		// if(id[i].hasOwnProperty('firstUse')) {
+		// 	if(id[i].firstUse != -1)
+		// 		temp += `<div class="dot"><p>Sử dụng lần đầu trong <span id="${changeId(id[i].firstUse)}" class="toChapter">Chapter ${id[i].firstUse}</span></p></div>`;
+		// 	else
+		// 		temp += `<div class="dot"><p>Chưa được sử dụng</p></div>`;
+		// }
 		temp += `</div></div></div>`;
 	};
 	return temp;

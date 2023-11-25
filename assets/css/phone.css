@@ -9,6 +9,10 @@
 	.explainShow {
 		width: 38rem;
 	}
+
+	.group {
+		width: calc(100% / 3.32);
+	}
 }
 @media (max-width: 588px) {
 	* {
