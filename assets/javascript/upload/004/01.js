@@ -880,7 +880,7 @@ const volume = [
 			'“Phải quên mọi thứ đi sao… Không bao giờ!”',
 			'<b>『Phong đế đoạt Nguyệt』</b>',
 			'Sau tiếng gầm dũng mãnh, một đường kiếm mảnh mai, nhưng dứt khoát, vút thẳng qua “Nguyệt Nga” và các Sứ giả. Sự ngạc nhiên trên khuôn mặt các diễn viên dần chuyển sang hốt hoảng, khi tấm vải họ cầm trên tay đã đứt làm đôi, còn một phần cánh gà sau đó đã bị xé vụn – dù đạo cụ Fig cầm chỉ là một thanh kiếm gỗ, cú chém của cậu rõ ràng là thật. Đôi mắt hồng lựu của Huệ Nhi mở to nhìn Fig…',
-			'“Tình yêu… Là một sự trừng phạt ư… Nực cười!” – Fig lên tiếng, giọng nói sắc lạnh nhưng cũng đầy cảm xúc. “Việc Nguyệt Nga trở lại Nguyệt đô, không phải là do các người quyết định… Số phận của Nguyệt Nga… Không phải là để các người định đoạt!”',
+			'“Tình yêu… Là một sự trừng phạt ư… Nực cười!” – Fig lên tiếng, giọng nói nói đầy cảm xúc vang vọng khắp sân khấu. “Việc Nguyệt Nga trở lại Nguyệt đô, không phải là do các người quyết định… Số phận của Nguyệt Nga… Không phải là để các người định đoạt!”',
 			'Khán đài im bặt sau câu nói đanh thép của Fig. Mọi người đã đứng hẳn dậy, dán mắt dõi theo bóng hình nhỏ bé mà hiên ngang của cậu. “Hoàng đế trẻ tuổi” quay sang nhìn “Công chúa Nguyệt Nga”, người đã đến gần cậu...',
 			'“Nguyệt Nga… Ta muốn nghe suy nghĩ của nàng về việc này” – “Hoàng đế” tiếp lời. “Nếu như nàng thực sự không còn lưu luyến chốn này, thì ta cũng sẽ không ngăn cản nàng nữa. Nhưng nếu nàng không muốn phải chia xa…”',
 			'“Thì ta cầu xin nàng, hãy cho ta nghe thấy điều đó…”',
