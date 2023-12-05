@@ -16,6 +16,703 @@ const volume = [
 	// 	]
 	// },
 	{
+		chapter: 16.5,
+		title: `Chưa viết`,
+		dialogue: [
+			// {
+			// 	color: ,
+			// 	name: [ `` ],
+			// 	content: ``
+			// },
+		]
+	},
+	{
+		chapter: 16,
+		title: `Buổi sáng bất ổn`,
+		dialogue: [
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Ngày mới đã đến, ánh mặt trời len lỏi qua cửa sổ nơi căn bếp còn khẽ vọng ra tiếng động. Chính là tôi đây, đang nhịp nhàng đưa dao thái nguyên liệu theo giai điệu ngẫu hứng. Cứ mỗi nhịp thái, ánh sắc từ nguyên liệu được mặt trời soi rọi lại phản chiếu lên lưỡi dao, tạo nên một màn diễn ánh sáng tuyệt vời. Tôi đứng đó, làm món ăn, tận hưởng không gian gần như tĩnh lặng, để quên đi mọi thứ đã xảy ra vào ngày hôm qua.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Quên thế quái nào được cơ chứ! Chẳng thể tập trung nổi!`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi hét toáng lên, phá vỡ khoảng lặng yên vốn có. Nhưng cũng chỉ là thoáng chốc bởi không còn ai ở nhà ngoại trừ tôi. Chú diều hâu từ đâu bỗng bay vụt qua cửa sổ, chắc do tôi khiến nó giật mình. Đặt con dao lên thớt, tôi thở dài, lẩm bẩm những chuyện vừa xảy ra hôm qua.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Hôm qua đúng là thảm họa mà... Các cậu ấy gặp nguy hiểm... chỉ vì quyết định nông nổi của mình...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Có vẻ, tôi đã hơi phấn khích khi lần đầu ra khỏi thành, cũng như lần đầu làm nhiệm vụ. Khoảng thời gian mười năm sống yên bình trong thị trấn, dường như đã làm tôi quên đi thế giới này đầy rẫy nguy hiểm đến nhường nào.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Đi cứu người gặp nạn lại trở thành nạn nhân, thật thảm hại. May thay, đến cuối cùng cả nhóm cũng được anh ${nameCharacter[16]} giải cứu...`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Nếu như, chậm chút nữa...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Thoáng nhìn vào con dao, trên đó phản chiếu lại khuôn mặt tôi, cùng với sự dằn vặt. Tôi thất thần, đứng lặng một hồi chỉ để coi vẻ mặt của bản thân ngay lúc này...`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Không không không! Chuyện đã qua rồi, mọi người vẫn ổn đấy thôi... Được rồi, phải rút kinh nghiệm, đời còn dài nên phạm sai lầm cũng được. Không sao hết, đúng vậy...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi tự an ủi bản thân để xốc lại tinh thần, nhưng cũng không đỡ được phần nào. Lại thở dài, cầm con dao lên để tiếp tục việc còn dang dở. Ngay trước khi cắt được thêm thì có tiếng gọi vọng từ bên ngoài vào.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Shuuya ơi! Có nhà không? Bọn mình đến rồi này.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `À, ra là các cậu ấy đến rồi. Tôi vội vã phản hồi lại rồi mau ra mở cửa.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Mọi khi ồn lắm mà sao nay yên... Các cậu đang làm gì vậy?`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Vừa mở cửa ra, tấm khiên lớn của ${nameCharacter[9]} đang được dựng ngay trước cậu. Còn ${nameCharacter[10]} và ${nameCharacter[11]} đang núp ở phía sau. Một trò chơi gì đó ư?`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `C-còn cậu thì sao? T-tại sao lại cầm theo dao vậy?`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `À, mình đang làm dở bữa trưa, thấy các cậu gọi nên mau ra mở cửa, xong quên luôn trên tay vẫn còn đang cầm dao.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tạm thời cất lại con dao vào ${nameItem[2]}, không ngờ tôi lại có thể bất cẩn như vậy chỉ vì mấy suy nghĩ sáng nay.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Thế, các cậu đang làm gì vậy?`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Cái này...`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `Đ-để đề phòng thôi nya.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Bộ đôi có vẻ hơi hốt hoảng, họ đang giấu tôi gì đó thì phải. Trước khi tôi định hỏi thêm thì ${nameCharacter[11]} lên tiếng.`
+			},
+			{
+				color: colorCharacter[11],
+				name: [ `${nameCharacter[11]}` ],
+				content: `Nay Shuuya trông không được vui như mọi khi. Shuuya gặp chuyện gì không vui?`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `P-phải đó nya. Trông hôm nay cậu khác thường lắm nya.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Khuôn mặt tôi biểu lộ rõ thế ư? Vậy mà từ nãy cứ tưởng đang mang vẻ thường ngày... Nghĩ tạm lí do gì đó để né tránh, tôi không muốn bị ${nameCharacter[11]} hỏi thêm. Cảm giác cứ mỗi lần hỏi là tôi lại bị đào sâu thêm, sợ nhỏ thật.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Chắc do... mình vẫn còn buồn ngủ ý mà. Hôm qua nhiều chuyện xảy ra làm mình bị đuối sức...`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}`, `${nameCharacter[10]}`, `${nameCharacter[11]}` ],
+				content: `À! Ra là thế (nya)!`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Ế? Bằng cách nào đó tôi qua mắt các cậu ấy một cách dễ dàng, nhất là ${nameCharacter[11]}... có lẽ vậy...`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Ờm, mình vẫn còn đang làm dở đồ ăn trưa, vậy nên các cậu vào nhà đợi chút nha. Còn ${nameCharacter[9]} thì cất cái khiên đi.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Phải rồi, mình quên mất.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Rốt cuộc các cậu ấy làm trò gì nhỉ? Không nghĩ ngợi thêm, tôi dẫn mọi người vào phòng khách và mời dùng ${nameFood[3]} trong lúc đợi. Đây là nước ép hoa quả đơn thuần tôi làm từ sáng sớm, vì tí nữa cần phải bàn vài thứ với mọi người nên có thể sẽ lâu.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Mau chóng vào lại bếp, tôi hoàn thiện nốt đồ ăn trưa. Trong lúc đấy, cuộc nói chuyện trong phòng khách diễn ra khá sôi động, vọng sang cả căn bếp. Tuy không nghe rõ nội dung nhưng loáng thoáng mọi người có nhắc đến tên tôi, tò mò thật.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Sau một hồi thì tôi cũng xong, đồ ăn trưa được cất ngay vào ${inventory} để bảo quản và cũng tránh quên mang đi. Quay lại phòng khách, các cậu ấy mải trò chuyện quá nên không để ý tôi bước vào. Tò mò về nội dung, tôi tiến lại gần sau bộ đôi, khẽ đặt tay lên vai họ và hỏi với vẻ mặt tươi cười hơn vừa rồi.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Mọi người đang nói chuyện gì đó?`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Vừa dứt câu, bộ đôi giật bắn mình, nhất là ${nameCharacter[10]}. Tai với đuôi của nhỏ dựng thắng đứng cả lên, đặc biệt hơn là lông đuôi còn xù hết như bông lau.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}`, `${nameCharacter[10]}` ],
+				content: `(NY)A!`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `À... Làm các cậu giật mình rồi...`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `T-tại sao cậu lại làm thế hả Shuunya!`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `T-tim mình...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Chẳng lẽ giật mình đến vậy à? Tôi tin bản thân không có kỹ năng lén lút nào cả. Nhất là ${nameCharacter[10]} phải nghe thấy tiếng tôi bước vào chứ... hay do mải nói chuyện nhỉ?`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Mình không cố tình, xin lỗi nha...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Khó xử thật... có lẽ không nên hỏi thêm nữa thì tốt hơn. Mà cũng hơi lạ khi ${nameCharacter[11]} không lên tiếng khi thấy tôi. Thường thì tôi hay bị nhỏ bám lấy... chắc cũng mải nói chuyện nốt. Hoặc do hôm nay tôi nghĩ hơi nhiều...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi qua phía ghế trống ở giữa bàn, từ đây có thể thấy bao quát mọi người. ${nameTitle[2]} ở hướng trái, còn ${nameCharacter[11]} ngồi bên phải đối diện với bộ đôi.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Được rồi, trước khi chúng ta đi làm nhiệm vụ thì mình có vài điều cần phải bàn. Chính vì thế, lần đầu tiên tổ đội ${nameParty[0]} sẽ có cuộc họp!`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Mọi người đều vỗ tay và “Ồ” nhẹ lên một tiếng. Đáng lẽ tôi phải tổ chức từ hôm qua mới đúng, nhưng ai nấy cũng đều phấn khích quá nên quên luôn.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Trước tiên là chức trưởng tổ đội ${nameParty[0]}. Chúng ta chưa bàn về cái này, thế nên là mọi người tin ai có đủ khả năng lãnh đạo nào?`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Vừa dứt lời, các cậu ấy đã cho tôi câu trả lời một cách nhanh chóng.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}`, `${nameCharacter[10]}`, `${nameCharacter[11]}` ],
+				content: `Shuu(n)ya!`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Rồi, vậy Shuuya sẽ là... Hể? Khoan đã! Tại sao lại đều chọn mình vậy?`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi cứ nghĩ những lúc thế này các cậu ấy sẽ tự ứng cử bản thân chứ, nhất là bộ đôi. Vậy mà cả ba cậu ấy đều chọn tôi, bất ngờ thật.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Tại vì... nó hiển nhiên?`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Đừng trả lời mình bằng một câu hỏi khác chứ... Thế còn ${nameCharacter[9]} thì sao? Cậu ấy có khả năng giao tiếp tốt và đây là thứ cần ở một lãnh đạo.`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `Đúng là vậy, nhưng mà cậu ấy đôi khi hơi ngốc nya.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Này!`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Vậy còn ${nameCharacter[10]}? Với sự cuốn hút bằng vẻ luôn lạc quan sẽ làm nên một lãnh đạo có thể vực dậy đồng đội mỗi lần vấp ngã đó.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Mình phải thừa nhận nhỏ có sức hút đặc biệt thật...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `${nameCharacter[10]} nghe thế, đôi tai liền vểnh lên còn đuôi thì khẽ vung vẩy nhẹ sang hai bên. Trông nhỏ thích thú chưa kìa.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Mà mỗi tội nhỏ hay mất tập trung lắm. Lỡ quên việc quan trọng thì báo hại cả nhóm đấy haha. AU AU AU!`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Đột ngột bàn rung nhẹ một cái, tôi cúi người xuống ngó thì thấy ${nameCharacter[10]} đang dẫm lên chân của ${nameCharacter[9]}. Nhỏ bị cậu ấy cho rơi tự do sau khi được kéo lên mây đây mà. Lúc này, ${nameCharacter[10]} mặt phụng phịu với đôi tai dạt xuống còn đuôi thì dựng đứng khẽ rung nhẹ.`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `Tại sao cậu lại nói mình vậy hả Konyashi!`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Ai biết gì đâu, mình chỉ nêu ý kiến thôi mà. AU AU AU! Đừng có giẫm nữa!`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `Cậu đáng bị vậy, đồ ngốc Konyashi!`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Nhỏ này...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Trời... Giờ bộ đôi quay ra cắn nhau rồi, biết thế không nên đề cử các cậu ấy...`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Thế còn ${nameCharacter[11]} thì sao? Cậu ấy có mắt nhìn người...`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}`, `${nameCharacter[10]}` ],
+				content: `Cậu ấy khó giao tiếp (nya)! À...`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Khoan, mình chỉ nhất thời nói vậy thôi!`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `Xin lỗi nya! Bọn mình không có ý đó nya...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Bộ đôi lập tức hết dỗi nhau, thay vào đó là hốt hoảng khi lỡ dồn sự tức giận của bản thân đẩy sang ${nameCharacter[11]}. Mà tôi nghĩ nhỏ cũng không bận tâm lắm.`
+			},
+			{
+				color: colorCharacter[11],
+				name: [ `${nameCharacter[11]}` ],
+				content: `Không có sao, mình không để tâm. Cuối cùng chỉ có ${nameCharacter[1]} là thích hợp nhất.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Vậy... Các cậu thử nói xem tại sao mình lại thích hợp...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi lỡ nói ra mất rồi! Đáng ra tôi có thể cứ nhận luôn cho xong vậy mà... Hầy... Chỉ vì tôi cũng hơi tò mò mọi người nghĩ gì về mình nên lỡ nói ra, giờ thì vừa lo vừa run vừa muốn nghe vừa không muốn...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `${nameCharacter[10]} liền đứng dậy, dõng dạc vừa nói vừa chỉ tay vào từng người gồm cả chính mình.`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `Để mình nói cho mà nghe nya. Shuuya giao tiếp không bằng một nửa ${nameCharacter[9]}, sự cuốn hút chắc chắn không thể bằng mình và mắt nhìn người chỉ kém hơn ${nameCharacter[11]} có chút xíu nya. Nhưng mà cậu có cả ba điều đó nên hiển nhiên là thích hợp làm lãnh đạo tổ đội ${nameParty[0]} rồi nya!`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Ờm... tôi sẽ tạm coi đó là lời khen? Dù sao thì trông vẻ mặt của ${nameCharacter[10]} có vẻ thỏa mãn sau khi phán mấy câu khá là hợp lí.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `À ờm... Cậu còn có thể mang được nhiều đồ đi nhờ có ${inventory} và đồ ăn do cậu làm còn ngon nữa.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi tin rằng mấy điều này không liên quan đến việc ta đang nói đến...`
+			},
+			{
+				color: colorCharacter[11],
+				name: [ `${nameCharacter[11]}` ],
+				content: `${nameCharacter[1]} đáng tin. Mọi người sẽ luôn tin vào quyết định ${nameCharacter[1]} đưa ra. Dù có đúng hay sai.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi chạnh lòng, cắn răng, tay nắm chặt lại... Nhỏ có biết vì quyết định của tôi mà đã khiến mọi người gặp nguy hiểm ngày hôm qua không vậy? Trước khi tôi phản bác lời ${nameCharacter[11]} thì nhỏ nói thêm.`
+			},
+			{
+				color: colorCharacter[11],
+				name: [ `${nameCharacter[11]}` ],
+				content: `Hơn nữa, ${nameCharacter[1]} là người đã đăng ký tạo tổ đội. Nên là cố gắng lên ${nameCharacter[1]}, bọn mình sẽ ủng hộ.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}`, `${nameCharacter[10]}` ],
+				content: `Đúng đó (nya)!`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Bỏ lỡ cơ hội rồi, giờ khó mà từ chối được nữa. Thôi thì tạm thời cứ làm vậy, cho đến khi các cậu ấy nghĩ mình không còn thích hợp.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Nếu không ai có thêm ý kiến gì thì mình xin nhận làm lãnh đạo tổ đội ${nameParty[0]}.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Các cậu ấy đều vỗ tay rôm rả nhưng tôi thấy bản thân không xứng đáng lắm. Lấy lại phong thái thường ngày, tôi chuyển sang bàn chuyện tiếp theo.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Giờ chúng ta sẽ bàn về khoản tiền kiếm được mà mình cầm hộ các cậu ngày hôm qua...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi vừa nói, vừa lấy số tiền cùng ba túi rỗng nhỏ trong ${inventory} ra đặt trên bàn. Mắt ai nấy cũng sáng lên vì chỗ tiền, tuy không nhiều nhưng đều là công sức của các cậu ấy kiếm được mà có.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Vậy, chia đều thế nào đây?`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `À, chỗ này bị gộp chung do hôm qua vội rời đi quá. Mỗi người làm nhiệm vụ riêng nên là sẽ nhận đúng lượng mà các cậu kiếm, còn khi nào làm nhiệm vụ chung thì sẽ chia đều nha.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Việc chia như này cũng có phần hơi khiến các cậu ấy so đo chút. Nhưng cũng có thể tăng thêm động lực... tôi không chắc lắm. Nhưng mà mọi người thân nhau nên tôi tin sẽ ổn thỏa thôi... hiện tại là vậy.`
+			},
+			{
+				color: colorCharacter[11],
+				name: [ `${nameCharacter[11]}` ],
+				content: `Mình chia xong rồi.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Cảm ơn ${nameCharacter[11]}, giờ thì mình sẽ chia... Ế! Khoan, hể?`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Vừa ngước xuống thì một chồng xu đồng đã xuất hiện trước mặt, có vẻ là chia trong lúc tôi còn bận suy nghĩ. Bộ đôi cũng ngạc nhiên không kém gì tôi với khả năng của ${nameCharacter[11]}.`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `Cậu tính toán nhanh thật đấy Hyoukya. Lại còn nhớ cả lượng tiền mọi người đã kiếm được nữa nya.`
+			},
+			{
+				color: colorCharacter[11],
+				name: [ `${nameCharacter[11]}` ],
+				content: `Xưa mình có phụ cha khi buôn bán. Mấy chuyện này không làm khó mình.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Nhỏ nói với vẻ mặt không rõ cảm xúc thường ngày trong khi giơ cao ngón cái, trông đắc ý thật. Khả năng tính toán của ${nameCharacter[11]} thì mọi người cũng đã thấy trong giờ học Toán của sơ ${nameCharacter[5]} rồi, thậm chí nhanh hơn cả tôi. Giờ bộ đôi cũng như tôi phát hiện ra thêm trí nhớ tốt của nhỏ nữa nên mới ngạc nhiên đến vậy.`
+			},
+			{
+				color: colorCharacter[11],
+				name: [ `${nameCharacter[11]}` ],
+				content: `${nameCharacter[1]}, còn xu vàng này...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Đồng xu đó đang nằm trên mặt bàn, tôi đưa hai ngón tay cái và trỏ ra dựng lên, rồi xoay nó không vì mục đích gì cả.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Mình tính là sẽ tạo ra quỹ chung của tổ đội ${nameParty[0]}, bắt đầu bằng xu vàng này và phần trả thêm từ nhiệm vụ mình làm.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Quỹ chung?`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `Nó làm được gì thế nya?`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Hừm... Nhìn phản ứng của bộ đôi thì có vẻ họ không biết thuật ngữ này, ${nameCharacter[11]} thì hiểu do từng ở cùng cha là một thương nhân.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Quỹ chung là một khoản tiền được đóng góp bởi các thành viên. Thường là để chi trả cho các hoạt động chung hay riêng hoặc cho trường hợp khẩn cấp hoặc...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi mới có nói vài câu mà mặt bộ đôi trông đơ ra luôn...`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Ờm thì... nói dể hiểu hơn là mọi người góp tiền chung rồi sử dụng như là mở tiệc ăn mừng hay mấy việc tương tự á.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}`, `${nameCharacter[10]}` ],
+				content: `À! Ra là thế (nya).`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Bộ đôi hiểu được là tốt cho tôi rồi, có gì để lúc khác nói lại vấn đề này cũng được.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Vậy thì chắc mình cũng góp vào một chút nhỉ?`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `Mình nữa nya.`
+			},
+			{
+				color: colorCharacter[11],
+				name: [ `${nameCharacter[11]}` ],
+				content: `Ừm, cả mình.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Khoan đã các cậu, do mình chưa bảo trước nên để lần sau nha.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Sao lại để lần sau? Bây giờ mình đang có tiền mà?`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Mình tin rằng các cậu đã có dự định dùng chúng trước đó rồi đúng không?`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Trông mọi người có vẻ hơi bén lẽn, chắc là tôi nói đúng rồi.`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `C-cậu nói đúng thật nya...`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Cứ vậy đi ha. Giờ thì, ai nên cầm quỹ đây?`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}`, `${nameCharacter[10]}`, `${nameCharacter[11]}` ],
+				content: `Shuuya chứ còn ai nữa (nya)!`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Hể? Lại là mình? Tại sao vậy?`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}`, `${nameCharacter[10]}`, `${nameCharacter[11]}` ],
+				content: `Vì ${nameCharacter[1]} có ${inventory} chứ sao nữa (nya)!`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Trả lời ngay lập, lại còn đồng thanh chứ, không cho tôi được phản bác luôn...`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Nếu thế thì các cậu không sợ mình sẽ bí mật tiêu chỗ đó à?`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Thay vì khiến các cậu ấy nghĩ lại quyết định thì họ cười lớn, riêng ${nameCharacter[11]} quay mặt đi nhưng nhỏ chắc cũng đang nhịn cười vì tôi thấy ghế hơi rung.`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}` ],
+				content: `Xin lỗi xin lỗi... Nãy là câu buồn cười nhất mà mình từng nghe từ cậu đấy.`
+			},
+			{
+				color: colorCharacter[10],
+				name: [ `${nameCharacter[10]}` ],
+				content: `Phải đó nya. Mình chưa từng thấy ${nameCharacter[1]} tiêu tiền bao giờ cả nya.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Làm gì có chuyện đấy! Với cả, có phải lúc nào các cậu cũng ở cùng mình đâu sao mà biết được chứ.`
+			},
+			{
+				color: colorCharacter[11],
+				name: [ `${nameCharacter[11]}` ],
+				content: `Thứ ${nameCharacter[1]} mua gần đây nhất là gì?`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Đó là... là...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Ủa khoan... Hình như tôi chưa từng tiêu tiền thì phải... Phần lớn khi cha mẹ cho tiền tôi đều từ chối, có những lúc bị ép quá đành nhận xong cất vào ${inventory} rồi quên luôn... Các cậu ấy nói đúng thật...`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Được rồi! Vấn đề tiếp theo là trang bị...`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[9]}`, `${nameCharacter[10]}`, `${nameCharacter[11]}` ],
+				content: `Đổi chủ đề luôn kìa (nya).`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Chúng ta là ${nameJob[8]}, vậy mà quên đi thứ quan trọng nhất... Đó chính là giáp! Thế nên, giờ ta sẽ đi mua sắm!`
+			},
+			{
+				color: colorCharacter[9],
+				name: [ `${nameCharacter[9]}`, `${nameCharacter[10]}` ],
+				content: `Đây không phải là ${nameCharacter[1]} mà bọn mình biết (nya)!`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Hai cậu muốn gây sự hả?`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi giơ nắm đấm hướng về phía ${nameTitle[2]}, ngay lập tức hai cậu ấy hớn hở rời khỏi ghế phóng ra ngoài.`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Thật hết nói nổi với hai cậu ấy.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Tôi thở dài, rồi cùng ${nameCharacter[11]} thong thả rời khỏi nhà, mặc kệ bộ đôi đợi bên ngoài từ nãy.`
+			},
+			{
+				color: colorCharacter[11],
+				name: [ `${nameCharacter[11]}` ],
+				content: `Bây giờ bọn mình đi đâu, ${nameCharacter[1]}?`
+			},
+			{
+				color: colorCharacter[1],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Như mình đã nói, chúng ta sẽ đi mua sắm á. Thế nên là... tiệm rèn vũ khí với giáp, chúng ta tới đây!`
+			}
+		]
+	},
+	{
 		chapter: 15.5,
 		title: `Chuyện xảy ra sau đó`,
 		dialogue: [
@@ -993,7 +1690,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `${nameCharacter[1]}` ],
-				content: `Sao tôi có cảm giác anh ${nameCharacter[16]} cố tình để lộ ra thế nhỉ? Bọn tôi đang nói chuyện với trưởng hiệp hội và anh ${nameCharacter[16]} thì chị ${nameCharacter[15]} từ bên ngoài bước vào với một khay đựng xu đồng, xu vàng và thẻ định danh... Khoan! Xu vàng?`
+				content: `Sao tôi có cảm giác anh ${nameCharacter[16]} cố tình để lộ ra thế nhỉ? Bọn tôi đang nói chuyện với trưởng hiệp hội và anh ${nameCharacter[16]} thì chị ${nameCharacter[15]} từ bên ngoài bước vào với một khay đựng xu đồng, xu vàng và ${nameItem[4]}... Khoan! Xu vàng?`
 			},
 			{
 				color: colorCharacter[15],
@@ -3942,6 +4639,11 @@ const volume = [
 				color: colorCharacter[1],
 				name: [ `${nameCharacter[1]}` ],
 				content: `À... thực ra đây được gọi là đôi đũa, có thể dùng để gắp thức ăn. Bát và đũa là từ ${nameItem[2]} của mình nên muốn thử dùng xem sao.`
+			},
+			{
+				color: colorOther[0],
+				name: [ `${nameCharacter[1]}` ],
+				content: `Đũa tôi không có thấy trong thị trấn nên đành kiếm tạm cành cây rồi dùng dao gọt. Đó là lí do tôi mới lấy được ra từ ${nameItem[2]}.`
 			},
 			{
 				color: colorCharacter[10],

@@ -46,7 +46,7 @@ const listCharacter = [
 	},
 	{	// 9
 		name: 'Kowashi',
-		color: 'ff2727'
+		color: 'd33a1e'
 	},
 	{	// 10
 		name: 'Asahi',
@@ -154,9 +154,10 @@ const nameItem = [
 ];
 
 const nameFood = [
-	'Bắp cải trộn Ngô',	// 0
-	'Bò hầm',			// 1
-	'Bánh mì kẹp Trứng'	// 2
+	'Bắp cải trộn Ngô',		// 0
+	'Bò hầm',				// 1
+	'Bánh mì kẹp Trứng',	// 2
+	'Nước ép Táo'			// 3
 ];
 
 const nameLocation = [

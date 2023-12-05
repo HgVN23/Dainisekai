@@ -369,7 +369,7 @@ i {
 .number {
 	position: absolute;
 	right: 0;
-	bottom: .2rem;
+	bottom: .05rem;
 	font-size: .7rem;
 	color: gray;
 	text-align: right;
