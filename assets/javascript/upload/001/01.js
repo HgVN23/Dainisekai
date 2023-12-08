@@ -167,7 +167,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[9] ],
-				content: `${nameCharacter[10]} trông có vẻ bén lẽn, tai cụp hướng về trước còn đuôi thì cong thẳng lên.`
+				content: `${nameCharacter[10]} trông có vẻ bẽn lẽn, tai dạt sang hai bên và chiếc đuôi hơi vung vẩy.`
 			},
 			{
 				color: colorCharacter[10],
@@ -1223,7 +1223,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Trông mọi người có vẻ hơi bén lẽn, chắc là tôi nói đúng rồi.`
+				content: `Trông mọi người có vẻ hơi bẽn lẽn, chắc là tôi nói đúng rồi.`
 			},
 			{
 				color: colorCharacter[10],
