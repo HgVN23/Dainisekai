@@ -95,8 +95,8 @@ listCharacter.forEach(element => {
 const nameJob = [
 	'Đầu bếp',		// 0
 	'Thợ rèn',		// 1
-	'Ma kiếm sĩ',	// 2
-	'Kiếm sĩ',		// 3
+	'Ma kiếm sư',	// 2
+	'Kiếm sư',		// 3
 	'Cung thủ',		// 4
 	'Thánh kỵ sĩ',	// 5
 	'Pháp sư',		// 6

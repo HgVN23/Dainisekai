@@ -52,7 +52,7 @@ header {
 	justify-content: space-evenly;
 	position: sticky;
 	top: 0;
-	z-index: 1;
+	z-index: 2;
 }
 .buttonHeader {
 	gap: 2rem;
@@ -374,6 +374,7 @@ i {
 	color: gray;
 	text-align: right;
 	font-style: italic;
+	z-index: 1;
 }
 .dialogueHide {
 	background-color: black;
