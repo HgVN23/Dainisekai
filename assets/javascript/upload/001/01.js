@@ -502,7 +502,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[9] ],
-				content: `Mắt của ${nameCharacter[10]} đảo đi không nhìn thẳng vào tôi, quả nhiên là nhỏ cố tính.`
+				content: `Mắt của ${nameCharacter[10]} đảo đi không nhìn thẳng vào tôi, quả nhiên là nhỏ cố tình.`
 			},
 			{
 				color: colorCharacter[9],
