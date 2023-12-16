@@ -472,7 +472,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[9] ],
-				content: `Chỗ này còn hơi... Ủa? Nước ở đâu bắn qua đây vậy? Tôi ngó nghiêm, rồi quay ra phía ${nameCharacter[10]}.`
+				content: `Chỗ này còn hơi... Ủa? Nước ở đâu bắn qua đây vậy? Tôi ngó nghiêng, rồi quay ra phía ${nameCharacter[10]}.`
 			},
 			{
 				color: colorCharacter[10],
