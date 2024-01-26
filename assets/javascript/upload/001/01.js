@@ -1574,7 +1574,7 @@ const volume = [
 			{
 				color: colorOther[1],
 				name: [ `???` ],
-				content: `Chính xác. Ta đã cho lãnh chúa hiện tại một lời gợi ý.`
+				content: `Chính xác. Ta đã cho lãnh chúa đời trước một lời gợi ý.`
 			},
 			{
 				color: colorCharacter[9],
@@ -2305,7 +2305,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `À, mời anh. Dù sao thì anh cũng là người họ nó để cứu tụi em... Và dùng nhiều lọ thuốc trông rất đắt nữa, làm em thấy hơi áy náy...`
+				content: `À, mời anh. Dù sao thì anh cũng là người hạ nó để cứu tụi em... Và dùng nhiều lọ thuốc trông rất đắt nữa, làm em thấy hơi áy náy...`
 			},
 			{
 				color: colorCharacter[16],
@@ -2370,7 +2370,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Thế là tôi quyết định cõng ${nameCharacter[11]} về, một phần cũng là để cảm ơn trước lúc tôi tỉnh lại. Và ${nameCharacter[10]} chắc mai sẽ lại như bình thường thôi... tôi mong vậy.`
+				content: `Nghe vậy tôi cũng vội cõng ${nameCharacter[11]} về, một phần cũng là để cảm ơn trước lúc tôi tỉnh lại. Và ${nameCharacter[10]} chắc mai sẽ lại như bình thường thôi... tôi mong vậy.`
 			},
 			{
 				color: colorCharacter[17],
@@ -2882,12 +2882,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[9] ],
-				content: `${nameCharacter[1]} vẫn đứng im? Cậu ta có kế hoạch gì à? Con ma thú thì ngày càng tới gần. ${nameMob[3]} giơ vuốt phải của nó lên và trước khi tôi định dùng${nameSkill[15]}thì ${nameCharacter[1]} đã xoay người về bên phải và nhảy giật lùi về hướng tôi ngay thời điểm nó áp sát. ${nameMob[3]} đã vồ vào tường băng mà ${nameCharacter[11]} đã dựng trước đó. Thì ra cậu muốn làm chậm đi chuyển động của nó một chút. Cứ ngỡ là thành công nào ngờ chân phải của ${nameMob[3]} bám vào tường đưa cả ba chân còn lại lên rồi lấy đà phóng thẳng tới ${nameCharacter[1]}.`
+				content: `${nameCharacter[1]} vẫn đứng im? Cậu ta có kế hoạch gì à? Con ma thú thì ngày càng tới gần. ${nameMob[3]} giơ vuốt phải của nó lên và trước khi tôi định dùng${nameSkill[15]}thì ${nameCharacter[1]} đã xoay người về bên phải và nhảy giật lùi về hướng này ngay thời điểm nó áp sát. ${nameMob[3]} đã vồ vào tường băng mà ${nameCharacter[11]} đã dựng trước đó. Thì ra cậu muốn làm chậm đi chuyển động của nó một chút. Cứ ngỡ là thành công nào ngờ chân phải của ${nameMob[3]} bám vào tường đưa cả ba chân còn lại lên rồi lấy đà phóng thẳng tới ${nameCharacter[1]}.`
 			},
 			{
 				color: colorCharacter[9],
 				name: [ nameCharacter[9] ],
-				content: `Để mình lo cho.${nameSkill[15]}.`
+				content: `Để mình lo cho.${nameSkill[15]}`
 			},
 			{
 				color: colorOther[0],
@@ -3002,7 +3002,7 @@ const volume = [
 			{
 				color: colorCharacter[9],
 				name: [ nameCharacter[9] ],
-				content: `${nameCharacter[1]} lùi lại!${nameSkill[15]}. Mình không hiểu sao đòn tấn công của ${nameCharacter[10]} và ${nameCharacter[11]} lại khác biệt đến vậy. Hay là do chỗ bị bắn là điểm yếu?`
+				content: `${nameCharacter[1]} lùi lại để mình chắn! Mình không hiểu sao đòn tấn công của ${nameCharacter[10]} và ${nameCharacter[11]} lại khác biệt đến vậy. Hay là do chỗ bị bắn là điểm yếu?`
 			},
 			{
 				color: colorCharacter[1],
@@ -3027,7 +3027,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[9] ],
-				content: `Tôi thở dài hạ khiên xuống, ai nấy cũng đều đuối sức cả. ${nameCharacter[11]} thì chắc không còn đủ ma lực để bắn cung nữa, nhỏ ngã quỵ rồi. Còn ${nameCharacter[1]} chắc cũng đang cảm thấy khá đau sau khi bị như vậy. Kiếm cắm thẳng xuống đất và cậu dồn hết lực vào tay phải để tựa cố đứng thẳng. Và ${nameCharacter[10]} thậm chí còn ngồi hẳn xuống đất, dù sao thì nhỏ cũng là người đã tấn công liên tục trong suốt trận chiến. Rồi tôi quay ra nhìn lại màn sương lạnh giá bao trùm ${nameMob[3]}, tuy không rõ con ma thú trong đó nhưng có ánh sáng tím le lói... không... đừng đùa chứ... Nó đang hướng đến ${nameCharacter[10]}... Tôi phải chạy... phải bảo vệ... chạy... chạy... CHẠY!`
+				content: `Tôi thở dài hạ khiên xuống, ai nấy cũng đều đuối sức cả. ${nameCharacter[11]} thì chắc không còn đủ ma lực để bắn tên nữa, nhỏ ngã quỵ rồi. Còn ${nameCharacter[1]} chắc cũng đang cảm thấy khá đau sau khi bị như vậy. Kiếm cắm thẳng xuống đất và cậu dồn hết lực vào tay phải để tựa cố đứng thẳng. Và ${nameCharacter[10]} thậm chí còn ngồi hẳn xuống đất, dù sao thì nhỏ cũng là người đã tấn công liên tục trong suốt trận chiến. Rồi tôi quay ra nhìn lại màn sương lạnh giá bao trùm ${nameMob[3]}, tuy không rõ con ma thú trong đó nhưng có ánh sáng tím le lói... không... đừng đùa chứ... Nó đang hướng đến ${nameCharacter[10]}... Tôi phải chạy... phải bảo vệ... chạy... chạy... CHẠY!`
 			},
 			{
 				color: colorCharacter[9],
@@ -3112,7 +3112,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `BIẾN ĐIIIIIIII!`
+				content: `CHẾT ĐIIIIIIII!`
 			},
 			{
 				color: colorOther[0],
@@ -3584,7 +3584,7 @@ const volume = [
 			{
 				color: colorCharacter[10],
 				name: [ nameCharacter[10] ],
-				content: `NYA! ${nameCharacter[9]}, CÓ SAO... Nya! Cậu vừa dẫm phải con ${nameMob[2]} này nya. À không... đây chỉ là chất nhầy ${nameMob[2]} thôi nya. Nhưng chúng ta chỉ cần lần theo vệt nhầy của ${nameMob[2]} là được rồi, ${nameCharacter[9]} tuyệt thật đó nya.`
+				content: `NYA! ${nameCharacter[9]}, có sao... Cậu vừa dẫm phải con ${nameMob[2]} này nya. À không... đây chỉ là chất nhầy ${nameMob[2]} thôi nya. Nhưng chúng ta chỉ cần lần theo vệt nhầy của ${nameMob[2]} là được rồi, ${nameCharacter[9]} tuyệt thật đó nya.`
 			},
 			{
 				color: colorCharacter[9],
@@ -3598,8 +3598,8 @@ const volume = [
 			},
 			{
 				color: colorOther[0],
-				name: [ `???` ],
-				content: `Sau khi ${nameCharacter[10]} kéo ${nameCharacter[9]} đứng dậy thì bộ đôi lần theo vết nhầy của ${nameMob[2]} để lại và đã dẫn họ đến một bãi đá nhỏ gần bìa rừng. Ở đó đang có bầy ${nameMob[2]} tụ tập lại xung quanh và có vẻ bọn chúng đang trốn khỏi thứ gì đó. Thường thì ${nameMob[2]} hay di chuyển vô định nhưng nếu có cảm giác bị đe dọa thì chúng sẽ tìm nơi để trốn.`
+				name: [ nameCharacter[9] ],
+				content: `Sau khi ${nameCharacter[10]} kéo tôi đứng dậy thì cả hai lần theo vết nhớt của ${nameMob[2]} để lại, dẫn được đến một bãi đá nhỏ gần bìa rừng. Ở đó đang có bầy ${nameMob[2]} tụ tập lại xung quanh và có vẻ bọn chúng đang trốn khỏi thứ gì đó. Thường thì ${nameMob[2]} hay di chuyển vô định nhưng nếu có cảm giác bị đe dọa thì chúng sẽ tìm nơi để trốn.`
 			},
 			{
 				color: colorCharacter[9],
@@ -3608,8 +3608,13 @@ const volume = [
 			},
 			{
 				color: colorOther[0],
-				name: [ `???` ],
-				content: `Chưa dứt lời, ${nameCharacter[10]} đã chạy thẳng lên tảng đá lớn mà bọn ${nameMob[2]} đang trốn sau đó. Hai tay cô nắm chắc thanh trọng kiếm, đưa đường kiếm hướng từ bên phải phía dưới lên phía trên quá đầu trong khi bật nhảy khỏi tảng đá. Trên không trung, cô vung kiếm đập mạnh xuống mặt đất khiến xung quanh tỏa ra trấn động. Tuy rằng cú vung không trúng con ${nameMob[2]} nào vì khi ${nameCharacter[10]} ở trên không trung, bọn ${nameMob[2]} đã nhận ra và nhảy ra hướng khác. Nhưng những con mà gần ${nameCharacter[10]} nhất đã không né được trấn động từ cú vung kiếm xuống mặt đất nên đã bị choáng và mất phương hướng. Và đó là kỹ năng${nameSkill[12]}mà ${nameCharacter[10]} đã sử dụng. Sau cú đập kiếm đó, ${nameCharacter[10]} liền đổi tư thế ngay lập tức, cô cầm chắc thanh trọng kiếm trong tay, vung một vòng từ trái qua phải kết liễu các con ${nameMob[2]} đang bị choáng ngay lập tức.`
+				name: [ nameCharacter[9] ],
+				content: `Chưa dứt lời, ${nameCharacter[10]} đã chạy thẳng lên tảng đá lớn mà bọn ${nameMob[2]} đang trốn sau đó. Hai tay nhỏ nắm chắc thanh trọng kiếm, đưa đường kiếm hướng từ bên phải phía dưới lên phía trên quá đầu trong khi bật nhảy khỏi tảng đá. Trên không trung, nhỏ vung kiếm đập mạnh xuống mặt đất khiến xung quanh tỏa ra trấn động. Tuy rằng cú vung không trúng con ${nameMob[2]} nào vì khi ${nameCharacter[10]} ở trên không trung, bọn ${nameMob[2]} đã nhận ra và nhảy ra hướng khác. Nhưng những con mà gần ${nameCharacter[10]} nhất đã không né được trấn động từ cú vung kiếm xuống mặt đất nên đã bị choáng và mất phương hướng. Và đó là kỹ năng${nameSkill[12]}mà ${nameCharacter[10]} đã nói với tôi ngày hôm qua.`
+			},
+			{
+				color: colorOther[0],
+				name: [ nameCharacter[9] ],
+				content: `Sau cú đập kiếm đó, ${nameCharacter[10]} liền đổi tư thế ngay lập tức, nhỏ cầm chắc thanh trọng kiếm trong tay, vung một vòng từ trái qua phải kết liễu các con ${nameMob[2]} đang bị choáng ngay lập tức.`
 			},
 			{
 				color: colorCharacter[10],
@@ -3619,7 +3624,7 @@ const volume = [
 			{
 				color: colorCharacter[9],
 				name: [ nameCharacter[9] ],
-				content: `Từ từ đã ${nameCharacter[10]}, nếu không cậu sẽ... Biết ngay mà... Hầy...`
+				content: `Từ từ đã ${nameCharacter[10]}! Nếu không cậu sẽ... Biết ngay mà...`
 			},
 			{
 				color: colorOther[0],
@@ -3629,7 +3634,7 @@ const volume = [
 			{
 				color: colorCharacter[9],
 				name: [ nameCharacter[9] ],
-				content: `Để mình lùa bọn ${nameMob[2]} lại cho. Còn cậu cố loại bỏ chất nhầy dích trên người của cậu đi ha.`
+				content: `Để mình lùa bọn ${nameMob[2]} lại cho. Còn cậu cố loại bỏ chất nhầy dính trên người đi ha.`
 			},
 			{
 				color: colorOther[0],
@@ -3639,12 +3644,12 @@ const volume = [
 			{
 				color: colorCharacter[11],
 				name: [ nameCharacter[11] ],
-				content: `Còn vài con nữa là xong nhiệm vụ. ${nameCharacter[10]}... đã làm gì để ra nông nỗi thế này?`
+				content: `Còn vài con nữa là xong nhiệm vụ. ${nameCharacter[10]}... đã làm gì để ra nông nỗi như kia?`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `${nameCharacter[10]} lúc này đang ngồi dưới đất cố gỡ chất nhầy đang dính trên người. Do cách tấn công mạnh của ${nameCharacter[10]} nên chất nhầy trong cơ thể ${nameMob[2]} đã bắn lên người nhỏ. Còn ${nameCharacter[11]} tấn công từ xa nên sẽ không cần lo việc bị dính phải.`
+				content: `${nameCharacter[10]} lúc này đang ngồi dưới đất cố gỡ chất nhầy đang dính trên người. Do cách tấn công mạnh của ${nameCharacter[10]} nên chất nhớt trong cơ thể ${nameMob[2]} đã bắn lên người nhỏ. Còn ${nameCharacter[11]} tấn công từ xa nên sẽ không cần lo việc bị dính phải.`
 			},
 			{
 				color: colorCharacter[10],
@@ -3664,12 +3669,12 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `Nếu mình dùng được thêm thủy thuật thì${nameSkill[14]}sẽ hiệu quả hơn nhiêu nên dùng tạm vậy.`
+				content: `Nếu mình dùng được thêm thủy thuật thì${nameSkill[14]}sẽ hiệu quả hơn nhiều, đành dùng tạm phong thuật vậy.`
 			},
 			{
 				color: colorCharacter[10],
 				name: [ nameCharacter[10] ],
-				content: `${nameCharacter[1]} tuyệt vời nya! Tạm thời thế là ổn với mình rồi nya! À mà mình săn đủ yêu cầu rồi nên giờ giúp nốt Hyoukya. Còn cần mấy con nữa vậy nya?`
+				content: `Tuyệt vời Shuunya! Tạm thời thế là ổn với mình rồi nya! À mà mình săn đủ yêu cầu rồi nên giờ giúp nốt Hyoukya. Còn cần mấy con nữa vậy nya?`
 			},
 			{
 				color: colorCharacter[11],
@@ -3684,12 +3689,12 @@ const volume = [
 			{
 				color: colorCharacter[11],
 				name: [ nameCharacter[11] ],
-				content: `Mắt của Elf khá tinh đó.`
+				content: `Mắt của mình khá tinh đó.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Trong lúc mọi người đang nói chuyện thì tôi tiến tới chỗ đám ${nameMob[2]} bị ${nameCharacter[11]} hạ, cầm một con lên nhìn kĩ. Có vẻ băng của ${nameCharacter[11]} chỉ đóng băng bề ngoài nhưng dường như ${nameMob[2]} không chịu được lạnh nên đã bị hạ. Tôi lấy dao bếp từ ${nameItem[2]} ra, khoét một lỗ đủ lớn để tôi thò hai ngón tay vào lấy ${nameItem[6]}. Lí do tại sao không đổ chất nhầy của ${nameMob[2]} ra ngoài để dễ lấy ${nameItem[6]} thì là vì tôi định giữ lại để thí nghiệm nó vào lúc nào đấy, rồi cất vào ${inventory}. Tuy là chị ${nameCharacter[15]} có nói nó không có giá trị gì nhưng có lẽ nó sẽ có ích trong vài trường hợp. Và tôi đã lặp lại như thế với các con ${nameMob[2]} còn lại của ${nameCharacter[11]}.`
+				content: `Trong lúc mọi người đang nói chuyện thì tôi tiến tới chỗ đám ${nameMob[2]} bị ${nameCharacter[11]} hạ, cầm một con lên nhìn kĩ. Có vẻ băng của ${nameCharacter[11]} chỉ đóng băng bề ngoài nhưng dường như ${nameMob[2]} không chịu được lạnh nên đã bị hạ. Tôi lấy dao bếp từ ${nameItem[2]} ra, khoét một lỗ đủ lớn để tôi thò hai ngón tay vào lấy ${nameItem[6]}. Lí do tại sao không đổ chất nhớt của ${nameMob[2]} ra ngoài để dễ lấy ${nameItem[6]} thì là vì tôi định giữ lại để thí nghiệm nó vào lúc nào đấy, rồi cất vào ${inventory}. Tuy là chị ${nameCharacter[15]} có nói nó không có giá trị gì nhưng có lẽ nó sẽ có ích trong vài trường hợp. Và tôi đã lặp lại như thế với các con ${nameMob[2]} còn lại của ${nameCharacter[11]}.`
 			},
 			{
 				color: colorCharacter[1],
@@ -3724,7 +3729,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Một lần nữa, bộ đôi lại không nghe tôi nói. Tôi thở dài, bất lực và nhìn xuống đất. Tự hỏi vị trí trưởng tổ đội chắc không hợp với tôi. ${nameCharacter[11]} đặt hai bàn tay sau lưng tôi, đẩy tôi về trước như đang bảo phải đuổi theo họ ngay vậy. Chị ${nameCharacter[15]} có bảo người mới không nên vào rừng vội, có nhiều ma vật nguy hiểm tồn tại trong đó. Gác suy nghĩ vu vơ sang một bên, tôi cần phải đuổi theo họ.`
+				content: `Một lần nữa, bộ đôi lại không nghe tôi nói. Tôi thở dài, bất lực và nhìn xuống đất. Tự hỏi vị trí trưởng tổ đội chắc không hợp với tôi. ${nameCharacter[11]} đặt hai bàn tay sau lưng tôi, đẩy về trước như đang bảo phải đuổi theo họ ngay vậy. Chị ${nameCharacter[15]} có bảo người mới không nên vào rừng vội, có nhiều ma vật nguy hiểm tồn tại trong đó. Gác suy nghĩ vu vơ sang một bên, tôi cần phải đuổi theo họ.`
 			},
 			{
 				color: colorCharacter[1],
@@ -3734,7 +3739,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `???` ],
-				content: `Chú ${nameMob[2]} bị ${nameCharacter[11]} bắn hụt đang nhảy sâu vào trong rừng. Chú cứ nhảy mãi cho đến khi cắt đuôi được tổ đội của ${nameCharacter[1]}. Rồi, một bàn chân của ma thú có bộ lông bạc từ đâu dẫm bẹp chú ${nameMob[2]}. Mồm của nó đang nhai ngấu nghiến một con ma thú khác bằng bộ hàm sắc nhọn có thể thấy từ bên ngoài. Còn đôi mắt thì đỏ ngầu như màu máu tươi vậy. Con ma thú vừa bước đi vừa nhai rồi biến mất khỏi nơi chú ${nameMob[2]} tội nghiệp đã bị dẫm bẹp.`
+				content: `${nameMob[2]} bị ${nameCharacter[11]} bắn hụt đang nhảy sâu vào trong rừng. Nó cứ nhảy mãi cho đến khi cắt đuôi được tổ đội của ${nameCharacter[1]}. Rồi, một bàn chân của ma thú có bộ lông bạc từ đâu dẫm bẹp ${nameMob[2]}. Mồm của nó đang nhai ngấu nghiến một con ma thú khác bằng bộ hàm sắc nhọn có thể thấy từ bên ngoài. Còn đôi mắt thì đỏ ngầu như màu máu tươi vậy. Con ma thú vừa bước đi vừa nhai rồi biến mất khỏi nơi ${nameMob[2]} tội nghiệp đã bị dẫm bẹp.`
 			}
 		]
 	},
@@ -3955,7 +3960,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `Xin lỗi nha. Ngoài này thoải mái quá nên mình lỡ chìm quá sâu haha. Được rồi các cậu, chuẩn bị săn ${nameMob[2]} nào.`
+				content: `Xin lỗi nha. Ngoài này thoải mái quá nên mình lỡ chìm sâu haha. Được rồi các cậu, chuẩn bị săn ${nameMob[2]} nào.`
 			},
 			{
 				color: colorCharacter[11],
@@ -3976,12 +3981,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Tổ đội ${nameParty[0]} của tôi đang đứng ngơ ngác trước sáu bảng lớn treo trên tường, đính chằng chịt trên đó là những tờ nhiệm vụ. Mỗi bảng đại diện cho từng hạng, còn nhiệm vụ đều được phân chia hợp lí, tùy vài trường hợp bị đánh giá sai. Bảng phía xa quầy tiếp tân nhất là dành cho hạng Sắt và gần nhất là dành cho hạng Mythril. Bọn tôi tiến tới bảng hạng Sắt, liếc đi liếc lại tìm nhiệm vụ thích hợp cho bản thân.`
+				content: `Tổ đội ${nameParty[0]} của tôi đang đứng ngơ ngác trước sáu bảng lớn treo trên tường, đính chằng chịt trên đó là những tờ nhiệm vụ. Mỗi bảng đại diện cho từng hạng, còn nhiệm vụ phần lớn được phân chia hợp lí. Bảng phía xa quầy tiếp tân nhất là dành cho hạng Sắt và gần nhất là dành cho hạng Ma bạc kim. Bọn tôi tiến tới bảng hạng Sắt, liếc đi liếc lại tìm nhiệm vụ thích hợp cho bản thân.`
 			},
 			{
 				color: colorCharacter[9],
 				name: [ nameCharacter[9] ],
-				content: `Được rồi, mình sẽ lấy nhiệm vụ săn ${nameMob[1]}. Phần thưởng tuy chỉ có vài xu đồng nhưng chúng ta có thể bán nguyên liệu từ ma vật và nhất là ${nameItem[6]} `
+				content: `Được rồi, mình sẽ lấy nhiệm vụ săn ${nameMob[1]}. Phần thưởng tuy chỉ có vài xu đồng nhưng chúng ta có thể bán nguyên liệu từ ma vật và nhất là ${nameItem[6]}.`
 			},
 			{
 				color: colorOther[0],
@@ -4101,7 +4106,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `${nameCharacter[11]} không còn hỏi thêm gì, chắc linh cảm mình đã nhầm. Cả tổ đội sau đó đến bên chỗ chị ${nameCharacter[15]} để xác nhận nhiệm vụ vào thẻ và hỏi thêm một vài thông tin cần thiết về nhiệm vụ. Rồi cả nhóm rời khỏi hiệp hội, đích đến là thảo nguyên gần cánh rừng nên tổ đội quyết định ra thị trấn từ cổng Tây Bắc.`
+				content: `${nameCharacter[11]} không còn hỏi thêm gì, chắc linh cảm của tôi đã nhầm. Cả tổ đội sau đó đến bên chỗ chị ${nameCharacter[15]} để xác nhận nhiệm vụ vào thẻ và hỏi thêm một vài thông tin cần thiết về nhiệm vụ. Rồi cả nhóm rời khỏi hiệp hội, đích đến là thảo nguyên gần cánh rừng nên tổ đội quyết định ra thị trấn từ cổng Tây Bắc.`
 			},
 			{
 				color: colorOther[0],
@@ -4206,7 +4211,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Sau câu nói đó mọi người liền lùi lại, còn cậu ta đứng cách hố một khoảng rồi ném hòn đá vào. Một lúc sau có một cái đầu nhô lên, ${nameMob[1]} nhìn chằm chằm vào ${nameCharacter[9]} một lúc rồi lao lên như tên bắn. Cũng may ${nameCharacter[9]} đã cản được nhờ tấm khiên nên cậu không bị thương. Nhưng phải công nhận lực bật nhảy của ${nameMob[1]} đúng là rất khỏe, đến nỗi ${nameCharacter[9]} còn tí thì bị ngã sau khi đỡ.`
+				content: `Sau câu nói đó mọi người liền lùi lại, còn cậu ấy đứng cách hố một khoảng rồi ném hòn đá vào. Một lúc sau có một cái đầu nhô lên, ${nameMob[1]} nhìn chằm chằm vào ${nameCharacter[9]} một lúc rồi lao lên như tên bắn. Cũng may ${nameCharacter[9]} đã cản được nhờ tấm khiên nên cậu không bị thương. Nhưng phải công nhận lực bật nhảy của ${nameMob[1]} đúng là rất khỏe, đến nỗi ${nameCharacter[9]} còn tí thì bị ngã sau khi đỡ.`
 			},
 			{
 				color: colorCharacter[9],
@@ -4216,7 +4221,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `${nameMob[1]} giống với loài thỏ ở thế giới trước, chỉ khác là trên đầu nó có một cái sừng nhỏ bằng một đốt ngón tay cái và có khả năng dùng kỹ năng. Ở vùng này thì nó có bộ lông nâu nhạt, đôi mắt đen óng, đuôi xù lông như cục bông và đôi tai dài đủ để che được cả mắt nó. Loài này khá là thù địch, chỉ cần có động vật hay con người ở trước mặt đều sẽ tấn công. Mà phương thức tấn công của ${nameMob[1]} là dùng kỹ năng${nameSkill[11]}để tăng sức bật húc đầu vào đối thủ. Tuy sừng của chúng ngắn nhưng nếu đâm trúng những chỗ hiểm cũng đủ để khiến đối thủ chịu thiệt thòi lớn. Hơn thế nữa phần sọ của ${nameMob[1]} khá cứng nên sau mỗi lần húc chúng sẽ không bị choáng, thậm chí khi chân chúng chạm được mặt đất sẽ ngay lập tức tấn công tiếp. Nếu mà đánh cả bầy ${nameMob[1]} thì khả năng thua là rất cao trừ khi phòng thủ của bạn cực tốt. Theo lời của chị ${nameCharacter[15]} nói về ${nameMob[1]} là như vậy.`
+				content: `${nameMob[1]} giống với loài thỏ ở thế giới trước, chỉ khác là trên đầu nó có một cái sừng nhỏ bằng một đốt ngón tay cái và có khả năng dùng kỹ năng. Ở vùng này thì nó có bộ lông nâu nhạt, đôi mắt đen óng, đuôi xù lông như cục bông và đôi tai dài đủ để che được cả mắt nó. Loài này khá là thù địch, chỉ cần có động vật hay con người ở trước mặt đều sẽ tấn công. Mà phương thức tấn công của ${nameMob[1]} là dùng kỹ năng${nameSkill[11]}để tăng sức bật húc đầu vào đối thủ. Tuy sừng của chúng ngắn nhưng nếu đâm trúng những chỗ hiểm cũng đủ để khiến đối thủ chịu thiệt hại lớn. Hơn thế nữa phần sọ của ${nameMob[1]} khá cứng nên sau mỗi lần húc chúng sẽ không bị choáng, thậm chí khi chân chúng chạm được mặt đất sẽ ngay lập tức tấn công tiếp. Nếu mà đánh cả bầy ${nameMob[1]} thì khả năng thua là rất cao trừ khi phòng thủ của bạn cực tốt. Theo lời của chị ${nameCharacter[15]} nói về ${nameMob[1]} là như vậy.`
 			},
 			{
 				color: colorOther[0],
@@ -4291,12 +4296,12 @@ const volume = [
 			{
 				color: colorCharacter[10],
 				name: [ nameCharacter[10] ],
-				content: `Được thôi nya. Nè cầm lấy... NYA! SAU LẠI THÀNH ĐỐM SÁNG NHỎ SAU KHI CẬU ĐỘNG VÀO VẬY NYA? VÀ NÓ BIẾN MẤT RỒI NYA?`
+				content: `Được thôi nya. Nè cầm lấy... NYA! SAO LẠI THÀNH ĐỐM SÁNG NHỎ SAU KHI CẬU ĐỘNG VÀO VẬY NYA? VÀ NÓ BIẾN MẤT RỒI NYA?`
 			},
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `Bình tĩnh nào ${nameCharacter[10]}. Mình chỉ cho vào ${inventory} để cho gọn và giữ cho thịt vẫn tươi ý mà.`
+				content: `Bình tĩnh nào ${nameCharacter[10]}. Mình giữ nó trong ${inventory} để thịt vẫn tươi ý mà.`
 			},
 			{
 				color: colorOther[0],
@@ -4402,7 +4407,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Nhóm tôi đã quyết định sau khi nhận được chức nghiệp sẽ đăng ký làm ${nameJob[8]} cùng nhau luôn. Vừa đúng lúc tôi làm xong đồ ăn trưa thì các cậu ấy cũng đã đến.`
+				content: `Nhóm tôi đã quyết định sau khi nhận được chức nghiệp sẽ đăng ký làm ${nameJob[8]} vào ngày hôm sau cùng nhau luôn. Vừa đúng lúc tôi làm xong đồ ăn trưa thì các cậu ấy đến.`
 			},
 			{
 				color: colorCharacter[1],
@@ -4472,7 +4477,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `${nameItem[2]} của ${nameJob[0]} là điều ước thứ hai, dạng khối lập phương bạc đầy lòng bàn tay. Cho phép tôi dùng ma lực để lấy bất cứ dụng cụ nhà bếp từng thấy trong${nameLocation[0]}`
+				content: `${nameItem[2]} của ${nameJob[0]} là điều ước thứ hai, mang hình dạng khối lập phương bạc đầy lòng bàn tay. Cho phép tôi dùng ma lực để lấy bất cứ dụng cụ nhà bếp từng thấy ở${nameLocation[0]}từ trong ${nameItem[2]} ra. Vật phẩm này hơi gian lận chút...`
 			},
 			{
 				color: colorOther[0],
@@ -4527,7 +4532,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Bằng một cách nào đó thì cả nhóm tôi cũng đã đến hiệp hội ${nameJob[8]}. Hiệp hội thật lớn cùng bảng hiệu to đùng trước mặt tiền, mặc dù nơi đây chỉ là thị trấn. Nhìn qua kiến trúc thì vật liệu chủ yếu là từ gỗ nhưng không mất đi sự tinh tế. Khi vào bên trong, đông đúc ${nameJob[8]} với những phong cách ăn mặc và chủng loại khác nhau. Thậm chí ở đây có cả quầy đồ ăn nhẹ cho ${nameJob[8]} nữa, chắc đó là một phần lí do hiệp hội mới lớn như vậy.`
+				content: `Bằng một cách nào đó thì cả nhóm tôi cũng đã đến hiệp hội ${nameJob[8]}. Hiệp hội thật lớn cùng bảng hiệu to đùng trước mặt tiền, mặc dù nơi đây chỉ là thị trấn. Nhìn qua kiến trúc thì vật liệu chủ yếu là từ gỗ nhưng không mất đi sự tinh tế. Khi vào bên trong, đông đúc ${nameJob[8]} với những phong cách ăn mặc và chủng tộc khác nhau. Thậm chí ở đây có cả quầy đồ ăn nhẹ cho ${nameJob[8]} nữa, chắc đó là một phần lí do hiệp hội mới lớn như vậy.`
 			},
 			{
 				color: colorCharacter[9],
@@ -4587,7 +4592,7 @@ const volume = [
 			{
 				color: colorCharacter[15],
 				name: [ nameCharacter[15] ],
-				content: `Nếu vậy thì mời các em lần lượt chạm vào ${nameItem[3]}. Quả cầu này chỉ hiện thị vài thông tin như tên, tuổi, giới tính, chủng loại, chức nghiệp để chị kiểm tra thôi nên đừng lo lộ các thông tin khác nhé.`
+				content: `Nếu vậy thì mời các em lần lượt chạm vào ${nameItem[3]}. Quả cầu này chỉ hiện thị vài thông tin như tên, tuổi, giới tính, chủng tộc, chức nghiệp để chị kiểm tra thôi nên đừng lo lộ các thông tin khác nhé.`
 			},
 			{
 				color: colorOther[0],
@@ -4597,7 +4602,7 @@ const volume = [
 			{
 				color: colorCharacter[15],
 				name: [ nameCharacter[15] ],
-				content: `Xem nào... ${nameCharacter[1]}, chức nghiệp ${nameJob[0]}... Khoan đã ${nameJob[0]} ư?`
+				content: `Xem nào... ${nameCharacter[1]}, chức nghiệp ${nameJob[0]}... Khoan đã, ${nameJob[0]} ư?`
 			},
 			{
 				color: colorCharacter[1],
@@ -4622,7 +4627,7 @@ const volume = [
 			{
 				color: colorCharacter[10],
 				name: [ nameCharacter[10] ],
-				content: `Đúng đó nya. ${nameCharacter[1]} còn đánh thắng cả ${nameCharacter[12]} trong trận đấu kiếm nữa mà nya.`
+				content: `Đúng đó nya. ${nameCharacter[1]} còn đánh thắng cả ${nameCharacter[12]} trong trận đấu kiếm hôm qua nữa mà nya.`
 			},
 			{
 				color: colorCharacter[9],
@@ -4697,7 +4702,7 @@ const volume = [
 			{
 				color: colorCharacter[9],
 				name: [ `Bộ đôi` ],
-				content: `Đúng đó chị! (nya!)`
+				content: `Đúng đó chị (nya)!`
 			},
 			{
 				color: colorCharacter[15],
@@ -4717,7 +4722,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Từ lúc nào, tay tôi đã ở trên đầu ${nameCharacter[11]} và xoa nhẹ. Đến khi tôi nhận ra, mặt nhỏ đã ửng đỏ thì...`
+				content: `Từ lúc nào, tay tôi đã ở trên đầu ${nameCharacter[11]} và xoa nhẹ. Đến khi tôi nhận ra thì mặt nhỏ đã ửng đỏ...`
 			},
 			{
 				color: colorCharacter[1],
@@ -4732,12 +4737,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Đôi tai lá trúc của ${nameCharacter[11]} cũng đã ửng hồng, vẫy lên xuống. Chị ${nameCharacter[15]} cũng nhận ra gì đó, chỉ cười thầm.`
+				content: `Đôi tai lá trúc của ${nameCharacter[11]} cũng ửng hồng, vẫy lên xuống. Chị ${nameCharacter[15]} cũng nhận ra gì đó, chỉ cười thầm.`
 			},
 			{
 				color: colorCharacter[15],
 				name: [ nameCharacter[15] ],
-				content: `Đây là ${nameItem[4]} của các em. Nó hiển thị một vài thông tin như là tên, tuổi, giới tính, chủng loại, chức nghiệp, hạng Mạo hiểm giả, tổ đội nếu có, thống kê nhiệm vụ nhận và sinh vật đã hạ.`
+				content: `Đây là ${nameItem[4]} của các em. Nó hiển thị một vài thông tin như là tên, tuổi, giới tính, chủng tộc, chức nghiệp, hạng Mạo hiểm giả, tổ đội nếu có, thống kê nhiệm vụ nhận và sinh vật đã hạ.`
 			},
 			{
 				color: colorCharacter[15],
@@ -4785,52 +4790,52 @@ const volume = [
 				content: `Được rồi, giờ chị sẽ phổ biến các nội dung cần biết khi là ${nameJob[8]} nhé.`
 			},
 			{
-				color: colorCharacter[15],
+				color: colorOther[0],
 				name: [ nameCharacter[15] ],
-				content: `Về hạng ${nameJob[8]} được chia làm sáu loại, thấp nhất là hạng Sắt, rồi tăng lên Đồng, Bạc, Vàng, Bạch kim và Mythril là hạng cao nhất.`
+				content: `Về hạng ${nameJob[8]} được chia làm sáu loại, thấp nhất là hạng Sắt, rồi tăng lên Đồng, Bạc, Vàng, Bạch kim và Ma bạc kim là hạng cao nhất.`
 			},
 			{
-				color: colorCharacter[15],
+				color: colorOther[0],
 				name: [ nameCharacter[15] ],
-				content: `Để có thể thăng hạng phải hoàn thành một trăm nhiệm vụ cùng bậc hoặc hơn bậc. Sau đó số lượng yêu cầu hoàn thành nhiệm vụ sẽ tăng thêm một trăm mỗi lần thăng hạng. Đồng thời cũng phải trải qua một bài kiểm tra đánh giá của hiệp hội để có thể chính thức thăng hạng. Đặc biệt, nếu có thành tích xuất sắc kèm tín cử từ hạng Bạch kim hoặc Mythril hoặc từ những người có quyền lực sẽ được xem xét thăng hạng, bỏ qua các điều kiện cần.`
+				content: `Để có thể thăng hạng phải hoàn thành một trăm nhiệm vụ cùng bậc hoặc hơn bậc. Sau đó số lượng yêu cầu hoàn thành nhiệm vụ sẽ tăng thêm một trăm mỗi lần thăng hạng. Đồng thời cũng phải trải qua một bài kiểm tra đánh giá của hiệp hội để có thể chính thức thăng hạng. Đặc biệt, nếu có thành tích xuất sắc kèm tín cử từ hạng Bạch kim hoặc Ma bạc kim hoặc từ những người có quyền lực sẽ được xem xét thăng hạng, bỏ qua các điều kiện cần.`
 			},
 			{
-				color: colorCharacter[15],
+				color: colorOther[0],
 				name: [ nameCharacter[15] ],
-				content: `Sau một khoảng thời gian không làm nhiệm vụ sẽ bị tụt hạng, lần lượt từ hạng Sắt là một tháng, rồi hạng Đồng là ba tháng, sáu tháng, chín tháng và hạng Bạch kim là một năm. Riêng hạng Sắt nếu lâu không làm nhiệm vụ sẽ phải nộp phí để hoạt động lại, còn hạng Mythril sẽ không bị tụt.`
+				content: `Sau một khoảng thời gian không làm nhiệm vụ sẽ bị tụt hạng, lần lượt từ hạng Sắt là một tháng, rồi hạng Đồng là ba tháng, sáu tháng, chín tháng và hạng Bạch kim là một năm. Riêng hạng Sắt nếu lâu không làm nhiệm vụ sẽ phải nộp phí để hoạt động lại, còn hạng Ma bạc kim sẽ không bị tụt.`
 			},
 			{
-				color: colorCharacter[15],
+				color: colorOther[0],
 				name: [ nameCharacter[15] ],
-				content: `Ở vài hạng nhất định sẽ có quyền lợi đặc biệt như hạng Bạch kim và Mythril sẽ được trả phí sửa chữa đồ cùng phí chữa trị sau khi hoàn thành nhiệm vụ. Còn riêng hạng Mythril sẽ có thêm quyền lợi là hưởng lương hưu mỗi tháng khi người đó chính thức nộp đơn nghỉ không hoạt động làm ${nameJob[8]} nữa. Tất nhiên họ vẫn có thể rút đơn và hoạt động tiếp nhưng lương hưu sẽ tạm dừng, sau đó vẫn có thể nộp lại đơn nếu muốn. Đổi lại, họ sẽ sẽ bị buộc triệu tập làm nhiệm vụ khi xảy ra trong bất cứ hoàn cảnh nào.`
+				content: `Ở vài hạng nhất định sẽ có quyền lợi đặc biệt như hạng Bạch kim và Ma bạc kim sẽ được trả phí sửa chữa đồ cùng phí chữa trị sau khi hoàn thành nhiệm vụ. Còn riêng hạng Ma bạc kim sẽ có thêm quyền lợi là hưởng lương hưu mỗi tháng khi người đó chính thức nộp đơn nghỉ không hoạt động làm ${nameJob[8]} nữa. Tất nhiên họ vẫn có thể rút đơn và hoạt động tiếp nhưng lương hưu sẽ tạm dừng, sau đó vẫn có thể nộp lại đơn nếu muốn. Đổi lại, họ sẽ sẽ bị buộc triệu tập làm nhiệm vụ khi xảy ra trong bất cứ hoàn cảnh nào.`
 			},
 			{
-				color: colorCharacter[15],
+				color: colorOther[0],
 				name: [ nameCharacter[15] ],
 				content: `Về nhiệm vụ, sẽ được phân loại sao cho phù hợp với thứ hạng của ${nameJob[8]}. Có thể nhận nhiệm vụ cao hơn một hạng nhưng không thể nhận nhiệm vụ thấp hạng. Nhiệm vụ cao hạng hơn có thể làm nếu được mời tham gia vào tổ đội hạng đó nhưng phải cân nhắc nếu quá chênh lệch trình độ.`
 			},
 			{
-				color: colorCharacter[15],
+				color: colorOther[0],
 				name: [ nameCharacter[15] ],
 				content: `Sau khi hoàn thành nhiệm vụ sẽ nhận được tiền thưởng ghi trong yêu cầu. Tùy vào nhiệm vụ sẽ có gia hạn thời gian hoàn thành hoặc không. Đối với nhiệm vụ yêu cầu từ người khác sẽ cần chữ kí của họ để xác nhận hoàn thành nhiệm vụ. Nếu nhiệm vụ bị thất bại sẽ bị trừ một điểm tiến trình nhiệm vụ đã hoàn thành, đây là điểm cần để tham gia vào bài kiểm tra thăng hạng.`
 			},
 			{
-				color: colorCharacter[15],
+				color: colorOther[0],
 				name: [ nameCharacter[15] ],
 				content: `Về tổ đội, hiệp hội sẽ dùng ma cụ đặc biệt để ghi tên tổ đội cũng như tên các thành viên vào thẻ. Mục đích nhằm để quản lý và nắm bắt tình hình các Mạo hiểm giả. Có thể tạo tạm thời hoặc lâu dài. Không giới hạn số lượng thành viên trong tổ đội. Số tiền thưởng tự bên tổ đội quyết định phân chia cho các thành viên.`
 			},
 			{
-				color: colorCharacter[15],
+				color: colorOther[0],
 				name: [ nameCharacter[15] ],
 				content: `Về chính sách, mất thẻ phải nộp phí để làm lại. Các trường hợp như dùng thẻ của người khác, các ${nameJob[8]} gây gổ với nhau dẫn đến bạo lực bộc phát, khiến người khác bị liên lụy khi đang làm nhiệm vụ đều phải nộp phạt và đình chỉ tạm thời.`
 			},
 			{
-				color: colorCharacter[15],
+				color: colorOther[0],
 				name: [ nameCharacter[15] ],
 				content: `Trường hợp bỏ rơi người trong nhiệm vụ hộ tống hoặc bỏ rơi thành viên tổ đội trong tình thế nguy hiểm khi có thể cứu phải nộp phạt, đình chỉ tạm thời và tụt hạng.`
 			},
 			{
-				color: colorCharacter[15],
+				color: colorOther[0],
 				name: [ nameCharacter[15] ],
 				content: `Trường hợp giả mạo thẻ sẽ bị cấm vĩnh viễn làm ${nameJob[8]}. Sát hại cư dân vô tội sẽ bị cấm vĩnh viễn làm ${nameJob[8]} và bị xử theo luật của đất nước.`
 			},
@@ -4918,7 +4923,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Ngày hôm nay thật mệt mỏi, rất nhiều chuyện đã xảy ra. Hiện tại tôi đang mười tuổi và cuối cùng tôi cũng có thể sử dụng những kỹ năng tôi đã ẩn đi bấy lâu nay. Thế nên, tối nay tôi sẽ nấu ăn sau một khoảng thời gian không động tới. Tiện thể, hôm nay nhóm của tôi cũng qua ăn tối cùng.`
+				content: `Ngày hôm nay thật mệt mỏi, rất nhiều chuyện đã xảy ra. Nào là chức nghiệp ở nhà thờ, rồi đến vụ với ${nameCharacter[12]} nữa, nhất là lúc mọi người an ủi tôi... Dù sao thì mọi thứ cũng đã xong xuôi rồi, tối nay tôi sẽ nấu ăn sau một khoảng thời gian không động tới. Tiện thể, hôm nay nhóm của tôi cũng qua ăn tối cùng.`
 			},
 			{
 				color: colorCharacter[1],
@@ -5008,7 +5013,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Có vẻ mọi người thực sự đói ha... Rồi mọi người tiến vào bàn ăn và đúng như tôi nghi ngờ, họ có vẻ hơi đề phòng bởi ai cũng lo lắng khi là người thử món. Còn riêng ${nameCharacter[11]} thì... tôi không thể đọc được tâm trạng của nhỏ đang thế nào nữa. Dường như có vài bông tuyết đang lấp lánh quanh nhỏ thì phải? Dù sao mấy món này chắc lần đầu họ thấy nên có lẽ phải giới thiệu qua. Tôi cũng hơi lo lắng khi người khác thử món do mình làm.`
+				content: `Có vẻ mọi người thực sự đói rồi ha... Mau chóng tiến đến bàn ăn và đúng như tôi nghi ngờ, họ có vẻ hơi đề phòng bởi ai cũng lo lắng khi là người thử món. Còn riêng ${nameCharacter[11]} thì... tôi không thể đọc được tâm trạng của nhỏ đang thế nào nữa. Dường như có vài bông tuyết đang lấp lánh quanh nhỏ thì phải? Dù sao mấy món này chắc lần đầu họ thấy nên có lẽ phải giới thiệu qua. Tôi cũng hơi lo lắng khi người khác thử món do mình làm.`
 			},
 			{
 				color: colorCharacter[1],
@@ -5048,7 +5053,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Hế, ${nameCharacter[11]}? Tôi cũng như mọi người đã rất bất ngờ khi lần đầu thấy nhỏ nói một tràng như vậy. Mà... nhỏ là ẩm thực gia à? Chắc cậu ấy đói lắm ha. Được khen như vậy tôi cũng thấy hơi ngại, rồi mọi người cũng thử và...`
+				content: `Hế, ${nameCharacter[11]}? Tôi cũng như mọi người đã rất bất ngờ khi lần đầu thấy nhỏ nói một tràng như vậy. Mà... nhỏ là ẩm thực gia à? Có vẻ cậu ấy đói lắm ha. Được khen như vậy tôi cũng thấy hơi ngại, rồi mọi người cũng thử và...`
 			},
 			{
 				color: colorCharacter[1],
@@ -5223,7 +5228,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cảm giác được ai đó trông chờ thật là hạnh phúc. Nhưng tim tôi vừa lỡ một nhịp thì phải... Lạ thật...`
+				content: `Cảm giác được ai đó trông chờ thật là hạnh phúc. Dường như tim tôi vừa lỡ một nhịp, chắc do ${nameCharacter[11]} đột ngột nói điều vừa rồi...`
 			},
 			{
 				color: colorCharacter[1],
@@ -5930,7 +5935,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `Ơ cha! Sao nay cha chưa đi làm à?`
+				content: `Ơ cha! Sao nay cha chưa đi làm vậy?`
 			},
 			{
 				color: colorCharacter[1],
@@ -6000,22 +6005,22 @@ const volume = [
 			{
 				color: colorCharacter[9],
 				name: [ nameCharacter[9] ],
-				content: `Đứng một lúc có sao đâu. A, cháu chào hai bác.`
+				content: `Đứng một lúc có sao đâu. A, cháu chào cô chú.`
 			},
 			{
 				color: colorCharacter[10],
 				name: [ nameCharacter[10] ],
-				content: `Cháu chào hai bác nya.`
+				content: `Cháu chào cô chú nya.`
 			},
 			{
 				color: colorCharacter[11],
 				name: [ nameCharacter[11] ],
-				content: `Con chào hai bác.`
+				content: `Con chào cô chú.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cha mẹ tôi theo sau đến nơi, vui vẻ tươi cười đáp lại.`
+				content: `Cha mẹ tôi đi sau cũng đến nơi, vui vẻ tươi cười đáp lại.`
 			},
 			{
 				color: colorCharacter[1],
@@ -6025,7 +6030,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[4] ],
-				content: `Ừm. Chào các cháu. Các cháu có háo hức khi sắp nhận chức nghiệp không?`
+				content: `Ừm. Chào các cháu. Có ai đang háo hức khi sắp nhận chức nghiệp không?`
 			},
 			{
 				color: colorCharacter[9],
@@ -6070,7 +6075,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Chúng tôi đang trò chuyện thì bóng dáng của của một cậu bé to béo tiến đến chỗ chúng tôi.`
+				content: `Mọi người đang trò chuyện thì bóng dáng của của một cậu bé to béo tiến đến chỗ chúng tôi.`
 			},
 			{
 				color: colorOther[1],
@@ -6110,12 +6115,12 @@ const volume = [
 			{
 				color: colorCharacter[12],
 				name: [ nameCharacter[12] ],
-				content: `À, cô bé tóc bạch kim xinh xắn đang núp sau thằng ${nameCharacter[1]} ẻo lả kia! Cô xinh đẹp thế này nên bỏ đám thường dân mà theo ta đi. Cô có thể sống sung sướng cùng với ta ở căn biệt thự mà không cần lo nghĩ. Cô chỉ có thể sánh bước với một mình ta mà thôi. Lời ta nói không thể nào sai được!`
+				content: `À, cô bé tóc bạch kim xinh xắn đang núp sau thằng ${nameCharacter[1]} ẻo lả kia! Nàng xinh đẹp thế này nên bỏ đám thường dân mà theo ta đi. Nàng có thể sống sung sướng cùng với ta ở căn biệt thự mà không cần lo nghĩ. Nàng chỉ có thể sánh bước với một mình ta mà thôi. Lời ta nói không thể nào sai được!`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cha mẹ tôi đứng bên cạnh thì thầm.`
+				content: `Cha mẹ tôi đứng đằng sau thì thầm.`
 			},
 			{
 				color: colorCharacter[1],
@@ -6130,7 +6135,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cha mẹ tôi trông có vẻ bình tĩnh nhưng thực chất đang đằng đằng sát khí nhìn ${nameCharacter[12]}. Làm gì có chuyện cha mẹ nào lại không bực khi nghe con mình bị nói vậy. Rồi tôi cảm nhận được một nguồn sát khí lạnh buốt từ đằng sau...`
+				content: `Cha mẹ tôi trông có vẻ bình tĩnh nhưng thực chất đang đằng đằng sát khí nhìn ${nameCharacter[12]}. Làm gì có chuyện cha mẹ nào lại không bực khi nghe con mình bị nói vậy. Bỗng tôi cảm nhận được nguồn sát khí lạnh giá từ đằng sau...`
 			},
 			{
 				color: colorCharacter[11],
@@ -6225,7 +6230,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Kể từ lúc tôi tìm được kẹp tóc cho ${nameCharacter[11]} và kết bạn với nhỏ thì cậu ấy thường hay bám lấy tôi. Chắc là vì tôi giống nhỏ đều người dùng kỹ năng sớm chăng?`
+				content: `Kể từ lúc tôi tìm được kẹp tóc cho ${nameCharacter[11]} và kết bạn thì nhỏ thường hay bám lấy tôi. Chắc là vì tôi giống nhỏ đều người dùng kỹ năng sớm chăng?`
 			},
 			{
 				color: colorCharacter[11],
@@ -6250,17 +6255,17 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `Mẹ này! Đừng có ôm người ta như vậy chứ! Xin lỗi nha ${nameCharacter[11]}, mẹ mình thường không như này.`
+				content: `Mẹ này! Đừng có ôm bạn ấy như vậy chứ! Xin lỗi nha ${nameCharacter[11]}, mẹ mình thường không như này.`
 			},
 			{
 				color: colorCharacter[11],
 				name: [ nameCharacter[11] ],
-				content: `Không có sao đâu. Cảm giác giống như mẹ đang ôm mình vậy.`
+				content: `Không có sao đâu. Cảm giác giống như có mẹ đang ôm mình vậy.`
 			},
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[3] ],
-				content: `Vậy con có thể gọi bác là mẹ.`
+				content: `Vậy, con có thể gọi cô là mẹ.`
 			},
 			{
 				color: colorCharacter[11],
@@ -6310,12 +6315,12 @@ const volume = [
 			{
 				color: colorCharacter[14],
 				name: [ nameCharacter[14] ],
-				content: `Trước khi bắt đầu ta sẽ phổ biến lại quy luật nhận chức nghiệp. Chức nghiệp có thể được thừa hưởng từ cha hoặc mẹ hoặc thông qua làm việc gì đó nhiều lần. Và một vài trường hợp hiếm sẽ nhận ngẫu nhiên chức nghiệp. Vậy giờ ta sẽ bắt đầu buổi lễ ban chức nghiệp. Bắt đầu từ hàng ghế đầu tiên. Mời con.`
+				content: `Trước khi bắt đầu, ta sẽ phổ biến lại quy luật nhận chức nghiệp. Chức nghiệp có thể được thừa hưởng từ cha mẹ hoặc thông qua làm việc liên quan đến nó nhiều lần. Và một vài trường hợp hiếm sẽ nhận ngẫu nhiên chức nghiệp. Vậy giờ ta sẽ bắt đầu buổi lễ ban chức nghiệp. Bắt đầu từ hàng ghế đầu tiên. Mời con.`
 			},
 			{
 				color: colorOther[2],
 				name: [ `Đứa trẻ đầu tiên` ],
-				content: `Vâng!`
+				content: `V-vâng!`
 			},
 			{
 				color: colorCharacter[14],
@@ -6606,7 +6611,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Nói xong, ${nameCharacter[11]} liền đi khỏi, tôi định đuổi theo nhưng mọi thứ có lẽ sẽ tệ hơn. Giác quan của ${nameCharacter[11]} nhạy bén đến mức đáng sợ và những lời cô nói đúng hết... Dẫu vậy tôi vẫn quyết định tìm kẹp tóc cho ${nameCharacter[11]}, rất có thể đó là món đồ quan trọng của cô. Trong lúc tôi tìm xung quanh ở sân trước thì ${nameCharacter[9]} đã tới bắt chuyện.`
+				content: `Nói xong, ${nameCharacter[11]} liền đi khỏi, tôi định đuổi theo nhưng mọi thứ có lẽ sẽ tệ hơn. Giác quan của ${nameCharacter[11]} nhạy bén đến mức đáng sợ và những lời cô nói đúng hết... Dẫu vậy, tôi vẫn quyết định tìm kẹp tóc cho ${nameCharacter[11]}, rất có thể đó là món đồ quan trọng của cô. Trong lúc tôi tìm xung quanh ở sân trước thì ${nameCharacter[9]} đã tới bắt chuyện.`
 			},
 			{
 				color: colorCharacter[9],
@@ -6651,17 +6656,17 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Tôi bắt đầu từ xung quanh sân, chầm chậm vạch từng bụi cỏ tìm thật kĩ. Khoảng một tiếng trôi qua, tôi vẫn không thấy gì cả. Trời hôm nay nắng hơn mọi khi khiến tôi thấy khá mệt mỏi. Nằm xuống gần cái cây, ngước nhìn lên và thở dài. Từ trên cây, một chiếc lông vũ nửa trắng nửa lam rơi xuống. Cầm lên tay, tôi ngắm nhìn nó và tự hỏi nên tìm kẹp tóc ở đâu bây giờ.`
+				content: `Tôi bắt đầu từ xung quanh sân, chầm chậm vạch từng bụi cỏ tìm thật kĩ. Khoảng một tiếng trôi qua, tôi vẫn không thấy gì cả. Trời hôm nay nắng hơn mọi khi khiến tôi thấy khá mệt mỏi. Nằm xuống gần cái cây, ngước nhìn lên và thở dài. Từ trên cây, một chiếc lông vũ hai màu nửa trắng nửa lam rơi xuống. Cầm lên tay, tôi ngắm nhìn nó và tự hỏi nên tìm kẹp tóc ở đâu bây giờ.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Ngắm nghía chiếc lông chán, tôi hạ tay xuống thì một thứ gì đó lấp lánh trên cây đập vào mắt tầm tôi. Liệu nó có phải là kẹp tóc? Tôi cất lông vũ vào túi rồi đứng dậy, nhìn xung quanh có người không rồi dùng phong thuật${nameSkill[3]}để lấy thứ đang lấp lánh kia. Tôi biết mình đã cố gắng che giấu thân phận nhưng vì lí do gì đó đã thúc đẩy bản thân hãy quên nó đi và giúp ${nameCharacter[11]}. Thứ lấp lánh đó rơi vào tay tôi và đó đúng là cái kẹp tóc của cô ấy. Tôi thắc mắc sao nó lại ở trên đó, mà chuyện đó không còn quan trọng. Vậy là nhiệm vụ hoàn thành và giờ tôi đi tìm ${nameCharacter[11]} để trả lại.`
+				content: `Ngắm nghía chiếc lông chán, tôi hạ tay xuống thì một thứ gì đó lấp lánh trên cây đập vào tầm mắt. Liệu nó có phải là kẹp tóc? Tôi cất lông vũ vào túi rồi đứng dậy, nhìn xung quanh có người không rồi dùng phong thuật${nameSkill[3]}để lấy thứ đang lấp lánh kia. Tôi biết mình đã cố gắng che giấu thân phận nhưng vì lí do gì đấy đã thúc đẩy bản thân hãy quên nó đi và giúp ${nameCharacter[11]}. Vật lấp lánh rơi vào tay tôi và đúng là cái kẹp tóc của cô ấy. Tôi thắc mắc sao nó lại ở trên cây, mà chuyện đó không còn quan trọng. Vậy là nhiệm vụ đã hoàn thành và giờ tôi đi tìm ${nameCharacter[11]} để trả lại.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Tôi chạy ra sân sau, thấy ${nameCharacter[11]} vẫn đang tìm. Khi tiến lại gần, ${nameCharacter[11]} thấy vậy thì định chạy đi. Ngay lập tức tôi nói lớn hi vọng cô dừng trách né.`
+				content: `Tôi chạy ra sân sau, ${nameCharacter[11]} vẫn đang tìm. Khi tiến lại gần, cô ấy thấy vậy thì định chạy đi. Ngay lập tức tôi nói lớn hi vọng cô dừng trách né.`
 			},
 			{
 				color: colorCharacter[1],
@@ -6691,12 +6696,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Tôi tiến lại gần ${nameCharacter[11]}, vừa nói vừa cài lại kép tóc lên trên đoạn tóc tết.`
+				content: `Tôi tiến lại gần ${nameCharacter[11]}, vừa nói vừa cài lại kép tóc lên trên đoạn tóc được tết.`
 			},
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `Bạn đã mất quá nhiều rồi, mình không muốn bạn mất thêm bất cứ thứ gì nữa.`
+				content: `Bạn đã mất quá nhiều rồi, mình không muốn bạn mất thêm bất cứ thứ gì nữa. Và cũng chỉ vì sự ích kỷ muốn giúp bạn của mình, vậy thôi.`
 			},
 			{
 				color: colorOther[0],
@@ -6766,12 +6771,12 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `“Cậu đang che giấu gì đó đúng không?”. Đây là câu cậu đã hỏi và mình không muốn nói về nó nhưng... Hãy để ý xung quanh nhé.`
+				content: `“Cậu đang che giấu gì đó đúng không?” Đây là câu cậu đã hỏi và mình không muốn nói về nó nhưng... Hãy để ý xung quanh nhé.`
 			},
 			{
 				color: colorCharacter[11],
 				name: [ nameCharacter[11] ],
-				content: `Yên lặng... Những lá cây... đang bay?`
+				content: `Yên lặng... Những lá cây đang bay?`
 			},
 			{
 				color: colorOther[0],
@@ -6886,17 +6891,17 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `Mình giống cậu mà, đều là những người che dấu cảm xúc. Nếu cậu có tâm sự gì thì mình sẽ luôn bên cạnh để lắng nghe.`
+				content: `Mình giống cậu mà, đều là những người che giấu cảm xúc. Nếu cậu có tâm sự gì thì mình sẽ luôn bên cạnh để lắng nghe.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cuối cùng ${nameCharacter[11]} đã nắm lấy, tôi nhẹ nhàng kéo cô đứng dậy.`
+				content: `Sau nhiều lần ${nameCharacter[11]} tránh mặt tôi, ánh mắt của hai đứa cuối cùng đã nhìn thẳng vào nhau. Đặc biệt nhất là đôi mắt băng giá của ${nameCharacter[11]} đã rực sáng hơn bao giờ. Bàn tay nhỏ bé hướng về tôi, nhẹ nhàng nắm lấy và kéo cô đứng dậy.`
 			},
 			{
 				color: colorCharacter[11],
 				name: [ nameCharacter[11] ],
-				content: `Chắc cậu đã biết rồi nhưng mình sẽ nói lại lần nữa. Mình tên ${nameCharacter[11]}, rất vui khi được làm bạn với cậu, ${nameCharacter[1]}.`
+				content: `Chắc cậu đã biết rồi nhưng mình vẫn sẽ giới thiệu bản thân. Mình tên ${nameCharacter[11]}, rất vui khi được làm bạn với cậu, ${nameCharacter[1]}.`
 			},
 			{
 				color: colorCharacter[1],
@@ -6927,12 +6932,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `???` ],
-				content: `Ở ngoài thị trấn ${nameLocation[2]}, một cỗ xe ngựa đang di chuyển với vận tốc rất nhanh hướng về thị trấn. Theo sau đó là đàn ma thú ${nameMob[0]} năm con với đôi mắt đỏ ngầu, bộ lông trắng đã chuyển sang đen. Trong bộ lông đó tích tụ sét để ${nameMob[0]} có thể sử dụng được thông qua hai cái sừng nhô trên đầu chúng nó.`
+				content: `Ở ngoài thị trấn ${nameLocation[2]}, một cỗ xe ngựa đang di chuyển với vận tốc rất nhanh hướng về thị trấn. Theo sau đó là đàn ma thú vài con ${nameMob[0]} với đôi mắt đỏ ngầu, bộ lông trắng đã chuyển sang đen. Trong bộ lông đó tích tụ sét để ${nameMob[0]} có thể sử dụng được thông qua hai cái sừng nhô trên đầu chúng nó.`
 			},
 			{
 				color: colorCharacter[11],
 				name: [ `Người đàn ông` ],
-				content: `Cố lên con, ${nameCharacter[11]}. Chúng ta sắp tới thị trấn rồi. Binh lính ở đó sẽ giúp ta.`
+				content: `Cố lên con gái, ${nameCharacter[11]}. Chúng ta sắp tới thị trấn rồi. Binh lính ở đó sẽ giúp ta.`
 			},
 			{
 				color: colorCharacter[11],
@@ -7037,7 +7042,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Hiện tại tôi đang tám tuổi. Tuần vừa rồi tôi đã bị ốm một trận nặng nằm liệt giường nên không biết đã bỏ lỡ những gì. Hoặc có khi tôi gặp may khi không dính phải rắc rối của bộ đôi.`
+				content: `Hiện tại tôi đang tám tuổi. Tuần vừa rồi tôi đã bị ốm một trận nặng nằm liệt giường nên không biết đã bỏ lỡ những gì. Hoặc có khi tôi gặp may khi không dính phải rắc rối từ bộ đôi.`
 			},
 			{
 				color: colorOther[0],
@@ -7047,7 +7052,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Trước mắt tôi lúc này, là một cô bé bí ẩn ngồi tựa mình vào gốc cây. Đôi tay nhỏ bé nhẹ ôm lấy chú thỏ bông trắng trong tay, cô bé hướng ánh mắt lam nhạt băng giá của mình lên bầu trời phía xa, như thể đang tìm kiếm câu trả lời cho một câu hỏi cô không thể giải đáp, mái tóc chấm vai trắng như tuyết mùa đông nhẹ nhàng lay động trong cơn gió mùa hạ thổi qua. Khuôn mặt cô bé không hề biểu lộ gì ngoài chút cảm xúc khó có thể diễn tả, đôi tai thuôn dài như lá trúc cũng không hề động đậy. Nhìn đôi tai nhỏ xinh đó, tôi đoán chắc trước mắt mình lúc này là một cô bé Elf. Viên pha lê màu lục hình thoi gắn trên kẹp tóc của cô bé dường như phát sáng nhè nhẹ dưới ánh nắng hè, khi làn gió mát thổi qua đoạn tóc tết gọn gàng ngay dưới chiếc kẹp đó bên vai cô...`
+				content: `Trước mắt tôi lúc này là một cô bé bí ẩn ngồi tựa mình vào gốc cây. Đôi tay nhỏ bé nhẹ ôm lấy chú thỏ bông trắng trong tay, hướng ánh mắt lam nhạt băng giá của mình lên bầu trời phía xa. Mái tóc chấm vai trắng như tuyết mùa đông nhẹ nhàng lay động trong cơn gió mùa hạ thổi qua. Viên pha lê màu lục hình thoi gắn trên kẹp tóc của cô bé dường như phát sáng nhè nhẹ dưới ánh nắng hè, khi làn gió mát thổi qua đoạn tóc tết gọn gàng ngay dưới chiếc kẹp đó bên vai. Khuôn mặt cô bé không hề biểu lộ gì ngoài chút cảm xúc khó có thể diễn tả, đôi tai thuôn dài như lá trúc cũng không hề động đậy. Nhìn đôi tai nhỏ xinh đó, tôi đoán chắc trước mắt mình lúc này là một cô bé tiên...`
 			},
 			{
 				color: colorOther[0],
@@ -7062,7 +7067,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Tôi chưa kịp nói hết câu thì cô bé quay ra nhìn liếc tôi với vẻ lạnh lùng và cắt ngang lời tôi nói.`
+				content: `Tôi chưa kịp nói hết câu thì cô bé quay ra nhìn liếc tôi với vẻ lạnh lùng và cắt ngang lời tôi nói. Ở khoảng cách gần như này, tôi mới thấy rõ được đôi mắt của cô dường như đã mất đi ánh sáng.`
 			},
 			{
 				color: colorCharacter[11],
@@ -7092,7 +7097,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cô bé vừa dứt câu thì đứng dậy đi chỗ khác. Tôi đã khá sốc, còn cơ thể thì bất động không hiểu mình vừa làm gì sai, thật là một cô bé lạnh lùng. Một lúc sau ${nameCharacter[9]} và ${nameCharacter[10]} bước ra từ nhà.`
+				content: `Cô bé vừa dứt câu thì đứng dậy đi chỗ khác. Tôi đã rất sốc, còn cơ thể thì bất động không hiểu mình vừa làm gì sai, thật là một cô bé lạnh lùng. Một lúc sau ${nameCharacter[9]} và ${nameCharacter[10]} bước ra từ nhà.`
 			},
 			{
 				color: colorCharacter[9],
@@ -7122,12 +7127,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Hiện tại ${nameCharacter[11]} đang tám tuổi, bằng tuổi của tôi và bộ đôi. Mẹ ${nameCharacter[11]} là Elf đã mất sau khi sinh ra ${nameCharacter[11]} theo lời người cha, còn cha ${nameCharacter[11]} là con người nên ${nameCharacter[11]} là nửa người nửa Elf. Cha ${nameCharacter[11]} là một thương nhân đang trên đường đến ${nameLocation[2]} để xem có thể định cư và mở cửa hàng nơi đây không. Còn đám ma thú ${nameMob[0]} không hiểu lí do gì đã đuổi theo và điều đó dẫn đến cái chết của cha ${nameCharacter[11]}. Rồi sự việc xảy ra sau đó cô cũng chỉ nhớ mang máng là mình đã bất giác dùng băng thuật. Đây lần đầu tiên nên cô đã không thể kiểm soát được nó, ${nameCharacter[11]} cũng thử dùng lại nhưng không được. Mẹ ${nameCharacter[11]} có khả năng dùng băng thuật theo lời người cha, nên chắc cô kế thừa khả năng này. Về phần ${nameMob[0]} thì bên binh lính đang điều tra chỗ xác bị đóng băng do cô.`
+				content: `${nameCharacter[11]} bằng tuổi của tôi và bộ đôi. Mẹ ${nameCharacter[11]} là tiên đã mất sau khi sinh ra ${nameCharacter[11]} theo lời người cha, còn cha ${nameCharacter[11]} là con người nên ${nameCharacter[11]} là người nửa tiên. Cha ${nameCharacter[11]} là một thương nhân đang trên đường đến ${nameLocation[2]} để xem có thể định cư và mở cửa hàng nơi đây không. Còn đám ma thú ${nameMob[0]} không hiểu lí do gì đã đuổi theo và điều đó dẫn đến cái chết của cha ${nameCharacter[11]}. Rồi sự việc xảy ra sau đó cô cũng chỉ nhớ mang máng là mình đã bất giác dùng băng thuật. Đây lần đầu tiên nên cô đã không thể kiểm soát được nó, ${nameCharacter[11]} cũng thử dùng lại nhưng không được. Mẹ ${nameCharacter[11]} có khả năng dùng băng thuật theo lời người cha, nên chắc cô kế thừa khả năng này. Về phần ${nameMob[0]} thì bên binh lính đang điều tra chỗ xác bị đóng băng do cô.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Nhưng điều phải chú ý đến nhất là biểu cảm không cảm xúc trên khuôn mặt của ${nameCharacter[11]}. Cái cảm giác lạnh lùng mỗi lần cố giao tiếp với cô. Tôi nghĩ ${nameCharacter[11]} đang bị sang chấn tâm lý sau những gì vừa xảy ra. Nhưng tôi vẫn không hiểu phần ${nameCharacter[11]} tỏ vẻ xua đuổi mọi người.`
+				content: `Nhưng điều phải chú ý đến nhất là khuôn mặt không biểu lộ cảm xúc của ${nameCharacter[11]}, nhất là đôi mắt không ánh sáng. Cái cảm giác lạnh lùng mỗi lần cố giao tiếp với cô, tôi nghĩ ${nameCharacter[11]} đang bị sang chấn tâm lý sau những gì vừa xảy ra. Nhưng tôi vẫn không hiểu phần ${nameCharacter[11]} tỏ vẻ xua đuổi mọi người.`
 			},
 			{
 				color: colorCharacter[9],
@@ -7147,7 +7152,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `${nameCharacter[11]} đang đứng núp ở góc nhà bên ngoài nhìn về phía nhóm chúng tôi đang trò chuyện. Tôi thấy vậy định dơ tay vẫy thì ${nameCharacter[11]} liền quay đi nên tôi cũng đành chấp nhận tình hình hiện tại.`
+				content: `${nameCharacter[11]} đang đứng núp ở góc nhà bên ngoài nhìn về phía nhóm chúng tôi đang trò chuyện. Tôi thấy vậy định dơ tay vẫy thì ${nameCharacter[11]} liền quay đi nên tôi cũng chỉ còn cách chấp nhận tình hình hiện tại.`
 			},
 			{
 				color: colorOther[0],
@@ -7188,7 +7193,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ `???` ],
-				content: `Thế là ${nameCharacter[9]} đã hắt hơi và khiến cậu tỉnh dây. Đầu óc mơ màng, mắt nhắm mắt mở, nhìn xung quanh thì thấy ${nameCharacter[10]} đang nằm cạnh cậu. ${nameCharacter[9]} vẫn chưa tỉnh ngủ hẳn nên đã kéo chăn đắp cho nhỏ và nằm tiếp. Mất một lúc sau cậu mới nhận ra là ${nameCharacter[10]} đang nằm cạnh mình nên cậu đã hoảng và ngã khỏi giường.`
+				content: `Thế là ${nameCharacter[9]} đã hắt hơi và khiến cậu tỉnh dây. Đầu óc mơ màng, mắt nhắm mắt mở, nhìn xung quanh thì thấy ${nameCharacter[10]} đang nằm cạnh cậu. ${nameCharacter[9]} vẫn chưa tỉnh ngủ hẳn nên đã kéo chăn đắp cho cô và nằm tiếp. Mất một lúc sau cậu mới nhận ra là ${nameCharacter[10]} đang nằm cạnh mình nên cậu đã hoảng và ngã khỏi giường.`
 			},
 			{
 				color: colorCharacter[9],
@@ -7423,7 +7428,7 @@ const volume = [
 			{
 				color: colorCharacter[10],
 				name: [ nameCharacter[10] ],
-				content: `Nya. Thưa bác, cháu đến tập luyện cùng Shuunya!`
+				content: `Nya. Thưa cô chú, cháu đến tập luyện cùng Shuunya!`
 			},
 			{
 				color: colorOther[0],
@@ -7444,7 +7449,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Hiện tại tôi đang bảy tuổi và cha đã được thăng quân hàm lên làm Thượng úy đội trưởng của một trung đội lính. Và hôm nay, nhân dịp có ngày nghỉ nên tôi đã nhờ cha huấn luyện chiến đấu. Tiếng của kiếm gỗ va đập vào nhau, cùng những tiếng kêu đau đớn... của tôi... Tất nhiên rồi, những lúc như này thì tôi sẽ là người ăn hành mà. Cũng chả trách được khi nói đến huấn luyện thì cha cực kì nghiêm khắc. Dù sao cũng là để tôi có thể sinh tồn nên mới nghiêm túc thế này. Mỗi tội nó khổ quá...`
+				content: `Hiện tại tôi đang bảy tuổi và cha đã được thăng quân hàm lên làm Thượng úy đội trưởng của một trung đội lính. Và hôm nay, nhân dịp cha có ngày nghỉ nên tôi đã nhờ huấn luyện chiến đấu. Tiếng của kiếm gỗ va đập vào nhau, cùng những tiếng kêu đau đớn... của tôi... Tất nhiên rồi, những lúc như này thì tôi sẽ là người ăn hành mà. Cũng chả trách được khi nói đến huấn luyện thì cha cực kì nghiêm khắc. Dù sao cũng là để tôi có thể sinh tồn nên mới nghiêm túc thế này. Mỗi tội nó khổ quá...`
 			},
 			{
 				color: colorCharacter[1],
@@ -7519,7 +7524,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `Ý cha là “${nameTitle[2]}” đó hả? Con tin rằng họ vẫn đang ngủ.`
+				content: `Ý cha là ${nameTitle[2]} đó hả? Con tin rằng họ vẫn đang ngủ.`
 			},
 			{
 				color: colorCharacter[1],
@@ -7579,7 +7584,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[4] ],
-				content: `Ha ha. Nằm đó mà nghỉ ngơi chút đi. Ta vào nhà uống chút nước, khi nào bạn con đến thì sẽ tiếp tục sau.`
+				content: `Haha. Nằm đó mà nghỉ ngơi chút đi. Ta vào nhà uống chút nước, khi nào bạn con đến thì sẽ tiếp tục sau.`
 			},
 			{
 				color: colorOther[0],
@@ -7599,7 +7604,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Tôi đứng cách con hình nhân gỗ một khoảng gần. Đầu tiên hai tay tôi cầm chắc kiếm, đưa nó lên qua đầu. Sau đó tôi sử dụng${nameSkill[1]}để điều khiển gió bao quanh lưỡi kiếm làm tăng áp lực giữa lưỡi kiếm và gió bao bọc. Đồng thời kích hoạt kỹ thuật${nameSkill[4]}là một kỹ năng của chức nghiệp ${nameJob[0]}, truyền ma lực vào vũ khí tăng khả năng chém mạnh lên nhiều lần và chỉ áp dụng lên vũ khí sắc có thể vung. Rồi tôi vung kiếm theo hướng chéo phải qua trái. Trong khi chuyển động thì lưỡi kiếm tăng áp lực lên gió bao bọc, đẩy gió tách khỏi lưỡi kiếm di chuyển theo hướng chém đó. Chắc tôi sẽ gọi kỹ năng này là${nameSkill[5]}vì phần gió bay đi khá giống lưỡi kiếm.`
+				content: `Tôi đứng cách con hình nhân gỗ một khoảng gần. Hai tay tôi cầm chắc kiếm, đưa nó lên qua đầu. Sau đó sử dụng${nameSkill[1]}để điều khiển gió bao quanh lưỡi kiếm làm tăng áp lực giữa lưỡi kiếm và gió bao bọc. Đồng thời kích hoạt kỹ thuật${nameSkill[4]}là một kỹ năng của chức nghiệp ${nameJob[0]}, truyền ma lực vào vũ khí tăng khả năng chém mạnh lên nhiều lần. Rồi tôi vung kiếm theo hướng chéo phải qua trái. Trong khi chuyển động thì lưỡi kiếm tăng áp lực lên gió bao bọc, đẩy gió tách khỏi lưỡi kiếm di chuyển theo hướng chém đó. Tôi sẽ gọi kỹ năng này là${nameSkill[5]}vì phần gió bay đi khá giống lưỡi kiếm.`
 			},
 			{
 				color: colorOther[0],
@@ -7639,7 +7644,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `May quá không ai phát hiện ra tôi vừa dùng kỹ năng xong. Tim tôi vẫn còn đang đập rất nhanh nữa chứ. Mấy cậu này từ hôm tôi kể chuyện luyện tập cùng cha thì mắt họ sáng lên muốn luyện cùng. Thì ra “${nameTitle[2]}” cũng muốn làm ${nameJob[8]} cùng tôi. Rồi cha bước ra từ trong nhà.`
+				content: `May quá không ai phát hiện ra tôi vừa dùng kỹ năng xong. Tim tôi vẫn còn đang đập rất nhanh nữa chứ. Mấy cậu ấy từ hồi tôi kể chuyện luyện tập cùng cha thì mắt họ sáng lên muốn luyện cùng. Thì ra ${nameTitle[2]} cũng muốn làm ${nameJob[8]} cùng tôi. Rồi cha bước ra từ trong nhà.`
 			},
 			{
 				color: colorCharacter[1],
@@ -7649,7 +7654,7 @@ const volume = [
 			{
 				color: colorCharacter[9],
 				name: [ nameCharacter[9] ],
-				content: `À bác, ${nameCharacter[1]} chắc cần được nghỉ ngơi chút. Bạn ý luyện tập suốt rồi ạ.`
+				content: `À chú, ${nameCharacter[1]} chắc cần được nghỉ ngơi chút. Bạn ý luyện tập suốt rồi ạ.`
 			},
 			{
 				color: colorCharacter[10],
@@ -7669,12 +7674,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Xét khả năng chiến đấu của “${nameTitle[2]}” thì tôi vẫn hơn do đã được huấn luyện trước. Nhưng khi nói đến phối hợp thì chắc không ai bằng hai người họ được. ${nameCharacter[9]} thường sử dụng khiên, chuyên làm người đỡ đòn bởi sức khỏe của cậu. Còn ${nameCharacter[10]} thì dùng kiếm nhưng vì là miêu nhân nên tốc độ phản xạ và sự dẻo dai làm cho cô có một lợi thế lớn. Tất nhiên cả khiên và kiếm hiện tại đều là từ gỗ bởi đây chỉ là luyện tập.`
+				content: `Xét khả năng chiến đấu của ${nameTitle[2]} thì tôi vẫn hơn do đã được huấn luyện trước. Nhưng khi nói đến phối hợp thì chắc không ai bằng hai người họ được. ${nameCharacter[9]} thường sử dụng khiên, chuyên làm người đỡ đòn bởi sức khỏe của cậu. Còn ${nameCharacter[10]} thì dùng kiếm nhưng vì là nửa mèo nên tốc độ phản xạ và sự dẻo dai làm cho nhỏ có một lợi thế lớn. Tất nhiên cả khiên và kiếm hiện tại đều là từ gỗ bởi đây chỉ là luyện tập.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Có vẻ cha tôi ra đòn trước nhưng ${nameCharacter[9]} liền đỡ đòn. Từ phía sau cậu ấy, ${nameCharacter[10]} liền nhảy lên và vung kiếm xuống. Cha tôi có vẻ đã nhận ra liền nhảy giật lùi lại.`
+				content: `Có vẻ cha tôi tấn công trước nhưng ${nameCharacter[9]} liền đỡ được đòn đó. Từ phía sau cậu ấy, ${nameCharacter[10]} liền nhảy lên và vung kiếm xuống. Cha tôi có vẻ đã nhận ra liền nhảy giật lùi lại.`
 			},
 			{
 				color: colorCharacter[1],
@@ -7689,7 +7694,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Vừa dứt câu thì ${nameCharacter[10]} đã lao lên nhanh chóng chém tới tấp cha tôi rồi nhảy giật lùi. Sau đó ${nameCharacter[9]} lại lao lên đỡ đòn và khống chế cha. ${nameCharacter[10]} lại ở sau đó nhảy lên và họ cứ lặp đi lặp lại chiến thuật như vậy. Chiến thuật thì hay thật nhưng đối với cha là người có kinh nghiệm chiến đấu thì việc lặp lại nhiều lần như thế sẽ tìm được ra sơ hở. Và đúng như tôi nghĩ, lần này cha đã không còn nhảy giật lùi mà thay vào đó cha đạp lên khiên của ${nameCharacter[9]} và nhảy ra phía sau cậu. ${nameCharacter[10]} lúc này chuẩn bị nhảy liền giật mình nên đã mất thăng bằng và bị cha cho một chém. Còn ${nameCharacter[9]} chưa kịp phản ứng sau cú vừa nãy liền bị ăn một đạp từ phía sau bởi cha và một chém. Thế là trận đấu kết thúc.`
+				content: `Vừa dứt câu thì ${nameCharacter[10]} đã lao lên nhanh chóng chém tới tấp cha tôi rồi nhảy giật lùi. Sau đó ${nameCharacter[9]} lại lao lên đỡ đòn và khống chế cha. ${nameCharacter[10]} lại ở sau đó nhảy lên và họ cứ lặp đi lặp lại chiến thuật như vậy. Chiến thuật thì hay thật nhưng đối với cha là người có kinh nghiệm chiến đấu thì việc lặp lại nhiều lần như thế sẽ tìm được ra sơ hở.`
+			},
+			{
+				color: colorOther[0],
+				name: [ nameCharacter[1] ],
+				content: `Đúng như tôi nghĩ, lần này cha đã không còn nhảy giật lùi mà thay vào đó đạp lên khiên của ${nameCharacter[9]} và nhảy ra phía sau cậu. ${nameCharacter[10]} lúc này chuẩn bị nhảy liền giật mình nên đã mất thăng bằng và bị cha cho một chém. Còn ${nameCharacter[9]} chưa kịp phản ứng sau cú vừa nãy liền bị ăn một đạp từ phía sau bởi cha và một chém. Thế là trận đấu kết thúc.`
 			},
 			{
 				color: colorCharacter[1],
@@ -7784,7 +7794,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `${nameCharacter[10]} sau cú nhảy trên cao liền đáp xuống khiên của ${nameCharacter[9]}. Nhỏ liền lấy đà để lao tới cha tôi, đồng thời ${nameCharacter[9]} cũng dùng lực để đẩy ${nameCharacter[10]} luôn. ${nameCharacter[10]} sau đó lao nhanh về phía cha, do chưa kịp lấy lại thăng bằng nên sau pha hất ngược ${nameCharacter[10]} ra phía sau thì đã bị ngã. ${nameCharacter[9]} sau đó liền tiến lên dùng khiên và cả người đè cha tôi xuống. Tôi và ${nameCharacter[10]} chuẩn bị chém cha và có được phát đánh trúng lần đầu, nhưng...`
+				content: `${nameCharacter[10]} sau cú nhảy trên cao liền đáp xuống khiên của ${nameCharacter[9]}. Nhỏ liền lấy đà để lao tới cha tôi, đồng thời ${nameCharacter[9]} cũng dùng lực để đẩy ${nameCharacter[10]} luôn. ${nameCharacter[10]} sau đó lao nhanh về phía cha, do chưa kịp lấy lại thăng bằng nên sau pha hất ngược ${nameCharacter[10]} ra phía sau thì đã bị ngã. ${nameCharacter[9]} sau đó liền tiến lên dùng khiên và cả người đè cha tôi xuống. Tôi và ${nameCharacter[10]} chuẩn bị chém cha và có được phát đánh trúng lần đầu thì...`
 			},
 			{
 				color: colorCharacter[1],
@@ -7865,7 +7875,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[4] ],
-				content: `Ta đã được bảo là trong thời gian tới ta sẽ được thăng quân hàm lên làm Thượng úy đội trưởng của một trung đội lính đấy.`
+				content: `Ta đã được bảo là trong thời gian tới sẽ được thăng quân hàm lên làm Thượng úy đội trưởng của một trung đội lính đấy.`
 			},
 			{
 				color: colorCharacter[1],
@@ -7885,7 +7895,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cả nhà tôi đều rất vui mừng với cơ hội thăng tiến của cha. Như vậy điều kiện sống của gia đình sẽ được cải thiện thêm chút. Vừa thưởng thức súp vừa vui mừng thì đột nhiên cha hỏi một câu khiến cho tôi có linh cảm không lành sau đó.`
+				content: `Cả nhà tôi đều rất vui mừng với cơ hội thăng tiến của cha. Như vậy điều kiện sống của gia đình sẽ được cải thiện thêm chút. Vừa thưởng thức súp vừa vui mừng, đột nhiên cha hỏi một câu khiến cho tôi có linh cảm không lành sau đó.`
 			},
 			{
 				color: colorCharacter[1],
@@ -7950,7 +7960,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[3] ],
-				content: `Bình tĩnh nào anh. Hãy nhìn kĩ đôi mắt của nó kìa. Mỗi lần nghiêm túc thì nó lại trưng ánh mắt như vậy đó.`
+				content: `Bình tĩnh nào anh. Hãy nhìn kĩ đôi mắt của con kìa. Mỗi lần nghiêm túc thì con lại trưng ánh mắt như vậy đó.`
 			},
 			{
 				color: colorOther[0],
@@ -7965,7 +7975,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Đây chính là cú chốt hạ của tôi. Cảm ơn mẹ nhiều!`
+				content: `Đây chính là cú chốt hạ của mình. Cảm ơn mẹ nhiều!`
 			},
 			{
 				color: colorCharacter[1],
@@ -8020,7 +8030,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Về cái tên ${nameCharacter[1]} ${nameCharacter[2]}, tuy đã đăng ký trước khi chuyển sinh vào${nameLocation[0]}nhưng vì gia đình tôi chỉ là thường dân nên cái họ là ${nameCharacter[2]} không được nhắc đến. Chỉ những tầng lớp quý tộc mới có tên họ nên tôi đã ẩn phần thông tin này đi để tránh gặp rắc rối. Tiện thể tôi cũng ẩn hết luôn các phần đáng lẽ mà một đứa trẻ chưa có như chức nghiệp, kỹ năng và danh hiệu.`
+				content: `Về cái tên ${nameCharacter[1]} ${nameCharacter[2]}, tuy đã đăng ký trước khi chuyển sinh vào${nameLocation[0]}nhưng vì gia đình tôi chỉ là thường dân nên cái họ là ${nameCharacter[2]} không được nhắc đến. Chỉ những tầng lớp quý tộc mới có tên họ nên tôi đã ẩn phần thông tin này đi để tránh gặp rắc rối. Tiện thể, tôi cũng ẩn hết luôn các phần đáng lẽ mà một đứa trẻ chưa có như chức nghiệp, kỹ năng và danh hiệu.`
 			},
 			{
 				color: colorOther[0],
@@ -8030,7 +8040,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Sau khi xem lại một số thông tin của bản thân thì tôi bắt đầu luyện tập sử dụng các kỹ năng vào mỗi tối như thường lệ. Danh hiệu ${nameTitle[1]} là điều ước đầu tiên của tôi, cho phép triển khai phong thuật nhanh và tiêu thụ ít ma lực hơn. Hồi đầu khi sử dụng phong thuật thì tôi đã làm rối tung hết cả căn phòng lên, tất nhiên là không bị phát hiện nhưng đã bị cha mắng cho một trận vì căn phòng bừa bộn. Dần dần tôi đã kiểm soát được và có được kỹ năng${nameSkill[1]}là thiên phú chuyên nguyên tố phong. Đây là ma pháp cho phép tôi điều khiển gió theo ý mình muốn ở mức cơ bản. Mục đích của phong thuật này để tôi có thể định hình gió ở một dạng nhất định, nói dễ hiểu hơn thì phát triển ma pháp mới từ sự định hình đó. Và hiện tại tôi đã phát triển được thêm hai phong thuật mới là${nameSkill[2]}và${nameSkill[3]}.`
+				content: `Sau khi xem lại một số thông tin của bản thân thì tôi bắt đầu luyện tập sử dụng các kỹ năng vào mỗi tối như thường lệ. Danh hiệu ${nameTitle[1]} là điều ước đầu tiên của tôi, cho phép triển khai phong thuật nhanh và tiêu thụ ít ma lực hơn. Hồi đầu khi sử dụng phong thuật thì tôi đã làm rối tung hết cả căn phòng lên, tất nhiên là không bị phát hiện nhưng đã bị cha mắng cho một trận vì căn phòng bừa bộn.`
+			},
+			{
+				color: colorOther[0],
+				name: [ nameCharacter[1] ],
+				content: `Dần dần tôi đã kiểm soát được và có được kỹ năng${nameSkill[1]}là thiên phú chuyên nguyên tố phong. Đây là ma pháp cho phép tôi điều khiển gió theo ý mình muốn ở mức cơ bản. Mục đích của phong thuật này để tôi có thể định hình gió ở một dạng nhất định, nói dễ hiểu hơn thì phát triển ma pháp mới từ sự định hình đó. Và hiện tại tôi đã phát triển được hai phong thuật mới là${nameSkill[2]}và${nameSkill[3]}.`
 			},
 			{
 				color: colorOther[0],
@@ -8040,7 +8055,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Ma pháp${nameSkill[3]}kiểm soát gió xung quanh vật khiến nó bay lên và di chuyển đến nơi mình muốn. Nghe có vẻ thú vị nhưng xét về mặt kĩ thuật thì nó vô cùng khó. Cần điều chỉnh lượng gió thế nào để phù hợp với trọng lượng và đặc điểm của vật để không phá hủy nó. Còn chưa kể đến lúc di chuyển vật cần phải tập trung để kiếm soát tốc độ. Đồng thời còn phải trung hòa gió với môi trường xung quanh như khi có một cơn gió khác thổi qua hoặc độ ẩm không khí... Nếu thành thục thì có thể áp dụng lên nhiều vật cùng lúc. Nhưng mà bây giờ tôi mới chỉ dùng được lên một vật và đang luyện tập với cái ghế gần giường.`
+				content: `Ma pháp${nameSkill[3]}kiểm soát gió xung quanh vật khiến nó bay lên và di chuyển đến nơi mình muốn. Nghe có vẻ thú vị và mạnh nhưng xét về mặt kỹ thuật thì nó vô cùng khó. Cần điều chỉnh lượng gió thế nào để phù hợp với trọng lượng và đặc điểm của vật để không phá hủy nó. Còn chưa kể đến lúc di chuyển vật cần phải tập trung để kiếm soát tốc độ. Đồng thời còn phải trung hòa gió với môi trường xung quanh như khi có một cơn gió khác thổi qua hoặc độ ẩm không khí... Nếu thành thục thì có thể áp dụng lên nhiều vật cùng lúc. Nhưng mà bây giờ tôi mới chỉ dùng được lên một vật và đang luyện tập với cái ghế gần giường.`
 			},
 			{
 				color: colorOther[0],
@@ -8085,7 +8100,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[3] ],
-				content: `Mẹ cũng biết tính cha con mà. Với cả con cũng chưa từng đòi hỏi gì nên mẹ đã rất vui khi con nói vậy. Tất nhiên, nếu con muốn nói gì thì cha mẹ đều sẽ lắng nghe con từ tận đáy lòng.`
+				content: `Mẹ hiểu tính cha con mà. Với cả, con cũng chưa từng đòi hỏi gì nên mẹ đã rất vui khi con nói vậy. Tất nhiên, nếu con muốn nói gì thì cha mẹ đều sẽ lắng nghe con từ tận đáy lòng.`
 			},
 			{
 				color: colorOther[0],
@@ -8120,14 +8135,13 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Sau khi hết chỗ ma lực thì tôi liền lăn ra ngủ lập tức. Mục đích là để gia tăng giới hạn ma lực, cho dù tỉ lệ tăng còn chưa đến một phần trăm. Nếu thành công thì giới hạn cũng chỉ tăng được thêm một chỉ số. Thậm chí nhược điểm của việc cho bay sạch ma lực là khiến cơ thể bị đuối sức kèm khả năng cao ngất đi. Thế nên luyện tập xong rồi đi ngủ là rất hợp lí, đồng thời cũng học được cách nhớ giới hạn năng lượng để lúc thi triển ma pháp sẽ dễ dàng hơn. Và đó là hoạt động bí mật mỗi buổi tối của tôi.`
+				content: `Sau khi hết chỗ ma lực thì tôi liền lăn ra ngủ lập tức. Mục đích là để gia tăng giới hạn ma lực, cho dù tỉ lệ tăng còn chưa đến một phần trăm. Nếu thành công thì giới hạn cũng chỉ tăng được thêm một chỉ số. Thậm chí nhược điểm của việc cho bay sạch ma lực là khiến cơ thể bị đuối sức kèm khả năng cao ngất đi. Thế nên luyện tập xong rồi đi ngủ là rất hợp lí, đồng thời cũng học được cách nhớ giới hạn ma lực để dễ kiểm soát ma pháp lúc thi triển. Và đó là hoạt động bí mật mỗi buổi tối của tôi.`
 			},
 			{
 				color: colorOther[0],
 				name: [ `???` ],
 				content: `Trong không gian ban đêm, chú diều hâu đậu trên cành cây, nhìn qua cửa số thẳng vào phòng ${nameCharacter[1]} một hồi lâu, rồi chú tung cánh mà bay đi để lại sợi lông vũ rơi lên gờ cửa sổ...`
-			},
-
+			}
 		]
 	},
 	{
@@ -8242,12 +8256,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Rồi vài hôm trôi qua, tôi cùng mẹ đến cô nhi viện để xem có giúp được gì không thì bắt gặp cậu ấy đang đứng dựa tường với ánh nhìn xa xăm lên trời. Lúc đó trông cậu rất khó gần, cảm giác như đang xua đuổi mấy đứa trẻ khác vậy. Tôi liền thử tới bắt chuyện nhưng cậu lại tỏ vẻ đáng sợ như đang muốn bảo đừng làm phiền vậy. Dẫu vậy tôi vẫn đến bên cạnh cố nói vài câu nhưng cậu cũng chả phản hồi gì, làm như không nghe thấy gì cả. Nếu cậu ấy không quan tâm thì tôi cũng không nên làm phiền nữa và rời đi.`
+				content: `Rồi vài hôm trôi qua, tôi cùng mẹ đến cô nhi viện để xem có giúp được gì không thì bắt gặp cậu ấy đang đứng dựa tường với ánh nhìn xa xăm lên trời. Lúc đó trông cậu rất khó gần, cảm giác như đang xua đuổi mấy đứa trẻ khác vậy. Tôi liền thử tới bắt chuyện, cậu lại tỏ vẻ đáng sợ như đang muốn bảo đừng làm phiền vậy. Dẫu vậy, tôi vẫn đến bên cạnh cố nói vài câu nhưng cậu cũng chả phản hồi, làm như không nghe thấy gì cả. Cậu ấy không quan tâm thì tôi cũng không nên làm phiền nữa rồi rời đi.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Tình cờ lúc đó có một chú diều hâu đang tha một quả táo. Có vẻ như cuống của quả táo không chịu được nữa nên đã đứt. Quả táo rơi xuống mái nhà, đập trúng vào một cái mái ngói khiến nó bị rơi và vị trí rơi lại là nơi tôi đi. Sau khi nghe thấy âm thanh lạ ở phía trên, tôi chưa kịp phản ứng gì thì mình đã bị đẩy ngã. Tôi hơi choáng sau cú ngã đó, nhìn qua cạnh chân mình thì đó là một cái mái ngói. À, thì ra cậu ấy vừa cứu tôi. Không biết tại sao cậu lại tỏ vẻ như vậy khi vẫn có để ý đến tôi. Đứng dậy phủi bụi qua, rồi kéo cậu ấy dậy và nói chuyện.`
+				content: `Tình cờ lúc đó có một chú diều hâu đang tha một quả táo. Có vẻ như cuống của quả không chịu được nữa nên đã đứt. Quả táo rơi xuống mái nhà, đập trúng vào một cái mái ngói khiến nó bị rơi đúng vị trí nơi tôi đi. Sau khi nghe thấy âm thanh lạ ở phía trên, tôi chưa kịp phản ứng gì thì mình đã bị đẩy ngã. Tôi hơi choáng sau cú ngã đó, nhìn qua cạnh chân mình thì đó là một cái mái ngói. À, thì ra cậu ấy vừa cứu tôi. Không biết tại sao cậu lại tỏ vẻ như vậy khi vẫn có để ý đến tôi. Đứng dậy phủi bụi qua, rồi kéo cậu ấy dậy và nói chuyện.`
 			},
 			{
 				color: colorCharacter[1],
@@ -8302,7 +8316,7 @@ const volume = [
 			{
 				color: colorCharacter[9],
 				name: [ nameCharacter[9] ],
-				content: `Tớ... đã cứu cậu nhỉ?`
+				content: `Mình... đã cứu cậu nhỉ?`
 			},
 			{
 				color: colorCharacter[1],
@@ -8317,7 +8331,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Quay trở lại thực tại, câu chuyện về tôi và ${nameCharacter[9]} đã kể xong và tôi khá bất ngờ ...`
+				content: `Quay trở lại thực tại, câu chuyện về ${nameCharacter[9]} đã kể xong và tôi khá bất ngờ ...`
 			},
 			{
 				color: colorCharacter[1],
@@ -8367,7 +8381,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `${nameCharacter[10]} tuy là tinh nghịch nhưng khi nói về chuyện này thì cô lại cảm thấy có trách nhiệm trong những hành động ở quá khứ. Nhưng...`
+				content: `${nameCharacter[10]} tuy rất tinh nghịch nhưng khi nói về chuyện này thì cô lại cảm thấy có trách nhiệm trong những hành động ở quá khứ. Nhưng...`
 			},
 			{
 				color: colorCharacter[10],
@@ -8377,12 +8391,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Gia đình của ${nameCharacter[10]} đã bị nhóm săn nô lệ đuổi bắt. Nhờ cha mẹ nhỏ cầm chân nhóm săn nên ${nameCharacter[10]} đã chạy trốn được vào rừng. Nhỏ đã chạy liên tục không ngừng nghỉ vì trong rừng nhiều ma thú nguy hiểm. May mắn thay nhỏ đã ra khỏi rừng an toàn nhưng sức lực của ${nameCharacter[10]} đã đến giới hạn nên gục ngã ngay sau đó. Về thông tin cha mẹ của nhỏ thì chưa có gì, theo suy đoán chắc đã bị bọn săn nô lệ bắt lại. May vào lúc đó binh lính tuần tra quanh thành đã bắt gặp ${nameCharacter[10]} đang nằm gục ở gần bìa rừng nên đã đưa về cô nhi viện.`
+				content: `Gia đình của ${nameCharacter[10]} bị nhóm săn nô lệ đuổi bắt. Nhờ cha mẹ nhỏ cầm chân nhóm săn nên ${nameCharacter[10]} đã chạy trốn được vào rừng. Nhỏ đã chạy liên tục không ngừng nghỉ vì trong rừng nhiều ma thú nguy hiểm. May mắn thay nhỏ đã ra khỏi rừng an toàn nhưng sức lực của ${nameCharacter[10]} đã đến giới hạn nên gục ngã ngay sau đó. Về thông tin cha mẹ của nhỏ thì chưa có gì, theo suy đoán chắc đã bị bọn săn nô lệ bắt lại. May vào lúc đó binh lính tuần tra quanh thành đã bắt gặp ${nameCharacter[10]} đang nằm gục ở gần bìa rừng nên đã đưa về cô nhi viện.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cùng hôm đó, tôi đang chơi với ${nameCharacter[9]} và vài đứa trẻ ở ngoài sân thì binh lính từ đâu chạy hối hả đến cô nhi viện. Trong đó có người lính trên tay đang bế một cô bé thú nhân trên mình có kha khá vết thương.`
+				content: `Cùng hôm đó, tôi đang chơi với ${nameCharacter[9]} và vài đứa trẻ ở ngoài sân thì binh lính từ đâu chạy hối hả đến cô nhi viện. Trong đó, có người lính trên tay đang bế một cô bé thú nhân có kha khá vết thương trên mình.`
 			},
 			{
 				color: colorOther[3],
@@ -8417,7 +8431,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Thế là tôi cũng chạy vào, sơ ${nameCharacter[5]} đang cho cô bé đó uống thuốc và tình trạng của cô đã đỡ hơn nhiều. Nhưng khi cô có lại ý thức thì liền nhảy một phát vào góc tường, đuôi dựng đứng lên xù như bông lau còn đôi tai dạt ra sau, móng vuốt thì nhô ra và đang thủ sẵn thế tấn công. Người cô như đang co rúm lại nhưng đồng thời cũng sẵn sàng cào xé bất cứ ai dám tiếp cận. Bầu không khí trong căn phòng bỗng nặng nề hơn bao giờ hết.`
+				content: `Thế là tôi cũng chạy vào, sơ ${nameCharacter[5]} đang cho cô bé đó uống thuốc và tình trạng của cô đã đỡ hơn nhiều. Nhưng khi cô có lại ý thức thì liền nhảy một phát vào góc tường. Đuôi dựng đứng lên xù như bông lau còn đôi tai dạt ra sau, móng vuốt thì nhô ra và đang thủ sẵn thế tấn công. Người cô như đang co rúm lại nhưng đồng thời cũng sẵn sàng cào xé bất cứ ai dám tiếp cận. Bầu không khí trong căn phòng bỗng nặng nề hơn bao giờ hết.`
 			},
 			{
 				color: colorCharacter[9],
@@ -8442,7 +8456,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Trong khi mọi người đang nghĩ cách để khiến cô bé bình tĩnh lại thì ${nameCharacter[9]} đã chầm chậm tiến đến chỗ cô ấy. Tôi cố nói khẽ nhất để không làm ${nameCharacter[9]} giật mình.`
+				content: `Trong khi mọi người đang nghĩ cách để khiến cô bé bình tĩnh lại thì ${nameCharacter[9]} đã chầm chậm tiến đến chỗ cô ấy. Tôi cố nói khẽ nhất để không làm cô bé ấy giật mình.`
 			},
 			{
 				color: colorCharacter[1],
@@ -8467,7 +8481,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Mặc kệ việc cậu đang bị cô cào nhiều phát sau lưng, vết thương kha khá nhiều nhưng cậu vẫn ôm cô thật chặt. Và sau một lúc cô đã dừng lại và ngất đi. Dường như cô đã cảm nhận được điều gì đó như là sự chân thành từ ${nameCharacter[9]} nên cô đã bình tĩnh lại mà thả lỏng người. Và ${nameCharacter[9]} sau đó cũng ngất đi vì quá đau. Chú diều hâu đậu ở cửa sổ chứng kiến mọi việc đã bay đi...`
+				content: `Mặc kệ việc cậu đang bị cô cào nhiều phát sau lưng, vết thương kha khá nhiều nhưng cậu vẫn ôm cô thật chặt. Và sau một lúc cô đã dừng lại và ngất đi. Dường như cô đã cảm nhận được điều gì đó như là sự chân thành từ ${nameCharacter[9]} nên đã bình tĩnh lại mà thả lỏng người. Và ${nameCharacter[9]} sau đó cũng ngất đi vì quá đau. Chú diều hâu đậu ở cửa sổ chứng kiến mọi việc đã bay đi...`
 			},
 			{
 				color: colorOther[0],
@@ -8537,7 +8551,7 @@ const volume = [
 			{
 				color: colorCharacter[9],
 				name: [ nameCharacter[9] ],
-				content: `Ơ vậy mình đã nói gì?`
+				content: `Ơ, vậy mình đã nói gì?`
 			},
 			{
 				color: colorCharacter[1],
@@ -8562,12 +8576,12 @@ const volume = [
 			{
 				color: colorCharacter[9],
 				name: [ nameCharacter[9] ],
-				content: `${nameCharacter[1]}! MÌNH ĐÃ NÓI GÌ SAI VẬY?`
+				content: `${nameCharacter[1].toUpperCase()}! MÌNH ĐÃ NÓI GÌ SAI VẬY?`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Nếu mọi người hỏi tại sao tôi vẫn chơi với “${nameTitle[2]}” thì đó là vì “bữa ăn rất ngon”. Đúng vậy, lí do chính của tôi đó.`
+				content: `Nếu mọi người hỏi tại sao tôi vẫn chơi với ${nameTitle[2]} thì đó là vì “bữa ăn rất ngon”. Đúng vậy, lí do chính của tôi đó.`
 			}
 		]
 	},
@@ -8578,17 +8592,17 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Trên con đường đất quen thuộc, một cậu bé tóc ngắn với mái vắt chéo qua trái đang thong dong trên đường đến cô nhi viện, chính là tôi đây. Thong thả vừa đi vừa ngắm nhìn bầu trời trong xanh điểm một vài vệt mây bông trắng đang trôi nhè nhẹ.`
+				content: `Trên con đường đất quen thuộc, một cậu bé tóc ngắn với phần mái vắt chéo qua trái đang thong dong trên đường đến cô nhi viện, chính là tôi đây. Thong thả vừa đi vừa ngắm nhìn bầu trời trong xanh điểm một vài vệt mây bông trắng đang trôi nhè nhẹ.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Một chú chim dáng giống diều hâu có lông màu nửa trắng phần chân và lam phần đầu. Nó bay vèo xuyên thủng qua những đám mây rồi đột ngột chuyển hướng lao về phía tôi. Tôi giật mình, đứng lại và thắc mắc tại sao diều hâu lại lao tới hướng của mình. Ngay lập tức, tôi chuyển sang thế thủ vì dù có chạy nhanh đến thế nào thì tôi cũng chả tránh được tốc độ bay của nó. Diều hâu đang lao tới, tôi nhắm mắt và chấp nhận việc bị thương.`
+				content: `Bỗng một chú chim dáng giống diều hâu có hai màu lông xuất hiện, nửa trắng phần chân lông và lam phần đầu lông. Nó bay vèo xuyên thủng qua những đám mây rồi đột ngột chuyển hướng lao về phía tôi. Tôi giật mình, đứng lại và thắc mắc tại sao diều hâu lại lao tới hướng này. Ngay lập tức, tôi chuyển sang thế thủ vì dù có chạy nhanh đến thế nào thì tôi cũng chả tránh được tốc độ bay của nó. Diều hâu đang lao tới, tôi nhắm mắt và chấp nhận việc bị thương.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Đột ngột, tôi cảm nhận được một làn gió dường như rất quen thuộc. Cảm giác này... tôi không thể hiểu... nhưng có thể cảm nhận được. Cảm tưởng như nó đang thì thầm tôi điều gì đó. Diều hâu lúc này đã rất gần rồi nhưng tôi không cảm thấy sát khí của nó. Thế nên tôi đã thả lỏng cơ thể, quan sát nó và đúng như linh cảm. Diều hâu bay qua đem theo làn gió mát mẻ cùng sự tự do. Tôi bất giác quay người nhìn chú bay đi khuất tầm khỏi mắt, hoài nghi về điều vừa xảy ra, liệu nó là một trò chơi khăm của ai đó hay là thử thách sự can đảm dành cho tôi? Giờ tôi chả có chứng cứ gì nên đành gác lại và nhanh tới cô nhi viện.`
+				content: `Đột ngột, tôi cảm nhận được một làn gió dường như rất quen thuộc. Cảm giác này... tôi không thể hiểu... nhưng có thể cảm nhận được. Cảm tưởng như nó đang thì thầm tôi điều gì đó. Diều hâu lúc này đã rất gần rồi nhưng tôi không cảm thấy sát khí của nó. Thế nên tôi đã thả lỏng cơ thể, quan sát nó và đúng như linh cảm. Diều hâu bay qua trước mặt tôi, đem theo làn gió mát mẻ cùng sự tự do. Tôi bất giác quay người nhìn chú bay đi khuất khỏi tầm mắt, hoài nghi về điều vừa xảy ra, liệu nó là một trò chơi khăm của ai đó hay là thử thách sự can đảm dành cho mình? Giờ tôi chả có chứng cứ gì nên đành gác lại và nhanh tới cô nhi viện.`
 			},
 			{
 				color: colorOther[0],
@@ -8623,7 +8637,7 @@ const volume = [
 			{
 				color: colorOther[1],
 				name: [ `Cô bé` ],
-				content: `Xin lỗi xin lỗi nya. Tớ cũng tò mò vì hiếm khi thấy cậu đi muộn như này nya.`
+				content: `Xin lỗi xin lỗi nya. Mình cũng tò mò vì hiếm khi thấy cậu đi muộn như này nya.`
 			},
 			{
 				color: colorCharacter[1],
@@ -8653,17 +8667,17 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cô nhi viện hiện đang được quản lý bởi sơ ${nameCharacter[5]} và đồng thời cũng là người chăm sóc cho các đứa trẻ ở đây. Cơ sở vật chất ở nơi đây cũng có thể nói là ổn, không quá thiếu thốn. Có một khu vườn trồng rau củ quả ở phía sau để có thể ăn hoặc mang đi bán chút. Đôi khi cô nhi viện cũng nhận được một chút quyên góp của người dân xung quanh như là đồ ăn, quần áo, ...`
+				content: `Cô nhi viện hiện đang được quản lý bởi sơ ${nameCharacter[5]} và đồng thời cũng là người chăm sóc cho các đứa trẻ ở đây. Cơ sở vật chất cũng có thể nói là ổn, không quá thiếu thốn. Có một khu vườn trồng rau củ quả ở phía sau để có thể ăn hoặc mang đi bán chút. Đôi khi cô nhi viện cũng nhận được một chút quyên góp của người dân xung quanh như là đồ ăn, quần áo, ...`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Hiện tại đang có khoảng chục đứa trẻ sống ở đây và tuổi của chúng chênh lệch nhau một đến hai tuổi. Trong đó thì có hai người bạn thân cùng tuổi vừa gây sự với tôi hồi sáng.`
+				content: `Hiện tại đang có khoảng chục đứa trẻ sống ở đây và tuổi của chúng thường chênh lệch nhau một đến hai tuổi. Trong đó thì có hai người bạn thân cùng tuổi với tôi vừa gây sự hồi sáng.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cậu bạn với mái tóc xù xì màu lá phong là ${nameCharacter[9]}. Đôi mắt lúc nào cũng sáng rực như ánh nắng ban mai, và ánh nhìn của cậu nhiều khi cũng dứt khoát như những hành động cậu làm vậy. Tóc cậu ta khá xù xì và khó chải, nên cậu đành cứ để vậy. Dù cũng xuề xòa về phục trang như những cậu bé khác, nhưng ít nhất là ${nameCharacter[9]} cũng khá cầu toàn về khoản này. Trang phục của cậu lúc nào trông cũng khá là chỉn chu. Tuy còn đó sự bồng bột của tuổi trẻ nhưng cậu lại là người bạn chính trực và đáng tin cậy. Mọi lời ${nameCharacter[9]} nói những lúc không đùa cợt đều như đinh đóng cột, luôn rạch ròi đúng sai kèm theo đó là những hành động mà cậu cho cần thiết.`
+				content: `Cậu bạn với mái tóc xù xì màu lá phong là ${nameCharacter[9]}. Đôi mắt lúc nào cũng sáng rực như ánh nắng ban mai, cùng ánh nhìn của cậu nhiều khi cũng dứt khoát như những hành động cậu làm vậy. Tóc cậu ta khá xù xì và khó chải, nên cậu đành cứ để vậy. Tuy còn đó sự bồng bột của tuổi trẻ nhưng cậu lại là người bạn chính trực và đáng tin cậy. Mọi lời ${nameCharacter[9]} nói những lúc không đùa cợt đều như đinh đóng cột, luôn rạch ròi đúng sai kèm theo đó là những hành động mà cậu cho cần thiết.`
 			},
 			{
 				color: colorOther[0],
@@ -8673,7 +8687,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cô bạn nhỏ nhắn luôn đi cùng ${nameCharacter[9]} có tên là ${nameCharacter[10]}. Cô là một Miêu nhân, một chủng tộc người thú với thể chất khá vượt trội, dù bề ngoài của nhỏ thật chẳng khác những cô bé cùng trang lứa là bao. Mái tóc cắt ngắn tím thẫm như bầu trời đêm với hai búi tóc thả dài đằng trước. Còn phía trên là đôi tai nhọn gần như lúc nào cũng vểnh cao có lẽ là điểm ấn tượng lớn nhất của mọi người về cô bé, cũng như chiếc đuôi nhỏ xinh đôi khi vung vẩy theo gió. Phần mái dài phía trước trán cô bé không thể nào che nổi nét tinh nghịch và vui vẻ trong đôi mắt lục bảo sáng như những vì sao của nhỏ. Khi nhìn ánh mắt đó, mọi người có thể thấy rõ nhiệt huyết của tuổi trẻ cũng như là sự ranh mãnh của một chú mèo con ham vui vậy. Hết mình là thế, nhưng cô bé cũng rất thấu hiểu, và biết điểm dừng khi mọi thứ dần đi quá giới hạn.`
+				content: `Cô bạn nhỏ nhắn luôn đi cùng ${nameCharacter[9]} có tên là ${nameCharacter[10]}. Cô là người mèo, một chủng tộc người thú với thể chất khá vượt trội, dù bề ngoài của ${nameCharacter[10]} thật chẳng khác những cô bé cùng trang lứa là bao. Mái tóc cắt ngắn tím thẫm như bầu trời đêm với hai búi tóc thả dài đằng trước. Còn phía trên là đôi tai nhọn gần như lúc nào cũng vểnh cao có lẽ là điểm ấn tượng lớn nhất của mọi người về cô bé, cũng như chiếc đuôi nhỏ xinh đôi khi vung vẩy theo gió. Phần mái dài phía trước trán cô không thể nào che nổi nét tinh nghịch và vui vẻ trong đôi mắt lục bảo sáng như những vì sao. Khi nhìn ánh mắt đó, mọi người có thể thấy rõ nhiệt huyết của tuổi trẻ cũng như là sự ranh mãnh của một chú mèo con ham vui vậy. Hết mình là thế, nhưng cô cũng rất thấu hiểu và biết điểm dừng khi mọi thứ dần đi quá giới hạn.`
 			},
 			{
 				color: colorOther[0],
@@ -8683,12 +8697,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cả hai người đều là những người bạn quan trọng của tôi nhưng để mà nói thì các cậu ấy là “${nameTitle[2]}”. Đúng vậy, bộ đôi rất tinh nghịch và hay quậy phá. Chắc vì họ vẫn là trẻ con nên hành xử như vậy là đúng với tuổi. Không như tôi... Dù sao thì hành động của độ đôi không vượt quá giới hạn và cũng biết lúc nào phải dừng lại nên không có ai ghét họ cả.`
+				content: `Cả hai người đều là những người bạn quan trọng của tôi, nhưng để mà nói thì các cậu ấy là “${nameTitle[2]}”. Đúng vậy, bộ đôi rất tinh nghịch và hay quậy phá. Chắc vì họ vẫn là trẻ con nên hành xử như vậy là đúng với tuổi, không như tôi... Dù sao thì hành động của độ đôi không vượt quá giới hạn, biết lúc nào phải dừng lại nên không có ai ghét họ cả.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Quay lại việc tại sao tôi đến cô nhi viện thì trong khuôn sân ở đây có một ngôi nhà dùng dạy học và sơ ${nameCharacter[5]} là người chỉ bảo. Thực ra đây là sự tự nguyện của sơ vì nơi đây không có trường học và chỉ những quý tộc mới có đủ tiền để thuê giáo viên về dạy. Vì tự nguyện nên học phí không có, thay vào đó thì người dân có thể quyên góp nếu muốn. Những thứ tôi được học ở đây gồm cách viết đọc nói, tính toán, tiền tệ, lịch sử, địa lý và tín ngưỡng nơi đây.`
+				content: `Quay lại việc tại sao tôi đến cô nhi viện thì trong khuôn sân ở đây có một ngôi nhà dùng dạy học, sơ ${nameCharacter[5]} là người chỉ bảo. Thực ra đây là sự tự nguyện của sơ vì nơi đây không có trường học, chỉ những quý tộc mới có đủ tiền để thuê giáo viên về dạy. Vì tự nguyện nên học phí không có, thay vào đó thì người dân có thể quyên góp nếu muốn. Những thứ tôi được học ở đây gồm cách viết đọc nói, tính toán, tiền tệ, lịch sử, địa lý và tín ngưỡng nơi đây.`
 			},
 			{
 				color: colorOther[0],
@@ -8708,7 +8722,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Về lịch sử, thị trấn có tên là ${nameLocation[2]}. Hiện tại đang được cai trị bởi lãnh chúa có tên là ${nameCharacter[6]} ${nameCharacter[7]}. Từng là một chỉ huy gan dạ và tài ba trên chiến trường, với vị trí hiện tại là một lãnh chúa thì Ngài luôn cố gắng giúp cho thị trấn phát triển. Nhưng có vẻ không phải việc gì cũng thuận theo ý Ngài bởi thị trấn vẫn phải phụ thuộc nhiều vào tài nguyên của quý tộc. Tình hình trị an trong thị trấn khá tương đối ổn định. Thay vào đó thì sự phân chia giàu nghèo một cách rõ ràng giữa thường dân với quý tộc và tất nhiên không phải quý tộc nào cũng xấu. Đồng thời, nơi đây đa dạng chủng loại cùng sinh sống.`
+				content: `Về lịch sử, thị trấn có tên là ${nameLocation[2]}. Hiện tại đang được cai trị bởi lãnh chúa có tên là ${nameCharacter[6]} ${nameCharacter[7]}. Từng là một chỉ huy gan dạ và tài ba trên chiến trường, với vị trí hiện tại là một lãnh chúa thì Ngài luôn cố gắng giúp cho thị trấn phát triển. Nhưng có vẻ không phải việc gì cũng thuận theo ý Ngài bởi thị trấn vẫn phải phụ thuộc nhiều vào tài nguyên của quý tộc. Tình hình trị an trong thị trấn khá tương đối ổn định. Thay vào đó thì sự phân chia giàu nghèo một cách rõ ràng giữa thường dân với quý tộc, tất nhiên không phải quý tộc nào cũng xấu. Đồng thời, nơi đây đa dạng chủng tộc cùng sinh sống.`
 			},
 			{
 				color: colorOther[0],
@@ -8718,12 +8732,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Về địa lý thì trị trấn nằm trên thảo nguyên thảm cỏ xanh tươi bạt ngàn. Thị trấn giáp biển hướng từ Đông đến Nam, hướng Bắc giáp rừng có ma thú và hầm ngục quái, hướng Tây là thảo nguyên rộng với đa dạng thực vật cũng có ma vật xuất hiện rải rác. Ở hướng Nam có cảng ${nameLocation[3]}. Ở hướng Đông có bãi biển tuyệt đẹp để có thể vui chơi, nghỉ ngơi thỏa thích tại nơi đó.`
+				content: `Về địa lý thì trị trấn nằm trên thảo nguyên có thảm cỏ xanh tươi bạt ngàn. Thị trấn giáp biển hướng từ Đông đến Nam, hướng Bắc giáp rừng có ma thú và hầm ngục quái, hướng Tây là thảo nguyên rộng với đa dạng thực vật cũng có ma vật xuất hiện rải rác. Ở hướng Nam có cảng ${nameLocation[3]}. Còn hướng Đông có bãi biển tuyệt đẹp để săn bắt ma vật ven đó, đồng thời cũng có thể khai thác tài nguyên.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cuối cùng là về tín ngưỡng, thị trấn đang tôn thờ một vị thần tên là ${nameCharacter[8]}. Đây là vị thần biểu tượng cho công lý hay có thể nói là sự bảo vệ, che chở dành cho người khác. Cụ thể thì họ tin rằng thần ${nameCharacter[8]} đã luôn bảo vệ và che chở cho nơi đây được những tháng ngày bình yên. Và có những tin đồn rằng tường thành sao sáu cánh của thị trấn chính là lời sấm từ thần ${nameCharacter[8]} sau khi lãnh chúa đời trước đã cầu nguyện tới vị thần này. Thực hư ra sao thì tôi cũng không rõ nhưng mà có đức tin vào một ai đó như thần ${nameCharacter[8]} thì cũng không quá tệ.`
+				content: `Cuối cùng là về tín ngưỡng, thị trấn đang tôn thờ một vị thần tên là ${nameCharacter[8]}. Đây là vị thần biểu tượng cho công lý hay có thể nói là sự bảo vệ, che chở dành cho người khác. Cụ thể thì họ tin rằng thần ${nameCharacter[8]} đã luôn bảo vệ và che chở cho nơi đây được những tháng ngày bình yên. Và có những tin đồn rằng tường thành sao sáu cánh của thị trấn chính là lời sấm từ thần ${nameCharacter[8]} sau khi lãnh chúa các đời trước đã cầu nguyện tới vị thần này. Thực hư ra sao thì tôi cũng không rõ nhưng mà có đức tin vào một ai đó như thần ${nameCharacter[8]} thì cũng không quá tệ.`
 			},
 			{
 				color: colorOther[0],
@@ -8748,7 +8762,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Tôi nhanh chóng cởi giày và vào giúp mẹ. Sau một hồi dọn bàn thì cha tôi về nhà, như thường lệ vẫn luôn ồn ào.`
+				content: `Tôi nhanh chóng cởi giày và vào giúp mẹ. Sau một hồi dọn bàn thì cha về nhà, như thường lệ vẫn luôn ồn ào.`
 			},
 			{
 				color: colorCharacter[1],
@@ -8779,17 +8793,17 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Thật là ấm áp... Đốm sáng yếu ớt dần xua tan bóng tối quanh tôi. Mở mắt ra và thứ đầu tiên có thể thấy là người phụ nữ tóc dài đang bồng tôi. Dường như đây là người đã hạ sinh tôi... Cơ thể nhỏ bé này hiện tại khá yếu... Vậy là tôi đã được chuyển sinh thật rồi! Căn phòng hơi tối nên tôi không nhìn rõ được gì nhiều.`
+				content: `Thật là ấm áp... Đốm sáng yếu ớt dần xua tan bóng tối quanh tôi. Mở mắt ra và thứ đầu tiên có thể thấy là người phụ nữ tóc dài đang bồng tôi. Dường như đây là người đã hạ sinh mình... Cơ thể nhỏ bé này hiện tại khá yếu... Vậy là tôi đã được chuyển sinh thật rồi! Căn phòng hơi tối vì chỉ được thắp sáng bởi một cây nến. Thử liếc nhẹ qua căn phòng thì tường, trần nhà và sàn có vẻ chủ yếu đều được làm từ gỗ.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Thử liếc nhẹ qua căn phòng thì tường, trần nhà và sàn có vẻ chủ yếu đều được làm từ gỗ. Một cơn gió nhẹ thổi qua... tấm rèm bay nhè nhẹ... À, ra là cửa sổ đang mở. Trời tiết tối nay có vẻ sẽ lạnh đây nhưng tôi đang được bồng trong lòng nên khá là ấm áp. Nhân tiện thì cửa sổ cũng được làm từ kính kết hợp với khung làm từ gỗ. Còn căn phòng thì hơi nhỏ nên đồ đạc cũng không có gì nhiều ngoài một cái giường sát tường cạnh cửa sổ, một tủ nhỏ cạnh giường, một bộ bàn ghế gồm một bàn hai ghế và một tủ quần áo...`
+				content: `Bỗng một cơn gió nhẹ thổi qua... tấm rèm bay nhè nhẹ... À, ra là cửa sổ kính đang mở. Tiết trời tối nay có vẻ lạnh nhưng tôi đang được bồng trong lòng nên khá là ấm áp. Căn phòng đang ở trông khá thoáng khi đồ đạc không có gì nhiều ngoài một cái giường sát tường cạnh cửa sổ, một tủ nhỏ cạnh giường, một bộ bàn ghế gồm một bàn hai ghế và một tủ quần áo...`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Mà khoan! Tôi mải để ý đến mấy thứ khác quá, vẫn còn một vài người khác trong phòng đang nói chuyện to nhỏ. Lúc này một người đàn ông đang vừa nói, vừa khóc... trong hạnh phúc?`
+				content: `Mà khoan! Mình mải để ý đến mấy thứ khác quá, vẫn còn một vài người khác trong phòng đang nói chuyện to nhỏ. Lúc này một người đàn ông đang vừa nói, vừa khóc... trong hạnh phúc?`
 			},
 			{
 				color: colorCharacter[1],
@@ -8829,7 +8843,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Không ngờ tôi có người cha ồn ào như vậy, đang ban đêm đấy nói nhỏ lại thôi chứ cha. Tôi còn đang bận phải nghĩ kế hoạch giả... mà khoan đã, đây là lúc thích hợp để giả khóc mà. Tôi đã giãy giụa và giả tiếng khóc.`
+				content: `Không ngờ mình có người cha ồn ào như vậy, đang ban đêm đấy nói nhỏ lại... Mà khoan, đây là lúc thích hợp để giả khóc. Tôi đã giãy giụa và giả tiếng khóc.`
 			},
 			{
 				color: colorCharacter[1],
@@ -8839,7 +8853,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Mẹ tôi thấy vậy liền vỗ về để tôi nín.`
+				content: `Mẹ tôi thấy vậy liền xuýt xoa, vỗ về để tôi nín.`
 			},
 			{
 				color: colorCharacter[1],
@@ -8849,7 +8863,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Người cha thấy hối lỗi liền lấy tay bịt miệng và nói nhỏ.`
+				content: `Người cha thấy hối lỗi lập tức lấy tay bịt miệng mình và nói nhỏ.`
 			},
 			{
 				color: colorCharacter[1],
@@ -8859,12 +8873,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Sơ ${nameCharacter[5]} đã suýt bật cười, thay vào đó là mỉm cười rồi cất gọn đồ đạc để chuẩn bị ra về.`
+				content: `Sơ ${nameCharacter[5]} đã suýt bật cười, thay vào đó là cười mỉm rồi cất gọn đồ đạc để chuẩn bị ra về.`
 			},
 			{
 				color: colorCharacter[5],
 				name: [ nameCharacter[5] ],
-				content: `Ái chà, có vẻ đứa trẻ khóc rồi. Chắc là nó không bị gì đâu, mọi người không cần phải lo lắng nữa. Thôi, tôi xin phép về không làm phiền gia đình nữa.`
+				content: `Ái chà, có vẻ đứa trẻ khóc rồi. Chắc là cháu nó không bị gì đâu, mọi người hiện tại không cần phải lo lắng nữa. Thôi, tôi xin phép về không làm phiền gia đình nữa.`
 			},
 			{
 				color: colorOther[0],
@@ -8909,12 +8923,12 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[3] ],
-				content: `Suỵt... Con nó sắp ngủ anh à.`
+				content: `Suỵt... Con sắp ngủ anh à.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Người cha thấy vậy nên đã nhẹ nhàng đi đến bên giường và ngồi cạnh mẹ.`
+				content: `Cha thấy vậy nên đã nhẹ nhàng đi đến bên giường và ngồi cạnh mẹ.`
 			},
 			{
 				color: colorCharacter[1],
@@ -8934,12 +8948,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Mẹ mỉm cười và gật đầu một cái nhẹ. Đó là những điều cuối cùng tôi nghe trước khi đôi mắt nhắm chặt lại và chìm vào giấc ngủ...`
+				content: `Mẹ mỉm cười, gật đầu một cái nhẹ. Đó là những điều cuối cùng tôi nghe và thấy trước khi đôi mắt nhắm chặt lại rồi chìm vào giấc ngủ. Buổi tối ngày hôm đó đã trôi qua nhanh chóng...`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Buổi tối ngày hôm đó trôi qua... Mặt trời đã ló rạng được hồi lâu, chiếu những tia sáng xuyên qua những ô cửa kính soi rọi bên trong ngôi nhà.`
+				content: `Mặt trời đã ló rạng được hồi lâu, những tia sáng chiếu xuyên qua những ô cửa kính soi rọi bên trong ngôi nhà.`
 			},
 			{
 				color: colorCharacter[1],
@@ -8954,22 +8968,22 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Tôi vừa đi vừa nghĩ vu vơ... Hiện tại tôi đang sáu tuổi, đồng nghĩa với việc đã được sáu năm kể từ khi được chuyển sinh. Hiện tại tên tôi là ${nameCharacter[1]} và là một đứa nhóc.`
+				content: `Tôi vừa đi vừa nghĩ vu vơ... Đã được sáu năm kể từ khi được chuyển sinh đến nơi này, hiện tại tôi tên ${nameCharacter[1]} và là một đứa nhóc.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Cha tôi tên ${nameCharacter[4]}, đến nay đã được hai mươi sáu tuổi. Hiện đang làm lính canh gác ở cổng hướng Nam, đến bữa tối mới có thể về nhà.`
+				content: `Cha tôi tên ${nameCharacter[4]}, đến nay đã được hai mươi sáu tuổi. Hiện đang làm lính canh gác ở cổng hướng Nam, đến bữa tối mới có thể về nhà. Thoạt nhìn trông có vẻ cha không được cơ bắp lắm, nhưng ẩn sau lớp giáp thường mặc là một thân hình khá vạm vỡ. Đồng thời cha khá là chiều chuộng tôi, gần như tôi cần hay làm gì cha đều đồng ý hết, miễn là cha bên cạnh. Và cha khá là ồn ào...`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Còn mẹ tên ${nameCharacter[3]}, đến nay là hai mươi tư tuổi. Là một thợ may vá và cũng là nội trợ của gia đình. Khi rảnh thường hay giúp đỡ bên cô nhi viện do sơ ${nameCharacter[5]} hiện đang quản lý.`
+				content: `Còn mẹ tên ${nameCharacter[3]}, đến nay đã được hai mươi tư tuổi. Là một thợ may vá và cũng là nội trợ của gia đình. Mẹ thấp hơn cha có nửa cái trán nhưng vẻ đẹp có khi không ai sánh bằng, cùng mái tóc dài màu đá lưu ly đầy quyến rũ. Nếu ai đó bảo tôi nói quá thì đúng, vì mẹ mình phải là nhất chứ sao nữa. Khi rảnh mẹ thường hay giúp đỡ bên cô nhi viện do sơ ${nameCharacter[5]} hiện đang quản lý, mối quan hệ của sơ ${nameCharacter[5]} với mẹ như chị em thân thiết đó.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Nguồn thu nhập chính đều đến từ cha. Có thể nói gia đình tôi có đủ để sống qua ngày, theo lời cha nói là vậy. Tôi đang ở thị trấn có tên gọi là ${nameLocation[2]}... và tất cả thông tin tôi biết chỉ có đến vậy.`
+				content: `Nguồn thu nhập chính đều đến từ công việc của cha. Có thể nói, gia đình tôi có đủ để sống qua ngày, theo quan sát của tôi là vậy. Nơi mà gia đình tôi đang ở là tại thị trấn mang tên ${nameLocation[2]}... Và tất cả thông tin tôi biết chỉ có đến vậy.`
 			},
 			{
 				color: colorOther[0],
@@ -8984,12 +8998,12 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[1] ],
-				content: `Chào buổi sáng, mẹ ạ... Oa! Mẹ làm trứng ấy ạ? Ngon quá, con cảm ơn mẹ! Mời cả nhà ăn sáng!`
+				content: `Chào buổi sáng, mẹ ạ... Oa! Món trứng trông ngon quá! Mời cả nhà ăn sáng!`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[1] ],
-				content: `Tất cả chỉ là diễn cả, tuy cảm giác hơi không thoải mái khi tỏ vẻ trẻ con so với tuổi thật nhưng... Tôi mới chỉ có sáu tuổi, biết sao được. Món trứng này tuy không được cuộn lại nhưng nó thực sự ngon, dù sao thì tôi thích ăn trứng là thật. Sau khi ăn xong bữa sáng thì mẹ có nhẹ nhàng nhắc tôi.`
+				content: `Tất cả chỉ là diễn cả, tuy cảm giác hơi không thoải mái khi tỏ vẻ trẻ con so với tuổi thật nhưng... tôi mới chỉ có sáu tuổi, biết sao được. Món trứng này không được cuộn lại nhưng nó thực sự ngon, dù sao thì tôi thích ăn trứng nên không có gì phải phàn nàn cả. Sau khi ăn xong bữa sáng thì mẹ có nhẹ nhàng nhắc tôi.`
 			},
 			{
 				color: colorCharacter[1],
@@ -9004,7 +9018,7 @@ const volume = [
 			{
 				color: colorCharacter[1],
 				name: [ nameCharacter[3] ],
-				content: `Con mẹ ngoan quá đi à. Không có nhiều đứa trẻ như con ở độ tuổi này đâu. Mẹ thấy con trưởng thành nhanh quá... Có cảm giác con sắp xa mẹ rồi ý. Mà mẹ đi may vá đây, cảm ơn con nhé.`
+				content: `Con mẹ ngoan quá đi à. Không có nhiều đứa trẻ như con ở độ tuổi này đâu. Mẹ thấy con trưởng thành nhanh quá... có cảm giác con sắp xa mẹ rồi ý. Mà mẹ đi may vá đây, cảm ơn con nhé.`
 			},
 			{
 				color: colorOther[0],
@@ -9036,12 +9050,17 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Lạnh quá... Tôi muốn ôm lấy bản thân để bớt lạnh nhưng tại sao tay mình không cử động được? Có tiếng người nói gì đó rất lớn vang vọng về phía tôi... Mọi người đang nói gì vậy? Không thể nghe rõ... mệt quá... muốn nhắm mắt... muốn ngủ... Tôi có thể cảm nhận được nhịp đập của tim mình đang ngày một yếu dần... Và rồi, bản thân như rơi vào cõi hư vô, không còn cảm thấy gì nữa...`
+				content: `Lạnh quá... Tôi muốn ôm lấy bản thân để bớt lạnh nhưng lại không cử động được... Có tiếng người... dường như đang nói gì đó rất lớn vang vọng về phía tôi... Mọi người đang nói gì vậy... không thể nghe rõ... Mệt quá... muốn ngủ... Tôi có thể cảm nhận được nhịp đập của tim mình đang ngày một yếu dần... Và rồi, bản thân như rơi vào cõi hư vô, không còn cảm thấy gì nữa...`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Lấy lại nhận thức, tôi giật bắn mình ngồi dậy, mắt nhắm mắt mở nhìn mọi thứ xung quanh nhưng đều là một màu trắng xóa. Bối rối với khung cảnh hiện tại, tôi từ từ đứng dậy, ngó nghiêng trái phải một hồi, rồi dưới chân đột ngột xuất hiện một con đường lát gạch dẫn đi đâu đó. Mọi thứ đều rối bời, không thể hình dung được tình hình hiện tại ra sao nên để tìm câu trả lời, thì chắc chỉ còn cách đi trên con đường hiện ra. Vừa đi vừa nghĩ vu vơ, cố hiểu tình hình hiện tại nhưng chả thể nào nghĩ được gì hợp lí cả. Thậm chí tôi cũng không thể nhớ chuyện gì đã xảy ra, rồi tiếng gõ bàn phím từ đâu vang lên. Như một bản năng, tôi đã chạy thật nhanh về hướng đó để tìm câu trả lời.`
+				content: `Lấy lại nhận thức, tôi giật bắn mình ngồi dậy, mắt nhắm mắt mở nhìn mọi thứ xung quanh nhưng đều là một màu trắng xóa. Bối rối với khung cảnh hiện tại, tôi từ từ đứng dậy, ngó nghiêng trái phải một hồi. Bỗng dưới chân xuất hiện một con đường lát gạch dẫn đi đâu đó. Mọi thứ đều rối bời, không thể hình dung được tình hình hiện tại ra sao nên để tìm câu trả lời, thì chắc chỉ còn cách đi trên con đường hiện ra.`
+			},
+			{
+				color: colorOther[0],
+				name: [ nameCharacter[0] ],
+				content: `Vừa đi vừa nghĩ vu vơ, cố hiểu tình hình hiện tại nhưng chả thể nào nghĩ được gì hợp lí cả, thậm chí tôi cũng không thể nhớ chuyện gì đã xảy ra. Tôi cứ đi trên con đường đó, đi mãi cho đến khi tiếng gõ bàn phím từ đâu vang lên. Như một bản năng, tôi đã chạy thật nhanh về hướng phát ra âm thanh quen thuộc đó để tìm câu trả lời.`
 			},
 			{
 				color: colorOther[0],
@@ -9056,7 +9075,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Lời nói của anh thật điềm tĩnh trông như anh ấy đang đợi tôi đến nơi đây vậy.`
+				content: `Lời nói của người nhân viên thật điềm tĩnh, trông như anh ấy đang đợi tôi đến nơi đây vậy.`
 			},
 			{
 				color: colorCharacter[0],
@@ -9071,12 +9090,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Tôi lúc này đang cực kì bối rối. Nhân viên? ${nameLocation[1]} là văn phòng gì cơ?`
+				content: `Tuy có được thêm ít thông tin nhưng tôi lại càng bối rối. Nhân viên? ${nameLocation[1]} là văn phòng gì cơ?`
 			},
 			{
 				color: colorCharacter[2],
 				name: [ nameCharacter[2] ],
-				content: `Nói ngắn gọn thì bạn đã gặp phải cái chết không thể ngờ tới trước tuổi ba mươi và mang trong mình nhiều nuối tiếc chưa thể thực hiện được khi còn sống. Vậy nên bạn đã được xuất hiện tại nơi đây của chúng tôi.`
+				content: `Nói ngắn gọn thì bạn đã gặp phải cái chết không thể ngờ tới trước tuổi ba mươi và mang trong mình nhiều nuối tiếc chưa thể thực hiện được. Vậy nên bạn đã được xuất hiện tại nơi đây của chúng tôi.`
 			},
 			{
 				color: colorOther[0],
@@ -9086,7 +9105,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Lúc này tôi đang trên đường đi về nhà còn trời thì mưa tầm tã. Có vẻ như lúc đó có một chiếc xe máy băng qua đường và dường như không để ý tôi nên tai nạn đã xảy ra. May thay là người đó có phanh kịp lúc nên cả hai sau khi va chạm chỉ bị ngã và xây xát nhẹ đôi chỗ. Khi tôi gượng đứng dậy, ánh đèn chói lóa từ đâu tiến đến trước mắt. Một chiếc xe máy khác đi cùng chiều có vẻ không thấy tai nạn phía trước nên đã không kịp phản ứng. Cú đâm này khiến tôi bị văng đi một đoạn ngắn, không thể cử động và rồi mất dần ý thức.`
+				content: `Lúc này, tôi đang trên đường đi về nhà còn trời thì mưa tầm tã. Có vẻ như lúc đó có một chiếc xe máy băng qua đường, dường như không để ý tôi nên tai nạn đã xảy ra. May thay là người đó có phanh kịp lúc nên cả hai sau khi va chạm chỉ bị ngã và xây xát nhẹ đôi chỗ. Khi tôi gượng đứng dậy, ánh đèn chói lóa từ đâu tiến đến trước mắt. Một chiếc xe máy khác đi cùng chiều có vẻ không thấy tai nạn phía trước nên đã không kịp phản ứng. Cú đâm này khiến tôi bị văng đi một đoạn ngắn, không thể cử động và rồi mất dần ý thức.`
 			},
 			{
 				color: colorOther[0],
@@ -9096,7 +9115,7 @@ const volume = [
 			{
 				color: colorCharacter[0],
 				name: [ nameCharacter[0] ],
-				content: `Thế... đây là thiên đàng... Nơi đây hiện đại hơn tôi nghĩ...`
+				content: `Thế... đây là thiên đàng... Nơi đây hiện đại hơn mình nghĩ...`
 			},
 			{
 				color: colorCharacter[2],
@@ -9151,7 +9170,7 @@ const volume = [
 			{
 				color: colorCharacter[2],
 				name: [ nameCharacter[2] ],
-				content: `Như đã đề cập trước đó, bạn sẽ được tái sinh vào thế giới mới. Đây là nơi tồn tại những thứ giả tưởng như ma pháp và các sinh vật lạ cùng các định luật vật lý từng chỉ là giả thuyết.`
+				content: `Như đã đề cập trước đó, bạn sẽ được tái sinh vào thế giới mới. Đây là nơi tồn tại những thứ giả tưởng như ma pháp và các sinh vật lạ, cùng các định luật vật lý mà bạn không thể ngờ đến.`
 			},
 			{
 				color: colorOther[0],
@@ -9161,12 +9180,12 @@ const volume = [
 			{
 				color: colorCharacter[2],
 				name: [ nameCharacter[2] ],
-				content: `Chúng tôi sẽ cung cấp cho bạn một vài quyền lợi, trong số đó là được tùy chỉnh bản thân như diện mạo, chủng loại, thể trạng, chức nghiệp trước khi chuyển sinh.`
+				content: `Chúng tôi sẽ cung cấp cho bạn một vài quyền lợi, trong số đó là được tùy chỉnh bản thân như diện mạo, chủng tộc, thể trạng, chức nghiệp trước khi chuyển sinh.`
 			},
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Được tùy chỉnh bản thân? Cảm giác hơi kì kì nhưng sao cũng được.`
+				content: `Được tùy chỉnh bản thân? Cảm giác cứ như đang chơi trò chơi vậy... sao cũng được.`
 			},
 			{
 				color: colorCharacter[2],
@@ -9176,7 +9195,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Quyền lợi này tốt thật, việc tiếp thu nhanh thông tin môi trường xung sẽ giúp tôi rất nhiều.`
+				content: `Quyền lợi này tốt thật, việc tiếp thu nhanh thông tin môi trường xung sẽ giúp mình rất nhiều.`
 			},
 			{
 				color: colorCharacter[2],
@@ -9186,12 +9205,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Thật à... Tồn tại hệ thống kiểu này dễ kiểm tra thông tin hơn thật. Mà khoan... truy cập sớm hơn?`
+				content: `Thật à... Ngày càng giống trò chơi hơn rồi, nhưng tồn tại hệ thống kiểu này dễ kiểm tra thông tin hơn thật. Mà khoan... truy cập sớm hơn?`
 			},
 			{
 				color: colorCharacter[2],
 				name: [ nameCharacter[2] ],
-				content: `Có danh hiệu ${nameTitle[0]} cho phép ẩn thông tin tùy chọn trong ${statusBoard} mà không sinh vật có kỹ năng thuộc${nameLocation[0]}có thể nhìn ra được. Ngoại trừ những người được ${nameLocation[1]} chuyển sinh có kỹ năng soi mói.`
+				content: `Có danh hiệu ${nameTitle[0]} cho phép ẩn thông tin tùy chọn trong ${statusBoard} mà không thực thể nào thuộc${nameLocation[0]}có thể nhìn ra được. Ngoại trừ những người được ${nameLocation[1]} chuyển sinh có kỹ năng soi mói.`
 			},
 			{
 				color: colorOther[0],
@@ -9201,7 +9220,7 @@ const volume = [
 			{
 				color: colorCharacter[2],
 				name: [ nameCharacter[2] ],
-				content: `Có được ba điều ước và ước được bất cứ điều gì miễn là thỏa mãn các điều kiện gồm không gây ảnh hưởng lên những ${nameTitle[0]} khác, không ảnh hưởng quá lớn lên đại vũ trụ${nameLocation[0]}và nhất là ảnh hưởng lên ${nameLocation[1]}.`
+				content: `Có được ba điều ước và ước được bất cứ điều gì miễn là thỏa mãn các điều kiện như không gây ảnh hưởng lên những ${nameTitle[0]} khác, không ảnh hưởng quá lớn lên đại vũ trụ${nameLocation[0]}và nhất là ảnh hưởng lên ${nameLocation[1]}.`
 			},
 			{
 				color: colorOther[0],
@@ -9236,7 +9255,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Sau khi ${nameCharacter[2]} dừng nói thì tôi đã hỏi kha khá câu và biết thêm được một vài điều. Trong đại vũ trụ sẽ có nhiều chiều không gian khác nhau và chiều không gian chính được gọi là Khởi nguyên, nơi phần lớn người chuyển sinh đến. Tuy được chuyển sinh nhưng có thể không chung một lục địa, một hành tinh hoặc thậm chí chiều không gian. Và bằng cách nào đó vẫn có thể gặp được nhau tại bất cứ đâu trong đại vũ trụ này. Có các chiều không gian, hầm ngục quái, làng, rừng, núi, biển, chủng loại, chế độ cai trị, quy luật... khác nhau ở khắp nơi.`
+				content: `Sau khi ${nameCharacter[2]} dừng nói thì tôi đã hỏi kha khá câu và biết thêm được một vài điều. Trong đại vũ trụ sẽ có nhiều chiều không gian khác nhau và chiều không gian chính được gọi là Khởi nguyên, nơi phần lớn người chuyển sinh đến. Tuy được chuyển sinh nhưng có thể không chung một lục địa, một hành tinh hoặc thậm chí chiều không gian. Và bằng cách nào đó vẫn có thể gặp được nhau tại bất cứ đâu trong đại vũ trụ này. Có các chiều không gian, hầm ngục quái, làng, rừng, núi, biển, chủng tộc, chế độ cai trị, quy luật... khác nhau ở khắp nơi.`
 			},
 			{
 				color: colorOther[0],
@@ -9246,7 +9265,7 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Đó là tất cả thông tin mà tôi có thể nắm bắt. Hoàn thành hồ sơ và sau một khoảng thời gian...`
+				content: `Đó là tất cả thông tin mà tôi có thể nắm bắt. Sau một khoảng thời gian hoàn thiện hồ sơ...`
 			},
 			{
 				color: colorCharacter[2],
@@ -9256,12 +9275,12 @@ const volume = [
 			{
 				color: colorOther[0],
 				name: [ nameCharacter[0] ],
-				content: `Việc đặt tên luôn là phần khó nhất trong tất thảy. Nghĩ điều ước đủ khó rồi nhưng đặt tên còn khó hơn nữa chứ. Không cẩn thận thì cái tên về sau sẽ thành trò đùa không thể nào quên được... Quên? Một ý nghĩ nảy lên trong đầu tôi khiến tôi phải nhìn thẳng vào ${nameCharacter[2]}.`
+				content: `Việc đặt tên luôn là phần khó nhất trong tất thảy. Nghĩ điều ước đủ khó rồi nhưng đặt tên còn khó hơn nữa chứ. Không cẩn thận thì cái tên về sau sẽ thành trò đùa không thể nào quên được... Quên? Một ý nghĩ nảy lên trong đầu khiến tôi lập tức nhìn thẳng vào ${nameCharacter[2]}.`
 			},
 			{
 				color: colorCharacter[0],
 				name: [ nameCharacter[0] ],
-				content: `Tên tôi sẽ là ${nameCharacter[1]} ${nameCharacter[2]} bởi vì anh có thể là người đáng tin cậy cuối cùng mà tôi có thể gặp. Đồng thời... trí nhớ tôi hơi kém nên lấy tên như này thì tôi sẽ không thể nào quên được anh.`
+				content: `Tên em sẽ là ${nameCharacter[1]} ${nameCharacter[2]} bởi vì anh có thể là người đáng tin cậy cuối cùng mà em có thể gặp. Đồng thời... trí nhớ em hơi kém nên lấy tên như này thì sẽ không thể nào quên được anh.`
 			},
 			{
 				color: colorOther[0],
@@ -9276,7 +9295,7 @@ const volume = [
 			{
 				color: colorCharacter[0],
 				name: [ nameCharacter[0] ],
-				content: `Tôi xin xác nhận cái tên đó.`
+				content: `Em xin xác nhận cái tên đó.`
 			},
 			{
 				color: colorOther[0],
@@ -9286,7 +9305,7 @@ const volume = [
 			{
 				color: colorCharacter[2],
 				name: [ nameCharacter[2] ],
-				content: `Vậy thì thông tin của bạn đã được xác nhận xong. Chào mừng đến với${nameLocation[0]}, chúng ta có thể sẽ còn gặp lại nhau.`
+				content: `Vậy thì thông tin của bạn đã được xác nhận xong. Chào mừng đến với${nameLocation[0]}của chúng tôi, ta có thể sẽ còn gặp lại nhau trong tương lai.`
 			},
 			{
 				color: colorOther[0],

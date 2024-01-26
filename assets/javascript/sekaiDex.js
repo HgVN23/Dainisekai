@@ -97,8 +97,8 @@ function addCharacter(id) {
 			<h1>${temp.title}</h1>
 			<hr>
 			<div>
-				<h3 class="dropdown">Các tên khác</h3>
-				<div class="dropdownHide">${genType2(temp.otherName)}</div>
+				<h3 class="dropdown dropdownActive">Các tên khác</h3>
+				<div class="dropdownHide dropdownShow">${genType2(temp.otherName)}</div>
 			</div>
 			<div>
 				<h3 class="dropdown dropdownActive">Thông tin cá nhân</h3>
@@ -141,25 +141,25 @@ function addCharacter(id) {
 				<h3 class="dropdown">Tiểu sử</h3>
 				<div class="dropdownHide">${genType1(temp.personality)}</div>
 			</div>
-			<div>
+			<!-- <div>
 				<h3 class="dropdown">Các mối quan hệ</h3>
 				<div class="dropdownHide">${genType2(temp.relative)}</div>
+			</div> -->
+			<div>
+				<h3 class="dropdown dropdownActive">Chức nghiệp & Nghề nghiệp</h3>
+				<div class="dropdownHide dropdownShow">${genType2(temp.job)}</div>
 			</div>
 			<div>
-				<h3 class="dropdown">Chức nghiệp & Nghề nghiệp</h3>
-				<div class="dropdownHide">${genType2(temp.job)}</div>
+				<h3 class="dropdown dropdownActive">Kỹ năng</h3>
+				<div class="dropdownHide dropdownShow">${genType2(temp.skill)}</div>
 			</div>
 			<div>
-				<h3 class="dropdown">Kỹ năng</h3>
-				<div class="dropdownHide">${genType2(temp.skill)}</div>
+				<h3 class="dropdown dropdownActive">Danh hiệu</h3>
+				<div class="dropdownHide dropdownShow">${genType2(temp.titles)}</div>
 			</div>
 			<div>
-				<h3 class="dropdown">Danh hiệu</h3>
-				<div class="dropdownHide">${genType2(temp.titles)}</div>
-			</div>
-			<div>
-				<h3 class="dropdown">Vật phẩm sở hữu</h3>
-				<div class="dropdownHide">${genType2(temp.item)}</div>
+				<h3 class="dropdown dropdownActive">Vật phẩm sở hữu</h3>
+				<div class="dropdownHide dropdownShow">${genType2(temp.item)}</div>
 			</div>
 		</section>
 	`;

@@ -290,6 +290,7 @@ h3 {
 .mark {
 	width: 1.3rem;
 	height: 1.3rem;
+	margin-top: .15rem;
 	cursor: pointer;
 }
 .read {

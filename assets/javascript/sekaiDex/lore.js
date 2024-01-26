@@ -21,7 +21,7 @@ const lore = [
 			{
 				main: `Chính sách chuyển sinh`,
 				content: [
-					`Được tùy chỉnh bản thân như diện mạo, chủng loại, thể trạng, chức nghiệp trước khi chuyển sinh`,
+					`Được tùy chỉnh bản thân như diện mạo, chủng tộc, thể trạng, chức nghiệp trước khi chuyển sinh`,
 					`Có khả năng nghe, nói, hiểu ngôn ngữ bản địa`,
 					`Có khả năng truy cập vào Bảng trạng thái sớm hơn bình thường`,
 					`Có danh hiệu Người chuyển sinh cho phép ẩn thông tin tùy chọn trong Bảng trạng thái mà không sinh vật có kỹ năng thuộc${nameLocation[0]}có thể nhìn ra được. Ngoại trừ những người được ${nameLocation[1]} chuyển sinh có kỹ năng soi mói`,
@@ -40,7 +40,7 @@ const lore = [
 				main: `Khái niệm`,
 				content: [
 					`Là tên đại vũ trụ của thế giới dành cho những người chuyển sinh`,
-					`Đại vũ trụ được tạo ra bởi ${nameLocation[1]} bằng ■ vào 20/03/2023, đồng thời cũng là khoảng thời gian những người chuyển sinh đời đầu xuất hiện`,
+					`Đại vũ trụ được tạo ra bởi ${nameLocation[1]} bằng ■ vào 02/2023, đồng thời cũng là khoảng thời gian những người chuyển sinh đời đầu xuất hiện`,
 					`Đây là nơi tồn tại những thứ giả tưởng như ma pháp và các sinh vật lạ cùng các định luật vật lý từng chỉ là giả thuyết`
 				]
 			},
@@ -57,7 +57,7 @@ const lore = [
 				content: [
 					`Thời điểm hiện tại chưa sinh vật nào có thể đi được một vòng ${nameLocation[4]} nên vẫn còn xung đột giữa các giả thuyết khác nhau về hình dạng ${nameLocation[4]}. Một trong số đó là mặt phẳng trải dài vô tận tám hướng`,
 					`Địa hình đa dạng gồm các lục địa và đại dương xếp rải rác với các mảng kiến tạo định hình vị trí. Và mỗi nơi có thể tồn tại các “quy luật” riêng khác biệt với phần còn lại`,
-					`Đa chủng loại sinh vật tồn tại trên mặt đất, trên trời, dưới biển, ... Tạo nên đa nền văn minh, văn hóa, lịch sử, ...`,
+					`Đa chủng tộc sinh vật tồn tại trên mặt đất, trên trời, dưới biển, ... Tạo nên đa nền văn minh, văn hóa, lịch sử, ...`,
 					// `Bí cảnh, hầm ngục quái, dị điểm thời không, ... là các tên gọi cho các công trình, tàn tích, di tích, ... đôi khi xuất hiện ở khắp nơi mà không có một quy luật cụ thể. Phần lớn đều do “tự nhiên” hình thành, một phần nhỏ là nhân tạo`,
 					`Có Mặt trời chính và ít nhất một Mặt trăng chính nên hệ thống thời gian nơi đây vẫn giống với thế giới “nằm ngoài${nameLocation[0]}” như số ngày trong năm cùng thời gian trong ngày. Có thể chỉ khác trong việc phân chia tháng và mùa ở từng nơi`
 				]
@@ -88,7 +88,7 @@ const lore = [
 					`Tên sinh vật`,
 					`Tuổi hoặc tồn tại trong bao lâu`,
 					`Giới tính chỉ có nam (đực) hoặc nữ (cái) hoặc không rõ`,
-					`Chủng loại là người hoặc Elf hoặc Drawf hoặc tự định nghĩa`,
+					`Chủng tộc là con người hoặc tiên hoặc người lùn hoặc tự định nghĩa`,
 					`Chức nghiệp hoặc nghề nghiệp hoặc phân lớp là chiến binh hoặc pháp sư hoặc tu sĩ hoặc tự định nghĩa, kèm vài vật phẩm khởi đầu và vài kỹ năng thưởng liên quan`,
 					`Thể trạng được chuyển hóa thành các chỉ số gồm sinh lực (HP), ma lực (MP), may mắn (Luck), ...`,
 					`Kỹ năng gồm kỹ thuật là sử dụng ma lực để cường hóa hành động như『Trảm』hay『Cường hóa Thể chất』 và ma pháp là sử dụng ma lực để chuyển hóa thành năng lượng khác như『Hỏa cầu』hay『Hồi phục』`,
@@ -137,7 +137,7 @@ const lore = [
 				main: `Thẻ định danh`,
 				content: [
 					`Là ma cụ chứa một vài thông tin cá nhân của người dùng để hoạt động ${nameJob[8]} và định danh`,
-					`Hiển thị một vài thông tin như là tên, tuổi, giới tính, chủng loại, chức nghiệp, hạng ${nameJob[8]}, tổ đội nếu có, thống kê nhiệm vụ nhận và sinh vật đã hạ. Riêng hạng ${nameJob[8]}, tổ đội và thống kệ nhiệm vụ nhận có thể sửa đổi trên thẻ thông qua ma cụ đặc biệt của hiệp hội`,
+					`Hiển thị một vài thông tin như là tên, tuổi, giới tính, chủng tộc, chức nghiệp, hạng ${nameJob[8]}, tổ đội nếu có, thống kê nhiệm vụ nhận và sinh vật đã hạ. Riêng hạng ${nameJob[8]}, tổ đội và thống kệ nhiệm vụ nhận có thể sửa đổi trên thẻ thông qua ma cụ đặc biệt của hiệp hội`,
 					`Diện mạo của thẻ tự động thay đổi khi thăng hay tụt hạng, giống với nguyên liệu cùng tên hạng`,
 					`Để liên kết thông tin cá nhân tới thẻ, nhỏ máu vào sẽ tạo liên kết vĩnh cửu và thẻ không thể đổi chủ`,
 					`Sau khi liên kết, thẻ sẽ không dễ bị phá hủy trừ khi sử dụng ma cụ đặc biệt của hiệp hội`
@@ -146,10 +146,10 @@ const lore = [
 			{
 				main: `Hạng ${nameJob[8]}`,
 				content: [
-					`Được chia làm sáu loại, thấp nhất là hạng Sắt, rồi tăng lên Đồng, Bạc, Vàng, Bạch kim và Mythril là hạng cao nhất`,
-					`Để có thể thăng hạng phải hoàn thành một trăm nhiệm vụ cùng bậc hoặc hơn bậc. Sau đó số lượng yêu cầu hoàn thành nhiệm vụ sẽ tăng thêm một trăm mỗi lần thăng hạng. Đồng thời cũng phải trải qua một bài kiểm tra đánh giá của hiệp hội để có thể chính thức thăng hạng. Đặc biệt, nếu có thành tích xuất sắc kèm tín cử từ hạng Bạch kim hoặc Mythril hoặc từ những người có quyền lực sẽ được xem xét thăng hạng, bỏ qua các điều kiện cần`,
-					`Sau một khoảng thời gian không làm nhiệm vụ sẽ bị tụt hạng, lần lượt từ hạng Sắt là một tháng, rồi hạng Đồng là ba tháng, sáu tháng, chín tháng và hạng Bạch kim là một năm. Riêng hạng Sắt nếu lâu không làm nhiệm vụ sẽ phải nộp phí để hoạt động lại, còn hạng Mythril sẽ không bị tụt`,
-					`Ở vài hạng nhất định sẽ có quyền lợi đặc biệt như hạng Bạch kim và Mythril sẽ được trả phí sửa chữa đồ cùng phí chữa trị sau khi hoàn thành nhiệm vụ. Còn riêng hạng Mythril sẽ có thêm quyền lợi là hưởng lương hưu mỗi tháng khi người đó chính thức nộp đơn nghỉ không hoạt động làm ${nameJob[8]} nữa. Tất nhiên họ vẫn có thể rút đơn và hoạt động tiếp nhưng lương hưu sẽ tạm dừng, sau đó vẫn có thể nộp lại đơn nếu muốn. Đổi lại, họ sẽ sẽ bị buộc triệu tập làm nhiệm vụ khi có trong bất cứ hoàn cảnh nào`
+					`Được chia làm sáu loại, thấp nhất là hạng Sắt, rồi tăng lên Đồng, Bạc, Vàng, Bạch kim và Ma bạc kim là hạng cao nhất`,
+					`Để có thể thăng hạng phải hoàn thành một trăm nhiệm vụ cùng bậc hoặc hơn bậc. Sau đó số lượng yêu cầu hoàn thành nhiệm vụ sẽ tăng thêm một trăm mỗi lần thăng hạng. Đồng thời cũng phải trải qua một bài kiểm tra đánh giá của hiệp hội để có thể chính thức thăng hạng. Đặc biệt, nếu có thành tích xuất sắc kèm tín cử từ hạng Bạch kim hoặc Ma bạc kim hoặc từ những người có quyền lực sẽ được xem xét thăng hạng, bỏ qua các điều kiện cần`,
+					`Sau một khoảng thời gian không làm nhiệm vụ sẽ bị tụt hạng, lần lượt từ hạng Sắt là một tháng, rồi hạng Đồng là ba tháng, sáu tháng, chín tháng và hạng Bạch kim là một năm. Riêng hạng Sắt nếu lâu không làm nhiệm vụ sẽ phải nộp phí để hoạt động lại, còn hạng Ma bạc kim sẽ không bị tụt`,
+					`Ở vài hạng nhất định sẽ có quyền lợi đặc biệt như hạng Bạch kim và Ma bạc kim sẽ được trả phí sửa chữa đồ cùng phí chữa trị sau khi hoàn thành nhiệm vụ. Còn riêng hạng Ma bạc kim sẽ có thêm quyền lợi là hưởng lương hưu mỗi tháng khi người đó chính thức nộp đơn nghỉ không hoạt động làm ${nameJob[8]} nữa. Tất nhiên họ vẫn có thể rút đơn và hoạt động tiếp nhưng lương hưu sẽ tạm dừng, sau đó vẫn có thể nộp lại đơn nếu muốn. Đổi lại, họ sẽ sẽ bị buộc triệu tập làm nhiệm vụ khi có trong bất cứ hoàn cảnh nào`
 				]
 			},
 			{
@@ -330,7 +330,7 @@ const lore = [
 				main: `Cơ chế`,
 				content: [
 					`Để truy cập vào không gian khác có thể thông qua hai cách: trực tiếp và gián tiếp`,
-					`Trực tiếp là cách truy cập dành cho tiểu không gian nhờ vào đặc điểm chủng loại và kỹ năng`,
+					`Trực tiếp là cách truy cập dành cho tiểu không gian nhờ vào đặc điểm chủng tộc và kỹ năng`,
 					`Gián tiếp là cách truy cập dành cho đại không gian bằng ma cụ, ma pháp trận, ...`
 				]
 			}

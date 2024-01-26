@@ -173,8 +173,8 @@ const nameParty = [
 ];
 
 const nameMob = [
-	'Cừu Sét',	// 0
-	'Thỏ sừng',	// 1
-	'Slime',	// 2
-	'Sói Bạc'	// 3
+	'Cừu Sét',		// 0
+	'Thỏ sừng',		// 1
+	'Khối nhầy',	// 2
+	'Sói bạc'		// 3
 ];

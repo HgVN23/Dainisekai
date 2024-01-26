@@ -5,13 +5,13 @@ const gender = [
 	'Không rõ'		// 3
 ];
 const race = [
-	'Con người',			// 0
-	'Nửa người nửa Elf',	// 1
-	'Nửa người nửa thú'		// 2
+	'Con người',		// 0
+	'Người nửa tiên',	// 1
+	'Người mèo'			// 2
 ];
 const status = [
-	'Sống',		// 0
-	'Qua đời'	// 1
+	'Sống',	// 0
+	'Khuất'	// 1
 ];
 const type = [
 	'Nội tại',	// 0
@@ -52,27 +52,18 @@ const characterInfo = [
 			{
 				name: `Shuunya`,
 				desc: [
-					`Tên trùng âm nya do ở cuối câu của ${nameCharacter[10]}`
+					`Tên hợp âm nya do ở cuối câu của ${nameCharacter[10]}`
 				],
 				firstAppear: 4.5
 			}
 		],
-		age: [
-			10
-		],
-		gender: [
-			gender[0]
-		],
-		race: [
-			race[0]
-		],
-		status: [
-			status[0]
-		],
+		age: [ 10 ],
+		gender: [ gender[0] ],
+		race: [ race[0] ],
+		status: [ status[0] ],
 		like: [
 			`“Gia đình”`,
 			`Màu lam`,
-			`Tự do`,
 			`Khám phá`,
 			`“Ăn cơm”`,
 			`Nấu ăn`
@@ -83,10 +74,10 @@ const characterInfo = [
 		],
 		debut: 0,
 		appearance: [
-			`Cơ thể cân đối, cao 168 cm, nặng 66 kg (khi 18 tuổi)`,
+			`Cơ thể cân đối, cao 168 cm, nặng 66 kg (khi trưởng thành)`,
 			`Mái tóc ngắn, để mái vắt chéo qua trái có màu lam như đá lưu ly được thừa hưởng từ mẹ`,
 			`Đôi mắt lòng trắng làm nền cho con ngươi màu lam tựa nước biển thừa hưởng từ cha`,
-			`Tính cách khá chững chạc do lớn tuổi, quan tâm người khác theo cách riêng, hay đề phòng`
+			`Tính cách khá chững chạc do lớn tuổi, quan tâm người khác theo cách riêng, dễ gần`
 		],
 		personality: [
 			`Ở kiếp trước cậu tên là ${nameCharacter[0]}, 20 tuổi, đã qua đời vì gặp tai nạn. Sau đó nhờ văn phòng Re:Life, cậu được tái sinh vào một đại vũ trụ có tên là${nameLocation[0]}với cái tên mới là ${nameCharacter[1]}`,
@@ -97,60 +88,6 @@ const characterInfo = [
 			`Năm 10 tuổi, có thể dùng ${statusBoard} với ${inventory} mà không cần phải giấu nữa. Đặc biệt đăng ký làm ${nameJob[8]}, rồi lập nên tổ đội ${nameParty[0]} với cương vị là trưởng nhóm cùng 3 người bạn còn lại, tổng 4 thành viên ban đầu`
 		],
 		relative: [
-			{
-				name: nameCharacter[4],
-				desc: [
-					`Cha`
-				]
-			},
-			{
-				name: nameCharacter[3],
-				desc: [
-					`Mẹ`
-				]
-			},
-			{
-				name: nameCharacter[9],
-				desc: [
-					`Bạn thân, đồng đội`
-				]
-			},
-			{
-				name: nameCharacter[10],
-				desc: [
-					`Bạn thân, đồng đội`
-				]
-			},
-			{
-				name: nameCharacter[11],
-				desc: [
-					`Bạn thân, đồng đội`
-				]
-			},
-			{
-				name: nameCharacter[5],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[15],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[16],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[17],
-				desc: [
-					`Người quen`
-				]
-			}
 		],
 		job: [
 			{
@@ -213,8 +150,7 @@ const characterInfo = [
 			{
 				name: nameSkill[4],
 				desc: [
-					`Khả năng cắt gấp đôi bình thường`,
-					`Chỉ áp dụng lên các vũ khí sắc có thể cắt`
+					`Khả năng cắt gấp đôi bình thường`
 				],
 				type: type[1],
 				group: group[0],
@@ -344,7 +280,7 @@ const characterInfo = [
 			{
 				name: `Hyoukya`,
 				desc: [
-					`Tên trùng âm nya do ở cuối câu của ${nameCharacter[10]}`
+					`Tên hợp âm nya do ở cuối câu của ${nameCharacter[10]}`
 				],
 				firstAppear: 10
 			},
@@ -356,18 +292,10 @@ const characterInfo = [
 				firstAppear: 14
 			}
 		],
-		age: [
-			10
-		],
-		gender: [
-			gender[1]
-		],
-		race: [
-			race[1]
-		],
-		status: [
-			status[0]
-		],
+		age: [ 10 ],
+		gender: [ gender[1] ],
+		race: [ race[1] ],
+		status: [ status[0] ],
 		like: [
 			`“Gia đình”`,
 			`Thỏ bông`,
@@ -376,91 +304,24 @@ const characterInfo = [
 		],
 		dislike: [
 			`“Gia đình” và nhất là ${nameCharacter[1]} bị nói xấu`,
-			`Người quen rời bỏ`
+			`Người “thân” rời bỏ`
 		],
 		debut: 5,
 		appearance: [
-			`Cơ thể khá nhỏ nhắn, cao 163 cm, nặng 51 kg (khi 18 tuổi)`,
+			`Cơ thể khá nhỏ nhắn, cao 163 cm, nặng 51 kg (khi trưởng thành)`,
 			`Mái tóc ngắn trắng như tuyết, bên phải có một đoạn tết tóc và trên đó có cài kẹp tóc gắn viên pha lê màu lục nhạt`,
 			`Đôi mắt lòng trắng làm nền cho con ngươi lam nhạt như màu của băng`,
-			`Đôi tai nhỏ dài như lá trúc vì là bán Elf`,
+			`Đôi tai nhỏ dài như lá trúc vì là nửa tiên`,
 			`Khuôn mặt không còn biểu lộ cảm xúc do cú sốc mất cha cũng như là tất cả đối với ${nameCharacter[11]}`,
 			`Tính cách ít nói, khó tiếp cận, khá thẳng thắn, hơi nhạy cảm khi có người nhắc đến ${nameCharacter[1]}`
 		],
 		personality: [
-			`Mẹ là Elf, cha là con người nên ${nameCharacter[11]} là bán Elf`,
-			`Mồ côi mẹ từ khi sinh ra theo lời cha kể, nên cô sống cùng cha là thương nhân thường hay di chuyển khắp nơi nên họ không có nơi định cư`,
+			`Mẹ là tiên, cha là con người, mồ côi mẹ từ khi sinh ra theo lời cha kể. Cô đã sống cùng cha là thương nhân, thường hay di chuyển khắp nơi nên họ không có nơi định cư`,
 			`Năm 8 tuổi, cô cùng cha đang trên đường đến thị trấn ${nameLocation[2]} thì bị đám ma thú ${nameMob[0]} mắt đỏ tấn công và cha cô qua đời. ${nameCharacter[11]} bộc phát kỹ năng, rơi vào trầm cảm và khuôn mặt cô trở nên không cảm xúc. Lúc này, ${nameCharacter[11]} được đưa đến ở cô nhi viện do sơ ${nameCharacter[5]} quản lý thuộc thị trấn ${nameLocation[2]}`,
-			`Sau khi được ${nameCharacter[1]} tìm ra kẹp tóc bị đánh rơi và chia sẻ nỗi lòng cùng nhau. Cô đã cởi mở hơn chút với mọi người, nhưng riêng với ${nameCharacter[1]} thì cô đã dành cho cậu một sự quan tâm đặc biệt`,
+			`Sau khi được ${nameCharacter[1]} tìm ra kẹp tóc bị đánh rơi và chia sẻ nỗi lòng cùng nhau, cô đã cởi mở hơn chút với mọi người. Nhưng riêng với ${nameCharacter[1]} thì cô đã dành cho cậu một sự quan tâm đặc biệt`,
 			`Năm 10 tuổi, nhận chức nghiệp và làm ${nameJob[8]} cùng nhóm bạn. Đồng thời là 1 trong 4 thành viên đầu tiên của tổ đội ${nameParty[0]}`
 		],
 		relative: [
-			{
-				name: `Cha ${nameCharacter[11]}`,
-				desc: [
-					`Không rõ tên, đã qua đời`
-				]
-			},
-			{
-				name: `Mẹ ${nameCharacter[11]}`,
-				desc: [
-					`Không rõ tên, đã qua đời`
-				]
-			},
-			{
-				name: nameCharacter[1],
-				desc: [
-					`Bạn thân, đồng đội, có tình cảm`
-				]
-			},
-			{
-				name: nameCharacter[10],
-				desc: [
-					`Bạn thân, đồng đội`
-				]
-			},
-			{
-				name: nameCharacter[9],
-				desc: [
-					`Bạn thân, đồng đội`
-				]
-			},
-			{
-				name: nameCharacter[5],
-				desc: [
-					`Người bảo hộ`
-				]
-			},
-			{
-				name: nameCharacter[4],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[3],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[15],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[16],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[17],
-				desc: [
-					`Người quen`
-				]
-			}
 		],
 		job: [
 			{
@@ -578,111 +439,38 @@ const characterInfo = [
 			{
 				name: `Konyashi`,
 				desc: [
-					`Tên trùng âm nya do ở cuối câu của ${nameCharacter[10]}`
+					`Tên hợp âm nya do ở cuối câu của ${nameCharacter[10]}`
 				],
 				firstAppear: 2.5
 			}
 		],
-		age: [
-			10
-		],
-		gender: [
-			gender[0]
-		],
-		race: [
-			race[0]
-		],
-		status: [
-			status[0]
-		],
+		age: [ 10 ],
+		gender: [ gender[0] ],
+		race: [ race[0] ],
+		status: [ status[0] ],
 		like: [
 			`“Gia đình”`,
 			`Bảo vệ người khác`
 		],
 		dislike: [
+			`“Gia đình” bị nói xấu`,
 			`Không bảo vệ được người khác`
 		],
 		debut: 2,
 		appearance: [
-			`Cơ thể to lớn, cao 169 cm, nặng 68 kg (khi 18 tuổi)`,
+			`Cơ thể to lớn, cao 169 cm, nặng 68 kg (khi trưởng thành)`,
 			`Mái tóc xù xì, hơi gai màu đỏ lá phong`,
 			`Đôi mắt lòng trắng làm nền cho con ngươi màu cam ban mai`,
-			`Tính cách vui vẻ, đôi khi hành động không nghĩ trước và muốn bảo vệ người khác`
+			`Tính cách vui vẻ, dễ gần, đôi khi hành động không nghĩ trước`
 		],
 		personality: [
 			`Năm 5 tuổi, cha mẹ đã bị sát hại trong một chuyến đi bởi một băng đạo tặc. Trước khi cậu sắp bị giết thì có một người lạ mặt với cây thương đã cứu cậu trong gang tấc. Sau đó đưa cậu về sống ở cô nhi viện do sơ ${nameCharacter[5]} quản lý thuộc thị trấn ${nameLocation[2]}.`,
 			`Lúc đó cậu đã luôn tự dằn vặt bản thân đã không thể bảo vệ được cha mẹ mình. Cho đến khi ${nameCharacter[1]} nghe tâm sự của cậu thì suy nghĩ trước đó mới có thể tạm thời gỡ bỏ`,
 			`Năm 7 tuổi, học cách chiến đấu cùng ${nameCharacter[1]} do ${nameCharacter[4]} dạy`,
 			`Năm 10 tuổi, nhận chức nghiệp và làm ${nameJob[8]} cùng nhóm bạn. Đồng thời là 1 trong 4 thành viên đầu tiên của tổ đội ${nameParty[0]}`,
-			`Vào ngày đầu làm nhiệm vụ với tổ đội ${nameParty[0]}, cậu gặp sự cố với ${nameMob[3]} và đã mất mạng. Tuy nhiên, cậu gặp được thần ${nameCharacter[8]} và được Ngài cứu mạng nhưng không nói rõ lí do vì sao Ngài làm vậy`
+			`Vào ngày đầu làm nhiệm vụ với tổ đội ${nameParty[0]}, cậu gặp sự cố với ${nameMob[3]} và đã mất mạng. Tuy nhiên, cậu gặp được thần ${nameCharacter[8]} trong “giấc mơ” và được Ngài cứu mạng, không rõ lí do vì sao Ngài làm vậy`
 		],
 		relative: [
-			{
-				name: `Cha ${nameCharacter[9]}`,
-				desc: [
-					`Không rõ tên, đã qua đời`
-				]
-			},
-			{
-				name: `Mẹ ${nameCharacter[9]}`,
-				desc: [
-					`Không rõ tên, đã qua đời`
-				]
-			},
-			{
-				name: nameCharacter[1],
-				desc: [
-					`Bạn thân, đồng đội`
-				]
-			},
-			{
-				name: nameCharacter[10],
-				desc: [
-					`Bạn thân, đồng đội`
-				]
-			},
-			{
-				name: nameCharacter[11],
-				desc: [
-					`Bạn thân, đồng đội`
-				]
-			},
-			{
-				name: nameCharacter[5],
-				desc: [
-					`Người bảo hộ`
-				]
-			},
-			{
-				name: nameCharacter[4],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[3],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[15],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[16],
-				desc: [
-					`Người quen`
-				]
-			},
-			{
-				name: nameCharacter[17],
-				desc: [
-					`Người quen`
-				]
-			}
 		],
 		job: [
 			{
@@ -778,6 +566,117 @@ const characterInfo = [
 				firstAppear: 9,
 			}
 		]
+	},
+	{
+		id: 3,
+		title: nameCharacter[10],
+		otherName: [
+			// {
+			// 	name: ``,
+			// 	desc: ``,
+			// 	firstAppear: 0
+			// }
+		],
+		age: [ 10 ],
+		gender: [ gender[1] ],
+		race: [ race[2] ],
+		status: [ status[0] ],
+		like: [
+			`“Gia đình”`,
+			`Trêu chọc`,
+			`Mua vui`,
+			`Được khen`
+		],
+		dislike: [
+			`“Gia đình” bị nói xấu`,
+			`Người khác gặp rắc rối vì mình`
+		],
+		debut: 2,
+		appearance: [
+			`Cơ thể khá nhỏ nhắn, cao 165 cm, nặng 56 kg (khi trưởng thành)`,
+			`Mái tóc ngắn (lông) tím thẫm như bầu trời đêm, có phần tóc mái dài cùng hai búi tóc thả dài đằng trước`,
+			`Đôi mắt lòng trắng làm nền cho con ngươi lục bảo`,
+			`Đôi tai nhọn thường vểnh lên cùng chiếc đuôi hay vung vẩy`,
+			`Tính cách vui vẻ, tinh nghịch, dễ gần, đôi khi hành động không nghĩ trước`
+		],
+		personality: [
+			`Năm 5 tuổi, gia đình ${nameCharacter[10]} bị nhóm săn nô lệ đuổi bắt. Nhờ cha mẹ cô cầm chân nhóm săn nên ${nameCharacter[10]} đã chạy trốn được xuyên rừng rồi ngất vì kiệt sức trước khi đến thị trấn ${nameLocation[2]}. Sau cô được đưa đến ở cô nhi viện do sơ ${nameCharacter[5]} quản lý thuộc thị trấn ${nameLocation[2]}`,
+			`Sau khi tỉnh lại, bản năng thú trong ${nameCharacter[10]} trỗi dậy, sợ hãi và cảnh giác những người đang cố cứu mình. Cho đến khi ${nameCharacter[9]} nhẹ nhàng tiến lại gần, an ủi và ôm cô vào lòng thì bản năng thú mới dịu lại. Từ đó, mối quan tâm đặc biệt dành cho ${nameCharacter[9]} đã hình thành trong ${nameCharacter[10]}`,
+			`Năm 7 tuổi, học cách chiến đấu cùng ${nameCharacter[1]} do ${nameCharacter[4]} dạy`,
+			`Năm 10 tuổi, nhận chức nghiệp và làm ${nameJob[8]} cùng nhóm bạn. Đồng thời là 1 trong 4 thành viên đầu tiên của tổ đội ${nameParty[0]}`
+		],
+		relative: [
+			// {
+			// 	name: ``,
+			// 	desc: ``
+			// }
+		],
+		job: [
+			{
+				name: nameJob[3],
+				desc: [
+					`Người chuyên tấn công cận chiến`,
+					`Kỹ năng thưởng:${nameSkill[12]}`,
+					`Vật phẩm khởi đầu: Trọng kiếm`
+				],
+				firstAppear: 8
+			},
+			{
+				name: nameJob[8],
+				desc: [
+					`Người đi phiêu lưu tìm kiếm tiền tài, danh vọng, vinh quang, thử thách và có thể đánh đổi tính mạng`,
+					`Hạng: Sắt`,
+					`Tổ đội: ${nameParty[0]}`
+				],
+				// from: `Hiệp hội ${nameJob[8]} chi nhánh ${nameLocation[2]}`,
+				firstAppear: 9
+			}
+		],
+		skill: [
+			{
+				name: nameSkill[12],
+				desc: [
+					`Vũ khí gây sát thương lớn hơn bình thường`,
+					`Sau khi va chạm sẽ gây vùng trấn động nhỏ làm choáng vài giây, không ảnh hưởng đối tượng dùng`
+				],
+				type: type[1],
+				group: group[0],
+				from: `${nameJob[3]}`,
+				firstAppear: 11,
+				inDesc: 0
+			},
+			{
+				name: nameSkill[6],
+				desc: [
+					`Cường hóa khả năng hoạt động vật lý`
+				],
+				type: type[1],
+				group: group[0],
+				from: `${nameCharacter[4]} dạy`,
+				firstAppear: 12,
+				inDesc: 0
+			}
+		],
+		titles: [
+			{
+				name: nameTitle[2],
+				desc: [
+					`Hay tạo ra rắc rối cùng ${nameCharacter[9]}`
+				],
+				from: `${nameCharacter[1]}`,
+				firstAppear: 2
+			}
+		],
+		item: [
+			{
+				name: `Trọng kiếm`,
+				desc: [
+					`Cỡ lớn, làm từ sắt, phần lưỡi kiếm lớn và dày, thường phải cầm hai tay`
+				],
+				from: `${nameJob[3]}`,
+				firstAppear: 9
+			}
+		]
 	}
 	// {
 		// id: ,
@@ -786,7 +685,7 @@ const characterInfo = [
 		// 	{
 		// 		name: ``,
 		// 		desc: ``,
-		// 		firstAppear: 
+		// 		firstAppear: 0
 		// 	}
 		// ],
 		// age: ,
@@ -799,7 +698,7 @@ const characterInfo = [
 		// dislike: [
 		// 	``
 		// ],
-		// debut: ,
+		// debut: 0,
 		// appearance: [
 		// 	``
 		// ],
@@ -814,34 +713,36 @@ const characterInfo = [
 		// ],
 		// job: [
 		// 	{
-		// 		name: ``,
+		// 		name: nameJob[0],
 		// 		desc: [
-		// 			``
+		// 			``,
+		// 			`Kỹ năng thưởng:${nameSkill[0]}`,
+		// 			`Vật phẩm khởi đầu: `
 		// 		],
-		// 		firstAppear: 
+		// 		firstAppear: 0
 		// 	}
 		// ],
 		// skill: [
-		//	{
-		//		name: nameSkill[],
-		//		desc: [
-		//			``
-		//		],
-		//		type: type[1],
-		//		group: group[1],
-		//		from: ``,
-		//		firstAppear: ,
-		//		inDesc: 0
-		//	}
-		// ],
-		// titles: [
 		// 	{
-		// 		name: ``,
+		// 		name: nameSkill[0],
 		// 		desc: [
 		// 			``
 		// 		],
-		//		from: ``,
-		// 		firstAppear: 
+		// 		type: type[1],
+		// 		group: group[0],
+		// 		from: ``,
+		// 		firstAppear: 0,
+		// 		inDesc: 0
+		// 	}
+		// ],
+		// titles: [
+		// 	{
+		// 		name: nameTitle[0],
+		// 		desc: [
+		// 			``
+		// 		],
+		// 		from: ``,
+		// 		firstAppear: 0
 		// 	}
 		// ],
 		// item: [
@@ -850,8 +751,8 @@ const characterInfo = [
 		// 		desc: [
 		// 			``
 		// 		],
-		//		from: ``,
-		// 		firstAppear: 
+		// 		from: ``,
+		// 		firstAppear: 0
 		// 	}
 		// ]
 	// }
