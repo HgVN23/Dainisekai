@@ -2,7 +2,7 @@ const url = location.origin + location.pathname;
 const urlChapter = url + '?chapter=';
 const urlDex = url + '?dex=';
 
-let tempMark = [];
+var tempMark = [];
 if(localStorage.getItem(`${mark}`))
 	tempMark = JSON.parse(localStorage.getItem(`${mark}`));
 
@@ -18,9 +18,9 @@ if(location.search) {
 	addList();
 
 function addList() {
-	let chapters = ``;
-	for(var i = 0; i < volume.length; i++) {
-		var temp = volume[i];
+	var chapters = ``;
+	volume.forEach((e, i) => {
+		var temp = e;
 		var chapter = temp.chapter;
 		var title = temp.title;
 		chapters += `
@@ -29,13 +29,13 @@ function addList() {
 				<p id="${i}" class="open">${call} ${chapter}${separator}${title}</p>
 			</div>
 		`;
-	}
+	});
 	document.querySelector('.main').innerHTML += chapters;
 
 	const addOpen = document.querySelectorAll('.chapter p');
-	for(var i = 0; i < addOpen.length; i++) {
-		addOpen[i].addEventListener('click', openChapter);
-	}
+	addOpen.forEach(e => {
+		e.addEventListener('click', openChapter);
+	});
 
 	setMark();
 	markAll();
@@ -50,7 +50,7 @@ function openChapter() {
 	window.open(`${urlChapter}${volume[this.id].chapter}`, '_self');
 }
 function loadChapter(id) {
-	let Id = changeId(id);
+	var Id = changeId(id);
 	clean();
 	addStory(Id);
 	addSlider(Id);
@@ -59,7 +59,7 @@ function loadChapter(id) {
 	document.querySelector('title').textContent = `Chapter ${volume[Id].chapter} - ${volume[Id].title} | ${name}`;
 }
 function changeId(id) {
-	let Id;
+	var Id;
 	for(var i = 0; i < volume.length; i++) {
 		if(volume[i].chapter == id) {
 			Id = i;
@@ -83,22 +83,22 @@ function readFirst() {
 
 function setMark() {
 	const checkMark = document.querySelectorAll('.mark');
-	for(var i = 0; i < checkMark.length; i++) {
-		if(tempMark.includes(checkMark[i].id)) {
-			checkMark[i].addEventListener('click', markUnread);
-			checkMark[i].classList.add('read');
+	checkMark.forEach(e => {
+		if(tempMark.includes(e.id)) {
+			e.addEventListener('click', markUnread);
+			e.classList.add('read');
 		} else {
-			checkMark[i].addEventListener('click', markRead);
-			checkMark[i].classList.add('unread');
-			checkMark[i].parentElement.classList.add('markUnread');
+			e.addEventListener('click', markRead);
+			e.classList.add('unread');
+			e.parentElement.classList.add('markUnread');
 		}
-	}
+	});
 }
 
 function markUnread() {
 	for(var i = 0; i < tempMark.length; i++){
 		if(tempMark[i] === this.id) {
-			let temp = tempMark[i];
+			var temp = tempMark[i];
 			tempMark[i] = tempMark[0];
 			tempMark[0] = temp;
 			tempMark.shift();
@@ -149,13 +149,13 @@ function unreadAll() {
 	const temp = document.querySelectorAll('.read');
 	localStorage.removeItem(`${mark}`);
 	tempMark = [];
-	for (var i = 0; i < temp.length; i++) {
-		temp[i].addEventListener('click', markRead);
-		temp[i].removeEventListener('click', markUnread);
-		temp[i].classList.toggle('read');
-		temp[i].classList.toggle('unread');
-		temp[i].parentElement.classList.toggle('markUnread');
-	}
+	temp.forEach(e => {
+		e.addEventListener('click', markRead);
+		e.removeEventListener('click', markUnread);
+		e.classList.toggle('read');
+		e.classList.toggle('unread');
+		e.parentElement.classList.toggle('markUnread');
+	});
 
 	const getMark = document.querySelector('.markAll');
 	getMark.addEventListener('click', readAll);
@@ -164,14 +164,14 @@ function unreadAll() {
 }
 function readAll() {
 	const temp = document.querySelectorAll('.unread');
-	for (var i = 0; i < temp.length; i++) {
-		tempMark.push(temp[i].id);
-		temp[i].addEventListener('click', markUnread);
-		temp[i].removeEventListener('click', markRead);
-		temp[i].classList.toggle('read');
-		temp[i].classList.toggle('unread');
-		temp[i].parentElement.classList.toggle('markUnread');
-	}
+	temp.forEach(e => {
+		tempMark.push(e.id);
+		e.addEventListener('click', markUnread);
+		e.removeEventListener('click', markRead);
+		e.classList.toggle('read');
+		e.classList.toggle('unread');
+		e.parentElement.classList.toggle('markUnread');
+	});
 	localStorage.setItem(`${mark}`, JSON.stringify(tempMark));
 
 	const getMark = document.querySelector('.markAll');

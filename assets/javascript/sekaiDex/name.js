@@ -85,11 +85,11 @@ const listCharacter = [
 		color: ''
 	}
 ];
-let nameCharacter = [];
-let colorCharacter = [];
-listCharacter.forEach(element => {
-	nameCharacter.push(element.name);
-	colorCharacter.push(element.color);
+var nameCharacter = [];
+var colorCharacter = [];
+listCharacter.forEach(e => {
+	nameCharacter.push(e.name);
+	colorCharacter.push(e.color);
 });
 
 const nameJob = [
@@ -105,7 +105,7 @@ const nameJob = [
 	'Chiến binh'	// 9
 ];
 
-let nameSkill = [
+var nameSkill = [
 	'Giám định',			// 0
 	'Phong pháp Tinh thông',// 1
 	'Hòa âm Kết giới',		// 2
@@ -129,8 +129,8 @@ let nameSkill = [
 	'Băng Tiễn Vũ',			// 20
 	'Băng pháp Tinh thông'	// 21
 ];
-nameSkill = nameSkill.map(element => {
-	return `『${element}』`;
+nameSkill = nameSkill.map(e => {
+	return `『${e}』`;
 });
 
 const nameTitle = [

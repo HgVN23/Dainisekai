@@ -6,52 +6,53 @@ function addStory(id) {
 	var content = ``;
 	if(formatStyle == 'dialogue') {
 		var tempD = temp.dialogue;
-		for(var i = 0; i < tempD.length; i++) {
+		tempD.forEach((e, i) => {
 			var character = ``;
-			for(var j = 0; j < tempD[i].name.length; j++)
-				character += `, ${tempD[i].name[j]}`;
+			e.name.forEach(ee => {
+				character += `, ${ee}`;
+			});
 			content += `
-				<div class="dialogue" id="${i+1}" style="border-left-color: #${tempD[i].color}">
+				<div class="dialogue" id="${i+1}" style="border-left-color: #${e.color}">
 					<div class="character">${character.slice(2)}</div>
-					<p>${tempD[i].content}</p>
+					<p>${e.content}</p>
 					<div class="number">${i+1}</div>
 				</div>
 			`;
-			words += tempD[i].content.split(' ').length;
-		};
+			words += e.content.split(' ').length;
+		});
 	}
 	if(formatStyle == 'normal') {
-		for(var i = 0; i < temp.content.length; i++) {
-			content += `<p>${temp.content[i]}</p>`;
-			words += temp.content[i].split(' ').length;
-		};
+		temp.content.forEach(e => {
+			content += `<p>${e}</p>`;
+			words += e.split(' ').length;
+		});
 	}
 	if(formatStyle == 'old') {
 		content += `<p class="gothic"><span class="gothic bigLetter">${temp.content[0].charAt(0)}</span>${temp.content[0].slice(1)}</p>`;
 		words += temp.content[0].split(' ').length;
-		for(var i = 1; i < temp.content.length; i++) {
-			if(temp.content[i].charAt(0) == '-') {
-				content += `<p class="gothic talk">${temp.content[i]}</p>`;
-				words += temp.content[i].slice(2).split(' ').length;
-			} else if(temp.content[i].charAt(0) == '"') {
-				content += `<span class="diary">${temp.content[i]}</span>`;
-				words += temp.content[i].split(' ').length;
+		temp.content.slice(1).forEach(e => {
+			if(e.charAt(0) == '-') {
+				content += `<p class="gothic talk">${e}</p>`;
+				words += e.slice(2).split(' ').length;
+			} else if(e.charAt(0) == '"') {
+				content += `<span class="diary">${e}</span>`;
+				words += e.split(' ').length;
 			} else {
-				content += `<p class="gothic">${temp.content[i]}</p>`;
-				words += temp.content[i].split(' ').length;
+				content += `<p class="gothic">${e}</p>`;
+				words += e.split(' ').length;
 			}
-		};
+		});
 		content += `<hr>`
-		for(var i = 0; i < temp.explain.length; i++) {
-			content += `<p class="explainContent">${i + 1} ${temp.explain[i]}</p>`;
-		}
+		temp.explain.forEach((e, i) => {
+			content += `<p class="explainContent">${i + 1} ${e}</p>`;
+		});
 		setTimeout(function createExplainHover() {
 			const explain = document.querySelectorAll('.explain');
-			for(var i = 0; i < explain.length; i++) {
-				explain[i].setAttribute('id', i);
-				explain[i].addEventListener('mouseenter', explainHover);
-				explain[i].addEventListener('mouseleave', explainOut);
-			}
+			explain.forEach((e, i) => {
+				e.setAttribute('id', i);
+				e.addEventListener('mouseenter', explainHover);
+				e.addEventListener('mouseleave', explainOut);
+			});
 		}, 300);
 	}
 	const format = `

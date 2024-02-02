@@ -28,9 +28,9 @@ function loadDex() {
 	document.querySelector('body').innerHTML += format;
 
 	const addOpen = document.querySelectorAll('.dialogue p');
-	for(var i = 0; i < addOpen.length; i++) {
-		addOpen[i].addEventListener('click', openDexContent);
-	}
+	addOpen.forEach(e => {
+		e.addEventListener('click', openDexContent);
+	});
 
 	addDropdown();
 }
@@ -38,14 +38,13 @@ function loadDex() {
 function addTitle(dex, part) {
 	var dex = afterSort(dex);
 	var data = ``;
-	for(var i = 0; i < dex.length; i++) {
-		var temp = dex[i];
+	dex.forEach(e => {
 		data += `
 			<div class="dialogue">
-				<p id="${part}.${temp.id}" class="open">${temp.title}</p>
+				<p id="${part}.${e.id}" class="open">${e.title}</p>
 			</div>
 		`;
-	}
+	});
 	return data;
 }
 
@@ -62,8 +61,9 @@ function loadDexContent(id) {
 
 	if(document.querySelectorAll('span')) {
 		const span = document.querySelectorAll('span');
-		for(var i = 0; i < span.length; i++)
-			span[i].addEventListener('click', openChapter);
+		span.forEach(e => {
+			e.addEventListener('click', openChapter);
+		});
 	}
 
 	addDropdown();
@@ -71,14 +71,14 @@ function loadDexContent(id) {
 function addLore(id) {
 	var temp = lore[parseInt(id.slice(5))];
 	var section = ``;
-	for(var i = 0; i < temp.section.length; i++) {
+	temp.section.forEach(e => {
 		section += `
 			<div>
-				<h3>${temp.section[i].main}</h3>
-				${genType1(temp.section[i].content)}
+				<h3>${e.main}</h3>
+				${genType1(e.content)}
 			</div>
 		`;
-	};
+	});
 	const format = `
 		<section class="main">
 			<h1>${temp.title}</h1>
@@ -169,50 +169,50 @@ function addCharacter(id) {
 
 function genType1(id) {
 	var temp = ``;
-	for(var i = 0; i < id.length; i++) {
-		temp += `<div class="dot"><p>${id[i]}</p></div>`;
-	}
+	id.forEach(e => {
+		temp += `<div class="dot"><p>${e}</p></div>`;
+	});
 	return `<div>${temp}</div>`;
 }
 function genType2(id) {
 	var temp = ``;
-	for(var i = 0; i < id.length; i++) {
+	id.forEach(e => {
 		temp += `<div class="group">`;
-		temp += `<h4 class="dropdown">${id[i].name}</h4>`;
+		temp += `<h4 class="dropdown">${e.name}</h4>`;
 		temp += `<div class="dropdownHide"><div class="max">`
-		temp += `${genType1(id[i].desc)}<div class="hr"></div>`;
-		if(id[i].hasOwnProperty('type'))
-			temp += `<div class="dot"><p>Loại: ${id[i].type}</p></div>`;
-		if(id[i].hasOwnProperty('group'))
-			temp += `<div class="dot"><p>Nhóm: ${id[i].group}</p></div>`;
-		if(id[i].hasOwnProperty('from'))
-			temp += `<div class="dot"><p>Từ: ${id[i].from}</p></div>`;
-		if(id[i].hasOwnProperty('firstAppear')) {
-			if(id[i].firstAppear != -1) {
-				temp += `<div class="dot"><p>Xuất hiện: <span id="${changeId(id[i].firstAppear)}" class="toChapter">Chapter ${id[i].firstAppear}</span>`;
-				if(id[i].inDesc === 1)
+		temp += `${genType1(e.desc)}<div class="hr"></div>`;
+		if(e.hasOwnProperty('type'))
+			temp += `<div class="dot"><p>Loại: ${e.type}</p></div>`;
+		if(e.hasOwnProperty('group'))
+			temp += `<div class="dot"><p>Nhóm: ${e.group}</p></div>`;
+		if(e.hasOwnProperty('from'))
+			temp += `<div class="dot"><p>Từ: ${e.from}</p></div>`;
+		if(e.hasOwnProperty('firstAppear')) {
+			if(e.firstAppear != -1) {
+				temp += `<div class="dot"><p>Xuất hiện: <span id="${changeId(e.firstAppear)}" class="toChapter">Chapter ${e.firstAppear}</span>`;
+				if(e.inDesc === 1)
 					temp += ` dưới dạng mô tả`;
 				temp += `</p></div>`;
 			} else
 				temp += `<div class="dot"><p>Chưa từng đề cập</p></div>`;
 		}
-		// if(id[i].hasOwnProperty('firstUse')) {
-		// 	if(id[i].firstUse != -1)
-		// 		temp += `<div class="dot"><p>Sử dụng lần đầu trong <span id="${changeId(id[i].firstUse)}" class="toChapter">Chapter ${id[i].firstUse}</span></p></div>`;
+		// if(e.hasOwnProperty('firstUse')) {
+		// 	if(e.firstUse != -1)
+		// 		temp += `<div class="dot"><p>Sử dụng lần đầu trong <span id="${changeId(e.firstUse)}" class="toChapter">Chapter ${e.firstUse}</span></p></div>`;
 		// 	else
 		// 		temp += `<div class="dot"><p>Chưa được sử dụng</p></div>`;
 		// }
 		temp += `</div></div></div>`;
-	};
+	});
 	return temp;
 }
 
 function addDropdown() {
 	if(document.querySelectorAll('.dropdown')) {
 		var dropdown = document.querySelectorAll('.dropdown');
-		for(var i = 0; i < dropdown.length; i++) {
-			dropdown[i].addEventListener('click', dropdownActive);
-		}
+		dropdown.forEach(e => {
+			e.addEventListener('click', dropdownActive);
+		});
 	}
 }
 function dropdownActive() {
@@ -222,9 +222,9 @@ function dropdownActive() {
 
 function afterSort(dex) {
 	var sort = [];
-	for(var i = 0; i < dex.length; i++){
-		sort[i] = dex[i]
-	}
+	dex.forEach(e => {
+		sort.push(e);
+	});
 	for(var i = 0; i < sort.length - 1; i++)
 		for(var j = i + 1; j < sort.length; j++)
 			if(sort[i].title > sort[j].title) {

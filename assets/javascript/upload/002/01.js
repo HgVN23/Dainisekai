@@ -6,14 +6,14 @@ const name ='The True Therian';
 const volume = [
 	// {
 	// 	chapter: ,
-	// 	title:'',
+	// 	title: '',
 	// 	content: [
 
 	// 	]
 	// },
 	{
 		chapter: 8,
-		title:'Shines bright like diamonds',
+		title: 'Shines bright like diamonds',
 		content: [
 			'   Đôi mắt mờ mở ra khoảng trắng vô tận, đôi mi nặng trĩu nhắm lại, và mở ra, cảnh vật quen thuộc dần hiện lên trong con ngươi lam sắc. Sự mơ hồ dần được thay thế bằng bầu không khí ấm áp, từng mảng gam màu ấm nóng phủ kín căn phòng, từng mảng kí ức xưa cũ hiện dần ra trước mắt. Sự quen thuộc quấn lấy từng dây thần kinh trong xúc động tột cùng, đây là nơi đó. Vẫn là chiếc giường này, vẫn là căn nhà này, vẫn là bóng hình ấy. Anh ấy vẫn ở đây, vẫn đang chăm sóc cho cả hai như thường lệ... Thường lệ sao? Kí ức của cô sao lại mờ nhạt quá, dường như cô đã quên mất điều gì đó thì phải?',
 			'“Em dậy rồi sao, đồ ham ngủ?” – Giọng nói ấm áp của anh vang vọng trong tâm trí vẫn còn say ngủ của cô.',
@@ -182,7 +182,7 @@ const volume = [
 	},
 	{
 		chapter: 7,
-		title:'Arrive in Daylight',
+		title: 'Arrive in Daylight',
 		content: [
 			'   Một vết cắt, xé gió từ bóng tối. Một bóng đen thoắt ẩn thoắt hiện lướt ngang qua những cột thạch nhũ đủ kích thước, lại là một đợt kiếm khí, xoẹt ngang qua những con quái vật màu đỏ sẫm phủ trên thân một loại chất đặc sánh màu đen tuyền. Lũ quái vật gớm ghiếc của màn đêm gào rú lên và lao qua những viên thạch anh phát quang những tia sáng màu chàm, để lộ ra hình dáng thật sự của chúng. ',
 			'   Abyssal Wolf, hay ít nhất thì đó là cách tôi gọi chúng. Những con quái vật của vực thẳm mang hình dáng của những con sói lớn, theo lời của chị ấy thì chúng là một trong các sinh vật tới từ Abyss Realm. Chúng thường xuất hiện lang thang trong các tầng dưới của “Dungeon” này, len lỏi qua những khe đá để cố tấn công lên mặt đất thông qua Grumpy Swamp, à cơ mà, chắc chỗ đó cũng sắp đổi tên rồi, sau những gì đã xảy ra thì làm gì còn thứ gì gọi là Grumpy Swamp nữa... ',
@@ -358,7 +358,7 @@ const volume = [
 	},
 	{
 		chapter: 6,
-		title:'Ends of Day',
+		title: 'Ends of Day',
 		content: [
 			'‘Cốc cốc cốc’',
 			'“Mời vào” ',
@@ -458,7 +458,7 @@ const volume = [
 	},
 	{
 		chapter: 5,
-		title:'Solar Eclipse',
+		title: 'Solar Eclipse',
 		content: [
 			'‘Tỉnh dậy đi, Mặt trời của em’',
 			'',
@@ -506,7 +506,7 @@ const volume = [
 	},
 	{
 		chapter: 4,
-		title:'High Noon',
+		title: 'High Noon',
 		content: [
 			'…Phừng phừng…',
 			'   Một ngọn lửa bùng lên dữ dội ở phía Đông Nam của thị trấn, vụ nổ lớn tới mức người dân trong thành có thể thấy rõ nó từ xa, họ biết đó là hướng mà đội trưởng Hauser cùng ngài Bravesoul dụ lũ Ma thú đến, có vẻ là những anh hùng của Thị trấn đã thành công. Người dân trong thị trấn ai ai cũng ngóng chờ tin tức từ phía tường thành, chờ đợi sự trở lại của hai người. Hellen đã quay về từ nhiệm vụ của Giáo hội, cô ấy cũng đã biết về việc Franklin phối hợp với Hauser để dụ lũ Ma thú đi nơi khác. Cô dẫn đầu đoàn binh lính của Thị trấn để bức tường thành bị thủng và chờ đợi. Một bóng hình ẩn khuất sau những rặng cây xanh mướt dần dần xuất hiện, không phải hai, mà là một. Bóng người kia dần hiện rõ trước mắt mọi người, tim của Hellen nổi lên một chút lo lắng và sợ hãi. Khi bụi cây chắn tầm nhìn cuối cùng đổ rạp xuống là lúc tim cô như thắt lại, người đó là Hauser và anh ấy đi một mình. ',
@@ -623,7 +623,7 @@ const volume = [
 	},
 	{
 		chapter: 3,
-		title:'Rising Sun',
+		title: 'Rising Sun',
 		content: [
 			'“Chào Hellen… cũng vài năm rồi nhỉ...”',
 			'“Ba năm, sáu tháng, mười một ngày...” – Hellen đáp lời tôi ngay lập tức, cô ấy trả lời nhanh vậy?',
@@ -692,7 +692,7 @@ const volume = [
 	},
 	{
 		chapter: 2,
-		title:'Breaking Dawn',
+		title: 'Breaking Dawn',
 		content: [
 			'   Mặt trời đã lên cao, những cơn gió khẽ mơn man xuyên qua những kẽ lá và đưa những chiếc hoa nhỏ của vườn Lionteeth xuôi theo chiều gió về vùng đồng bằng ở hướng Tây. Những tiếng bước chân của tôi trên nền đường lát gạch vang lên phá đi bầu không gian yên tĩnh của cánh đồng. Tôi rảo bước về phía khu vườn Rubyberry với một cái giỏ đan ở trên tay, tôi được mẹ ủy quyền để “quản lý” vườn mọng, rõ ràng là mẹ đang quá cưng chiều tôi, dù cho tôi không hề muốn vậy. Công việc này quá đỗi nhàm chán, chỉ việc tưới nước mỗi 12 tiếng và thu hoạch những quả chín tới vào mỗi buổi chiều, lặp đi lặp lại. Bù lại thì tôi có cả đống thời gian rảnh để luyện tập ma pháp. ',
 			'“Một trăm tám sáu, một trăm tám bảy” – Tôi ngắt từng trái Rubyberry xuống khỏi cành, nhẹ nhàng đặt chúng vào trong giỏ và tiếp tục công việc quen thuộc mỗi buổi chiều của mình.',
@@ -730,7 +730,7 @@ const volume = [
 	},
 	{
 		chapter: 1,
-		title:'Towards the Horizon',
+		title: 'Towards the Horizon',
 		content: [
 			'“Này Frank, mong muốn của anh là gì?” – Alice hỏi.',
 			'“Mong muốn à... Chắc là anh muốn gia đình mình được bình an và hạnh...” – tôi đáp.',

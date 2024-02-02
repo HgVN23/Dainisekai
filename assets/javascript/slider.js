@@ -1,8 +1,8 @@
 function addSlider(id) {
-	let option = ``;
-	for(var i = 0; i < volume.length; i++) {
-		option += `<div id="${i}" class="option">Chapter ${volume[i].chapter}</div>`;
-	}
+	var option = ``;
+	volume.forEach((e, i) => {
+		option += `<div id="${i}" class="option">Chapter ${e.chapter}</div>`;
+	});
 
 	var format = ``;
 	if(formatStyle == 'dialogue')
@@ -33,9 +33,9 @@ function addSlider(id) {
 
 	const options = document.querySelectorAll('.option');
 	options[id].classList.add('optionSelected');
-	for(var i = 0; i < options.length; i++) {
-		options[i].addEventListener('click', openChapter);
-	}
+	options.forEach(e => {
+		e.addEventListener('click', openChapter);
+	});
 
 	document.querySelector('.left').addEventListener('click', left);
 	document.querySelector('.right').addEventListener('click', right);
@@ -74,9 +74,9 @@ function hideOff() {
 	toggleHide.removeEventListener('click', hideOff);
 	toggleHide.classList.toggle('hideOff');
 	toggleHide.classList.toggle('hideOn');
-	for(var i = 0; i < dialogueHide.length; i++) {
-		dialogueHide[i].remove();
-	}
+	dialogueHide.forEach(e => {
+		e.remove();
+	});
 }
 function hideOn() {
 	var toggleHide = document.querySelector('.toggleHide');
@@ -86,11 +86,11 @@ function hideOn() {
 	toggleHide.removeEventListener('click', hideOn);
 	toggleHide.classList.toggle('hideOn');
 	toggleHide.classList.toggle('hideOff');
-	for(var i = 0; i < dialogue.length; i++) {
-		// dialogue[i].innerHTML += `<div class="dialogueHide" onclick="removeHide()">Click để mở</div>`;
-		dialogue[i].innerHTML += `<div class="dialogueHide">Click để mở</div>`;
-		dialogue[i].querySelector('.dialogueHide').addEventListener('click', removeHide);
-	}
+	dialogue.forEach(e => {
+		// e.innerHTML += `<div class="dialogueHide" onclick="removeHide()">Click để mở</div>`;
+		e.innerHTML += `<div class="dialogueHide">Click để mở</div>`;
+		e.querySelector('.dialogueHide').addEventListener('click', removeHide);
+	});
 }
 function checkHide() {
 	if(localStorage.hide == 0) {
