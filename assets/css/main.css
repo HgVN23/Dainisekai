@@ -61,7 +61,8 @@ header {
 .logHorizonSymbol,
 .urzogSymbol,
 .skyriderSymbol,
-.skyriderLegacySymbol {
+.skyriderShiroSymbol,
+.skyriderFigSymbol, {
 	margin: .3rem 0;
 	cursor: pointer;
 }
@@ -85,9 +86,14 @@ header {
 	width: 3.5rem;
 	height: 3.5rem;
 }
-.skyriderLegacySymbol {
-	content: url(../media/image/symbol/skyriderLegacy.png);
+.skyriderShiroSymbol {
+	content: url(../media/image/symbol/skyriderShiro.png);
 	width: 3.5rem;
+	height: 3rem;
+}
+.skyriderFigSymbol {
+	content: url(../media/image/symbol/skyriderFig.png);
+	width: 3rem;
 	height: 3rem;
 }
 .title,
