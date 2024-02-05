@@ -20,22 +20,22 @@ const volume = [
 	// 		}
 	// 	]
 	// },
-	{
-		chapter: 17,
-		title: `Lần đầu ghé tiệm rèn`,
-		dialogue: [
-			{
-				color: colorOther[0],
-				name: [ nameCharacter[1] ],
-				content: `.`
-			},
-			{
-				color: colorOther[0],
-				name: [ nameCharacter[1] ],
-				content: `.`
-			}
-		]
-	},
+	// {
+	// 	chapter: 17,
+	// 	title: `Lần đầu ghé tiệm rèn`,
+	// 	dialogue: [
+	// 		{
+	// 			color: colorOther[0],
+	// 			name: [ nameCharacter[1] ],
+	// 			content: `.`
+	// 		},
+	// 		{
+	// 			color: colorOther[0],
+	// 			name: [ nameCharacter[1] ],
+	// 			content: `.`
+	// 		}
+	// 	]
+	// },
 	{
 		chapter: 16.5,
 		title: `${nameCharacter[1]} khi giận`,
