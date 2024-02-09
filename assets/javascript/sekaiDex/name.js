@@ -62,7 +62,7 @@ const listCharacter = [
 	},
 	{	// 13
 		name: 'Koyama',
-		color: ''
+		color: 'f8ff30'
 	},
 	{	// 14
 		name: 'Palas',
@@ -83,6 +83,14 @@ const listCharacter = [
 	{	// 18
 		name: 'Viktor',
 		color: ''
+	},
+	{	// 19
+		name: 'Tsutomu',
+		color: 'c7b36b'
+	},
+	{	// 20
+		name: 'Smiwarf',
+		color: 'c7b36b'
 	}
 ];
 var nameCharacter = [];
@@ -150,7 +158,8 @@ const nameItem = [
 	'Ma thạch',						// 6
 	'Thảo dược Hồi phục',			// 7
 	'Thuốc Ma lực',					// 8
-	'Thuốc Thánh Hồi phục'			// 9
+	'Thuốc Thánh Hồi phục',			// 9
+	'Túi chứa Không gian'			// 10
 ];
 
 const nameFood = [
