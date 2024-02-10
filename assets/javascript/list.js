@@ -108,7 +108,8 @@ function addList() {
 }
 
 function clean() {
-	document.querySelector('.main').remove();
+	if(document.querySelector('.main'))
+		document.querySelector('.main').remove();
 	document.documentElement.scrollTop = 0;
 }
 
