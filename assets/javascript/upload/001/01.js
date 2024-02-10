@@ -3,6 +3,10 @@ const formatStyle = 'dialogue';
 const call = 'Chương';
 const separator = ' - ';
 const name = 'New life in wonderful world';
+const author = [ 'Hg' ];
+const desc = 'Sau khi gặp tai nạn, văn phòng Re:Life đã chuyển sinh Hg đến thế giới khác được gọi là『Dainisekai』. Giờ tên cậu là Shuuya và với cơ hội thứ 2, cậu sẽ tận hưởng cuộc sống mới này hết mức có thể cho đến khi câu truyện đến hồi kết thì thôi.';
+const tags = [ 0, 1, 2, 3, 4, 5 ];
+const still = 0;
 const volume = [
 	// {
 	// 	chapter: ,

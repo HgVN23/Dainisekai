@@ -266,7 +266,8 @@ h3 {
 }
 .author::before,
 .desc::before,
-.tags::before {
+.tags::before,
+.status::before {
 	color: aqua;
 	font-weight: bold;
 	font-size: 1.2rem;
@@ -281,7 +282,8 @@ h3 {
 	content: 'Thể loại: ';
 	align-self: center;
 }
-.tags {
+.tags,
+.status {
 	display: flex;
 	flex-wrap: wrap;
 	gap: .5rem;
@@ -292,6 +294,29 @@ h3 {
 	padding: .3rem;
 	align-self: center;
 	cursor:	default;
+}
+.status::before {
+	content: 'Trạng thái: ';
+}
+.statusIcon::after {
+	content: "";
+	width: .6rem;
+	height: .6rem;
+	border-radius: 50%;
+	margin-left: .5rem;
+	display:inline-block;
+}
+.statusOngoing::after {
+	background-color: lime;
+}
+.statusCompleted::after {
+	background-color: skyblue;
+}
+.statusHiatus::after {
+	background-color: orange;
+}
+.statusCancelled::after {
+	background-color: red;
 }
 .mark {
 	width: 1.3rem;

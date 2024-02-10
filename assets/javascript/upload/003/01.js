@@ -3,6 +3,10 @@ const formatStyle = 'old';
 const call = 'Chương';
 const separator = ' - ';
 const name = 'Urzog - Path of the Berserker';
+const author = [ 'Một anh bạn to lớn màu xanh' ];
+const desc = 'Một gã sinh viên đầu to mắt cận đã chết ở thế giới cũ, những tưởng sẽ đi chầu Diêm vương nhưng người mà cậu chầu lại là một gã nhân viên bàn giấy thuộc văn phòng Re:Life và chuyển sinh sang một thế giới mới. Vứt lại những ngày tháng của một tên mọt sách sợ giao tiếp, cậu lao vào cuộc sống mới mà chẳng hề biết sẽ có những điều gì đang chờ đợi phía trước, liệu đó sẽ là một cuộc sống thú vị hay lại một cuộc đời buồn tẻ, thật là khó để có thể trả lời hết trong một vài câu nói, thôi thì hãy lật từng trang truyện, khám phá từ từ những mảnh chuyện của cậu tại thế giới kì ảo này.';
+const tags = [ 7, 0, 1, 5 ];
+const still = 2;
 const volume = [
 	// {
 	// 	chapter: ,

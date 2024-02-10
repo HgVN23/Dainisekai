@@ -17,7 +17,73 @@ if(location.search) {
 } else
 	addList();
 
+function addInfo() {
+	const tagList = [
+		'Adventure',		// 0
+		'Fantasy',			// 1
+		'Slice of Life',	// 2
+		'Romance',			// 3
+		'Comedy',			// 4
+		'Isekai',			// 5
+		'Drama',			// 6
+		'Action',			// 7
+		'Sci-Fi'			// 8
+	];
+	const stillList = [
+		{
+			id: 'Ongoing',
+			desc: 'Hoạt động'
+		},
+		{
+			id: 'Completed',
+			desc: 'Hoàn thiện'
+		},
+		{
+			id: 'Hiatus',
+			desc: 'Tạm ngưng'
+		},
+		{
+			id: 'Cancelled',
+			desc: 'Bị hủy'
+		}
+	];
+
+	var authorList = '';
+	author.forEach(e => {
+		authorList += `, ${e}`;
+	});
+	authorList = authorList.slice(2);
+	
+	var tagsList = '';
+	tags.forEach(e => {
+		tagsList += `<div class="tag">${tagList[e]}</div>`;
+	});
+
+	const format = `
+		<section class="main">
+			<h1>${name}</h1>
+			<div class="infoContent">
+				<div class="author">${authorList}</div>
+				<div class="desc">${desc}</div>
+				<div class="tags">${tagsList}</div>
+				<div class="status">
+					<div class="tag statusIcon status${stillList[still].id}">${stillList[still].desc}</div>
+				</div>
+			</div>
+			<h2>Danh sách các Chapter</h2>
+			<hr>
+			<div class="buttons">
+				<div class="markAll"></div>
+				<div class="startRead" onclick="readFirst()">Đọc từ Chapter đầu</div>
+			</div>
+		</section>
+	`;
+
+	document.querySelector('body').innerHTML += format;
+}
+
 function addList() {
+	addInfo();
 	var chapters = ``;
 	volume.forEach((e, i) => {
 		var temp = e;

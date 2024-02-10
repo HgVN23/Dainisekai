@@ -3,6 +3,10 @@ const formatStyle = 'normal';
 const call = 'Chương';
 const separator = ' - ';
 const name = 'Skyriders’ Legacy: Gotokuji Shiro';
+const author = [ 'Sakana-san', 'Hg' ];
+const desc = 'Kamen Rider, trong vũ trụ Dainisekai, là những chiến binh dấn thân vào những cuộc chiến nguy hiểm, chiến đấu vì nguyện ước và hạnh phúc của mọi người. Đây là câu chuyện của Gotokuji Shiro, sứ mệnh của anh ở một thế giới mới, và quá trình tìm kiếm ý nghĩa thật sự của "hạnh phúc".';
+const tags = [ 7, 0, 1, 3, 4, 5, 8 ];
+const still = 0;
 const volume = [
 	// {
 	// 	chapter: ,

@@ -3,6 +3,10 @@ const formatStyle ='normal';
 const call = 'Chương';
 const separator = ' - ';
 const name ='The True Therian';
+const author = [ 'Fortune' ];
+const desc = 'Therian Continent là một Lục địa rộng lớn, cư dân cư trú ở nơi này hầu hết là Thú nhân và một bộ phận Con người, họ chung sống hòa hợp và hợp tác với nhau cùng phát triển. | Franklin Bravesoul vốn là một người chuyển sinh do Văn phòng Re:Life đưa tới với lời hứa về một cơ hội sống thứ hai. Cậu được ban cho thiên phú về ma thuật và tri thức của kiếp trước, nhưng cậu không cần tới chúng. Franklin sống một cuộc đời an tĩnh bình yên suốt cả thời thơ ấu, và cậu không có ý định thay đổi nó, mọi thứ những tưởng như đã rất hoàn hảo. | Tai ương lần lượt kéo tới, những khó khăn ngày càng xảy ra với cậu và những người cậu quen biết. Tại sao chuyện này lại xảy đến, cậu không rõ, cậu chỉ biết, bản thân không thể có cuộc đời nông dân yên ổn mà cậu muốn nữa rồi. Nó đã chọn cậu rồi, dù cho có trốn tránh ra sao, cậu sẽ phải bước tiếp, con đường của một chiến binh.';
+const tags = [ 0, 1, 3, 5, 6 ];
+const still = 0;
 const volume = [
 	// {
 	// 	chapter: ,

@@ -3,6 +3,10 @@ const formatStyle = 'normal';
 const call = 'Chương';
 const separator = ' - ';
 const name = 'Alternative Pathway of Samsara';
+const author = [ 'Fortune', 'Hg' ];
+const desc = 'Từng bước, từng bước, Franklin lại một lần nữa thức giấc ở một vùng đất xa lạ. Nơi này là nơi nào, cậu phải làm gì ở nơi này, liệu đây có phải là lựa chọn đúng đắn? Tất cả đều không quan trọng, trong đầu Franklin bây giờ chỉ có một mục tiêu, hoàn thành con đường này và tiến lên một tầm cao mới, vươn tới thứ sức mạnh bí ẩn để cứu lấy người cậu thương yêu.';
+const tags = [ 0, 1, 5, 6 ];
+const still = 2;
 const volume = [
 	// {
 	// 	chapter: ,
