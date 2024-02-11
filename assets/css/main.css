@@ -57,41 +57,36 @@ header {
 .buttonHeader {
 	gap: 2rem;
 }
-.dainisekaiSymbol,
-.logHorizonSymbol,
-.urzogSymbol,
-.skyriderSymbol,
-.skyriderShiroSymbol,
-.skyriderFigSymbol, {
+.symbol {
 	margin: .3rem 0;
 	cursor: pointer;
 }
-.dainisekaiSymbol {
+.dainisekai {
 	content: url(../media/image/symbol/dainisekai.png);
 	width: 4rem;
 	height: 4rem;
 }
-.logHorizonSymbol {
+.logHorizon {
 	content: url(../media/image/symbol/log_horizon.png);
 	width: 6rem;
 	height: 3rem;
 }
-.urzogSymbol {
+.urzog {
 	content: url(../media/image/symbol/urzog.png);
 	width: 6rem;
 	height: 4rem;
 }
-.skyriderSymbol {
+.skyrider {
 	content: url(../media/image/symbol/skyrider.png);
 	width: 3.5rem;
 	height: 3.5rem;
 }
-.skyriderShiroSymbol {
+.skyriderShiro {
 	content: url(../media/image/symbol/skyriderShiro.png);
 	width: 3.5rem;
 	height: 3rem;
 }
-.skyriderFigSymbol {
+.skyriderFig {
 	content: url(../media/image/symbol/skyriderFig.png);
 	width: 3rem;
 	height: 3rem;
