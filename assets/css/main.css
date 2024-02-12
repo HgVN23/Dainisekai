@@ -58,38 +58,33 @@ header {
 	gap: 2rem;
 }
 .symbol {
+	height: 3rem;
 	margin: .3rem 0;
 	cursor: pointer;
 }
 .dainisekai {
 	content: url(../media/image/symbol/dainisekai.png);
-	width: 4rem;
-	height: 4rem;
+	width: 5rem;
 }
 .logHorizon {
 	content: url(../media/image/symbol/log_horizon.png);
 	width: 6rem;
-	height: 3rem;
 }
 .urzog {
 	content: url(../media/image/symbol/urzog.png);
-	width: 6rem;
-	height: 4rem;
+	width: 5rem;
 }
 .skyrider {
 	content: url(../media/image/symbol/skyrider.png);
-	width: 3.5rem;
-	height: 3.5rem;
+	width: 3rem;
 }
 .skyriderShiro {
 	content: url(../media/image/symbol/skyriderShiro.png);
 	width: 3.5rem;
-	height: 3rem;
 }
 .skyriderFig {
 	content: url(../media/image/symbol/skyriderFig.png);
 	width: 3rem;
-	height: 3rem;
 }
 .title,
 .button {
