@@ -1,10 +1,10 @@
-const mark ='005/01';
-const formatStyle ='normal';
-const call ='Chương';
-const separator =': ';
+const mark = '005/01';
+const formatStyle = 'normal';
+const call = 'Chương';
+const separator = ': ';
 const name = "Akora's Bizarre Adventure";
-const author = ['LMQ' ];
-const desc ='Cuộc phiêu lưu kì dị của “vua A” cùng “dàn cung nữ” tại dị giới.';
+const author = [ 'LMQ' ];
+const desc = 'Cuộc phiêu lưu kì dị của “vua A” cùng “dàn cung nữ” tại dị giới.';
 const tags = [ 0, 1, 3, 4, 7, 8, 9 ];
 const still = 0;
 const volume = [

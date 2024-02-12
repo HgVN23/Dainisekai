@@ -109,10 +109,12 @@ header {
 a {
 	text-decoration: none;
 }
-b {
+.bSkill {
 	text-shadow: .1rem .1rem gray;
 }
-
+span {
+	user-select: auto;
+}
 
 
 /*Slider____________________________________*/
@@ -496,6 +498,7 @@ h3 {
 .toChapter {
 	text-decoration: underline;
 	cursor: pointer;
+	user-select: none;
 }
 .hr {
 	border: var(--border);
