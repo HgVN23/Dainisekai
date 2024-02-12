@@ -5,7 +5,7 @@ const separator = ' - ';
 const name = 'Skyriders - A space odyssey';
 const author = [ 'Sakana-san', 'Hg' ];
 const desc = 'Skyriders, trong vũ trụ bao la, là những con người du ngoạn giữa biển sao, mang trong mình sứ mệnh của những Nhà khai phá và nhiệt huyết của những con người kiếm tìm sự thật. Đây là câu chuyện của Gotokuji Akira, và sứ mệnh khai phá của cậu cùng các Skyriders.';
-const tags = [ 7, 0, 1, 3, 4, 8 ];
+const tags = [ 0, 1, 3, 4, 7, 8 ];
 const still = 0;
 const volume = [
 	// {

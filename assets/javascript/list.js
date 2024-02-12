@@ -27,7 +27,8 @@ function addInfo() {
 		'Isekai',			// 5
 		'Drama',			// 6
 		'Action',			// 7
-		'Sci-Fi'			// 8
+		'Sci-Fi',			// 8
+		'Harem'				// 9
 	];
 	const stillList = [
 		{
@@ -88,11 +89,13 @@ function addList() {
 	volume.forEach((e, i) => {
 		var temp = e;
 		var chapter = temp.chapter;
-		var title = temp.title;
+		var title = '';
+		if(temp.title != '')
+			title = `${separator}${temp.title}`;
 		chapters += `
 			<div class="chapter">
 				<div id="${chapter}" class="mark"></div>
-				<p id="${i}" class="open">${call} ${chapter}${separator}${title}</p>
+				<p id="${i}" class="open">${call} ${chapter}${title}</p>
 			</div>
 		`;
 	});

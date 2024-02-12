@@ -5,7 +5,7 @@ const separator = ' - ';
 const name = 'Skyriders’ Legacy: Fig Rizzo';
 const author = [ 'Sakana-san', 'Hg' ];
 const desc = 'Skyriders, trong vũ trụ bao la, là những con người du ngoạn giữa biển sao, mang trong mình sứ mệnh của những Nhà khai phá và nhiệt huyết của những con người kiếm tìm sự thật. Đây là câu chuyện của Fig Rizzo, nhà Khai phá trẻ tuổi đến từ "ngoài thế giới này", và sứ mệnh thay đổi Vận mệnh của không chỉ chính cậu, mà còn của "người quan trọng nhất" của cậu nữa.';
-const tags = [ 7, 0, 1, 3, 4, 8 ];
+const tags = [ 0, 1, 3, 4, 7, 8 ];
 const still = 1;
 const volume = [
 	{
