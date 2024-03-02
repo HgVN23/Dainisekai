@@ -18,28 +18,28 @@ function addStory(id) {
 					<div class="number">${i+1}</div>
 				</div>
 			`;
-			words += e.content.split(' ').length;
+			words += wordCounter(e.content);
 		});
 	}
 	if(formatStyle == 'normal') {
 		temp.content.forEach(e => {
 			content += `<p>${e}</p>`;
-			words += e.split(' ').length;
+			words += wordCounter(e);
 		});
 	}
 	if(formatStyle == 'old') {
 		content += `<p class="gothic"><span class="gothic bigLetter">${temp.content[0].charAt(0)}</span>${temp.content[0].slice(1)}</p>`;
-		words += temp.content[0].split(' ').length;
+		words += wordCounter(temp.content[0]);
 		temp.content.slice(1).forEach(e => {
 			if(e.charAt(0) == '-') {
 				content += `<p class="gothic talk">${e}</p>`;
-				words += e.slice(2).split(' ').length;
+				words += wordCounter(e);
 			} else if(e.charAt(0) == '"') {
 				content += `<span class="diary">${e}</span>`;
-				words += e.split(' ').length;
+				words += wordCounter(e);
 			} else {
 				content += `<p class="gothic">${e}</p>`;
-				words += e.split(' ').length;
+				words += wordCounter(e);
 			}
 		});
 		content += `<hr>`
@@ -79,4 +79,18 @@ function explainHover() {
 function explainOut() {
 	const explainContent = document.querySelectorAll('.explainContent');
 	explainContent[this.id].classList.remove('explainShow');
+}
+
+function wordCounter(content) {
+	const regex = /[A-ZÀẢÃÁẠĂẰẲẴẮẶÂẦẨẪẤẬĐÈẺẼÉẸÊỀỂỄẾỆÌỈĨÍỊÒỎÕÓỌÔỒỔỖỐỘƠỜỞỠỚỢÙỦŨÚỤƯỪỬỮỨỰỲỶỸÝỴa-zàảãáạăằẳẵắặâầẩẫấậđèẻẽéẹêềểễếệìỉĩíịòỏõóọôồổỗốộơờởỡớợùủũúụưừửữứựỳỷỹýỵ0-9]+/;
+	const temp = content.split(/[ 『』]+|<b class="bSkill">+|<\/b>+/);
+	var count = 0;
+	temp.forEach(e => {
+		// console.log(`${e} ${regex.test(e)}`); // Debug
+		if(regex.test(e) && (e.at(0) != '<' && e.at(1) != '<')) {
+			count++;
+			// console.log(count); // Debug
+		}
+	});
+	return count;
 }
