@@ -5,7 +5,7 @@ const separator = ': ';
 const name = "Akora's Bizarre Adventure";
 const author = [ 'LMQ' ];
 const desc = 'Cuộc phiêu lưu kì dị của “vua A” tại dị giới.';
-const tags = [ 0, 1, 3, 4, 7, 8 ];
+const tags = [ 0, 1, 3, 4, 5, 7, 8 ];
 const still = 0;
 const volume = [
 	// {

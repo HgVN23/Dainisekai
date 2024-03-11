@@ -86,6 +86,10 @@ header {
 	content: url(../media/image/symbol/skyriderFig.png);
 	width: 3rem;
 }
+.skyriderGR {
+	content: url(../media/image/symbol/skyriderGR.png);
+	width: 3rem;
+}
 .title,
 .button {
 	font-size: 2rem;
