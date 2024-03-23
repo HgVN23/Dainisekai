@@ -5,7 +5,7 @@ const separator ='';
 const name ='';
 const author = ['YPRKHECSAT' ];
 const desc ='Tiền truyện của vùng Dragoenix Land.';
-const tags = [ 0, 1, 4, 6, 7 ];
+const tags = [ 0, 1, 4, 6, 7, 10 ];
 const still = 0;
 const volume = [
 	// {

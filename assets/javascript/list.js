@@ -28,7 +28,8 @@ function addInfo() {
 		'Drama',			// 6
 		'Action',			// 7
 		'Sci-Fi',			// 8
-		'Harem'				// 9
+		'Harem',			// 9
+		'Detective'			// 10
 	];
 	const stillList = [
 		{
